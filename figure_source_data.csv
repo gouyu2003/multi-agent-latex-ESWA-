@@ -1,0 +1,22 @@
+﻿figure_component,category,count
+corpus,Original candidates,108
+corpus,Retained local sources,72
+corpus,Excluded: verified but unused,32
+corpus,Excluded: unverifiable,4
+corpus,Targeted additions,3
+corpus,Resource additions,9
+corpus,Active bibliography,84
+evidence_role,I: core empirical,14
+evidence_role,S: supporting system,16
+evidence_role,B: background,46
+evidence_role,T: technical source,8
+venue,ACL family,8
+venue,NeurIPS,2
+venue,ICML,1
+venue,ICLR,1
+venue,IEEE,1
+venue,ACM,1
+year,2023,1
+year,2024,8
+year,2025,3
+year,2026,2

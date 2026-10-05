@@ -1,0 +1,288 @@
+% ==============================================================================
+% CHAPTER 4: KEY TECHNOLOGIES IN MULTI-AGENT COLLABORATIVE QA
+% ==============================================================================
+\section{Key Technologies in Multi-Agent Collaborative QA}
+\label{sec:key_tech}
+
+The efficient operation of a multi-agent collaborative question answering (QA) system depends not only on a well-designed organizational architecture but also on the support of core underlying technologies.
+This section investigates four technological dimensions: communication mechanisms, task decomposition, memory management, and reasoning enhancement.
+
+% ── 4.1  Communication Mechanisms ─────────────────────────────────────────────
+\subsection{Agent Communication Mechanisms}
+\label{sec:comm}
+
+\subsubsection{Explicit Communication}
+\label{sec:explicit_comm}
+
+Explicit communication refers to the direct transfer of information between agents via predefined formats.
+The most common form is message passing based on structured languages (JSON,
+XML) or dedicated prompt templates.
+AutoGen \citep{wu2024autogen} provides a representative implementation:
+customisable conversable agents send and receive natural-language or code
+messages following conversation patterns defined by developers.
+ChatDev \citep{qian2023chatdev}, by contrast, organises role-specialised agents
+through a multi-turn dialogue chain covering design, coding, and testing stages.
+
+
+\subsubsection{Implicit Communication}
+\label{sec:implicit_comm}
+
+Implicit communication does not require direct agent-to-agent messaging; instead, collaboration is mediated via modifications to a shared operating environment.
+For instance, in a code-generation QA task, one agent alters the state of a code repository or database, while another agent obtains feedback by observing compilation errors or test execution results.
+
+This paradigm can reduce redundant message transfers, though its impact on communication overhead and fault tolerance is contingent on the implementation and task environment.
+
+\subsubsection{Standardized Communication Protocols}
+\label{sec:protocols}
+With the rapid development of multi-agent ecosystems, interoperability barriers have arisen between agents developed by different vendors.
+To address this issue, the industry has initiated efforts to standardize communication protocols. For example, Anthropic introduced the Model Context Protocol (MCP)
+\citep{anthropic2024mcp}—dubbed the ``USB-C of AI''—to standardise
+the way agents connect to external tools and data sources.
+Google proposed the Agent-to-Agent (A2A) protocol \citep{google2025a2a} to
+regulate horizontal peer-to-peer collaboration among agents.
+These standards are being gradually adopted by the open-source
+community and the Linux Foundation, laying a foundation for heterogeneous
+multi-agent QA systems.
+
+% ── 4.2  Task Decomposition and Scheduling ────────────────────────────────────
+\subsection{Task Decomposition and Scheduling}
+\label{sec:task_decomp}
+
+\subsubsection{Hierarchical Task Decomposition}
+\label{sec:hier_decomp}
+
+For complex QA tasks, LLMs often cannot answer in a single step.
+Hierarchical task decomposition reduces difficulty by breaking complex queries
+into sub-tasks that can be processed in parallel or sequentially.
+Least-to-Most Prompting \citep{zhou2023least_to_most} and Decomposed
+Prompting \citep{khot2023decomposed_prompting} allow a model to solve simpler
+sub-problems first and then exploit their answers to resolve the ultimate
+target; Plan-and-Solve \citep{wang2023plan_and_solve} explicitly separates
+the planning and solving phases, substantially improving decomposition
+reliability.
+Formally, given a complex query $Q$, a decomposition function $\mathcal{D}$
+maps it to an ordered sequence of sub-tasks:
+\begin{equation}
+  \begin{aligned}
+    \mathcal{D}(Q) &\to \{q_1, q_2, \ldots, q_m\}, \\
+    \operatorname{Answer}(Q) &=
+    \mathcal{F}\!\left(\operatorname{Sol}(q_1),\ldots,\operatorname{Sol}(q_m)\right)
+  \end{aligned}
+  \label{eq:decompose}
+\end{equation}
+where $\operatorname{Sol}(q_i)$ is a sub-agent's solution to sub-task $q_i$
+and $\mathcal{F}$ is an aggregation function (e.g., voting, concatenation, or
+re-generation).
+
+\subsubsection{Role-Based Task Assignment}
+\label{sec:role_assign}
+
+After decomposition, the system must assign sub-tasks to the most suitable
+agents.
+MetaGPT \citep{hong2024metagpt} and AgentVerse \citep{chen2024agentverse}
+construct fine-grained agent profiles (Agent Profiling) that tag each agent
+with specific role labels.
+During runtime, a scheduler uses skill-based routing to dispatch sub-tasks
+such as code writing, literature retrieval, or logical verification to the
+corresponding expert agent, maximising throughput.
+
+\subsubsection{Pipeline Optimization and Adaptive Orchestration}
+\label{sec:load_balance}
+
+Static assignment can be inefficient when task difficulty and agent capabilities vary across queries. DSPy \citep{khattab2024dspy} addresses a related but narrower problem: it represents language-model pipelines as declarative modules and compiles their prompts and demonstrations against a task metric. It should therefore be regarded as a pipeline-optimization toolkit rather than evidence supporting runtime multi-agent load balancing. Dynamic agent recruitment, routing, and early stopping remain distinct orchestration decisions that require task-specific evaluation.
+
+% ── 4.3  Memory and Knowledge Management ──────────────────────────────────────
+\subsection{Memory and Knowledge Management}
+\label{sec:memory}
+
+\subsubsection{Short-Term Memory and Working Memory}
+\label{sec:short_mem}
+
+Short-term memory preserves dialogue history and local context for the
+current QA session.
+To prevent the model from forgetting in extended conversations, MemGPT
+\citep{packer2023memgpt} draws on the paged-memory mechanism of modern
+operating systems to design a hierarchical working-memory system.
+The system retains critical context in memory based on attention weights
+and evicts redundant information, providing seamless long-conversation
+support within a limited context window.
+
+\subsubsection{Long-Term Memory and Vector Retrieval (RAG)}
+\label{sec:long_mem}
+
+Long-term memory typically relies on vector databases to store vast
+historical experiences and external domain knowledge
+\citep{zhang2024memory_survey}.
+Retrieval-Augmented Generation (RAG) \citep{lewis2020rag,gao2024rag_survey}
+is the primary mechanism through which multi-agent QA systems access
+long-term memory.
+A retrieval agent selects the Top-$k$ relevant documents from knowledge
+base $\mathcal{D}$ using cosine similarity:
+\begin{equation}
+  \operatorname{Rel}(q,d_i) =
+  \frac{\boldsymbol{\phi}(q)^{\top}\boldsymbol{\phi}(d_i)}
+       {\|\boldsymbol{\phi}(q)\|\,\|\boldsymbol{\phi}(d_i)\|},\qquad
+  \hat{\mathcal{D}} =
+  \operatorname*{Top\text{-}k}_{d_i\in\mathcal{D}}\operatorname{Rel}(q,d_i)
+  \label{eq:rag}
+\end{equation}
+where $\boldsymbol{\phi}(\cdot)$ is the dense encoder embedding function and
+$\hat{\mathcal{D}}$ is the set of retrieved relevant documents.
+Retrieval has evolved from early passive Naive RAG to Self-RAG
+\citep{asai2024selfrag} and proactive retrieval (FLARE)
+\citep{jiang2023active_rag}; specialised retrieval agents can now
+autonomously determine when to retrieve, evaluate retrieval quality, and
+pass refined knowledge to the generation agent.
+
+\subsubsection{Cross-Agent Knowledge Sharing}
+\label{sec:knowledge_share}
+
+In complex collaboration, knowledge must not be siloed within individual
+agents.
+The system needs a global knowledge graph shared across agents so that all
+collaborative nodes can synchronise critical facts in real time.
+By constructing a shared graph-vector database, newly spawned sub-agents
+can rapidly inherit the team's cumulative knowledge, avoiding redundant
+retrieval and cognitive divergence.
+
+% ── 4.4  Reasoning Enhancement Mechanisms ─────────────────────────────────────
+\subsection{Reasoning Enhancement Mechanisms}
+\label{sec:reasoning}
+
+\subsubsection{Collaborative Chain-of-Thought}
+\label{sec:cot}
+
+Chain-of-Thought (CoT) prompting \citep{wei2022chain_of_thought} has
+greatly unlocked the reasoning potential of LLMs.
+Self-Consistency \citep{wang2023self_consistency} samples multiple reasoning
+paths from one model and selects an answer by marginalising over those paths.
+Multi-agent systems adapt this diversity principle by assigning independent
+reasoners and then using debate or confidence-aware aggregation
+\citep{du2024multiagent_debate,chen2024reconcile}.
+
+Each agent independently samples $K$ reasoning paths
+$\{(r_k, a_k)\}_{k=1}^{K}$ for the same question, and majority voting
+selects the final answer:
+\begin{equation}
+  \hat{a} = \underset{a\in\mathcal{Y}}{\arg\max}\sum_{k=1}^{K}
+  \mathbf{1}\!\left[f_\theta(x,r_k)=a\right]
+  \label{eq:self_consistency}
+\end{equation}
+where $f_\theta(x,r_k)$ is the answer produced by the $k$-th reasoning
+chain and $\mathbf{1}[\cdot]$ is the indicator function.
+The equation describes the single-model Self-Consistency baseline; exchange
+between agents is an additional collaboration design, not a property of the
+original method.
+
+\subsubsection{Chain-of-Agents Reasoning}
+\label{sec:chain_of_agents}
+
+For ultra-long-text QA, the attention mechanism of conventional
+Transformers faces severe computational bottlenecks.
+Chain-of-Agents \citep{zhang2024chain_agents}, Tree of Thoughts
+\citep{yao2023tree_of_thoughts}, and Graph of Thoughts
+\citep{besta2024graph_of_thoughts} distribute reasoning across multiple
+serially or graph-connected agents.
+In Chain-of-Agents, worker agents process successive text chunks and pass
+forward condensed evidence before a manager produces the answer. LONGAGENT
+\citep{zhao2024longagent} uses a different leader--member design in which a
+leader coordinates member agents over long-document segments. Tree- and
+graph-structured reasoning provide related search topologies, but are not
+necessarily multi-agent systems in their original formulations.
+
+\subsubsection{Self-Reflection and Mutual-Critique Mechanisms}
+\label{sec:reflexion}
+
+To suppress hallucination, agents must be capable of iterative
+self-examination.
+Reflexion \citep{shinn2023reflexion} stores linguistic feedback from prior
+trials in episodic memory, whereas Self-Refine
+\citep{madaan2023self_refine} iterates between generation, feedback, and
+revision without additional model training.
+In addition, combined with Chain-of-Verification
+\citep{dhuliawala2023chain_of_verification}, the system can configure
+dedicated \emph{Critic} agents that rigorously audit generated results for
+safety, factuality, and logical coherence through mutual-critique mechanisms.
+
+% ── 4.5  Framework Comparison ─────────────────────────────────────────────────
+\subsection{Open-source Frameworks and Toolkits}
+\label{sec:framework_compare}
+
+Since 2023, the open-source community has released numerous multi-agent
+development frameworks.
+Table~\ref{tab:framework_compare} provides a comprehensive comparison of
+eight representative frameworks or orchestration toolkits across architecture type, communication
+mechanism, task decomposition strategy, memory design, and typical QA
+application domain.
+
+\begin{table*}[pos=t]
+  \centering
+  \caption{Technical implementation comparison of representative multi-agent
+           collaborative frameworks.}
+  \label{tab:framework_compare}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{l c c c l l c l}
+    \toprule
+    \textbf{Framework} & \textbf{Year} & \textbf{Institution} &
+    \textbf{Architecture} & \textbf{Communication} &
+    \textbf{Task Decomposition} & \textbf{Memory} &
+    \textbf{Typical QA Application} \\
+    \midrule
+    CAMEL \citep{li2023camel} & 2023 & KAUST et al. & Flat &
+      Prompt injection, role-play dialogue &
+      Role-based spontaneous decomposition &
+      Short-term context dialogue tree &
+      Exploratory dialogue, general task simulation \\
+    ChatDev \citep{qian2023chatdev} & 2023 & Tsinghua Univ. & Hierarchical &
+      Role-based dialogue along a Chat Chain &
+      Waterfall-model static decomposition &
+      Local code files and documents &
+      Software development loop, code generation \\
+    MetaGPT \citep{hong2024metagpt} & 2023 & DeepWisdom & Hierarchical &
+      Structured SOP messages &
+      Explicit role and responsibility division &
+      Message queue and project documents &
+      Enterprise software engineering, complex workflows \\
+    AutoGen \citep{wu2024autogen} & 2023 & Microsoft & Configurable &
+      Conversable-agent messages; multiple conversation patterns &
+      Developer-defined orchestration and speaker selection &
+      Conversation context + optional external tools &
+      Complex conversational reasoning, code debugging \\
+    AgentVerse \citep{chen2024agentverse} & 2024 & Tsinghua et al. & Hybrid &
+      Explicit messages + debate protocol &
+      Dynamic expert recruitment and phase switching &
+      Global blackboard memory &
+      NLP evaluation, multi-step logical problem-solving \\
+    DSPy \citep{khattab2024dspy} & 2024 & Stanford & Modular pipeline toolkit &
+      Modular declarative function calls &
+      Metric-driven compilation of prompts and demonstrations &
+      Module state and optimised demonstrations &
+      QA and RAG pipeline optimisation \\
+    LangGraph \citep{duan2024langgraph_crewai} & 2024 & LangChain & Hybrid &
+      State-graph edge transitions &
+      Developer-defined flow nodes &
+      Persistent state-graph storage with checkpoint recovery &
+      Production-grade fault-tolerant long-running QA \\
+    GPTSwarm \citep{zhuge2024gptswarm} & 2024 & Swiss AI Lab & Hybrid &
+      Computational graph topology connections &
+      Automatic optimal graph-structure search &
+      Intra-node state maintenance &
+      High-performance optimisation, large-scale parallel inference \\
+    \bottomrule
+  \end{tabular}}
+\end{table*}
+
+Three clear evolutionary trends emerge from the cross-framework comparison.
+\emph{First}, \textbf{architecture and scheduling are shifting from rigid
+to dynamically flexible}: early frameworks such as ChatDev adopted stiff
+pipeline structures, while later ones such as AgentVerse and GPTSwarm
+support dynamic graph transitions and expert recruitment.
+\emph{Second}, \textbf{communication protocols are increasingly
+standardised}: developers are abandoning plain-text dialogue in favour of
+highly structured JSON messages or state-graph transmission, which paves
+the way for the adoption of protocols such as MCP
+\citep{anthropic2024mcp}.
+\emph{Third}, \textbf{memory and external tooling are becoming
+first-class citizens}: leading frameworks now abstract RAG retrieval and
+external tool invocation as built-in system components, substantially
+lowering the development barrier for multi-agent QA systems.

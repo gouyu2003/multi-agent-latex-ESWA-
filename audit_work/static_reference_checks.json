@@ -1,0 +1,22 @@
+{
+  "bib_entries": 75,
+  "unique_bib_keys": 75,
+  "cited_keys": 75,
+  "undefined_citations": [],
+  "uncited_bibliography_entries": [],
+  "duplicate_keys": [],
+  "duplicate_dois": [],
+  "entries_missing_title_author_or_year": {},
+  "entries_missing_doi_and_url": [],
+  "truncated_author_lists": [],
+  "audit_rows": 111,
+  "verified_audit_rows_without_source_url": [],
+  "active_audit_rows_not_verified": [],
+  "active_audit_metadata_mismatches": [],
+  "stale_claim_hits": {},
+  "citation_arguments_containing_comments": [],
+  "texttt_arguments_with_unescaped_underscores": [],
+  "highlight_count": 5,
+  "highlights_over_85_characters": [],
+  "checks_passed": true
+}

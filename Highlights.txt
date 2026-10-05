@@ -1,0 +1,5 @@
+Three-class taxonomy for multi-agent QA: flat, hierarchical, and hybrid.
+Evidence map of 14 core studies and 58 supporting sources through July 2026.
+Core mechanisms: communication, memory, task decomposition, reasoning.
+Coverage of healthcare, law, education, enterprise, and software engineering.
+Open challenges and a practical architecture-selection decision guide.

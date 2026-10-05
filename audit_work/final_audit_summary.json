@@ -1,0 +1,16 @@
+{
+  "original_candidates": 108,
+  "targeted_additions": 3,
+  "active_bibliography": 75,
+  "roles": {
+    "B": 41,
+    "I": 14,
+    "S": 14,
+    "T": 6
+  },
+  "existence_status": {
+    "not_found": 4,
+    "verified": 107
+  },
+  "excluded_original_candidates": 36
+}

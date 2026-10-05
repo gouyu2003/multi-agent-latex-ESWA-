@@ -1,0 +1,542 @@
+{
+  "brown2020gpt3": {
+    "key": "brown2020gpt3",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "openai2023gpt4": {
+    "key": "openai2023gpt4",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "minsky1988society": {
+    "key": "minsky1988society",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "wooldridge1995intelligent": {
+    "key": "wooldridge1995intelligent",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "wu2024autogen": {
+    "key": "wu2024autogen",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "hong2024metagpt": {
+    "key": "hong2024metagpt",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "du2024multiagent_debate": {
+    "key": "du2024multiagent_debate",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "guo2024llm_multiagent_survey": {
+    "key": "guo2024llm_multiagent_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "tran2025multiagent_survey": {
+    "key": "tran2025multiagent_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "wang2024survey_autonomous_agents": {
+    "key": "wang2024survey_autonomous_agents",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "karpukhin2020dpr": {
+    "key": "karpukhin2020dpr",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "yang2018hotpotqa": {
+    "key": "yang2018hotpotqa",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "kwiatkowski2019natural_questions": {
+    "key": "kwiatkowski2019natural_questions",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "reddy2019coqa": {
+    "key": "reddy2019coqa",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "choi2018quac": {
+    "key": "choi2018quac",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "lewis2020rag": {
+    "key": "lewis2020rag",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "yao2023react": {
+    "key": "yao2023react",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "vaswani2017attention": {
+    "key": "vaswani2017attention",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "devlin2019bert": {
+    "key": "devlin2019bert",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "touvron2023llama": {
+    "key": "touvron2023llama",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "glm2024chatglm": {
+    "key": "glm2024chatglm",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "ouyang2022instructgpt": {
+    "key": "ouyang2022instructgpt",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "qian2024scaling_multiagent": {
+    "key": "qian2024scaling_multiagent",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "park2023generative_agents": {
+    "key": "park2023generative_agents",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "liang2024divergent_debate": {
+    "key": "liang2024divergent_debate",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "xiong2023inter_consistency": {
+    "key": "xiong2023inter_consistency",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "li2023camel": {
+    "key": "li2023camel",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "qian2023chatdev": {
+    "key": "qian2023chatdev",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "gao2024rag_survey": {
+    "key": "gao2024rag_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "shen2024hugginggpt": {
+    "key": "shen2024hugginggpt",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zhao2024longagent": {
+    "key": "zhao2024longagent",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "khattab2024dspy": {
+    "key": "khattab2024dspy",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "duan2024langgraph_crewai": {
+    "key": "duan2024langgraph_crewai",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zhuge2024gptswarm": {
+    "key": "zhuge2024gptswarm",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "chen2024agentverse": {
+    "key": "chen2024agentverse",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "kim2024mdagents": {
+    "key": "kim2024mdagents",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zhou2023least_to_most": {
+    "key": "zhou2023least_to_most",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "khot2023decomposed_prompting": {
+    "key": "khot2023decomposed_prompting",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "wang2023plan_and_solve": {
+    "key": "wang2023plan_and_solve",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "packer2023memgpt": {
+    "key": "packer2023memgpt",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zhang2024memory_survey": {
+    "key": "zhang2024memory_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "asai2024selfrag": {
+    "key": "asai2024selfrag",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "jiang2023active_rag": {
+    "key": "jiang2023active_rag",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "wei2022chain_of_thought": {
+    "key": "wei2022chain_of_thought",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "wang2023self_consistency": {
+    "key": "wang2023self_consistency",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "yao2023tree_of_thoughts": {
+    "key": "yao2023tree_of_thoughts",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "besta2024graph_of_thoughts": {
+    "key": "besta2024graph_of_thoughts",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "shinn2023reflexion": {
+    "key": "shinn2023reflexion",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "madaan2023self_refine": {
+    "key": "madaan2023self_refine",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "dhuliawala2023chain_of_verification": {
+    "key": "dhuliawala2023chain_of_verification",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "tang2024medagents": {
+    "key": "tang2024medagents",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "cui2023chatlaw": {
+    "key": "cui2023chatlaw",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "li2024genmentor": {
+    "key": "li2024genmentor",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "singhal2023medpalm": {
+    "key": "singhal2023medpalm",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "guha2023legalbench": {
+    "key": "guha2023legalbench",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "brynjolfsson2023generative_ai_work": {
+    "key": "brynjolfsson2023generative_ai_work",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "yang2024swe_agent": {
+    "key": "yang2024swe_agent",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "jimenez2024swe_bench": {
+    "key": "jimenez2024swe_bench",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "huang2024hallucination_survey": {
+    "key": "huang2024hallucination_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zhang2024agent_hallucination": {
+    "key": "zhang2024agent_hallucination",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "han2024mast": {
+    "key": "han2024mast",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "liu2024agentbench": {
+    "key": "liu2024agentbench",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "mialon2024gaia": {
+    "key": "mialon2024gaia",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "amayuelas2024collaboration_attack": {
+    "key": "amayuelas2024collaboration_attack",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zeng2024autodefense": {
+    "key": "zeng2024autodefense",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "anthropic2024mcp": {
+    "key": "anthropic2024mcp",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "google2025a2a": {
+    "key": "google2025a2a",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "chen2025llm_mas_survey": {
+    "key": "chen2025llm_mas_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "masterman2024landscape_agents": {
+    "key": "masterman2024landscape_agents",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "patil2023gorilla": {
+    "key": "patil2023gorilla",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "wang2023voyager": {
+    "key": "wang2023voyager",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "huang2024planning_survey": {
+    "key": "huang2024planning_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "guu2020realm": {
+    "key": "guu2020realm",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "trivedi2023ircot": {
+    "key": "trivedi2023ircot",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "press2023self_ask": {
+    "key": "press2023self_ask",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "chen2024universal_self_consistency": {
+    "key": "chen2024universal_self_consistency",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "lin2025creativity_mas": {
+    "key": "lin2025creativity_mas",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "fan2025foundation_agents": {
+    "key": "fan2025foundation_agents",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "li2024trustworthy_medical_qa": {
+    "key": "li2024trustworthy_medical_qa",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zhuang2024atm": {
+    "key": "zhuang2024atm",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zhu2023efficient_odqa_survey": {
+    "key": "zhu2023efficient_odqa_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "ho2024multihop_qa_survey": {
+    "key": "ho2024multihop_qa_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "qin2024multiagent_survey_cn": {
+    "key": "qin2024multiagent_survey_cn",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "ruanjianbao2024code_gen_survey": {
+    "key": "ruanjianbao2024code_gen_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zeng2023glm130b": {
+    "key": "zeng2023glm130b",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zhao2023llm_survey_cn": {
+    "key": "zhao2023llm_survey_cn",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "liu2024se_agents_survey": {
+    "key": "liu2024se_agents_survey",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "langgraph2024": {
+    "key": "langgraph2024",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "crewai2023": {
+    "key": "crewai2023",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "dify2024": {
+    "key": "dify2024",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "hendrycks2021mmlu": {
+    "key": "hendrycks2021mmlu",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "trivedi2022musique": {
+    "key": "trivedi2022musique",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "mialon2023gaia": {
+    "key": "mialon2023gaia",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zhou2024webarena": {
+    "key": "zhou2024webarena",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "fastgpt2024": {
+    "key": "fastgpt2024",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "flowise2024": {
+    "key": "flowise2024",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "tang2025llmmedqa": {
+    "key": "tang2025llmmedqa",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "legalgraphrag2026": {
+    "key": "legalgraphrag2026",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "hu2024triad": {
+    "key": "hu2024triad",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "huang2023agentcoder": {
+    "key": "huang2023agentcoder",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "zhang2024eduplanner": {
+    "key": "zhang2024eduplanner",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "fatemi2024financialqa": {
+    "key": "fatemi2024financialqa",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "peffers2007dsrm": {
+    "key": "peffers2007dsrm",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "shao2024storm": {
+    "key": "shao2024storm",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "shao2024costorm": {
+    "key": "shao2024costorm",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "ragflow2024": {
+    "key": "ragflow2024",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "xagent2023": {
+    "key": "xagent2023",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  "autorag2024": {
+    "key": "autorag2024",
+    "matches": [],
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  }
+}

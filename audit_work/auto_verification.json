@@ -1,0 +1,2503 @@
+[
+  {
+    "sequence": 1,
+    "key": "brown2020gpt3",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.65525/svup.9788199778009.2026.224-230",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Language Models are Few-Shot Learners",
+      "author": "Sourav Malakar",
+      "year": "2026",
+      "venue": "Neural Horizons The Uncharted Future of Deep Learning",
+      "volume": "",
+      "number": "",
+      "pages": "224-230",
+      "doi": "10.65525/svup.9788199778009.2026.224-230",
+      "official_url": "https://doi.org/10.65525/svup.9788199778009.2026.224-230",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2020; source 2026.",
+      "First-author mismatch: local 'Brown, Tom'; source 'Sourav Malakar'."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 2,
+    "key": "openai2023gpt4",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.4230/lipics.cosit.2024.11",
+    "arxiv_id": "2303.08774",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "GPT-4 Technical Report",
+      "author": "OpenAI",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.4230/lipics.cosit.2024.11",
+      "official_url": "https://doi.org/10.4230/lipics.cosit.2024.11",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "First-author mismatch: local 'Achiam, Josh'; source 'OpenAI'."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 3,
+    "key": "minsky1988society",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.1007/978-1-4419-1428-6_5794",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Society of Mind",
+      "author": "Prof. Dr. Norbert M. Seel",
+      "year": "2012",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "3128--3128",
+      "doi": "10.1007/978-1-4419-1428-6_5794",
+      "official_url": "https://doi.org/10.1007/978-1-4419-1428-6_5794",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 1986; source 2012.",
+      "First-author mismatch: local 'Minsky, Marvin'; source 'Prof. Dr. Norbert M. Seel'."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 4,
+    "key": "wooldridge1995intelligent",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1017/s0269888900008122",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Intelligent agents: theory and practice",
+      "author": "Michael Wooldridge",
+      "year": "1995",
+      "venue": "The Knowledge Engineering Review",
+      "volume": "10",
+      "number": "2",
+      "pages": "115-152",
+      "doi": "10.1017/s0269888900008122",
+      "official_url": "https://doi.org/10.1017/s0269888900008122",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 5,
+    "key": "wu2024autogen",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.2139/ssrn.6576058",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Optimizing Service Operations via LLM-Powered Multi-Agent Simulation",
+      "author": "Yanyuan Wang",
+      "year": "2026",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.2139/ssrn.6576058",
+      "official_url": "https://doi.org/10.2139/ssrn.6576058",
+      "title_similarity": 0.5286
+    },
+    "notes": [
+      "Best title similarity is 0.529."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 6,
+    "key": "hong2024metagpt",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.48550/arxiv.2308.00352",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+      "author": "Sirui Hong",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2308.00352",
+      "official_url": "https://doi.org/10.48550/arxiv.2308.00352",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2024; source 2023."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 7,
+    "key": "du2024multiagent_debate",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.48550/arxiv.2305.14325",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "author": "Yilun Du",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2305.14325",
+      "official_url": "https://doi.org/10.48550/arxiv.2305.14325",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2024; source 2023."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 8,
+    "key": "guo2024llm_multiagent_survey",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2402.01680",
+    "arxiv_id": "2402.01680",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges",
+      "author": "Taicheng Guo",
+      "year": "2024",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2402.01680",
+      "official_url": "https://doi.org/10.48550/arxiv.2402.01680",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 9,
+    "key": "tran2025multiagent_survey",
+    "status": "verified_preprint_id",
+    "official_url": "https://arxiv.org/abs/2501.06322",
+    "arxiv_id": "2501.06322",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents",
+      "author": "Yashar Talebirad",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2306.03314",
+      "official_url": "https://doi.org/10.48550/arxiv.2306.03314",
+      "title_similarity": 0.656
+    },
+    "notes": [
+      "No high-confidence bibliographic match; arXiv identifier is explicit in the source entry."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 10,
+    "key": "wang2024survey_autonomous_agents",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1007/s11704-024-40231-1",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "A survey on large language model based autonomous agents",
+      "author": "Lei Wang",
+      "year": "2024",
+      "venue": "Frontiers of Computer Science",
+      "volume": "18",
+      "number": "6",
+      "pages": "",
+      "doi": "10.1007/s11704-024-40231-1",
+      "official_url": "https://doi.org/10.1007/s11704-024-40231-1",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 11,
+    "key": "karpukhin2020dpr",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2020.emnlp-main.550",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "author": "Vladimir Karpukhin",
+      "year": "2020",
+      "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "volume": "",
+      "number": "",
+      "pages": "6769-6781",
+      "doi": "10.18653/v1/2020.emnlp-main.550",
+      "official_url": "https://doi.org/10.18653/v1/2020.emnlp-main.550",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 12,
+    "key": "yang2018hotpotqa",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/d18-1259",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+      "author": "Zhilin Yang",
+      "year": "2018",
+      "venue": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "number": "",
+      "pages": "2369-2380",
+      "doi": "10.18653/v1/d18-1259",
+      "official_url": "https://doi.org/10.18653/v1/d18-1259",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 13,
+    "key": "kwiatkowski2019natural_questions",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1162/tacl_a_00276",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Natural Questions: A Benchmark for Question Answering                     Research",
+      "author": "Tom Kwiatkowski",
+      "year": "2019",
+      "venue": "Transactions of the Association for Computational Linguistics",
+      "volume": "7",
+      "number": "",
+      "pages": "453-466",
+      "doi": "10.1162/tacl_a_00276",
+      "official_url": "https://doi.org/10.1162/tacl_a_00276",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 14,
+    "key": "reddy2019coqa",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1162/tacl_a_00266",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "CoQA: A Conversational Question Answering Challenge",
+      "author": "Siva Reddy",
+      "year": "2019",
+      "venue": "Transactions of the Association for Computational Linguistics",
+      "volume": "7",
+      "number": "",
+      "pages": "249-266",
+      "doi": "10.1162/tacl_a_00266",
+      "official_url": "https://doi.org/10.1162/tacl_a_00266",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 15,
+    "key": "choi2018quac",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/d18-1241",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "QuAC: Question Answering in Context",
+      "author": "Eunsol Choi",
+      "year": "2018",
+      "venue": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "number": "",
+      "pages": "2174-2184",
+      "doi": "10.18653/v1/d18-1241",
+      "official_url": "https://doi.org/10.18653/v1/d18-1241",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 16,
+    "key": "lewis2020rag",
+    "status": "verified",
+    "official_url": "https://openalex.org/W3098425262",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "author": "Patrick Lewis",
+      "year": "2020",
+      "venue": "UCL Discovery (University College London)",
+      "volume": "33",
+      "number": "",
+      "pages": "9459--9474",
+      "doi": "",
+      "official_url": "https://openalex.org/W3098425262",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 17,
+    "key": "yao2023react",
+    "status": "verified_preprint_id",
+    "official_url": "https://arxiv.org/abs/2210.03629",
+    "arxiv_id": "2210.03629",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Meta-of-Thought: Reasoning About Reasoning in Large Language Models",
+      "author": "Ahshanul Haque",
+      "year": "2025",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.36227/techrxiv.175756693.33854887/v1",
+      "official_url": "https://doi.org/10.36227/techrxiv.175756693.33854887/v1",
+      "title_similarity": 0.6341
+    },
+    "notes": [
+      "No high-confidence bibliographic match; arXiv identifier is explicit in the source entry."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 18,
+    "key": "vaswani2017attention",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.65215/r5bs2d54",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Attention Is All You Need",
+      "author": "Ashish Vaswani",
+      "year": "2025",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.65215/r5bs2d54",
+      "official_url": "https://doi.org/10.65215/r5bs2d54",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2017; source 2025."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 19,
+    "key": "devlin2019bert",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.18653/v1/2022.inlg-main.4",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Arabic Image Captioning using Pre-training of Deep Bidirectional Transformers",
+      "author": "Jonathan Emami",
+      "year": "2022",
+      "venue": "Proceedings of the 15th International Conference on Natural Language Generation",
+      "volume": "",
+      "number": "",
+      "pages": "40-51",
+      "doi": "10.18653/v1/2022.inlg-main.4",
+      "official_url": "https://doi.org/10.18653/v1/2022.inlg-main.4",
+      "title_similarity": 0.6538
+    },
+    "notes": [
+      "Best title similarity is 0.654."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 20,
+    "key": "touvron2023llama",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2302.13971",
+    "arxiv_id": "2302.13971",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "author": "Hugo Touvron",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2302.13971",
+      "official_url": "https://doi.org/10.48550/arxiv.2302.13971",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 21,
+    "key": "glm2024chatglm",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2406.12793",
+    "arxiv_id": "2406.12793",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+      "author": "Team GLM",
+      "year": "2024",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2406.12793",
+      "official_url": "https://doi.org/10.48550/arxiv.2406.12793",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 22,
+    "key": "ouyang2022instructgpt",
+    "status": "verified",
+    "official_url": "https://doi.org/10.52202/068431-2011",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Training Language Models to Follow Instructions with Human Feedback",
+      "author": "Long Ouyang",
+      "year": "2022",
+      "venue": "Advances in Neural Information Processing Systems 35",
+      "volume": "",
+      "number": "",
+      "pages": "27730-27744",
+      "doi": "10.52202/068431-2011",
+      "official_url": "https://doi.org/10.52202/068431-2011",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 23,
+    "key": "qian2024scaling_multiagent",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.48550/arxiv.2406.07155",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Scaling Large Language Model-based Multi-Agent Collaboration",
+      "author": "Qian Chen",
+      "year": "2024",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2406.07155",
+      "official_url": "https://doi.org/10.48550/arxiv.2406.07155",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2025; source 2024."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 24,
+    "key": "park2023generative_agents",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1145/3586183.3606763",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "author": "Joon Sung Park",
+      "year": "2023",
+      "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+      "volume": "",
+      "number": "",
+      "pages": "1-22",
+      "doi": "10.1145/3586183.3606763",
+      "official_url": "https://doi.org/10.1145/3586183.3606763",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 25,
+    "key": "liang2024divergent_debate",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2024.emnlp-main.992",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+      "author": "Tian Liang",
+      "year": "2024",
+      "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "number": "",
+      "pages": "17889-17904",
+      "doi": "10.18653/v1/2024.emnlp-main.992",
+      "official_url": "https://doi.org/10.18653/v1/2024.emnlp-main.992",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 26,
+    "key": "xiong2023inter_consistency",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2023.findings-emnlp.508",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Examining Inter-Consistency of Large Language Models Collaboration: An In-depth Analysis via Debate",
+      "author": "Kai Xiong",
+      "year": "2023",
+      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+      "volume": "",
+      "number": "",
+      "pages": "7572-7590",
+      "doi": "10.18653/v1/2023.findings-emnlp.508",
+      "official_url": "https://doi.org/10.18653/v1/2023.findings-emnlp.508",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 27,
+    "key": "li2023camel",
+    "status": "verified",
+    "official_url": "https://doi.org/10.52202/075280-2264",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+      "author": "Guohao Li",
+      "year": "2023",
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "volume": "",
+      "number": "",
+      "pages": "51991-52008",
+      "doi": "10.52202/075280-2264",
+      "official_url": "https://doi.org/10.52202/075280-2264",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 28,
+    "key": "qian2023chatdev",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2024.acl-long.810",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "ChatDev: Communicative Agents for Software Development",
+      "author": "Chen Qian",
+      "year": "2024",
+      "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "volume": "",
+      "number": "",
+      "pages": "15174-15186",
+      "doi": "10.18653/v1/2024.acl-long.810",
+      "official_url": "https://doi.org/10.18653/v1/2024.acl-long.810",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 29,
+    "key": "gao2024rag_survey",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2312.10997",
+    "arxiv_id": "2312.10997",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "author": "Yunfan Gao",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2312.10997",
+      "official_url": "https://doi.org/10.48550/arxiv.2312.10997",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 30,
+    "key": "shen2024hugginggpt",
+    "status": "verified",
+    "official_url": "https://doi.org/10.52202/075280-1657",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+      "author": "Yongliang Shen",
+      "year": "2023",
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "volume": "",
+      "number": "",
+      "pages": "38154-38180",
+      "doi": "10.52202/075280-1657",
+      "official_url": "https://doi.org/10.52202/075280-1657",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 31,
+    "key": "zhao2024longagent",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2024.emnlp-main.912",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "LONGAGENT: Achieving Question Answering for 128k-Token-Long Documents through Multi-Agent Collaboration",
+      "author": "Jun Zhao",
+      "year": "2024",
+      "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "number": "",
+      "pages": "16310-16324",
+      "doi": "10.18653/v1/2024.emnlp-main.912",
+      "official_url": "https://doi.org/10.18653/v1/2024.emnlp-main.912",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 32,
+    "key": "khattab2024dspy",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.48550/arxiv.2310.03714",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+      "author": "Omar Khattab",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2310.03714",
+      "official_url": "https://doi.org/10.48550/arxiv.2310.03714",
+      "title_similarity": 0.8718
+    },
+    "notes": [
+      "Year mismatch: local 2024; source 2023."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 33,
+    "key": "duan2024langgraph_crewai",
+    "status": "verified",
+    "official_url": "https://doi.org/10.32388/r27sw4",
+    "arxiv_id": "2411.18241",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Exploration of LLM Multi-Agent Application Implementation Based on LangGraph+CrewAI",
+      "author": "Zhihua Duan",
+      "year": "2024",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.32388/r27sw4",
+      "official_url": "https://doi.org/10.32388/r27sw4",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 34,
+    "key": "zhuge2024gptswarm",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2402.16823",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Language Agents as Optimizable Graphs",
+      "author": "Mingchen Zhuge",
+      "year": "2024",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2402.16823",
+      "official_url": "https://doi.org/10.48550/arxiv.2402.16823",
+      "title_similarity": 0.9083
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 35,
+    "key": "chen2024agentverse",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.4230/oasics.spacechi.2025.6",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors",
+      "author": "Chen, Weize",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.4230/oasics.spacechi.2025.6",
+      "official_url": "https://doi.org/10.4230/oasics.spacechi.2025.6",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2024; source 2023."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 36,
+    "key": "kim2024mdagents",
+    "status": "verified",
+    "official_url": "https://doi.org/10.52202/079017-2522",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making",
+      "author": "Yubin Kim",
+      "year": "2024",
+      "venue": "Advances in Neural Information Processing Systems 37",
+      "volume": "",
+      "number": "",
+      "pages": "79410-79452",
+      "doi": "10.52202/079017-2522",
+      "official_url": "https://doi.org/10.52202/079017-2522",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 37,
+    "key": "zhou2023least_to_most",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2205.10625",
+    "arxiv_id": "2205.10625",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+      "author": "Denny Zhou",
+      "year": "2022",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2205.10625",
+      "official_url": "https://doi.org/10.48550/arxiv.2205.10625",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 38,
+    "key": "khot2023decomposed_prompting",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2210.02406",
+    "arxiv_id": "2210.02406",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Decomposed Prompting: A Modular Approach for Solving Complex Tasks",
+      "author": "Tushar Khot",
+      "year": "2022",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2210.02406",
+      "official_url": "https://doi.org/10.48550/arxiv.2210.02406",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 39,
+    "key": "wang2023plan_and_solve",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2023.acl-long.147",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+      "author": "Lei Wang",
+      "year": "2023",
+      "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "volume": "",
+      "number": "",
+      "pages": "2609-2634",
+      "doi": "10.18653/v1/2023.acl-long.147",
+      "official_url": "https://doi.org/10.18653/v1/2023.acl-long.147",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 40,
+    "key": "packer2023memgpt",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2310.08560",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "MemGPT: Towards LLMs as Operating Systems",
+      "author": "Charles Packer",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2310.08560",
+      "official_url": "https://doi.org/10.48550/arxiv.2310.08560",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 41,
+    "key": "zhang2024memory_survey",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1145/3748302",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "A Survey on the Memory Mechanism of Large Language Model-based Agents",
+      "author": "Zeyu Zhang",
+      "year": "2025",
+      "venue": "ACM Transactions on Information Systems",
+      "volume": "43",
+      "number": "6",
+      "pages": "1-47",
+      "doi": "10.1145/3748302",
+      "official_url": "https://doi.org/10.1145/3748302",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 42,
+    "key": "asai2024selfrag",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.20944/preprints202508.1211.v1",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Learning to Retrieve, Generate, and Compress: A Unified View of Efficient RAG",
+      "author": "Faruq Brontes",
+      "year": "2025",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.20944/preprints202508.1211.v1",
+      "official_url": "https://doi.org/10.20944/preprints202508.1211.v1",
+      "title_similarity": 0.6309
+    },
+    "notes": [
+      "Best title similarity is 0.631."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 43,
+    "key": "jiang2023active_rag",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2023.emnlp-main.495",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Active Retrieval Augmented Generation",
+      "author": "Zhengbao Jiang",
+      "year": "2023",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "7969--7992",
+      "doi": "10.18653/v1/2023.emnlp-main.495",
+      "official_url": "https://doi.org/10.18653/v1/2023.emnlp-main.495",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 44,
+    "key": "wei2022chain_of_thought",
+    "status": "verified",
+    "official_url": "https://doi.org/10.52202/068431-1800",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "author": "Jason Wei",
+      "year": "2022",
+      "venue": "Advances in Neural Information Processing Systems 35",
+      "volume": "",
+      "number": "",
+      "pages": "24824-24837",
+      "doi": "10.52202/068431-1800",
+      "official_url": "https://doi.org/10.52202/068431-1800",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 45,
+    "key": "wang2023self_consistency",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2203.11171",
+    "arxiv_id": "2203.11171",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "author": "Xuezhi Wang",
+      "year": "2022",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2203.11171",
+      "official_url": "https://doi.org/10.48550/arxiv.2203.11171",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 46,
+    "key": "yao2023tree_of_thoughts",
+    "status": "verified",
+    "official_url": "https://doi.org/10.52202/075280-0517",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "author": "Shunyu Yao",
+      "year": "2023",
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "volume": "",
+      "number": "",
+      "pages": "11809-11822",
+      "doi": "10.52202/075280-0517",
+      "official_url": "https://doi.org/10.52202/075280-0517",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 47,
+    "key": "besta2024graph_of_thoughts",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1609/aaai.v38i16.29720",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+      "author": "Maciej Besta",
+      "year": "2024",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "volume": "38",
+      "number": "16",
+      "pages": "17682-17690",
+      "doi": "10.1609/aaai.v38i16.29720",
+      "official_url": "https://doi.org/10.1609/aaai.v38i16.29720",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 48,
+    "key": "shinn2023reflexion",
+    "status": "verified",
+    "official_url": "https://doi.org/10.52202/075280-0377",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Reflexion: language agents with verbal reinforcement learning",
+      "author": "Noah Shinn",
+      "year": "2023",
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "volume": "",
+      "number": "",
+      "pages": "8634-8652",
+      "doi": "10.52202/075280-0377",
+      "official_url": "https://doi.org/10.52202/075280-0377",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 49,
+    "key": "madaan2023self_refine",
+    "status": "verified",
+    "official_url": "https://doi.org/10.52202/075280-2019",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "author": "Aman Madaan",
+      "year": "2023",
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "volume": "",
+      "number": "",
+      "pages": "46534-46594",
+      "doi": "10.52202/075280-2019",
+      "official_url": "https://doi.org/10.52202/075280-2019",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 50,
+    "key": "dhuliawala2023chain_of_verification",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2024.findings-acl.212",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+      "author": "Shehzaad Dhuliawala",
+      "year": "2024",
+      "venue": "Findings of the Association for Computational Linguistics ACL 2024",
+      "volume": "",
+      "number": "",
+      "pages": "3563-3578",
+      "doi": "10.18653/v1/2024.findings-acl.212",
+      "official_url": "https://doi.org/10.18653/v1/2024.findings-acl.212",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 51,
+    "key": "tang2024medagents",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2024.findings-acl.33",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning",
+      "author": "Xiangru Tang",
+      "year": "2024",
+      "venue": "Findings of the Association for Computational Linguistics ACL 2024",
+      "volume": "",
+      "number": "",
+      "pages": "599-621",
+      "doi": "10.18653/v1/2024.findings-acl.33",
+      "official_url": "https://doi.org/10.18653/v1/2024.findings-acl.33",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 52,
+    "key": "cui2023chatlaw",
+    "status": "verified_preprint_id",
+    "official_url": "https://arxiv.org/abs/2306.16092",
+    "arxiv_id": "2306.16092",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Research on Large Language Models for Elderly Travel Education Integrated with External Knowledge Bases",
+      "author": "Wei Wang",
+      "year": "2024",
+      "venue": "2024 3rd International Conference on Cloud Computing, Big Data Application and Software Engineering (CBASE)",
+      "volume": "",
+      "number": "",
+      "pages": "205-209",
+      "doi": "10.1109/cbase64041.2024.10824480",
+      "official_url": "https://doi.org/10.1109/cbase64041.2024.10824480",
+      "title_similarity": 0.6737
+    },
+    "notes": [
+      "No high-confidence bibliographic match; arXiv identifier is explicit in the source entry."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 53,
+    "key": "li2024genmentor",
+    "status": "verified",
+    "official_url": "https://doi.org/10.35542/osf.io/gt95h_v1",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "LLM-powered Multi-agent Framework for Goal-oriented Learning in Intelligent Tutoring System",
+      "author": "Tianfu Wang",
+      "year": "2025",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.35542/osf.io/gt95h_v1",
+      "official_url": "https://doi.org/10.35542/osf.io/gt95h_v1",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 54,
+    "key": "singhal2023medpalm",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1038/s41586-023-06291-2",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Large language models encode clinical knowledge",
+      "author": "Karan Singhal",
+      "year": "2023",
+      "venue": "Nature",
+      "volume": "620",
+      "number": "7972",
+      "pages": "172--180",
+      "doi": "10.1038/s41586-023-06291-2",
+      "official_url": "https://doi.org/10.1038/s41586-023-06291-2",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 55,
+    "key": "guha2023legalbench",
+    "status": "verified",
+    "official_url": "https://doi.org/10.52202/075280-1915",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+      "author": "Neel Guha",
+      "year": "2023",
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "volume": "",
+      "number": "",
+      "pages": "44123-44279",
+      "doi": "10.52202/075280-1915",
+      "official_url": "https://doi.org/10.52202/075280-1915",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 56,
+    "key": "brynjolfsson2023generative_ai_work",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.3386/w31161",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Generative AI at Work",
+      "author": "Erik Brynjolfsson",
+      "year": "2023",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.3386/w31161",
+      "official_url": "https://doi.org/10.3386/w31161",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2025; source 2023."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 57,
+    "key": "yang2024swe_agent",
+    "status": "verified",
+    "official_url": "https://doi.org/10.52202/079017-1601",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "author": "John Yang",
+      "year": "2024",
+      "venue": "Advances in Neural Information Processing Systems 37",
+      "volume": "",
+      "number": "",
+      "pages": "50528-50652",
+      "doi": "10.52202/079017-1601",
+      "official_url": "https://doi.org/10.52202/079017-1601",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 58,
+    "key": "jimenez2024swe_bench",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.18653/v1/2025.emnlp-industry.19",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "ECom-Bench: Can LLM Agent Resolve Real-World E-commerce Customer Support Issues?",
+      "author": "Haoxin Wang",
+      "year": "2025",
+      "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+      "volume": "",
+      "number": "",
+      "pages": "276-284",
+      "doi": "10.18653/v1/2025.emnlp-industry.19",
+      "official_url": "https://doi.org/10.18653/v1/2025.emnlp-industry.19",
+      "title_similarity": 0.6429
+    },
+    "notes": [
+      "Best title similarity is 0.643."
+    ],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 400: Bad Request"
+    ]
+  },
+  {
+    "sequence": 59,
+    "key": "huang2024hallucination_survey",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1145/3703155",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+      "author": "Lei Huang",
+      "year": "2025",
+      "venue": "ACM Transactions on Information Systems",
+      "volume": "43",
+      "number": "2",
+      "pages": "1-55",
+      "doi": "10.1145/3703155",
+      "official_url": "https://doi.org/10.1145/3703155",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 60,
+    "key": "zhang2024agent_hallucination",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2509.18970",
+    "arxiv_id": "2509.18970",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions",
+      "author": "Lin, Xixun",
+      "year": "2025",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2509.18970",
+      "official_url": "https://doi.org/10.48550/arxiv.2509.18970",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 61,
+    "key": "han2024mast",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.21203/rs.3.rs-9121599/v1",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems",
+      "author": "Sunil Prakash",
+      "year": "2026",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.21203/rs.3.rs-9121599/v1",
+      "official_url": "https://doi.org/10.21203/rs.3.rs-9121599/v1",
+      "title_similarity": 0.5806
+    },
+    "notes": [
+      "Best title similarity is 0.581."
+    ],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 400: Bad Request"
+    ]
+  },
+  {
+    "sequence": 62,
+    "key": "liu2024agentbench",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.48550/arxiv.2308.03688",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "author": "Xiao Liu",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2308.03688",
+      "official_url": "https://doi.org/10.48550/arxiv.2308.03688",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2024; source 2023."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 63,
+    "key": "mialon2024gaia",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.48550/arxiv.2311.12983",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "GAIA: a benchmark for General AI Assistants",
+      "author": "Grégoire Mialon",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2311.12983",
+      "official_url": "https://doi.org/10.48550/arxiv.2311.12983",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2024; source 2023."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 64,
+    "key": "amayuelas2024collaboration_attack",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2024.findings-emnlp.407",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "MultiAgent Collaboration Attack: Investigating Adversarial Attacks in Large Language Model Collaborations via Debate",
+      "author": "Alfonso Amayuelas",
+      "year": "2024",
+      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "volume": "",
+      "number": "",
+      "pages": "6929-6948",
+      "doi": "10.18653/v1/2024.findings-emnlp.407",
+      "official_url": "https://doi.org/10.18653/v1/2024.findings-emnlp.407",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 65,
+    "key": "zeng2024autodefense",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2403.04783",
+    "arxiv_id": "2403.04783",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks",
+      "author": "Yifan Zeng",
+      "year": "2024",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2403.04783",
+      "official_url": "https://doi.org/10.48550/arxiv.2403.04783",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 66,
+    "key": "anthropic2024mcp",
+    "status": "technical_source_url",
+    "official_url": "https://modelcontextprotocol.io",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Model Context Protocol (MCP)  v1",
+      "author": "Paola Di Maio",
+      "year": "2025",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.17504/protocols.io.3byl46ebzgo5/v1",
+      "official_url": "https://doi.org/10.17504/protocols.io.3byl46ebzgo5/v1",
+      "title_similarity": 0.6835
+    },
+    "notes": [
+      "Technical or software source; verify against the official URL rather than Crossref."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 67,
+    "key": "google2025a2a",
+    "status": "technical_source_url",
+    "official_url": "https://google.github.io/A2A",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "A Review on Agent-to-Agent Protocol: Concept, State-of-the-art, Challenges and Future Directions",
+      "author": "Partha Pratim Ray",
+      "year": "2025",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.36227/techrxiv.174612014.42157096/v1",
+      "official_url": "https://doi.org/10.36227/techrxiv.174612014.42157096/v1",
+      "title_similarity": 0.5139
+    },
+    "notes": [
+      "Technical or software source; verify against the official URL rather than Crossref."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 68,
+    "key": "chen2025llm_mas_survey",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.48550/arxiv.2412.17481",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application",
+      "author": "Chen, Shuaihang",
+      "year": "2024",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2412.17481",
+      "official_url": "https://doi.org/10.48550/arxiv.2412.17481",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2025; source 2024."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 69,
+    "key": "masterman2024landscape_agents",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2404.11584",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey",
+      "author": "Tula Masterman",
+      "year": "2024",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2404.11584",
+      "official_url": "https://doi.org/10.48550/arxiv.2404.11584",
+      "title_similarity": 0.9514
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 70,
+    "key": "patil2023gorilla",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.52202/079017-4020",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Gorilla: Large Language Model Connected with Massive APIs",
+      "author": "Shishir Patil",
+      "year": "2024",
+      "venue": "Advances in Neural Information Processing Systems 37",
+      "volume": "",
+      "number": "",
+      "pages": "126544-126565",
+      "doi": "10.52202/079017-4020",
+      "official_url": "https://doi.org/10.52202/079017-4020",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2023; source 2024."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 71,
+    "key": "wang2023voyager",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2305.16291",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "author": "Guanzhi Wang",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2305.16291",
+      "official_url": "https://doi.org/10.48550/arxiv.2305.16291",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 72,
+    "key": "huang2024planning_survey",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2402.02716",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Understanding the planning of LLM agents: A survey",
+      "author": "Xu Huang",
+      "year": "2024",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2402.02716",
+      "official_url": "https://doi.org/10.48550/arxiv.2402.02716",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 73,
+    "key": "guu2020realm",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2002.08909",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+      "author": "Kelvin Guu",
+      "year": "2020",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2002.08909",
+      "official_url": "https://doi.org/10.48550/arxiv.2002.08909",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 74,
+    "key": "trivedi2023ircot",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2023.acl-long.557",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+      "author": "Harsh Trivedi",
+      "year": "2023",
+      "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "volume": "",
+      "number": "",
+      "pages": "10014-10037",
+      "doi": "10.18653/v1/2023.acl-long.557",
+      "official_url": "https://doi.org/10.18653/v1/2023.acl-long.557",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 75,
+    "key": "press2023self_ask",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2023.findings-emnlp.378",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+      "author": "Ofir Press",
+      "year": "2023",
+      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+      "volume": "",
+      "number": "",
+      "pages": "5687-5711",
+      "doi": "10.18653/v1/2023.findings-emnlp.378",
+      "official_url": "https://doi.org/10.18653/v1/2023.findings-emnlp.378",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 76,
+    "key": "chen2024universal_self_consistency",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.48550/arxiv.2311.17311",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Universal Self-Consistency for Large Language Model Generation",
+      "author": "Xinyun Chen",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2311.17311",
+      "official_url": "https://doi.org/10.48550/arxiv.2311.17311",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2024; source 2023."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 77,
+    "key": "lin2025creativity_mas",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.18653/v1/2025.emnlp-main.1403",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Creativity in LLM-based Multi-Agent Systems: A Survey",
+      "author": "Yi-Cheng Lin",
+      "year": "2025",
+      "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "number": "",
+      "pages": "27572-27595",
+      "doi": "10.18653/v1/2025.emnlp-main.1403",
+      "official_url": "https://doi.org/10.18653/v1/2025.emnlp-main.1403",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "First-author mismatch: local 'Lin, Junyou'; source 'Yi-Cheng Lin'."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 78,
+    "key": "fan2025foundation_agents",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.48550/arxiv.2504.01990",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems",
+      "author": "Bang Liu",
+      "year": "2025",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2504.01990",
+      "official_url": "https://doi.org/10.48550/arxiv.2504.01990",
+      "title_similarity": 0.67
+    },
+    "notes": [
+      "Best title similarity is 0.670."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 79,
+    "key": "li2024trustworthy_medical_qa",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.2139/ssrn.6730842",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Evaluating Trustworthiness of LLMs for Contrail Detection via Ground-Based Cameras",
+      "author": "Aizierjiang Aiersilan",
+      "year": "2026",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.2139/ssrn.6730842",
+      "official_url": "https://doi.org/10.2139/ssrn.6730842",
+      "title_similarity": 0.5116
+    },
+    "notes": [
+      "Best title similarity is 0.512."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 80,
+    "key": "zhuang2024atm",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.18653/v1/2024.emnlp-main.610",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "ATM: Adversarial Tuning Multi-agent System Makes a Robust Retrieval-Augmented Generator",
+      "author": "Junda Zhu",
+      "year": "2024",
+      "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "number": "",
+      "pages": "10902-10919",
+      "doi": "10.18653/v1/2024.emnlp-main.610",
+      "official_url": "https://doi.org/10.18653/v1/2024.emnlp-main.610",
+      "title_similarity": 0.726
+    },
+    "notes": [
+      "Best title similarity is 0.726."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 81,
+    "key": "zhu2023efficient_odqa_survey",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.18653/v1/2023.acl-long.808",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "A Survey for Efficient Open Domain Question Answering",
+      "author": "Qin Zhang",
+      "year": "2023",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "14447--14465",
+      "doi": "10.18653/v1/2023.acl-long.808",
+      "official_url": "https://doi.org/10.18653/v1/2023.acl-long.808",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "First-author mismatch: local 'Zhu, Yutao'; source 'Qin Zhang'."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 82,
+    "key": "ho2024multihop_qa_survey",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.1561/9781638283751",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Multi-hop Question Answering",
+      "author": "Vaibhav Mavi",
+      "year": "2024",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.1561/9781638283751",
+      "official_url": "https://doi.org/10.1561/9781638283751",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "First-author mismatch: local 'Ho, Xanh'; source 'Vaibhav Mavi'."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 83,
+    "key": "qin2024multiagent_survey_cn",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.32629/acair.v3i4.17912",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "智能体协同进化视角下四维教学构建-职业本科启发式教学实践",
+      "author": "艺 赵",
+      "year": "2025",
+      "venue": "计算机与自主智能研究进展",
+      "volume": "3",
+      "number": "4",
+      "pages": "189",
+      "doi": "10.32629/acair.v3i4.17912",
+      "official_url": "https://doi.org/10.32629/acair.v3i4.17912",
+      "title_similarity": 0.0
+    },
+    "notes": [
+      "Best title similarity is 0.000."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 84,
+    "key": "ruanjianbao2024code_gen_survey",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.12677/airr.2025.141019",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "A Review of Text Generation Based on Large Language Model",
+      "author": "津睿 刘",
+      "year": "2025",
+      "venue": "Artificial Intelligence and Robotics Research",
+      "volume": "14",
+      "number": "01",
+      "pages": "194-208",
+      "doi": "10.12677/airr.2025.141019",
+      "official_url": "https://doi.org/10.12677/airr.2025.141019",
+      "title_similarity": 0.0
+    },
+    "notes": [
+      "Best title similarity is 0.000."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 85,
+    "key": "zeng2023glm130b",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.48550/arxiv.2210.02414",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "GLM-130B: An Open Bilingual Pre-trained Model",
+      "author": "Aohan Zeng",
+      "year": "2022",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2210.02414",
+      "official_url": "https://doi.org/10.48550/arxiv.2210.02414",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2023; source 2022."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 86,
+    "key": "zhao2023llm_survey_cn",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.69979/3029-2808.25.04.057",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "大语言模型在临床诊断中的应用前景与挑战综述",
+      "author": "",
+      "year": "2025",
+      "venue": "医学研究",
+      "volume": "2",
+      "number": "4",
+      "pages": "",
+      "doi": "10.69979/3029-2808.25.04.057",
+      "official_url": "https://doi.org/10.69979/3029-2808.25.04.057",
+      "title_similarity": 0.0
+    },
+    "notes": [
+      "Best title similarity is 0.000."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 87,
+    "key": "liu2024se_agents_survey",
+    "status": "mismatch",
+    "official_url": "https://doi.org/10.1145/3796507",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Large Language Model-Based Agents for Software Engineering: A Survey",
+      "author": "Junwei Liu",
+      "year": "2026",
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.1145/3796507",
+      "official_url": "https://doi.org/10.1145/3796507",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2024; source 2026.",
+      "First-author mismatch: local 'Liu, Jiawei'; source 'Junwei Liu'."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 88,
+    "key": "langgraph2024",
+    "status": "technical_source_url",
+    "official_url": "https://blog.langchain.dev/langgraph-multi-agent-workflows/",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "AI Workflow Automation Agent &amp; Multi-Agent System using LangChain and LangGraph",
+      "author": "Vraj Patel",
+      "year": "2026",
+      "venue": "INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+      "volume": "10",
+      "number": "04",
+      "pages": "1-9",
+      "doi": "10.55041/ijsrem60971",
+      "official_url": "https://doi.org/10.55041/ijsrem60971",
+      "title_similarity": 0.475
+    },
+    "notes": [
+      "Technical or software source; verify against the official URL rather than Crossref."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 89,
+    "key": "crewai2023",
+    "status": "technical_source_url",
+    "official_url": "https://github.com/crewAIInc/crewAI",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "CrewAI",
+      "author": "Tom Taulli",
+      "year": "2025",
+      "venue": "Building Generative AI Agents",
+      "volume": "",
+      "number": "",
+      "pages": "103-145",
+      "doi": "10.1007/979-8-8688-1134-0_6",
+      "official_url": "https://doi.org/10.1007/979-8-8688-1134-0_6",
+      "title_similarity": 0.5111
+    },
+    "notes": [
+      "Technical or software source; verify against the official URL rather than Crossref."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 90,
+    "key": "dify2024",
+    "status": "technical_source_url",
+    "official_url": "https://github.com/langgenius/dify",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Getting Started with Dify: No-Code AI Application Development",
+      "author": "Zijian Yang",
+      "year": "2024",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.59350/w4y0x-y8915",
+      "official_url": "https://doi.org/10.59350/w4y0x-y8915",
+      "title_similarity": 0.4952
+    },
+    "notes": [
+      "Technical or software source; verify against the official URL rather than Crossref."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 91,
+    "key": "hendrycks2021mmlu",
+    "status": "mismatch",
+    "official_url": "https://openalex.org/W3121904249",
+    "arxiv_id": "2009.03300",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "Measuring Massive Multitask Language Understanding",
+      "author": "Dan Hendrycks",
+      "year": "2021",
+      "venue": "International Conference on Learning Representations",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "",
+      "official_url": "https://openalex.org/W3121904249",
+      "title_similarity": 1.0
+    },
+    "notes": [
+      "Year mismatch: local 2020; source 2021."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 92,
+    "key": "trivedi2022musique",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1162/tacl_a_00475",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "♫ MuSiQue: Multihop Questions via Single-hop Question Composition",
+      "author": "Harsh Trivedi",
+      "year": "2022",
+      "venue": "Transactions of the Association for Computational Linguistics",
+      "volume": "10",
+      "number": "",
+      "pages": "539-554",
+      "doi": "10.1162/tacl_a_00475",
+      "official_url": "https://doi.org/10.1162/tacl_a_00475",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 93,
+    "key": "mialon2023gaia",
+    "status": "verified",
+    "official_url": "https://doi.org/10.48550/arxiv.2311.12983",
+    "arxiv_id": "2311.12983",
+    "best_match": {
+      "source": "OpenAlex",
+      "title": "GAIA: a benchmark for General AI Assistants",
+      "author": "Grégoire Mialon",
+      "year": "2023",
+      "venue": "arXiv (Cornell University)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.48550/arxiv.2311.12983",
+      "official_url": "https://doi.org/10.48550/arxiv.2311.12983",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": []
+  },
+  {
+    "sequence": 94,
+    "key": "zhou2024webarena",
+    "status": "manual_needed",
+    "official_url": "https://doi.org/10.18653/v1/2026.gem-main.67",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "EconWebArena: Benchmarking Autonomous Agents on Economic Tasks in Realistic Web Environments",
+      "author": "Zefang Liu",
+      "year": "2026",
+      "venue": "Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM)",
+      "volume": "",
+      "number": "",
+      "pages": "779-796",
+      "doi": "10.18653/v1/2026.gem-main.67",
+      "official_url": "https://doi.org/10.18653/v1/2026.gem-main.67",
+      "title_similarity": 0.4684
+    },
+    "notes": [
+      "Best title similarity is 0.468."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 95,
+    "key": "fastgpt2024",
+    "status": "technical_source_url",
+    "official_url": "https://github.com/labring/FastGPT",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Towards a universal continuous knowledge base",
+      "author": "Gang Chen",
+      "year": "2021",
+      "venue": "AI Open",
+      "volume": "2",
+      "number": "",
+      "pages": "197-204",
+      "doi": "10.1016/j.aiopen.2021.11.001",
+      "official_url": "https://doi.org/10.1016/j.aiopen.2021.11.001",
+      "title_similarity": 0.4615
+    },
+    "notes": [
+      "Technical or software source; verify against the official URL rather than Crossref."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 96,
+    "key": "flowise2024",
+    "status": "technical_source_url",
+    "official_url": "https://github.com/FlowiseAI/Flowise",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Permission Issues in Open-Source Android Apps: An Exploratory Study",
+      "author": "Gian Luca Scoccia",
+      "year": "2019",
+      "venue": "2019 19th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.1109/scam.2019.00034",
+      "official_url": "https://doi.org/10.1109/scam.2019.00034",
+      "title_similarity": 0.4685
+    },
+    "notes": [
+      "Technical or software source; verify against the official URL rather than Crossref."
+    ],
+    "source_errors": []
+  },
+  {
+    "sequence": 97,
+    "key": "tang2025llmmedqa",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1109/ijcnn64981.2025.11228647",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "LLM-MedQA: Enhancing Medical Question Answering through Case Studies in Large Language Models",
+      "author": "Hang Yang",
+      "year": "2025",
+      "venue": "2025 International Joint Conference on Neural Networks (IJCNN)",
+      "volume": "",
+      "number": "",
+      "pages": "1-8",
+      "doi": "10.1109/ijcnn64981.2025.11228647",
+      "official_url": "https://doi.org/10.1109/ijcnn64981.2025.11228647",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 98,
+    "key": "legalgraphrag2026",
+    "status": "verified",
+    "official_url": "https://doi.org/10.2139/ssrn.6824558",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning",
+      "author": "Zerui Chen",
+      "year": "2026",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.2139/ssrn.6824558",
+      "official_url": "https://doi.org/10.2139/ssrn.6824558",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 99,
+    "key": "hu2024triad",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2024.emnlp-main.101",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Triad: A Framework Leveraging a Multi-Role LLM-based Agent to Solve Knowledge Base Question Answering",
+      "author": "Chang Zong",
+      "year": "2024",
+      "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "number": "",
+      "pages": "1698-1710",
+      "doi": "10.18653/v1/2024.emnlp-main.101",
+      "official_url": "https://doi.org/10.18653/v1/2024.emnlp-main.101",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 100,
+    "key": "huang2023agentcoder",
+    "status": "verified_preprint_id",
+    "official_url": "https://arxiv.org/abs/2312.13010",
+    "arxiv_id": "2312.13010",
+    "best_match": {
+      "source": "Crossref",
+      "title": "LLM-Based Multi-Agent Systems for Code Generation: A Multi-Vocal Literature Review ⋆",
+      "author": "Zeeshan Rasheed",
+      "year": "2026",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.2139/ssrn.6332149",
+      "official_url": "https://doi.org/10.2139/ssrn.6332149",
+      "title_similarity": 0.5697
+    },
+    "notes": [
+      "No high-confidence bibliographic match; arXiv identifier is explicit in the source entry."
+    ],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 101,
+    "key": "zhang2024eduplanner",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1109/tlt.2025.3561332",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "EduPlanner: LLM-Based Multiagent Systems for Customized and Intelligent Instructional Design",
+      "author": "Xueqiao Zhang",
+      "year": "2025",
+      "venue": "IEEE Transactions on Learning Technologies",
+      "volume": "18",
+      "number": "",
+      "pages": "416-427",
+      "doi": "10.1109/tlt.2025.3561332",
+      "official_url": "https://doi.org/10.1109/tlt.2025.3561332",
+      "title_similarity": 0.9945
+    },
+    "notes": [],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 102,
+    "key": "fatemi2024financialqa",
+    "status": "verified",
+    "official_url": "https://doi.org/10.1145/3677052.3698686",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Enhancing Financial Question Answering with a Multi-Agent Reflection Framework",
+      "author": "Sorouralsadat Fatemi",
+      "year": "2024",
+      "venue": "Proceedings of the 5th ACM International Conference on AI in Finance",
+      "volume": "",
+      "number": "",
+      "pages": "530-537",
+      "doi": "10.1145/3677052.3698686",
+      "official_url": "https://doi.org/10.1145/3677052.3698686",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 103,
+    "key": "peffers2007dsrm",
+    "status": "verified",
+    "official_url": "https://doi.org/10.2753/mis0742-1222240302",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "A Design Science Research Methodology for Information Systems Research",
+      "author": "Ken Peffers",
+      "year": "2007",
+      "venue": "Journal of Management Information Systems",
+      "volume": "24",
+      "number": "3",
+      "pages": "45-77",
+      "doi": "10.2753/mis0742-1222240302",
+      "official_url": "https://doi.org/10.2753/mis0742-1222240302",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 104,
+    "key": "shao2024storm",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2024.naacl-long.347",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models",
+      "author": "Yijia Shao",
+      "year": "2024",
+      "venue": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "volume": "",
+      "number": "",
+      "pages": "6252-6278",
+      "doi": "10.18653/v1/2024.naacl-long.347",
+      "official_url": "https://doi.org/10.18653/v1/2024.naacl-long.347",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 105,
+    "key": "shao2024costorm",
+    "status": "verified",
+    "official_url": "https://doi.org/10.18653/v1/2024.emnlp-main.554",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations",
+      "author": "Yucheng Jiang",
+      "year": "2024",
+      "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "number": "",
+      "pages": "9917-9955",
+      "doi": "10.18653/v1/2024.emnlp-main.554",
+      "official_url": "https://doi.org/10.18653/v1/2024.emnlp-main.554",
+      "title_similarity": 1.0
+    },
+    "notes": [],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 106,
+    "key": "ragflow2024",
+    "status": "technical_source_url",
+    "official_url": "https://github.com/infiniflow/ragflow",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Online Open Access programme and meeting document Understanding open science",
+      "author": "",
+      "year": "2022",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.54677/utcd9302",
+      "official_url": "https://doi.org/10.54677/utcd9302",
+      "title_similarity": 0.5479
+    },
+    "notes": [
+      "Technical or software source; verify against the official URL rather than Crossref."
+    ],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 107,
+    "key": "xagent2023",
+    "status": "technical_source_url",
+    "official_url": "https://github.com/OpenBMB/XAgent",
+    "arxiv_id": "",
+    "best_match": {
+      "source": "Crossref",
+      "title": "Multi-Agent LLM Collaborative Reasoning and Task Planning for Complex Task Solving",
+      "author": "Wentao Zhang",
+      "year": "2026",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.21203/rs.3.rs-10232223/v1",
+      "official_url": "https://doi.org/10.21203/rs.3.rs-10232223/v1",
+      "title_similarity": 0.5564
+    },
+    "notes": [
+      "Technical or software source; verify against the official URL rather than Crossref."
+    ],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  },
+  {
+    "sequence": 108,
+    "key": "autorag2024",
+    "status": "verified_preprint_id",
+    "official_url": "https://arxiv.org/abs/2410.20878",
+    "arxiv_id": "2410.20878",
+    "best_match": {
+      "source": "Crossref",
+      "title": "LLM-Driven Automated Framework for Intrinsic Medical Record Quality Assessment with Retrieval-Augmented Generation",
+      "author": "Zhao Hang",
+      "year": "2026",
+      "venue": "",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "doi": "10.2139/ssrn.6754124",
+      "official_url": "https://doi.org/10.2139/ssrn.6754124",
+      "title_similarity": 0.607
+    },
+    "notes": [
+      "No high-confidence bibliographic match; arXiv identifier is explicit in the source entry."
+    ],
+    "source_errors": [
+      "OpenAlex: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
+  }
+]

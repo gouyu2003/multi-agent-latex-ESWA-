@@ -1,0 +1,29 @@
+# LaTeX auxiliary files and compilation logs
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex*
+*.nav
+*.snm
+*.vrb
+
+# Generated manuscript outputs; figure PDFs remain tracked
+/manuscript.abs
+/manuscript.bbl
+/manuscript.pdf
+
+# Temporary PDF previews and Python bytecode
+/tmp/
+__pycache__/
+*.py[cod]
+
+# Operating-system metadata
+Thumbs.db
+Desktop.ini
+.DS_Store

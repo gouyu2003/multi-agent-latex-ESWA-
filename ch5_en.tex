@@ -1,0 +1,114 @@
+% ==============================================================================
+% CHAPTER 5: TYPICAL APPLICATION DOMAINS
+% ==============================================================================
+\section{Typical Application Domains}
+\label{sec:applications}
+
+Multi-agent collaborative QA systems are rapidly being deployed across
+multiple vertical sectors, capitalizing on their advantages in complex
+logical processing and expert knowledge integration.
+Table~\ref{tab:app_compare} summaries the distinguishing features and
+representative systems in each application domain.
+
+\begin{table*}[pos=t]
+  \centering
+  \caption{Comparison of typical applications of multi-agent collaborative QA systems.}
+  \label{tab:app_compare}
+  \small
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabular}{p{1.8cm} p{2.4cm} p{4.0cm} p{4.0cm} p{4.0cm}}
+    \toprule
+    \textbf{Domain} & \textbf{Representative System} &
+    \textbf{Core Challenge} & \textbf{Collaboration Pattern} &
+    \textbf{Performance Highlights} \\
+    \midrule
+    Healthcare &
+      MedAgents \citep{tang2024medagents} &
+      Extremely high factual accuracy demands; long-tail rare-disease diagnosis &
+      Multi-specialty physician role-play; symptom--pathology cross-verification &
+      Improves zero-shot medical reasoning across nine evaluated datasets \\[6pt]
+    Legal &
+      ChatLaw \citep{cui2023chatlaw} &
+      Retrieval from voluminous legal statutes; rigorous formal-logic reasoning &
+      Plan--Retrieve--Generate pipeline; statute-matching and verdict-prediction agents collaborate &
+      More rigorous responses to long case texts on LegalBench \\[6pt]
+    Education &
+      GenMentor \citep{li2024genmentor} &
+      Heuristic guidance rather than direct answers; personalised adaptation &
+      Tutor, encourager, and evaluator roles in a mixed-role network &
+      Multi-path learning recommendations; interaction closer to a human private tutor \\[6pt]
+    Software Engineering &
+      ChatDev \citep{qian2023chatdev} &
+      Cross-file logic dependencies; multi-round compilation and debug feedback &
+      SOP-based waterfall; product, development, and testing roles in group-chat collaboration &
+      Full closed-loop of automated writing, reviewing, and running code \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+\subsection{Medical QA}
+\label{sec:medical}
+
+The medical domain imposes extremely high standards of factual accuracy
+and rigour.
+MedAgents \citep{tang2024medagents} proposes a multi-disciplinary
+cross-verification collaborative framework that simulates a multi-specialty
+expert consultation, effectively addressing the deficiencies of single-model
+reasoning on complex rare-disease cases.
+MDAgents \citep{kim2024mdagents} adaptively assigns solo or group
+collaboration according to estimated case complexity. Med-PaLM
+\citep{singhal2023medpalm}, by contrast, is a domain-specialised medical LLM
+rather than a multi-agent system; it is relevant as a possible expert backbone,
+not as evidence that adaptive agent recruitment itself reduces clinical risk.
+
+\subsection{Legal QA}
+\label{sec:legal}
+
+Legal case QA typically involves precise retrieval over voluminous case
+files and statutes.
+For Chinese-language legal domains, ChatLaw \citep{cui2023chatlaw}
+integrates an external legal knowledge base and employs RAG for multi-hop
+retrieval.
+LegalBench \citep{guha2023legalbench} is a general legal-reasoning benchmark,
+not evidence for a particular multi-agent topology. A directly relevant
+example is LegalGraphRAG \citep{legalgraphrag2026}, which separates evidence
+retrieval, source auditing, and adjudication in a graph-grounded pipeline.
+This design makes evidence provenance more explicit, although benchmark
+performance does not by itself establish suitability for autonomous legal use.
+
+\subsection{Educational QA}
+\label{sec:education}
+
+In intelligent education settings, QA systems should not merely provide
+correct answers; they should guide students to think independently.
+The GenMentor framework \citep{li2024genmentor} introduces multiple roles
+including tutor, corrector, and knowledge extender to construct
+goal-oriented personalised learning paths.
+Agents collaboratively adjust the depth of explanation in real time
+based on student feedback, realising Socratic heuristic teaching.
+
+\subsection{Customer Service and Office Automation}
+\label{sec:enterprise}
+
+In enterprise customer service and process automation, multi-agent QA
+systems can directly integrate with back-end corporate APIs.
+Empirical research by \citet{brynjolfsson2023generative_ai_work}
+reports a 15\% average increase in issues resolved per hour in one firm's
+deployment of a generative-AI assistant.
+By delegating knowledge retrieval, sentiment management, and ticket creation
+to dedicated sub-agents, the system achieves 24-hour unattended, efficient
+problem resolution and fault diagnosis.
+
+\subsection{Code Generation and Technical QA}
+\label{sec:code}
+
+Code generation is one of the most mature application areas for multi-agent
+systems.
+SWE-agent \citep{yang2024swe_agent} and ChatDev \citep{qian2023chatdev}
+convert complex software-engineering requirements into multi-round
+collaborative workflows.
+On the SWE-bench benchmark \citep{jimenez2024swe_bench}, collaborative
+pipelines in which an architect agent generates the framework, a programmer
+agent writes the code, and a testing agent provides compilation feedback
+not only answer programming questions but directly generate complete
+multi-thousand-line projects.

@@ -1,0 +1,3157 @@
+[
+  {
+    "sequence": 1,
+    "key": "brown2020gpt3",
+    "entry_type": "article",
+    "title": "Language models are few-shot learners",
+    "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others",
+    "year": "2020",
+    "venue": "Advances in neural information processing systems",
+    "journal": "Advances in neural information processing systems",
+    "booktitle": "",
+    "volume": "33",
+    "number": "",
+    "pages": "1877--1901",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 112,
+        "context": "In recent years, large language models (LLMs) such as GPT-3 \\citep{brown2020gpt3} and GPT-4 \\citep{openai2023gpt4} have demonstrated extraordinary natural-language understanding and generation capabilities,"
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 320,
+        "context": "introducing self-attention, to BERT \\citep{devlin2019bert} establishing the pre-train--fine-tune paradigm, to GPT-3 \\citep{brown2020gpt3} and GPT-4 \\citep{openai2023gpt4} demonstrating powerful few-shot and zero-shot"
+      }
+    ],
+    "raw": "@article{brown2020gpt3,\n  title={Language models are few-shot learners},\n  author={Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others},\n  journal={Advances in neural information processing systems},\n  volume={33},\n  pages={1877--1901},\n  year={2020}\n}"
+  },
+  {
+    "sequence": 2,
+    "key": "openai2023gpt4",
+    "entry_type": "article",
+    "title": "GPT-4 technical report",
+    "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+    "year": "2023",
+    "venue": "arXiv preprint arXiv:2303.08774",
+    "journal": "arXiv preprint arXiv:2303.08774",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 112,
+        "context": "In recent years, large language models (LLMs) such as GPT-3 \\citep{brown2020gpt3} and GPT-4 \\citep{openai2023gpt4} have demonstrated extraordinary natural-language understanding and generation capabilities,"
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 321,
+        "context": "the pre-train--fine-tune paradigm, to GPT-3 \\citep{brown2020gpt3} and GPT-4 \\citep{openai2023gpt4} demonstrating powerful few-shot and zero-shot capabilities."
+      }
+    ],
+    "raw": "@article{openai2023gpt4,\n  title={GPT-4 technical report},\n  author={Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others},\n  journal={arXiv preprint arXiv:2303.08774},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 3,
+    "key": "minsky1988society",
+    "entry_type": "book",
+    "title": "Society of mind",
+    "author": "Minsky, Marvin",
+    "year": "1986",
+    "venue": "",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "Simon and Schuster",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 127,
+        "context": "emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}."
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 373,
+        "context": "Inspired by Minsky's Society of Mind \\citep{minsky1988society}---the insight that intelligence emerges from the collective cooperation of many"
+      }
+    ],
+    "raw": "@book{minsky1988society,\n  title={Society of mind},\n  author={Minsky, Marvin},\n  year={1986},\n  publisher={Simon and Schuster}\n}"
+  },
+  {
+    "sequence": 4,
+    "key": "wooldridge1995intelligent",
+    "entry_type": "article",
+    "title": "Intelligent agents: Theory and practice",
+    "author": "Wooldridge, Michael and Jennings, Nicholas R",
+    "year": "1995",
+    "venue": "The knowledge engineering review",
+    "journal": "The knowledge engineering review",
+    "booktitle": "",
+    "volume": "10",
+    "number": "2",
+    "pages": "115--152",
+    "publisher": "Cambridge University Press",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 128,
+        "context": "Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. Between 2023 and 2026 this field has witnessed explosive growth, giving"
+      }
+    ],
+    "raw": "@article{wooldridge1995intelligent,\n  title={Intelligent agents: Theory and practice},\n  author={Wooldridge, Michael and Jennings, Nicholas R},\n  journal={The knowledge engineering review},\n  volume={10},\n  number={2},\n  pages={115--152},\n  year={1995},\n  publisher={Cambridge University Press}\n}"
+  },
+  {
+    "sequence": 5,
+    "key": "wu2024autogen",
+    "entry_type": "inproceedings",
+    "title": "Autogen: Enabling next-gen LLM applications via multi-agent conversations",
+    "author": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and others",
+    "year": "2024",
+    "venue": "First conference on language modeling",
+    "journal": "",
+    "booktitle": "First conference on language modeling",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 7,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 73,
+        "context": "Group-chat collaboration replicates the human group-messaging model. Microsoft's AutoGen framework \\citep{wu2024autogen} establishes a multi-participant virtual chatroom, enabling multiple agents (e.g., coder,"
+      },
+      {
+        "file": "ch3_en.tex",
+        "line": 256,
+        "context": "Decentralised group chat & AutoGen \\citep{wu2024autogen} & Virtual group chat; flexible self-assignment of sub-questions &"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 24,
+        "context": "XML) or specific prompt templates. The ``Shared Blackboard'' architecture \\citep{wu2024autogen} is another canonical form of explicit communication, in which multiple agents write"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 34,
+        "context": "Implicit communication \\citep{wu2024autogen} does not involve direct message exchange; instead, collaboration is achieved by modifying a shared"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 257,
+        "context": "Enterprise software engineering, complex workflows \\\\ AutoGen \\citep{wu2024autogen} & 2023 & Microsoft & Flat & Dynamic group-chat broadcast &"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 112,
+        "context": "reusable components for role definition, workflow orchestration, retrieval, and tool use \\citep{wu2024autogen,langgraph2024,crewai2023,dify2024}. Nevertheless, component-level reuse does not by itself provide task-level"
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 130,
+        "context": "Between 2023 and 2026 this field has witnessed explosive growth, giving rise to influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt}."
+      }
+    ],
+    "raw": "@inproceedings{wu2024autogen,\n  title={Autogen: Enabling next-gen LLM applications via multi-agent conversations},\n  author={Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and others},\n  booktitle={First conference on language modeling},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 6,
+    "key": "hong2024metagpt",
+    "entry_type": "inproceedings",
+    "title": "MetaGPT: Meta programming for a multi-agent collaborative framework",
+    "author": "Hong, Sirui and Zhuge, Mingchen and Chen, Jonathan and Zheng, Xiawu and Cheng, Yuheng and Wang, Jinlin and Zhang, Ceyao and Yau, Steven and Lin, Zijuan and Zhou, Liyang and others",
+    "year": "2024",
+    "venue": "International Conference on Learning Representations",
+    "journal": "",
+    "booktitle": "International Conference on Learning Representations",
+    "volume": "2024",
+    "number": "",
+    "pages": "23247--23275",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 7,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 109,
+        "context": "This pattern mirrors the organisational hierarchy of human enterprises. MetaGPT \\citep{hong2024metagpt} incorporates Standard Operating Procedures (SOPs) into a multi-agent system, defining layered roles such as product"
+      },
+      {
+        "file": "ch3_en.tex",
+        "line": 263,
+        "context": "Manager--executor & MetaGPT \\citep{hong2024metagpt} & Top-level decomposition, bottom-level execution; strong controllability &"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 91,
+        "context": "agents. MetaGPT \\citep{hong2024metagpt} and AgentVerse \\citep{chen2024agentverse} construct fine-grained agent profiles (Agent Profiling) that tag each agent"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 252,
+        "context": "Software development loop, code generation \\\\ MetaGPT \\citep{hong2024metagpt} & 2023 & DeepWisdom & Hierarchical & Structured SOP messages &"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 261,
+        "context": "the \\textbf{Hierarchical Manager--Executor} pattern. The remarkable success of MetaGPT \\citep{hong2024metagpt} and ChatDev \\citep{qian2023chatdev} in this domain confirms the deduction."
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 131,
+        "context": "rise to influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt}. Through role specialisation, mutual debate \\citep{du2024multiagent_debate},"
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 397,
+        "context": "rather than mere numerical scaling. For instance, MetaGPT \\citep{hong2024metagpt} introduces product manager, architect, and engineer roles into a multi-agent pipeline, substantially"
+      }
+    ],
+    "raw": "@inproceedings{hong2024metagpt,\n  title={MetaGPT: Meta programming for a multi-agent collaborative framework},\n  author={Hong, Sirui and Zhuge, Mingchen and Chen, Jonathan and Zheng, Xiawu and Cheng, Yuheng and Wang, Jinlin and Zhang, Ceyao and Yau, Steven and Lin, Zijuan and Zhou, Liyang and others},\n  booktitle={International Conference on Learning Representations},\n  volume={2024},\n  pages={23247--23275},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 7,
+    "key": "du2024multiagent_debate",
+    "entry_type": "inproceedings",
+    "title": "Improving factuality and reasoning in language models through multiagent debate",
+    "author": "Du, Yilun and Li, Shuang and Torralba, Antonio and Tenenbaum, Joshua B and Mordatch, Igor",
+    "year": "2024",
+    "venue": "Forty-first international conference on machine learning",
+    "journal": "",
+    "booktitle": "Forty-first international conference on machine learning",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 6,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 52,
+        "context": "and more accurate conclusion. \\citet{du2024multiagent_debate} demonstrate that multi-agent debate can improve factual QA accuracy by more than 20\\%."
+      },
+      {
+        "file": "ch3_en.tex",
+        "line": 244,
+        "context": "Multi-party debate & \\citet{du2024multiagent_debate} & Multi-stance confrontation corrects errors; mitigates single-model hallucination &"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 232,
+        "context": "designs of CAMEL \\citep{li2023camel} and debate mechanisms \\citep{du2024multiagent_debate}."
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 302,
+        "context": "\\textbf{One minor discrepancy.} MAD \\citep{du2024multiagent_debate} deviates slightly ($\\triangle$): the framework predicted explicit vote-based aggregation, while the actual"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 368,
+        "context": "Hierarchical (coder $\\to$ test-designer $\\to$ executor + feedback loop) & \\checkmark \\\\[3pt] MAD \\citep{du2024multiagent_debate} & Open-domain factual \\& maths reasoning &"
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 132,
+        "context": "MetaGPT \\citep{hong2024metagpt}. Through role specialisation, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems significantly"
+      }
+    ],
+    "raw": "@inproceedings{du2024multiagent_debate,\n  title={Improving factuality and reasoning in language models through multiagent debate},\n  author={Du, Yilun and Li, Shuang and Torralba, Antonio and Tenenbaum, Joshua B and Mordatch, Igor},\n  booktitle={Forty-first international conference on machine learning},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 8,
+    "key": "guo2024llm_multiagent_survey",
+    "entry_type": "article",
+    "title": "Large language model based multi-agents: A survey of progress and challenges",
+    "author": "Guo, Taicheng and Chen, Xiuying and Wang, Yaqi and Chang, Ruidi and Pei, Shichao and Chawla, Nitesh V and Wiest, Olaf and Zhang, Xiangliang",
+    "year": "2024",
+    "venue": "arXiv preprint arXiv:2402.01680",
+    "journal": "arXiv preprint arXiv:2402.01680",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{guo2024llm_multiagent_survey,\n  title={Large language model based multi-agents: A survey of progress and challenges},\n  author={Guo, Taicheng and Chen, Xiuying and Wang, Yaqi and Chang, Ruidi and Pei, Shichao and Chawla, Nitesh V and Wiest, Olaf and Zhang, Xiangliang},\n  journal={arXiv preprint arXiv:2402.01680},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 9,
+    "key": "tran2025multiagent_survey",
+    "entry_type": "article",
+    "title": "Multi-agent collaboration mechanisms: A survey of LLMs",
+    "author": "Tran, Khanh-Tung and Dao, Dung and Nguyen, Minh-Duong and Pham, Quoc-Viet and O'Sullivan, Barry and Nguyen, Hoang D",
+    "year": "2025",
+    "venue": "arXiv preprint arXiv:2501.06322",
+    "journal": "arXiv preprint arXiv:2501.06322",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{tran2025multiagent_survey,\n  title={Multi-agent collaboration mechanisms: A survey of LLMs},\n  author={Tran, Khanh-Tung and Dao, Dung and Nguyen, Minh-Duong and Pham, Quoc-Viet and O'Sullivan, Barry and Nguyen, Hoang D},\n  journal={arXiv preprint arXiv:2501.06322},\n  year={2025}\n}"
+  },
+  {
+    "sequence": 10,
+    "key": "wang2024survey_autonomous_agents",
+    "entry_type": "article",
+    "title": "A survey on large language model based autonomous agents",
+    "author": "Wang, Lei and Ma, Chen and Feng, Xueyang and Zhang, Zeyu and Yang, Hao and Zhang, Jingsen and Chen, Zhiyuan and Tang, Jiakai and Chen, Xu and Lin, Yankai and others",
+    "year": "2024",
+    "venue": "Frontiers of Computer Science",
+    "journal": "Frontiers of Computer Science",
+    "booktitle": "",
+    "volume": "18",
+    "number": "6",
+    "pages": "186345",
+    "publisher": "Springer",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{wang2024survey_autonomous_agents,\n  title={A survey on large language model based autonomous agents},\n  author={Wang, Lei and Ma, Chen and Feng, Xueyang and Zhang, Zeyu and Yang, Hao and Zhang, Jingsen and Chen, Zhiyuan and Tang, Jiakai and Chen, Xu and Lin, Yankai and others},\n  journal={Frontiers of Computer Science},\n  volume={18},\n  number={6},\n  pages={186345},\n  year={2024},\n  publisher={Springer}\n}"
+  },
+  {
+    "sequence": 11,
+    "key": "karpukhin2020dpr",
+    "entry_type": "inproceedings",
+    "title": "Dense passage retrieval for open-domain question answering",
+    "author": "Karpukhin, Vladimir and Oguz, Barlas and Min, Sewon and Lewis, Patrick and Wu, Ledell and Edunov, Sergey and Chen, Danqi and Yih, Wen-tau",
+    "year": "2020",
+    "venue": "Proceedings of the 2020 conference on empirical methods in natural language processing (EMNLP)",
+    "journal": "",
+    "booktitle": "Proceedings of the 2020 conference on empirical methods in natural language processing (EMNLP)",
+    "volume": "",
+    "number": "",
+    "pages": "6769--6781",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 266,
+        "context": "and machine-reading-comprehension (MRC) approaches \\citep{karpukhin2020dpr}; more recently, generative LLM-driven QA has become the dominant paradigm, further evolving into proactive,"
+      }
+    ],
+    "raw": "@inproceedings{karpukhin2020dpr,\n  title={Dense passage retrieval for open-domain question answering},\n  author={Karpukhin, Vladimir and Oguz, Barlas and Min, Sewon and Lewis, Patrick and Wu, Ledell and Edunov, Sergey and Chen, Danqi and Yih, Wen-tau},\n  booktitle={Proceedings of the 2020 conference on empirical methods in natural language processing (EMNLP)},\n  pages={6769--6781},\n  year={2020}\n}"
+  },
+  {
+    "sequence": 12,
+    "key": "yang2018hotpotqa",
+    "entry_type": "inproceedings",
+    "title": "HotpotQA: A dataset for diverse, explainable multi-hop question answering",
+    "author": "Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William and Salakhutdinov, Ruslan and Manning, Christopher D",
+    "year": "2018",
+    "venue": "Proceedings of the 2018 conference on empirical methods in natural language processing",
+    "journal": "",
+    "booktitle": "Proceedings of the 2018 conference on empirical methods in natural language processing",
+    "volume": "",
+    "number": "",
+    "pages": "2369--2380",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 273,
+        "context": "Benchmark datasets have been instrumental in driving progress, including HotpotQA \\citep{yang2018hotpotqa} for multi-hop reasoning, Natural Questions \\citep{kwiatkowski2019natural_questions} derived from real search"
+      }
+    ],
+    "raw": "@inproceedings{yang2018hotpotqa,\n  title={HotpotQA: A dataset for diverse, explainable multi-hop question answering},\n  author={Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William and Salakhutdinov, Ruslan and Manning, Christopher D},\n  booktitle={Proceedings of the 2018 conference on empirical methods in natural language processing},\n  pages={2369--2380},\n  year={2018}\n}"
+  },
+  {
+    "sequence": 13,
+    "key": "kwiatkowski2019natural_questions",
+    "entry_type": "article",
+    "title": "Natural questions: a benchmark for question answering research",
+    "author": "Kwiatkowski, Tom and Palomaki, Jennimaria and Redfield, Olivia and Collins, Michael and Parikh, Ankur and Alberti, Chris and Epstein, Danielle and Polosukhin, Illia and Devlin, Jacob and Lee, Kenton and others",
+    "year": "2019",
+    "venue": "Transactions of the Association for Computational Linguistics",
+    "journal": "Transactions of the Association for Computational Linguistics",
+    "booktitle": "",
+    "volume": "7",
+    "number": "",
+    "pages": "453--466",
+    "publisher": "MIT Press",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 274,
+        "context": "HotpotQA \\citep{yang2018hotpotqa} for multi-hop reasoning, Natural Questions \\citep{kwiatkowski2019natural_questions} derived from real search queries, and CoQA \\citep{reddy2019coqa} and QuAC \\citep{choi2018quac}"
+      }
+    ],
+    "raw": "@article{kwiatkowski2019natural_questions,\n  title={Natural questions: a benchmark for question answering research},\n  author={Kwiatkowski, Tom and Palomaki, Jennimaria and Redfield, Olivia and Collins, Michael and Parikh, Ankur and Alberti, Chris and Epstein, Danielle and Polosukhin, Illia and Devlin, Jacob and Lee, Kenton and others},\n  journal={Transactions of the Association for Computational Linguistics},\n  volume={7},\n  pages={453--466},\n  year={2019},\n  publisher={MIT Press}\n}"
+  },
+  {
+    "sequence": 14,
+    "key": "reddy2019coqa",
+    "entry_type": "article",
+    "title": "Coqa: A conversational question answering challenge",
+    "author": "Reddy, Siva and Chen, Danqi and Manning, Christopher D",
+    "year": "2019",
+    "venue": "Transactions of the Association for Computational Linguistics",
+    "journal": "Transactions of the Association for Computational Linguistics",
+    "booktitle": "",
+    "volume": "7",
+    "number": "",
+    "pages": "249--266",
+    "publisher": "MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 275,
+        "context": "Questions \\citep{kwiatkowski2019natural_questions} derived from real search queries, and CoQA \\citep{reddy2019coqa} and QuAC \\citep{choi2018quac} for conversational QA."
+      }
+    ],
+    "raw": "@article{reddy2019coqa,\n  title={Coqa: A conversational question answering challenge},\n  author={Reddy, Siva and Chen, Danqi and Manning, Christopher D},\n  journal={Transactions of the Association for Computational Linguistics},\n  volume={7},\n  pages={249--266},\n  year={2019},\n  publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}\n}"
+  },
+  {
+    "sequence": 15,
+    "key": "choi2018quac",
+    "entry_type": "inproceedings",
+    "title": "QuAC: Question answering in context",
+    "author": "Choi, Eunsol and He, He and Iyyer, Mohit and Yatskar, Mark and Yih, Wen-tau and Choi, Yejin and Liang, Percy and Zettlemoyer, Luke",
+    "year": "2018",
+    "venue": "Proceedings of the 2018 conference on empirical methods in natural language processing",
+    "journal": "",
+    "booktitle": "Proceedings of the 2018 conference on empirical methods in natural language processing",
+    "volume": "",
+    "number": "",
+    "pages": "2174--2184",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 275,
+        "context": "Questions \\citep{kwiatkowski2019natural_questions} derived from real search queries, and CoQA \\citep{reddy2019coqa} and QuAC \\citep{choi2018quac} for conversational QA."
+      }
+    ],
+    "raw": "@inproceedings{choi2018quac,\n  title={QuAC: Question answering in context},\n  author={Choi, Eunsol and He, He and Iyyer, Mohit and Yatskar, Mark and Yih, Wen-tau and Choi, Yejin and Liang, Percy and Zettlemoyer, Luke},\n  booktitle={Proceedings of the 2018 conference on empirical methods in natural language processing},\n  pages={2174--2184},\n  year={2018}\n}"
+  },
+  {
+    "sequence": 16,
+    "key": "lewis2020rag",
+    "entry_type": "article",
+    "title": "Retrieval-augmented generation for knowledge-intensive NLP tasks",
+    "author": "Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni, Fabio and Karpukhin, Vladimir and Goyal, Naman and K{\"u}ttler, Heinrich and Lewis, Mike and Yih, Wen-tau and Rockt{\"a}schel, Tim and others",
+    "year": "2020",
+    "venue": "Advances in neural information processing systems",
+    "journal": "Advances in neural information processing systems",
+    "booktitle": "",
+    "volume": "33",
+    "number": "",
+    "pages": "9459--9474",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 132,
+        "context": "\\citep{zhang2024memory_survey}. Retrieval-Augmented Generation (RAG) \\citep{lewis2020rag,gao2024rag_survey} is the primary mechanism through which multi-agent QA systems access"
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 278,
+        "context": "These resources have directly propelled advances in Retrieval-Augmented Generation (RAG) \\citep{lewis2020rag} and complex reasoning techniques."
+      }
+    ],
+    "raw": "@article{lewis2020rag,\n  title={Retrieval-augmented generation for knowledge-intensive NLP tasks},\n  author={Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni, Fabio and Karpukhin, Vladimir and Goyal, Naman and K{\"u}ttler, Heinrich and Lewis, Mike and Yih, Wen-tau and Rockt{\"a}schel, Tim and others},\n  journal={Advances in neural information processing systems},\n  volume={33},\n  pages={9459--9474},\n  year={2020}\n}"
+  },
+  {
+    "sequence": 17,
+    "key": "yao2023react",
+    "entry_type": "article",
+    "title": "ReAct: Synergizing reasoning and acting in language models",
+    "author": "Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan",
+    "year": "2022",
+    "venue": "arXiv preprint arXiv:2210.03629",
+    "journal": "arXiv preprint arXiv:2210.03629",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 299,
+        "context": "The prevailing agent architecture comprises four components \\citep{yao2023react}: \\emph{Perception} (receiving environmental input), \\emph{Planning} (task decomposition and goal setting), \\emph{Action}"
+      }
+    ],
+    "raw": "@article{yao2023react,\n  title={ReAct: Synergizing reasoning and acting in language models},\n  author={Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan},\n  journal={arXiv preprint arXiv:2210.03629},\n  year={2022}\n}"
+  },
+  {
+    "sequence": 18,
+    "key": "vaswani2017attention",
+    "entry_type": "article",
+    "title": "Attention is all you need",
+    "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+    "year": "2017",
+    "venue": "Advances in neural information processing systems",
+    "journal": "Advances in neural information processing systems",
+    "booktitle": "",
+    "volume": "30",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 318,
+        "context": "The trajectory of LLM development has been decisive in enabling this architecture: from the Transformer \\citep{vaswani2017attention} introducing self-attention, to BERT \\citep{devlin2019bert} establishing"
+      }
+    ],
+    "raw": "@article{vaswani2017attention,\n  title={Attention is all you need},\n  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia},\n  journal={Advances in neural information processing systems},\n  volume={30},\n  year={2017}\n}"
+  },
+  {
+    "sequence": 19,
+    "key": "devlin2019bert",
+    "entry_type": "inproceedings",
+    "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+    "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+    "year": "2019",
+    "venue": "Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics: human language technologies, volume 1 (long and short papers)",
+    "journal": "",
+    "booktitle": "Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics: human language technologies, volume 1 (long and short papers)",
+    "volume": "",
+    "number": "",
+    "pages": "4171--4186",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 319,
+        "context": "architecture: from the Transformer \\citep{vaswani2017attention} introducing self-attention, to BERT \\citep{devlin2019bert} establishing the pre-train--fine-tune paradigm, to GPT-3 \\citep{brown2020gpt3} and"
+      }
+    ],
+    "raw": "@inproceedings{devlin2019bert,\n  title={Bert: Pre-training of deep bidirectional transformers for language understanding},\n  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},\n  booktitle={Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics: human language technologies, volume 1 (long and short papers)},\n  pages={4171--4186},\n  year={2019}\n}"
+  },
+  {
+    "sequence": 20,
+    "key": "touvron2023llama",
+    "entry_type": "article",
+    "title": "Llama: Open and efficient foundation language models",
+    "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+    "year": "2023",
+    "venue": "arXiv preprint arXiv:2302.13971",
+    "journal": "arXiv preprint arXiv:2302.13971",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 323,
+        "context": "capabilities. Open-source models such as LLaMA \\citep{touvron2023llama} and ChatGLM \\citep{glm2024chatglm} have further democratised agent development."
+      }
+    ],
+    "raw": "@article{touvron2023llama,\n  title={Llama: Open and efficient foundation language models},\n  author={Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others},\n  journal={arXiv preprint arXiv:2302.13971},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 21,
+    "key": "glm2024chatglm",
+    "entry_type": "article",
+    "title": "Chatglm: A family of large language models from glm-130b to glm-4 all tools",
+    "author": "Glm, Team and Zeng, Aohan and Xu, Bin and Wang, Bowen and Zhang, Chenhui and Yin, Da and Zhang, Dan and Rojas, Diego and Feng, Guanyu and Zhao, Hanlin and others",
+    "year": "2024",
+    "venue": "arXiv preprint arXiv:2406.12793",
+    "journal": "arXiv preprint arXiv:2406.12793",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 324,
+        "context": "Open-source models such as LLaMA \\citep{touvron2023llama} and ChatGLM \\citep{glm2024chatglm} have further democratised agent development. The Reinforcement Learning from Human Feedback (RLHF) introduced by"
+      }
+    ],
+    "raw": "@article{glm2024chatglm,\n  title={Chatglm: A family of large language models from glm-130b to glm-4 all tools},\n  author={Glm, Team and Zeng, Aohan and Xu, Bin and Wang, Bowen and Zhang, Chenhui and Yin, Da and Zhang, Dan and Rojas, Diego and Feng, Guanyu and Zhao, Hanlin and others},\n  journal={arXiv preprint arXiv:2406.12793},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 22,
+    "key": "ouyang2022instructgpt",
+    "entry_type": "article",
+    "title": "Training language models to follow instructions with human feedback",
+    "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+    "year": "2022",
+    "venue": "Advances in neural information processing systems",
+    "journal": "Advances in neural information processing systems",
+    "booktitle": "",
+    "volume": "35",
+    "number": "",
+    "pages": "27730--27744",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "manuscript.tex",
+        "line": 326,
+        "context": "The Reinforcement Learning from Human Feedback (RLHF) introduced by InstructGPT \\citep{ouyang2022instructgpt} substantially improved instruction-following ability, a prerequisite for reliable agent"
+      }
+    ],
+    "raw": "@article{ouyang2022instructgpt,\n  title={Training language models to follow instructions with human feedback},\n  author={Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others},\n  journal={Advances in neural information processing systems},\n  volume={35},\n  pages={27730--27744},\n  year={2022}\n}"
+  },
+  {
+    "sequence": 23,
+    "key": "qian2024scaling_multiagent",
+    "entry_type": "inproceedings",
+    "title": "Scaling large language model-based multi-agent collaboration",
+    "author": "Qian, Chen and Xie, Zihao and Wang, Yifei and Liu, Wei and Zhu, Kunlun and Xia, Hanchen and Dang, Yufan and Du, Zhuoyun and Chen, Weize and Yang, Cheng and others",
+    "year": "2025",
+    "venue": "International Conference on Learning Representations",
+    "journal": "",
+    "booktitle": "International Conference on Learning Representations",
+    "volume": "2025",
+    "number": "",
+    "pages": "41488--41505",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 3,
+    "citation_contexts": [
+      {
+        "file": "ch7_en.tex",
+        "line": 67,
+        "context": "tokens without guaranteeing a commensurate information gain \\citep{qian2024scaling_multiagent}. Existing task-level scores rarely reveal which round corrected an error, which role supplied decisive evidence, which"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 180,
+        "context": "benefit of adding agents depends on both task and coordination design \\citep{qian2024scaling_multiagent}."
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 369,
+        "context": "long-range dependencies throughout an extended reasoning chain exceeds the capacity of any single model \\citep{qian2024scaling_multiagent}. \\emph{Lack of self-reflection}: a single perspective is susceptible to"
+      }
+    ],
+    "raw": "@inproceedings{qian2024scaling_multiagent,\n  title={Scaling large language model-based multi-agent collaboration},\n  author={Qian, Chen and Xie, Zihao and Wang, Yifei and Liu, Wei and Zhu, Kunlun and Xia, Hanchen and Dang, Yufan and Du, Zhuoyun and Chen, Weize and Yang, Cheng and others},\n  booktitle={International Conference on Learning Representations},\n  volume={2025},\n  pages={41488--41505},\n  year={2025}\n}"
+  },
+  {
+    "sequence": 24,
+    "key": "park2023generative_agents",
+    "entry_type": "inproceedings",
+    "title": "Generative agents: Interactive simulacra of human behavior",
+    "author": "Park, Joon Sung and O'Brien, Joseph and Cai, Carrie Jun and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S",
+    "year": "2023",
+    "venue": "Proceedings of the 36th annual ACM symposium on user interface software and technology",
+    "journal": "",
+    "booktitle": "Proceedings of the 36th annual ACM symposium on user interface software and technology",
+    "volume": "",
+    "number": "",
+    "pages": "1--22",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch7_en.tex",
+        "line": 212,
+        "context": "opportunity suggested by persistent-agent environments \\citep{park2023generative_agents,chen2024agentverse}."
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 377,
+        "context": "sub-tasks to specialised agents with distinct roles \\citep{park2023generative_agents}. This division of labour enables cross-agent verification and error"
+      }
+    ],
+    "raw": "@inproceedings{park2023generative_agents,\n  title={Generative agents: Interactive simulacra of human behavior},\n  author={Park, Joon Sung and O'Brien, Joseph and Cai, Carrie Jun and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S},\n  booktitle={Proceedings of the 36th annual ACM symposium on user interface software and technology},\n  pages={1--22},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 25,
+    "key": "liang2024divergent_debate",
+    "entry_type": "inproceedings",
+    "title": "Encouraging divergent thinking in large language models through multi-agent debate",
+    "author": "Liang, Tian and He, Zhiwei and Jiao, Wenxiang and Wang, Xing and Wang, Yan and Wang, Rui and Yang, Yujiu and Shi, Shuming and Tu, Zhaopeng",
+    "year": "2024",
+    "venue": "Proceedings of the 2024 conference on empirical methods in natural language processing",
+    "journal": "",
+    "booktitle": "Proceedings of the 2024 conference on empirical methods in natural language processing",
+    "volume": "",
+    "number": "",
+    "pages": "17889--17904",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 54,
+        "context": "improve factual QA accuracy by more than 20\\%. \\citet{liang2024divergent_debate} promote divergent thinking in LLMs via a structured debate framework, while \\citet{xiong2023inter_consistency} further"
+      }
+    ],
+    "raw": "@inproceedings{liang2024divergent_debate,\n  title={Encouraging divergent thinking in large language models through multi-agent debate},\n  author={Liang, Tian and He, Zhiwei and Jiao, Wenxiang and Wang, Xing and Wang, Yan and Wang, Rui and Yang, Yujiu and Shi, Shuming and Tu, Zhaopeng},\n  booktitle={Proceedings of the 2024 conference on empirical methods in natural language processing},\n  pages={17889--17904},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 26,
+    "key": "xiong2023inter_consistency",
+    "entry_type": "inproceedings",
+    "title": "Examining inter-consistency of large language models collaboration: An in-depth analysis via debate",
+    "author": "Xiong, Kai and Ding, Xiao and Cao, Yixin and Liu, Ting and Qin, Bing",
+    "year": "2023",
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "journal": "",
+    "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "volume": "",
+    "number": "",
+    "pages": "7572--7590",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 55,
+        "context": "\\citet{liang2024divergent_debate} promote divergent thinking in LLMs via a structured debate framework, while \\citet{xiong2023inter_consistency} further confirm that cross-model debate significantly enhances inter-agent consistency."
+      }
+    ],
+    "raw": "@inproceedings{xiong2023inter_consistency,\n  title={Examining inter-consistency of large language models collaboration: An in-depth analysis via debate},\n  author={Xiong, Kai and Ding, Xiao and Cao, Yixin and Liu, Ting and Qin, Bing},\n  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},\n  pages={7572--7590},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 27,
+    "key": "li2023camel",
+    "entry_type": "article",
+    "title": "Camel: Communicative agents for\" mind\" exploration of large language model society",
+    "author": "Li, Guohao and Hammoud, Hasan and Itani, Hani and Khizbullin, Dmitrii and Ghanem, Bernard",
+    "year": "2023",
+    "venue": "Advances in neural information processing systems",
+    "journal": "Advances in neural information processing systems",
+    "booktitle": "",
+    "volume": "36",
+    "number": "",
+    "pages": "51991--52008",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 5,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 63,
+        "context": "prompting them to engage in spontaneous professional dialogue. The representative CAMEL framework \\citep{li2023camel} adopts a dual-role design---``AI User'' and ``AI Assistant''---and employs Inception Prompting"
+      },
+      {
+        "file": "ch3_en.tex",
+        "line": 250,
+        "context": "Role-driven collaboration & CAMEL \\citep{li2023camel} & Assigned personas divide labour; spontaneous QA decomposition &"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 242,
+        "context": "\\midrule CAMEL \\citep{li2023camel} & 2023 & KAUST et al. & Flat & Prompt injection, role-play dialogue &"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 231,
+        "context": "knowledge extender) simulates classroom brainstorming, consistent with the designs of CAMEL \\citep{li2023camel} and debate mechanisms \\citep{du2024multiagent_debate}."
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 400,
+        "context": "outperforming single-agent generation in code quality; CAMEL \\citep{li2023camel} demonstrates that a user--assistant dual-role design markedly improves coherence and accuracy in open-ended QA."
+      }
+    ],
+    "raw": "@article{li2023camel,\n  title={Camel: Communicative agents for\" mind\" exploration of large language model society},\n  author={Li, Guohao and Hammoud, Hasan and Itani, Hani and Khizbullin, Dmitrii and Ghanem, Bernard},\n  journal={Advances in neural information processing systems},\n  volume={36},\n  pages={51991--52008},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 28,
+    "key": "qian2023chatdev",
+    "entry_type": "inproceedings",
+    "title": "ChatDev: Communicative agents for software development",
+    "author": "Qian, Chen and Liu, Wei and Liu, Hongzhang and Chen, Nuo and Dang, Yufan and Li, Jiahao and Yang, Cheng and Chen, Weize and Su, Yusheng and Cong, Xin and others",
+    "year": "2024",
+    "venue": "Proceedings of the 62nd annual meeting of the association for computational linguistics (volume 1: Long papers)",
+    "journal": "",
+    "booktitle": "Proceedings of the 62nd annual meeting of the association for computational linguistics (volume 1: Long papers)",
+    "volume": "",
+    "number": "",
+    "pages": "15174--15186",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 7,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 113,
+        "context": "workflow from requirements analysis to code output. ChatDev \\citep{qian2023chatdev} simulates a virtual software company where CEO, CTO, and programmers form a development pipeline through ChatChain."
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 29,
+        "context": "This mechanism is widely used in the software-development collaboration of ChatDev \\citep{qian2023chatdev}."
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 247,
+        "context": "Exploratory dialogue, general task simulation \\\\ ChatDev \\citep{qian2023chatdev} & 2023 & Tsinghua Univ. & Hierarchical & Shared blackboard, ChatChain pipeline &"
+      },
+      {
+        "file": "ch5_en.tex",
+        "line": 41,
+        "context": "Software Engineering & ChatDev \\citep{qian2023chatdev} & Cross-file logic dependencies; multi-round compilation and debug feedback &"
+      },
+      {
+        "file": "ch5_en.tex",
+        "line": 105,
+        "context": "systems. SWE-agent \\citep{yang2024swe_agent} and ChatDev \\citep{qian2023chatdev} convert complex software-engineering requirements into multi-round"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 262,
+        "context": "The remarkable success of MetaGPT \\citep{hong2024metagpt} and ChatDev \\citep{qian2023chatdev} in this domain confirms the deduction."
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 358,
+        "context": "Hierarchical (Leader dispatch + Member parallel) & \\checkmark \\\\[3pt] ChatDev \\citep{qian2023chatdev} & Full-cycle software engineering &"
+      }
+    ],
+    "raw": "@inproceedings{qian2023chatdev,\n  title={ChatDev: Communicative agents for software development},\n  author={Qian, Chen and Liu, Wei and Liu, Hongzhang and Chen, Nuo and Dang, Yufan and Li, Jiahao and Yang, Cheng and Chen, Weize and Su, Yusheng and Cong, Xin and others},\n  booktitle={Proceedings of the 62nd annual meeting of the association for computational linguistics (volume 1: Long papers)},\n  pages={15174--15186},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 29,
+    "key": "gao2024rag_survey",
+    "entry_type": "article",
+    "title": "Retrieval-augmented generation for large language models: A survey",
+    "author": "Gao, Yunfan and Xiong, Yun and Gao, Xinyu and Jia, Kangxiang and Pan, Jinliu and Bi, Yuxi and Dai, Yixin and Sun, Jiawei and Wang, Haofen and others",
+    "year": "2023",
+    "venue": "arXiv preprint arXiv:2312.10997",
+    "journal": "arXiv preprint arXiv:2312.10997",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 3,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 122,
+        "context": "In knowledge-intensive QA tasks, agents are often organised into a Plan--Retrieve--Generate pipeline \\citep{gao2024rag_survey}, comprising dedicated Planner, Retriever, Generator, and Verifier agents."
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 132,
+        "context": "\\citep{zhang2024memory_survey}. Retrieval-Augmented Generation (RAG) \\citep{lewis2020rag,gao2024rag_survey} is the primary mechanism through which multi-agent QA systems access"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 248,
+        "context": "``Hierarchical RAG + Flat Debate Enhancement + Human Review Backstop'' that balances deep retrieval with prudent decision-making \\citep{gao2024rag_survey}."
+      }
+    ],
+    "raw": "@article{gao2024rag_survey,\n  title={Retrieval-augmented generation for large language models: A survey},\n  author={Gao, Yunfan and Xiong, Yun and Gao, Xinyu and Jia, Kangxiang and Pan, Jinliu and Bi, Yuxi and Dai, Yixin and Sun, Jiawei and Wang, Haofen and others},\n  journal={arXiv preprint arXiv:2312.10997},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 30,
+    "key": "shen2024hugginggpt",
+    "entry_type": "article",
+    "title": "HuggingGPT: Solving AI tasks with ChatGPT and its friends in Hugging Face",
+    "author": "Shen, Yongliang and Song, Kaitao and Tan, Xu and Li, Dongsheng and Lu, Weiming and Zhuang, Yueting",
+    "year": "2023",
+    "venue": "Advances in Neural Information Processing Systems",
+    "journal": "Advances in Neural Information Processing Systems",
+    "booktitle": "",
+    "volume": "36",
+    "number": "",
+    "pages": "38154--38180",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 124,
+        "context": "dedicated Planner, Retriever, Generator, and Verifier agents. For instance, HuggingGPT \\citep{shen2024hugginggpt} uses a central controller to conduct multi-step planning over user requests and"
+      }
+    ],
+    "raw": "@article{shen2024hugginggpt,\n  title={HuggingGPT: Solving AI tasks with ChatGPT and its friends in Hugging Face},\n  author={Shen, Yongliang and Song, Kaitao and Tan, Xu and Li, Dongsheng and Lu, Weiming and Zhuang, Yueting},\n  journal={Advances in Neural Information Processing Systems},\n  volume={36},\n  pages={38154--38180},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 31,
+    "key": "zhao2024longagent",
+    "entry_type": "inproceedings",
+    "title": "LONGAGENT: achieving question answering for 128k-token-long documents through multi-agent collaboration",
+    "author": "Zhao, Jun and Zu, Can and Hao, Xu and Lu, Yi and He, Wei and Ding, Yiwen and Gui, Tao and Zhang, Qi and Huang, Xuan-Jing",
+    "year": "2024",
+    "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "journal": "",
+    "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "volume": "",
+    "number": "",
+    "pages": "16310--16324",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 5,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 127,
+        "context": "sequentially invokes specialised tool models in a pipeline; LONGAGENT \\citep{zhao2024longagent} abstracts long-document QA into read, extract, and aggregate pipeline stages, effectively addressing ultra-long-text QA."
+      },
+      {
+        "file": "ch3_en.tex",
+        "line": 269,
+        "context": "Serial pipeline & LONGAGENT \\citep{zhao2024longagent} & Plan$\\to$Retrieve$\\to$Generate; standardised three-stage flow &"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 196,
+        "context": "Transformers faces severe computational bottlenecks. Chain-of-Agents \\citep{zhao2024longagent}, Tree of Thoughts \\citep{yao2023tree_of_thoughts}, and Graph of Thoughts"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 215,
+        "context": "information transmission. LONGAGENT \\citep{zhao2024longagent} demonstrates the efficiency and rigour of this serial pipeline in ultra-long document QA."
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 353,
+        "context": "Hierarchical (three-role four-stage serial pipeline) & \\checkmark \\\\[3pt] LONGAGENT \\citep{zhao2024longagent} & Ultra-long document multi-hop QA &"
+      }
+    ],
+    "raw": "@inproceedings{zhao2024longagent,\n  title={LONGAGENT: achieving question answering for 128k-token-long documents through multi-agent collaboration},\n  author={Zhao, Jun and Zu, Can and Hao, Xu and Lu, Yi and He, Wei and Ding, Yiwen and Gui, Tao and Zhang, Qi and Huang, Xuan-Jing},\n  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},\n  pages={16310--16324},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 32,
+    "key": "khattab2024dspy",
+    "entry_type": "inproceedings",
+    "title": "DSPy: compiling declarative language model calls into state-of-the-art pipelines",
+    "author": "Khattab, Omar and Singhvi, Arnav and Maheshwari, Paridhi and Zhang, Zhiyuan and Santhanam, Keshav and Haq, Saiful and Sharma, Ashutosh and Joshi, Thomas and Moazam, Hanna and Miller, Heather and others",
+    "year": "2024",
+    "venue": "International Conference on Learning Representations",
+    "journal": "",
+    "booktitle": "International Conference on Learning Representations",
+    "volume": "2024",
+    "number": "",
+    "pages": "54928--54958",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 103,
+        "context": "overloaded while others remain idle. Advanced frameworks such as DSPy \\citep{khattab2024dspy} support dynamic scheduling: the system monitors response latency and accuracy of individual"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 267,
+        "context": "NLP evaluation, multi-step logical problem-solving \\\\ DSPy \\citep{khattab2024dspy} & 2024 & Stanford & Hierarchical & Modular declarative function calls &"
+      }
+    ],
+    "raw": "@inproceedings{khattab2024dspy,\n  title={DSPy: compiling declarative language model calls into state-of-the-art pipelines},\n  author={Khattab, Omar and Singhvi, Arnav and Maheshwari, Paridhi and Zhang, Zhiyuan and Santhanam, Keshav and Haq, Saiful and Sharma, Ashutosh and Joshi, Thomas and Moazam, Hanna and Miller, Heather and others},\n  booktitle={International Conference on Learning Representations},\n  volume={2024},\n  pages={54928--54958},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 33,
+    "key": "duan2024langgraph_crewai",
+    "entry_type": "article",
+    "title": "Exploration of LLM multi-agent application implementation based on LangGraph+CrewAI",
+    "author": "Duan, Zhihua and Wang, Jialin",
+    "year": "2024",
+    "venue": "arXiv preprint arXiv:2411.18241",
+    "journal": "arXiv preprint arXiv:2411.18241",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 3,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 174,
+        "context": "Some research frames multi-agent systems as executable graph structures. The LangGraph framework \\citep{duan2024langgraph_crewai} uses directed graphs to define state-machine transitions among agents, supporting complex"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 272,
+        "context": "Complex QA pipelines, RAG performance tuning \\\\ LangGraph \\citep{duan2024langgraph_crewai} & 2024 & LangChain & Hybrid & State-graph edge transitions &"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 93,
+        "context": "workflow breakpoint, a textual correction, or final approval \\citep{duan2024langgraph_crewai,langgraph2024}. Such mechanisms answer whether a human can enter the loop, but not when intervention is most effective, what"
+      }
+    ],
+    "raw": "@article{duan2024langgraph_crewai,\n  title={Exploration of LLM multi-agent application implementation based on LangGraph+CrewAI},\n  author={Duan, Zhihua and Wang, Jialin},\n  journal={arXiv preprint arXiv:2411.18241},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 34,
+    "key": "zhuge2024gptswarm",
+    "entry_type": "inproceedings",
+    "title": "Gptswarm: Language agents as optimizable graphs",
+    "author": "Zhuge, Mingchen and Wang, Wenyi and Kirsch, Louis and Faccio, Francesco and Khizbullin, Dmitrii and Schmidhuber, J{\\\"u}rgen",
+    "year": "2024",
+    "venue": "Forty-first International Conference on Machine Learning",
+    "journal": "",
+    "booktitle": "Forty-first International Conference on Machine Learning",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 3,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 177,
+        "context": "loops and conditional branches. GPTSwarm \\citep{zhuge2024gptswarm} goes further by treating language agents as an optimisable computational graph, capable of automatically finding"
+      },
+      {
+        "file": "ch3_en.tex",
+        "line": 282,
+        "context": "Graph-routed network & GPTSwarm \\citep{zhuge2024gptswarm} & Agents as optimisable directed graph; supports loops and branches &"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 277,
+        "context": "Production-grade fault-tolerant long-running QA \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & 2024 & Swiss AI Lab & Hybrid & Computational graph topology connections &"
+      }
+    ],
+    "raw": "@inproceedings{zhuge2024gptswarm,\n  title={Gptswarm: Language agents as optimizable graphs},\n  author={Zhuge, Mingchen and Wang, Wenyi and Kirsch, Louis and Faccio, Francesco and Khizbullin, Dmitrii and Schmidhuber, J{\\\"u}rgen},\n  booktitle={Forty-first International Conference on Machine Learning},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 35,
+    "key": "chen2024agentverse",
+    "entry_type": "inproceedings",
+    "title": "Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors",
+    "author": "Chen, Weize and Su, Yusheng and Zuo, Jingwei and Yang, Cheng and Yuan, Chenfei and Chan, Chi-Min and Yu, Heyang and Lu, Yaxi and Hung, Yi-Hsin and Qian, Chen and others",
+    "year": "2024",
+    "venue": "International Conference on Learning Representations",
+    "journal": "",
+    "booktitle": "International Conference on Learning Representations",
+    "volume": "2024",
+    "number": "",
+    "pages": "20094--20136",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 5,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 187,
+        "context": "mode switching. AgentVerse \\citep{chen2024agentverse} proposes a dynamic cycle of ``expert recruitment $\\to$ collaborative decision-making $\\to$ action"
+      },
+      {
+        "file": "ch3_en.tex",
+        "line": 288,
+        "context": "Complexity-adaptive switching & AgentVerse \\citep{chen2024agentverse} & Simple queries handled flat; complex queries handled hierarchically &"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 91,
+        "context": "agents. MetaGPT \\citep{hong2024metagpt} and AgentVerse \\citep{chen2024agentverse} construct fine-grained agent profiles (Agent Profiling) that tag each agent"
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 262,
+        "context": "Complex conversational reasoning, code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & 2024 & Tsinghua et al. & Hybrid & Explicit messages + debate protocol &"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 212,
+        "context": "opportunity suggested by persistent-agent environments \\citep{park2023generative_agents,chen2024agentverse}."
+      }
+    ],
+    "raw": "@inproceedings{chen2024agentverse,\n  title={Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors},\n  author={Chen, Weize and Su, Yusheng and Zuo, Jingwei and Yang, Cheng and Yuan, Chenfei and Chan, Chi-Min and Yu, Heyang and Lu, Yaxi and Hung, Yi-Hsin and Qian, Chen and others},\n  booktitle={International Conference on Learning Representations},\n  volume={2024},\n  pages={20094--20136},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 36,
+    "key": "kim2024mdagents",
+    "entry_type": "article",
+    "title": "Mdagents: An adaptive collaboration of llms for medical decision-making",
+    "author": "Kim, Yubin and Park, Chanwoo and Jeong, Hyewon and Chan, Yik S and Xu, Xuhai and McDuff, Daniel and Lee, Hyeonhoon and Ghassemi, Marzyeh and Breazeal, Cynthia and Park, Hae W",
+    "year": "2024",
+    "venue": "Advances in Neural Information Processing Systems",
+    "journal": "Advances in Neural Information Processing Systems",
+    "booktitle": "",
+    "volume": "37",
+    "number": "",
+    "pages": "79410--79452",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 4,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 191,
+        "context": "decision-making while a hierarchical allocation mode governs execution. MDAgents \\citep{kim2024mdagents} automatically assesses medical question complexity and dynamically restructures the agent team's collaborative"
+      },
+      {
+        "file": "ch5_en.tex",
+        "line": 58,
+        "context": "reasoning on complex rare-disease cases. MDAgents \\citep{kim2024mdagents} and systems enhanced with Med-PaLM \\citep{singhal2023medpalm} can adaptively recruit different numbers of"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 199,
+        "context": "diagnostic review. MDAgents \\citep{kim2024mdagents} validates this multi-specialty role collaboration with safety review in analogous scenarios."
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 178,
+        "context": "changing collaboration according to problem difficulty \\citep{kim2024mdagents}, while broader scaling results indicate that the benefit of adding agents depends on both task and coordination design"
+      }
+    ],
+    "raw": "@article{kim2024mdagents,\n  title={Mdagents: An adaptive collaboration of llms for medical decision-making},\n  author={Kim, Yubin and Park, Chanwoo and Jeong, Hyewon and Chan, Yik S and Xu, Xuhai and McDuff, Daniel and Lee, Hyeonhoon and Ghassemi, Marzyeh and Breazeal, Cynthia and Park, Hae W},\n  journal={Advances in Neural Information Processing Systems},\n  volume={37},\n  pages={79410--79452},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 37,
+    "key": "zhou2023least_to_most",
+    "entry_type": "article",
+    "title": "Least-to-most prompting enables complex reasoning in large language models",
+    "author": "Zhou, Denny and Sch{\"a}rli, Nathanael and Hou, Le and Wei, Jason and Scales, Nathan and Wang, Xuezhi and Schuurmans, Dale and Cui, Claire and Bousquet, Olivier and Le, Quoc and others",
+    "year": "2022",
+    "venue": "arXiv preprint arXiv:2205.10625",
+    "journal": "arXiv preprint arXiv:2205.10625",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 68,
+        "context": "into sub-tasks that can be processed in parallel or sequentially. Least-to-Most Prompting \\citep{zhou2023least_to_most} and Decomposed Prompting \\citep{khot2023decomposed_prompting} allow a model to solve simpler"
+      }
+    ],
+    "raw": "@article{zhou2023least_to_most,\n  title={Least-to-most prompting enables complex reasoning in large language models},\n  author={Zhou, Denny and Sch{\"a}rli, Nathanael and Hou, Le and Wei, Jason and Scales, Nathan and Wang, Xuezhi and Schuurmans, Dale and Cui, Claire and Bousquet, Olivier and Le, Quoc and others},\n  journal={arXiv preprint arXiv:2205.10625},\n  year={2022}\n}"
+  },
+  {
+    "sequence": 38,
+    "key": "khot2023decomposed_prompting",
+    "entry_type": "article",
+    "title": "Decomposed prompting: A modular approach for solving complex tasks",
+    "author": "Khot, Tushar and Trivedi, Harsh and Finlayson, Matthew and Fu, Yao and Richardson, Kyle and Clark, Peter and Sabharwal, Ashish",
+    "year": "2022",
+    "venue": "arXiv preprint arXiv:2210.02406",
+    "journal": "arXiv preprint arXiv:2210.02406",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 69,
+        "context": "Least-to-Most Prompting \\citep{zhou2023least_to_most} and Decomposed Prompting \\citep{khot2023decomposed_prompting} allow a model to solve simpler sub-problems first and then exploit their answers to resolve the ultimate"
+      }
+    ],
+    "raw": "@article{khot2023decomposed_prompting,\n  title={Decomposed prompting: A modular approach for solving complex tasks},\n  author={Khot, Tushar and Trivedi, Harsh and Finlayson, Matthew and Fu, Yao and Richardson, Kyle and Clark, Peter and Sabharwal, Ashish},\n  journal={arXiv preprint arXiv:2210.02406},\n  year={2022}\n}"
+  },
+  {
+    "sequence": 39,
+    "key": "wang2023plan_and_solve",
+    "entry_type": "inproceedings",
+    "title": "Plan-and-solve prompting: Improving zero-shot chain-of-thought reasoning by large language models",
+    "author": "Wang, Lei and Xu, Wanyu and Lan, Yihuai and Hu, Zhiqiang and Lan, Yunshi and Lee, Roy Ka-Wei and Lim, Ee-Peng",
+    "year": "2023",
+    "venue": "Proceedings of the 61st annual meeting of the association for computational linguistics (volume 1: long papers)",
+    "journal": "",
+    "booktitle": "Proceedings of the 61st annual meeting of the association for computational linguistics (volume 1: long papers)",
+    "volume": "",
+    "number": "",
+    "pages": "2609--2634",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 71,
+        "context": "sub-problems first and then exploit their answers to resolve the ultimate target; Plan-and-Solve \\citep{wang2023plan_and_solve} explicitly separates the planning and solving phases, substantially improving decomposition"
+      }
+    ],
+    "raw": "@inproceedings{wang2023plan_and_solve,\n  title={Plan-and-solve prompting: Improving zero-shot chain-of-thought reasoning by large language models},\n  author={Wang, Lei and Xu, Wanyu and Lan, Yihuai and Hu, Zhiqiang and Lan, Yunshi and Lee, Roy Ka-Wei and Lim, Ee-Peng},\n  booktitle={Proceedings of the 61st annual meeting of the association for computational linguistics (volume 1: long papers)},\n  pages={2609--2634},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 40,
+    "key": "packer2023memgpt",
+    "entry_type": "article",
+    "title": "MemGPT: towards LLMs as operating systems.",
+    "author": "Packer, Charles and Fang, Vivian and Patil, Shishir\\_G and Lin, Kevin and Wooders, Sarah and Gonzalez, Joseph\\_E",
+    "year": "2023",
+    "venue": "",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "ArXiv",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 120,
+        "context": "To prevent the model from forgetting in extended conversations, MemGPT \\citep{packer2023memgpt} draws on the paged-memory mechanism of modern operating systems to design a hierarchical working-memory system."
+      }
+    ],
+    "raw": "@article{packer2023memgpt,\n  title={MemGPT: towards LLMs as operating systems.},\n  author={Packer, Charles and Fang, Vivian and Patil, Shishir\\_G and Lin, Kevin and Wooders, Sarah and Gonzalez, Joseph\\_E},\n  year={2023},\n  publisher={ArXiv}\n}"
+  },
+  {
+    "sequence": 41,
+    "key": "zhang2024memory_survey",
+    "entry_type": "article",
+    "title": "A survey on the memory mechanism of large language model-based agents",
+    "author": "Zhang, Zeyu and Dai, Quanyu and Bo, Xiaohe and Ma, Chen and Li, Rui and Chen, Xu and Zhu, Jieming and Dong, Zhenhua and Wen, Ji-Rong",
+    "year": "2025",
+    "venue": "ACM Transactions on Information Systems",
+    "journal": "ACM Transactions on Information Systems",
+    "booktitle": "",
+    "volume": "43",
+    "number": "6",
+    "pages": "1--47",
+    "publisher": "ACM New York, NY",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 131,
+        "context": "historical experiences and external domain knowledge \\citep{zhang2024memory_survey}. Retrieval-Augmented Generation (RAG) \\citep{lewis2020rag,gao2024rag_survey}"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 199,
+        "context": "feedback provides useful components for such updating \\citep{zhang2024memory_survey,shinn2023reflexion}. To prevent unverified content from becoming persistent knowledge, each update should retain its"
+      }
+    ],
+    "raw": "@article{zhang2024memory_survey,\n  title={A survey on the memory mechanism of large language model-based agents},\n  author={Zhang, Zeyu and Dai, Quanyu and Bo, Xiaohe and Ma, Chen and Li, Rui and Chen, Xu and Zhu, Jieming and Dong, Zhenhua and Wen, Ji-Rong},\n  journal={ACM Transactions on Information Systems},\n  volume={43},\n  number={6},\n  pages={1--47},\n  year={2025},\n  publisher={ACM New York, NY}\n}"
+  },
+  {
+    "sequence": 42,
+    "key": "asai2024selfrag",
+    "entry_type": "inproceedings",
+    "title": "Self-RAG: Learning to retrieve, generate, and critique through self-reflection",
+    "author": "Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avi and Hajishirzi, Hannaneh",
+    "year": "2024",
+    "venue": "International conference on learning representations",
+    "journal": "",
+    "booktitle": "International conference on learning representations",
+    "volume": "2024",
+    "number": "",
+    "pages": "9112--9141",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 148,
+        "context": "Retrieval has evolved from early passive Naive RAG to Self-RAG \\citep{asai2024selfrag} and proactive retrieval (FLARE) \\citep{jiang2023active_rag}; specialised retrieval agents can now"
+      }
+    ],
+    "raw": "@inproceedings{asai2024selfrag,\n  title={Self-RAG: Learning to retrieve, generate, and critique through self-reflection},\n  author={Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avi and Hajishirzi, Hannaneh},\n  booktitle={International conference on learning representations},\n  volume={2024},\n  pages={9112--9141},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 43,
+    "key": "jiang2023active_rag",
+    "entry_type": "inproceedings",
+    "title": "Active retrieval augmented generation",
+    "author": "Jiang, Zhengbao and Xu, Frank F and Gao, Luyu and Sun, Zhiqing and Liu, Qian and Dwivedi-Yu, Jane and Yang, Yiming and Callan, Jamie and Neubig, Graham",
+    "year": "2023",
+    "venue": "Proceedings of the 2023 conference on empirical methods in natural language processing",
+    "journal": "",
+    "booktitle": "Proceedings of the 2023 conference on empirical methods in natural language processing",
+    "volume": "",
+    "number": "",
+    "pages": "7969--7992",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 149,
+        "context": "\\citep{asai2024selfrag} and proactive retrieval (FLARE) \\citep{jiang2023active_rag}; specialised retrieval agents can now autonomously determine when to retrieve, evaluate retrieval quality, and"
+      }
+    ],
+    "raw": "@inproceedings{jiang2023active_rag,\n  title={Active retrieval augmented generation},\n  author={Jiang, Zhengbao and Xu, Frank F and Gao, Luyu and Sun, Zhiqing and Liu, Qian and Dwivedi-Yu, Jane and Yang, Yiming and Callan, Jamie and Neubig, Graham},\n  booktitle={Proceedings of the 2023 conference on empirical methods in natural language processing},\n  pages={7969--7992},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 44,
+    "key": "wei2022chain_of_thought",
+    "entry_type": "article",
+    "title": "Chain-of-thought prompting elicits reasoning in large language models",
+    "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+    "year": "2022",
+    "venue": "Advances in neural information processing systems",
+    "journal": "Advances in neural information processing systems",
+    "booktitle": "",
+    "volume": "35",
+    "number": "",
+    "pages": "24824--24837",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 171,
+        "context": "Chain-of-Thought (CoT) prompting \\citep{wei2022chain_of_thought} has greatly unlocked the reasoning potential of LLMs."
+      }
+    ],
+    "raw": "@article{wei2022chain_of_thought,\n  title={Chain-of-thought prompting elicits reasoning in large language models},\n  author={Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others},\n  journal={Advances in neural information processing systems},\n  volume={35},\n  pages={24824--24837},\n  year={2022}\n}"
+  },
+  {
+    "sequence": 45,
+    "key": "wang2023self_consistency",
+    "entry_type": "article",
+    "title": "Self-consistency improves chain of thought reasoning in language models",
+    "author": "Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc and Chi, Ed and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny",
+    "year": "2022",
+    "venue": "arXiv preprint arXiv:2203.11171",
+    "journal": "arXiv preprint arXiv:2203.11171",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 175,
+        "context": "multiple agents sample several reasoning paths via Self-Consistency \\citep{wang2023self_consistency} and exchange their intermediate reasoning steps; cross-verification then selects the most logically sound answer."
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 188,
+        "context": "chain and $\\mathbf{1}[\\cdot]$ is the indicator function. Agents also exchange intermediate steps \\citep{wang2023self_consistency}, effectively reducing the risk of hallucination in any single chain."
+      }
+    ],
+    "raw": "@article{wang2023self_consistency,\n  title={Self-consistency improves chain of thought reasoning in language models},\n  author={Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc and Chi, Ed and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny},\n  journal={arXiv preprint arXiv:2203.11171},\n  year={2022}\n}"
+  },
+  {
+    "sequence": 46,
+    "key": "yao2023tree_of_thoughts",
+    "entry_type": "article",
+    "title": "Tree of thoughts: Deliberate problem solving with large language models",
+    "author": "Yao, Shunyu and Yu, Dian and Zhao, Jeffrey and Shafran, Izhak and Griffiths, Tom and Cao, Yuan and Narasimhan, Karthik",
+    "year": "2023",
+    "venue": "Advances in neural information processing systems",
+    "journal": "Advances in neural information processing systems",
+    "booktitle": "",
+    "volume": "36",
+    "number": "",
+    "pages": "11809--11822",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 197,
+        "context": "Chain-of-Agents \\citep{zhao2024longagent}, Tree of Thoughts \\citep{yao2023tree_of_thoughts}, and Graph of Thoughts \\citep{besta2024graph_of_thoughts} distribute reasoning across multiple"
+      }
+    ],
+    "raw": "@article{yao2023tree_of_thoughts,\n  title={Tree of thoughts: Deliberate problem solving with large language models},\n  author={Yao, Shunyu and Yu, Dian and Zhao, Jeffrey and Shafran, Izhak and Griffiths, Tom and Cao, Yuan and Narasimhan, Karthik},\n  journal={Advances in neural information processing systems},\n  volume={36},\n  pages={11809--11822},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 47,
+    "key": "besta2024graph_of_thoughts",
+    "entry_type": "inproceedings",
+    "title": "Graph of thoughts: Solving elaborate problems with large language models",
+    "author": "Besta, Maciej and Blach, Nils and Kubicek, Ales and Gerstenberger, Robert and Podstawski, Michal and Gianinazzi, Lukas and Gajda, Joanna and Lehmann, Tomasz and Niewiadomski, Hubert and Nyczyk, Piotr and others",
+    "year": "2024",
+    "venue": "Proceedings of the AAAI conference on artificial intelligence",
+    "journal": "",
+    "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+    "volume": "38",
+    "number": "16",
+    "pages": "17682--17690",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 198,
+        "context": "\\citep{yao2023tree_of_thoughts}, and Graph of Thoughts \\citep{besta2024graph_of_thoughts} distribute reasoning across multiple serially or graph-connected agents."
+      }
+    ],
+    "raw": "@inproceedings{besta2024graph_of_thoughts,\n  title={Graph of thoughts: Solving elaborate problems with large language models},\n  author={Besta, Maciej and Blach, Nils and Kubicek, Ales and Gerstenberger, Robert and Podstawski, Michal and Gianinazzi, Lukas and Gajda, Joanna and Lehmann, Tomasz and Niewiadomski, Hubert and Nyczyk, Piotr and others},\n  booktitle={Proceedings of the AAAI conference on artificial intelligence},\n  volume={38},\n  number={16},\n  pages={17682--17690},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 48,
+    "key": "shinn2023reflexion",
+    "entry_type": "article",
+    "title": "Reflexion: Language agents with verbal reinforcement learning",
+    "author": "Shinn, Noah and Cassano, Federico and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu",
+    "year": "2023",
+    "venue": "Advances in neural information processing systems",
+    "journal": "Advances in neural information processing systems",
+    "booktitle": "",
+    "volume": "36",
+    "number": "",
+    "pages": "8634--8652",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 209,
+        "context": "self-examination. The Reflexion framework \\citep{shinn2023reflexion} and Self-Refine \\citep{madaan2023self_refine} introduce language-feedback-based"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 199,
+        "context": "feedback provides useful components for such updating \\citep{zhang2024memory_survey,shinn2023reflexion}. To prevent unverified content from becoming persistent knowledge, each update should retain its"
+      }
+    ],
+    "raw": "@article{shinn2023reflexion,\n  title={Reflexion: Language agents with verbal reinforcement learning},\n  author={Shinn, Noah and Cassano, Federico and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu},\n  journal={Advances in neural information processing systems},\n  volume={36},\n  pages={8634--8652},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 49,
+    "key": "madaan2023self_refine",
+    "entry_type": "article",
+    "title": "Self-refine: Iterative refinement with self-feedback",
+    "author": "Madaan, Aman and Tandon, Niket and Gupta, Prakhar and Hallinan, Skyler and Gao, Luyu and Wiegreffe, Sarah and Alon, Uri and Dziri, Nouha and Prabhumoye, Shrimai and Yang, Yiming and others",
+    "year": "2023",
+    "venue": "Advances in neural information processing systems",
+    "journal": "Advances in neural information processing systems",
+    "booktitle": "",
+    "volume": "36",
+    "number": "",
+    "pages": "46534--46594",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 210,
+        "context": "The Reflexion framework \\citep{shinn2023reflexion} and Self-Refine \\citep{madaan2023self_refine} introduce language-feedback-based reinforcement learning, enabling agents to regenerate answers based on"
+      }
+    ],
+    "raw": "@article{madaan2023self_refine,\n  title={Self-refine: Iterative refinement with self-feedback},\n  author={Madaan, Aman and Tandon, Niket and Gupta, Prakhar and Hallinan, Skyler and Gao, Luyu and Wiegreffe, Sarah and Alon, Uri and Dziri, Nouha and Prabhumoye, Shrimai and Yang, Yiming and others},\n  journal={Advances in neural information processing systems},\n  volume={36},\n  pages={46534--46594},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 50,
+    "key": "dhuliawala2023chain_of_verification",
+    "entry_type": "inproceedings",
+    "title": "Chain-of-verification reduces hallucination in large language models",
+    "author": "Dhuliawala, Shehzaad and Komeili, Mojtaba and Xu, Jing and Raileanu, Roberta and Li, Xian and Celikyilmaz, Asli and Weston, Jason",
+    "year": "2024",
+    "venue": "Findings of the association for computational linguistics: ACL 2024",
+    "journal": "",
+    "booktitle": "Findings of the association for computational linguistics: ACL 2024",
+    "volume": "",
+    "number": "",
+    "pages": "3563--3578",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 214,
+        "context": "In addition, combined with Chain-of-Verification \\citep{dhuliawala2023chain_of_verification}, the system can configure dedicated \\emph{Critic} agents that rigorously audit generated results for"
+      }
+    ],
+    "raw": "@inproceedings{dhuliawala2023chain_of_verification,\n  title={Chain-of-verification reduces hallucination in large language models},\n  author={Dhuliawala, Shehzaad and Komeili, Mojtaba and Xu, Jing and Raileanu, Roberta and Li, Xian and Celikyilmaz, Asli and Weston, Jason},\n  booktitle={Findings of the association for computational linguistics: ACL 2024},\n  pages={3563--3578},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 51,
+    "key": "tang2024medagents",
+    "entry_type": "inproceedings",
+    "title": "Medagents: Large language models as collaborators for zero-shot medical reasoning",
+    "author": "Tang, Xiangru and Zou, Anni and Zhang, Zhuosheng and Li, Ziming and Zhao, Yilun and Zhang, Xingyao and Cohan, Arman and Gerstein, Mark",
+    "year": "2024",
+    "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "journal": "",
+    "booktitle": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "volume": "",
+    "number": "",
+    "pages": "599--621",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 4,
+    "citation_contexts": [
+      {
+        "file": "ch5_en.tex",
+        "line": 26,
+        "context": "Healthcare & MedAgents \\citep{tang2024medagents} & Extremely high factual accuracy demands; long-tail rare-disease diagnosis &"
+      },
+      {
+        "file": "ch5_en.tex",
+        "line": 54,
+        "context": "and rigour. MedAgents \\citep{tang2024medagents} proposes a multi-disciplinary cross-verification collaborative framework that simulates a multi-specialty"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 333,
+        "context": "\\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA &"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 85,
+        "context": "importance of specialised knowledge and multi-role reasoning \\citep{tang2024medagents,cui2023chatlaw}; they also expose the gap between benchmark performance and the requirements of accountable deployment. This"
+      }
+    ],
+    "raw": "@inproceedings{tang2024medagents,\n  title={Medagents: Large language models as collaborators for zero-shot medical reasoning},\n  author={Tang, Xiangru and Zou, Anni and Zhang, Zhuosheng and Li, Ziming and Zhao, Yilun and Zhang, Xingyao and Cohan, Arman and Gerstein, Mark},\n  booktitle={Findings of the Association for Computational Linguistics: ACL 2024},\n  pages={599--621},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 52,
+    "key": "cui2023chatlaw",
+    "entry_type": "article",
+    "title": "Chatlaw: Open-source legal large language model with integrated external knowledge bases",
+    "author": "Cui, Jiaxi and Li, Zongjian and Yan, Yang and Chen, Bohua and Yuan, Li",
+    "year": "2023",
+    "venue": "arXiv preprint arXiv:2306.16092",
+    "journal": "arXiv preprint arXiv:2306.16092",
+    "booktitle": "",
+    "volume": "2",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 3,
+    "citation_contexts": [
+      {
+        "file": "ch5_en.tex",
+        "line": 31,
+        "context": "Legal & ChatLaw \\citep{cui2023chatlaw} & Retrieval from voluminous legal statutes; rigorous formal-logic reasoning &"
+      },
+      {
+        "file": "ch5_en.tex",
+        "line": 68,
+        "context": "files and statutes. For Chinese-language legal domains, ChatLaw \\citep{cui2023chatlaw} integrates an external legal knowledge base and employs RAG for multi-hop"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 85,
+        "context": "importance of specialised knowledge and multi-role reasoning \\citep{tang2024medagents,cui2023chatlaw}; they also expose the gap between benchmark performance and the requirements of accountable deployment. This"
+      }
+    ],
+    "raw": "@article{cui2023chatlaw,\n  title={Chatlaw: Open-source legal large language model with integrated external knowledge bases},\n  author={Cui, Jiaxi and Li, Zongjian and Yan, Yang and Chen, Bohua and Yuan, Li},\n  journal={arXiv preprint arXiv:2306.16092},\n  volume={2},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 53,
+    "key": "li2024genmentor",
+    "entry_type": "inproceedings",
+    "title": "LLM-powered multi-agent framework for goal-oriented learning in intelligent tutoring system",
+    "author": "Wang, Tianfu and Zhan, Yi and Lian, Jianxun and Hu, Zhengyu and Yuan, Nicholas Jing and Zhang, Qi and Xie, Xing and Xiong, Hui",
+    "year": "2025",
+    "venue": "Companion Proceedings of the ACM on Web Conference 2025",
+    "journal": "",
+    "booktitle": "Companion Proceedings of the ACM on Web Conference 2025",
+    "volume": "",
+    "number": "",
+    "pages": "510--519",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch5_en.tex",
+        "line": 36,
+        "context": "Education & GenMentor \\citep{li2024genmentor} & Heuristic guidance rather than direct answers; personalised adaptation &"
+      },
+      {
+        "file": "ch5_en.tex",
+        "line": 82,
+        "context": "correct answers; they should guide students to think independently. The GenMentor framework \\citep{li2024genmentor} introduces multiple roles including tutor, corrector, and knowledge extender to construct"
+      }
+    ],
+    "raw": "@inproceedings{li2024genmentor,\n  title={LLM-powered multi-agent framework for goal-oriented learning in intelligent tutoring system},\n  author={Wang, Tianfu and Zhan, Yi and Lian, Jianxun and Hu, Zhengyu and Yuan, Nicholas Jing and Zhang, Qi and Xie, Xing and Xiong, Hui},\n  booktitle={Companion Proceedings of the ACM on Web Conference 2025},\n  pages={510--519},\n  year={2025}\n}"
+  },
+  {
+    "sequence": 54,
+    "key": "singhal2023medpalm",
+    "entry_type": "article",
+    "title": "Large language models encode clinical knowledge",
+    "author": "Singhal, Karan and Azizi, Shekoofeh and Tu, Tao and Mahdavi, S Sara and Wei, Jason and Chung, Hyung Won and Scales, Nathan and Tanwani, Ajay and Cole-Lewis, Heather and Pfohl, Stephen and others",
+    "year": "2023",
+    "venue": "Nature",
+    "journal": "Nature",
+    "booktitle": "",
+    "volume": "620",
+    "number": "7972",
+    "pages": "172--180",
+    "publisher": "Nature Publishing Group UK London",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch5_en.tex",
+        "line": 59,
+        "context": "MDAgents \\citep{kim2024mdagents} and systems enhanced with Med-PaLM \\citep{singhal2023medpalm} can adaptively recruit different numbers of virtual medical experts based on case complexity, substantially reducing"
+      }
+    ],
+    "raw": "@article{singhal2023medpalm,\n  title={Large language models encode clinical knowledge},\n  author={Singhal, Karan and Azizi, Shekoofeh and Tu, Tao and Mahdavi, S Sara and Wei, Jason and Chung, Hyung Won and Scales, Nathan and Tanwani, Ajay and Cole-Lewis, Heather and Pfohl, Stephen and others},\n  journal={Nature},\n  volume={620},\n  number={7972},\n  pages={172--180},\n  year={2023},\n  publisher={Nature Publishing Group UK London}\n}"
+  },
+  {
+    "sequence": 55,
+    "key": "guha2023legalbench",
+    "entry_type": "article",
+    "title": "Legalbench: A collaboratively built benchmark for measuring legal reasoning in large language models",
+    "author": "Guha, Neel and Nyarko, Julian and Ho, Daniel and R{\\'e}, Christopher and Chilton, Adam and Chohlas-Wood, Alex and Peters, Austin and Waldon, Brandon and Rockmore, Daniel and Zambrano, Diego and others",
+    "year": "2023",
+    "venue": "Advances in neural information processing systems",
+    "journal": "Advances in neural information processing systems",
+    "booktitle": "",
+    "volume": "36",
+    "number": "",
+    "pages": "44123--44279",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch5_en.tex",
+        "line": 71,
+        "context": "retrieval. On benchmarks such as LegalBench \\citep{guha2023legalbench}, multi-agent systems that separate a ``statute-retrieval agent'' from a"
+      }
+    ],
+    "raw": "@article{guha2023legalbench,\n  title={Legalbench: A collaboratively built benchmark for measuring legal reasoning in large language models},\n  author={Guha, Neel and Nyarko, Julian and Ho, Daniel and R{\\'e}, Christopher and Chilton, Adam and Chohlas-Wood, Alex and Peters, Austin and Waldon, Brandon and Rockmore, Daniel and Zambrano, Diego and others},\n  journal={Advances in neural information processing systems},\n  volume={36},\n  pages={44123--44279},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 56,
+    "key": "brynjolfsson2023generative_ai_work",
+    "entry_type": "article",
+    "title": "Generative AI at work",
+    "author": "Brynjolfsson, Erik and Li, Danielle and Raymond, Lindsey",
+    "year": "2025",
+    "venue": "The Quarterly Journal of Economics",
+    "journal": "The Quarterly Journal of Economics",
+    "booktitle": "",
+    "volume": "140",
+    "number": "2",
+    "pages": "889--942",
+    "publisher": "Oxford University Press",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch5_en.tex",
+        "line": 93,
+        "context": "systems can directly integrate with back-end corporate APIs. Empirical research by \\citet{brynjolfsson2023generative_ai_work} demonstrates that generative AI customer-service assistants can improve"
+      }
+    ],
+    "raw": "@article{brynjolfsson2023generative_ai_work,\n  title={Generative AI at work},\n  author={Brynjolfsson, Erik and Li, Danielle and Raymond, Lindsey},\n  journal={The Quarterly Journal of Economics},\n  volume={140},\n  number={2},\n  pages={889--942},\n  year={2025},\n  publisher={Oxford University Press}\n}"
+  },
+  {
+    "sequence": 57,
+    "key": "yang2024swe_agent",
+    "entry_type": "article",
+    "title": "SWE-agent: Agent-computer interfaces enable automated software engineering",
+    "author": "Yang, John and Jimenez, Carlos E and Wettig, Alexander and Lieret, Kilian and Yao, Shunyu and Narasimhan, Karthik and Press, Ofir",
+    "year": "2024",
+    "venue": "Advances in Neural Information Processing Systems",
+    "journal": "Advances in Neural Information Processing Systems",
+    "booktitle": "",
+    "volume": "37",
+    "number": "",
+    "pages": "50528--50652",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch5_en.tex",
+        "line": 105,
+        "context": "systems. SWE-agent \\citep{yang2024swe_agent} and ChatDev \\citep{qian2023chatdev} convert complex software-engineering requirements into multi-round"
+      }
+    ],
+    "raw": "@article{yang2024swe_agent,\n  title={SWE-agent: Agent-computer interfaces enable automated software engineering},\n  author={Yang, John and Jimenez, Carlos E and Wettig, Alexander and Lieret, Kilian and Yao, Shunyu and Narasimhan, Karthik and Press, Ofir},\n  journal={Advances in Neural Information Processing Systems},\n  volume={37},\n  pages={50528--50652},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 58,
+    "key": "jimenez2024swe_bench",
+    "entry_type": "inproceedings",
+    "title": "SWE-bench: Can language models resolve real-world GitHub issues?",
+    "author": "Jimenez, Carlos E and Yang, John and Wettig, Alexander and Yao, Shunyu and Pei, Kexin and Press, Ofir and Narasimhan, Karthik",
+    "year": "2024",
+    "venue": "International Conference on Learning Representations",
+    "journal": "",
+    "booktitle": "International Conference on Learning Representations",
+    "volume": "2024",
+    "number": "",
+    "pages": "54107--54157",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch5_en.tex",
+        "line": 108,
+        "context": "collaborative workflows. On the SWE-bench benchmark \\citep{jimenez2024swe_bench}, collaborative pipelines in which an architect agent generates the framework, a programmer"
+      }
+    ],
+    "raw": "@inproceedings{jimenez2024swe_bench,\n  title={SWE-bench: Can language models resolve real-world GitHub issues?},\n  author={Jimenez, Carlos E and Yang, John and Wettig, Alexander and Yao, Shunyu and Pei, Kexin and Press, Ofir and Narasimhan, Karthik},\n  booktitle={International Conference on Learning Representations},\n  volume={2024},\n  pages={54107--54157},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 59,
+    "key": "huang2024hallucination_survey",
+    "entry_type": "article",
+    "title": "A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions",
+    "author": "Huang, Lei and Yu, Weijiang and Ma, Weitao and Zhong, Weihong and Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and others",
+    "year": "2025",
+    "venue": "ACM Transactions on Information Systems",
+    "journal": "ACM Transactions on Information Systems",
+    "booktitle": "",
+    "volume": "43",
+    "number": "2",
+    "pages": "1--55",
+    "publisher": "ACM New York, NY",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{huang2024hallucination_survey,\n  title={A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions},\n  author={Huang, Lei and Yu, Weijiang and Ma, Weitao and Zhong, Weihong and Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and others},\n  journal={ACM Transactions on Information Systems},\n  volume={43},\n  number={2},\n  pages={1--55},\n  year={2025},\n  publisher={ACM New York, NY}\n}"
+  },
+  {
+    "sequence": 60,
+    "key": "zhang2024agent_hallucination",
+    "entry_type": "article",
+    "title": "Llm-based agents suffer from hallucinations: A survey of taxonomy, methods, and directions",
+    "author": "Lin, Xixun and Ning, Yucheng and Zhang, Jingwen and Dong, Yan and Liu, Yilong and Wu, Yongxuan and Qi, Xiaohua and Sun, Nan and Shang, Yanmin and Wang, Kun and others",
+    "year": "2025",
+    "venue": "arXiv preprint arXiv:2509.18970",
+    "journal": "arXiv preprint arXiv:2509.18970",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{zhang2024agent_hallucination,\n  title={Llm-based agents suffer from hallucinations: A survey of taxonomy, methods, and directions},\n  author={Lin, Xixun and Ning, Yucheng and Zhang, Jingwen and Dong, Yan and Liu, Yilong and Wu, Yongxuan and Qi, Xiaohua and Sun, Nan and Shang, Yanmin and Wang, Kun and others},\n  journal={arXiv preprint arXiv:2509.18970},\n  year={2025}\n}"
+  },
+  {
+    "sequence": 61,
+    "key": "han2024mast",
+    "entry_type": "article",
+    "title": "Why do multi-agent LLM systems fail?",
+    "author": "Cemri, Mert and Pan, Melissa Z and Yang, Shuyi and Agrawal, Lakshya A and Chopra, Bhavya and Tiwari, Rishabh and Keutzer, Kurt and Parameswaran, Aditya and Klein, Dan and Ramchandran, Kannan and others",
+    "year": "2025",
+    "venue": "Advances in Neural Information Processing Systems",
+    "journal": "Advances in Neural Information Processing Systems",
+    "booktitle": "",
+    "volume": "38",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 5,
+    "citation_contexts": [
+      {
+        "file": "ch6_en.tex",
+        "line": 17,
+        "context": "performance regression due to task--architecture mismatch. The MAST failure taxonomy \\citep{han2024mast} reveals that approximately 79\\% of multi-agent system failures originate from this type of"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 86,
+        "context": "offset these costs does a collaborative architecture hold practical value \\citep{han2024mast}."
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 72,
+        "context": "MAST demonstrate the value of examining system design, inter-agent misalignment, and task verification failures \\citep{han2024mast}, but such diagnostics are not yet standard components of collaborative QA evaluation."
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 153,
+        "context": "tool calls required to reach a fixed quality level. Trace taxonomies such as MAST offer a starting point for annotating failures \\citep{han2024mast}, but collaborative QA also requires positive measures of useful disagreement,"
+      },
+      {
+        "file": "manuscript.tex",
+        "line": 410,
+        "context": "lean single-agent call. The MAST failure taxonomy \\citep{han2024mast} reveals that approximately 80\\% of multi-agent system failures stem from specification and coordination"
+      }
+    ],
+    "raw": "@article{han2024mast,\n  title={Why do multi-agent LLM systems fail?},\n  author={Cemri, Mert and Pan, Melissa Z and Yang, Shuyi and Agrawal, Lakshya A and Chopra, Bhavya and Tiwari, Rishabh and Keutzer, Kurt and Parameswaran, Aditya and Klein, Dan and Ramchandran, Kannan and others},\n  journal={Advances in Neural Information Processing Systems},\n  volume={38},\n  year={2025}\n}"
+  },
+  {
+    "sequence": 62,
+    "key": "liu2024agentbench",
+    "entry_type": "inproceedings",
+    "title": "Agentbench: Evaluating llms as agents",
+    "author": "Liu, Xiao and Yu, Hao and Zhang, Hanchen and Xu, Yifan and Lei, Xuanyu and Lai, Hanyu and Gu, Yu and Ding, Hangliang and Men, Kaiwen and Yang, Kejuan and others",
+    "year": "2024",
+    "venue": "International Conference on Learning Representations",
+    "journal": "",
+    "booktitle": "International Conference on Learning Representations",
+    "volume": "2024",
+    "number": "",
+    "pages": "52989--53046",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{liu2024agentbench,\n  title={Agentbench: Evaluating llms as agents},\n  author={Liu, Xiao and Yu, Hao and Zhang, Hanchen and Xu, Yifan and Lei, Xuanyu and Lai, Hanyu and Gu, Yu and Ding, Hangliang and Men, Kaiwen and Yang, Kejuan and others},\n  booktitle={International Conference on Learning Representations},\n  volume={2024},\n  pages={52989--53046},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 63,
+    "key": "mialon2024gaia",
+    "entry_type": "inproceedings",
+    "title": "Gaia: a benchmark for general ai assistants",
+    "author": "Mialon, Gr{\\'e}goire and Fourrier, Cl{\\'e}mentine and Wolf, Thomas and LeCun, Yann and Scialom, Thomas",
+    "year": "2024",
+    "venue": "International Conference on Learning Representations",
+    "journal": "",
+    "booktitle": "International Conference on Learning Representations",
+    "volume": "2024",
+    "number": "",
+    "pages": "9025--9049",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{mialon2024gaia,\n  title={Gaia: a benchmark for general ai assistants},\n  author={Mialon, Gr{\\'e}goire and Fourrier, Cl{\\'e}mentine and Wolf, Thomas and LeCun, Yann and Scialom, Thomas},\n  booktitle={International Conference on Learning Representations},\n  volume={2024},\n  pages={9025--9049},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 64,
+    "key": "amayuelas2024collaboration_attack",
+    "entry_type": "inproceedings",
+    "title": "Multiagent collaboration attack: Investigating adversarial attacks in large language model collaborations via debate",
+    "author": "Amayuelas, Alfonso and Yang, Xianjun and Antoniades, Antonis and Hua, Wenyue and Pan, Liangming and Wang, William Yang",
+    "year": "2024",
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "journal": "",
+    "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "volume": "",
+    "number": "",
+    "pages": "6929--6948",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{amayuelas2024collaboration_attack,\n  title={Multiagent collaboration attack: Investigating adversarial attacks in large language model collaborations via debate},\n  author={Amayuelas, Alfonso and Yang, Xianjun and Antoniades, Antonis and Hua, Wenyue and Pan, Liangming and Wang, William Yang},\n  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2024},\n  pages={6929--6948},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 65,
+    "key": "zeng2024autodefense",
+    "entry_type": "article",
+    "title": "Autodefense: Multi-agent llm defense against jailbreak attacks",
+    "author": "Zeng, Yifan and Wu, Yiran and Zhang, Xiao and Wang, Huazheng and Wu, Qingyun",
+    "year": "2024",
+    "venue": "arXiv preprint arXiv:2403.04783",
+    "journal": "arXiv preprint arXiv:2403.04783",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{zeng2024autodefense,\n  title={Autodefense: Multi-agent llm defense against jailbreak attacks},\n  author={Zeng, Yifan and Wu, Yiran and Zhang, Xiao and Wang, Huazheng and Wu, Qingyun},\n  journal={arXiv preprint arXiv:2403.04783},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 66,
+    "key": "anthropic2024mcp",
+    "entry_type": "misc",
+    "title": "Model Context Protocol ({MCP}): Technical Specification",
+    "author": "{Anthropic}",
+    "year": "2024",
+    "venue": "https://modelcontextprotocol.io",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 50,
+        "context": "Anthropic introduced the Model Context Protocol (MCP) \\citep{anthropic2024mcp}---described as the ``USB-C of AI''---to standardise how agents connect to external tools and data sources."
+      },
+      {
+        "file": "ch4_en.tex",
+        "line": 295,
+        "context": "the way for the adoption of protocols such as MCP \\citep{anthropic2024mcp}. \\emph{Third}, \\textbf{memory and external tooling are becoming"
+      }
+    ],
+    "raw": "@misc{anthropic2024mcp,\n  title={Model Context Protocol ({MCP}): Technical Specification},\n  author={{Anthropic}},\n  year={2024},\n  howpublished={https://modelcontextprotocol.io}\n}"
+  },
+  {
+    "sequence": 67,
+    "key": "google2025a2a",
+    "entry_type": "misc",
+    "title": "Agent-to-Agent ({A2A}) Protocol: Technical Specification",
+    "author": "{Google}",
+    "year": "2025",
+    "venue": "https://google.github.io/A2A",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch4_en.tex",
+        "line": 52,
+        "context": "how agents connect to external tools and data sources. Google proposed the Agent-to-Agent (A2A) protocol \\citep{google2025a2a} to govern horizontal peer-to-peer agent collaboration."
+      }
+    ],
+    "raw": "@misc{google2025a2a,\n  title={Agent-to-Agent ({A2A}) Protocol: Technical Specification},\n  author={{Google}},\n  year={2025},\n  howpublished={https://google.github.io/A2A}\n}"
+  },
+  {
+    "sequence": 68,
+    "key": "chen2025llm_mas_survey",
+    "entry_type": "article",
+    "title": "A Survey on {LLM}-based Multi-Agent System: Recent Advances and New Frontiers in Application",
+    "author": "Chen, Shuofei and others",
+    "year": "2025",
+    "venue": "arXiv preprint",
+    "journal": "arXiv preprint",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{chen2025llm_mas_survey,\n  title={A Survey on {LLM}-based Multi-Agent System: Recent Advances and New Frontiers in Application},\n  author={Chen, Shuofei and others},\n  journal={arXiv preprint},\n  year={2025}\n}"
+  },
+  {
+    "sequence": 69,
+    "key": "masterman2024landscape_agents",
+    "entry_type": "article",
+    "title": "The Landscape of Emerging {AI} Agent Architectures for Reasoning, Planning, and Tool Calling",
+    "author": "Masterman, Tula and Besen, Sandi and Saez, Mason and Mistry, Bobby",
+    "year": "2024",
+    "venue": "arXiv preprint",
+    "journal": "arXiv preprint",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{masterman2024landscape_agents,\n  title={The Landscape of Emerging {AI} Agent Architectures for Reasoning, Planning, and Tool Calling},\n  author={Masterman, Tula and Besen, Sandi and Saez, Mason and Mistry, Bobby},\n  journal={arXiv preprint},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 70,
+    "key": "patil2023gorilla",
+    "entry_type": "inproceedings",
+    "title": "Gorilla: Large Language Model Connected with Massive {APIs}",
+    "author": "Patil, Shishir G and Zhang, Tianjun and Wang, Xin and Gonzalez, Joseph E",
+    "year": "2023",
+    "venue": "NeurIPS 2023",
+    "journal": "",
+    "booktitle": "NeurIPS 2023",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{patil2023gorilla,\n  title={Gorilla: Large Language Model Connected with Massive {APIs}},\n  author={Patil, Shishir G and Zhang, Tianjun and Wang, Xin and Gonzalez, Joseph E},\n  booktitle={NeurIPS 2023},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 71,
+    "key": "wang2023voyager",
+    "entry_type": "inproceedings",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "author": "Wang, Guanzhi and Xie, Yuqi and Jiang, Yunfan and Mandlekar, Ajay and Xiao, Chaowei and Zhu, Yuke and Fan, Linxi and Anandkumar, Anima",
+    "year": "2023",
+    "venue": "NeurIPS 2023",
+    "journal": "",
+    "booktitle": "NeurIPS 2023",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{wang2023voyager,\n  title={Voyager: An Open-Ended Embodied Agent with Large Language Models},\n  author={Wang, Guanzhi and Xie, Yuqi and Jiang, Yunfan and Mandlekar, Ajay and Xiao, Chaowei and Zhu, Yuke and Fan, Linxi and Anandkumar, Anima},\n  booktitle={NeurIPS 2023},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 72,
+    "key": "huang2024planning_survey",
+    "entry_type": "article",
+    "title": "Understanding the Planning of {LLM} Agents: A Survey",
+    "author": "Huang, Xuan and others",
+    "year": "2024",
+    "venue": "arXiv preprint",
+    "journal": "arXiv preprint",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{huang2024planning_survey,\n  title={Understanding the Planning of {LLM} Agents: A Survey},\n  author={Huang, Xuan and others},\n  journal={arXiv preprint},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 73,
+    "key": "guu2020realm",
+    "entry_type": "inproceedings",
+    "title": "{REALM}: Retrieval-Augmented Language Model Pre-Training",
+    "author": "Guu, Kelvin and Lee, Kenton and Tung, Zora and Pasupat, Panupong and Chang, Ming-Wei",
+    "year": "2020",
+    "venue": "ICML 2020",
+    "journal": "",
+    "booktitle": "ICML 2020",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{guu2020realm,\n  title={{REALM}: Retrieval-Augmented Language Model Pre-Training},\n  author={Guu, Kelvin and Lee, Kenton and Tung, Zora and Pasupat, Panupong and Chang, Ming-Wei},\n  booktitle={ICML 2020},\n  year={2020}\n}"
+  },
+  {
+    "sequence": 74,
+    "key": "trivedi2023ircot",
+    "entry_type": "inproceedings",
+    "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+    "author": "Trivedi, Harsh and Balasubramanian, Niranjan and Khot, Tushar and Sabharwal, Ashish",
+    "year": "2023",
+    "venue": "ACL 2023",
+    "journal": "",
+    "booktitle": "ACL 2023",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{trivedi2023ircot,\n  title={Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions},\n  author={Trivedi, Harsh and Balasubramanian, Niranjan and Khot, Tushar and Sabharwal, Ashish},\n  booktitle={ACL 2023},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 75,
+    "key": "press2023self_ask",
+    "entry_type": "inproceedings",
+    "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+    "author": "Press, Ofir and Zhang, Muru and Min, Sewon and Schmidt, Ludwig and Smith, Noah A and Lewis, Mike",
+    "year": "2023",
+    "venue": "Findings of EMNLP 2023",
+    "journal": "",
+    "booktitle": "Findings of EMNLP 2023",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{press2023self_ask,\n  title={Measuring and Narrowing the Compositionality Gap in Language Models},\n  author={Press, Ofir and Zhang, Muru and Min, Sewon and Schmidt, Ludwig and Smith, Noah A and Lewis, Mike},\n  booktitle={Findings of EMNLP 2023},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 76,
+    "key": "chen2024universal_self_consistency",
+    "entry_type": "article",
+    "title": "Universal Self-Consistency for Large Language Model Generation",
+    "author": "Chen, Xinyun and others",
+    "year": "2024",
+    "venue": "arXiv preprint",
+    "journal": "arXiv preprint",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{chen2024universal_self_consistency,\n  title={Universal Self-Consistency for Large Language Model Generation},\n  author={Chen, Xinyun and others},\n  journal={arXiv preprint},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 77,
+    "key": "lin2025creativity_mas",
+    "entry_type": "article",
+    "title": "Creativity in {LLM}-based Multi-Agent Systems: A Survey",
+    "author": "Lin, Junyou and others",
+    "year": "2025",
+    "venue": "EMNLP 2025",
+    "journal": "EMNLP 2025",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{lin2025creativity_mas,\n  title={Creativity in {LLM}-based Multi-Agent Systems: A Survey},\n  author={Lin, Junyou and others},\n  journal={EMNLP 2025},\n  year={2025}\n}"
+  },
+  {
+    "sequence": 78,
+    "key": "fan2025foundation_agents",
+    "entry_type": "article",
+    "title": "Advances and Challenges in Foundation Agents",
+    "author": "Fan, Zhiyuan and others",
+    "year": "2025",
+    "venue": "arXiv preprint",
+    "journal": "arXiv preprint",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{fan2025foundation_agents,\n  title={Advances and Challenges in Foundation Agents},\n  author={Fan, Zhiyuan and others},\n  journal={arXiv preprint},\n  year={2025}\n}"
+  },
+  {
+    "sequence": 79,
+    "key": "li2024trustworthy_medical_qa",
+    "entry_type": "article",
+    "title": "Survey on Trustworthiness of {LLMs} in Medical {QA}",
+    "author": "Li, Guoyang and others",
+    "year": "2024",
+    "venue": "arXiv preprint",
+    "journal": "arXiv preprint",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{li2024trustworthy_medical_qa,\n  title={Survey on Trustworthiness of {LLMs} in Medical {QA}},\n  author={Li, Guoyang and others},\n  journal={arXiv preprint},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 80,
+    "key": "zhuang2024atm",
+    "entry_type": "inproceedings",
+    "title": "{ATM}: Adversarial Tuning Multi-agent System for {RAG} Robustness",
+    "author": "Zhuang, Yuchen and others",
+    "year": "2024",
+    "venue": "ACL 2024",
+    "journal": "",
+    "booktitle": "ACL 2024",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{zhuang2024atm,\n  title={{ATM}: Adversarial Tuning Multi-agent System for {RAG} Robustness},\n  author={Zhuang, Yuchen and others},\n  booktitle={ACL 2024},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 81,
+    "key": "zhu2023efficient_odqa_survey",
+    "entry_type": "inproceedings",
+    "title": "A Survey for Efficient Open Domain Question Answering",
+    "author": "Zhu, Yutao and others",
+    "year": "2023",
+    "venue": "ACL 2023",
+    "journal": "",
+    "booktitle": "ACL 2023",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{zhu2023efficient_odqa_survey,\n  title={A Survey for Efficient Open Domain Question Answering},\n  author={Zhu, Yutao and others},\n  booktitle={ACL 2023},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 82,
+    "key": "ho2024multihop_qa_survey",
+    "entry_type": "article",
+    "title": "Multi-hop Question Answering",
+    "author": "Ho, Xanh and others",
+    "year": "2024",
+    "venue": "arXiv preprint",
+    "journal": "arXiv preprint",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{ho2024multihop_qa_survey,\n  title={Multi-hop Question Answering},\n  author={Ho, Xanh and others},\n  journal={arXiv preprint},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 83,
+    "key": "qin2024multiagent_survey_cn",
+    "entry_type": "article",
+    "title": "多智能体协同研究进展综述：博弈和控制交叉视角",
+    "author": "秦家虎 and others",
+    "year": "2024",
+    "venue": "自动化学报",
+    "journal": "自动化学报",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{qin2024multiagent_survey_cn,\n  title={多智能体协同研究进展综述：博弈和控制交叉视角},\n  author={秦家虎 and others},\n  journal={自动化学报},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 84,
+    "key": "ruanjianbao2024code_gen_survey",
+    "entry_type": "article",
+    "title": "基于大语言模型智能体的代码生成综述",
+    "author": "软件学报编辑部",
+    "year": "2024",
+    "venue": "软件学报",
+    "journal": "软件学报",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{ruanjianbao2024code_gen_survey,\n  title={基于大语言模型智能体的代码生成综述},\n  author={软件学报编辑部},\n  journal={软件学报},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 85,
+    "key": "zeng2023glm130b",
+    "entry_type": "inproceedings",
+    "title": "{GLM-130B}: An Open Bilingual Pre-trained Model",
+    "author": "Zeng, Aohan and Liu, Xiao and Du, Zhengxiao and Wang, Zihan and Lai, Hanyu and Ding, Ming and Yang, Zhuoyi and Xu, Yifan and Zheng, Wendi and Xia, Xiao and others",
+    "year": "2023",
+    "venue": "ICLR 2023",
+    "journal": "",
+    "booktitle": "ICLR 2023",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{zeng2023glm130b,\n  title={{GLM-130B}: An Open Bilingual Pre-trained Model},\n  author={Zeng, Aohan and Liu, Xiao and Du, Zhengxiao and Wang, Zihan and Lai, Hanyu and Ding, Ming and Yang, Zhuoyi and Xu, Yifan and Zheng, Wendi and Xia, Xiao and others},\n  booktitle={ICLR 2023},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 86,
+    "key": "zhao2023llm_survey_cn",
+    "entry_type": "article",
+    "title": "大语言模型综述",
+    "author": "赵鑫 and others",
+    "year": "2023",
+    "venue": "中文信息学报",
+    "journal": "中文信息学报",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{zhao2023llm_survey_cn,\n  title={大语言模型综述},\n  author={赵鑫 and others},\n  journal={中文信息学报},\n  year={2023}\n}"
+  },
+  {
+    "sequence": 87,
+    "key": "liu2024se_agents_survey",
+    "entry_type": "article",
+    "title": "Large Language Model-Based Agents for Software Engineering: A Survey",
+    "author": "Liu, Jiawei and others",
+    "year": "2024",
+    "venue": "arXiv preprint",
+    "journal": "arXiv preprint",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{liu2024se_agents_survey,\n  title={Large Language Model-Based Agents for Software Engineering: A Survey},\n  author={Liu, Jiawei and others},\n  journal={arXiv preprint},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 88,
+    "key": "langgraph2024",
+    "entry_type": "misc",
+    "title": "{LangGraph: Multi-Agent Workflows}",
+    "author": "{LangChain Team}",
+    "year": "2024",
+    "venue": "Technical Blog, LangChain",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "Published January 2024. No peer-reviewed paper; official engineering documentation.",
+    "doi": "",
+    "url": "https://blog.langchain.dev/langgraph-multi-agent-workflows/",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch7_en.tex",
+        "line": 93,
+        "context": "workflow breakpoint, a textual correction, or final approval \\citep{duan2024langgraph_crewai,langgraph2024}. Such mechanisms answer whether a human can enter the loop, but not when intervention is most effective, what"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 112,
+        "context": "reusable components for role definition, workflow orchestration, retrieval, and tool use \\citep{wu2024autogen,langgraph2024,crewai2023,dify2024}. Nevertheless, component-level reuse does not by itself provide task-level"
+      }
+    ],
+    "raw": "@misc{langgraph2024,\n  author       = {{LangChain Team}},\n  title        = {{LangGraph: Multi-Agent Workflows}},\n  year         = {2024},\n  howpublished = {Technical Blog, LangChain},\n  url          = {https://blog.langchain.dev/langgraph-multi-agent-workflows/},\n  note         = {Published January 2024. No peer-reviewed paper; official engineering documentation.}\n}"
+  },
+  {
+    "sequence": 89,
+    "key": "crewai2023",
+    "entry_type": "misc",
+    "title": "{CrewAI: Framework for Orchestrating Role-Playing, Autonomous AI Agents}",
+    "author": "Moura, Jo{\\~a}o",
+    "year": "2023",
+    "venue": "GitHub repository",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "First released on PyPI December 4, 2023.",
+    "doi": "",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch7_en.tex",
+        "line": 112,
+        "context": "reusable components for role definition, workflow orchestration, retrieval, and tool use \\citep{wu2024autogen,langgraph2024,crewai2023,dify2024}. Nevertheless, component-level reuse does not by itself provide task-level"
+      }
+    ],
+    "raw": "@misc{crewai2023,\n  author       = {Moura, Jo{\\~a}o},\n  title        = {{CrewAI: Framework for Orchestrating Role-Playing, Autonomous AI Agents}},\n  year         = {2023},\n  howpublished = {GitHub repository},\n  url          = {https://github.com/crewAIInc/crewAI},\n  note         = {First released on PyPI December 4, 2023.}\n}"
+  },
+  {
+    "sequence": 90,
+    "key": "dify2024",
+    "entry_type": "misc",
+    "title": "{Dify: Open-source LLM App Development Platform}",
+    "author": "{Dify.AI}",
+    "year": "2024",
+    "venue": "GitHub repository",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "Open-source production-grade LLM application platform with multi-agent and RAG support.",
+    "doi": "",
+    "url": "https://github.com/langgenius/dify",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch7_en.tex",
+        "line": 112,
+        "context": "reusable components for role definition, workflow orchestration, retrieval, and tool use \\citep{wu2024autogen,langgraph2024,crewai2023,dify2024}. Nevertheless, component-level reuse does not by itself provide task-level"
+      }
+    ],
+    "raw": "@misc{dify2024,\n  author       = {{Dify.AI}},\n  title        = {{Dify: Open-source LLM App Development Platform}},\n  year         = {2024},\n  howpublished = {GitHub repository},\n  url          = {https://github.com/langgenius/dify},\n  note         = {Open-source production-grade LLM application platform with multi-agent and RAG support.}\n}"
+  },
+  {
+    "sequence": 91,
+    "key": "hendrycks2021mmlu",
+    "entry_type": "article",
+    "title": "Measuring massive multitask language understanding",
+    "author": "Hendrycks, Dan and Burns, Collin and Basart, Steven and Zou, Andy and Mazeika, Mantas and Song, Dawn and Steinhardt, Jacob",
+    "year": "2020",
+    "venue": "arXiv preprint arXiv:2009.03300",
+    "journal": "arXiv preprint arXiv:2009.03300",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{hendrycks2021mmlu,\n  title={Measuring massive multitask language understanding},\n  author={Hendrycks, Dan and Burns, Collin and Basart, Steven and Zou, Andy and Mazeika, Mantas and Song, Dawn and Steinhardt, Jacob},\n  journal={arXiv preprint arXiv:2009.03300},\n  year={2020}\n}"
+  },
+  {
+    "sequence": 92,
+    "key": "trivedi2022musique",
+    "entry_type": "article",
+    "title": "MuSiQue: Multihop Questions via Single-hop Question Composition",
+    "author": "Trivedi, Harsh and Balasubramanian, Niranjan and Khot, Tushar and Sabharwal, Ashish",
+    "year": "2022",
+    "venue": "Transactions of the Association for Computational Linguistics",
+    "journal": "Transactions of the Association for Computational Linguistics",
+    "booktitle": "",
+    "volume": "10",
+    "number": "",
+    "pages": "539--554",
+    "publisher": "MIT Press",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{trivedi2022musique,\n  title={MuSiQue: Multihop Questions via Single-hop Question Composition},\n  author={Trivedi, Harsh and Balasubramanian, Niranjan and Khot, Tushar and Sabharwal, Ashish},\n  journal={Transactions of the Association for Computational Linguistics},\n  volume={10},\n  pages={539--554},\n  year={2022},\n  publisher={MIT Press}\n}"
+  },
+  {
+    "sequence": 93,
+    "key": "mialon2023gaia",
+    "entry_type": "inproceedings",
+    "title": "{GAIA}: a Benchmark for General {AI} Assistants",
+    "author": "Mialon, Gr{\\'e}goire and Fourrier, Cl{\\'e}mentine and Swift, Craig and Wolf, Thomas and LeCun, Yann and Scialom, Thomas",
+    "year": "2023",
+    "venue": "arXiv preprint arXiv:2311.12983",
+    "journal": "",
+    "booktitle": "arXiv preprint arXiv:2311.12983",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{mialon2023gaia,\n  title        = {{GAIA}: a Benchmark for General {AI} Assistants},\n  author       = {Mialon, Gr{\\'e}goire and Fourrier, Cl{\\'e}mentine and Swift, Craig and Wolf, Thomas and LeCun, Yann and Scialom, Thomas},\n  booktitle    = {arXiv preprint arXiv:2311.12983},\n  year         = {2023}\n}"
+  },
+  {
+    "sequence": 94,
+    "key": "zhou2024webarena",
+    "entry_type": "inproceedings",
+    "title": "Webarena: A realistic web environment for building autonomous agents",
+    "author": "Zhou, Shuyan and Xu, Frank F and Zhu, Hao and Zhou, Xuhui and Lo, Robert and Sridhar, Abishek and Cheng, Xianyi and Ou, Tianyue and Bisk, Yonatan and Fried, Daniel and others",
+    "year": "2024",
+    "venue": "International Conference on Learning Representations",
+    "journal": "",
+    "booktitle": "International Conference on Learning Representations",
+    "volume": "2024",
+    "number": "",
+    "pages": "15585--15606",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{zhou2024webarena,\n  title={Webarena: A realistic web environment for building autonomous agents},\n  author={Zhou, Shuyan and Xu, Frank F and Zhu, Hao and Zhou, Xuhui and Lo, Robert and Sridhar, Abishek and Cheng, Xianyi and Ou, Tianyue and Bisk, Yonatan and Fried, Daniel and others},\n  booktitle={International Conference on Learning Representations},\n  volume={2024},\n  pages={15585--15606},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 95,
+    "key": "fastgpt2024",
+    "entry_type": "misc",
+    "title": "{FastGPT: Open-source AI Knowledge Base Platform}",
+    "author": "{FastGPT Team}",
+    "year": "2023",
+    "venue": "GitHub repository",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "Open-source enterprise knowledge base QA platform supporting RAG, visual workflow, and multi-agent customization. Supports private deployment via Docker/Sealos.",
+    "doi": "",
+    "url": "https://github.com/labring/FastGPT",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@misc{fastgpt2024,\n  author       = {{FastGPT Team}},\n  title        = {{FastGPT: Open-source AI Knowledge Base Platform}},\n  year         = {2023},\n  howpublished = {GitHub repository},\n  url          = {https://github.com/labring/FastGPT},\n  note         = {Open-source enterprise knowledge base QA platform supporting RAG, visual workflow, and multi-agent customization. Supports private deployment via Docker/Sealos.}\n}"
+  },
+  {
+    "sequence": 96,
+    "key": "flowise2024",
+    "entry_type": "misc",
+    "title": "{Flowise: Open Source Low-code LLM Apps Builder}",
+    "author": "{FlowiseAI}",
+    "year": "2023",
+    "venue": "GitHub repository",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "Open-source visual LLM workflow orchestration platform built on LangChain.js, supporting ChatFlow and AgentFlow for multi-agent QA prototype development.",
+    "doi": "",
+    "url": "https://github.com/FlowiseAI/Flowise",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@misc{flowise2024,\n  author       = {{FlowiseAI}},\n  title        = {{Flowise: Open Source Low-code LLM Apps Builder}},\n  year         = {2023},\n  howpublished = {GitHub repository},\n  url          = {https://github.com/FlowiseAI/Flowise},\n  note         = {Open-source visual LLM workflow orchestration platform built on LangChain.js, supporting ChatFlow and AgentFlow for multi-agent QA prototype development.}\n}"
+  },
+  {
+    "sequence": 97,
+    "key": "tang2025llmmedqa",
+    "entry_type": "inproceedings",
+    "title": "Llm-medqa: Enhancing medical question answering through case studies in large language models",
+    "author": "Yang, Hang and Chen, Hao and Guo, Hui and Chen, Yineng and Lin, Ching-Sheng and Hu, Shu and Hu, Jinrong and Wu, Xi and Wang, Xin",
+    "year": "2025",
+    "venue": "2025 International Joint Conference on Neural Networks (IJCNN)",
+    "journal": "",
+    "booktitle": "2025 International Joint Conference on Neural Networks (IJCNN)",
+    "volume": "",
+    "number": "",
+    "pages": "1--8",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch6_en.tex",
+        "line": 338,
+        "context": "Flat (peer expert discussion + vote convergence) & \\checkmark \\\\[3pt] LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ &"
+      }
+    ],
+    "raw": "@inproceedings{tang2025llmmedqa,\n  title={Llm-medqa: Enhancing medical question answering through case studies in large language models},\n  author={Yang, Hang and Chen, Hao and Guo, Hui and Chen, Yineng and Lin, Ching-Sheng and Hu, Shu and Hu, Jinrong and Wu, Xi and Wang, Xin},\n  booktitle={2025 International Joint Conference on Neural Networks (IJCNN)},\n  pages={1--8},\n  year={2025},\n  organization={IEEE}\n}"
+  },
+  {
+    "sequence": 98,
+    "key": "legalgraphrag2026",
+    "entry_type": "inproceedings",
+    "title": "LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning",
+    "author": "Chen, Zerui and Zhang, Qinggang and Xiang, Zhishang and Wei, Zhimin and Gao, Linfeng and Huang, Xiao and Zhang, Zhihong and Su, Jinsong",
+    "year": "2026",
+    "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "journal": "",
+    "booktitle": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "volume": "",
+    "number": "",
+    "pages": "37455--37484",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch6_en.tex",
+        "line": 343,
+        "context": "Flat (dual-expert + iterative voting) & \\checkmark \\\\[3pt] LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction &"
+      }
+    ],
+    "raw": "@inproceedings{legalgraphrag2026,\n  title={LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning},\n  author={Chen, Zerui and Zhang, Qinggang and Xiang, Zhishang and Wei, Zhimin and Gao, Linfeng and Huang, Xiao and Zhang, Zhihong and Su, Jinsong},\n  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  pages={37455--37484},\n  year={2026}\n}"
+  },
+  {
+    "sequence": 99,
+    "key": "hu2024triad",
+    "entry_type": "inproceedings",
+    "title": "Triad: A framework leveraging a multi-role LLM-based agent to solve knowledge base question answering",
+    "author": "Zong, Chang and Yan, Yuchen and Lu, Weiming and Shao, Jian and Huang, Yongfeng and Chang, Heng and Zhuang, Yueting",
+    "year": "2024",
+    "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "journal": "",
+    "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "volume": "",
+    "number": "",
+    "pages": "1698--1710",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch6_en.tex",
+        "line": 348,
+        "context": "Hybrid (layered graph + three-role audit chain) & \\checkmark \\\\[3pt] Triad \\citep{hu2024triad} & Enterprise structured KBQA &"
+      }
+    ],
+    "raw": "@inproceedings{hu2024triad,\n  title={Triad: A framework leveraging a multi-role LLM-based agent to solve knowledge base question answering},\n  author={Zong, Chang and Yan, Yuchen and Lu, Weiming and Shao, Jian and Huang, Yongfeng and Chang, Heng and Zhuang, Yueting},\n  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},\n  pages={1698--1710},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 100,
+    "key": "huang2023agentcoder",
+    "entry_type": "article",
+    "title": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+    "author": "Huang, Dong and Zhang, Jie M. and Luck, Michael and Bu, Qingwen and Qing, Yuhao and Cui, Heming",
+    "year": "2023",
+    "venue": "arXiv preprint arXiv:2312.13010",
+    "journal": "arXiv preprint arXiv:2312.13010",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 1,
+    "citation_contexts": [
+      {
+        "file": "ch6_en.tex",
+        "line": 363,
+        "context": "Hierarchical (multi-role Chat Chain serial pipeline) & \\checkmark \\\\[3pt] AgentCoder \\citep{huang2023agentcoder} & Code generation and iterative testing &"
+      }
+    ],
+    "raw": "@article{huang2023agentcoder,\n  title        = {AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation},\n  author       = {Huang, Dong and Zhang, Jie M. and Luck, Michael and Bu, Qingwen and Qing, Yuhao and Cui, Heming},\n  journal      = {arXiv preprint arXiv:2312.13010},\n  year         = {2023}\n}"
+  },
+  {
+    "sequence": 101,
+    "key": "zhang2024eduplanner",
+    "entry_type": "article",
+    "title": "EduPlanner: LLM-based multi-agent systems for customized and intelligent instructional design",
+    "author": "Zhang, Xueqiao and Zhang, Chao and Sun, Jianwen and Xiao, Jun and Yang, Yi and Luo, Yawei",
+    "year": "2025",
+    "venue": "IEEE Transactions on Learning Technologies",
+    "journal": "IEEE Transactions on Learning Technologies",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "IEEE",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 3,
+    "citation_contexts": [
+      {
+        "file": "ch6_en.tex",
+        "line": 309,
+        "context": "\\textbf{Two significant discrepancies.} EduPlanner \\citep{zhang2024eduplanner} and Financial Reflection QA \\citep{fatemi2024financialqa} both exhibit significant deviations ($\\times$)."
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 373,
+        "context": "Flat (peer debate + iterative progressive consensus, no explicit vote) & $\\triangle$ \\\\[3pt] EduPlanner \\citep{zhang2024eduplanner} & Adaptive educational planning &"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 31,
+        "context": "architecture-selection stress test in Section~6 illustrates this boundary. For EduPlanner \\citep{zhang2024eduplanner}, open-ended instructional design favours peer exploration, whereas curriculum-scoring objectives favour a"
+      }
+    ],
+    "raw": "@article{zhang2024eduplanner,\n  title={EduPlanner: LLM-based multi-agent systems for customized and intelligent instructional design},\n  author={Zhang, Xueqiao and Zhang, Chao and Sun, Jianwen and Xiao, Jun and Yang, Yi and Luo, Yawei},\n  journal={IEEE Transactions on Learning Technologies},\n  year={2025},\n  publisher={IEEE}\n}"
+  },
+  {
+    "sequence": 102,
+    "key": "fatemi2024financialqa",
+    "entry_type": "inproceedings",
+    "title": "Enhancing Financial Question Answering with a Multi-Agent Reflection Framework",
+    "author": "Fatemi, Sorouralsadat and Hu, Yuheng",
+    "year": "2024",
+    "venue": "Proceedings of the 5th ACM International Conference on AI in Finance",
+    "journal": "",
+    "booktitle": "Proceedings of the 5th ACM International Conference on AI in Finance",
+    "volume": "",
+    "number": "",
+    "pages": "530--537",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 3,
+    "citation_contexts": [
+      {
+        "file": "ch6_en.tex",
+        "line": 310,
+        "context": "EduPlanner \\citep{zhang2024eduplanner} and Financial Reflection QA \\citep{fatemi2024financialqa} both exhibit significant deviations ($\\times$). Analysis reveals that both exhibit ``dual competing features''---the"
+      },
+      {
+        "file": "ch6_en.tex",
+        "line": 378,
+        "context": "Hierarchical (Evaluator--Optimizer adversarial pipeline) & $\\times$ \\\\[3pt] Financial Reflection QA \\citep{fatemi2024financialqa} & Financial numerical reasoning QA &"
+      },
+      {
+        "file": "ch7_en.tex",
+        "line": 34,
+        "context": "controlled evaluator--optimizer process. Financial Reflection QA \\citep{fatemi2024financialqa} similarly combines a convergent numerical objective with iterative multi-critic reflection. In both cases, a"
+      }
+    ],
+    "raw": "@inproceedings{fatemi2024financialqa,\n  title        = {Enhancing Financial Question Answering with a Multi-Agent Reflection Framework},\n  author       = {Fatemi, Sorouralsadat and Hu, Yuheng},\n  booktitle    = {Proceedings of the 5th ACM International Conference on AI in Finance},\n  pages        = {530--537},\n  year         = {2024}\n}"
+  },
+  {
+    "sequence": 103,
+    "key": "peffers2007dsrm",
+    "entry_type": "article",
+    "title": "A design science research methodology for information systems research",
+    "author": "Peffers, Ken and Tuunanen, Tuure and Rothenberger, Marcus A and Chatterjee, Samir",
+    "year": "2007",
+    "venue": "Journal of management information systems",
+    "journal": "Journal of management information systems",
+    "booktitle": "",
+    "volume": "24",
+    "number": "3",
+    "pages": "45--77",
+    "publisher": "Taylor \\& Francis",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch6_en.tex",
+        "line": 31,
+        "context": "deduction following the \\textbf{Design Science Research Methodology (DSRM)} \\citep{peffers2007dsrm}, the authoritative standard in the information systems field for constructing and evaluating design artefacts (e.g.,"
+      },
+      {
+        "file": "ch8_en.tex",
+        "line": 28,
+        "context": "derivation, through a Design Science Research Methodology (DSRM) \\citep{peffers2007dsrm} from the theoretical survey presented in the preceding chapters, of a \\textbf{two-phase architecture-selection decision"
+      }
+    ],
+    "raw": "@article{peffers2007dsrm,\n  title={A design science research methodology for information systems research},\n  author={Peffers, Ken and Tuunanen, Tuure and Rothenberger, Marcus A and Chatterjee, Samir},\n  journal={Journal of management information systems},\n  volume={24},\n  number={3},\n  pages={45--77},\n  year={2007},\n  publisher={Taylor \\& Francis}\n}"
+  },
+  {
+    "sequence": 104,
+    "key": "shao2024storm",
+    "entry_type": "inproceedings",
+    "title": "Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models",
+    "author": "Shao, Yijia and Jiang, Yucheng and Kanell, Theodore and Xu, Peter and Khattab, Omar and Lam, Monica",
+    "year": "2024",
+    "venue": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "journal": "",
+    "booktitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "volume": "",
+    "number": "",
+    "pages": "6252--6278",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{shao2024storm,\n  title={Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models},\n  author={Shao, Yijia and Jiang, Yucheng and Kanell, Theodore and Xu, Peter and Khattab, Omar and Lam, Monica},\n  booktitle={Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)},\n  pages={6252--6278},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 105,
+    "key": "shao2024costorm",
+    "entry_type": "inproceedings",
+    "title": "Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations",
+    "author": "Jiang, Yucheng and Shao, Yijia and Ma, Dekun and Semnani, Sina and Lam, Monica",
+    "year": "2024",
+    "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "journal": "",
+    "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "volume": "",
+    "number": "",
+    "pages": "9917--9955",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@inproceedings{shao2024costorm,\n  title={Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations},\n  author={Jiang, Yucheng and Shao, Yijia and Ma, Dekun and Semnani, Sina and Lam, Monica},\n  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},\n  pages={9917--9955},\n  year={2024}\n}"
+  },
+  {
+    "sequence": 106,
+    "key": "ragflow2024",
+    "entry_type": "misc",
+    "title": "{RAGFlow}: An Open-Source {RAG} Engine Based on Deep Document Understanding",
+    "author": "{InfiniFlow}",
+    "year": "2024",
+    "venue": "\\url{https://github.com/infiniflow/ragflow}",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "Accessed: 2026-07-07",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@misc{ragflow2024,\n  title        = {{RAGFlow}: An Open-Source {RAG} Engine Based on Deep Document Understanding},\n  author       = {{InfiniFlow}},\n  year         = {2024},\n  howpublished = {\\url{https://github.com/infiniflow/ragflow}},\n  note         = {Accessed: 2026-07-07}\n}"
+  },
+  {
+    "sequence": 107,
+    "key": "xagent2023",
+    "entry_type": "misc",
+    "title": "{XAgent}: An Autonomous Agent for Complex Task Solving",
+    "author": "{XAgent Team}",
+    "year": "2023",
+    "venue": "\\url{https://github.com/OpenBMB/XAgent}",
+    "journal": "",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 2,
+    "citation_contexts": [
+      {
+        "file": "ch3_en.tex",
+        "line": 135,
+        "context": "dynamic generation of sub-level agents based on task characteristics. XAgent \\citep{xagent2023}, for example, autonomously spawns temporary sub-agents responsible for specific sub-tasks during execution given"
+      },
+      {
+        "file": "ch3_en.tex",
+        "line": 275,
+        "context": "Dynamic agent spawning & XAgent \\citep{xagent2023} & Runtime sub-agent spawning; on-demand compute scaling &"
+      }
+    ],
+    "raw": "@misc{xagent2023,\n  title        = {{XAgent}: An Autonomous Agent for Complex Task Solving},\n  author       = {{XAgent Team}},\n  year         = {2023},\n  howpublished = {\\url{https://github.com/OpenBMB/XAgent}}\n}"
+  },
+  {
+    "sequence": 108,
+    "key": "autorag2024",
+    "entry_type": "article",
+    "title": "{AutoRAG}: Automated Framework for Optimization of Retrieval Augmented Generation Pipeline",
+    "author": "Kim, Dongkyu and Kim, Byoungwook and Han, Donggeon and Eibich, Matou{\\v{s}}",
+    "year": "2024",
+    "venue": "arXiv preprint arXiv:2410.20878",
+    "journal": "arXiv preprint arXiv:2410.20878",
+    "booktitle": "",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "publisher": "",
+    "note": "",
+    "doi": "",
+    "url": "",
+    "arxiv": "",
+    "citation_count": 0,
+    "citation_contexts": [],
+    "raw": "@article{autorag2024,\n  title        = {{AutoRAG}: Automated Framework for Optimization of Retrieval Augmented Generation Pipeline},\n  author       = {Kim, Dongkyu and Kim, Byoungwook and Han, Donggeon and Eibich, Matou{\\v{s}}},\n  journal      = {arXiv preprint arXiv:2410.20878},\n  year         = {2024}\n}"
+  }
+]

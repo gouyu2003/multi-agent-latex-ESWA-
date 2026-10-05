@@ -1,0 +1,329 @@
+% ==============================================================================
+% CHAPTER 8: CHALLENGES AND FUTURE DIRECTIONS
+% ==============================================================================
+\section{Discussion}
+\label{sec:discussion}
+
+The preceding analysis shows that multi-agent collaborative QA is not limited
+by a single algorithmic bottleneck. Its practical effectiveness depends on the
+joint interaction of architecture, communication, evaluation, domain
+knowledge, human oversight, and deployment constraints. On this basis, this
+section first identifies four open challenges and then outlines five future
+research directions. The two sets are not intended to correspond one-to-one:
+some directions address several challenges simultaneously, whereas others
+arise from broader opportunities created by persistent multi-agent
+interaction.
+
+\subsection{Open Challenges}
+\label{sec:open_challenges}
+
+\textbf{Challenge 1: Architecture adaptation under competing task
+requirements and deployment constraints.}
+The taxonomy in Section~3 distinguishes flat, hierarchical, and hybrid
+architectures according to their different design priorities. Flat
+architectures favour decentralised exploration and multi-perspective
+verification, hierarchical architectures favour controlled decomposition and
+convergence, and hybrid architectures attempt to combine these properties.
+Real-world QA tasks, however, are rarely dominated by a single requirement.
+They may simultaneously require exploratory discussion, reliable convergence,
+low latency, specialised knowledge, and strict risk control. The
+architecture-selection stress test in Section~6 illustrates this boundary.
+For EduPlanner \citep{zhang2024eduplanner}, open-ended instructional design
+favours peer exploration, whereas curriculum-scoring objectives favour a
+controlled evaluator--optimizer process. Financial Reflection QA
+\citep{fatemi2024financialqa} similarly combines a convergent numerical
+objective with iterative multi-critic reflection. In both cases, a
+single-dimension decision rule did not reproduce the architecture adopted by
+the original system.
+
+This ambiguity extends beyond choosing among three architecture classes. A
+deployed service must also decide which agents should participate, how many
+are needed, which communication topology to use, how many interaction rounds
+to permit, and when to stop. Adding agents may broaden expertise, but it also
+increases inference, communication, and tool-use costs and can introduce
+redundant or conflicting information. The design problem is therefore
+constrained jointly by answer quality, latency, monetary cost, and risk rather
+than by professional relevance alone. Static qualitative rules remain useful
+for initial screening, but their robustness decreases when several task
+requirements compete and no single objective clearly dominates.
+
+\textbf{Challenge 2: Limited observability and process-level evaluation of
+multi-agent collaboration.}
+Most QA benchmarks emphasise final task outcomes, such as answer accuracy or
+completion success \citep{hendrycks2021mmlu,yang2018hotpotqa,
+liu2024agentbench,mialon2024gaia}. These measures are necessary, but they
+cannot distinguish fundamentally different collaboration processes. A
+correct answer may result from two rounds of productive disagreement and
+error correction, or from a long sequence of repetitive exchanges followed
+by an incidental success. Likewise, a higher aggregate score does not by
+itself establish that the participating agents contributed complementary
+knowledge rather than restating the same reasoning in different words.
+
+The communication analysis in Sections~3 and~4 further shows why this
+distinction matters. In a fully connected broadcast topology, the number of
+potential pairwise messages in each round grows quadratically with the number
+of agents. More communication can therefore consume substantially more
+tokens without guaranteeing a commensurate information gain
+\citep{qian2024scaling_multiagent}. Existing task-level scores rarely reveal
+which round corrected an error, which role supplied decisive evidence, which
+arguments were adopted in the final answer, or whether apparent agreement
+reflects genuine convergence or pseudo-consensus. Trace-based analyses such as
+MAST demonstrate the value of examining system design, inter-agent
+misalignment, and task verification failures \citep{han2024mast}, but such
+diagnostics are not yet standard components of collaborative QA evaluation.
+Consequently, current evaluations indicate whether a system is correct more
+readily than whether its collaboration is efficient, complementary, and
+reliable.
+
+\textbf{Challenge 3: Insufficient human control, traceability, and
+accountability in high-stakes QA.}
+Medical and legal QA require more than a plausible final answer. Evidence
+provenance, intermediate reasoning, role-specific contributions, and the
+authority to approve or reject consequential actions may all need to be
+examined. The medical and legal systems reviewed in Section~5 illustrate the
+importance of specialised knowledge and multi-role reasoning
+\citep{tang2024medagents,cui2023chatlaw}; they also expose the gap between
+benchmark performance and the requirements of accountable deployment. This
+gap is particularly important when an incorrect answer can affect a clinical,
+legal, or organisational decision.
+
+The HITL architectures discussed in Section~3 provide a foundation for human
+participation, but many implementations treat intervention primarily as a
+workflow breakpoint, a textual correction, or final approval
+\citep{duan2024langgraph_crewai,langgraph2024}. Such mechanisms answer whether
+a human can enter the loop, but not when intervention is most effective, what
+intermediate state should be editable, or what authority the reviewer should
+possess. They may also leave incomplete records of the evidence viewed, the
+state changed, and the effect of the intervention on subsequent reasoning.
+The central challenge is therefore not merely to include a human in the
+workflow, but to provide a degree of control and auditability proportionate to
+the risk of the QA task.
+
+\textbf{Challenge 4: Limited adaptability and composability for real-world
+deployment.}
+Two deployment patterns are likely to coexist in practice. Some applications
+require a persistent domain-specific team, such as a multi-specialty medical
+QA service that repeatedly handles related cases. Others require an ad hoc
+team assembled for a temporary problem, such as urban planning, environmental
+assessment, or enterprise decision support. Both patterns require rapid
+connection of domain knowledge, tools, and specialised roles. General
+frameworks and platforms such as AutoGen, LangGraph, CrewAI, and Dify provide
+reusable components for role definition, workflow orchestration, retrieval,
+and tool use \citep{wu2024autogen,langgraph2024,crewai2023,dify2024}.
+Nevertheless, component-level reuse does not by itself provide task-level
+adaptation.
+
+Developers must still specify role responsibilities, knowledge boundaries,
+communication protocols, tool permissions, and termination conditions. When
+the task or domain changes, many of these decisions must be revisited, while
+knowledge sources and evidence formats may not transfer cleanly across
+systems. Ad hoc deployments also lack a standard procedure for validating an
+assembled team before it is exposed to users. This gap raises the engineering
+cost of translating reusable multi-agent components into reliable
+task-specific QA services.
+
+These challenges are closely related but operate at different levels.
+Architecture adaptation concerns how a system should be configured;
+process-level evaluation concerns how collaboration should be measured;
+high-stakes deployment concerns how decisions should be supervised and
+audited; and composability concerns how a collaborative team can be assembled
+for a new task. Addressing them therefore requires a research agenda that
+extends beyond isolated improvements to prompts or individual agents.
+
+\subsection{Future Research Directions}
+\label{sec:future_directions}
+
+The following directions do not constitute one-to-one responses to the
+preceding challenges. Some address several limitations simultaneously, while
+continual agent evolution represents a broader opportunity that emerges when
+multi-agent QA systems are treated as persistent services rather than
+one-off inference pipelines.
+
+\textbf{Direction 1: Process-aware evaluation of collaborative
+effectiveness.}
+A first priority is to extend evaluation from the final answer to the complete
+collaboration trace. Each interaction could be represented as a structured
+event containing the speaker, claim, supporting evidence, confidence,
+response target, and whether the information was retained in the final
+answer. This representation would support metrics such as the marginal gain
+in answer quality after each round, the adoption rate of role-specific
+arguments, the error-correction rate relative to a single-agent baseline, the
+proportion of repeated or non-contributory messages, and the tokens, time, and
+tool calls required to reach a fixed quality level. Trace taxonomies such as
+MAST offer a starting point for annotating failures \citep{han2024mast}, but
+collaborative QA also requires positive measures of useful disagreement,
+complementarity, and convergence.
+
+Validation should compare single-agent, fixed multi-agent, and dynamically
+configured systems under the same base model, knowledge source, and inference
+budget. Human assessment can be used on a subset of traces to determine
+whether an apparent improvement reflects genuinely new evidence or merely
+linguistic reformulation. The resulting process metrics should then be tested
+for their ability to predict final reliability and failure risk across
+multi-hop, open-domain, and domain-specific QA tasks. Such a benchmark would
+provide a common measurement layer for the remaining research directions.
+
+\textbf{Direction 2: Multi-objective orchestration of agent selection,
+interaction, and termination.}
+Architecture selection can be reformulated as a dynamic orchestration problem
+rather than a one-time classification decision. A controller could estimate
+task complexity, domain requirements, risk level, current disagreement, and
+evidence sufficiency, and then decide which agents to invoke, how they should
+communicate, whether another specialist is needed, and when collaboration
+should terminate. For example, a high-confidence agreement supported by
+independent evidence could trigger early stopping, whereas unresolved
+disagreement or weak evidence could activate an additional critic or domain
+expert. Adaptive systems such as MDAgents provide an initial example of
+changing collaboration according to problem difficulty
+\citep{kim2024mdagents}, while broader scaling results indicate that the
+benefit of adding agents depends on both task and coordination design
+\citep{qian2024scaling_multiagent}.
+
+The controller should optimise answer quality jointly with latency, token
+consumption, monetary cost, and tool-use overhead. Evaluation could compare
+static, rule-based, and learned orchestration under multiple resource budgets,
+reporting both absolute performance and the Pareto frontier between quality
+and resource use. This design would reveal whether dynamic orchestration can
+preserve answer quality while reducing unnecessary participants and
+interaction rounds. It would also convert the qualitative selection guide in
+Section~6 into an empirically testable decision policy.
+
+\textbf{Direction 3: Continual co-evolution of agent knowledge and group
+collaboration strategies.}
+Persistent multi-agent QA systems should not necessarily restart every case
+with the same knowledge and collaboration policy. At the individual level,
+an agent could use verified cases, retrieved updates, and human corrections
+to refine its domain memory, record recurring error types, and calibrate the
+boundary of its expertise. Existing work on agent memory and reflective
+feedback provides useful components for such updating
+\citep{zhang2024memory_survey,shinn2023reflexion}. To prevent unverified
+content from becoming persistent knowledge, each update should retain its
+source, timestamp, confidence, and validation status.
+
+At the group level, the system could learn which agents are reliable for
+particular question types, which combinations produce complementary evidence,
+and which interaction patterns tend to repeat errors. These histories could
+inform dynamic speaking order, routing, voting weights, and stopping rules.
+For example, a medical system that repeatedly observes reliable pathology
+judgements from one specialist agent could assign greater weight to that
+agent on related cases while avoiding unnecessary debate. This extends
+memory-based individual adaptation towards learned team coordination, an
+opportunity suggested by persistent-agent environments
+\citep{park2023generative_agents,chen2024agentverse}.
+
+Longitudinal evaluation is essential because short benchmark runs cannot
+measure evolution. Experiments should present sequential tasks with changing
+knowledge and monitor adaptation speed, knowledge retention, long-term
+accuracy, and collaboration cost. They should also test safeguards against
+error propagation, collective bias reinforcement, catastrophic forgetting,
+privacy leakage, and unstable shifts in agent authority. Comparing individual
+updating, group-policy updating, and their joint use would show whether the
+two forms of evolution are complementary.
+
+\textbf{Direction 4: Declarative and low-code composition of task-specific
+multi-agent QA systems.}
+To reduce deployment effort, future platforms could allow users to declare a
+task objective, domain knowledge sources, role responsibilities, tool
+permissions, risk level, and resource budget. The platform could then generate
+an initial team configuration containing agent roles, communication topology,
+knowledge interfaces, discussion protocol, and termination rules. Reusable
+templates could support both persistent domain teams and temporary
+problem-oriented teams. Current orchestration frameworks already provide
+several of the required components \citep{wu2024autogen,langgraph2024,
+crewai2023,dify2024}; the research challenge is to compose and validate them
+at the task level rather than expose them only as separate development
+features.
+
+Domain knowledge should also enter collaboration through structured
+interfaces rather than prompt text alone. Retrieval adapters, knowledge
+graphs, typed evidence objects, confidence estimates, and provenance metadata
+could allow agents to exchange claims together with their evidential status.
+This approach is more interoperable than assuming direct access to
+model-specific hidden representations and is consistent with the structured
+communication and memory mechanisms reviewed in Section~4. Before deployment,
+an automatically assembled team could be tested on historical cases or
+sandbox tasks to identify missing expertise, unsafe tool permissions, and
+non-convergent interaction patterns.
+
+Evaluation should measure the time and code required to configure a new
+system, performance loss during cross-domain transfer, and the proportion of
+configuration errors detected before deployment. Comparisons among manual
+engineering, template-based assembly, and automatically generated
+configurations would establish whether low-code composition reduces effort
+without sacrificing reliability.
+
+\textbf{Direction 5: Risk-adaptive human oversight and auditable
+intervention.}
+Human oversight should vary with task risk, evidence uncertainty, and
+inter-agent disagreement rather than being inserted at a fixed point in every
+workflow. A system could trigger review before task decomposition, after
+evidence retrieval, when agents reach a material disagreement, before a
+high-impact tool action, or before the final answer is released. In
+high-risk cases, reviewers should be able to inspect and revise intermediate
+states rather than only accept or reject the final output. Each intervention
+should generate an audit record containing the reviewer, evidence inspected,
+state changed, reason for the change, and effect on subsequent reasoning.
+
+This design can be evaluated by constructing QA tasks at several risk levels
+and comparing fixed breakpoints, uncertainty-triggered review,
+disagreement-triggered review, and continuous human supervision. Relevant
+outcomes include error-interception rate, decision time, human workload,
+answer quality, user trust, and the completeness of responsibility tracing.
+Crucially, experiments should test whether additional transparency improves
+error detection rather than merely increasing perceived trust. Such evidence
+would provide risk-specific engineering guidance for medical, legal, and
+other regulated applications.
+
+\begin{table*}[pos=t]
+  \centering
+  \caption{Operational research agenda for multi-agent collaborative QA.}
+  \label{tab:research_agenda}
+  \small
+  \begin{tabularx}{\textwidth}{p{2.8cm} X p{3.5cm} p{3.1cm}}
+    \toprule
+    \textbf{Research direction} &
+    \textbf{Operational mechanism} &
+    \textbf{Key evaluation criteria} &
+    \textbf{Validation setting} \\
+    \midrule
+    Process-aware evaluation &
+    Structured interaction traces and contribution analysis &
+    Marginal gain, correction rate, redundancy, and resource cost &
+    Multi-hop and debate-based QA \\[2pt]
+    Multi-objective orchestration &
+    Dynamic agent selection, routing, escalation, and termination &
+    Quality, latency, token cost, and Pareto efficiency &
+    Budget-constrained QA \\[2pt]
+    Continual co-evolution &
+    Verified knowledge updating and learned reliability profiles &
+    Adaptation speed, retention, long-term accuracy, and stability &
+    Sequential domain tasks \\[2pt]
+    Declarative composition &
+    Automatic role, tool, knowledge, and protocol configuration &
+    Setup time, code reduction, transfer performance, and pre-deployment errors &
+    Cross-domain deployment \\[2pt]
+    Risk-adaptive oversight &
+    Uncertainty- and disagreement-triggered human intervention &
+    Error interception, workload, trust, and traceability &
+    Medical, legal, and other regulated QA \\
+    \bottomrule
+  \end{tabularx}
+\end{table*}
+
+\subsection{Limitations of This Survey}
+\label{sec:survey_limitations}
+
+This survey has four principal limitations. First, the literature search
+extends to mid-2026, and the speed of development means that later or
+insufficiently indexed systems cannot be represented. Second, architecture
+classification depends on the level of implementation detail reported by the
+original authors. Systems that dynamically switch topology or combine several
+coordination mechanisms may therefore remain ambiguous at category
+boundaries. Third, the ten-case comparison in Section~6 is a small diagnostic
+stress test rather than independent confirmation of general validity; broader
+testing across tasks, models, and resource budgets is required. Fourth, the
+architecture-selection guide remains qualitative. Its decision factors have
+not yet been operationalised as a weighted model learned or calibrated on a
+large labelled system corpus. These limitations bound the claims that can be
+made for the proposed taxonomy and selection guide, while motivating their
+future empirical refinement.

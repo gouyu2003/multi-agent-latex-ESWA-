@@ -1,0 +1,6 @@
+﻿date,source,query,purpose,records_reviewed,records_added
+2026-08-02,Local BibTeX,All entries in references.bib,Reconstruct candidate corpus,108,0
+2026-08-02,Crossref + OpenAlex + arXiv,Exact/near-exact title and first-author matching for every candidate,Existence and metadata verification,108,0
+2026-08-02,ACL Anthology + OpenReview + publisher proceedings,multi-agent AND (question answering OR reasoning) AND (LLM OR large language model),"Targeted gap search: collaborative reasoning; top-ranked results inspected, no exhaustive hit count claimed",not claimed,1
+2026-08-02,arXiv + NeurIPS proceedings,multi-agent AND long-context AND (QA OR question answering),"Targeted gap search: long-context QA; top-ranked results inspected, no exhaustive hit count claimed",not claimed,1
+2026-08-02,ACL Anthology,multi-agent AND (RAG OR retrieval-augmented generation) AND (QA OR question answering),"Targeted gap search: multi-agent RAG; top-ranked results inspected, no exhaustive hit count claimed",not claimed,1
