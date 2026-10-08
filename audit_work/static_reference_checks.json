@@ -1,22 +1,717 @@
 {
-  "bib_entries": 75,
-  "unique_bib_keys": 75,
-  "cited_keys": 75,
-  "undefined_citations": [],
-  "uncited_bibliography_entries": [],
-  "duplicate_keys": [],
-  "duplicate_dois": [],
-  "entries_missing_title_author_or_year": {},
-  "entries_missing_doi_and_url": [],
-  "truncated_author_lists": [],
-  "audit_rows": 111,
-  "verified_audit_rows_without_source_url": [],
-  "active_audit_rows_not_verified": [],
-  "active_audit_metadata_mismatches": [],
-  "stale_claim_hits": {},
-  "citation_arguments_containing_comments": [],
-  "texttt_arguments_with_unescaped_underscores": [],
-  "highlight_count": 5,
-  "highlights_over_85_characters": [],
-  "checks_passed": true
+  "scope": "current active manuscript inclusion graph; historical CSV not authoritative",
+  "source_files": [
+    {
+      "file": "manuscript.tex",
+      "sha256": "23bb9eea4316745fce3775ec817bb78bf74d5c597f194d19c8e690d4d441259b"
+    }
+  ],
+  "compiled_artifacts": [
+    {
+      "file": "manuscript.aux",
+      "sha256": "403a6ca0521c3bd04b115b7b8db70fdf570adc50005d3dc0fc4231f7ace53918"
+    },
+    {
+      "file": "manuscript.bbl",
+      "sha256": "c2c02ca5e4bbdb7979b8315e21131d55bb8c338195e0dd70123bdc85d949d6ee"
+    }
+  ],
+  "bib_pool_entries": 85,
+  "active_cited_keys": 78,
+  "citation_commands": 136,
+  "citation_key_occurrences": 180,
+  "aux_citation_commands": 136,
+  "bbl_entries": 78,
+  "ledger_coverage": {
+    "reference_rows": 85,
+    "citation_command_rows": 136,
+    "citation_key_assessments": 180,
+    "support_degrees": {
+      "direct": 99,
+      "partial": 8,
+      "author_inference": 21,
+      "mixed": 7,
+      "proposal": 1
+    },
+    "field_status_counts": {
+      "verified": 569,
+      "not_verified": 131,
+      "not_applicable": 120,
+      "version_conflict": 17,
+      "normalization_suggested": 10,
+      "incomplete": 3
+    }
+  },
+  "errors": {},
+  "warnings": {
+    "uncited_bibliography_pool_records": [
+      "brynjolfsson2023generative_ai_work",
+      "guha2023legalbench",
+      "jimenez2024swe_bench",
+      "li2024genmentor",
+      "singhal2023medpalm",
+      "xagent2023",
+      "yang2024swe_agent"
+    ],
+    "citation_rows_requiring_attention": [
+      "C009",
+      "C010",
+      "C011",
+      "C026",
+      "C031",
+      "C049",
+      "C050",
+      "C052",
+      "C053",
+      "C054",
+      "C056",
+      "C057",
+      "C058",
+      "C059",
+      "C060",
+      "C061",
+      "C062",
+      "C063",
+      "C064",
+      "C065",
+      "C066",
+      "C067",
+      "C068",
+      "C073",
+      "C083",
+      "C098",
+      "C109",
+      "C112",
+      "C115",
+      "C124",
+      "C125",
+      "C127",
+      "C128",
+      "C129",
+      "C131",
+      "C135",
+      "C136"
+    ],
+    "metadata_fields_requiring_attention": [
+      {
+        "key": "brown2020gpt3",
+        "fields": [
+          "number",
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "openai2023gpt4",
+        "fields": [
+          "doi",
+          "type"
+        ]
+      },
+      {
+        "key": "minsky1988society",
+        "fields": [
+          "year",
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "wu2024autogen",
+        "fields": [
+          "title",
+          "year",
+          "venue",
+          "volume",
+          "number",
+          "pages",
+          "doi",
+          "url",
+          "type"
+        ]
+      },
+      {
+        "key": "hong2024metagpt",
+        "fields": [
+          "doi"
+        ]
+      },
+      {
+        "key": "du2024multiagent_debate",
+        "fields": [
+          "doi"
+        ]
+      },
+      {
+        "key": "tran2025multiagent_survey",
+        "fields": [
+          "doi",
+          "type"
+        ]
+      },
+      {
+        "key": "wang2024survey_autonomous_agents",
+        "fields": [
+          "number"
+        ]
+      },
+      {
+        "key": "lewis2020rag",
+        "fields": [
+          "number",
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "yao2023react",
+        "fields": [
+          "doi"
+        ]
+      },
+      {
+        "key": "vaswani2017attention",
+        "fields": [
+          "number",
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "devlin2019bert",
+        "fields": [
+          "volume"
+        ]
+      },
+      {
+        "key": "touvron2023llama",
+        "fields": [
+          "doi",
+          "type"
+        ]
+      },
+      {
+        "key": "glm2024chatglm",
+        "fields": [
+          "doi",
+          "type"
+        ]
+      },
+      {
+        "key": "ouyang2022instructgpt",
+        "fields": [
+          "author",
+          "number"
+        ]
+      },
+      {
+        "key": "qian2024scaling_multiagent",
+        "fields": [
+          "doi"
+        ]
+      },
+      {
+        "key": "park2023generative_agents",
+        "fields": [
+          "author",
+          "volume",
+          "number",
+          "pages"
+        ]
+      },
+      {
+        "key": "li2023camel",
+        "fields": [
+          "author",
+          "number"
+        ]
+      },
+      {
+        "key": "qian2023chatdev",
+        "fields": [
+          "volume"
+        ]
+      },
+      {
+        "key": "gao2024rag_survey",
+        "fields": [
+          "doi"
+        ]
+      },
+      {
+        "key": "shen2024hugginggpt",
+        "fields": [
+          "number",
+          "pages"
+        ]
+      },
+      {
+        "key": "zhao2024longagent",
+        "fields": [
+          "author"
+        ]
+      },
+      {
+        "key": "khattab2024dspy",
+        "fields": [
+          "author",
+          "title",
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "duan2024langgraph_crewai",
+        "fields": [
+          "doi"
+        ]
+      },
+      {
+        "key": "zhuge2024gptswarm",
+        "fields": [
+          "doi"
+        ]
+      },
+      {
+        "key": "chen2024agentverse",
+        "fields": [
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "kim2024mdagents",
+        "fields": [
+          "number",
+          "pages"
+        ]
+      },
+      {
+        "key": "zhou2023least_to_most",
+        "fields": [
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "khot2023decomposed_prompting",
+        "fields": [
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "packer2023memgpt",
+        "fields": [
+          "doi",
+          "url"
+        ]
+      },
+      {
+        "key": "asai2024selfrag",
+        "fields": [
+          "author",
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "wei2022chain_of_thought",
+        "fields": [
+          "number",
+          "pages"
+        ]
+      },
+      {
+        "key": "wang2023self_consistency",
+        "fields": [
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "yao2023tree_of_thoughts",
+        "fields": [
+          "author",
+          "number",
+          "pages"
+        ]
+      },
+      {
+        "key": "shinn2023reflexion",
+        "fields": [
+          "number",
+          "pages"
+        ]
+      },
+      {
+        "key": "madaan2023self_refine",
+        "fields": [
+          "number",
+          "pages"
+        ]
+      },
+      {
+        "key": "cui2023chatlaw",
+        "fields": [
+          "doi",
+          "url"
+        ]
+      },
+      {
+        "key": "li2024genmentor",
+        "fields": [
+          "pages"
+        ]
+      },
+      {
+        "key": "singhal2023medpalm",
+        "fields": [
+          "number"
+        ]
+      },
+      {
+        "key": "guha2023legalbench",
+        "fields": [
+          "author",
+          "number",
+          "pages"
+        ]
+      },
+      {
+        "key": "yang2024swe_agent",
+        "fields": [
+          "number",
+          "pages"
+        ]
+      },
+      {
+        "key": "jimenez2024swe_bench",
+        "fields": [
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "han2024mast",
+        "fields": [
+          "number",
+          "pages"
+        ]
+      },
+      {
+        "key": "anthropic2024mcp",
+        "fields": [
+          "author",
+          "title",
+          "venue",
+          "doi",
+          "url"
+        ]
+      },
+      {
+        "key": "google2025a2a",
+        "fields": [
+          "author",
+          "title",
+          "venue",
+          "doi",
+          "url"
+        ]
+      },
+      {
+        "key": "langgraph2024",
+        "fields": [
+          "venue",
+          "doi"
+        ]
+      },
+      {
+        "key": "crewai2023",
+        "fields": [
+          "venue",
+          "doi"
+        ]
+      },
+      {
+        "key": "dify2024",
+        "fields": [
+          "author",
+          "title",
+          "year",
+          "venue",
+          "doi"
+        ]
+      },
+      {
+        "key": "tang2025llmmedqa",
+        "fields": [
+          "pages",
+          "url"
+        ]
+      },
+      {
+        "key": "huang2023agentcoder",
+        "fields": [
+          "volume",
+          "number",
+          "pages",
+          "doi",
+          "url"
+        ]
+      },
+      {
+        "key": "zhang2024eduplanner",
+        "fields": [
+          "title",
+          "number",
+          "url"
+        ]
+      },
+      {
+        "key": "fatemi2024financialqa",
+        "fields": [
+          "venue",
+          "pages",
+          "url"
+        ]
+      },
+      {
+        "key": "peffers2007dsrm",
+        "fields": [
+          "url"
+        ]
+      },
+      {
+        "key": "xagent2023",
+        "fields": [
+          "venue",
+          "doi"
+        ]
+      },
+      {
+        "key": "zhang2024chain_agents",
+        "fields": [
+          "author",
+          "pages"
+        ]
+      },
+      {
+        "key": "shao2024storm",
+        "fields": [
+          "author"
+        ]
+      },
+      {
+        "key": "shao2024costorm",
+        "fields": [
+          "author"
+        ]
+      },
+      {
+        "key": "ragflow2024",
+        "fields": [
+          "author",
+          "title",
+          "year",
+          "venue",
+          "doi"
+        ]
+      },
+      {
+        "key": "hendrycks2021mmlu",
+        "fields": [
+          "pages",
+          "doi",
+          "url"
+        ]
+      },
+      {
+        "key": "trivedi2022musique",
+        "fields": [
+          "title",
+          "number"
+        ]
+      },
+      {
+        "key": "liu2024agentbench",
+        "fields": [
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "mialon2024gaia",
+        "fields": [
+          "author",
+          "pages",
+          "doi",
+          "url"
+        ]
+      },
+      {
+        "key": "zhou2024webarena",
+        "fields": [
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "autorag2024",
+        "fields": [
+          "volume",
+          "number",
+          "pages",
+          "doi"
+        ]
+      },
+      {
+        "key": "langgraph2024interrupt",
+        "fields": [
+          "doi"
+        ]
+      }
+    ],
+    "additional_fields_requiring_attention": [
+      {
+        "key": "wooldridge1995intelligent",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "du2024multiagent_debate",
+        "fields": [
+          "series",
+          "publisher"
+        ]
+      },
+      {
+        "key": "wang2024survey_autonomous_agents",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "kwiatkowski2019natural_questions",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "reddy2019coqa",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "packer2023memgpt",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "zhang2024memory_survey",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "singhal2023medpalm",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "brynjolfsson2023generative_ai_work",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "langgraph2024",
+        "fields": [
+          "note"
+        ]
+      },
+      {
+        "key": "dify2024",
+        "fields": [
+          "note"
+        ]
+      },
+      {
+        "key": "tang2025llmmedqa",
+        "fields": [
+          "organization"
+        ]
+      },
+      {
+        "key": "legalgraphrag2026",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "zhang2024eduplanner",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "peffers2007dsrm",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "chen2024reconcile",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "jiang2026cocoa",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "shao2024storm",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "shao2024costorm",
+        "fields": [
+          "publisher"
+        ]
+      },
+      {
+        "key": "ragflow2024",
+        "fields": [
+          "note"
+        ]
+      },
+      {
+        "key": "trivedi2022musique",
+        "fields": [
+          "publisher"
+        ]
+      }
+    ],
+    "legacy_csv_stale_citation_flags": [],
+    "legacy_csv_stale_citation_counts": []
+  },
+  "checks_passed": true,
+  "meaning_of_pass": "Active-scope counting, fresh compiled-artifact consistency, ledger completeness and preserved source/figure boundaries. Corrections and unresolved evidence are recorded separately; pass is not blanket field verification."
 }

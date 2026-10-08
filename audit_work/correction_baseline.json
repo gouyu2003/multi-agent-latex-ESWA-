@@ -1,0 +1,28 @@
+{
+  "baseline_archive": "audit_work/before_reference_corrections_20261008.zip",
+  "input_sha256": {
+    "manuscript.tex": "6c15add718f316c71d4dfb85445f1ec27a97e5297531409f203055a08891ade3",
+    "references.bib": "39d52bf4e15e11f4945b7af1d283bba90a669405af61e6bf8cf5a69f40b70994"
+  },
+  "figure_sha256": {
+    "change_timeline.jpg": "3d64cc9c81f44d318ee46ee5975abb1e19b60ae38b2da111b4af8abb4ccfbb38",
+    "classify.jpg": "ba422df21868dc4cbcedad80030e71061b658c17b0d9a0cea0f02c1b572f0b61",
+    "Design logic and trade-offs among flat, hierarchical, and hybrid architectures for multi-agent collaborative QA.jpg": "b40329aa28ec25b563437601882403af26cbcd89b089786b5a1f29a65f0f253c",
+    "Design logic and trade-offs.png": "9d26da26b46afdf8a4915fd251491bea72b83c4f6a5009bcba5983158529d860",
+    "fig2_architecture.pdf": "f3eec9ae9a555ef830e9cfee4089df2f9e383c40b99c97e2c3cd4f99e56c811b",
+    "fig3_topology.pdf": "015046a44f98dc11dd3c2d77b62875e49cf84fa7bdb9609b55dff5b993eab4a1",
+    "fig4_tech.pdf": "71cbe58644798da8aa02e326ba1b82863e5db8d1ad95adc7136ba203000cbf90",
+    "fig_architecture_tradeoffs.jpg": "b40329aa28ec25b563437601882403af26cbcd89b089786b5a1f29a65f0f253c",
+    "fig_flow.jpg": "b3add8f2a85ceaa5b460e872dfdac003c714fce0baab934917554ace9a1f60f4",
+    "fig_mindmap.jpg": "4992a17c8da8db3a7db8f5751bf10ca1c85b7dbb7b242fc2b9d166abf222827b",
+    "fig_prisma_flowchart.pdf": "6a6be2dae3149bb7eed66680d121ea6143b8c00d2718d3e169a9cfb4167477e8",
+    "fig_pub_overview_nature.pdf": "895e5225d578fdc71ec2824d07f3e3548b540e268d318cfbea0d29fbbf074a03",
+    "fig_pub_overview_nature.png": "f666bd9e303a68db5ad2f7265650bd340d978185091a4878b12f755e07c18594",
+    "fig_pub_overview_nature.svg": "a9eaf23f6af6d1f332e4350b514c788e898b72e644f874fb18d17aee7a4ecc60",
+    "fig_reference_corpus.pdf": "d1c7ec8f9c6ec4db64eeaee589197d9d7819dde76d656349a75223955e758d2d",
+    "fig_reference_corpus.png": "dcd2f02bf85330a826740847c01e32bc8c2a044784345b3265fa7538ae2c26b8",
+    "fig_reference_corpus.svg": "8711a84ce7619eab7867cede39801dde268e465cbf276e6b5cd0a8d9b0a6ecb9",
+    "findmap.png": "85b5cfb78cc3673c23b7768adb62cea2e09cdae8d7f94cf13ad8aff3c4097c46",
+    "Gemini_Generated_Image_2b3ub22b3ub22b3u.png": "d71db1171ff6c2d69c0c34677794c0162258977b5cd898fcd852a797ca04bac0"
+  }
+}

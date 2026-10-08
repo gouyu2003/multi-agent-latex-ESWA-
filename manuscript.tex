@@ -61,8 +61,9 @@
 Large language models (LLMs) have enabled question answering (QA) systems to
 use multiple interacting agents, but evidence about when collaboration is
 useful remains fragmented. This paper presents a structured evidence-mapping
-review of multi-agent collaborative QA based on 84 verified sources,
-including 14 core empirical studies published through July 2026. We first
+review of multi-agent collaborative QA using 78 cited sources from an
+85-record bibliography pool, with 14 studies coded as core or boundary-case
+evidence published through July 2026. We first
 classify systems by the distribution of decision authority and control into
 flat, hierarchical, and hybrid architectures. We then develop a qualitative,
 two-phase architecture-selection approach that uses task complexity and
@@ -131,8 +132,8 @@ grounded in information retrieval and machine reading comprehension, QA
 has undergone a remarkable transformation.
 In recent years, large language models (LLMs) such as GPT series
 \citep{brown2020gpt3} \citep{openai2023gpt4} have demonstrated
-extraordinary natural-language understanding and generation capabilities,
-ushering QA systems into a new, agent-centric era.
+strong natural-language understanding and generation capabilities relevant
+to QA.
 Nevertheless, QA systems built on a single LLM agent continue to face
 fundamental limitations.
 \emph{First}, single agents are prone to hallucination, producing factually
@@ -155,17 +156,16 @@ Through role specialization, mutual debate \citep{du2024multiagent_debate},
 and structured task decomposition, multi-agent systems can improve answer
 verification and task performance.
 
-Although several surveys on LLM-based agents exist
-\citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents},
-they focus primarily on general agent architectures or foundational
-capabilities. A systematic account of collaboration topologies, enabling
-mechanisms, task and governance requirements, and architecture-selection
-trade-offs for QA remains limited. This survey addresses that gap through five
-related contributions:
+Existing surveys cover general LLM-agent construction, communication,
+and orchestration
+\citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents}.
+This survey builds on that coverage by connecting collaboration topologies and enabling mechanisms
+to QA-specific task and governance requirements and architecture-selection
+trade-offs through five related contributions:
 
 \begin{enumerate}
   \item We construct a structured evidence map of multi-agent collaborative
-        QA, based on a verified corpus with explicit roles for core empirical
+        QA, based on a source-checked corpus with explicit roles for core empirical
         studies, supporting research, background literature, and technical
         documentation. The review distinguishes direct QA evidence from
         adjacent agent applications.
@@ -206,15 +206,28 @@ Section~6 discusses open challenges and future directions.
 
 This survey uses a \emph{structured evidence-mapping review}. It does not seek to conduct an exhaustive PRISMA-style systematic review, as its objective is to synthesize multiple types of sources—empirical multi-agent QA studies, related agent research, foundational literature, and evolving technical documentation—with explicitly defined roles for each category of evidence.
 
-The initial candidate set contained 108 unique entries from the authors' working bibliography. On 2 August 2026, each entry was verified by title, first author, publication year, venue, and persistent identifier against Crossref, OpenAlex, arXiv, and, where available, official publisher proceedings or project documentation. This process uncovered four records with corrupted or mismatched metadata for which an authoritative source could not be confirmed. The process also identified duplicate, uncited, and out-of-scope records; these were preserved in the audit trail but excluded from the active bibliography.
+The historical audit log records an initial candidate set of 108 unique
+entries from the authors' working bibliography and checks dated 2 August
+2026 using Crossref, OpenAlex, arXiv, and official sources. It records four
+corrupted or mismatched records for which an authoritative source was not
+confirmed, together with duplicate, uncited, and out-of-scope records. These
+historical records are retained in the audit trail; the log alone is not
+independent evidence that every publication field was verified.
 
-A targeted update search was then conducted using combinations of \textit{multi-agent},
+The historical targeted update used combinations of \textit{multi-agent},
 \textit{LLM}, \textit{question answering}, \textit{reasoning},
 \textit{long-context}, and \textit{retrieval-augmented generation} across the ACL
-Anthology, OpenReview, arXiv, and publisher proceedings. Three directly
-relevant studies absent from the initial collection were added after full
-metadata verification: ReConcile \citep{chen2024reconcile}, Chain-of-Agents
-\citep{zhang2024chain_agents}, and CoCoA \citep{jiang2026cocoa}. 
+Anthology, OpenReview, arXiv, and publisher proceedings. It added ReConcile
+\citep{chen2024reconcile}, Chain-of-Agents \citep{zhang2024chain_agents}, and
+CoCoA \citep{jiang2026cocoa}.
+
+A source-level recheck on 8 October 2026 compared the 84-record bibliography
+pool with publisher records, official proceedings, versioned arXiv papers,
+and project documentation. The accompanying audit separates source existence,
+field accuracy, version conflicts, and claim support. Confirmed corrections
+were applied, while inaccessible fields and unresolved conflicts remain
+explicitly marked. One official LangGraph article was added to support the
+specific interrupt and checkpoint mechanisms discussed below.
 
 % Ensure that the monospace file-name style above cannot leak into subsequent
 % headings or body text on TeX installations with older CAS dependencies.
@@ -222,7 +235,7 @@ metadata verification: ReConcile \citep{chen2024reconcile}, Chain-of-Agents
 \subsubsection{Eligibility criteria and evidence classification}
 \label{sec:screening}
 
-Core included studies (role \textbf{I}) had to satisfy five criteria:
+The core eligibility screen (role \textbf{I}) used five criteria:
 (1) publication from January 2019 through July 2026;
 (2) an LLM serving as the primary agent backbone;
 (3) at least two agents equipped with an explicit collaboration mechanism;
@@ -230,14 +243,23 @@ Core included studies (role \textbf{I}) had to satisfy five criteria:
 (5) a described method or system accompanied by empirical evaluation. When both a preprint and a peer-reviewed version of a work existed, the peer-reviewed final publication was preferred.
 
 Sources that informed collaboration mechanisms or applications but did not meet every core criterion were coded as supporting studies (role \textbf{S}).
-Foundational models, datasets, single-agent methods, and review articles were coded as background (role \textbf{B}); official protocols and software documentation were coded as technical sources (role \textbf{T}). Sources excluded from the active bibliography remain coded as \textbf{X} in the audit file. The resulting active bibliography contains 84 verified sources:
-14~I, 16~S, 46~B, and 8~T. Fig.~\ref{fig:reference_corpus} summarizes the verification and evidence-role allocation. The 14 role-I studies provide the empirical basis for the architecture taxonomy and subsequent evidence synthesis;
-other claims are supported by sources appropriate to their scope.
+Foundational models, datasets, single-agent methods, and review articles were coded as background (role \textbf{B}); official protocols and software documentation were coded as technical sources (role \textbf{T}).
+Historically excluded sources remain coded as \textbf{X} in the audit file.
+The current bibliography pool contains 85 records: 14~I, 16~S, 46~B, and
+9~T. The effective manuscript cites 78 of these records: 14~I, 14~S, 42~B,
+and 8~T; seven uncited records remain in the pool. The 14 role-I labels are
+inherited author coding. Triad uses one LLM in three roles and is retained as
+a boundary case pending an eligibility decision, rather than treated as
+unambiguous evidence of multiple independent agents. Table~\ref{tab:validation}
+identifies that boundary in the diagnostic comparison. Other claims use
+sources appropriate to their scope. Fig.~\ref{fig:reference_corpus} retains
+the earlier corpus snapshot; its counts require synchronization with this
+corrected text.
 
 \begin{figure*}[pos=t]
   \centering
   \includegraphics[width=0.80\linewidth]{fig_reference_corpus.pdf}
-  \caption{Reference-corpus verification and evidence-role allocation. The counts describe the reconstructed working bibliography and targeted update, rather than an exhaustive PRISMA screening flow across the entire database.}
+  \caption{Historical reference-corpus verification and evidence-role allocation. The figure retains the earlier 84-record snapshot; current pool and citation counts are given in the text. This is not an exhaustive PRISMA screening flow.}
   \label{fig:reference_corpus}
 \end{figure*}
 
@@ -287,11 +309,13 @@ space; and $\mathcal{E}$ is the shared execution environment.
 
 The trajectory of LLM development has been decisive in enabling this architecture.
 Representative milestones include the Transformer \citep{vaswani2017attention},
-which introduced self-attention; BERT \citep{devlin2019bert}, which established
-the pre-train--fine-tune paradigm; and GPT-3 \citep{brown2020gpt3} and GPT-4
+which introduced an attention-only sequence-transduction architecture; BERT
+\citep{devlin2019bert}, which advanced bidirectional pretraining and
+task-specific fine-tuning; and GPT-3 \citep{brown2020gpt3} and GPT-4
 \citep{openai2023gpt4}, which demonstrated powerful few-shot and zero-shot
-capabilities. Open-source models such as LLaMA \citep{touvron2023llama} and
-ChatGLM \citep{glm2024chatglm} further democratized agent development, while
+capabilities. Open-weight releases such as LLaMA \citep{touvron2023llama} and
+ChatGLM \citep{glm2024chatglm} provide additional options for local
+experimentation, while
 InstructGPT \citep{ouyang2022instructgpt} exemplifies the use of Reinforcement
 Learning from Human Feedback (RLHF) to improve instruction following.
 Table~\ref{tab:llm_evolution} summarizes representative model capabilities relevant to agentic QA; this table serves as an illustrative overview rather than an exhaustive chronological record.
@@ -343,9 +367,9 @@ the underlying dependence on one model and one reasoning trajectory.
 
 The motivation for multi-agent systems is therefore capability extension
 rather than simple replacement. Inspired by Minsky's Society of Mind
-\citep{minsky1988society}, a multi-agent architecture decomposes a complex
-task and assigns subtasks to agents with distinct responsibilities
-\citep{park2023generative_agents}. A single ``generalist'' workflow may combine
+\citep{minsky1988society}, multi-agent architectures can combine agents with
+individual memory, reflection, and planning, as illustrated in social
+simulations \citep{park2023generative_agents}. A single ``generalist'' workflow may combine
 query understanding, retrieval, generation, and refinement, whereas a
 multi-agent workflow can separate these functions into, for example, Planner,
 Retriever, Generator, and Critic roles. MetaGPT demonstrates role allocation
@@ -408,7 +432,7 @@ provides an illustrative schematic.
 	\includegraphics[width=\textwidth]{fig3_topology.pdf}
 	\caption{Illustrative network topologies for multi-agent collaborative QA.
 		The operational taxonomy is defined by decision authority and
-		control, as specified in the text and Table~\ref{tab:core_taxonomy_mapping}.}
+		control, as specified in the text and Table~\ref{tab:9categories}.}
 	\label{fig:topology}
 \end{figure*}
 
@@ -423,7 +447,7 @@ In a flat collaborative architecture, participating agents exchange information,
 \paragraph{Multi-agent debate.}
 \label{sec:debate}
 
-In the multi-agent debate paradigm, several LLM agents generate candidate answers and critique one another across one or more rounds. Representative studies illustrate both the potential and the limits of this design. For example, \citet{du2024multiagent_debate} report improved factuality and reasoning performance on the tasks they evaluate, whereas divergent prompting can mitigate convergence toward similar reasoning paths \citep{liang2024divergent_debate}. ReConcile provides another example by integrating heterogeneous models with confidence-weighted consensus \citep{chen2024reconcile}; answer consistency and degeneration nevertheless remain notable failure modes \citep{xiong2023inter_consistency}. Accordingly, adding more agents or debate rounds does not reliably boost QA performance; instead, the interaction rules, diversity of evidence, and aggregation procedure determine whether disagreement yields correction, inconsistency, or unnecessary computational cost.
+In the multi-agent debate paradigm, several LLM agents generate candidate answers and critique one another across one or more rounds. Representative studies illustrate both the potential and the limits of this design. For example, \citet{du2024multiagent_debate} report improved factuality and reasoning performance on the tasks they evaluate, whereas divergent prompting can mitigate convergence toward similar reasoning paths \citep{liang2024divergent_debate}. ReConcile provides another example by integrating heterogeneous models with confidence-weighted consensus \citep{chen2024reconcile}; inter-model inconsistency and capability imbalance nevertheless remain important considerations \citep{xiong2023inter_consistency}. Accordingly, adding more agents or debate rounds does not reliably boost QA performance; instead, the interaction rules, diversity of evidence, and aggregation procedure determine whether disagreement yields correction, inconsistency, or unnecessary computational cost.
 
 \paragraph{Role-conditioned collaboration.}
 \label{sec:roleplay}
@@ -461,8 +485,9 @@ verification to a staged workflow. Representative implementations include
 LONGAGENT \citep{zhao2024longagent}, which coordinates a leader with
 document-reading members; Chain-of-Agents \citep{zhang2024chain_agents},
 which propagates information across context segments before synthesis; and
-CoCoA \citep{jiang2026cocoa}, which coordinates parametric and retrieved
-knowledge for QA. These role-I systems differ in their communication
+CoCoA-zero \citep{jiang2026cocoa}, which coordinates parametric and retrieved
+knowledge using three agents at inference time. CoCoA subsequently distils
+that collaboration into a single model. These role-I systems differ in their communication
 and aggregation mechanisms, but each places subtask sequencing or synthesis
 under explicit control. By contrast, HuggingGPT \citep{shen2024hugginggpt}
 uses a controller to invoke specialised models and tools.
@@ -497,9 +522,9 @@ and performance evaluation.
 \paragraph{Human-in-the-loop design pattern.}
 \label{sec:hitl}
 
-For example, LangGraph supports pausing a workflow at defined breakpoints for
-human review \citep{langgraph2024}, which may be useful for high-risk
-decisions.
+For example, LangGraph supports checkpointed state and pausing a workflow
+with an interrupt for human review \citep{langgraph2024interrupt}, which may
+be useful for high-risk decisions.
 
 In a collaborative QA workflow, human participation can be placed at several
 points: before task decomposition, after retrieval, when agents disagree, or
@@ -542,6 +567,8 @@ Hybrid architectures are useful when task requirements are heterogeneous or when
 
 Table~\ref{tab:9categories} compares the three architecture classes and their
 sub-paradigms in terms of control, task suitability, and limitations.
+Architecture labels, suitable contexts, and limitations are the authors'
+synthesis of the cited mechanisms.
 
 \begin{table*}[pos=t]
   \centering
@@ -559,7 +586,7 @@ sub-paradigms in terms of control, task suitability, and limitations.
     Multi-agent debate & \citet{du2024multiagent_debate} & 
     Peer critique and aggregation can add independent answer paths &
     Tasks needing competing factual or reasoning views &
-    Cost, degeneration, and aggregation sensitivity \\
+    Coordination cost and aggregation sensitivity \\
     & Role-conditioned collaboration & CAMEL \citep{li2023camel} & 
     Personas structure interaction but do not by themselves establish QA gains &
     Exploratory collaboration and prompt-role studies &
@@ -574,7 +601,7 @@ sub-paradigms in terms of control, task suitability, and limitations.
     Manager assigns staged work to specialised executors &
     Structured engineering workflows &
     Planner bottleneck and error propagation \\
-    & Plan--retrieve--generate pipeline & LONGAGENT; Chain-of-Agents; CoCoA
+    & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero
     \citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa}  &
     Explicit sequencing and final synthesis over distributed evidence &
     Long-document or knowledge-intensive QA &
@@ -584,14 +611,14 @@ sub-paradigms in terms of control, task suitability, and limitations.
     \multirow{3}{*}{\textbf{Hybrid}} &
     Graph-structured agent networks & GPTSwarm; LangGraph
     \citep{zhuge2024gptswarm,langgraph2024}  &
-    Graph transitions permit loops, branches, and routing policies &
+    DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph &
     Workflows with conditional state transitions &
     Different evidence roles; difficult debugging and tracing \\
     & Adaptive collaboration-mode switching & MDAgents \citep{kim2024mdagents}  &
     Changes collaboration in response to case characteristics &
     Tasks with heterogeneous requirements &
     Routing policy must be evaluated, not assumed beneficial \\
-    & Human-in-the-loop design pattern & LangGraph breakpoints \citep{langgraph2024} &
+    & Human-in-the-loop design pattern & LangGraph interrupts \citep{langgraph2024interrupt} &
     Human review at explicitly defined decision points &
     High-risk workflows requiring accountability &
     Direct comparative QA evidence remains limited \\
@@ -640,11 +667,12 @@ contain local debate, and flat workflows can enforce turn limits and
 aggregation rules.
 
 \textbf{3. Cost and resource burden.} Multi-agent execution adds
-communication, aggregation, state-management, and inference costs. A
-collaborative design is justified only when expected gains in coverage,
-reliability, or adaptability offset those costs
-\citep{han2024mast}. Assessment should include latency, token use, tool calls,
-monitoring, and recovery overhead.
+communication, aggregation, state-management, and inference costs. Reported
+multi-agent failure modes \citep{han2024mast} motivate checking whether
+additional coordination provides useful benefits. As a design criterion,
+this review requires expected gains in coverage, reliability, or adaptability
+to justify the resource burden. Assessment should include latency, token use,
+tool calls, monitoring, and recovery overhead.
 
 \textbf{4. Risk tolerance and auditability.} This criterion determines how much
 decision authority can be delegated and what evidence must be retained.
@@ -721,24 +749,25 @@ be preferable.
   \begin{tabularx}{\textwidth}{p{3.0cm} X p{3.0cm} c}
     \toprule
     \textbf{System} & \textbf{Application and criterion profile} &
-    \textbf{Inferred versus reported architecture} & \textbf{Match} \\
+    \textbf{Inferred versus source-based architecture coding} & \textbf{Match} \\
     \midrule
     MedAgents \citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\triangle$ \\
     LLM-MedQA \citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\triangle$ \\
     LegalGraphRAG \citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\checkmark$ \\
-    Triad \citep{hu2024triad} & Enterprise KBQA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\checkmark$ \\
+    Triad \citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\checkmark$ \\
     LONGAGENT \citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\checkmark$ \\
     ChatDev \citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\checkmark$ \\
     AgentCoder \citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\checkmark$ \\
     MAD \citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\triangle$ \\
     EduPlanner \citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\times$ \\
-    Financial Reflection QA \citep{fatemi2024financialqa} & Numerical QA; convergence with self-critique & Hierarchical versus hybrid reflection loop & $\times$ \\
+    Financial Reflection QA \citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\times$ \\
     \bottomrule
   \end{tabularx}
   \footnotesize
   \textit{Note}: $\checkmark$ = broadly aligned; $\triangle$ = partially aligned;
-  $\times$ = divergent. The labels are author coding and do not constitute
-  independent validation.
+  $\times$ = divergent. Both architecture labels are the authors' coding of
+  the selection approach and the reported workflow, not independent validation.
+  Triad uses one LLM in three roles and is retained as an eligibility boundary case.
 \end{table*}
 
 The criteria can also be applied analytically to contrasting settings. In
@@ -812,16 +841,12 @@ This paradigm can reduce redundant message transfers, though its impact on commu
 
 \subsubsection{Standardised communication protocols}
 \label{sec:protocols}
-With the rapid development of multi-agent ecosystems, interoperability barriers have arisen between agents developed by different vendors.
-To address this issue, the industry has initiated efforts to standardize communication protocols. For example, Anthropic introduced the Model Context Protocol (MCP)
-\citep{anthropic2024mcp}—dubbed the "USB-C of AI"—to standardise
-the way agents connect to external tools and data sources.
-Another example is Google's proposed Agent-to-Agent (A2A) protocol
-\citep{google2025a2a}, which regulates horizontal peer-to-peer collaboration
-among agents.
-These standards are being gradually adopted by the open-source
-community and the Linux Foundation, laying a foundation for heterogeneous
-multi-agent QA systems.
+Industry initiatives address different parts of the interface problem.
+Anthropic introduced the Model Context Protocol (MCP)
+\citep{anthropic2024mcp} to standardise connections to external tools and data
+sources. Google's Agent2Agent (A2A) protocol \citep{google2025a2a} supports
+communication and task coordination between agents across frameworks and
+vendors. These interfaces can support heterogeneous multi-agent QA systems.
 
 Explicit messaging makes the content and
 provenance of an agent's contribution inspectable, and is useful when agents
@@ -863,9 +888,8 @@ Representative methods include Least-to-Most Prompting
 \citep{khot2023decomposed_prompting}, which allow a model to solve simpler
 sub-problems first and then exploit their answers to resolve the ultimate
 target. Plan-and-Solve \citep{wang2023plan_and_solve} provides another example
-by explicitly separating
-the planning and solving phases, substantially improving decomposition
-reliability.
+by explicitly separating planning from solving and reducing missing-step
+errors on the evaluated reasoning tasks.
 Formally, given a complex query $Q$, a decomposition function $\mathcal{D}$
 maps it to an ordered sequence of sub-tasks:
 \begin{equation}
@@ -883,14 +907,13 @@ re-generation).
 \subsubsection{Role-based task assignment}
 \label{sec:role_assign}
 
-After decomposition, the system must assign sub-tasks to the most suitable
-agents. For example, MetaGPT \citep{hong2024metagpt} and AgentVerse
-\citep{chen2024agentverse}
-construct fine-grained agent profiles (Agent Profiling) that tag each agent
-with specific role labels.
-During runtime, a scheduler uses skill-based routing to dispatch sub-tasks
-such as code writing, literature retrieval, or logical verification to the
-corresponding expert agent, maximising throughput.
+After decomposition, the system must assign sub-tasks to suitable agents.
+For example, MetaGPT \citep{hong2024metagpt} organises agents through
+predefined software-engineering roles, while AgentVerse
+\citep{chen2024agentverse} recruits experts by generating task-specific
+expertise descriptions and adjusts team composition using evaluation
+feedback. These mechanisms guide which agents contribute to a task;
+their scheduling efficiency requires separate evaluation.
 
 \subsubsection{Pipeline optimisation and adaptive orchestration}
 \label{sec:load_balance}
@@ -962,21 +985,21 @@ distribution of reusable information.
 \label{sec:short_mem}
 
 Short-term memory preserves dialogue history and local context for the
-current QA session. For example, MemGPT \citep{packer2023memgpt} draws on the
-paged-memory mechanism of modern operating systems to design a hierarchical
-working-memory system. The system retains critical context in memory based on
-attention weights and evicts redundant information, providing seamless
-long-conversation support within a limited context window.
+current QA session. For example, MemGPT \citep{packer2023memgpt} draws on
+operating-system memory hierarchies to manage a limited main context and
+external memory. Function calls control information transfer between them,
+while a FIFO message queue and recursive summaries manage dialogue context
+under the context-window limit.
 
 \subsubsection{Long-term memory and vector retrieval (RAG)}
 \label{sec:long_mem}
 
-Long-term memory typically relies on vector databases to store vast
-historical experiences and external domain knowledge
-\citep{zhang2024memory_survey}. A representative access mechanism is
-Retrieval-Augmented Generation (RAG) \citep{lewis2020rag,gao2024rag_survey},
-through which multi-agent QA systems access long-term memory. A retrieval
-agent selects the Top-$k$ relevant documents from knowledge base $\mathcal{D}$
+Long-term memory can retain historical experiences and domain knowledge in
+external stores \citep{zhang2024memory_survey}. Vector retrieval is one way
+to access such information: Retrieval-Augmented Generation (RAG)
+\citep{lewis2020rag,gao2024rag_survey} augments generation with retrieved
+documents. As one illustrative multi-agent implementation, a retrieval agent
+can select the Top-$k$ relevant documents from knowledge base $\mathcal{D}$
 using cosine similarity:
 \begin{equation}
   \operatorname{Rel}(q,d_i) =
@@ -988,11 +1011,12 @@ using cosine similarity:
 \end{equation}
 where $\boldsymbol{\phi}(\cdot)$ is the dense encoder embedding function and
 $\hat{\mathcal{D}}$ is the set of retrieved relevant documents. Retrieval has
-evolved from early passive Naive RAG to active variants. For example, Self-RAG
-\citep{asai2024selfrag} and proactive retrieval (FLARE)
-\citep{jiang2023active_rag} allow specialised retrieval agents to autonomously
-determine when to retrieve, evaluate retrieval quality, and pass refined
-knowledge to the generation agent.
+evolved from passive retrieval to active variants. Self-RAG
+\citep{asai2024selfrag} uses reflection tokens to decide when to retrieve and
+to critique generated passages, while FLARE \citep{jiang2023active_rag}
+triggers retrieval when predicted upcoming text contains low-confidence
+tokens and then regenerates that text. These controls can inform retrieval
+components in a multi-agent workflow.
 
 Short-term and long-term memory address
 different temporal scopes. Working memory supports continuity within the
@@ -1020,8 +1044,9 @@ critique of generated answers.
 \subsubsection{Collaborative chain-of-thought}
 \label{sec:cot}
 
-Chain-of-Thought (CoT) prompting \citep{wei2022chain_of_thought} has
-greatly unlocked the reasoning potential of LLMs.
+Chain-of-Thought (CoT) prompting \citep{wei2022chain_of_thought}
+can improve performance on evaluated arithmetic, commonsense, and symbolic
+reasoning tasks.
 Self-Consistency \citep{wang2023self_consistency} provides a representative
 single-model method: it samples multiple reasoning paths and selects an answer
 by marginalising over those paths. Multi-agent systems adapt this diversity
@@ -1029,9 +1054,9 @@ principle by assigning independent
 reasoners and then using debate or confidence-aware aggregation
 \citep{du2024multiagent_debate,chen2024reconcile}.
 
-Each agent independently samples $K$ reasoning paths
-$\{(r_k, a_k)\}_{k=1}^{K}$ for the same question, and majority voting
-selects the final answer:
+In the single-model baseline, $K$ reasoning paths
+$\{(r_k, a_k)\}_{k=1}^{K}$ are sampled for the same question, and majority
+voting selects the final answer:
 \begin{equation}
   \hat{a} = \underset{a\in\mathcal{Y}}{\arg\max}\sum_{k=1}^{K}
   \mathbf{1}\!\left[f_\theta(x,r_k)=a\right]
@@ -1048,11 +1073,11 @@ original method.
 
 For ultra-long-text QA, the attention mechanism of conventional
 Transformers faces severe computational bottlenecks.
-Representative search topologies include Chain-of-Agents
-\citep{zhang2024chain_agents}, Tree of Thoughts
-\citep{yao2023tree_of_thoughts}, and Graph of Thoughts
-\citep{besta2024graph_of_thoughts}; these distribute reasoning across multiple
-serially or graph-connected agents.
+Chain-of-Agents \citep{zhang2024chain_agents} distributes evidence processing
+across worker agents, while Tree of Thoughts
+\citep{yao2023tree_of_thoughts} and Graph of Thoughts
+\citep{besta2024graph_of_thoughts} organise intermediate reasoning states as
+search structures.
 In Chain-of-Agents, worker agents process successive text chunks and pass
 forward condensed evidence before a manager produces the answer. LONGAGENT
 \citep{zhao2024longagent} uses a different leader--member design in which a
@@ -1069,10 +1094,10 @@ For example, Reflexion \citep{shinn2023reflexion} stores linguistic feedback
 from prior trials in episodic memory, whereas Self-Refine
 \citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and
 revision without additional model training.
-In addition, combined with Chain-of-Verification
-\citep{dhuliawala2023chain_of_verification}, the system can configure
-dedicated \emph{Critic} agents that rigorously audit generated results for
-safety, factuality, and logical coherence through mutual-critique mechanisms.
+Chain-of-Verification \citep{dhuliawala2023chain_of_verification} drafts an
+answer, plans verification questions, answers them independently, and then
+revises the original answer. This procedure targets factual errors; dedicated
+critic agents are a possible multi-agent extension that requires evaluation.
 
 These techniques seek reliability through
 different mechanisms. Self-consistency and debate broaden the set of candidate
@@ -1637,17 +1662,17 @@ task decomposition, memory or state handling, and typical QA-related use.
     CAMEL \citep{li2023camel} & Flat &
       Role-play dialogue &
       Role-based task breakdown &
-      Dialogue context tree &
+      Role-conditioned dialogue context &
       Exploratory dialogue; task simulation \\
     ChatDev \citep{qian2023chatdev} & Hierarchical &
       Role-based ChatChain &
       Waterfall-style decomposition &
-      Local code and document files &
+      Within-phase dialogue; cross-phase solutions &
       Software development; code generation \\
     MetaGPT \citep{hong2024metagpt} & Hierarchical &
       Structured SOP messages &
       Role and responsibility mapping &
-      Message queue and project documents &
+      Shared message pool and project documents &
       Software engineering \\
     AutoGen \citep{wu2024autogen} & Configurable &
       Configurable agent conversations &
@@ -1657,18 +1682,18 @@ task decomposition, memory or state handling, and typical QA-related use.
     AgentVerse \citep{chen2024agentverse} & Hybrid &
       Explicit messaging and debate &
       Expert recruitment; phase switching &
-      Shared blackboard &
+      Conversation and evaluation context &
       NLP evaluation; multi-step reasoning \\
-    LangGraph \citep{duan2024langgraph_crewai} & Hybrid &
+    LangGraph \citep{langgraph2024,langgraph2024interrupt} & Hybrid &
       State-graph transitions &
       Developer-defined workflow nodes &
       Persistent state and checkpoint recovery &
       Long-running QA workflows \\
     GPTSwarm \citep{zhuge2024gptswarm} & Hybrid &
-      Computational graph connections &
-      Automatic graph-structure search &
-      Intra-node state &
-      Parallel inference optimization \\
+      DAG information flow &
+      Prompt and edge optimization &
+      Node input--output histories &
+      MMLU QA; graph optimization \\
     DSPy \citep{khattab2024dspy} & Modular pipeline toolkit &
       Declarative module calls &
       Metric-driven prompt optimization &
@@ -1926,9 +1951,11 @@ Sections~4.1 and~4.2 show that communication, decomposition, assignment, and
 scheduling are distinct but interdependent. A decomposition may omit necessary
 sub-questions or create unnecessary work; role assignment may not match agent
 competence; and a communication protocol may transmit messages without
-resolving dependencies or disagreement. In a fully connected broadcast
-topology, potential pairwise messages per round grow quadratically with team
-size, increasing token and latency costs without guaranteeing information gain
+resolving dependencies or disagreement. If each of $N$ agents sends one
+message to every other agent, there are $N(N-1)$ directed message deliveries
+per round. Actual token and latency costs also depend on message length,
+scheduling, and context handling. Scaling experiments illustrate
+task-dependent benefits and topology-dependent context costs
 \citep{qian2024scaling_multiagent}. Static workflows are easier to inspect,
 but may not adapt to changing evidence or query difficulty. Dynamic
 recruitment and routing can respond to these changes, yet introduce decisions
@@ -1954,16 +1981,16 @@ who may access or revise it, and how corrections are propagated.
 
 Section~4.5 covers diverse reasoning paths, sequential evidence processing,
 reflection, and mutual critique. These mechanisms address different failure
-modes, yet they are often compared only by final-answer accuracy. Conventional
-benchmarks and agent environments measure answer correctness or task
-completion \citep{hendrycks2021mmlu,yang2018hotpotqa,
-liu2024agentbench,mialon2024gaia}; they do not reveal whether debate added
-independent evidence, whether a long-context chain lost a decisive fact, or
-whether a critic detected and corrected an error. Additional reasoning rounds
+modes. Conventional benchmarks and agent environments measure answer
+correctness, supporting-fact accuracy, or task completion
+\citep{hendrycks2021mmlu,yang2018hotpotqa,liu2024agentbench,mialon2024gaia};
+these outcome measures alone do not establish whether debate added independent
+evidence, whether a long-context chain lost a decisive fact, or whether a
+critic detected and corrected an error. Additional reasoning rounds
 can also repeat the same assumptions or share correlated blind spots. Trace
 analyses such as MAST identify design, alignment, and verification failures
-\citep{han2024mast}, but process-level measures of contribution,
-complementarity, and error correction are not standard in QA evaluation.
+\citep{han2024mast}, suggesting that process-level measures of contribution,
+complementarity, and error correction could complement outcome measures.
 
 As a result, a system may improve a benchmark score while using substantially
 more agents, tokens, or tool calls, with little evidence about which mechanism
@@ -1978,11 +2005,13 @@ The human-in-the-loop pattern in Section~3.1 and the evidence and reasoning
 mechanisms in Section~4 make review possible, but a breakpoint alone does not
 provide accountable oversight. Reviewers need to inspect relevant sources,
 agent contributions, uncertainty, and state changes, and they need authority
-appropriate to the decision. Medical and legal QA illustrate these demands
-\citep{tang2024medagents,cui2023chatlaw}. Yet many workflows provide only a
-textual correction or final approval \citep{duan2024langgraph_crewai,
-langgraph2024}, without specifying when intervention is useful, what can be
-revised, or how the intervention affects subsequent reasoning. Oversight that
+appropriate to the decision. Medical and legal QA provide application
+contexts for these proposed oversight requirements
+\citep{tang2024medagents,cui2023chatlaw}. Frameworks support configurable
+interaction and workflow control \citep{duan2024langgraph_crewai,
+langgraph2024interrupt}. Their use still requires designers to specify when
+intervention is useful, what can be revised, and how the intervention affects
+subsequent reasoning. Oversight that
 is too late cannot correct upstream retrieval or decomposition errors, while
 review at every stage may impose excessive latency and workload.
 
@@ -2181,14 +2210,17 @@ reported in this paper.
 \section*{Data availability}
 The reference-verification table and search log underlying the evidence map
 are provided with the submission as \texttt{literature\_audit.csv} and
-\texttt{search\_log.csv}.
+\texttt{search\_log.csv}. The current field-level and claim-level audit tables
+are \texttt{reference\_field\_audit.csv} and
+\texttt{citation\_claim\_audit.csv}; they record unresolved
+publication fields, version choices, and evidence boundaries.
 
 \section*{Declaration of generative AI and AI-assisted technologies in the
 manuscript preparation process}
 During the preparation of this work, the authors used large language model
 (LLM) tools to assist with grammar checking, language refinement, and
 reference formatting, and used Nano Banana to generate the initial draft of
-the explanatory architecture schematic in Fig.~\ref{fig:arch_tradeoffs}.
+an explanatory architecture schematic during drafting.
 After using these tools, the authors reviewed and edited the content as
 needed and take full responsibility for the content of the published article.
 

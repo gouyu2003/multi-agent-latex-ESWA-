@@ -1,0 +1,33 @@
+{
+  "original_84_keys_preserved": true,
+  "added_keys": [
+    "langgraph2024interrupt"
+  ],
+  "inactive_block_byte_identical": true,
+  "section_headings_unchanged": true,
+  "figure_files_checked": 19,
+  "changed_figure_files": [],
+  "historically_excluded_csv_rows_preserved": true,
+  "bibliography_pool_roles": {
+    "B": 46,
+    "S": 16,
+    "I": 14,
+    "T": 9
+  },
+  "active_citation_roles": {
+    "B": 42,
+    "S": 14,
+    "I": 14,
+    "T": 8
+  },
+  "unused_pool_keys": [
+    "li2024genmentor",
+    "singhal2023medpalm",
+    "guha2023legalbench",
+    "brynjolfsson2023generative_ai_work",
+    "yang2024swe_agent",
+    "jimenez2024swe_bench",
+    "xagent2023"
+  ],
+  "checks_passed": true
+}

@@ -1,16 +1,119 @@
 {
-  "original_candidates": 108,
-  "targeted_additions": 3,
-  "active_bibliography": 75,
-  "roles": {
-    "B": 41,
+  "supersedes": "historical 75-record summary",
+  "audit_date": "2026-10-08",
+  "evidence_provenance": "Prior read-only official-source audit plus explicitly recorded follow-up checks; not old title-search caches",
+  "input_sha256": {
+    "Design logic and trade-offs among flat, hierarchical, and hybrid architectures for multi-agent collaborative QA.jpg": "b40329aa28ec25b563437601882403af26cbcd89b089786b5a1f29a65f0f253c",
+    "Design logic and trade-offs.png": "9d26da26b46afdf8a4915fd251491bea72b83c4f6a5009bcba5983158529d860",
+    "Gemini_Generated_Image_2b3ub22b3ub22b3u.png": "d71db1171ff6c2d69c0c34677794c0162258977b5cd898fcd852a797ca04bac0",
+    "audit_work/compile_verification.json": "04ca80b72e2b528b14783252d2a23f6c25e5c6d1ae9a3465a47df4d8518a3078",
+    "audit_work/correction_baseline.json": "219a99286ce6b1e5af8c2b05ae3d43e7eda73ae56030e69f11e9dc111bd4bbbb",
+    "audit_work/correction_verification.json": "0a3d2a6b733096cca5dd00ce48fcce8e15851bb675c2974644a3f22a9bb6cda0",
+    "audit_work/ledger_evidence_01_28.json": "f4f393dddc562230ba6997b8490d657d2f2d1a2c3dd285f865768272064f7e7a",
+    "audit_work/ledger_evidence_29_56.json": "86385b7f28f574fa9dd594b70bbc1a566d7b88f65b134e4dce6adeb44881ffc9",
+    "audit_work/ledger_evidence_57_84.json": "d607246ccae83eeeb4a0d4d6c1224c4da93613e5a12491662cf7441d4415c970",
+    "audit_work/manuscript_correction_log.json": "b69e62a59247f9f41f8328d0a3684231d71a0e3b9d96ad77ed8833100f46bb09",
+    "audit_work/reference_correction_log.json": "f5bb5a4226ef3f8678e698226e62b096ca8b28c8ecaad2a7feb3e5e1f2cfd7f4",
+    "change_timeline.jpg": "3d64cc9c81f44d318ee46ee5975abb1e19b60ae38b2da111b4af8abb4ccfbb38",
+    "classify.jpg": "ba422df21868dc4cbcedad80030e71061b658c17b0d9a0cea0f02c1b572f0b61",
+    "fig2_architecture.pdf": "f3eec9ae9a555ef830e9cfee4089df2f9e383c40b99c97e2c3cd4f99e56c811b",
+    "fig3_topology.pdf": "015046a44f98dc11dd3c2d77b62875e49cf84fa7bdb9609b55dff5b993eab4a1",
+    "fig4_tech.pdf": "71cbe58644798da8aa02e326ba1b82863e5db8d1ad95adc7136ba203000cbf90",
+    "fig_architecture_tradeoffs.jpg": "b40329aa28ec25b563437601882403af26cbcd89b089786b5a1f29a65f0f253c",
+    "fig_flow.jpg": "b3add8f2a85ceaa5b460e872dfdac003c714fce0baab934917554ace9a1f60f4",
+    "fig_mindmap.jpg": "4992a17c8da8db3a7db8f5751bf10ca1c85b7dbb7b242fc2b9d166abf222827b",
+    "fig_prisma_flowchart.pdf": "6a6be2dae3149bb7eed66680d121ea6143b8c00d2718d3e169a9cfb4167477e8",
+    "fig_pub_overview_nature.pdf": "895e5225d578fdc71ec2824d07f3e3548b540e268d318cfbea0d29fbbf074a03",
+    "fig_pub_overview_nature.png": "f666bd9e303a68db5ad2f7265650bd340d978185091a4878b12f755e07c18594",
+    "fig_pub_overview_nature.svg": "a9eaf23f6af6d1f332e4350b514c788e898b72e644f874fb18d17aee7a4ecc60",
+    "fig_reference_corpus.pdf": "d1c7ec8f9c6ec4db64eeaee589197d9d7819dde76d656349a75223955e758d2d",
+    "fig_reference_corpus.png": "dcd2f02bf85330a826740847c01e32bc8c2a044784345b3265fa7538ae2c26b8",
+    "fig_reference_corpus.svg": "8711a84ce7619eab7867cede39801dde268e465cbf276e6b5cd0a8d9b0a6ecb9",
+    "findmap.png": "85b5cfb78cc3673c23b7768adb62cea2e09cdae8d7f94cf13ad8aff3c4097c46",
+    "literature_audit.csv": "120dae68b99d5230509b7b46a75159377fd988825f86263f78f4c8489474d0ef",
+    "manuscript.tex": "23bb9eea4316745fce3775ec817bb78bf74d5c597f194d19c8e690d4d441259b",
+    "references.bib": "59129caedf01823a4050b0bf93a0634b4d781509970a54d2de342cbd780c6045",
+    "search_log.csv": "50b747f64f6c4cbb69d7ec3a5ba86d94d3563b34ed428cd1b8d2ee76974466d1",
+    "tools/active_tex.py": "70e5941f16e70113326eed0c512551e708273a7b598099084c53cbc5d0217f9e",
+    "tools/build_audit_ledgers.py": "ea20260a7350acaf1fa09eaf04bc1b0c95a7a6974e669086a7e32c3041efe4f8",
+    "tools/build_reference_inventory.py": "a68d5e5e277211c408a3aa9c8604e0d28d4ed4daf50a017c7d98beea985f954d",
+    "tools/static_reference_checks.py": "a06e7d5efccbd3594b29bb59fbfb5b9cbe4568f90576d03e61368572e6b77bfb"
+  },
+  "ledger_output_sha256": {
+    "audit_work/reference_field_audit.json": "45df8b3a88ad2da0b3acafee700b04c9bdfc8915e5ce8c43facb19acfe764ccc",
+    "audit_work/reference_field_audit.csv": "9bdb67c19417bac699e16bc9400f26ec6ba39d45feab4b83639a8851a2e95f6c",
+    "audit_work/reference_field_audit.md": "2e80bca4525e7421a183d7deb79b084b94f1f642b7fb437301e75a7b8056d119",
+    "audit_work/citation_claim_audit.json": "978959ce3b4368746758a4310e150fdc65f08c318a59765beb6958a75d319662",
+    "audit_work/citation_claim_audit.csv": "08dbbf6aefce4ff1485a5064fde7ac45c407009da4692faf8dd76aac2383129f",
+    "audit_work/citation_claim_audit.md": "ea1976ef47aa88989c76267e5583d746d95951f2a97d2967f66316495a1d5fba",
+    "audit_work/pending_reference_decisions.json": "6bafc6ba75a0e5b40a739b95c0900afc8bac056b95bc219bc6c539e46f68eb43",
+    "audit_work/pending_reference_decisions.csv": "f00a453a9c20cdb77d43f82dd4d5b757c9d1fed8cfee40b7dd916d090df2a7e0",
+    "audit_work/pending_reference_decisions.md": "bfbf03170212fa8f3ada5ffda517bb7105e4d995bd269a16022c592f33f8bafa"
+  },
+  "reference_records": 85,
+  "active_cited_records": 78,
+  "citation_commands": 136,
+  "citation_key_assessments": 180,
+  "unused_pool_keys": [
+    "li2024genmentor",
+    "singhal2023medpalm",
+    "guha2023legalbench",
+    "brynjolfsson2023generative_ai_work",
+    "yang2024swe_agent",
+    "jimenez2024swe_bench",
+    "xagent2023"
+  ],
+  "pool_roles_author_coded": {
+    "B": 46,
+    "S": 16,
     "I": 14,
+    "T": 9
+  },
+  "active_roles_author_coded": {
+    "B": 42,
     "S": 14,
-    "T": 6
+    "I": 14,
+    "T": 8
   },
-  "existence_status": {
-    "not_found": 4,
-    "verified": 107
+  "per_key_support_degrees": {
+    "direct": 132,
+    "partial": 15,
+    "author_inference": 31,
+    "proposal": 2
   },
-  "excluded_original_candidates": 36
+  "command_support_degrees": {
+    "direct": 99,
+    "partial": 8,
+    "author_inference": 21,
+    "mixed": 7,
+    "proposal": 1
+  },
+  "field_status_counts": {
+    "verified": 569,
+    "not_verified": 131,
+    "not_applicable": 120,
+    "version_conflict": 17,
+    "normalization_suggested": 10,
+    "incomplete": 3
+  },
+  "additional_field_status_counts": {
+    "not_verified": 22,
+    "verified": 5
+  },
+  "manuscript_modified": true,
+  "bibliography_modified": true,
+  "figures_modified": false,
+  "corrections_applied": true,
+  "applied_bib_field_changes": 100,
+  "applied_text_change_blocks": 49,
+  "citation_commands_with_updated_context": 80,
+  "compilation_current": true,
+  "compilation_passed": true,
+  "limits": [
+    "Not a full TeX interpreter; unsupported conditionals/dynamic inputs fail closed",
+    "Fresh pdflatex/BibTeX compilation compared to current active sources; layout warnings retained for formatting phase",
+    "Source access and field-level uncertainty recorded; no blanket all-field verification claim",
+    "Core study eligibility remains inherited author coding; Triad requires author decision",
+    "Figure counts retain earlier 84-record snapshot; current pool85/active78/core coding14; update deferred to figure phase"
+  ]
 }

@@ -3,12 +3,15 @@ from __future__ import annotations
 import csv
 import json
 import re
+from dataclasses import asdict
+from collections import Counter
 from pathlib import Path
+
+from active_tex import compiled_keys, scan_manuscript
 
 
 ROOT = Path(__file__).resolve().parents[1]
 BIB_PATH = ROOT / "references.bib"
-TEX_PATHS = sorted(ROOT.glob("*.tex"))
 
 
 def balanced_entries(text: str) -> list[tuple[str, str, str]]:
@@ -51,22 +54,15 @@ def parse_fields(raw: str) -> dict[str, str]:
     return fields
 
 
-def citation_contexts() -> dict[str, list[dict[str, object]]]:
+def publication_venue(fields: dict[str, str]) -> str:
+    return next((fields.get(name, "") for name in ("journal", "booktitle", "howpublished", "publisher") if fields.get(name)), "")
+
+
+def citation_contexts(root: Path = ROOT, main: str = "manuscript.tex") -> dict[str, list[dict[str, object]]]:
     output: dict[str, list[dict[str, object]]] = {}
-    cite_re = re.compile(r"\\cite(?:t|p|author|year|alp|alt|num)?\s*(?:\[[^\]]*\]\s*)*\{([^}]+)\}")
-    for path in TEX_PATHS:
-        lines = path.read_text(encoding="utf-8").splitlines()
-        for line_no, line in enumerate(lines, start=1):
-            for match in cite_re.finditer(line):
-                for key in (part.strip() for part in match.group(1).split(",")):
-                    if not key:
-                        continue
-                    lo = max(0, line_no - 2)
-                    hi = min(len(lines), line_no + 1)
-                    context = " ".join(x.strip() for x in lines[lo:hi] if x.strip())
-                    output.setdefault(key, []).append(
-                        {"file": path.name, "line": line_no, "context": context}
-                    )
+    for citation in scan_manuscript(root, main).citations:
+        for key in citation.keys:
+            output.setdefault(key, []).append(asdict(citation))
     return output
 
 
@@ -74,6 +70,8 @@ def main() -> None:
     text = BIB_PATH.read_text(encoding="utf-8", errors="replace")
     entries = balanced_entries(text)
     contexts = citation_contexts()
+    scan = scan_manuscript(ROOT)
+    compiled = compiled_keys(ROOT)
     inventory = []
     for index, (entry_type, key, raw) in enumerate(entries, start=1):
         fields = parse_fields(raw)
@@ -85,7 +83,7 @@ def main() -> None:
                 "title": fields.get("title", ""),
                 "author": fields.get("author", ""),
                 "year": fields.get("year", ""),
-                "venue": fields.get("journal", fields.get("booktitle", fields.get("howpublished", ""))),
+                "venue": publication_venue(fields),
                 "journal": fields.get("journal", ""),
                 "booktitle": fields.get("booktitle", ""),
                 "volume": fields.get("volume", ""),
@@ -123,12 +121,27 @@ def main() -> None:
     cited_keys = set(contexts)
     bib_keys = {entry[1] for entry in entries}
     summary = {
+        "scope": "literal active inclusion graph rooted at manuscript.tex; no root glob",
+        "source_files": scan.files,
+        "excluded_ranges": scan.excluded_ranges,
         "bib_entries": len(entries),
         "unique_bib_keys": len(bib_keys),
         "cited_keys": len(cited_keys),
+        "citation_commands": len(scan.citations),
+        "citation_key_occurrences": sum(len(c.keys) for c in scan.citations),
+        "nocite_keys": scan.nocite_keys,
+        "compiled_artifacts": compiled["artifacts"],
+        "aux_cited_keys": len(compiled["aux_keys"]),
+        "aux_citation_commands": len(compiled["aux_commands"]),
+        "aux_key_occurrences": compiled["aux_key_occurrences"],
+        "bbl_entries": len(compiled["bbl_keys"]),
+        "source_aux_keys_match": cited_keys == set(compiled["aux_keys"]),
+        "source_aux_commands_match": Counter(tuple(c.keys) for c in scan.citations) == Counter(tuple(c) for c in compiled["aux_commands"]),
+        "source_bbl_keys_match": cited_keys == set(compiled["bbl_keys"]),
         "cited_keys_missing_from_bib": sorted(cited_keys - bib_keys),
         "uncited_bib_keys": sorted(bib_keys - cited_keys),
     }
+    (out_dir / "active_citations.json").write_text(json.dumps([asdict(c) for c in scan.citations], ensure_ascii=False, indent=2), encoding="utf-8")
     (out_dir / "inventory_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
     )

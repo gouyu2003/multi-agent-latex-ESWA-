@@ -1,47 +1,122 @@
 {
-  "bib_entries": 108,
-  "unique_bib_keys": 108,
-  "cited_keys": 69,
+  "scope": "literal active inclusion graph rooted at manuscript.tex; no root glob",
+  "source_files": [
+    {
+      "file": "manuscript.tex",
+      "sha256": "23bb9eea4316745fce3775ec817bb78bf74d5c597f194d19c8e690d4d441259b"
+    }
+  ],
+  "excluded_ranges": [
+    {
+      "file": "manuscript.tex",
+      "start_line": 30,
+      "end_line": 36,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 43,
+      "end_line": 43,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 44,
+      "end_line": 44,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 45,
+      "end_line": 45,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 110,
+      "end_line": 110,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 111,
+      "end_line": 111,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 112,
+      "end_line": 112,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 113,
+      "end_line": 113,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 114,
+      "end_line": 114,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 115,
+      "end_line": 115,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 1120,
+      "end_line": 1569,
+      "reason": "iffalse/false flag"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 1650,
+      "end_line": 1650,
+      "reason": "macro definition"
+    },
+    {
+      "file": "manuscript.tex",
+      "start_line": 2233,
+      "end_line": 2233,
+      "reason": "after end document"
+    }
+  ],
+  "bib_entries": 85,
+  "unique_bib_keys": 85,
+  "cited_keys": 78,
+  "citation_commands": 136,
+  "citation_key_occurrences": 180,
+  "nocite_keys": [],
+  "compiled_artifacts": [
+    {
+      "file": "manuscript.aux",
+      "sha256": "403a6ca0521c3bd04b115b7b8db70fdf570adc50005d3dc0fc4231f7ace53918"
+    },
+    {
+      "file": "manuscript.bbl",
+      "sha256": "c2c02ca5e4bbdb7979b8315e21131d55bb8c338195e0dd70123bdc85d949d6ee"
+    }
+  ],
+  "aux_cited_keys": 78,
+  "aux_citation_commands": 136,
+  "aux_key_occurrences": 180,
+  "bbl_entries": 78,
+  "source_aux_keys_match": true,
+  "source_aux_commands_match": true,
+  "source_bbl_keys_match": true,
   "cited_keys_missing_from_bib": [],
   "uncited_bib_keys": [
-    "amayuelas2024collaboration_attack",
-    "autorag2024",
-    "chen2024universal_self_consistency",
-    "chen2025llm_mas_survey",
-    "fan2025foundation_agents",
-    "fastgpt2024",
-    "flowise2024",
-    "guo2024llm_multiagent_survey",
-    "guu2020realm",
-    "hendrycks2021mmlu",
-    "ho2024multihop_qa_survey",
-    "huang2024hallucination_survey",
-    "huang2024planning_survey",
-    "li2024trustworthy_medical_qa",
-    "lin2025creativity_mas",
-    "liu2024agentbench",
-    "liu2024se_agents_survey",
-    "masterman2024landscape_agents",
-    "mialon2023gaia",
-    "mialon2024gaia",
-    "patil2023gorilla",
-    "press2023self_ask",
-    "qin2024multiagent_survey_cn",
-    "ragflow2024",
-    "ruanjianbao2024code_gen_survey",
-    "shao2024costorm",
-    "shao2024storm",
-    "tran2025multiagent_survey",
-    "trivedi2022musique",
-    "trivedi2023ircot",
-    "wang2023voyager",
-    "wang2024survey_autonomous_agents",
-    "zeng2023glm130b",
-    "zeng2024autodefense",
-    "zhang2024agent_hallucination",
-    "zhao2023llm_survey_cn",
-    "zhou2024webarena",
-    "zhu2023efficient_odqa_survey",
-    "zhuang2024atm"
+    "brynjolfsson2023generative_ai_work",
+    "guha2023legalbench",
+    "jimenez2024swe_bench",
+    "li2024genmentor",
+    "singhal2023medpalm",
+    "xagent2023",
+    "yang2024swe_agent"
   ]
 }

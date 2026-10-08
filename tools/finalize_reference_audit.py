@@ -321,4 +321,9 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(
+        "Retired historical finalizer: it rebuilds references.bib from stale caches "
+        "and drops uncited pool records. Use build_reference_inventory.py, "
+        "build_audit_ledgers.py and static_reference_checks.py for the current "
+        "read-only manuscript/bibliography audit. Apply approved corrections separately."
+    )

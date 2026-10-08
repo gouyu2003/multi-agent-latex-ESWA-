@@ -1,0 +1,32 @@
+# Preserve audited checkout bytes across Git newline-conversion settings.
+# Uniform files declare their existing EOL; mixed files disable conversion.
+/audit_work/citation_claim_audit.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/audit_work/citation_claim_audit.json text eol=crlf
+/audit_work/citation_claim_audit.md text eol=crlf
+/audit_work/compile_verification.json text eol=crlf
+/audit_work/correction_baseline.json text eol=crlf
+/audit_work/correction_verification.json text eol=crlf
+/audit_work/ledger_evidence_01_28.json text eol=lf
+/audit_work/ledger_evidence_29_56.json text eol=crlf
+/audit_work/ledger_evidence_57_84.json text eol=crlf
+/audit_work/manuscript_correction_log.json text eol=crlf
+/audit_work/pending_reference_decisions.csv text eol=crlf
+/audit_work/pending_reference_decisions.json text eol=crlf
+/audit_work/pending_reference_decisions.md text eol=crlf
+/audit_work/reference_correction_log.json text eol=crlf
+/audit_work/reference_field_audit.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/audit_work/reference_field_audit.json text eol=crlf
+/audit_work/reference_field_audit.md text eol=crlf
+/literature_audit.csv text eol=crlf
+/manuscript.tex text eol=crlf
+/references.bib text eol=crlf
+/search_log.csv text eol=crlf
+/tools/active_tex.py text eol=lf
+/tools/build_audit_ledgers.py text eol=crlf
+/tools/build_reference_inventory.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/tools/static_reference_checks.py text eol=lf
+
+# Compiler stdout is retained verbatim, including its generated spaces.
+/audit_work/compile_bibtex.txt -whitespace
+/audit_work/compile_latex_final.txt -whitespace
+/audit_work/compile_latex_second.txt -whitespace

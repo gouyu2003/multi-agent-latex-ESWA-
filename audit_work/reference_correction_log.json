@@ -1,0 +1,803 @@
+[
+  {
+    "key": "brown2020gpt3",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+    "status": "applied"
+  },
+  {
+    "key": "brown2020gpt3",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in neural information processing systems",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+    "status": "applied"
+  },
+  {
+    "key": "brown2020gpt3",
+    "field": "journal",
+    "before": "Advances in neural information processing systems",
+    "after": "",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+    "status": "applied"
+  },
+  {
+    "key": "hong2024metagpt",
+    "field": "title",
+    "before": "MetaGPT: Meta programming for a multi-agent collaborative framework",
+    "after": "{MetaGPT}: Meta programming for a multi-agent collaborative framework",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/6507b115562bb0a305f1958ccc87355a-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "guo2024llm_multiagent_survey",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://www.ijcai.org/proceedings/2024/bibtex/890",
+    "status": "applied"
+  },
+  {
+    "key": "guo2024llm_multiagent_survey",
+    "field": "booktitle",
+    "before": "",
+    "after": "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence, {IJCAI-24}",
+    "evidence_url": "https://www.ijcai.org/proceedings/2024/bibtex/890",
+    "status": "applied"
+  },
+  {
+    "key": "guo2024llm_multiagent_survey",
+    "field": "pages",
+    "before": "",
+    "after": "8048--8057",
+    "evidence_url": "https://www.ijcai.org/proceedings/2024/bibtex/890",
+    "status": "applied"
+  },
+  {
+    "key": "guo2024llm_multiagent_survey",
+    "field": "doi",
+    "before": "",
+    "after": "10.24963/ijcai.2024/890",
+    "evidence_url": "https://www.ijcai.org/proceedings/2024/bibtex/890",
+    "status": "applied"
+  },
+  {
+    "key": "guo2024llm_multiagent_survey",
+    "field": "url",
+    "before": "https://doi.org/10.48550/arxiv.2402.01680",
+    "after": "https://doi.org/10.24963/ijcai.2024/890",
+    "evidence_url": "https://www.ijcai.org/proceedings/2024/bibtex/890",
+    "status": "applied"
+  },
+  {
+    "key": "guo2024llm_multiagent_survey",
+    "field": "publisher",
+    "before": "",
+    "after": "International Joint Conferences on Artificial Intelligence Organization",
+    "evidence_url": "https://www.ijcai.org/proceedings/2024/bibtex/890",
+    "status": "applied"
+  },
+  {
+    "key": "guo2024llm_multiagent_survey",
+    "field": "journal",
+    "before": "arXiv preprint arXiv:2402.01680",
+    "after": "",
+    "evidence_url": "https://www.ijcai.org/proceedings/2024/bibtex/890",
+    "status": "applied"
+  },
+  {
+    "key": "kwiatkowski2019natural_questions",
+    "field": "pages",
+    "before": "453--466",
+    "after": "452--466",
+    "evidence_url": "https://aclanthology.org/Q19-1026/",
+    "status": "applied"
+  },
+  {
+    "key": "choi2018quac",
+    "field": "title",
+    "before": "QuAC: Question answering in context",
+    "after": "{QuAC}: Question answering in context",
+    "evidence_url": "https://aclanthology.org/D18-1241/",
+    "status": "applied"
+  },
+  {
+    "key": "lewis2020rag",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+    "status": "applied"
+  },
+  {
+    "key": "lewis2020rag",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in neural information processing systems",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+    "status": "applied"
+  },
+  {
+    "key": "lewis2020rag",
+    "field": "journal",
+    "before": "Advances in neural information processing systems",
+    "after": "",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+    "status": "applied"
+  },
+  {
+    "key": "yao2023react",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://arxiv.org/pdf/2210.03629",
+    "status": "applied"
+  },
+  {
+    "key": "yao2023react",
+    "field": "title",
+    "before": "ReAct: Synergizing reasoning and acting in language models",
+    "after": "{ReAct}: Synergizing reasoning and acting in language models",
+    "evidence_url": "https://openreview.net/forum?id=WE_vluYUL-X",
+    "status": "applied"
+  },
+  {
+    "key": "vaswani2017attention",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+    "status": "applied"
+  },
+  {
+    "key": "vaswani2017attention",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in neural information processing systems",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+    "status": "applied"
+  },
+  {
+    "key": "vaswani2017attention",
+    "field": "journal",
+    "before": "Advances in neural information processing systems",
+    "after": "",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+    "status": "applied"
+  },
+  {
+    "key": "devlin2019bert",
+    "field": "title",
+    "before": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+    "after": "{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "evidence_url": "https://aclanthology.org/N19-1423/",
+    "status": "applied"
+  },
+  {
+    "key": "touvron2023llama",
+    "field": "title",
+    "before": "Llama: Open and efficient foundation language models",
+    "after": "{LLaMA}: Open and Efficient Foundation Language Models",
+    "evidence_url": "https://arxiv.org/abs/2302.13971",
+    "status": "applied"
+  },
+  {
+    "key": "glm2024chatglm",
+    "field": "author",
+    "before": "{GLM Team}",
+    "after": "{Team GLM}",
+    "evidence_url": "https://arxiv.org/html/2406.12793v2",
+    "status": "applied"
+  },
+  {
+    "key": "ouyang2022instructgpt",
+    "field": "doi",
+    "before": "",
+    "after": "10.52202/068431-2011",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "ouyang2022instructgpt",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://doi.org/10.52202/068431-2011",
+    "status": "applied"
+  },
+  {
+    "key": "ouyang2022instructgpt",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in neural information processing systems",
+    "evidence_url": "https://doi.org/10.52202/068431-2011",
+    "status": "applied"
+  },
+  {
+    "key": "ouyang2022instructgpt",
+    "field": "journal",
+    "before": "Advances in neural information processing systems",
+    "after": "",
+    "evidence_url": "https://doi.org/10.52202/068431-2011",
+    "status": "applied"
+  },
+  {
+    "key": "li2023camel",
+    "field": "title",
+    "before": "Camel: Communicative agents for\" mind\" exploration of large language model society",
+    "after": "{CAMEL}: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+    "evidence_url": "https://papers.neurips.cc/paper_files/paper/2023/hash/a3621ee907def47c1b952ade25c67698-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "li2023camel",
+    "field": "doi",
+    "before": "",
+    "after": "10.52202/075280-2264",
+    "evidence_url": "https://papers.neurips.cc/paper_files/paper/2023/hash/a3621ee907def47c1b952ade25c67698-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "li2023camel",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://doi.org/10.52202/075280-2264",
+    "status": "applied"
+  },
+  {
+    "key": "li2023camel",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in neural information processing systems",
+    "evidence_url": "https://doi.org/10.52202/075280-2264",
+    "status": "applied"
+  },
+  {
+    "key": "li2023camel",
+    "field": "journal",
+    "before": "Advances in neural information processing systems",
+    "after": "",
+    "evidence_url": "https://doi.org/10.52202/075280-2264",
+    "status": "applied"
+  },
+  {
+    "key": "shen2024hugginggpt",
+    "field": "doi",
+    "before": "",
+    "after": "10.52202/075280-1657",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "shen2024hugginggpt",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "shen2024hugginggpt",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in Neural Information Processing Systems",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "shen2024hugginggpt",
+    "field": "journal",
+    "before": "Advances in Neural Information Processing Systems",
+    "after": "",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "shen2024hugginggpt",
+    "field": "title",
+    "before": "HuggingGPT: Solving AI tasks with ChatGPT and its friends in Hugging Face",
+    "after": "{HuggingGPT}: Solving AI tasks with ChatGPT and its friends in Hugging Face",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "zhao2024longagent",
+    "field": "title",
+    "before": "LONGAGENT: achieving question answering for 128k-token-long documents through multi-agent collaboration",
+    "after": "{LONGAGENT}: achieving question answering for 128k-token-long documents through multi-agent collaboration",
+    "evidence_url": "https://aclanthology.org/2024.emnlp-main.912/",
+    "status": "applied"
+  },
+  {
+    "key": "khattab2024dspy",
+    "field": "url",
+    "before": "https://mlanthology.org/iclr/2024/khattab2024iclr-dspy/",
+    "after": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "zhuge2024gptswarm",
+    "field": "url",
+    "before": "https://arxiv.org/abs/2402.16823",
+    "after": "https://proceedings.mlr.press/v235/zhuge24a.html",
+    "evidence_url": "https://proceedings.mlr.press/v235/zhuge24a.html",
+    "status": "applied"
+  },
+  {
+    "key": "zhuge2024gptswarm",
+    "field": "booktitle",
+    "before": "Forty-first International Conference on Machine Learning",
+    "after": "Proceedings of the 41st International Conference on Machine Learning",
+    "evidence_url": "https://proceedings.mlr.press/v235/zhuge24a.html",
+    "status": "applied"
+  },
+  {
+    "key": "zhuge2024gptswarm",
+    "field": "volume",
+    "before": "",
+    "after": "235",
+    "evidence_url": "https://proceedings.mlr.press/v235/zhuge24a.html",
+    "status": "applied"
+  },
+  {
+    "key": "zhuge2024gptswarm",
+    "field": "pages",
+    "before": "",
+    "after": "62743--62767",
+    "evidence_url": "https://proceedings.mlr.press/v235/zhuge24a.html",
+    "status": "applied"
+  },
+  {
+    "key": "zhuge2024gptswarm",
+    "field": "series",
+    "before": "",
+    "after": "Proceedings of Machine Learning Research",
+    "evidence_url": "https://proceedings.mlr.press/v235/zhuge24a.html",
+    "status": "applied"
+  },
+  {
+    "key": "zhuge2024gptswarm",
+    "field": "publisher",
+    "before": "",
+    "after": "PMLR",
+    "evidence_url": "https://proceedings.mlr.press/v235/zhuge24a.html",
+    "status": "applied"
+  },
+  {
+    "key": "kim2024mdagents",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "kim2024mdagents",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in Neural Information Processing Systems",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "kim2024mdagents",
+    "field": "journal",
+    "before": "Advances in Neural Information Processing Systems",
+    "after": "",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "zhou2023least_to_most",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/12263",
+    "status": "applied"
+  },
+  {
+    "key": "zhou2023least_to_most",
+    "field": "booktitle",
+    "before": "",
+    "after": "International Conference on Learning Representations",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/12263",
+    "status": "applied"
+  },
+  {
+    "key": "zhou2023least_to_most",
+    "field": "year",
+    "before": "2022",
+    "after": "2023",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/12263",
+    "status": "applied"
+  },
+  {
+    "key": "zhou2023least_to_most",
+    "field": "url",
+    "before": "https://arxiv.org/abs/2205.10625",
+    "after": "https://openreview.net/forum?id=WZH7099tgfM",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/12263",
+    "status": "applied"
+  },
+  {
+    "key": "zhou2023least_to_most",
+    "field": "journal",
+    "before": "arXiv preprint arXiv:2205.10625",
+    "after": "",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/12263",
+    "status": "applied"
+  },
+  {
+    "key": "khot2023decomposed_prompting",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/10871",
+    "status": "applied"
+  },
+  {
+    "key": "khot2023decomposed_prompting",
+    "field": "booktitle",
+    "before": "",
+    "after": "International Conference on Learning Representations",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/10871",
+    "status": "applied"
+  },
+  {
+    "key": "khot2023decomposed_prompting",
+    "field": "year",
+    "before": "2022",
+    "after": "2023",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/10871",
+    "status": "applied"
+  },
+  {
+    "key": "khot2023decomposed_prompting",
+    "field": "url",
+    "before": "https://doi.org/10.48550/arxiv.2210.02406",
+    "after": "https://openreview.net/forum?id=_nGgzQjzaRy",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/10871",
+    "status": "applied"
+  },
+  {
+    "key": "khot2023decomposed_prompting",
+    "field": "journal",
+    "before": "arXiv preprint arXiv:2210.02406",
+    "after": "",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/10871",
+    "status": "applied"
+  },
+  {
+    "key": "packer2023memgpt",
+    "field": "author",
+    "before": "Packer, Charles and Fang, Vivian and Patil, Shishir\\_G and Lin, Kevin and Wooders, Sarah and Gonzalez, Joseph\\_E",
+    "after": "Packer, Charles and Fang, Vivian and Patil, Shishir G. and Lin, Kevin and Wooders, Sarah and Gonzalez, Joseph E.",
+    "evidence_url": "https://arxiv.org/abs/2310.08560v1",
+    "status": "applied"
+  },
+  {
+    "key": "asai2024selfrag",
+    "field": "title",
+    "before": "Self-RAG: Learning to retrieve, generate, and critique through self-reflection",
+    "after": "{Self-RAG}: Learning to retrieve, generate, and critique through self-reflection",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "wei2022chain_of_thought",
+    "field": "doi",
+    "before": "",
+    "after": "10.52202/068431-1800",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "wei2022chain_of_thought",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://doi.org/10.52202/068431-1800",
+    "status": "applied"
+  },
+  {
+    "key": "wei2022chain_of_thought",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in neural information processing systems",
+    "evidence_url": "https://doi.org/10.52202/068431-1800",
+    "status": "applied"
+  },
+  {
+    "key": "wei2022chain_of_thought",
+    "field": "journal",
+    "before": "Advances in neural information processing systems",
+    "after": "",
+    "evidence_url": "https://doi.org/10.52202/068431-1800",
+    "status": "applied"
+  },
+  {
+    "key": "wang2023self_consistency",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/11718",
+    "status": "applied"
+  },
+  {
+    "key": "wang2023self_consistency",
+    "field": "booktitle",
+    "before": "",
+    "after": "International Conference on Learning Representations",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/11718",
+    "status": "applied"
+  },
+  {
+    "key": "wang2023self_consistency",
+    "field": "year",
+    "before": "2022",
+    "after": "2023",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/11718",
+    "status": "applied"
+  },
+  {
+    "key": "wang2023self_consistency",
+    "field": "url",
+    "before": "https://doi.org/10.48550/arxiv.2203.11171",
+    "after": "https://openreview.net/forum?id=1PL1NIMMrw",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/11718",
+    "status": "applied"
+  },
+  {
+    "key": "wang2023self_consistency",
+    "field": "journal",
+    "before": "arXiv preprint arXiv:2203.11171",
+    "after": "",
+    "evidence_url": "https://iclr.cc/virtual/2023/poster/11718",
+    "status": "applied"
+  },
+  {
+    "key": "yao2023tree_of_thoughts",
+    "field": "doi",
+    "before": "",
+    "after": "10.52202/075280-0517",
+    "evidence_url": "https://proceedings.neurips.cc/paper/2023/hash/271db9922b8d1f4dd7aaef84ed5ac703-Abstract.html",
+    "status": "applied"
+  },
+  {
+    "key": "yao2023tree_of_thoughts",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://doi.org/10.52202/075280-0517",
+    "status": "applied"
+  },
+  {
+    "key": "yao2023tree_of_thoughts",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in neural information processing systems",
+    "evidence_url": "https://doi.org/10.52202/075280-0517",
+    "status": "applied"
+  },
+  {
+    "key": "yao2023tree_of_thoughts",
+    "field": "journal",
+    "before": "Advances in neural information processing systems",
+    "after": "",
+    "evidence_url": "https://doi.org/10.52202/075280-0517",
+    "status": "applied"
+  },
+  {
+    "key": "shinn2023reflexion",
+    "field": "doi",
+    "before": "",
+    "after": "10.52202/075280-0377",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "shinn2023reflexion",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://doi.org/10.52202/075280-0377",
+    "status": "applied"
+  },
+  {
+    "key": "shinn2023reflexion",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in neural information processing systems",
+    "evidence_url": "https://doi.org/10.52202/075280-0377",
+    "status": "applied"
+  },
+  {
+    "key": "shinn2023reflexion",
+    "field": "journal",
+    "before": "Advances in neural information processing systems",
+    "after": "",
+    "evidence_url": "https://doi.org/10.52202/075280-0377",
+    "status": "applied"
+  },
+  {
+    "key": "madaan2023self_refine",
+    "field": "doi",
+    "before": "",
+    "after": "10.52202/075280-2019",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/91edff07232fb1b55a505a9e9f6c0ff3-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "madaan2023self_refine",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://doi.org/10.52202/075280-2019",
+    "status": "applied"
+  },
+  {
+    "key": "madaan2023self_refine",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in neural information processing systems",
+    "evidence_url": "https://doi.org/10.52202/075280-2019",
+    "status": "applied"
+  },
+  {
+    "key": "madaan2023self_refine",
+    "field": "journal",
+    "before": "Advances in neural information processing systems",
+    "after": "",
+    "evidence_url": "https://doi.org/10.52202/075280-2019",
+    "status": "applied"
+  },
+  {
+    "key": "guha2023legalbench",
+    "field": "doi",
+    "before": "",
+    "after": "10.52202/075280-1915",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/89e44582fd28ddfea1ea4dcb0ebbf4b0-Abstract-Datasets_and_Benchmarks.html",
+    "status": "applied"
+  },
+  {
+    "key": "guha2023legalbench",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://doi.org/10.52202/075280-1915",
+    "status": "applied"
+  },
+  {
+    "key": "guha2023legalbench",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in neural information processing systems",
+    "evidence_url": "https://doi.org/10.52202/075280-1915",
+    "status": "applied"
+  },
+  {
+    "key": "guha2023legalbench",
+    "field": "journal",
+    "before": "Advances in neural information processing systems",
+    "after": "",
+    "evidence_url": "https://doi.org/10.52202/075280-1915",
+    "status": "applied"
+  },
+  {
+    "key": "yang2024swe_agent",
+    "field": "doi",
+    "before": "",
+    "after": "10.52202/079017-1601",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "yang2024swe_agent",
+    "field": "url",
+    "before": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c0c9adf4c162b5b1d5a51c-Abstract-Conference.html",
+    "after": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "yang2024swe_agent",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c0c9adf4c162b5b1d5a51c-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "yang2024swe_agent",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in Neural Information Processing Systems",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c0c9adf4c162b5b1d5a51c-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "yang2024swe_agent",
+    "field": "journal",
+    "before": "Advances in Neural Information Processing Systems",
+    "after": "",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c0c9adf4c162b5b1d5a51c-Abstract-Conference.html",
+    "status": "applied"
+  },
+  {
+    "key": "han2024mast",
+    "field": "doi",
+    "before": "",
+    "after": "10.52202/085713-4082",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html",
+    "status": "applied"
+  },
+  {
+    "key": "han2024mast",
+    "field": "type",
+    "before": "article",
+    "after": "inproceedings",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html",
+    "status": "applied"
+  },
+  {
+    "key": "han2024mast",
+    "field": "booktitle",
+    "before": "",
+    "after": "Advances in Neural Information Processing Systems",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html",
+    "status": "applied"
+  },
+  {
+    "key": "han2024mast",
+    "field": "journal",
+    "before": "Advances in Neural Information Processing Systems",
+    "after": "",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html",
+    "status": "applied"
+  },
+  {
+    "key": "crewai2023",
+    "field": "note",
+    "before": "First released on PyPI December 4, 2023.",
+    "after": "First released on PyPI on 14 November 2023 (version 0.1.0).",
+    "evidence_url": "https://pypi.org/project/crewai/0.1.0/",
+    "status": "applied"
+  },
+  {
+    "key": "chen2024reconcile",
+    "field": "note",
+    "before": "Targeted update search; core included study.",
+    "after": "",
+    "evidence_url": "internal audit note; retained in correction log, not bibliographic metadata",
+    "status": "applied"
+  },
+  {
+    "key": "zhang2024chain_agents",
+    "field": "note",
+    "before": "Targeted update search; core included study.",
+    "after": "",
+    "evidence_url": "internal audit note; retained in correction log, not bibliographic metadata",
+    "status": "applied"
+  },
+  {
+    "key": "jiang2026cocoa",
+    "field": "note",
+    "before": "Targeted update search; core included study.",
+    "after": "",
+    "evidence_url": "internal audit note; retained in correction log, not bibliographic metadata",
+    "status": "applied"
+  },
+  {
+    "key": "langgraph2024interrupt",
+    "field": "new_record",
+    "before": "",
+    "after": "@misc{langgraph2024interrupt,\n  title = {Making it easier to build human-in-the-loop agents with {interrupt}},\n  author = {{The LangChain Team}},\n  year = {2024},\n  url = {https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt},\n  howpublished = {Official LangChain technical article},\n  note = {Published 14 December 2024; accessed 8 October 2026.}\n}",
+    "evidence_url": "https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt",
+    "status": "applied",
+    "reason": "Separate dated primary source for human review and checkpoint persistence; original workflow source retained."
+  }
+]

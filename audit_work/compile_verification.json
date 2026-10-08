@@ -1,0 +1,91 @@
+{
+  "runs": [
+    {
+      "step": "bibtex",
+      "command": [
+        "bibtex",
+        "manuscript"
+      ],
+      "exit_code": 0,
+      "output_file": "audit_work/compile_bibtex.txt"
+    },
+    {
+      "step": "latex_second",
+      "command": [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "manuscript.tex"
+      ],
+      "exit_code": 0,
+      "output_file": "audit_work/compile_latex_second.txt"
+    },
+    {
+      "step": "latex_final",
+      "command": [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "manuscript.tex"
+      ],
+      "exit_code": 0,
+      "output_file": "audit_work/compile_latex_final.txt"
+    }
+  ],
+  "undefined_citation_or_reference": [],
+  "overfull_boxes": [
+    "Overfull \\hbox (123.62721pt too wide) detected at line 102",
+    "Overfull \\hbox (1.43248pt too wide) in paragraph at lines 1658--1658",
+    "Overfull \\hbox (0.81834pt too wide) in paragraph at lines 1651--1704",
+    "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2125--2132"
+  ],
+  "underfull_box_count": 104,
+  "output": [
+    "Output written on manuscript.pdf (23 pages, 2131169 bytes)."
+  ],
+  "inputs_sha256": {
+    "manuscript.tex": "23bb9eea4316745fce3775ec817bb78bf74d5c597f194d19c8e690d4d441259b",
+    "references.bib": "59129caedf01823a4050b0bf93a0634b4d781509970a54d2de342cbd780c6045",
+    "manuscript.aux": "403a6ca0521c3bd04b115b7b8db70fdf570adc50005d3dc0fc4231f7ace53918",
+    "manuscript.bbl": "c2c02ca5e4bbdb7979b8315e21131d55bb8c338195e0dd70123bdc85d949d6ee",
+    "manuscript.pdf": "767bfdc780cc576d33ae4fc08907f31ca4606bb51aa60ff7012e7c56e9a118f6"
+  },
+  "bibtex_warnings": [
+    "Warning--empty pages in asai2024selfrag",
+    "Warning--empty pages in han2024mast",
+    "Warning--empty pages in chen2024agentverse",
+    "Warning--empty pages in hendrycks2021mmlu",
+    "Warning--empty pages in hong2024metagpt",
+    "Warning--empty pages in khattab2024dspy",
+    "Warning--empty pages in khot2023decomposed_prompting",
+    "Warning--empty pages in liu2024agentbench",
+    "Warning--empty pages in mialon2024gaia",
+    "Warning--empty pages in qian2024scaling_multiagent",
+    "Warning--empty pages in vaswani2017attention",
+    "Warning--empty pages in wang2023self_consistency",
+    "Warning--empty pages in wu2024autogen",
+    "Warning--empty pages in yao2023react",
+    "Warning--empty pages in zhang2024chain_agents",
+    "Warning--empty pages in zhou2023least_to_most",
+    "Warning--empty pages in zhou2024webarena"
+  ],
+  "visual_review": {
+    "pages": [
+      1,
+      11,
+      15,
+      20,
+      22
+    ],
+    "scope": "First page, corrected memory/RAG text, framework table, declarations, and representative bibliography page; not all-page formatting approval",
+    "result": "Inspected renders: no clipping or overlap introduced in reviewed content. Existing large whitespace/table placement and layout warnings deferred to formatting phase.",
+    "render_sha256": {
+      "audit_work/render_checks/page_01.png": "316f5bca3bd32cb484462b9dcd7f2153f01246e157b1b8170777128d3ed6f6d8",
+      "audit_work/render_checks/page_11.png": "a560a24da197e21c2d8c6db4bee2819a4f9f15c80a9f5695728a8e5b7576658d",
+      "audit_work/render_checks/page_15.png": "9606266cfaeae59e6c3ac2a5d8a0ea10e52f5dd2e840cbb8d523bda5817de9a0",
+      "audit_work/render_checks/page_20.png": "0646ec89c1e326454a6c1f2ba2ba7d95d18a3ee87bef95f718af933078363a55",
+      "audit_work/render_checks/page_22.png": "9472c0e36aae401b2e56df0778bc630eae4005569d21d1816a37b4e7e336b045"
+    }
+  },
+  "abstract_words_whitespace": 225
+}

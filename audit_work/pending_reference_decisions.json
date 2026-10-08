@@ -1,0 +1,2034 @@
+{
+  "unresolved_metadata_fields": [
+    {
+      "key": "brown2020gpt3",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "brown2020gpt3",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "1877--1901",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "brown2020gpt3",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "openai2023gpt4",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "openai2023gpt4",
+      "field": "type",
+      "status": "not_verified",
+      "current": "article",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "minsky1988society",
+      "field": "year",
+      "status": "version_conflict",
+      "current": "1986",
+      "source_or_expected": "1988 for the linked ISBN edition; 1986 only if a different first-edition source is selected",
+      "evidence_url": "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
+      "detail": "Current bib year 1986 conflicts with the linked 1988 edition; this is an edition mismatch, not proof that a 1986 first edition does not exist.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "minsky1988society",
+      "field": "volume",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "minsky1988society",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "minsky1988society",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "minsky1988society",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wooldridge1995intelligent",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "Cambridge University Press",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "title",
+      "status": "not_verified",
+      "current": "{AutoGen}: Enabling Next-Gen {LLM} Applications via Multi-Agent Conversations",
+      "source_or_expected": null,
+      "evidence_url": "https://openreview.net/forum?id=BAakY1hNKS",
+      "detail": "The final COLM record was blocked. The 2023 arXiv version is verified but cannot establish all final-publication metadata. Singular/plural title variation is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "year",
+      "status": "not_verified",
+      "current": "2024",
+      "source_or_expected": null,
+      "evidence_url": "https://openreview.net/forum?id=BAakY1hNKS",
+      "detail": "The final COLM record was blocked. The 2023 arXiv version is verified but cannot establish all final-publication metadata. Singular/plural title variation is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "venue",
+      "status": "not_verified",
+      "current": "First Conference on Language Modeling",
+      "source_or_expected": null,
+      "evidence_url": "https://openreview.net/forum?id=BAakY1hNKS",
+      "detail": "The final COLM record was blocked. The 2023 arXiv version is verified but cannot establish all final-publication metadata. Singular/plural title variation is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "volume",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "url",
+      "status": "not_verified",
+      "current": "https://openreview.net/forum?id=BAakY1hNKS",
+      "source_or_expected": null,
+      "evidence_url": "https://openreview.net/forum?id=BAakY1hNKS",
+      "detail": "The final COLM record was blocked. The 2023 arXiv version is verified but cannot establish all final-publication metadata. Singular/plural title variation is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "type",
+      "status": "not_verified",
+      "current": "inproceedings",
+      "source_or_expected": null,
+      "evidence_url": "https://openreview.net/forum?id=BAakY1hNKS",
+      "detail": "The final COLM record was blocked. The 2023 arXiv version is verified but cannot establish all final-publication metadata. Singular/plural title variation is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "hong2024metagpt",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "du2024multiagent_debate",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "du2024multiagent_debate",
+      "field": "series",
+      "status": "not_verified",
+      "current": "Proceedings of Machine Learning Research",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "du2024multiagent_debate",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "PMLR",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "tran2025multiagent_survey",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "tran2025multiagent_survey",
+      "field": "type",
+      "status": "not_verified",
+      "current": "article",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wang2024survey_autonomous_agents",
+      "field": "number",
+      "status": "not_verified",
+      "current": "6",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wang2024survey_autonomous_agents",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "Springer",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "kwiatkowski2019natural_questions",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "MIT Press",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "reddy2019coqa",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "MIT Press",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "lewis2020rag",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "lewis2020rag",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "9459--9474",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "lewis2020rag",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "yao2023react",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "vaswani2017attention",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "vaswani2017attention",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "vaswani2017attention",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "devlin2019bert",
+      "field": "volume",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "touvron2023llama",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "touvron2023llama",
+      "field": "type",
+      "status": "not_verified",
+      "current": "article",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "glm2024chatglm",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "glm2024chatglm",
+      "field": "type",
+      "status": "not_verified",
+      "current": "article",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "ouyang2022instructgpt",
+      "field": "author",
+      "status": "normalization_suggested",
+      "current": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and Schulman, John and Hilton, Jacob and Kelton, Fraser and Miller, Luke and Simens, Maddie and Askell, Amanda and Welinder, Peter and Christiano, Paul and Leike, Jan and Lowe, Ryan",
+      "source_or_expected": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and Schulman, John and Hilton, Jacob and Kelton, Fraser and Miller, Luke and Simens, Maddie and Askell, Amanda and Welinder, Peter and Christiano, Paul F. and Leike, Jan and Lowe, Ryan",
+      "evidence_url": "https://proceedings.neurips.cc/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html",
+      "detail": "Complete list/order verified; the official page spells Paul F. Christiano, while the current record omits F. This is a name-completion suggestion, not a missing or reordered author.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "ouyang2022instructgpt",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "qian2024scaling_multiagent",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "park2023generative_agents",
+      "field": "author",
+      "status": "normalization_suggested",
+      "current": "Park, Joon Sung and O'Brien, Joseph and Cai, Carrie Jun and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S",
+      "source_or_expected": "Park, Joon Sung and O'Brien, Joseph C. and Cai, Carrie Jun and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S",
+      "evidence_url": "https://arxiv.org/html/2304.03442v2",
+      "detail": "All six authors/order agree. Official frontmatter has Joseph C.O'Brien; current Joseph O'Brien is shortened. Carrie Jun Cai vs Carrie J.Cai is an acceptable full/initial name variant.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "park2023generative_agents",
+      "field": "volume",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "park2023generative_agents",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "park2023generative_agents",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "1--22",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "li2023camel",
+      "field": "author",
+      "status": "normalization_suggested",
+      "current": "Li, Guohao and Hammoud, Hasan and Itani, Hani and Khizbullin, Dmitrii and Ghanem, Bernard",
+      "source_or_expected": "Li, Guohao and Hammoud, Hasan Abed Al Kader and Itani, Hani and Khizbullin, Dmitrii and Ghanem, Bernard",
+      "evidence_url": "https://papers.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf",
+      "detail": "Author identity/order agrees; official paper has a fuller given name than current Hasan Hammoud.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "li2023camel",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "qian2023chatdev",
+      "field": "volume",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No independent primary-source evidence was obtained for this field; absence is not classified as an error.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "gao2024rag_survey",
+      "field": "doi",
+      "status": "incomplete",
+      "current": "",
+      "source_or_expected": "10.48550/arXiv.2312.10997",
+      "evidence_url": "https://arxiv.org/abs/2312.10997",
+      "detail": "官方页列DOI，当前只在URL中或未设doi字段；建议规范化，非错号。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "shen2024hugginggpt",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "shen2024hugginggpt",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "38154--38180",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html",
+      "detail": "本轮未成功读取正式原始页码导出；NeurIPS BibTeX/ACM受content-type、timeout或403限制，不据其他论文引用补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhao2024longagent",
+      "field": "author",
+      "status": "normalization_suggested",
+      "current": "Zhao, Jun and Zu, Can and Hao, Xu and Lu, Yi and He, Wei and Ding, Yiwen and Gui, Tao and Zhang, Qi and Huang, Xuan-Jing",
+      "source_or_expected": "Zhao, Jun and Zu, Can and Hao, Xu and Lu, Yi and He, Wei and Ding, Yiwen and Gui, Tao and Zhang, Qi and Huang, Xuanjing",
+      "evidence_url": "https://aclanthology.org/2024.emnlp-main.912/",
+      "detail": "顺序完整；官方拼写Xuanjing，当前Xuan-Jing非漏人。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "khattab2024dspy",
+      "field": "author",
+      "status": "version_conflict",
+      "current": "Khattab, Omar and Singhvi, Arnav and Maheshwari, Paridhi and Zhang, Zhiyuan and Santhanam, Keshav and A, Sri Vardhamanan and Haq, Saiful and Sharma, Ashutosh and Joshi, Thomas and Moazam, Hanna and Miller, Heather and Zaharia, Matei and Potts, Christopher",
+      "source_or_expected": {
+        "pdf": "Sri Vardhamanan; Thomas T. Joshi",
+        "landing_page": "Sri Vardhamanan A; Thomas Joshi"
+      },
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf",
+      "detail": "13作者顺序一致；两姓名形式官方网页/PDF冲突。其余姓名相符。",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "khattab2024dspy",
+      "field": "title",
+      "status": "version_conflict",
+      "current": "{DSPy}: Compiling Declarative Language Model Calls into State-of-the-Art Pipelines",
+      "source_or_expected": {
+        "preferred_pdf": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+        "landing_page": "{DSPy}: Compiling Declarative Language Model Calls into State-of-the-Art Pipelines"
+      },
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf",
+      "detail": "正式PDF和arXiv一致，但官方landing metadata不同；先记录冲突再统一。",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "khattab2024dspy",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "khattab2024dspy",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "duan2024langgraph_crewai",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://arxiv.org/abs/2411.18241",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhuge2024gptswarm",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.mlr.press/v235/zhuge24a.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "chen2024agentverse",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "chen2024agentverse",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "kim2024mdagents",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "kim2024mdagents",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "79410--79452",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html",
+      "detail": "本轮未成功读取正式原始页码导出；NeurIPS BibTeX/ACM受content-type、timeout或403限制，不据其他论文引用补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhou2023least_to_most",
+      "field": "volume",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/12263",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhou2023least_to_most",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/12263",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhou2023least_to_most",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/12263",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhou2023least_to_most",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/12263",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "khot2023decomposed_prompting",
+      "field": "volume",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/10871",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "khot2023decomposed_prompting",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/10871",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "khot2023decomposed_prompting",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/10871",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "khot2023decomposed_prompting",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/10871",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "packer2023memgpt",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://arxiv.org/abs/2310.08560v1",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "packer2023memgpt",
+      "field": "url",
+      "status": "version_conflict",
+      "current": "https://arxiv.org/abs/2310.08560",
+      "source_or_expected": "https://arxiv.org/abs/2310.08560v1",
+      "evidence_url": "https://arxiv.org/abs/2310.08560v1",
+      "detail": "当前作者是v1，URL跳v2；锁版本或整体同步。",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "packer2023memgpt",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "ArXiv",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhang2024memory_survey",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "ACM New York, NY",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "asai2024selfrag",
+      "field": "author",
+      "status": "version_conflict",
+      "current": "Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avi and Hajishirzi, Hannaneh",
+      "source_or_expected": {
+        "landing_page": "Zeqiu Wu; Avi Sil",
+        "pdf": "Zeqi Wu; Avirup Sil"
+      },
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25f7be9694d7b32d5cc670927b8091e1-Paper-Conference.pdf",
+      "detail": "人数及顺序相同，名字别名/拼写冲突；当前跟官方网页。",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "asai2024selfrag",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "asai2024selfrag",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wei2022chain_of_thought",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wei2022chain_of_thought",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "24824--24837",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html",
+      "detail": "本轮未成功读取正式原始页码导出；NeurIPS BibTeX/ACM受content-type、timeout或403限制，不据其他论文引用补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wang2023self_consistency",
+      "field": "volume",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/11718",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wang2023self_consistency",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/11718",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wang2023self_consistency",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/11718",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "wang2023self_consistency",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://iclr.cc/virtual/2023/poster/11718",
+      "detail": "官方poster页未提供该字段；OpenReview直接内容被challenge阻断，不推断未给出的分页/卷期/DOI。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "yao2023tree_of_thoughts",
+      "field": "author",
+      "status": "normalization_suggested",
+      "current": "Yao, Shunyu and Yu, Dian and Zhao, Jeffrey and Shafran, Izhak and Griffiths, Tom and Cao, Yuan and Narasimhan, Karthik",
+      "source_or_expected": "Yao, Shunyu and Yu, Dian and Zhao, Jeffrey and Shafran, Izhak and Griffiths, Thomas L. and Cao, Yuan and Narasimhan, Karthik",
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/271db9922b8d1f4dd7aaef84ed5ac703-Paper-Conference.pdf",
+      "detail": "网页Tom，正式PDF Thomas L.；顺序相符，可统一完整名。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "yao2023tree_of_thoughts",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper/2023/hash/271db9922b8d1f4dd7aaef84ed5ac703-Abstract.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "yao2023tree_of_thoughts",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "11809--11822",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper/2023/hash/271db9922b8d1f4dd7aaef84ed5ac703-Abstract.html",
+      "detail": "本轮未成功读取正式原始页码导出；NeurIPS BibTeX/ACM受content-type、timeout或403限制，不据其他论文引用补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "shinn2023reflexion",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "shinn2023reflexion",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "8634--8652",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html",
+      "detail": "本轮未成功读取正式原始页码导出；NeurIPS BibTeX/ACM受content-type、timeout或403限制，不据其他论文引用补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "madaan2023self_refine",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/91edff07232fb1b55a505a9e9f6c0ff3-Abstract-Conference.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "madaan2023self_refine",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "46534--46594",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/91edff07232fb1b55a505a9e9f6c0ff3-Abstract-Conference.html",
+      "detail": "本轮未成功读取正式原始页码导出；NeurIPS BibTeX/ACM受content-type、timeout或403限制，不据其他论文引用补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "cui2023chatlaw",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://arxiv.org/abs/2306.16092v1",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "cui2023chatlaw",
+      "field": "url",
+      "status": "version_conflict",
+      "current": "https://arxiv.org/abs/2306.16092",
+      "source_or_expected": "https://arxiv.org/abs/2306.16092v1",
+      "evidence_url": "https://arxiv.org/abs/2306.16092v1",
+      "detail": "当前2023题名作者对v1；无版本URL跳2026v3不同题名作者。",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "li2024genmentor",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "510--519",
+      "source_or_expected": null,
+      "evidence_url": "https://www.microsoft.com/en-us/research/publication/llm-powered-multi-agent-framework-for-goal-oriented-learning-in-intelligent-tutoring-system/?lang=zh-cn",
+      "detail": "本轮未成功读取正式原始页码导出；NeurIPS BibTeX/ACM受content-type、timeout或403限制，不据其他论文引用补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "singhal2023medpalm",
+      "field": "number",
+      "status": "not_verified",
+      "current": "7972",
+      "source_or_expected": null,
+      "evidence_url": "https://www.nature.com/articles/s41586-023-06291-2",
+      "detail": "当前7972期号未独立读取正式期次记录。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "singhal2023medpalm",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "Nature Publishing Group UK London",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "guha2023legalbench",
+      "field": "author",
+      "status": "version_conflict",
+      "current": "Guha, Neel and Nyarko, Julian and Ho, Daniel and R{\\'e}, Christopher and Chilton, Adam and K, Aditya and Chohlas-Wood, Alex and Peters, Austin and Waldon, Brandon and Rockmore, Daniel and Zambrano, Diego and Talisman, Dmitry and Hoque, Enam and Surani, Faiz and Fagan, Frank and Sarfaty, Galit and Dickinson, Gregory and Porat, Haggai and Hegland, Jason and Wu, Jessica and Nudell, Joe and Niklaus, Joel and Nay, John and Choi, Jonathan and Tobia, Kevin and Hagan, Margaret and Ma, Megan and Livermore, Michael and Rasumov-Rahe, Nikon and Holzenberger, Nils and Kolt, Noam and Henderson, Peter and Rehaag, Sean and Goel, Sharad and Gao, Shang and Williams, Spencer and Gandhi, Sunny and Zur, Tom and Iyer, Varun and Li, Zehua",
+      "source_or_expected": {
+        "preferred_pdf_sixth_author": "Narayana, Aditya",
+        "landing_page_sixth_author": "K, Aditya",
+        "other_full_names": "Daniel E. Ho; Daniel N. Rockmore; Gregory M. Dickinson; Jonathan H. Choi"
+      },
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/89e44582fd28ddfea1ea4dcb0ebbf4b0-Paper-Datasets_and_Benchmarks.pdf",
+      "detail": "40作者顺序一致；第六作者姓氏网页/PDF实质不同，其他中间名为完整度差异。",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "guha2023legalbench",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/89e44582fd28ddfea1ea4dcb0ebbf4b0-Abstract-Datasets_and_Benchmarks.html",
+      "detail": "当前已访问来源未直接核实本字段，不用旧cache补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "guha2023legalbench",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "44123--44279",
+      "source_or_expected": null,
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/89e44582fd28ddfea1ea4dcb0ebbf4b0-Abstract-Datasets_and_Benchmarks.html",
+      "detail": "本轮未成功读取正式原始页码导出；NeurIPS BibTeX/ACM受content-type、timeout或403限制，不据其他论文引用补成已核。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "brynjolfsson2023generative_ai_work",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "Oxford University Press",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "yang2024swe_agent",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "yang2024swe_agent",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "50528--50652",
+      "source_or_expected": "50528--50652",
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/17337b1d5eeac8b59c80e025a552fa7a-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "detail": "Page range corroborated only by another paper's reference list, not the original proceedings record.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "jimenez2024swe_bench",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "jimenez2024swe_bench",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "han2024mast",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "han2024mast",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "anthropic2024mcp",
+      "field": "author",
+      "status": "version_conflict",
+      "current": "{Anthropic}",
+      "source_or_expected": null,
+      "evidence_url": "https://modelcontextprotocol.io/specification/2024-11-05",
+      "detail": "Resource identity exists, but current bibliographic wording/attribution must be tied to the chosen version.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "anthropic2024mcp",
+      "field": "title",
+      "status": "version_conflict",
+      "current": "Model Context Protocol ({MCP}): Technical Specification",
+      "source_or_expected": null,
+      "evidence_url": "https://modelcontextprotocol.io/specification/2024-11-05",
+      "detail": "Resource identity exists, but current bibliographic wording/attribution must be tied to the chosen version.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "anthropic2024mcp",
+      "field": "venue",
+      "status": "not_verified",
+      "current": "https://modelcontextprotocol.io",
+      "source_or_expected": "Technical specification, version 2024-11-05",
+      "evidence_url": "https://modelcontextprotocol.io/specification/2024-11-05",
+      "detail": "Use a versioned specification rather than a moving homepage.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "anthropic2024mcp",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "anthropic2024mcp",
+      "field": "url",
+      "status": "not_verified",
+      "current": "https://modelcontextprotocol.io",
+      "source_or_expected": "https://modelcontextprotocol.io/specification/2024-11-05",
+      "evidence_url": "https://modelcontextprotocol.io/specification/2024-11-05",
+      "detail": "Current homepage is live; a versioned source is needed for 2024 attribution.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "google2025a2a",
+      "field": "author",
+      "status": "version_conflict",
+      "current": "{Google}",
+      "source_or_expected": null,
+      "evidence_url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+      "detail": "Resource identity exists, but current bibliographic wording/attribution must be tied to the chosen version.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "google2025a2a",
+      "field": "title",
+      "status": "not_verified",
+      "current": "Agent-to-Agent ({A2A}) Protocol: Technical Specification",
+      "source_or_expected": "Agent2Agent (A2A) Protocol Official Specification",
+      "evidence_url": "https://a2a-protocol.org/v0.3.0/specification/",
+      "detail": "Official naming differs from the generic Agent-to-Agent title; include selected version.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "google2025a2a",
+      "field": "venue",
+      "status": "not_verified",
+      "current": "https://google.github.io/A2A",
+      "source_or_expected": "Technical specification, selected version",
+      "evidence_url": "https://a2a-protocol.org/v0.3.0/specification/",
+      "detail": "Specify version before finalizing attribution.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "google2025a2a",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "google2025a2a",
+      "field": "url",
+      "status": "not_verified",
+      "current": "https://google.github.io/A2A",
+      "source_or_expected": "https://a2a-protocol.org/v0.3.0/specification/",
+      "evidence_url": "https://a2a-protocol.org/v0.3.0/specification/",
+      "detail": "Old google.github.io/A2A URL could not be expanded; current official specification is available.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "langgraph2024",
+      "field": "venue",
+      "status": "not_verified",
+      "current": "Technical Blog, LangChain",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "langgraph2024",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "langgraph2024",
+      "field": "note",
+      "status": "not_verified",
+      "current": "Published January 2024. No peer-reviewed paper; official engineering documentation.",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "crewai2023",
+      "field": "venue",
+      "status": "not_verified",
+      "current": "GitHub repository",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "crewai2023",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "dify2024",
+      "field": "author",
+      "status": "version_conflict",
+      "current": "{Dify.AI}",
+      "source_or_expected": null,
+      "evidence_url": "https://github.com/langgenius/dify",
+      "detail": "Resource identity exists, but current bibliographic wording/attribution must be tied to the chosen version.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "dify2024",
+      "field": "title",
+      "status": "version_conflict",
+      "current": "{Dify: Open-source LLM App Development Platform}",
+      "source_or_expected": null,
+      "evidence_url": "https://github.com/langgenius/dify",
+      "detail": "Resource identity exists, but current bibliographic wording/attribution must be tied to the chosen version.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "dify2024",
+      "field": "year",
+      "status": "version_conflict",
+      "current": "2024",
+      "source_or_expected": null,
+      "evidence_url": "https://dify.ai/blog/open-source-llmops-platform-define-your-ai-native-apps",
+      "detail": "Dify existed in 2023; 2024 may be a selected release year, which is currently unspecified.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "dify2024",
+      "field": "venue",
+      "status": "not_verified",
+      "current": "GitHub repository",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "dify2024",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "dify2024",
+      "field": "note",
+      "status": "not_verified",
+      "current": "Open-source production-grade LLM application platform with multi-agent and RAG support.",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "tang2025llmmedqa",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "1--8",
+      "source_or_expected": "1--8",
+      "evidence_url": "https://dblp.org/rec/conf/ijcnn/YangCGCLHHWW25",
+      "detail": "DBLP corroborates 1–8; IEEE page returned only robot-limited content.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "tang2025llmmedqa",
+      "field": "url",
+      "status": "not_verified",
+      "current": "https://doi.org/10.1109/IJCNN64981.2025.11228647",
+      "source_or_expected": "https://doi.org/10.1109/IJCNN64981.2025.11228647",
+      "evidence_url": "https://researchconnect.suny.edu/en/publications/llm-medqa-enhancing-medical-question-answering-through-case-studi/",
+      "detail": "DOI association verified in author institution record, but DOI URL dereferencing/publisher details were inaccessible.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "tang2025llmmedqa",
+      "field": "organization",
+      "status": "not_verified",
+      "current": "IEEE",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "legalgraphrag2026",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "Association for Computational Linguistics",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "huang2023agentcoder",
+      "field": "volume",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "huang2023agentcoder",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "huang2023agentcoder",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "huang2023agentcoder",
+      "field": "doi",
+      "status": "incomplete",
+      "current": "",
+      "source_or_expected": "10.48550/arXiv.2312.13010",
+      "evidence_url": "https://arxiv.org/abs/2312.13010",
+      "detail": "arXiv supplies a DataCite DOI; version still needs explicit choice.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "huang2023agentcoder",
+      "field": "url",
+      "status": "not_verified",
+      "current": "https://arxiv.org/abs/2312.13010",
+      "source_or_expected": "https://arxiv.org/abs/2312.13010v1",
+      "evidence_url": "https://arxiv.org/abs/2312.13010v1",
+      "detail": "Current URL opens unspecified/latest version; fixed v1 corresponds to current title/year.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhang2024eduplanner",
+      "field": "title",
+      "status": "normalization_suggested",
+      "current": "EduPlanner: LLM-based multi-agent systems for customized and intelligent instructional design",
+      "source_or_expected": "EduPlanner: LLM-Based Multiagent Systems for Customized and Intelligent Instructional Design",
+      "evidence_url": "https://xplorestaging.ieee.org/document/10966044",
+      "detail": "IEEE indexed record spells Multiagent; current hyphen spelling is not a core title mismatch.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhang2024eduplanner",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhang2024eduplanner",
+      "field": "url",
+      "status": "not_verified",
+      "current": "https://doi.org/10.1109/TLT.2025.3561332",
+      "source_or_expected": "https://doi.org/10.1109/TLT.2025.3561332",
+      "evidence_url": "https://xplorestaging.ieee.org/document/10966044",
+      "detail": "Official indexed publication metadata matches DOI, but direct resolver/publisher-page expansion was blocked.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhang2024eduplanner",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "IEEE",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "fatemi2024financialqa",
+      "field": "venue",
+      "status": "not_verified",
+      "current": "Proceedings of the 5th ACM International Conference on AI in Finance",
+      "source_or_expected": "Proceedings of the 5th ACM International Conference on AI in Finance",
+      "evidence_url": "https://dblp.org/rec/conf/icaif/FatemiH24",
+      "detail": "arXiv confirms ICAIF 24 acceptance; full proceedings wording corroborated by DBLP because ACM page could not be read.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "fatemi2024financialqa",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "530--537",
+      "source_or_expected": "530--537",
+      "evidence_url": "https://dblp.org/rec/conf/icaif/FatemiH24",
+      "detail": "Page span corroborated by DBLP and citations; no direct ACM field extraction.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "fatemi2024financialqa",
+      "field": "url",
+      "status": "not_verified",
+      "current": "https://doi.org/10.1145/3677052.3698686",
+      "source_or_expected": "https://doi.org/10.1145/3677052.3698686",
+      "evidence_url": "https://arxiv.org/abs/2410.21741",
+      "detail": "arXiv links this formal DOI, but resolver/ACM retrieval was unavailable.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "peffers2007dsrm",
+      "field": "url",
+      "status": "not_verified",
+      "current": "https://doi.org/10.2753/MIS0742-1222240302",
+      "source_or_expected": "https://doi.org/10.2753/MIS0742-1222240302",
+      "evidence_url": "https://www.tandfonline.com/doi/abs/10.2753/MIS0742-1222240302",
+      "detail": "DOI association is supported; this audit did not obtain a direct resolver success response.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "peffers2007dsrm",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "Taylor \\& Francis",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "xagent2023",
+      "field": "venue",
+      "status": "not_verified",
+      "current": "\\url{https://github.com/OpenBMB/XAgent}",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "xagent2023",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "chen2024reconcile",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "Association for Computational Linguistics",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhang2024chain_agents",
+      "field": "author",
+      "status": "normalization_suggested",
+      "current": "Zhang, Yusen and Sun, Ruoxi and Chen, Yanfei and Pfister, Tomas and Zhang, Rui and Arik, Sercan O.",
+      "source_or_expected": "Zhang, Yusen and Sun, Ruoxi and Chen, Yanfei and Pfister, Tomas and Zhang, Rui and Arık, Sercan Ö.",
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract-Conference.html",
+      "detail": "Order and identities match; diacritics are absent in current transliteration.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhang2024chain_agents",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "jiang2026cocoa",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "Association for Computational Linguistics",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "shao2024storm",
+      "field": "author",
+      "status": "normalization_suggested",
+      "current": "Shao, Yijia and Jiang, Yucheng and Kanell, Theodore and Xu, Peter and Khattab, Omar and Lam, Monica",
+      "source_or_expected": "Shao, Yijia and Jiang, Yucheng and Kanell, Theodore and Xu, Peter and Khattab, Omar and Lam, Monica S.",
+      "evidence_url": "https://aclanthology.org/2024.naacl-long.347/",
+      "detail": "Official export omits Monica's middle initial; original PDF uses S. No missing person.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "shao2024storm",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "Association for Computational Linguistics",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "shao2024costorm",
+      "field": "author",
+      "status": "normalization_suggested",
+      "current": "Jiang, Yucheng and Shao, Yijia and Ma, Dekun and Semnani, Sina and Lam, Monica",
+      "source_or_expected": "Jiang, Yucheng and Shao, Yijia and Ma, Dekun and Semnani, Sina J. and Lam, Monica S.",
+      "evidence_url": "https://aclanthology.org/2024.emnlp-main.554.pdf",
+      "detail": "PDF title page includes two middle initials omitted in ACL's web export; author identities/order match.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "shao2024costorm",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "Association for Computational Linguistics",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "ragflow2024",
+      "field": "author",
+      "status": "version_conflict",
+      "current": "{InfiniFlow}",
+      "source_or_expected": null,
+      "evidence_url": "https://github.com/infiniflow/ragflow",
+      "detail": "Resource identity exists, but current bibliographic wording/attribution must be tied to the chosen version.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "ragflow2024",
+      "field": "title",
+      "status": "version_conflict",
+      "current": "{RAGFlow}: An Open-Source {RAG} Engine Based on Deep Document Understanding",
+      "source_or_expected": null,
+      "evidence_url": "https://github.com/infiniflow/ragflow",
+      "detail": "Resource identity exists, but current bibliographic wording/attribution must be tied to the chosen version.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "ragflow2024",
+      "field": "year",
+      "status": "version_conflict",
+      "current": "2024",
+      "source_or_expected": null,
+      "evidence_url": "https://github.com/infiniflow/ragflow",
+      "detail": "2024 source/release version not identified by the live repository page.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "ragflow2024",
+      "field": "venue",
+      "status": "not_verified",
+      "current": "Software repository",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "ragflow2024",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "ragflow2024",
+      "field": "note",
+      "status": "not_verified",
+      "current": "Accessed: 2026-08-02",
+      "source_or_expected": null,
+      "evidence_url": "https://github.com/infiniflow/ragflow",
+      "detail": "Do not fabricate or silently refresh the existing 2026-08-02 access date. Current check occurred 2026-10-08.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "hendrycks2021mmlu",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "hendrycks2021mmlu",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "hendrycks2021mmlu",
+      "field": "url",
+      "status": "not_verified",
+      "current": "https://openreview.net/forum?id=d7KBjmI3GmQ",
+      "source_or_expected": "https://openreview.net/forum?id=d7KBjmI3GmQ",
+      "evidence_url": "https://arxiv.org/abs/2009.03300",
+      "detail": "OpenReview CAPTCHA prevented direct reading. Author arXiv confirms ICLR 2021 and paper identity.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "trivedi2022musique",
+      "field": "title",
+      "status": "normalization_suggested",
+      "current": "{MuSiQue}: Multihop Questions via Single-hop Question Composition",
+      "source_or_expected": "♫ MuSiQue: Multihop Questions via Single-hop Question Composition",
+      "evidence_url": "https://aclanthology.org/2022.tacl-1.31/",
+      "detail": "Official title begins with a musical symbol; omission is decorative, not a core mismatch.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "trivedi2022musique",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "trivedi2022musique",
+      "field": "publisher",
+      "status": "not_verified",
+      "current": "MIT Press",
+      "source_or_expected": "",
+      "evidence_url": "",
+      "detail": "保留完整本地字段；未在10项核心字段矩阵中逐项核实。",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "liu2024agentbench",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "liu2024agentbench",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "mialon2024gaia",
+      "field": "author",
+      "status": "version_conflict",
+      "current": "Mialon, Gr{\\'e}goire and Fourrier, Cl{\\'e}mentine and Wolf, Thomas and LeCun, Yann and Scialom, Thomas",
+      "source_or_expected": "Mialon, Grégoire and Fourrier, Clémentine and Swift, Craig and Wolf, Thomas and LeCun, Yann and Scialom, Thomas",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf",
+      "detail": "Proceedings HTML/export lists five; official PDF indexed first page and arXiv list six including Craig Swift third. Re-open actual PDF before applying correction; search excerpt alone is not a full PDF inspection.",
+      "action": "确认具体版本/来源后再修改"
+    },
+    {
+      "key": "mialon2024gaia",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "mialon2024gaia",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "mialon2024gaia",
+      "field": "url",
+      "status": "not_verified",
+      "current": "https://openreview.net/forum?id=fibxvahvs3",
+      "source_or_expected": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html",
+      "detail": "Current OpenReview URL was CAPTCHA-blocked; stable ICLR proceedings page was verified.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhou2024webarena",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "zhou2024webarena",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "autorag2024",
+      "field": "volume",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "autorag2024",
+      "field": "number",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "autorag2024",
+      "field": "pages",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No field-specific authoritative confirmation recorded; absence is not proof of a nonexistent field.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "autorag2024",
+      "field": "doi",
+      "status": "incomplete",
+      "current": "",
+      "source_or_expected": "10.48550/arXiv.2410.20878",
+      "evidence_url": "https://arxiv.org/abs/2410.20878",
+      "detail": "Official arXiv page supplies DataCite DOI.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    },
+    {
+      "key": "langgraph2024interrupt",
+      "field": "doi",
+      "status": "not_verified",
+      "current": "",
+      "source_or_expected": null,
+      "evidence_url": null,
+      "detail": "No DOI was independently established; absence is not evidence of nonexistence.",
+      "action": "获取字段级正式来源后确认；不凭题名相似度补全"
+    }
+  ],
+  "citation_rows_with_evidence_boundary": [
+    {
+      "command_id": "C009",
+      "support_degree": "partial",
+      "recommendation": "Current wording re-read against retained source evidence. Source confirms identity, not the manuscript's historical update-search action; link internal dated search evidence."
+    },
+    {
+      "command_id": "C010",
+      "support_degree": "partial",
+      "recommendation": "Current wording re-read against retained source evidence. Keep identity; independently document when it was added and what metadata fields were verified."
+    },
+    {
+      "command_id": "C011",
+      "support_degree": "partial",
+      "recommendation": "Current wording re-read against retained source evidence. Keep eligible July 2026 record; distinguish paper identity from proof that a targeted search added it."
+    },
+    {
+      "command_id": "C026",
+      "support_degree": "author_inference",
+      "recommendation": "Retain the 'Inspired by' framing. The edition/year conflict remains a bibliography question; this conceptual analogy is not a validated LLM result."
+    },
+    {
+      "command_id": "C031",
+      "support_degree": "mixed",
+      "recommendation": "Retain 'may' and the comparison's task-conditional scope.\nCurrent wording re-read against retained source evidence. Keep the qualified may-correct-errors claim; avoid universal superiority to self-refinement based on abstract evidence.\nRetain the grouped conditional claim because Du supplies the reflection comparison; avoid attributing a universal self-refinement superiority result to Xiong."
+    },
+    {
+      "command_id": "C049",
+      "support_degree": "author_inference",
+      "recommendation": "Retain the mechanism row and explicit author-synthesis statement; the risk/suitability cells are not claimed as source-validated selection results."
+    },
+    {
+      "command_id": "C050",
+      "support_degree": "author_inference",
+      "recommendation": "Retain the row and synthesis qualification; no comparative QA superiority is asserted."
+    },
+    {
+      "command_id": "C052",
+      "support_degree": "author_inference",
+      "recommendation": "Retain the supported role mechanism and table-level synthesis qualification."
+    },
+    {
+      "command_id": "C053",
+      "support_degree": "mixed",
+      "recommendation": "保留；任务适配及聚合限制为本文分析。\nStaged evidence-processing row and CoCoA-zero name corrected. Keep hierarchical placement as review coding, not the source authors' original label."
+    },
+    {
+      "command_id": "C054",
+      "support_degree": "mixed",
+      "recommendation": "保留已区分的机制；本项仅核GPTSwarm部分。\nCurrent wording re-read against retained source evidence. Keep technical capabilities; hybrid placement is author classification, not a reported original label."
+    },
+    {
+      "command_id": "C056",
+      "support_degree": "author_inference",
+      "recommendation": "HITL source mismatch resolved by the independent December 2024 official article. Checkpointed interruption/review/resume is supported; high-risk usefulness or architecture placement is a design interpretation, not an evaluated safety guarantee."
+    },
+    {
+      "command_id": "C057",
+      "support_degree": "author_inference",
+      "recommendation": "Cost-benefit threshold is now explicitly the review's design criterion. Retain the sourced failure-mode motivation without attributing the entire overhead list or threshold to MAST."
+    },
+    {
+      "command_id": "C058",
+      "support_degree": "author_inference",
+      "recommendation": "Current wording re-read against retained source evidence. Retain attribution; distinguish borrowing DSRM from empirical validation of this review's proposed artifact."
+    },
+    {
+      "command_id": "C059",
+      "support_degree": "author_inference",
+      "recommendation": "保留作者编码；不作为来源自报架构标签或已量化风险结果。"
+    },
+    {
+      "command_id": "C060",
+      "support_degree": "author_inference",
+      "recommendation": "Current wording re-read against retained source evidence. Retain MCQ/voting workflow; attach coding rationale for flat/hybrid labels and match marker."
+    },
+    {
+      "command_id": "C061",
+      "support_degree": "author_inference",
+      "recommendation": "Current wording re-read against retained source evidence. Retain verdict/audit mechanism; high-risk profile and hybrid label are author judgments, not validated safety guarantees."
+    },
+    {
+      "command_id": "C062",
+      "support_degree": "author_inference",
+      "recommendation": "Enterprise claim corrected. Retain the KBQA/SPARQL description and disclosed single-agent multi-role boundary; author decision on role-I eligibility remains pending."
+    },
+    {
+      "command_id": "C063",
+      "support_degree": "author_inference",
+      "recommendation": "保留明确的作者编码，不声称来源自报匹配结论。"
+    },
+    {
+      "command_id": "C064",
+      "support_degree": "author_inference",
+      "recommendation": "Retain the illustrated coding/checkmark and explicit evidence boundary."
+    },
+    {
+      "command_id": "C065",
+      "support_degree": "author_inference",
+      "recommendation": "Current wording re-read against retained source evidence. Retain dependencies/feedback loop; record taxonomy coding and pin the consulted arXiv version."
+    },
+    {
+      "command_id": "C066",
+      "support_degree": "author_inference",
+      "recommendation": "Retain the diagnostic row and author-coding note; do not interpret the score as independently validated selection accuracy."
+    },
+    {
+      "command_id": "C067",
+      "support_degree": "author_inference",
+      "recommendation": "Current wording re-read against retained source evidence. Retain educational workflow; justify hierarchical classification rather than attributing that label directly to the source."
+    },
+    {
+      "command_id": "C068",
+      "support_degree": "author_inference",
+      "recommendation": "Self-critique wording corrected to critic feedback. Mechanism supported; hybrid classification and match marker remain review coding."
+    },
+    {
+      "command_id": "C073",
+      "support_degree": "mixed",
+      "recommendation": "Present the criteria as design guidance inferred from the cited mechanisms, with task-level validation still needed.\nRetain as mechanism evidence and mark the selection criterion as review synthesis.\nCurrent wording re-read against retained source evidence. Keep interface-layer distinction; present traceability/state/cost selection criteria as review synthesis.\nCurrent wording re-read against retained source evidence. Keep interoperability distinction; avoid claiming one topology or empirical QA reliability from protocol existence."
+    },
+    {
+      "command_id": "C083",
+      "support_degree": "partial",
+      "recommendation": "保留当前宽泛限定；待正式TOIS全文核对定位，不能称正式全文已确认。"
+    },
+    {
+      "command_id": "C098",
+      "support_degree": "mixed",
+      "recommendation": "保留当前方法描述；正式元数据已同步，未读OpenReview全文的范围限制保留。\nRetain the debate-specific portion; other methods in the sentence are assessed under their own citations.\nCurrent wording re-read against retained source evidence. Retain mechanism distinction; communication loss and stopping-cost generalizations are review synthesis.\n保留当前限定表述；来源支持上列具体机制，作者条件分析不作为该文实测结果。"
+    },
+    {
+      "command_id": "C109",
+      "support_degree": "author_inference",
+      "recommendation": "Graph state transitions and developer-defined nodes supported; hybrid label and suitability for long-running QA remain author interpretation. Checkpoint recovery is supported by the separately cited interrupt source.\nPersistent checkpoints and resumption supported. Hybrid label and long-running QA suitability are review coding; do not claim an evaluated QA recovery benefit."
+    },
+    {
+      "command_id": "C112",
+      "support_degree": "partial",
+      "recommendation": "Current wording re-read against retained source evidence. Retain interface/control distinction; do not treat specification existence as proof of effective collaboration."
+    },
+    {
+      "command_id": "C115",
+      "support_degree": "partial",
+      "recommendation": "Current wording re-read against retained source evidence. Keep engineering description with a fixed release/commit and honest access-date provenance."
+    },
+    {
+      "command_id": "C124",
+      "support_degree": "partial",
+      "recommendation": "Current wording re-read against retained source evidence. Retain mixed-objective example; topology-selection implications are review synthesis."
+    },
+    {
+      "command_id": "C125",
+      "support_degree": "partial",
+      "recommendation": "Current wording re-read against retained source evidence. Retain numerical QA/critic iteration; multi-label architecture interpretation is author synthesis."
+    },
+    {
+      "command_id": "C127",
+      "support_degree": "author_inference",
+      "recommendation": "Prior exhaustive process-analysis implication removed. The claim now distinguishes outcome scores from evidence about individual collaboration mechanisms; this is explicit review inference.\nRetain the corrected acknowledgment of supporting-fact metrics and the outcome-versus-process qualification."
+    },
+    {
+      "command_id": "C128",
+      "support_degree": "author_inference",
+      "recommendation": "Unverified prevalence assertion removed. Named MAST categories are supported; complementary contribution/error-correction measures are now proposed as review synthesis."
+    },
+    {
+      "command_id": "C129",
+      "support_degree": "author_inference",
+      "recommendation": "保留医学背景引用和明确的作者规范性建议。\n保留背景引用；书目版本链接差异仍pending。"
+    },
+    {
+      "command_id": "C131",
+      "support_degree": "mixed",
+      "recommendation": "Retain the claim; the requirement for validation before deployment is the review's recommendation, not an empirical AutoGen deployment guarantee.\nReusable graph/nested workflow components supported. Current paragraph explicitly treats automatic declarative assembly as a proposal requiring validation.\nThe pinned 0.1.0 description supports basic roles, assigned tasks and reusable Crew/Process components. Broader historical capabilities and automatic architecture assembly are not established by this source.\nCurrent wording re-read against retained source evidence. Pin release/commit supporting the claim; do not present a mutable current README as dated 2024 evidence."
+    },
+    {
+      "command_id": "C135",
+      "support_degree": "mixed",
+      "recommendation": "保留组件级未来建议；来源/时间戳/置信度要求为本文建议，正式全文定位pending。\n保留当前限定表述；来源支持上列具体机制，作者条件分析不作为该文实测结果。"
+    },
+    {
+      "command_id": "C136",
+      "support_degree": "proposal",
+      "recommendation": "Keep 'could' and identify learned team coordination as a research proposal inspired by memory mechanisms; do not imply Park validated those team policies.\n保留could与future directions边界；不把未来team-policy学习标为该文已验证结果。"
+    }
+  ]
+}

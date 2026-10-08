@@ -1,0 +1,639 @@
+[
+  {
+    "baseline_lines": [
+      64,
+      65
+    ],
+    "current_lines": [
+      64,
+      66
+    ],
+    "before": "review of multi-agent collaborative QA based on 84 verified sources,\nincluding 14 core empirical studies published through July 2026. We first",
+    "after": "review of multi-agent collaborative QA using 78 cited sources from an\n85-record bibliography pool, with 14 studies coded as core or boundary-case\nevidence published through July 2026. We first",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      134,
+      135
+    ],
+    "current_lines": [
+      135,
+      136
+    ],
+    "before": "extraordinary natural-language understanding and generation capabilities,\nushering QA systems into a new, agent-centric era.",
+    "after": "strong natural-language understanding and generation capabilities relevant\nto QA.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      158,
+      164
+    ],
+    "current_lines": [
+      159,
+      164
+    ],
+    "before": "Although several surveys on LLM-based agents exist\n\\citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents},\nthey focus primarily on general agent architectures or foundational\ncapabilities. A systematic account of collaboration topologies, enabling\nmechanisms, task and governance requirements, and architecture-selection\ntrade-offs for QA remains limited. This survey addresses that gap through five\nrelated contributions:",
+    "after": "Existing surveys cover general LLM-agent construction, communication,\nand orchestration\n\\citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents}.\nThis survey builds on that coverage by connecting collaboration topologies and enabling mechanisms\nto QA-specific task and governance requirements and architecture-selection\ntrade-offs through five related contributions:",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      168,
+      168
+    ],
+    "current_lines": [
+      168,
+      168
+    ],
+    "before": "        QA, based on a verified corpus with explicit roles for core empirical",
+    "after": "        QA, based on a source-checked corpus with explicit roles for core empirical",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      209,
+      209
+    ],
+    "current_lines": [
+      209,
+      215
+    ],
+    "before": "The initial candidate set contained 108 unique entries from the authors' working bibliography. On 2 August 2026, each entry was verified by title, first author, publication year, venue, and persistent identifier against Crossref, OpenAlex, arXiv, and, where available, official publisher proceedings or project documentation. This process uncovered four records with corrupted or mismatched metadata for which an authoritative source could not be confirmed. The process also identified duplicate, uncited, and out-of-scope records; these were preserved in the audit trail but excluded from the active bibliography.",
+    "after": "The historical audit log records an initial candidate set of 108 unique\nentries from the authors' working bibliography and checks dated 2 August\n2026 using Crossref, OpenAlex, arXiv, and official sources. It records four\ncorrupted or mismatched records for which an authoritative source was not\nconfirmed, together with duplicate, uncited, and out-of-scope records. These\nhistorical records are retained in the audit trail; the log alone is not\nindependent evidence that every publication field was verified.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      211,
+      211
+    ],
+    "current_lines": [
+      217,
+      217
+    ],
+    "before": "A targeted update search was then conducted using combinations of \\textit{multi-agent},",
+    "after": "The historical targeted update used combinations of \\textit{multi-agent},",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      214,
+      217
+    ],
+    "current_lines": [
+      220,
+      230
+    ],
+    "before": "Anthology, OpenReview, arXiv, and publisher proceedings. Three directly\nrelevant studies absent from the initial collection were added after full\nmetadata verification: ReConcile \\citep{chen2024reconcile}, Chain-of-Agents\n\\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa}. ",
+    "after": "Anthology, OpenReview, arXiv, and publisher proceedings. It added ReConcile\n\\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and\nCoCoA \\citep{jiang2026cocoa}.\n\nA source-level recheck on 8 October 2026 compared the 84-record bibliography\npool with publisher records, official proceedings, versioned arXiv papers,\nand project documentation. The accompanying audit separates source existence,\nfield accuracy, version conflicts, and claim support. Confirmed corrections\nwere applied, while inaccessible fields and unresolved conflicts remain\nexplicitly marked. One official LangGraph article was added to support the\nspecific interrupt and checkpoint mechanisms discussed below.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      225,
+      225
+    ],
+    "current_lines": [
+      238,
+      238
+    ],
+    "before": "Core included studies (role \\textbf{I}) had to satisfy five criteria:",
+    "after": "The core eligibility screen (role \\textbf{I}) used five criteria:",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      233,
+      235
+    ],
+    "current_lines": [
+      246,
+      257
+    ],
+    "before": "Foundational models, datasets, single-agent methods, and review articles were coded as background (role \\textbf{B}); official protocols and software documentation were coded as technical sources (role \\textbf{T}). Sources excluded from the active bibliography remain coded as \\textbf{X} in the audit file. The resulting active bibliography contains 84 verified sources:\n14~I, 16~S, 46~B, and 8~T. Fig.~\\ref{fig:reference_corpus} summarizes the verification and evidence-role allocation. The 14 role-I studies provide the empirical basis for the architecture taxonomy and subsequent evidence synthesis;\nother claims are supported by sources appropriate to their scope.",
+    "after": "Foundational models, datasets, single-agent methods, and review articles were coded as background (role \\textbf{B}); official protocols and software documentation were coded as technical sources (role \\textbf{T}).\nHistorically excluded sources remain coded as \\textbf{X} in the audit file.\nThe current bibliography pool contains 85 records: 14~I, 16~S, 46~B, and\n9~T. The effective manuscript cites 78 of these records: 14~I, 14~S, 42~B,\nand 8~T; seven uncited records remain in the pool. The 14 role-I labels are\ninherited author coding. Triad uses one LLM in three roles and is retained as\na boundary case pending an eligibility decision, rather than treated as\nunambiguous evidence of multiple independent agents. Table~\\ref{tab:validation}\nidentifies that boundary in the diagnostic comparison. Other claims use\nsources appropriate to their scope. Fig.~\\ref{fig:reference_corpus} retains\nthe earlier corpus snapshot; its counts require synchronization with this\ncorrected text.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      240,
+      240
+    ],
+    "current_lines": [
+      262,
+      262
+    ],
+    "before": "  \\caption{Reference-corpus verification and evidence-role allocation. The counts describe the reconstructed working bibliography and targeted update, rather than an exhaustive PRISMA screening flow across the entire database.}",
+    "after": "  \\caption{Historical reference-corpus verification and evidence-role allocation. The figure retains the earlier 84-record snapshot; current pool and citation counts are given in the text. This is not an exhaustive PRISMA screening flow.}",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      290,
+      291
+    ],
+    "current_lines": [
+      312,
+      314
+    ],
+    "before": "which introduced self-attention; BERT \\citep{devlin2019bert}, which established\nthe pre-train--fine-tune paradigm; and GPT-3 \\citep{brown2020gpt3} and GPT-4",
+    "after": "which introduced an attention-only sequence-transduction architecture; BERT\n\\citep{devlin2019bert}, which advanced bidirectional pretraining and\ntask-specific fine-tuning; and GPT-3 \\citep{brown2020gpt3} and GPT-4",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      293,
+      294
+    ],
+    "current_lines": [
+      316,
+      318
+    ],
+    "before": "capabilities. Open-source models such as LLaMA \\citep{touvron2023llama} and\nChatGLM \\citep{glm2024chatglm} further democratized agent development, while",
+    "after": "capabilities. Open-weight releases such as LLaMA \\citep{touvron2023llama} and\nChatGLM \\citep{glm2024chatglm} provide additional options for local\nexperimentation, while",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      346,
+      348
+    ],
+    "current_lines": [
+      370,
+      372
+    ],
+    "before": "\\citep{minsky1988society}, a multi-agent architecture decomposes a complex\ntask and assigns subtasks to agents with distinct responsibilities\n\\citep{park2023generative_agents}. A single ``generalist'' workflow may combine",
+    "after": "\\citep{minsky1988society}, multi-agent architectures can combine agents with\nindividual memory, reflection, and planning, as illustrated in social\nsimulations \\citep{park2023generative_agents}. A single ``generalist'' workflow may combine",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      411,
+      411
+    ],
+    "current_lines": [
+      435,
+      435
+    ],
+    "before": "\t\tcontrol, as specified in the text and Table~\\ref{tab:core_taxonomy_mapping}.}",
+    "after": "\t\tcontrol, as specified in the text and Table~\\ref{tab:9categories}.}",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      426,
+      426
+    ],
+    "current_lines": [
+      450,
+      450
+    ],
+    "before": "In the multi-agent debate paradigm, several LLM agents generate candidate answers and critique one another across one or more rounds. Representative studies illustrate both the potential and the limits of this design. For example, \\citet{du2024multiagent_debate} report improved factuality and reasoning performance on the tasks they evaluate, whereas divergent prompting can mitigate convergence toward similar reasoning paths \\citep{liang2024divergent_debate}. ReConcile provides another example by integrating heterogeneous models with confidence-weighted consensus \\citep{chen2024reconcile}; answer consistency and degeneration nevertheless remain notable failure modes \\citep{xiong2023inter_consistency}. Accordingly, adding more agents or debate rounds does not reliably boost QA performance; instead, the interaction rules, diversity of evidence, and aggregation procedure determine whether disagreement yields correction, inconsistency, or unnecessary computational cost.",
+    "after": "In the multi-agent debate paradigm, several LLM agents generate candidate answers and critique one another across one or more rounds. Representative studies illustrate both the potential and the limits of this design. For example, \\citet{du2024multiagent_debate} report improved factuality and reasoning performance on the tasks they evaluate, whereas divergent prompting can mitigate convergence toward similar reasoning paths \\citep{liang2024divergent_debate}. ReConcile provides another example by integrating heterogeneous models with confidence-weighted consensus \\citep{chen2024reconcile}; inter-model inconsistency and capability imbalance nevertheless remain important considerations \\citep{xiong2023inter_consistency}. Accordingly, adding more agents or debate rounds does not reliably boost QA performance; instead, the interaction rules, diversity of evidence, and aggregation procedure determine whether disagreement yields correction, inconsistency, or unnecessary computational cost.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      464,
+      465
+    ],
+    "current_lines": [
+      488,
+      490
+    ],
+    "before": "CoCoA \\citep{jiang2026cocoa}, which coordinates parametric and retrieved\nknowledge for QA. These role-I systems differ in their communication",
+    "after": "CoCoA-zero \\citep{jiang2026cocoa}, which coordinates parametric and retrieved\nknowledge using three agents at inference time. CoCoA subsequently distils\nthat collaboration into a single model. These role-I systems differ in their communication",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      500,
+      502
+    ],
+    "current_lines": [
+      525,
+      527
+    ],
+    "before": "For example, LangGraph supports pausing a workflow at defined breakpoints for\nhuman review \\citep{langgraph2024}, which may be useful for high-risk\ndecisions.",
+    "after": "For example, LangGraph supports checkpointed state and pausing a workflow\nwith an interrupt for human review \\citep{langgraph2024interrupt}, which may\nbe useful for high-risk decisions.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      545,
+      544
+    ],
+    "current_lines": [
+      570,
+      571
+    ],
+    "before": "",
+    "after": "Architecture labels, suitable contexts, and limitations are the authors'\nsynthesis of the cited mechanisms.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      562,
+      562
+    ],
+    "current_lines": [
+      589,
+      589
+    ],
+    "before": "    Cost, degeneration, and aggregation sensitivity \\\\",
+    "after": "    Coordination cost and aggregation sensitivity \\\\",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      577,
+      577
+    ],
+    "current_lines": [
+      604,
+      604
+    ],
+    "before": "    & Plan--retrieve--generate pipeline & LONGAGENT; Chain-of-Agents; CoCoA",
+    "after": "    & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      587,
+      587
+    ],
+    "current_lines": [
+      614,
+      614
+    ],
+    "before": "    Graph transitions permit loops, branches, and routing policies &",
+    "after": "    DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph &",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      594,
+      594
+    ],
+    "current_lines": [
+      621,
+      621
+    ],
+    "before": "    & Human-in-the-loop design pattern & LangGraph breakpoints \\citep{langgraph2024} &",
+    "after": "    & Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} &",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      643,
+      647
+    ],
+    "current_lines": [
+      670,
+      675
+    ],
+    "before": "communication, aggregation, state-management, and inference costs. A\ncollaborative design is justified only when expected gains in coverage,\nreliability, or adaptability offset those costs\n\\citep{han2024mast}. Assessment should include latency, token use, tool calls,\nmonitoring, and recovery overhead.",
+    "after": "communication, aggregation, state-management, and inference costs. Reported\nmulti-agent failure modes \\citep{han2024mast} motivate checking whether\nadditional coordination provides useful benefits. As a design criterion,\nthis review requires expected gains in coverage, reliability, or adaptability\nto justify the resource burden. Assessment should include latency, token use,\ntool calls, monitoring, and recovery overhead.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      724,
+      724
+    ],
+    "current_lines": [
+      752,
+      752
+    ],
+    "before": "    \\textbf{Inferred versus reported architecture} & \\textbf{Match} \\\\",
+    "after": "    \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      729,
+      729
+    ],
+    "current_lines": [
+      757,
+      757
+    ],
+    "before": "    Triad \\citep{hu2024triad} & Enterprise KBQA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\",
+    "after": "    Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      735,
+      735
+    ],
+    "current_lines": [
+      763,
+      763
+    ],
+    "before": "    Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with self-critique & Hierarchical versus hybrid reflection loop & $\\times$ \\\\",
+    "after": "    Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      740,
+      741
+    ],
+    "current_lines": [
+      768,
+      770
+    ],
+    "before": "  $\\times$ = divergent. The labels are author coding and do not constitute\n  independent validation.",
+    "after": "  $\\times$ = divergent. Both architecture labels are the authors' coding of\n  the selection approach and the reported workflow, not independent validation.\n  Triad uses one LLM in three roles and is retained as an eligibility boundary case.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      815,
+      824
+    ],
+    "current_lines": [
+      844,
+      849
+    ],
+    "before": "With the rapid development of multi-agent ecosystems, interoperability barriers have arisen between agents developed by different vendors.\nTo address this issue, the industry has initiated efforts to standardize communication protocols. For example, Anthropic introduced the Model Context Protocol (MCP)\n\\citep{anthropic2024mcp}—dubbed the \"USB-C of AI\"—to standardise\nthe way agents connect to external tools and data sources.\nAnother example is Google's proposed Agent-to-Agent (A2A) protocol\n\\citep{google2025a2a}, which regulates horizontal peer-to-peer collaboration\namong agents.\nThese standards are being gradually adopted by the open-source\ncommunity and the Linux Foundation, laying a foundation for heterogeneous\nmulti-agent QA systems.",
+    "after": "Industry initiatives address different parts of the interface problem.\nAnthropic introduced the Model Context Protocol (MCP)\n\\citep{anthropic2024mcp} to standardise connections to external tools and data\nsources. Google's Agent2Agent (A2A) protocol \\citep{google2025a2a} supports\ncommunication and task coordination between agents across frameworks and\nvendors. These interfaces can support heterogeneous multi-agent QA systems.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      866,
+      868
+    ],
+    "current_lines": [
+      891,
+      892
+    ],
+    "before": "by explicitly separating\nthe planning and solving phases, substantially improving decomposition\nreliability.",
+    "after": "by explicitly separating planning from solving and reducing missing-step\nerrors on the evaluated reasoning tasks.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      886,
+      893
+    ],
+    "current_lines": [
+      910,
+      916
+    ],
+    "before": "After decomposition, the system must assign sub-tasks to the most suitable\nagents. For example, MetaGPT \\citep{hong2024metagpt} and AgentVerse\n\\citep{chen2024agentverse}\nconstruct fine-grained agent profiles (Agent Profiling) that tag each agent\nwith specific role labels.\nDuring runtime, a scheduler uses skill-based routing to dispatch sub-tasks\nsuch as code writing, literature retrieval, or logical verification to the\ncorresponding expert agent, maximising throughput.",
+    "after": "After decomposition, the system must assign sub-tasks to suitable agents.\nFor example, MetaGPT \\citep{hong2024metagpt} organises agents through\npredefined software-engineering roles, while AgentVerse\n\\citep{chen2024agentverse} recruits experts by generating task-specific\nexpertise descriptions and adjusts team composition using evaluation\nfeedback. These mechanisms guide which agents contribute to a task;\ntheir scheduling efficiency requires separate evaluation.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      965,
+      969
+    ],
+    "current_lines": [
+      988,
+      992
+    ],
+    "before": "current QA session. For example, MemGPT \\citep{packer2023memgpt} draws on the\npaged-memory mechanism of modern operating systems to design a hierarchical\nworking-memory system. The system retains critical context in memory based on\nattention weights and evicts redundant information, providing seamless\nlong-conversation support within a limited context window.",
+    "after": "current QA session. For example, MemGPT \\citep{packer2023memgpt} draws on\noperating-system memory hierarchies to manage a limited main context and\nexternal memory. Function calls control information transfer between them,\nwhile a FIFO message queue and recursive summaries manage dialogue context\nunder the context-window limit.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      974,
+      979
+    ],
+    "current_lines": [
+      997,
+      1002
+    ],
+    "before": "Long-term memory typically relies on vector databases to store vast\nhistorical experiences and external domain knowledge\n\\citep{zhang2024memory_survey}. A representative access mechanism is\nRetrieval-Augmented Generation (RAG) \\citep{lewis2020rag,gao2024rag_survey},\nthrough which multi-agent QA systems access long-term memory. A retrieval\nagent selects the Top-$k$ relevant documents from knowledge base $\\mathcal{D}$",
+    "after": "Long-term memory can retain historical experiences and domain knowledge in\nexternal stores \\citep{zhang2024memory_survey}. Vector retrieval is one way\nto access such information: Retrieval-Augmented Generation (RAG)\n\\citep{lewis2020rag,gao2024rag_survey} augments generation with retrieved\ndocuments. As one illustrative multi-agent implementation, a retrieval agent\ncan select the Top-$k$ relevant documents from knowledge base $\\mathcal{D}$",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      991,
+      995
+    ],
+    "current_lines": [
+      1014,
+      1019
+    ],
+    "before": "evolved from early passive Naive RAG to active variants. For example, Self-RAG\n\\citep{asai2024selfrag} and proactive retrieval (FLARE)\n\\citep{jiang2023active_rag} allow specialised retrieval agents to autonomously\ndetermine when to retrieve, evaluate retrieval quality, and pass refined\nknowledge to the generation agent.",
+    "after": "evolved from passive retrieval to active variants. Self-RAG\n\\citep{asai2024selfrag} uses reflection tokens to decide when to retrieve and\nto critique generated passages, while FLARE \\citep{jiang2023active_rag}\ntriggers retrieval when predicted upcoming text contains low-confidence\ntokens and then regenerates that text. These controls can inform retrieval\ncomponents in a multi-agent workflow.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1023,
+      1024
+    ],
+    "current_lines": [
+      1047,
+      1049
+    ],
+    "before": "Chain-of-Thought (CoT) prompting \\citep{wei2022chain_of_thought} has\ngreatly unlocked the reasoning potential of LLMs.",
+    "after": "Chain-of-Thought (CoT) prompting \\citep{wei2022chain_of_thought}\ncan improve performance on evaluated arithmetic, commonsense, and symbolic\nreasoning tasks.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1032,
+      1034
+    ],
+    "current_lines": [
+      1057,
+      1059
+    ],
+    "before": "Each agent independently samples $K$ reasoning paths\n$\\{(r_k, a_k)\\}_{k=1}^{K}$ for the same question, and majority voting\nselects the final answer:",
+    "after": "In the single-model baseline, $K$ reasoning paths\n$\\{(r_k, a_k)\\}_{k=1}^{K}$ are sampled for the same question, and majority\nvoting selects the final answer:",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1051,
+      1055
+    ],
+    "current_lines": [
+      1076,
+      1080
+    ],
+    "before": "Representative search topologies include Chain-of-Agents\n\\citep{zhang2024chain_agents}, Tree of Thoughts\n\\citep{yao2023tree_of_thoughts}, and Graph of Thoughts\n\\citep{besta2024graph_of_thoughts}; these distribute reasoning across multiple\nserially or graph-connected agents.",
+    "after": "Chain-of-Agents \\citep{zhang2024chain_agents} distributes evidence processing\nacross worker agents, while Tree of Thoughts\n\\citep{yao2023tree_of_thoughts} and Graph of Thoughts\n\\citep{besta2024graph_of_thoughts} organise intermediate reasoning states as\nsearch structures.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1072,
+      1075
+    ],
+    "current_lines": [
+      1097,
+      1100
+    ],
+    "before": "In addition, combined with Chain-of-Verification\n\\citep{dhuliawala2023chain_of_verification}, the system can configure\ndedicated \\emph{Critic} agents that rigorously audit generated results for\nsafety, factuality, and logical coherence through mutual-critique mechanisms.",
+    "after": "Chain-of-Verification \\citep{dhuliawala2023chain_of_verification} drafts an\nanswer, plans verification questions, answers them independently, and then\nrevises the original answer. This procedure targets factual errors; dedicated\ncritic agents are a possible multi-agent extension that requires evaluation.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1640,
+      1640
+    ],
+    "current_lines": [
+      1665,
+      1665
+    ],
+    "before": "      Dialogue context tree &",
+    "after": "      Role-conditioned dialogue context &",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1645,
+      1645
+    ],
+    "current_lines": [
+      1670,
+      1670
+    ],
+    "before": "      Local code and document files &",
+    "after": "      Within-phase dialogue; cross-phase solutions &",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1650,
+      1650
+    ],
+    "current_lines": [
+      1675,
+      1675
+    ],
+    "before": "      Message queue and project documents &",
+    "after": "      Shared message pool and project documents &",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1660,
+      1660
+    ],
+    "current_lines": [
+      1685,
+      1685
+    ],
+    "before": "      Shared blackboard &",
+    "after": "      Conversation and evaluation context &",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1662,
+      1662
+    ],
+    "current_lines": [
+      1687,
+      1687
+    ],
+    "before": "    LangGraph \\citep{duan2024langgraph_crewai} & Hybrid &",
+    "after": "    LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid &",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1668,
+      1671
+    ],
+    "current_lines": [
+      1693,
+      1696
+    ],
+    "before": "      Computational graph connections &\n      Automatic graph-structure search &\n      Intra-node state &\n      Parallel inference optimization \\\\",
+    "after": "      DAG information flow &\n      Prompt and edge optimization &\n      Node input--output histories &\n      MMLU QA; graph optimization \\\\",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1929,
+      1931
+    ],
+    "current_lines": [
+      1954,
+      1958
+    ],
+    "before": "resolving dependencies or disagreement. In a fully connected broadcast\ntopology, potential pairwise messages per round grow quadratically with team\nsize, increasing token and latency costs without guaranteeing information gain",
+    "after": "resolving dependencies or disagreement. If each of $N$ agents sends one\nmessage to every other agent, there are $N(N-1)$ directed message deliveries\nper round. Actual token and latency costs also depend on message length,\nscheduling, and context handling. Scaling experiments illustrate\ntask-dependent benefits and topology-dependent context costs",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1957,
+      1962
+    ],
+    "current_lines": [
+      1984,
+      1989
+    ],
+    "before": "modes, yet they are often compared only by final-answer accuracy. Conventional\nbenchmarks and agent environments measure answer correctness or task\ncompletion \\citep{hendrycks2021mmlu,yang2018hotpotqa,\nliu2024agentbench,mialon2024gaia}; they do not reveal whether debate added\nindependent evidence, whether a long-context chain lost a decisive fact, or\nwhether a critic detected and corrected an error. Additional reasoning rounds",
+    "after": "modes. Conventional benchmarks and agent environments measure answer\ncorrectness, supporting-fact accuracy, or task completion\n\\citep{hendrycks2021mmlu,yang2018hotpotqa,liu2024agentbench,mialon2024gaia};\nthese outcome measures alone do not establish whether debate added independent\nevidence, whether a long-context chain lost a decisive fact, or whether a\ncritic detected and corrected an error. Additional reasoning rounds",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1965,
+      1966
+    ],
+    "current_lines": [
+      1992,
+      1993
+    ],
+    "before": "\\citep{han2024mast}, but process-level measures of contribution,\ncomplementarity, and error correction are not standard in QA evaluation.",
+    "after": "\\citep{han2024mast}, suggesting that process-level measures of contribution,\ncomplementarity, and error correction could complement outcome measures.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      1981,
+      1985
+    ],
+    "current_lines": [
+      2008,
+      2014
+    ],
+    "before": "appropriate to the decision. Medical and legal QA illustrate these demands\n\\citep{tang2024medagents,cui2023chatlaw}. Yet many workflows provide only a\ntextual correction or final approval \\citep{duan2024langgraph_crewai,\nlanggraph2024}, without specifying when intervention is useful, what can be\nrevised, or how the intervention affects subsequent reasoning. Oversight that",
+    "after": "appropriate to the decision. Medical and legal QA provide application\ncontexts for these proposed oversight requirements\n\\citep{tang2024medagents,cui2023chatlaw}. Frameworks support configurable\ninteraction and workflow control \\citep{duan2024langgraph_crewai,\nlanggraph2024interrupt}. Their use still requires designers to specify when\nintervention is useful, what can be revised, and how the intervention affects\nsubsequent reasoning. Oversight that",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      2184,
+      2184
+    ],
+    "current_lines": [
+      2213,
+      2216
+    ],
+    "before": "\\texttt{search\\_log.csv}.",
+    "after": "\\texttt{search\\_log.csv}. The current field-level and claim-level audit tables\nare \\texttt{reference\\_field\\_audit.csv} and\n\\texttt{citation\\_claim\\_audit.csv}; they record unresolved\npublication fields, version choices, and evidence boundaries.",
+    "status": "applied"
+  },
+  {
+    "baseline_lines": [
+      2191,
+      2191
+    ],
+    "current_lines": [
+      2223,
+      2223
+    ],
+    "before": "the explanatory architecture schematic in Fig.~\\ref{fig:arch_tradeoffs}.",
+    "after": "an explanatory architecture schematic during drafting.",
+    "status": "applied"
+  }
+]
