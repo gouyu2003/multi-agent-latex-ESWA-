@@ -323,9 +323,6 @@ Learning from Human Feedback (RLHF) to improve instruction following.
 Table~\ref{tab:llm_evolution} summarizes representative model capabilities relevant to agentic QA; this table serves as an illustrative overview rather than an exhaustive chronological record.
 
 
-\clearpage
-\onecolumn
-
 \begin{table*}[pos=t]
   \centering
   \caption{Representative LLM capabilities relevant to agentic QA. Models
@@ -1597,12 +1594,12 @@ instantiate task-oriented capabilities; and benchmarks and tools assess
 answer quality and collaboration. The figure is a conceptual map, not a
 requirement that every system use a single tool from each layer.
 
-\begin{figure}[t]
+\begin{figure*}[pos=t,width=\textwidth]
 	\centering
-\includegraphics[width=\columnwidth]{classify.jpg}
+\includegraphics[width=0.94\textwidth]{classify.jpg}
 \caption{Four resource layers for constructing and evaluating multi-agent collaborative QA systems.}
 	\label{fig:platform_resource_map}
-\end{figure}
+\end{figure*}
 
 % ── 7.1  Foundation Layer ────────────────────────────────────────────────────
 \subsection{Foundation layer: model and retrieval components}
@@ -1650,22 +1647,20 @@ architecture, communication,
 task decomposition, memory or state handling, and typical QA-related use.
 
 
-\clearpage
-\onecolumn
-\begin{table}[t]
+\begin{table*}[pos=t,width=\textwidth]
   \centering
   \caption{Technical implementation comparison of representative multi-agent
            orchestration frameworks and related toolkits.}
   \label{tab:framework_compare}
-  \normalsize
+  \small
   \setlength{\tabcolsep}{5pt}
   \renewcommand{\arraystretch}{1.0}
-  \begin{tabular}{>{\raggedright\arraybackslash}p{1.8cm}
-                  >{\raggedright\arraybackslash}p{1.9cm}
-                  >{\raggedright\arraybackslash}p{2.8cm}
-                  >{\raggedright\arraybackslash}p{2.8cm}
-                  >{\raggedright\arraybackslash}p{2.8cm}
-                  >{\raggedright\arraybackslash}p{3.2cm}}
+  \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{2.6cm}
+                  >{\raggedright\arraybackslash}p{2.0cm}
+                  >{\raggedright\arraybackslash}X
+                  >{\raggedright\arraybackslash}X
+                  >{\raggedright\arraybackslash}X
+                  >{\raggedright\arraybackslash}X}
     \toprule
     \textbf{Framework} & \textbf{Architecture} &
     \textbf{Communication} & \textbf{Task decomposition} &
@@ -1712,10 +1707,8 @@ task decomposition, memory or state handling, and typical QA-related use.
       Module state and optimized demonstrations &
       QA and RAG pipeline optimization \\
     \bottomrule
-  \end{tabular}
-\end{table}
-\clearpage
-\twocolumn
+  \end{tabularx}
+\end{table*}
 
 
 The comparison highlights three distinctions. First, frameworks vary in how
@@ -1874,6 +1867,8 @@ for long-horizon tasks across common online domains \citep{zhou2024webarena}.
 Together, these benchmarks enable a more complete resource map, although
 their task definitions, interfaces, and success metrics differ and should not
 be merged into a single aggregate score.
+Table~\ref{tab:benchmark_resources} summarizes these resources and their
+primary evaluation roles.
 
 \begin{table*}[t]
   \centering
