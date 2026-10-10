@@ -1,0 +1,552 @@
+[
+  {
+    "key": "openai2023gpt4",
+    "field": "url",
+    "before": "https://arxiv.org/abs/2303.08774",
+    "after": "https://arxiv.org/abs/2303.08774v1",
+    "evidence_url": "https://arxiv.org/abs/2303.08774v1",
+    "locator": "v1 title, byline and submission history",
+    "reason": "固定与正文实际机制及当前作者/题名对应的v1，不让无版本URL指向另一版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "packer2023memgpt",
+    "field": "url",
+    "before": "https://arxiv.org/abs/2310.08560",
+    "after": "https://arxiv.org/abs/2310.08560v1",
+    "evidence_url": "https://arxiv.org/abs/2310.08560v1",
+    "locator": "v1 title, byline and submission history",
+    "reason": "固定与正文实际机制及当前作者/题名对应的v1，不让无版本URL指向另一版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "cui2023chatlaw",
+    "field": "url",
+    "before": "https://arxiv.org/abs/2306.16092",
+    "after": "https://arxiv.org/abs/2306.16092v1",
+    "evidence_url": "https://arxiv.org/abs/2306.16092v1",
+    "locator": "v1 title, byline and submission history",
+    "reason": "固定与正文实际机制及当前作者/题名对应的v1，不让无版本URL指向另一版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "huang2023agentcoder",
+    "field": "url",
+    "before": "https://arxiv.org/abs/2312.13010",
+    "after": "https://arxiv.org/abs/2312.13010v1",
+    "evidence_url": "https://arxiv.org/abs/2312.13010v1",
+    "locator": "v1 title, byline and submission history",
+    "reason": "固定与正文实际机制及当前作者/题名对应的v1，不让无版本URL指向另一版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "openai2023gpt4",
+    "field": "doi",
+    "before": "",
+    "after": "10.48550/arXiv.2303.08774",
+    "evidence_url": "https://arxiv.org/abs/2303.08774v1",
+    "locator": "Cite as; arXiv-issued DOI via DataCite",
+    "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "tran2025multiagent_survey",
+    "field": "doi",
+    "before": "",
+    "after": "10.48550/arXiv.2501.06322",
+    "evidence_url": "https://arxiv.org/abs/2501.06322",
+    "locator": "Cite as; arXiv-issued DOI via DataCite",
+    "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "touvron2023llama",
+    "field": "doi",
+    "before": "",
+    "after": "10.48550/arXiv.2302.13971",
+    "evidence_url": "https://arxiv.org/abs/2302.13971",
+    "locator": "Cite as; arXiv-issued DOI via DataCite",
+    "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "glm2024chatglm",
+    "field": "doi",
+    "before": "",
+    "after": "10.48550/arXiv.2406.12793",
+    "evidence_url": "https://arxiv.org/abs/2406.12793",
+    "locator": "Cite as; arXiv-issued DOI via DataCite",
+    "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "gao2024rag_survey",
+    "field": "doi",
+    "before": "",
+    "after": "10.48550/arXiv.2312.10997",
+    "evidence_url": "https://arxiv.org/abs/2312.10997",
+    "locator": "Cite as; arXiv-issued DOI via DataCite",
+    "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "duan2024langgraph_crewai",
+    "field": "doi",
+    "before": "",
+    "after": "10.48550/arXiv.2411.18241",
+    "evidence_url": "https://arxiv.org/abs/2411.18241",
+    "locator": "Cite as; arXiv-issued DOI via DataCite",
+    "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "packer2023memgpt",
+    "field": "doi",
+    "before": "",
+    "after": "10.48550/arXiv.2310.08560",
+    "evidence_url": "https://arxiv.org/abs/2310.08560v1",
+    "locator": "Cite as; arXiv-issued DOI via DataCite",
+    "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "cui2023chatlaw",
+    "field": "doi",
+    "before": "",
+    "after": "10.48550/arXiv.2306.16092",
+    "evidence_url": "https://arxiv.org/abs/2306.16092v1",
+    "locator": "Cite as; arXiv-issued DOI via DataCite",
+    "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "huang2023agentcoder",
+    "field": "doi",
+    "before": "",
+    "after": "10.48550/arXiv.2312.13010",
+    "evidence_url": "https://arxiv.org/abs/2312.13010v1",
+    "locator": "Cite as; arXiv-issued DOI via DataCite",
+    "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "autorag2024",
+    "field": "doi",
+    "before": "",
+    "after": "10.48550/arXiv.2410.20878",
+    "evidence_url": "https://arxiv.org/abs/2410.20878",
+    "locator": "Cite as; arXiv-issued DOI via DataCite",
+    "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "minsky1988society",
+    "field": "year",
+    "before": "1986",
+    "after": "1988",
+    "evidence_url": "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
+    "locator": "Publisher product details; ISBN 9780671657130; 15 March 1988",
+    "reason": "采用已链接的1988平装版，不把它标成1986首版。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "wu2024autogen",
+    "field": "author",
+    "before": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and Awadallah, Ahmed Hassan and White, Ryen W. and Burger, Doug and Wang, Chi",
+    "after": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and Awadallah, Ahmed and White, Ryen W. and Burger, Doug and Wang, Chi",
+    "evidence_url": "D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf",
+    "locator": "COLM2024 formal PDF p1",
+    "reason": "作者全表和顺序按正式PDF；Ahmed Awadallah依PDF显示姓名。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "khattab2024dspy",
+    "field": "title",
+    "before": "{DSPy}: Compiling Declarative Language Model Calls into State-of-the-Art Pipelines",
+    "after": "{DSPy}: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf",
+    "locator": "ICLR2024 PDF p1",
+    "reason": "正式全文题名与落地页旧题名不同，采用实际引用正式PDF。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "khattab2024dspy",
+    "field": "author",
+    "before": "Khattab, Omar and Singhvi, Arnav and Maheshwari, Paridhi and Zhang, Zhiyuan and Santhanam, Keshav and A, Sri Vardhamanan and Haq, Saiful and Sharma, Ashutosh and Joshi, Thomas and Moazam, Hanna and Miller, Heather and Zaharia, Matei and Potts, Christopher",
+    "after": "Khattab, Omar and Singhvi, Arnav and Maheshwari, Paridhi and Zhang, Zhiyuan and Santhanam, Keshav and Vardhamanan, Sri and Haq, Saiful and Sharma, Ashutosh and Joshi, Thomas T. and Moazam, Hanna and Miller, Heather and Zaharia, Matei and Potts, Christopher",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf",
+    "locator": "ICLR2024 PDF p1",
+    "reason": "采用正式PDF署名，保留13位作者及原顺序。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "asai2024selfrag",
+    "field": "author",
+    "before": "Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avi and Hajishirzi, Hannaneh",
+    "after": "Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avirup and Hajishirzi, Hannaneh",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25f7be9694d7b32d5cc670927b8091e1-Paper-Conference.pdf",
+    "locator": "Formal PDF p1; official proceedings author metadata",
+    "reason": "Avirup采用PDF全名；Wu保留官方元数据Zeqiu及PDF文本可抽取姓名，说明PDF视觉缩写/元数据差异，不臆改作者顺序。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "mialon2024gaia",
+    "field": "author",
+    "before": "Mialon, Gr{\\'e}goire and Fourrier, Cl{\\'e}mentine and Wolf, Thomas and LeCun, Yann and Scialom, Thomas",
+    "after": "Mialon, Gr{\\'e}goire and Fourrier, Cl{\\'e}mentine and Swift, Craig and Wolf, Thomas and LeCun, Yann and Scialom, Thomas",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf",
+    "locator": "ICLR2024 PDF p1",
+    "reason": "正式PDF六位作者，补回第三位Craig Swift。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "mialon2024gaia",
+    "field": "url",
+    "before": "https://openreview.net/forum?id=fibxvahvs3",
+    "after": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf",
+    "locator": "Official proceedings PDF retrieved 2026-10-10",
+    "reason": "指向本次实际读取并确认的正式版本，保留网页署名冲突历史。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "guha2023legalbench",
+    "field": "author",
+    "before": "Guha, Neel and Nyarko, Julian and Ho, Daniel and R{\\'e}, Christopher and Chilton, Adam and K, Aditya and Chohlas-Wood, Alex and Peters, Austin and Waldon, Brandon and Rockmore, Daniel and Zambrano, Diego and Talisman, Dmitry and Hoque, Enam and Surani, Faiz and Fagan, Frank and Sarfaty, Galit and Dickinson, Gregory and Porat, Haggai and Hegland, Jason and Wu, Jessica and Nudell, Joe and Niklaus, Joel and Nay, John and Choi, Jonathan and Tobia, Kevin and Hagan, Margaret and Ma, Megan and Livermore, Michael and Rasumov-Rahe, Nikon and Holzenberger, Nils and Kolt, Noam and Henderson, Peter and Rehaag, Sean and Goel, Sharad and Gao, Shang and Williams, Spencer and Gandhi, Sunny and Zur, Tom and Iyer, Varun and Li, Zehua",
+    "after": "Guha, Neel and Nyarko, Julian and Ho, Daniel E. and R{\\'e}, Christopher and Chilton, Adam and Narayana, Aditya and Chohlas-Wood, Alex and Peters, Austin and Waldon, Brandon and Rockmore, Daniel N. and Zambrano, Diego and Talisman, Dmitry and Hoque, Enam and Surani, Faiz and Fagan, Frank and Sarfaty, Galit and Dickinson, Gregory M. and Porat, Haggai and Hegland, Jason and Wu, Jessica and Nudell, Joe and Niklaus, Joel and Nay, John and Choi, Jonathan H. and Tobia, Kevin and Hagan, Margaret and Ma, Megan and Livermore, Michael and Rasumov-Rahe, Nikon and Holzenberger, Nils and Kolt, Noam and Henderson, Peter and Rehaag, Sean and Goel, Sharad and Gao, Shang and Williams, Spencer and Gandhi, Sunny and Zur, Tom and Iyer, Varun and Li, Zehua",
+    "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/89e44582fd28ddfea1ea4dcb0ebbf4b0-Paper-Datasets_and_Benchmarks.pdf",
+    "locator": "NeurIPS2023 formal PDF p1 (40 authors)",
+    "reason": "采用正式PDF第六位Aditya Narayana，规范四位作者中间名，保留网页Aditya K来源差异。该条仍未被正文引用。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "zhang2024eduplanner",
+    "field": "title",
+    "before": "EduPlanner: LLM-based multi-agent systems for customized and intelligent instructional design",
+    "after": "EduPlanner: LLM-based Multiagent systems for customized and intelligent instructional design",
+    "evidence_url": "https://api.crossref.org/works/10.1109%2FTLT.2025.3561332",
+    "locator": "IEEE-deposited title and supplied TLT PDF p1",
+    "reason": "正式题名使用Multiagent单词。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "zhang2024memory_survey",
+    "field": "pages",
+    "before": "1--47",
+    "after": "155:1--155:47",
+    "evidence_url": "https://doi.org/10.1145/3748302",
+    "locator": "Formal TOIS43(6) Article155; printed155:1–155:47",
+    "reason": "保留ACM文章号155；当前bst无article-number字段，用正式前缀页码表示文章编号及页跨度。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "zhang2024memory_survey",
+    "field": "publisher",
+    "before": "ACM New York, NY",
+    "after": "Association for Computing Machinery",
+    "evidence_url": "https://doi.org/10.1145/3748302",
+    "locator": "Formal PDF ACM imprint; Crossref publisher",
+    "reason": "采用已核实机构名称，不保留未核实的New York城市附加信息。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "kwiatkowski2019natural_questions",
+    "field": "pages",
+    "before": "452--466",
+    "after": "453--466",
+    "evidence_url": "https://aclanthology.org/Q19-1026.pdf",
+    "locator": "PDF p1 printed TACL453–466; Crossref publisher page453–466",
+    "reason": "官方Anthology HTML误列452，正式PDF及MIT出版社Crossref均列453；撤销先前随HTML的452。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "anthropic2024mcp",
+    "field": "title",
+    "before": "Model Context Protocol ({MCP}): Technical Specification",
+    "after": "Introducing the Model Context Protocol",
+    "evidence_url": "https://www.anthropic.com/news/model-context-protocol",
+    "locator": "Official dated announcement, 25 November2024",
+    "reason": "当前论述只需发布/工具与数据接口，引用有日期的官方公告，避免以当前可变规范冒充2024技术规范。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "anthropic2024mcp",
+    "field": "howpublished",
+    "before": "https://modelcontextprotocol.io",
+    "after": "Anthropic announcement",
+    "evidence_url": "https://www.anthropic.com/news/model-context-protocol",
+    "locator": "Announcement publisher and date",
+    "reason": "按实际采用资源类型更新。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "anthropic2024mcp",
+    "field": "url",
+    "before": "https://modelcontextprotocol.io",
+    "after": "https://www.anthropic.com/news/model-context-protocol",
+    "evidence_url": "https://www.anthropic.com/news/model-context-protocol",
+    "locator": "Official launch article",
+    "reason": "链接固定为2024官方发布文章，版本化2024-11-05规范作为审计补证。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "author",
+    "before": "{Google}",
+    "after": "Surapaneni, Rao and Jha, Miku and Vakoc, Michael and Segal, Todd",
+    "evidence_url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+    "locator": "Official article byline, 9 April2025",
+    "reason": "采用Google发布文章四位具名作者；不把现今LinuxFoundation规范归到2025Google发布。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "title",
+    "before": "Agent-to-Agent ({A2A}) Protocol: Technical Specification",
+    "after": "Announcing the Agent2Agent Protocol ({A2A})",
+    "evidence_url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+    "locator": "Official heading",
+    "reason": "采用有日期的发布文章题名，当前正文能力限于发现/任务/消息接口。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "howpublished",
+    "before": "https://google.github.io/A2A",
+    "after": "Google Developers Blog",
+    "evidence_url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+    "locator": "Official publication identity",
+    "reason": "技术公告而非现行规范。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "url",
+    "before": "https://google.github.io/A2A",
+    "after": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+    "evidence_url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+    "locator": "Official launch page",
+    "reason": "替换迁移前google.github.io入口。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "crewai2023",
+    "field": "url",
+    "before": "https://github.com/crewAIInc/crewAI",
+    "after": "https://pypi.org/project/crewai/0.1.0/",
+    "evidence_url": "https://pypi.org/pypi/crewai/0.1.0/json",
+    "locator": "Version0.1.0 upload dates/description",
+    "reason": "固定2023实际可核PyPI版本，仅引用其基本角色/任务/顺序流程。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "crewai2023",
+    "field": "howpublished",
+    "before": "GitHub repository",
+    "after": "Software release, PyPI version 0.1.0",
+    "evidence_url": "https://pypi.org/pypi/crewai/0.1.0/json",
+    "locator": "Versioned registry",
+    "reason": "书目明确软件版本，不以当前主分支能力推溯到2023。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "dify2024",
+    "field": "author",
+    "before": "{Dify.AI}",
+    "after": "{LangGenius, Inc.}",
+    "evidence_url": "https://raw.githubusercontent.com/langgenius/dify/0.6.0/LICENSE",
+    "locator": "Tagged license copyright©2024LangGenius,Inc.",
+    "reason": "发行主体采用标签许可证所列机构。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "dify2024",
+    "field": "title",
+    "before": "{Dify: Open-source LLM App Development Platform}",
+    "after": "{Dify}: Open-Source {LLM} App Development Platform",
+    "evidence_url": "https://raw.githubusercontent.com/langgenius/dify/0.6.0/README.md",
+    "locator": "Tagged README introduction",
+    "reason": "题名采用标签对应项目描述。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "dify2024",
+    "field": "howpublished",
+    "before": "GitHub repository",
+    "after": "Software release, version 0.6.0",
+    "evidence_url": "https://github.com/langgenius/dify/releases/tag/0.6.0",
+    "locator": "Official release8April2024",
+    "reason": "2024固定release而非项目首次创立年份。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "dify2024",
+    "field": "url",
+    "before": "https://github.com/langgenius/dify",
+    "after": "https://github.com/langgenius/dify/tree/0.6.0",
+    "evidence_url": "https://github.com/langgenius/dify/releases/tag/0.6.0",
+    "locator": "Version0.6.0 repository/release",
+    "reason": "固定RAG、workflow及agent基本能力出处。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "dify2024",
+    "field": "note",
+    "before": "Open-source production-grade LLM application platform with multi-agent and RAG support.",
+    "after": "Version 0.6.0, released 8 April 2024; accessed 10 October 2026.",
+    "evidence_url": "https://github.com/langgenius/dify/releases/tag/0.6.0",
+    "locator": "Official timestamp2024-04-08T10:55:21Z; current retrieval record",
+    "reason": "移除未经标签证明的泛化multi-agent描述，改为可核版本/日期。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "ragflow2024",
+    "field": "howpublished",
+    "before": "Software repository",
+    "after": "Software release, version 0.6.0",
+    "evidence_url": "https://github.com/infiniflow/ragflow/releases/tag/v0.6.0",
+    "locator": "Official release21May2024",
+    "reason": "固定实际使用的历史版本。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "ragflow2024",
+    "field": "url",
+    "before": "https://github.com/infiniflow/ragflow",
+    "after": "https://github.com/infiniflow/ragflow/tree/v0.6.0",
+    "evidence_url": "https://github.com/infiniflow/ragflow/releases/tag/v0.6.0",
+    "locator": "Tagged README / released21May2024",
+    "reason": "以标签的文档解析、引文、检索流程能力为准，不移用当前多agent新功能。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "ragflow2024",
+    "field": "note",
+    "before": "Accessed: 2026-08-02",
+    "after": "Version 0.6.0, released 21 May 2024; accessed 10 October 2026.",
+    "evidence_url": "https://github.com/infiniflow/ragflow/releases/tag/v0.6.0",
+    "locator": "Official timestamp2024-05-21T03:25:34Z; current retrieval record",
+    "reason": "真实记录本次访问日期，旧访问声明保存在before日志。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "langgraph2024",
+    "field": "url",
+    "before": "https://blog.langchain.dev/langgraph-multi-agent-workflows/",
+    "after": "https://www.langchain.com/blog/langgraph-multi-agent-workflows",
+    "evidence_url": "https://www.langchain.com/blog/langgraph-multi-agent-workflows",
+    "locator": "Official dated January2024 article",
+    "reason": "使用已核规范官方地址，避免只依赖跳转域名。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "hong2024metagpt",
+    "field": "pages",
+    "before": "",
+    "after": "23247--23275",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/6507b115562bb0a305f1958ccc87355a-Abstract-Conference.html",
+    "locator": "Official proceedings citation_firstpage / citation_lastpage",
+    "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "chen2024agentverse",
+    "field": "pages",
+    "before": "",
+    "after": "20094--20136",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html",
+    "locator": "Official proceedings citation_firstpage / citation_lastpage",
+    "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "khattab2024dspy",
+    "field": "pages",
+    "before": "",
+    "after": "54928--54958",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html",
+    "locator": "Official proceedings citation_firstpage / citation_lastpage",
+    "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "asai2024selfrag",
+    "field": "pages",
+    "before": "",
+    "after": "9112--9141",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html",
+    "locator": "Official proceedings citation_firstpage / citation_lastpage",
+    "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "liu2024agentbench",
+    "field": "pages",
+    "before": "",
+    "after": "52989--53046",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html",
+    "locator": "Official proceedings citation_firstpage / citation_lastpage",
+    "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "zhou2024webarena",
+    "field": "pages",
+    "before": "",
+    "after": "15585--15606",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/4410c0711e9154a7a2d26f9b3816d1ef-Abstract-Conference.html",
+    "locator": "Official proceedings citation_firstpage / citation_lastpage",
+    "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "qian2024scaling_multiagent",
+    "field": "pages",
+    "before": "",
+    "after": "41488--41505",
+    "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/66a026c0d17040889b50f0dfa650e5e0-Abstract-Conference.html",
+    "locator": "Official proceedings citation_firstpage / citation_lastpage",
+    "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "huang2023agentcoder",
+    "field": "author",
+    "before": "Huang, Dong and Zhang, Jie M. and Luck, Michael and Bu, Qingwen and Qing, Yuhao and Cui, Heming",
+    "after": "Huang, Dong and Bu, Qingwen and Zhang, Jie M. and Luck, Michael and Cui, Heming",
+    "evidence_url": "https://arxiv.org/abs/2312.13010v1",
+    "locator": "v1 official metadata; v1 PDF p1",
+    "reason": "固定2023v1后必须同步五位作者与顺序；旧记录混入后续版本的Yuhao Qing且Bu的位置不同，不能只固定URL。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "singhal2023medpalm",
+    "field": "publisher",
+    "before": "Nature Publishing Group UK London",
+    "after": "Springer Science and Business Media LLC",
+    "evidence_url": "https://api.crossref.org/works/10.1038%2Fs41586-023-06291-2",
+    "locator": "Publisher-deposited Crossref publisher field",
+    "reason": "采用本次正式登记机构字符串，去掉未核实的UK/London附加信息。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "han2024mast",
+    "field": "pages",
+    "before": "",
+    "after": "135676--135729",
+    "evidence_url": "https://api.crossref.org/works/10.52202/085713-4082",
+    "locator": "Publisher-deposited page field; evidence snapshot audit_work/stage2_sources/han2024mast__crossref.json",
+    "reason": "已检查作品身份；补入可核实的正式页码/期号，非根据PDF页数推算。",
+    "audit_date": "2026-10-10"
+  },
+  {
+    "key": "zhang2024chain_agents",
+    "field": "pages",
+    "before": "",
+    "after": "132208--132237",
+    "evidence_url": "https://api.crossref.org/works/10.52202/079017-4202",
+    "locator": "Publisher-deposited page field; evidence snapshot audit_work/stage2_sources/zhang2024chain_agents__crossref.json",
+    "reason": "已检查作品身份；补入可核实的正式页码/期号，非根据PDF页数推算。",
+    "audit_date": "2026-10-10"
+  }
+]

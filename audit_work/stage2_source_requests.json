@@ -1,0 +1,350 @@
+[
+  {
+    "id": "wooldridge1995intelligent__crossref",
+    "url": "https://api.crossref.org/works/10.1017%2FS0269888900008122"
+  },
+  {
+    "id": "guo2024llm_multiagent_survey__crossref",
+    "url": "https://api.crossref.org/works/10.24963%2Fijcai.2024%2F890"
+  },
+  {
+    "id": "wang2024survey_autonomous_agents__crossref",
+    "url": "https://api.crossref.org/works/10.1007%2Fs11704-024-40231-1"
+  },
+  {
+    "id": "karpukhin2020dpr__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2020.emnlp-main.550"
+  },
+  {
+    "id": "yang2018hotpotqa__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2FD18-1259"
+  },
+  {
+    "id": "kwiatkowski2019natural_questions__crossref",
+    "url": "https://api.crossref.org/works/10.1162%2Ftacl_a_00276"
+  },
+  {
+    "id": "reddy2019coqa__crossref",
+    "url": "https://api.crossref.org/works/10.1162%2Ftacl_a_00266"
+  },
+  {
+    "id": "choi2018quac__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2FD18-1241"
+  },
+  {
+    "id": "devlin2019bert__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2FN19-1423"
+  },
+  {
+    "id": "ouyang2022instructgpt__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F068431-2011"
+  },
+  {
+    "id": "park2023generative_agents__crossref",
+    "url": "https://api.crossref.org/works/10.1145%2F3586183.3606763"
+  },
+  {
+    "id": "liang2024divergent_debate__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.emnlp-main.992"
+  },
+  {
+    "id": "xiong2023inter_consistency__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2023.findings-emnlp.508"
+  },
+  {
+    "id": "li2023camel__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F075280-2264"
+  },
+  {
+    "id": "qian2023chatdev__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.acl-long.810"
+  },
+  {
+    "id": "shen2024hugginggpt__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F075280-1657"
+  },
+  {
+    "id": "zhao2024longagent__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.emnlp-main.912"
+  },
+  {
+    "id": "kim2024mdagents__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F079017-2522"
+  },
+  {
+    "id": "wang2023plan_and_solve__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2023.acl-long.147"
+  },
+  {
+    "id": "zhang2024memory_survey__crossref",
+    "url": "https://api.crossref.org/works/10.1145%2F3748302"
+  },
+  {
+    "id": "jiang2023active_rag__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2023.emnlp-main.495"
+  },
+  {
+    "id": "wei2022chain_of_thought__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F068431-1800"
+  },
+  {
+    "id": "yao2023tree_of_thoughts__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F075280-0517"
+  },
+  {
+    "id": "besta2024graph_of_thoughts__crossref",
+    "url": "https://api.crossref.org/works/10.1609%2Faaai.v38i16.29720"
+  },
+  {
+    "id": "shinn2023reflexion__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F075280-0377"
+  },
+  {
+    "id": "madaan2023self_refine__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F075280-2019"
+  },
+  {
+    "id": "dhuliawala2023chain_of_verification__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.findings-acl.212"
+  },
+  {
+    "id": "tang2024medagents__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.findings-acl.33"
+  },
+  {
+    "id": "li2024genmentor__crossref",
+    "url": "https://api.crossref.org/works/10.1145%2F3701716.3715244"
+  },
+  {
+    "id": "singhal2023medpalm__crossref",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41586-023-06291-2"
+  },
+  {
+    "id": "guha2023legalbench__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F075280-1915"
+  },
+  {
+    "id": "brynjolfsson2023generative_ai_work__crossref",
+    "url": "https://api.crossref.org/works/10.1093%2Fqje%2Fqjae044"
+  },
+  {
+    "id": "yang2024swe_agent__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F079017-1601"
+  },
+  {
+    "id": "han2024mast__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F085713-4082"
+  },
+  {
+    "id": "tang2025llmmedqa__crossref",
+    "url": "https://api.crossref.org/works/10.1109%2FIJCNN64981.2025.11228647"
+  },
+  {
+    "id": "legalgraphrag2026__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2026.acl-long.1738"
+  },
+  {
+    "id": "hu2024triad__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.emnlp-main.101"
+  },
+  {
+    "id": "zhang2024eduplanner__crossref",
+    "url": "https://api.crossref.org/works/10.1109%2FTLT.2025.3561332"
+  },
+  {
+    "id": "fatemi2024financialqa__crossref",
+    "url": "https://api.crossref.org/works/10.1145%2F3677052.3698686"
+  },
+  {
+    "id": "peffers2007dsrm__crossref",
+    "url": "https://api.crossref.org/works/10.2753%2FMIS0742-1222240302"
+  },
+  {
+    "id": "chen2024reconcile__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.acl-long.381"
+  },
+  {
+    "id": "zhang2024chain_agents__crossref",
+    "url": "https://api.crossref.org/works/10.52202%2F079017-4202"
+  },
+  {
+    "id": "jiang2026cocoa__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2026.acl-long.167"
+  },
+  {
+    "id": "shao2024storm__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.naacl-long.347"
+  },
+  {
+    "id": "shao2024costorm__crossref",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.emnlp-main.554"
+  },
+  {
+    "id": "trivedi2022musique__crossref",
+    "url": "https://api.crossref.org/works/10.1162%2Ftacl_a_00475"
+  },
+  {
+    "id": "dspy_pdf",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf"
+  },
+  {
+    "id": "gaia_pdf",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf"
+  },
+  {
+    "id": "dify_release",
+    "url": "https://api.github.com/repos/langgenius/dify/releases/tags/0.6.0"
+  },
+  {
+    "id": "dify_readme",
+    "url": "https://raw.githubusercontent.com/langgenius/dify/0.6.0/README.md"
+  },
+  {
+    "id": "ragflow_release",
+    "url": "https://api.github.com/repos/infiniflow/ragflow/releases/tags/v0.6.0"
+  },
+  {
+    "id": "ragflow_readme",
+    "url": "https://raw.githubusercontent.com/infiniflow/ragflow/v0.6.0/README.md"
+  },
+  {
+    "id": "mcp_spec",
+    "url": "https://modelcontextprotocol.io/specification/2024-11-05"
+  },
+  {
+    "id": "mcp_launch",
+    "url": "https://www.anthropic.com/news/model-context-protocol"
+  },
+  {
+    "id": "a2a_launch",
+    "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+  },
+  {
+    "id": "crewai_pypi",
+    "url": "https://pypi.org/pypi/crewai/0.1.0/json"
+  },
+  {
+    "id": "minsky_publisher",
+    "url": "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130"
+  },
+  {
+    "id": "du2024multiagent_debate__pdf",
+    "url": "https://arxiv.org/pdf/2305.14325"
+  },
+  {
+    "id": "qian2024scaling_multiagent__pdf",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/66a026c0d17040889b50f0dfa650e5e0-Paper-Conference.pdf"
+  },
+  {
+    "id": "liang2024divergent_debate__pdf",
+    "url": "https://aclanthology.org/2024.emnlp-main.992.pdf"
+  },
+  {
+    "id": "xiong2023inter_consistency__pdf",
+    "url": "https://aclanthology.org/2023.findings-emnlp.508.pdf"
+  },
+  {
+    "id": "qian2023chatdev__pdf",
+    "url": "https://aclanthology.org/2024.acl-long.810.pdf"
+  },
+  {
+    "id": "zhao2024longagent__pdf",
+    "url": "https://aclanthology.org/2024.emnlp-main.912.pdf"
+  },
+  {
+    "id": "kim2024mdagents__pdf",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/90d1fc07f46e31387978b88e7e057a31-Paper-Conference.pdf"
+  },
+  {
+    "id": "asai2024selfrag__pdf",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25f7be9694d7b32d5cc670927b8091e1-Paper-Conference.pdf"
+  },
+  {
+    "id": "tang2024medagents__pdf",
+    "url": "https://aclanthology.org/2024.findings-acl.33.pdf"
+  },
+  {
+    "id": "guha2023legalbench__pdf",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/89e44582fd28ddfea1ea4dcb0ebbf4b0-Paper-Datasets_and_Benchmarks.pdf"
+  },
+  {
+    "id": "tang2025llmmedqa__pdf",
+    "url": "D:/multi-agent review_joural/10.10ziliao/LLM-MedQA_Enhancing_Medical_Question_Answering_through_Case_Studies_in_Large_Language_Models (1).pdf"
+  },
+  {
+    "id": "legalgraphrag2026__pdf",
+    "url": "https://aclanthology.org/2026.acl-long.1738.pdf"
+  },
+  {
+    "id": "hu2024triad__pdf",
+    "url": "https://aclanthology.org/2024.emnlp-main.101.pdf"
+  },
+  {
+    "id": "fatemi2024financialqa__pdf",
+    "url": "D:/multi-agent review_joural/10.10ziliao/Enhancing Financial Question Answering with a Multi-Agent Reflection Framework.pdf"
+  },
+  {
+    "id": "chen2024reconcile__pdf",
+    "url": "https://aclanthology.org/2024.acl-long.381.pdf"
+  },
+  {
+    "id": "zhang2024chain_agents__pdf",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf"
+  },
+  {
+    "id": "jiang2026cocoa__pdf",
+    "url": "https://aclanthology.org/2026.acl-long.167.pdf"
+  },
+  {
+    "id": "openai2023gpt4__arxiv",
+    "url": "https://arxiv.org/abs/2303.08774v1"
+  },
+  {
+    "id": "tran2025multiagent_survey__arxiv",
+    "url": "https://arxiv.org/abs/2501.06322"
+  },
+  {
+    "id": "touvron2023llama__arxiv",
+    "url": "https://arxiv.org/abs/2302.13971"
+  },
+  {
+    "id": "glm2024chatglm__arxiv",
+    "url": "https://arxiv.org/abs/2406.12793"
+  },
+  {
+    "id": "gao2024rag_survey__arxiv",
+    "url": "https://arxiv.org/abs/2312.10997"
+  },
+  {
+    "id": "duan2024langgraph_crewai__arxiv",
+    "url": "https://arxiv.org/abs/2411.18241"
+  },
+  {
+    "id": "packer2023memgpt__arxiv",
+    "url": "https://arxiv.org/abs/2310.08560v1"
+  },
+  {
+    "id": "cui2023chatlaw__arxiv",
+    "url": "https://arxiv.org/abs/2306.16092v1"
+  },
+  {
+    "id": "huang2023agentcoder__arxiv",
+    "url": "https://arxiv.org/abs/2312.13010v1"
+  },
+  {
+    "id": "autorag2024__arxiv",
+    "url": "https://arxiv.org/abs/2410.20878"
+  },
+  {
+    "id": "huang2023agentcoder__pdf",
+    "url": "https://arxiv.org/pdf/2312.13010v1"
+  },
+  {
+    "id": "packer2023memgpt__pdf",
+    "url": "https://arxiv.org/pdf/2310.08560v1"
+  },
+  {
+    "id": "cui2023chatlaw__pdf",
+    "url": "https://arxiv.org/pdf/2306.16092v1"
+  }
+]

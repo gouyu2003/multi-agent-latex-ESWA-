@@ -1,0 +1,49 @@
+[
+  {
+    "id": "du2024multiagent_debate__formal_pmlr_page",
+    "url": "https://proceedings.mlr.press/v235/du24e.html",
+    "retrieved_on": "2026-10-10",
+    "status": 200,
+    "final_url": "https://proceedings.mlr.press/v235/du24e.html",
+    "content_type": "text/html; charset=utf-8",
+    "byte_count": 16290,
+    "file": "audit_work/stage2_sources/du2024multiagent_debate__formal_pmlr_page.txt",
+    "sha256": "d5a37f0318077d17be01ec34575d1e4111c961045248868bff0c13c86b51ddd8"
+  },
+  {
+    "id": "du2024multiagent_debate__formal_pmlr_pdf",
+    "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf",
+    "retrieved_on": "2026-10-10",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf",
+    "content_type": "application/octet-stream",
+    "byte_count": 1886161,
+    "file": "audit_work/stage2_sources/du2024multiagent_debate__formal_pmlr_pdf.pdf",
+    "sha256": "80ecf57b31f248e6ce234412618aa6001d19630a9de0cf18c24cb60ae3a8054d",
+    "page_count": 31,
+    "text_file": "audit_work/stage2_sources/du2024multiagent_debate__formal_pmlr_pdf_text.json",
+    "text_sha256": "25bd0c41c9c7b16a5a28a54bb2f72eb8e047422dbfd3a5b56f05ebff02a73f3c"
+  },
+  {
+    "id": "yang2024swe_agent__official_page",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html",
+    "retrieved_on": "2026-10-10",
+    "status": 200,
+    "final_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html",
+    "content_type": "text/html; charset=utf-8",
+    "byte_count": 10102,
+    "file": "audit_work/stage2_sources/yang2024swe_agent__official_page.txt",
+    "sha256": "750135114b42bde343c452242bf5226a1503b05109fdaeb7ab62e81ee8080733"
+  },
+  {
+    "id": "yang2024swe_agent__official_bibtex",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/24337-/bibtex",
+    "retrieved_on": "2026-10-10",
+    "status": 200,
+    "final_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/5a7c947568c1b1328ccc5230172e1e7c-Bibtex-Conference.bib",
+    "content_type": "application/x-bibtex",
+    "byte_count": 692,
+    "file": "audit_work/stage2_sources/yang2024swe_agent__official_bibtex.txt",
+    "sha256": "cee85834c750b27823c3c35e7fe6c5bd56ba9d6199ab07c218dbe2b63816875d"
+  }
+]

@@ -18,6 +18,13 @@ from build_reference_inventory import balanced_entries, parse_fields, publicatio
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / "audit_work"
+FOLLOWUP_PATH = WORK / "reference_followup_20261010.json"
+FOLLOWUP = json.loads(FOLLOWUP_PATH.read_text(encoding="utf-8"))
+REVIEW_PATH = WORK / "stage2_completion_review.json"
+REVIEW = json.loads(REVIEW_PATH.read_text(encoding="utf-8"))
+CORE = json.loads((WORK / "core_eligibility_audit.json").read_text(encoding="utf-8"))
+CASES = json.loads((WORK / "case_classification_audit.json").read_text(encoding="utf-8"))
+AUDIT_DATE = REVIEW["audit_date"]
 FIELDS = ("author", "title", "year", "venue", "volume", "number", "pages", "doi", "url", "type")
 DEGREE_ZH = {"direct": "直接支持", "partial": "部分支持/表述需收窄", "unsupported": "未支持该具体归因",
     "contradicted": "与来源相矛盾", "author_inference": "作者推论，须标明边界", "proposal": "前瞻建议，非原论文验证",
@@ -59,8 +66,8 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 
 
 def main() -> None:
-    corrections = json.loads((WORK / "reference_correction_log.json").read_text(encoding="utf-8"))
-    text_corrections = json.loads((WORK / "manuscript_correction_log.json").read_text(encoding="utf-8"))
+    corrections = json.loads((WORK / "reference_correction_log.json").read_text(encoding="utf-8")) + json.loads((WORK / "stage2_reference_correction_log.json").read_text(encoding="utf-8"))
+    text_corrections = json.loads((WORK / "manuscript_correction_log.json").read_text(encoding="utf-8")) + json.loads((WORK / "stage2_manuscript_correction_log.json").read_text(encoding="utf-8"))
     with zipfile.ZipFile(WORK / "before_reference_corrections_20261008.zip") as baseline:
         previous_claims = {c["command_id"]: c for c in json.loads(baseline.read("audit_work/citation_claim_audit.json"))}
     evidence_paths = sorted(WORK.glob("ledger_evidence_*.json"))
@@ -90,6 +97,13 @@ def main() -> None:
     counts = Counter(k for c in scan.citations for k in c.keys)
     with (ROOT / "literature_audit.csv").open(encoding="utf-8-sig", newline="") as handle:
         historical = {r["key"]: r for r in csv.DictReader(handle)}
+    if FOLLOWUP:
+        decision = FOLLOWUP["triad_decision"]
+        if historical[decision["key"]]["evidence_role"] != decision["current_role"]:
+            raise ValueError("Triad role differs from the recorded author decision")
+        for source in FOLLOWUP["source_pdfs"].values():
+            if hashlib.sha256(Path(source["path"]).read_bytes()).hexdigest() != source["sha256"]:
+                raise ValueError(f"Reviewed source PDF changed: {source['path']}")
     entries = balanced_entries((ROOT / "references.bib").read_text(encoding="utf-8"))
     if set(reviewed_refs) != {key for _, key, _ in entries}:
         raise ValueError("Reviewed reference pool differs from current BibTeX pool")
@@ -120,7 +134,9 @@ def main() -> None:
             current_record={"type": entry_type, **fields},
             active_cited=bool(counts[key]), citation_command_count=counts[key],
             evidence_role=historical.get(key, {}).get("evidence_role", "unclassified"),
-            role_status="inherited author coding; not re-adjudicated; Triad eligibility pending")
+            role_status=("Triad S confirmed by author on 2026-10-10; supporting boundary example" if key == "hu2024triad" else
+                "Core I eligibility re-adjudicated against five criteria and full methods/evaluation; see core_eligibility_audit.json" if key in {r['key'] for r in CORE['records']} else
+                "Supporting/background/technical role retained; not counted as core study"))
         record["applied_corrections"] = [c for c in corrections if c["key"] == key]
         # Preserve every local field, including notes/publisher/version data that
         # are outside the ten-field comparison matrix. Do not hide unchecked data.
@@ -208,10 +224,10 @@ def main() -> None:
         "recommended_change": c["recommendation"], "applied": "yes" if c["applied"] else "no",
         "implementation_status": c["implementation_status"], "previous_sentence": c["previous_sentence"],
         "previous_keys": ",".join(c["previous_keys"])} for c in claims])
-    ref_md = ["# 书目字段核查台账", "", "核查日期：2026-10-08。范围：当前 references.bib 全部记录；正文未引用条目保留。",
+    ref_md = ["# 书目字段核查台账", "", f"截至：{AUDIT_DATE}。第二阶段当前修正版：此前核查加五篇用户提供的正式PDF、官方全文、版本记录及出版商登记信息。范围：当前 references.bib 全部记录；正文未引用条目保留。",
         "", "这是修正后的当前台账；已实施修改另有 before/after 记录。存在性核实不等于所有字段均核实；每个字段单独标记。",
         "优先使用出版商、正式会议录、arXiv 对应版本和官方项目文档。网页与 PDF 不一致、版本漂移、访问限制均保留。",
-        "DOI API 连接失败不作为 DOI 错误；未独立核实的 DOI 标明未核实。内部证据角色沿用作者编码，Triad 的核心纳入边界待确认。", "",
+        "DOI API连接失败不作为DOI错误；未独立核实的字段标明未核实。Triad经作者确认改为S；13项核心研究已按五项标准重核，见core_eligibility_audit.md。", "",
         "| 序号 | key | 正文引用次数 | 存在性 | 字段需关注 |", "|---|---|---:|---|---|"]
     for r in refs:
         checks = {**r["field_checks"], **r["additional_field_checks"]}
@@ -243,7 +259,7 @@ def main() -> None:
         if r.get("issue_states") or r.get("resolved_issues"):
             ref_md += ["", "已关闭/待处理状态：" + cell(r.get("issue_states", [])) + cell(r.get("resolved_issues", []))]
     (WORK / "reference_field_audit.md").write_text("\n".join(ref_md).rstrip() + "\n", encoding="utf-8")
-    claim_md = ["# 正文引用—来源证据台账", "", "核查日期：2026-10-08。每条记录对应一处实际有效引用命令；多键命令内部逐来源判断。",
+    claim_md = ["# 正文引用—来源证据台账", "", f"截至：{AUDIT_DATE}。第二阶段当前修正版；五篇正式PDF及新增官方全文补证、版本固定、十案例统一编码和必要正文修正已纳入。每条记录对应一处实际有效引用命令；多键命令内部逐来源判断。",
         "排除注释、禁用条件块和未被主稿包含的历史章节。原句保留 TeX 标记；表格按完整行记录。",
         "完整段落/表格上下文在 JSON 和 CSV 的 context/full_context 中，避免只检查含引用的短句而遗漏相邻归因。",
         "多来源支持程度不同标为 mixed，不等于整句均无支持。direct 只表示所述具体内容获支持，不代表来源的所有结论均成立。",
@@ -265,6 +281,14 @@ def main() -> None:
             claim_md += ["", "修正前：", "", "> " + c["previous_sentence"]]
     (WORK / "citation_claim_audit.md").write_text("\n".join(claim_md).rstrip() + "\n", encoding="utf-8")
     input_paths = {f["file"] for f in scan.files} | {"references.bib", "literature_audit.csv", "search_log.csv", "audit_work/reference_correction_log.json", "audit_work/manuscript_correction_log.json", "audit_work/compile_verification.json", "audit_work/correction_baseline.json", "audit_work/correction_verification.json", "tools/active_tex.py", "tools/build_audit_ledgers.py", "tools/build_reference_inventory.py", "tools/static_reference_checks.py"} | {p.relative_to(ROOT).as_posix() for p in evidence_paths}
+    if FOLLOWUP:
+        input_paths.add(FOLLOWUP_PATH.relative_to(ROOT).as_posix())
+        input_paths.add("Highlights.txt")
+        input_paths.update(source["path"] for source in FOLLOWUP["source_pdfs"].values())
+    input_paths.update({"audit_work/stage2_completion_review.json", "audit_work/stage2_completion_review_spec.json", "audit_work/stage2_completion_baseline.json", "audit_work/stage2_reference_correction_log.json", "audit_work/stage2_manuscript_correction_log.json", "audit_work/case_classification_audit.json", "audit_work/core_eligibility_audit.json", "tools/complete_stage2_review.py", "tools/verify_stage2_completion.py"})
+    input_paths.update(p.relative_to(ROOT).as_posix() for p in (WORK / "stage2_sources").iterdir() if p.is_file())
+    input_paths.update(p.relative_to(ROOT).as_posix() for p in WORK.glob("stage2*source*retrieval.json"))
+    input_paths.update(source["path"] for source in REVIEW["source_pdfs"])
     protected = json.loads((WORK / "correction_baseline.json").read_text(encoding="utf-8"))
     input_paths.update(protected["figure_sha256"])
     if any(hashlib.sha256((ROOT / f).read_bytes()).hexdigest() != h for f, h in protected["figure_sha256"].items()):
@@ -272,7 +296,7 @@ def main() -> None:
     compilation = json.loads((WORK / "compile_verification.json").read_text(encoding="utf-8"))
     compilation_current = all(hashlib.sha256((ROOT / f).read_bytes()).hexdigest() == h for f, h in compilation["inputs_sha256"].items())
     compilation_passed = compilation_current and all(r["exit_code"] == 0 for r in compilation["runs"]) and not compilation["undefined_citation_or_reference"]
-    manifest = {"audit_date": "2026-10-08", "evidence_provenance": "Prior read-only official-source audit plus explicitly recorded follow-up checks; not old title-search caches",
+    manifest = {"audit_date": AUDIT_DATE, "evidence_provenance": "Prior official-source context review plus five formal source PDFs, official full texts, publisher records and dated/versioned resources; each field/context assessed separately",
         "input_sha256": {p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in sorted(input_paths)},
         "ledger_output_sha256": {p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
             for stem in ("reference_field_audit", "citation_claim_audit")
@@ -287,13 +311,19 @@ def main() -> None:
         "additional_field_status_counts": dict(Counter(f["status"] for r in refs for f in r["additional_field_checks"].values())),
         "manuscript_modified": True, "bibliography_modified": True, "figures_modified": False, "corrections_applied": True,
         "applied_bib_field_changes": len(corrections), "applied_text_change_blocks": len(text_corrections),
+        "stage2_bib_field_changes": REVIEW["reference_field_changes"], "stage2_text_change_blocks": REVIEW["manuscript_change_blocks"],
+        "core_eligibility_review_count": CORE["core_count"], "case_agreements": CASES["agreement_count"], "case_disagreements": CASES["disagreement_count"],
+        "stage_two_complete": bool(REVIEW["stage_two_complete"] and compilation_passed),
         "citation_commands_with_updated_context": sum(c["applied"] for c in claims),
         "compilation_current": compilation_current, "compilation_passed": compilation_passed,
         "limits": ["Not a full TeX interpreter; unsupported conditionals/dynamic inputs fail closed",
             "Fresh pdflatex/BibTeX compilation compared to current active sources; layout warnings retained for formatting phase",
             "Source access and field-level uncertainty recorded; no blanket all-field verification claim",
-            "Core study eligibility remains inherited author coding; Triad requires author decision",
-            "Figure counts retain earlier 84-record snapshot; current pool85/active78/core coding14; update deferred to figure phase"]}
+            "Triad is S by author decision; ten-case control-authority coding is retrospective, not blind or prospective validation",
+            "Figure counts retain earlier 84-record snapshot; current pool85/active78/core coding13; update deferred to figure phase"],
+        "followup": {"decision_record": "audit_work/reference_followup_20261010.json", "triad": FOLLOWUP.get("triad_decision"),
+            "source_pdfs_reviewed": len(REVIEW["source_pdfs"]), "bibliography_modified_in_followup": True,
+            "stage_two_complete": bool(REVIEW["stage_two_complete"] and compilation_passed)}}
     write_pending(manifest, refs, claims)
     for suffix in (".json", ".csv", ".md"):
         path = WORK / ("pending_reference_decisions" + suffix)
@@ -305,46 +335,57 @@ def main() -> None:
 
 
 def write_report(manifest: dict, refs: list[dict], claims: list[dict]) -> None:
-    n = manifest["reference_records"]
-    c = manifest["citation_commands"]
-    lines = ["# 参考文献修正与验收报告", "", "日期：2026-10-08。已应用有来源依据的书目字段修正和正文最小修正，保留导师修改后的章节结构及原有 citation keys；图片留待下一阶段。", "",
-        "## 当前统计", "", "| 口径 | 数量 |", "|---|---:|",
-        f"| 书目池 | {n} |", f"| 有效正文不同文献 | {manifest['active_cited_records']} |",
-        f"| 有效引用命令 | {c} |", f"| 展开多键后的出现次数 | {manifest['citation_key_assessments']} |",
-        f"| 保留的未引用记录 | {len(manifest['unused_pool_keys'])} |", "",
-        "原有84条全部保留。新增1条有日期的官方 LangGraph interrupt 技术文章，用于暂停、检查点和恢复机制；不是补足文献数量。",
-        "书目池角色：" + json.dumps(manifest["pool_roles_author_coded"], ensure_ascii=False) + "；有效引用角色：" + json.dumps(manifest["active_roles_author_coded"], ensure_ascii=False) + "。",
-        "14项I沿用作者编码；Triad的一个LLM承担三角色已在方法和表格中披露为纳入边界，是否转为S仍待作者裁定。", "",
-        "## 已完成修改", "",
-        "- 修正 Natural Questions 页码、ReAct及NeurIPS会议条目类型、GLM集体署名、MemGPT姓名显示、SWE-agent错误URL、CrewAI首次PyPI发布日期；补充已核实的会议DOI。",
-        "- Guo综述使用IJCAI2024正式出处，GPTSwarm使用ICML/PMLR正式出处；Least-to-Most、Decomposed Prompting、Self-Consistency使用ICLR2023正式出处。仍存在来源冲突的作者字段没有自动覆盖。",
-        "- 收窄综述新颖性定位；修正MemGPT、Self-RAG/FLARE、ToT/GoT、CoVe、AgentVerse/MetaGPT及GPTSwarm等机制归因。区分CoCoA-zero多代理推理与CoCoA单模型蒸馏。",
-        "- 将架构适用性、成本收益准则、治理要求和部分评估建议标为作者综合或建议；修复两处失效交叉引用，保留AI使用披露。",
-        "- 正文与literature_audit.csv同步当前统计，历史排除记录保留；搜索历史与本次字段核查分别记录。",
-        f"书目修改日志含{manifest['applied_bib_field_changes']}项字段/新增记录操作；正文有{manifest['applied_text_change_blocks']}个差异块。日志包含修正前后内容，不能把一个差异块视为一个独立科学结论。", "",
-        "完整记录：[书目before/after](audit_work/reference_correction_log.json)、[正文before/after](audit_work/manuscript_correction_log.json)、[修改前快照](audit_work/before_reference_corrections_20261008.zip)。", "",
-        "## 当前证据台账", "",
-        f"- [{n}条书目字段台账](audit_work/reference_field_audit.md)：[CSV](audit_work/reference_field_audit.csv)、[JSON](audit_work/reference_field_audit.json)。逐字段标明已核实、冲突、未核实等，原差异与已修正项保留历史。",
-        f"- [{c}处正文引用证据台账](audit_work/citation_claim_audit.md)：[CSV](audit_work/citation_claim_audit.csv)、[JSON](audit_work/citation_claim_audit.json)。当前原句、证据位置、支持程度、实施状态及修改前句分别记录，多键命令逐来源判断。", "",
-        "10项核心字段状态：", "", "| 状态 | 字段数 |", "|---|---:|"]
-    lines += [f"| {FIELD_ZH.get(k,k)} | {v} |" for k,v in manifest["field_status_counts"].items()]
-    lines += ["", "引用命令状态：", "", "| 支持程度 | 命令数 |", "|---|---:|"]
-    lines += [f"| {DEGREE_ZH[k]} | {v} |" for k,v in manifest["command_support_degrees"].items()]
-    lines += ["", "作者推论或前瞻建议不自动视为错误，也不升级为原论文已验证结论。存在性核实不等于所有字段核实；未获取正式全文的字段保持限制说明。", "",
-        "## 编译及一致性验收", "",
-        f"当前编译快照有效：{manifest['compilation_current']}；编译和引用解析通过：{manifest['compilation_passed']}。",
-        "[编译记录](audit_work/compile_verification.json)保存命令、退出码、未定义引用检查、版面警告和输入/输出哈希。过长URL与原有版面警告留待格式阶段，不据此声称最终排版已验收。",
-        "[当前清单](audit_work/inventory_summary.json)对照实际主稿、.aux及.bbl；[静态检查](audit_work/static_reference_checks.json)检查覆盖、定位和哈希，warnings为待确认项，不等同于结构检查失败。",
-        "禁用条件块、未被主稿包含的历史章节和19个原图片文件保持不变；保护检查见[correction_verification.json](audit_work/correction_verification.json)。", "",
-        "复现台账检查：", "", "```powershell", "python -m unittest discover -s tools -p test_active_tex.py -v", "python tools/build_reference_inventory.py", "python tools/build_audit_ledgers.py", "python tools/static_reference_checks.py", "```", "",
-        "证据生成器不联网，也不自动证明来源；来源变化后需要重新审阅，禁止仅改哈希绕过。旧finalize工具入口已停用，防止过时缓存删掉未引记录。", "",
-        "## 待确认及图片阶段", "",
-        "[待确认清单](audit_work/pending_reference_decisions.md)汇总Triad、版本选择、官方网页/PDF冲突及未直接核实字段；[CSV](audit_work/pending_reference_decisions.csv)逐字段保留。",
-        "图片仍有84 active或旧角色分配等口径。正文已注明旧快照；下一阶段需同步为书目池85、有效引用78、作者编码I14（Triad待裁定），并缩小图中文字。本轮未改图。",
-        "以下7条保留，不为凑数补引：", ""]
-    lines += ["- `"+k+"`" for k in manifest["unused_pool_keys"]]
-    lines += ["", "[旧报告归档](audit_work/reference_audit_report_legacy_20260802.md)保留历史75条结论。literature_audit.csv的引用标志和次数已同步，旧元数据匹配列仍属历史证据，当前字段结论以两份台账为准。", ""]
-    (ROOT / "reference_audit_report.md").write_text("\n".join(lines).rstrip()+"\n", encoding="utf-8")
+    complete = manifest["stage_two_complete"]
+    lines = ["# 第二阶段参考文献与正文证据审计报告", "", f"核查日期：{AUDIT_DATE}。唯一基线：ESWA_Submission_caomodify。",
+        "", "## 当前结论", "",
+        ("第二阶段已完成：书目版本及必要字段修正、有效正文引用相关性、13项核心纳入标准、十案例统一分类及匹配修正均已落实；新稿已编译并通过保护与结构验收。" if complete else "科学内容修正及台账更新已落实；编译、渲染或最终验收尚未全部完成，暂不标记第二阶段完成。"),
+        "这里的完成不代表所有可选字段均得到证明：缺乏正式证据的DOI、页码、出版者等仍逐字段标为未核实；不据篇幅编造出版页码，不将作者分析改标为原文实证。", "",
+        "## 核查覆盖", "",
+        "| 项目 | 当前结果 |", "|---|---|",
+        f"| 书目池 | {manifest['reference_records']}条；全部逐字段记录 |",
+        f"| 有效引用 | {manifest['active_cited_records']}篇；{manifest['citation_commands']}处引用命令；{manifest['citation_key_assessments']}个逐来源判断 |",
+        f"| 池内角色 | {cell(manifest['pool_roles_author_coded'])} |",
+        f"| 有效引用角色 | {cell(manifest['active_roles_author_coded'])} |",
+        f"| 核心纳入重核 | {manifest['core_eligibility_review_count']}项；五项标准均有方法/评估证据定位 |",
+        f"| 本次实施 | {manifest['stage2_bib_field_changes']}项书目字段修改；{manifest['stage2_text_change_blocks']}处正文差异块 |",
+        f"| 引用判断 | {cell(manifest['command_support_degrees'])} |",
+        f"| 十案例 | {manifest['case_agreements']}例一致；{manifest['case_disagreements']}例不一致；来源流程编码为9层级、1扁平、0混合 |", "",
+        "未引用的7条记录保留在书目池，未为凑数补引。I是核心研究、S是支持研究、B是背景、T是技术资源；Triad按作者明确决定为S。", "",
+        "## 已落实的主要修改", "",
+        "- AutoGen使用用户提供的COLM 2024正式全文，核对14位作者、正式题名及GroupChatManager等机制位置；没有把46页篇幅填成正式出版页码。",
+        "- GPT-4、MemGPT、ChatLaw、AgentCoder固定实际使用的arXiv版本。AgentCoder按2023 v1的五位作者及顺序修正；该版本测试执行角色为脚本，正文不把它算作第三个LLM智能体。",
+        "- DSPy题名/作者以正式全文为依据；GAIA补回Craig Swift；Self-RAG使用官方Zeqiu拼写及正式全文Avirup全名；LegalBench以正式全文作者列为依据，保留网页差异历史。",
+        "- Natural Questions采用正式PDF和出版商登记一致的453–466；ACL网页452–466差异保留。LLM-MedQA的1–8获出版商登记支持；Memory survey按Article155写为155:1–155:47；EduPlanner题名按Multiagent规范。",
+        "- 仅据正式来源补入可确认的ICLR/NeurIPS连续页码与DOI。未获证明的字段维持未核实；可访问的摘要不替代未读的实验内容。",
+        "- CrewAI固定0.1.0、Dify固定0.6.0、RAGFlow固定v0.6.0；MCP采用2024-11-25公告、A2A采用2025-04-09公告；不以当前功能倒推早期版本。",
+        "- 十案例保留既有建议架构，按统一控制权标准重新编码来源流程。MedAgents、LLM-MedQA、LegalGraphRAG、EduPlanner改判为层级，得到六例一致、四例不一致；不作为选择策略预测准确率。",
+        "- CAMEL角色对、AutoGen可配置会话、GPTSwarm图结构、AgentVerse反馈、LangGraph状态图不再机械等同扁平或混合。区分控制权架构与可复用机制。",
+        "- Financial QA收窄为critic feedback and answer revision；其多轮反复辩论是未来工作。撤去必须全局知识图谱、实时同步及保证避免重复检索等缺少依据的强断言。", "",
+        "## 按有效章节定位", "",
+        "| 章节 | 本次相关修正 |", "|---|---|",
+        "| 第1章 Introduction及文献筛选说明 | 历史检索描述收窄为工作记录，85/78与核心13口径同步；绝对性领域知识/增长断言收窄 |",
+        "| 第2章 Background | 跨reasoner答案比较与普遍优于自我修正分开；已核机制归因保持来源边界 |",
+        "| 第3章 Architectures | 控制权分类、交叉机制表、十案例编码/勾叉、人工审批及混合判断规则修正 |",
+        "| 第4章 Key technologies | 按选定版本核实MemGPT/Self-RAG/FLARE/ToT/GoT/CoVe；知识共享与自省效果不作无条件保证 |",
+        "| 第5章 Development and evaluation resources | 框架表按实际机制命名，固定软件/协议版本，不扩展为自动架构选择或部署验证 |",
+        "| 第6章 Challenges and Future Directions | Financial QA反馈修订机制收窄；建议和来源实测效果明确区分 |",
+        "| 第7章 Conclusion及末尾声明 | 六/四回顾性比较、无来源编码混合样本、非独立验证局限及版本选择同步 |", "",
+        "导师隐藏的旧应用章/旧完整选择章及独立历史章节文件继续保留，不参与此次有效正文核查。完整逐处before/after见[正文修改日志](audit_work/stage2_manuscript_correction_log.json)；逐字段见[书目修改日志](audit_work/stage2_reference_correction_log.json)。", "",
+        "## 核心证据与限制", "",
+        "[书目字段台账](audit_work/reference_field_audit.md)覆盖全部85条及附加字段；[正文证据台账](audit_work/citation_claim_audit.md)覆盖全部136处有效引用及180个逐来源语境。",
+        "[核心纳入重核](audit_work/core_eligibility_audit.md)记录13项五标准证据；[十案例复核](audit_work/case_classification_audit.md)记录来源流程、编码和匹配。",
+        "来源优先正式全文、出版社/会议官方页、出版商登记、选定arXiv版本及官方日期/发行记录；同一机构的HTML和PDF属于主来源的不同载体，不冒充独立双源。检索失败、页面访问限制和版本差异保留在快照/检索记录与字段台账中。",
+        "[余下未核实字段](audit_work/pending_reference_decisions.md)逐项列出，均保留限制而非标记通过。历史检索原始导出、独立编码/前瞻验证未取得，已在正文收窄或声明限制；它们不被伪造为已完成的实证。", "",
+        "## 验收与后续范围", "",
+        f"当前输入绑定的新编译：{manifest['compilation_passed']}；[编译与渲染记录](audit_work/compile_verification.json)。pdfLaTeX → BibTeX → pdfLaTeX → pdfLaTeX，保持SyncTeX同步。",
+        "[结构验收](audit_work/static_reference_checks.json)检查引用、aux/bbl、证据覆盖及输入输出哈希；结构通过不代表所有字段全部核实。",
+        "[保护验收](audit_work/correction_verification.json)检查隐藏正文、19个原图、历史章节、历史排除记录和五篇用户PDF未变化。修正前文件保存在audit_work/before_stage2_completion_20261010.zip。",
+        "全面格式调整与图中文字缩小仍是后续阶段。原图仍保留旧84条快照，需要随后同步为pool85（I13/S17/B46/T9）、active78（I13/S15/B42/T8），并核对分类标签。此次未改原图。",
+        "长URL、原有版面警告及AI绘图采用来源说明留待相应阶段，不能据本次编译宣称整篇已达到最终投稿排版要求。", "",
+        "复核命令：", "", "```powershell", "python -B tools/build_reference_inventory.py",
+        "python -B tools/build_audit_ledgers.py", "python -B tools/static_reference_checks.py", "```", "",
+        "生成器仅整理已审阅证据，不能靠改哈希、题名相似或自动匹配证明来源。历史literature_audit.csv的旧匹配列保留；当前结论以两份台账为准。", ""]
+    (ROOT / "reference_audit_report.md").write_text("\n".join(lines), encoding="utf-8")
 
 
 def write_pending(manifest: dict, refs: list[dict], claims: list[dict]) -> None:
@@ -353,34 +394,68 @@ def write_pending(manifest: dict, refs: list[dict], claims: list[dict]) -> None:
         for field, f in {**r["field_checks"], **r["additional_field_checks"]}.items():
             if f["status"] in {"verified", "not_applicable"}:
                 continue
-            rows.append({"key":r["key"],"field":field,"status":f["status"],"current":f.get("current", ""),
-                "source_or_expected":f.get("expected", ""),"evidence_url":f.get("evidence_url", ""),
-                "detail":f.get("notes", ""),"action":"确认具体版本/来源后再修改" if f["status"] == "version_conflict" else "获取字段级正式来源后确认；不凭题名相似度补全"})
-    write_csv(WORK / "pending_reference_decisions.csv", rows)
-    dump(WORK / "pending_reference_decisions.json", {"unresolved_metadata_fields":rows,
-        "citation_rows_with_evidence_boundary":[{"command_id":c["command_id"], "support_degree":c["support_degree"], "recommendation":c["recommendation"]} for c in claims if c["support_degree"] != "direct"]})
-    lines = ["# 参考文献与证据边界待确认清单", "", "日期：2026-10-08。确定错误已修正；以下不确定项保留，不自动替作者选择版本或调整纳入范围。", "",
-        "| 项目 | 当前处理 | 后续具体步骤 |", "|---|---|---|",
-        "| Triad纳入标准 | 保留I编码及十案例比较，正文披露一个LLM三角色 | 由作者裁定独立多代理标准。若严格要求≥2独立代理，改为S并重算I/S和图中数量；是否保留十案例诊断另行说明。 |",
-        "| 书籍/预印本版本 | 保留当前Minsky版次、GPT-4/MemGPT/ChatLaw等版本冲突 | 固定实际使用的版次或arXiv vN；核对该版本作者、年份及链接后一致更新。citation key无需改名。 |",
-        "| 网页与PDF作者冲突 | GAIA、DSPy、Self-RAG、LegalBench等不盲改姓名 | 取得正式PDF首页，与官方HTML/版本历史逐项核对，记录冲突与采用理由。 |",
-        "| 未直接核实的出版字段 | LLM-MedQA、Financial Reflection QA、SWE-agent等部分页码或DOI保留未核实状态 | 以本条出版商元数据或论文PDF核实；另一论文的参考文献仅作间接线索。 |",
-        "| 软件与协议版本 | Dify/RAGFlow/CrewAI、MCP/A2A等保留历史版本限制 | 若论述特定年份能力，固定release/tag/commit或当时文档；当前文档只支持当前能力。 |",
-        "| 历史检索过程 | 108候选、四异常等写为历史日志记录 | 若需方法复现，补原始检索导出和筛选记录；本次核查不替代当年的实际检索凭证。 |",
-        "| 图片同步 | 原图未修改，图注已标历史快照 | 统一pool85、active78及I14边界说明；核对所有图内84 active、旧角色数量和CoCoA等标签，再缩小字体导出。 |",
-        "| AI绘图来源 | 保留AI使用披露，去掉不存在的图引用 | 图片阶段确认Nano Banana所对应的实际采用图及编辑来源，若未采用则准确说明。 |", "",
-        f"逐字段未决记录共{len(rows)}项（含非必填附加字段，不等于{len(rows)}篇文献有错误）；完整值、状态与证据见[CSV](pending_reference_decisions.csv)。", "",
-        "## 版本/来源冲突的具体字段", "", "| key | 字段 | 当前值 | 来源值/冲突 |", "|---|---|---|---|"]
-    lines += [f"| {cell(r['key'])} | {cell(r['field'])} | {cell(r['current'])} | {cell(r['source_or_expected'])} |" for r in rows if r["status"] == "version_conflict"]
-    lines += ["", "## 未核实字段按记录列出", "", "| key | 未决字段及状态 |", "|---|---|"]
+            essential = field in {"author", "title", "year", "venue", "type"}
+            rows.append({"key":r["key"], "field":field, "status":f["status"], "current":f.get("current",""),
+                "source_or_expected":f.get("expected",""), "evidence_url":f.get("evidence_url",""), "detail":f.get("notes",""),
+                "blocking":essential, "category":"essential_identity" if essential else "optional_field_or_access_limit",
+                "action":"获取字段级正式证明后补全；当前明确保留未核实，不编造。"})
+    if rows:
+        write_csv(WORK / "pending_reference_decisions.csv", rows)
+    blockers = [r for r in rows if r["blocking"]]
+    if blockers:
+        raise ValueError("Unresolved essential identity fields: " + str(blockers))
+    boundaries = [{"command_id":c["command_id"], "support_degree":c["support_degree"], "recommendation":c["recommendation"]}
+        for c in claims if c["support_degree"] != "direct"]
+    dump(WORK / "pending_reference_decisions.json", {"audit_date":AUDIT_DATE, "stage_two_complete":manifest["stage_two_complete"],
+        "blocking_items":blockers, "unresolved_metadata_fields":rows, "citation_rows_with_evidence_boundary":boundaries,
+        "resolved_author_decisions":[FOLLOWUP["triad_decision"]], "pending_followup_edits":[],
+        "resolved_stage2_items":["Pinned preprint/technical versions","Formal PDF/HTML author and page differences adjudicated",
+            "13 core eligibility reviews","Ten cases:6 agreement/4 disagreement","Necessary prose corrections implemented"],
+        "out_of_scope_followup":["Full formatting","Original figure statistics/labels and font reduction","Historical search exports or independent prospective validation if later pursued"]})
+    lines = ["# 第二阶段已处理事项与剩余证据限制", "", f"截至：{AUDIT_DATE}。第二阶段完成状态：{manifest['stage_two_complete']}。",
+        "书目、版本、案例和必要正文修正已落实；下面未核实的字段仍不标记通过。作者分析/未来建议有明确边界，不因结构通过升级为原论文实证。", "",
+        "## 已关闭事项", "", "| 项目 | 当前处理 |", "|---|---|",
+        "| Triad | 作者已确认I→S；正文/CSV/Highlights同步，支持性例子保留 |",
+        "| 版本选择 | GPT-4、MemGPT、ChatLaw、AgentCoder固定v1；Minsky采用所链接1988版；软件/协议采用记录的版本或日期 |",
+        "| 正式PDF差异 | AutoGen14作者、AgentCoder v1五作者、GAIA六作者、DSPy题名/作者、Self-RAG与LegalBench作者表示已核；差异历史保留 |",
+        "| 出版字段 | Natural Questions453–466；LLM-MedQA1–8；Memory survey Article155/155:1–155:47；EduPlanner Multiagent；其他可确认正式页码补齐 |",
+        "| 重要正文归因 | Financial QA反馈及答案修订；跨reasoner比较、框架类别、知识共享/自省效果边界已修正 |",
+        "| 核心纳入 | 13项按五标准重核；QA需是实质主要评估轨道，可同时包含代码/写作等任务 |",
+        "| 十案例 | 固定原建议标签，来源流程统一编码；六例一致、四例不一致，不是预测准确率或混合架构验证 |", "",
+        "## 剩余限制与后续范围", "",
+        f"逐字段未核实记录{len(rows)}项，当前阻塞项{len(blockers)}项。条目数量不是错误文献数量，包含空白可选字段和访问限制。完整当前值、证据、原因与blocking标志见[CSV](pending_reference_decisions.csv)。",
+        "部分会议论文的DOI/页码缺少正式证明；URL挑战页/访问失败不代表作品不存在。无正式页码依据的字段保持空白；既有而未证实的可选值标为未核实。Attention等未获正式页码证明的限制保留；SWE-agent已取得正式页面和官方BibTeX，旧页码限制已关闭。",
+        "原始检索导出不可获得：正文只将候选和筛选数量称为历史日志，未重建或冒充当年的实际检索。十案例没有独立盲评、前瞻验证或来源编码的混合案例，已在正文声明。",
+        "后续格式阶段处理长URL和版面；图片阶段缩小图中文字、同步旧84快照和相关分类标签，核实AI绘图采用来源。此次原图、隐藏章节和用户PDF保持不变。", "",
+        "## 未核实字段按记录列出", "", "| key | 字段及状态 |", "|---|---|"]
     for r in refs:
-        fields = [f["field"]+":"+FIELD_ZH[f["status"]] for f in rows if f["key"] == r["key"]]
+        fields = [f["field"]+":"+FIELD_ZH[f["status"]] for f in rows if f["key"]==r["key"]]
         if fields:
             lines.append(f"| {r['key']} | {cell(', '.join(fields))} |")
-    lines += ["", "## 正文证据边界", "", "当前台账对作者综合、前瞻建议和来源获取限制继续单独标记。对于未修正且证据仍不足的具体断言，须取得原文证据或进一步收窄；不得因结构检查通过而标成已验证。", "",
-        "| 引用ID | 当前支持程度 | 后续/保留理由 |", "|---|---|---|"]
+    lines += ["", "## 正文证据边界", "", "下列均按具体语境标记为作者综合、方案建议或混合支持；没有未经处理的partial/unsupported/contradicted/not_verified事实归因。逐来源支持范围见citation_claim_audit.md。", "",
+        "| 引用ID | 判断 | 保留理由 |", "|---|---|---|"]
     lines += [f"| {c['command_id']} | {DEGREE_ZH[c['support_degree']]} | {cell(c['recommendation'])} |" for c in claims if c["support_degree"] != "direct"]
     (WORK / "pending_reference_decisions.md").write_text("\n".join(lines).rstrip()+"\n", encoding="utf-8")
+    write_scientific_reports()
+
+
+def write_scientific_reports() -> None:
+    cases = ["# 十案例控制权分类复核", "", f"日期：{AUDIT_DATE}。保留此前建议标签，来源流程使用统一规则重编码。",
+        "稳定调度、审批或最终决策权归为层级；没有持续上级控制的对等更新归为扁平；混合需要实际控制权切换的证据。反馈、投票、图结构或多角色本身不足以认定混合。", "",
+        "六例一致、四例不一致；来源流程9层级、1扁平、0混合。这是本文回顾性解释，不是原作者自报类别、独立盲评或预测准确率；当前样本不能验证混合分支。", "",
+        "| 案例 | 角色 | 原建议 | 来源流程编码 | 匹配 | 原文位置与依据 |", "|---|---|---|---|---|---|"]
+    for c in CASES["cases"]:
+        cases.append(f"| {c['name']} | {c['evidence_role']} | {c['prior_proposed_label']} | {c['source_based_label']} | {'一致' if c['match']=='agreement' else '不一致'} | [{cell(c['locator'])}]({c['evidence_url']})：{cell(c['source_evidence'])} |")
+    cases += ["", "Triad是单智能体多角色流程，作为S支持例子；ChatDev/AgentCoder代码任务、EduPlanner教学设计均不纳入核心QA研究。AgentCoder v1的executor是脚本，不能据三个命名角色认定三个LLM智能体。", ""]
+    (WORK / "case_classification_audit.md").write_text("\n".join(cases), encoding="utf-8")
+    core = ["# 核心研究纳入标准复核", "", f"日期：{AUDIT_DATE}。共{CORE['core_count']}项保留I；Triad已为S。",
+        "五项标准：2019-01至2026-07；LLM主干；至少两个协作智能体；QA/问题驱动推理是实质主要评估轨道；方法及实证评估。QA不必是唯一任务。", "",
+        "| key | 所用版本/年份 | 方法及评估证据 | 五项标准 | 范围限制 |", "|---|---|---|---|---|"]
+    for r in CORE["records"]:
+        links = "、".join(f"[来源{i+1}]({u})" for i,u in enumerate(r["sources"]))
+        core.append(f"| {r['key']} | {cell(r['source_version'])} / {r['year']} | {cell(r['locator'])}：{cell(r['method_evidence'])} {links} | {cell(r['criteria'])} | {cell(r.get('scope_note',''))} |")
+    core += ["", "核心I标签仅表明符合本文纳入标准，不代表临床安全、现实部署或所有机制都属于混合架构。来源页面与同一机构PDF不是独立双源；版本或获取限制在主台账另列。", ""]
+    (WORK / "core_eligibility_audit.md").write_text("\n".join(core), encoding="utf-8")
 
 
 if __name__ == "__main__":

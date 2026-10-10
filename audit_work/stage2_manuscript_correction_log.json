@@ -1,0 +1,279 @@
+[
+  {
+    "before": "The historical targeted update used combinations of \\textit{multi-agent},\n\\textit{LLM}, \\textit{question answering}, \\textit{reasoning},\n\\textit{long-context}, and \\textit{retrieval-augmented generation} across the ACL\nAnthology, OpenReview, arXiv, and publisher proceedings. It added ReConcile\n\\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and\nCoCoA \\citep{jiang2026cocoa}.",
+    "after": "The historical working records list ReConcile\n\\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and\nCoCoA \\citep{jiang2026cocoa} as additions. The source audit confirms their\nidentities and publication dates; it does not reconstruct the original update\nqueries, retrieval results, or search dates.",
+    "reason": "区分可核论文身份与无法仅凭论文原文重建的历史检索动作，撤去未经原始检索导出证明的操作细节。",
+    "original_line": 217,
+    "applied_line_before_this_edit": 217,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "A source-level recheck on 8 October 2026 compared the 84-record bibliography\npool with publisher records, official proceedings, versioned arXiv papers,\nand project documentation. The accompanying audit separates source existence,\nfield accuracy, version conflicts, and claim support. Confirmed corrections\nwere applied, while inaccessible fields and unresolved conflicts remain\nexplicitly marked. One official LangGraph article was added to support the\nspecific interrupt and checkpoint mechanisms discussed below.",
+    "after": "Source-level checks on 8 and 10 October 2026 compared the bibliography with\npublisher records, official proceedings, versioned arXiv papers, and dated or\nversioned project documentation. The current pool contains 85 records, of\nwhich 78 are cited in the active manuscript. The audit separates source\nexistence, field accuracy, version selection, and claim support. Confirmed\ncorrections were applied; unavailable optional fields and source discrepancies\nare recorded without blanket verification claims. One dated official LangGraph\narticle supports the interrupt and checkpoint mechanisms discussed below.",
+    "reason": "反映本次第二阶段真实核查范围，保留不可获得字段的边界。",
+    "original_line": 224,
+    "applied_line_before_this_edit": 223,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "\\emph{Third}, a monolithic model cannot simultaneously possess expert-level\nknowledge across all domains, often failing on queries that require\ncross-disciplinary collaboration.",
+    "after": "\\emph{Third}, a single model may lack sufficient domain coverage for a query\nthat requires several areas of expertise; combining perspectives is one\npossible response whose benefit requires task-level evaluation.",
+    "reason": "删除单模型不可能拥有所有领域知识的绝对断言。",
+    "original_line": 143,
+    "applied_line_before_this_edit": 143,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "Between 2023 and 2026 this field has witnessed explosive growth. ",
+    "after": "",
+    "reason": "删除未提供增长统计证据的强表述。",
+    "applied_line_before_this_edit": 151,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "Multi-agent collaboration can also improve reasoning reliability by creating\nseparate candidate, review, and verification paths. Debate, cross-checking,\nand reconciliation may expose errors that self-refinement within one workflow\noverlooks \\citep{du2024multiagent_debate,chen2024reconcile,\nxiong2023inter_consistency}. However, additional agents do not guarantee\ncorrectness: weak aggregation, poor interaction design, or correlated errors\ncan preserve or amplify an incorrect answer. Coordination quality is thus a\ncentral design variable, not an incidental implementation detail.",
+    "after": "Multi-agent collaboration provides mechanisms for comparing candidate answers\nand review paths. Debate and reconciliation compare answers from different\nreasoners \\citep{du2024multiagent_debate,chen2024reconcile,\nxiong2023inter_consistency}; their benefits depend on the task and the agents\ninvolved. Additional agents do not guarantee correctness or establish universal\nsuperiority over self-refinement: weak aggregation, poor interaction design,\nor correlated errors can preserve an incorrect answer. Coordination quality\ntherefore requires evaluation.",
+    "reason": "移除多来源中只有部分论文研究的普遍自我修正对照归因。",
+    "original_line": 394,
+    "applied_line_before_this_edit": 394,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "For example, CAMEL \\citep{li2023camel} employs an \"AI User\" and an \"AI Assistant\" paired with inception prompting to maintain role-conditioned interaction.",
+    "after": "For example, CAMEL \\citep{li2023camel} employs an \"AI User\" and an \"AI Assistant\" paired with inception prompting to maintain role-conditioned interaction. This role pair has asymmetric instructions; role play alone does not establish a flat decision-authority structure.",
+    "reason": "区分角色对话与控制权分类，避免把CAMEL固定认定为平等决策。",
+    "applied_line_before_this_edit": 455,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "GPTSwarm \\citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections. ",
+    "after": "GPTSwarm \\citep{zhuge2024gptswarm} provides an empirical example of optimising prompts and inter-agent graph connections. A graph representation, edge optimisation, or conditional routing alone does not establish hybrid decision authority; the implementation must actually change who controls decisions.",
+    "reason": "撤去图结构等同hybrid的含义，保留已核实优化机制。",
+    "applied_line_before_this_edit": 508,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "Adaptive systems adjust team composition or control patterns as tasks evolve.\nFor example, AgentVerse \\citep{chen2024agentverse} describes an iterative pipeline consisting of\nexpert recruitment, collaborative decision-making, action execution, and\nresult evaluation. This mechanism cannot be simplified to a \"simple-flat/complex-\nhierarchical\" rule. MDAgents \\citep{kim2024mdagents} provides direct\nin-case evidence for adaptive medical collaboration. Such adaptive mechanisms\nenhance routing flexibility, yet introduce extra requirements for state management\nand performance evaluation.",
+    "after": "Adaptive systems can adjust team composition or interaction patterns.\nFor example, AgentVerse \\citep{chen2024agentverse} describes an iterative pipeline consisting of\nexpert recruitment, collaborative decision-making, action execution, and\nresult evaluation. This mechanism cannot be simplified to a \"simple-flat/complex-\nhierarchical\" rule. MDAgents \\citep{kim2024mdagents} routes medical queries to\nsolo, multidisciplinary-team, or integrated-care-team pathways according to\ncomplexity under a moderator. This supports adaptive collaboration, but a\npersistent moderator means that mode switching alone is insufficient to prove\nhybrid authority. State management and performance still require evaluation.",
+    "reason": "正式MDAgents§3.1–3.4核实复杂度路由和持续moderator；区分招募/团队变化与控制权切换。",
+    "original_line": 513,
+    "applied_line_before_this_edit": 513,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "Table~\\ref{tab:9categories} compares the three architecture classes and their\nsub-paradigms in terms of control, task suitability, and limitations.\nArchitecture labels, suitable contexts, and limitations are the authors'\nsynthesis of the cited mechanisms.",
+    "after": "Table~\\ref{tab:9categories} compares representative control patterns and\nrelated mechanisms. Architecture labels, suitable contexts, and limitations\nare the authors' synthesis. Role-paired, configurable, and cross-cutting\nentries describe mechanisms or tool capabilities, not additional architecture\nclasses or evidence that every configuration is hybrid.",
+    "reason": "表格不再把可配置框架及交叉机制机械归入三类架构。",
+    "original_line": 568,
+    "applied_line_before_this_edit": 569,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "\\caption{Comparison of multi-agent collaborative QA architecture classes.}",
+    "after": "\\caption{Representative control patterns and related mechanisms for multi-agent collaborative QA.}",
+    "reason": "表格题名与核实后的分类边界一致。",
+    "applied_line_before_this_edit": 577,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "\\multirow{3}{*}{\\textbf{Flat}} &",
+    "after": "\\textbf{Flat} &",
+    "reason": "仅将Du的对等辩论例子作为flat，角色对话及可配置AutoGen单独说明。",
+    "applied_line_before_this_edit": 587,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "    & Role-conditioned collaboration & CAMEL",
+    "after": "    \\textbf{Role-paired} & Role-conditioned collaboration & CAMEL",
+    "reason": "CAMEL不再自动归为flat。",
+    "applied_line_before_this_edit": 592,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "    & Group-chat collaboration & AutoGen",
+    "after": "    \\textbf{Configurable} & Group-chat collaboration & AutoGen",
+    "reason": "AutoGen框架支持多种组织方式，group-chatmanager本身含调度权。",
+    "applied_line_before_this_edit": 596,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "\\multirow{3}{*}{\\textbf{Hierarchical}} &",
+    "after": "\\multirow{2}{*}{\\textbf{Hierarchical}} &",
+    "reason": "修正该组实际两行，避免与下一组的机制分类混淆。",
+    "applied_line_before_this_edit": 601,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "\\multirow{3}{*}{\\textbf{Hybrid}} &",
+    "after": "\\multirow{3}{*}{\\shortstack{\\textbf{Cross-}\\\\\\textbf{cutting}}} &",
+    "reason": "图/动态招募/HITL均为交叉机制，不以其存在认定hybrid。",
+    "applied_line_before_this_edit": 613,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "    Changes collaboration in response to case characteristics &",
+    "after": "    Moderator routes solo or team consultation according to complexity &",
+    "reason": "MDAgents机制核对后按实际调度描述。",
+    "applied_line_before_this_edit": 620,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "The approach is verified for interpretive consistency by comparing its\ninferred architectures with ten published systems. This purposive sample was\nselected because the systems report agent roles and control flow with enough\ndetail for coding and cover different domains, process structures, and risk\nlevels. The comparison does not evaluate system performance, establish causal\nbenefit, or claim external validity.\n\nFive cases are broadly aligned, three are partially aligned, and two are\ndivergent under the coding used here. MedAgents and LLM-MedQA combine\nparallel expert perspectives with staged synthesis; MAD is flat at the macro\nlevel but uses iterative convergence; EduPlanner and Financial Reflection QA\ncombine convergent objectives with evaluator or critic feedback. These boundary\ncases show that competing requirements can make a single categorical label\ninsufficient and that a multi-label description of control flow may sometimes\nbe preferable.",
+    "after": "The approach is examined for interpretive consistency using ten published\nsystems. This purposive sample contains both core QA studies and supporting\nworkflow examples; it does not evaluate performance, establish causal benefit,\nor provide independent validation. The existing proposed labels are retained\nfor comparison, while reported workflows are re-coded using one rule:\nflat control has no persistent top-down controller; hierarchical control has\nstable routing, approval, or final-decision authority; hybrid control requires\na demonstrated change in that authority. Iteration, voting, multiple roles,\nand graph structure alone are insufficient.\n\nExact category agreement occurs in six cases, with four disagreements.\nMedAgents, LLM-MedQA, LegalGraphRAG, and EduPlanner have fixed asymmetric\nstages or final-decision roles, while their retained proposed labels differ.\nDu et al.'s peer debate remains flat despite repeated rounds, and Financial\nReflection QA remains hierarchical despite critic feedback. Nine reported\nworkflows are coded hierarchical and one flat; this sample therefore does not\nvalidate the hybrid category. The comparison is retrospective and was not\nblind or preregistered. The six agreements are descriptive, not prediction\naccuracy or evidence of an effective architecture-selection policy.",
+    "reason": "冻结已有建议标签，正式流程统一按控制权重编码；6一致4不一致，不再维护5/3/2，无独立盲评或hybrid验证夸大。",
+    "original_line": 728,
+    "applied_line_before_this_edit": 730,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "Flat versus hybrid staged synthesis & $\\triangle$",
+    "after": "Flat versus hierarchical staged synthesis & $\\times$",
+    "reason": "十案例来源类别与统一匹配标准同步；案例名称明确Du以免与Liang的judge-mediated MAD混淆。",
+    "applied_line_before_this_edit": 760,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "Flat versus hybrid voting pipeline & $\\triangle$",
+    "after": "Flat versus hierarchical voting pipeline & $\\times$",
+    "reason": "十案例来源类别与统一匹配标准同步；案例名称明确Du以免与Liang的judge-mediated MAD混淆。",
+    "applied_line_before_this_edit": 761,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "Hybrid versus hybrid graph audit chain & $\\checkmark$",
+    "after": "Hybrid versus hierarchical graph audit chain & $\\times$",
+    "reason": "十案例来源类别与统一匹配标准同步；案例名称明确Du以免与Liang的judge-mediated MAD混淆。",
+    "applied_line_before_this_edit": 762,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$",
+    "after": "Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$",
+    "reason": "十案例来源类别与统一匹配标准同步；案例名称明确Du以免与Liang的judge-mediated MAD混淆。",
+    "applied_line_before_this_edit": 767,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "Hierarchical versus hybrid reflection loop & $\\times$",
+    "after": "Hierarchical versus hierarchical critic feedback & $\\checkmark$",
+    "reason": "十案例来源类别与统一匹配标准同步；案例名称明确Du以免与Liang的judge-mediated MAD混淆。",
+    "applied_line_before_this_edit": 769,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "  \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned;\n  $\\times$ = divergent. Both architecture labels are the authors' coding of\n  the selection approach and the reported workflow, not independent validation.\n  Triad uses a single LLM-based agent in three roles; it is coded S and\n  retained as a supporting example, outside the 13 core studies.",
+    "after": "  \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different\n  categories. Proposed labels are retained from the preceding draft;\n  source-based labels are the authors' retrospective control-flow coding.\n  Neither label nor agreement establishes selection accuracy or safety.\n  Triad is a single-agent, three-role supporting study (S), outside the\n  13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting\n  workflow examples. Criterion profiles are illustrative author judgments.",
+    "reason": "严格一致/不一致两类匹配；风险档案及S案例边界明确，不把分类算作来源实测验证。",
+    "original_line": 767,
+    "applied_line_before_this_edit": 773,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "The criteria can also be applied analytically to contrasting settings. In\nhigh-risk, cross-domain consultation, parallel specialist analysis may improve\ncoverage, but final decisions require an explicit review boundary, making a\nhybrid workflow with human approval a plausible candidate. Standardised,\nevidence-grounded QA generally supports a hierarchical RAG baseline with\nsource and citation checks. Open-ended educational or legal tasks may benefit\nfrom bounded peer critique, but legal use additionally requires auditability\nand human accountability. These examples illustrate how task and governance\nrequirements constrain the design space; they do not imply one universally\ncorrect topology.",
+    "after": "The criteria can also be applied analytically to contrasting settings. In\ncross-domain consultation, parallel specialist analysis may improve coverage,\nwhile a fixed review and final-decision boundary produces a hierarchical\nworkflow. A hybrid candidate requires an actual conditional change in decision\nauthority, rather than the mere addition of human approval. Standardised,\nevidence-grounded QA can use a hierarchical retrieval-and-synthesis baseline\nwith source and citation checks. Open-ended tasks may use bounded peer\ncritique, while consequential decisions call for explicit accountability.\nThese are design hypotheses, not evaluated prescriptions for a universally\ncorrect topology.",
+    "reason": "不把并行分析+固定人工审批自动称hybrid；保留条件性的作者设计建议。",
+    "original_line": 774,
+    "applied_line_before_this_edit": 782,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "In complex collaboration, knowledge must not be siloed within individual\nagents.\nThe system needs a global knowledge graph shared across agents so that all\ncollaborative nodes can synchronise critical facts in real time.\nBy constructing a shared graph-vector database, newly spawned sub-agents\ncan rapidly inherit the team's cumulative knowledge, avoiding redundant\nretrieval and cognitive divergence.",
+    "after": "In complex collaboration, designers may provide a shared evidence repository\nwhen agents need access to the same verified information. A graph, vector\nstore, document store, or their combination is an implementation choice,\nrather than a requirement that every system use a global knowledge graph.\nNew agents may reuse relevant context subject to provenance and access\nchecks. Whether this reduces repeated retrieval or inconsistent answers\nrequires measurement; synchronisation is not automatically real time.",
+    "reason": "撤去必须全局知识图谱/实时同步/保证避免重复检索等无来源强断言。",
+    "original_line": 956,
+    "applied_line_before_this_edit": 964,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "To suppress hallucination, agents must be capable of iterative\nself-examination.",
+    "after": "Reflection and critique are possible approaches to factual-error reduction;\nthey do not guarantee correctness or replace checking the underlying evidence.",
+    "reason": "迭代自省并非抑制幻觉的必要充分条件，保留机制证据。",
+    "original_line": 1092,
+    "applied_line_before_this_edit": 1100,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "CAMEL \\citep{li2023camel} & Flat &",
+    "after": "CAMEL \\citep{li2023camel} & Role-paired workflow &",
+    "reason": "技术表不将角色对话无条件等同flat架构。",
+    "applied_line_before_this_edit": 1671,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "AgentVerse \\citep{chen2024agentverse} & Hybrid &",
+    "after": "AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline &",
+    "reason": "四阶段/招募反馈不足以证明控制权切换，按所证机制命名。",
+    "applied_line_before_this_edit": 1691,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid &",
+    "after": "LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph &",
+    "reason": "工具能力与实际工作流架构分开。",
+    "applied_line_before_this_edit": 1696,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid &",
+    "after": "GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph &",
+    "reason": "DAG连边优化不自动构成hybridauthority。",
+    "applied_line_before_this_edit": 1701,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "Document ingestion, retrieval, and configurable workflow components",
+    "after": "Document ingestion, retrieval, and configurable RAG components",
+    "reason": "RAGFlow0.6.0提供RAG管线组件，不移用后期多智能体workflow能力。",
+    "applied_line_before_this_edit": 1819,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "iterative multi-critic reflection.",
+    "after": "critic feedback and answer revision.",
+    "reason": "FinancialQA正式§3.1实现两critic反馈和答案修订；§6多轮反复辩论为未来工作。",
+    "applied_line_before_this_edit": 1951,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "verification exercise rather than independent confirmation of general validity; broader",
+    "after": "retrospective diagnostic comparison rather than independent validation; it contains\nno source-coded hybrid example. Broader",
+    "reason": "局限同步案例样本缺少hybrid及非独立验证。",
+    "applied_line_before_this_edit": 2174,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "publication fields, version choices, and evidence boundaries.",
+    "after": "optional publication fields, documented version selections, and evidence boundaries.",
+    "reason": "说明版本选择已落实，剩余未决字段不全部仍是版本冲突。",
+    "applied_line_before_this_edit": 2226,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "when independent perspectives are valuable; changing requirements or\nconditional review support hybrid control. Compare the selected design with a\nsingle-agent baseline using task quality, latency, cost, provenance, and\nfailure-recovery measures.",
+    "after": "when independent perspectives are valuable; hybrid control is a candidate\nwhen changing requirements necessitate a change in decision authority.\nConditional review under a fixed approver remains hierarchical. Compare the\nselected design with a single-agent baseline using task quality, latency,\ncost, provenance, and failure-recovery measures.",
+    "reason": "统一第二阶段控制权规则：条件审核本身不足以认定hybrid；固定审批属于层级。",
+    "applied_line_before_this_edit": 713,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "Hybrid architectures are useful when task requirements are heterogeneous or when the workflow must combine deliberation, controlled execution, and conditional review. Their trade-off lies in engineering complexity:",
+    "after": "Hybrid architectures may be appropriate when heterogeneous task requirements call for transitions between peer deliberation and central decision authority. Their trade-off lies in engineering complexity:",
+    "reason": "混合适用性表述同步实际控制权切换，避免再次将条件审核等同hybrid。",
+    "applied_line_before_this_edit": 564,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "(4) QA, retrieval-augmented answering, conversational QA, or question-driven domain decision support as the primary evaluated task; and",
+    "after": "(4) QA, retrieval-augmented answering, conversational QA, or question-driven domain decision support as a substantive primary evaluation track; and",
+    "reason": "明确多任务核心论文的纳入解释：QA必须为实质主要评估轨道，可同时包含其他主要任务。",
+    "applied_line_before_this_edit": 242,
+    "audit_date": "2026-10-10"
+  },
+  {
+    "before": "and 8~T; seven uncited records remain in the pool. The remaining 13 role-I\nlabels retain the existing author coding. Triad uses a single LLM-based agent",
+    "after": "and 8~T; seven uncited records remain in the pool. The 13 role-I studies\nwere reassessed against these five criteria and retain their labels.\nQA need not be their sole task, but incidental QA demonstrations are\ninsufficient for inclusion. Triad uses a single LLM-based agent",
+    "reason": "正文同步已实施的13项五标准全文重核，明确非仅继承旧标签，也非将任意附带QA纳入。",
+    "applied_line_before_this_edit": 250,
+    "audit_date": "2026-10-10"
+  }
+]

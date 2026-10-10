@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dify_release_html",
+    "url": "https://github.com/langgenius/dify/releases/tag/0.6.0"
+  },
+  {
+    "id": "ragflow_release_html",
+    "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.6.0"
+  },
+  {
+    "id": "dify_license",
+    "url": "https://raw.githubusercontent.com/langgenius/dify/0.6.0/LICENSE"
+  },
+  {
+    "id": "autogen_openreview",
+    "url": "https://api2.openreview.net/notes?id=BAakY1hNKS"
+  },
+  {
+    "id": "natural_questions_pdf",
+    "url": "https://aclanthology.org/Q19-1026.pdf"
+  },
+  {
+    "id": "natural_questions_page",
+    "url": "https://aclanthology.org/Q19-1026/"
+  },
+  {
+    "id": "brown2020gpt3__official_page",
+    "url": "https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html"
+  },
+  {
+    "id": "lewis2020rag__official_page",
+    "url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html"
+  },
+  {
+    "id": "vaswani2017attention__official_page",
+    "url": "https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html"
+  },
+  {
+    "id": "ouyang2022instructgpt__official_page",
+    "url": "https://doi.org/10.52202/068431-2011"
+  },
+  {
+    "id": "hong2024metagpt__official_page",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/6507b115562bb0a305f1958ccc87355a-Abstract-Conference.html"
+  },
+  {
+    "id": "zhuge2024gptswarm__official_page",
+    "url": "https://proceedings.mlr.press/v235/zhuge24a.html"
+  },
+  {
+    "id": "chen2024agentverse__official_page",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html"
+  },
+  {
+    "id": "yao2023react__official_page",
+    "url": "https://openreview.net/forum?id=WE_vluYUL-X"
+  },
+  {
+    "id": "zhou2023least_to_most__official_page",
+    "url": "https://openreview.net/forum?id=WZH7099tgfM"
+  },
+  {
+    "id": "khot2023decomposed_prompting__official_page",
+    "url": "https://openreview.net/forum?id=_nGgzQjzaRy"
+  },
+  {
+    "id": "wang2023self_consistency__official_page",
+    "url": "https://openreview.net/forum?id=1PL1NIMMrw"
+  },
+  {
+    "id": "hendrycks2021mmlu__official_page",
+    "url": "https://openreview.net/forum?id=d7KBjmI3GmQ"
+  },
+  {
+    "id": "liu2024agentbench__official_page",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html"
+  },
+  {
+    "id": "zhou2024webarena__official_page",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/4410c0711e9154a7a2d26f9b3816d1ef-Abstract-Conference.html"
+  }
+]

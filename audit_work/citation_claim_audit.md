@@ -1,6 +1,6 @@
 # 正文引用—来源证据台账
 
-核查日期：2026-10-08。每条记录对应一处实际有效引用命令；多键命令内部逐来源判断。
+截至：2026-10-10。第二阶段当前修正版；五篇正式PDF及新增官方全文补证、版本固定、十案例统一编码和必要正文修正已纳入。每条记录对应一处实际有效引用命令；多键命令内部逐来源判断。
 排除注释、禁用条件块和未被主稿包含的历史章节。原句保留 TeX 标记；表格按完整行记录。
 完整段落/表格上下文在 JSON 和 CSV 的 context/full_context 中，避免只检查含引用的短句而遗漏相邻归因。
 多来源支持程度不同标为 mixed，不等于整句均无支持。direct 只表示所述具体内容获支持，不代表来源的所有结论均成立。
@@ -16,134 +16,134 @@
 | [C006](#c006) | manuscript.tex:153 | hong2024metagpt | 直接支持 |
 | [C007](#c007) | manuscript.tex:155 | du2024multiagent_debate | 直接支持 |
 | [C008](#c008) | manuscript.tex:161 | guo2024llm_multiagent_survey, tran2025multiagent_survey, wang2024survey_autonomous_agents | 直接支持 |
-| [C009](#c009) | manuscript.tex:221 | chen2024reconcile | 部分支持/表述需收窄 |
-| [C010](#c010) | manuscript.tex:221 | zhang2024chain_agents | 部分支持/表述需收窄 |
-| [C011](#c011) | manuscript.tex:222 | jiang2026cocoa | 部分支持/表述需收窄 |
-| [C012](#c012) | manuscript.tex:274 | karpukhin2020dpr | 直接支持 |
-| [C013](#c013) | manuscript.tex:274 | lewis2020rag | 直接支持 |
-| [C014](#c014) | manuscript.tex:277 | yang2018hotpotqa | 直接支持 |
-| [C015](#c015) | manuscript.tex:278 | kwiatkowski2019natural_questions | 直接支持 |
-| [C016](#c016) | manuscript.tex:279 | reddy2019coqa | 直接支持 |
-| [C017](#c017) | manuscript.tex:280 | choi2018quac | 直接支持 |
-| [C018](#c018) | manuscript.tex:297 | yao2023react | 直接支持 |
-| [C019](#c019) | manuscript.tex:311 | vaswani2017attention | 直接支持 |
-| [C020](#c020) | manuscript.tex:313 | devlin2019bert | 直接支持 |
-| [C021](#c021) | manuscript.tex:314 | brown2020gpt3 | 直接支持 |
-| [C022](#c022) | manuscript.tex:315 | openai2023gpt4 | 直接支持 |
-| [C023](#c023) | manuscript.tex:316 | touvron2023llama | 直接支持 |
-| [C024](#c024) | manuscript.tex:317 | glm2024chatglm | 直接支持 |
-| [C025](#c025) | manuscript.tex:319 | ouyang2022instructgpt | 直接支持 |
-| [C026](#c026) | manuscript.tex:370 | minsky1988society | 作者推论，须标明边界 |
-| [C027](#c027) | manuscript.tex:372 | park2023generative_agents | 直接支持 |
-| [C028](#c028) | manuscript.tex:377 | hong2024metagpt | 直接支持 |
-| [C029](#c029) | manuscript.tex:378 | li2023camel | 直接支持 |
-| [C030](#c030) | manuscript.tex:389 | zhao2024longagent, zhang2024chain_agents | 直接支持 |
-| [C031](#c031) | manuscript.tex:397 | du2024multiagent_debate, chen2024reconcile, xiong2023inter_consistency | 多来源支持程度不同 |
-| [C032](#c032) | manuscript.tex:450 | du2024multiagent_debate | 直接支持 |
-| [C033](#c033) | manuscript.tex:450 | liang2024divergent_debate | 直接支持 |
-| [C034](#c034) | manuscript.tex:450 | chen2024reconcile | 直接支持 |
-| [C035](#c035) | manuscript.tex:450 | xiong2023inter_consistency | 直接支持 |
-| [C036](#c036) | manuscript.tex:455 | li2023camel | 直接支持 |
-| [C037](#c037) | manuscript.tex:460 | wu2024autogen | 直接支持 |
-| [C038](#c038) | manuscript.tex:475 | hong2024metagpt | 直接支持 |
-| [C039](#c039) | manuscript.tex:476 | qian2023chatdev | 直接支持 |
-| [C040](#c040) | manuscript.tex:485 | zhao2024longagent | 直接支持 |
-| [C041](#c041) | manuscript.tex:486 | zhang2024chain_agents | 直接支持 |
-| [C042](#c042) | manuscript.tex:488 | jiang2026cocoa | 直接支持 |
-| [C043](#c043) | manuscript.tex:492 | shen2024hugginggpt | 直接支持 |
-| [C044](#c044) | manuscript.tex:508 | langgraph2024 | 直接支持 |
-| [C045](#c045) | manuscript.tex:508 | zhuge2024gptswarm | 直接支持 |
-| [C046](#c046) | manuscript.tex:514 | chen2024agentverse | 直接支持 |
-| [C047](#c047) | manuscript.tex:517 | kim2024mdagents | 直接支持 |
-| [C048](#c048) | manuscript.tex:526 | langgraph2024interrupt | 直接支持 |
-| [C049](#c049) | manuscript.tex:586 | du2024multiagent_debate | 作者推论，须标明边界 |
-| [C050](#c050) | manuscript.tex:590 | li2023camel | 作者推论，须标明边界 |
-| [C051](#c051) | manuscript.tex:594 | wu2024autogen | 直接支持 |
-| [C052](#c052) | manuscript.tex:600 | hong2024metagpt | 作者推论，须标明边界 |
-| [C053](#c053) | manuscript.tex:605 | zhao2024longagent, zhang2024chain_agents, jiang2026cocoa | 多来源支持程度不同 |
-| [C054](#c054) | manuscript.tex:613 | zhuge2024gptswarm, langgraph2024 | 多来源支持程度不同 |
-| [C055](#c055) | manuscript.tex:617 | kim2024mdagents | 直接支持 |
-| [C056](#c056) | manuscript.tex:621 | langgraph2024interrupt | 作者推论，须标明边界 |
-| [C057](#c057) | manuscript.tex:671 | han2024mast | 作者推论，须标明边界 |
-| [C058](#c058) | manuscript.tex:694 | peffers2007dsrm | 作者推论，须标明边界 |
-| [C059](#c059) | manuscript.tex:754 | tang2024medagents | 作者推论，须标明边界 |
-| [C060](#c060) | manuscript.tex:755 | tang2025llmmedqa | 作者推论，须标明边界 |
-| [C061](#c061) | manuscript.tex:756 | legalgraphrag2026 | 作者推论，须标明边界 |
-| [C062](#c062) | manuscript.tex:757 | hu2024triad | 作者推论，须标明边界 |
-| [C063](#c063) | manuscript.tex:758 | zhao2024longagent | 作者推论，须标明边界 |
-| [C064](#c064) | manuscript.tex:759 | qian2023chatdev | 作者推论，须标明边界 |
-| [C065](#c065) | manuscript.tex:760 | huang2023agentcoder | 作者推论，须标明边界 |
-| [C066](#c066) | manuscript.tex:761 | du2024multiagent_debate | 作者推论，须标明边界 |
-| [C067](#c067) | manuscript.tex:762 | zhang2024eduplanner | 作者推论，须标明边界 |
-| [C068](#c068) | manuscript.tex:763 | fatemi2024financialqa | 作者推论，须标明边界 |
-| [C069](#c069) | manuscript.tex:827 | wu2024autogen | 直接支持 |
-| [C070](#c070) | manuscript.tex:830 | qian2023chatdev | 直接支持 |
-| [C071](#c071) | manuscript.tex:846 | anthropic2024mcp | 直接支持 |
-| [C072](#c072) | manuscript.tex:847 | google2025a2a | 直接支持 |
-| [C073](#c073) | manuscript.tex:866 | wu2024autogen, qian2023chatdev, anthropic2024mcp, google2025a2a | 多来源支持程度不同 |
-| [C074](#c074) | manuscript.tex:887 | zhou2023least_to_most | 直接支持 |
-| [C075](#c075) | manuscript.tex:888 | khot2023decomposed_prompting | 直接支持 |
-| [C076](#c076) | manuscript.tex:890 | wang2023plan_and_solve | 直接支持 |
-| [C077](#c077) | manuscript.tex:911 | hong2024metagpt | 直接支持 |
-| [C078](#c078) | manuscript.tex:913 | chen2024agentverse | 直接支持 |
-| [C079](#c079) | manuscript.tex:921 | khattab2024dspy | 直接支持 |
-| [C080](#c080) | manuscript.tex:930 | zhou2023least_to_most, khot2023decomposed_prompting, wang2023plan_and_solve, hong2024metagpt, chen2024agentverse | 直接支持 |
-| [C081](#c081) | manuscript.tex:940 | khattab2024dspy | 直接支持 |
-| [C082](#c082) | manuscript.tex:988 | packer2023memgpt | 直接支持 |
-| [C083](#c083) | manuscript.tex:998 | zhang2024memory_survey | 部分支持/表述需收窄 |
-| [C084](#c084) | manuscript.tex:1000 | lewis2020rag, gao2024rag_survey | 直接支持 |
-| [C085](#c085) | manuscript.tex:1015 | asai2024selfrag | 直接支持 |
-| [C086](#c086) | manuscript.tex:1016 | jiang2023active_rag | 直接支持 |
-| [C087](#c087) | manuscript.tex:1028 | packer2023memgpt, lewis2020rag, gao2024rag_survey, asai2024selfrag, jiang2023active_rag | 直接支持 |
-| [C088](#c088) | manuscript.tex:1047 | wei2022chain_of_thought | 直接支持 |
-| [C089](#c089) | manuscript.tex:1050 | wang2023self_consistency | 直接支持 |
-| [C090](#c090) | manuscript.tex:1055 | du2024multiagent_debate, chen2024reconcile | 直接支持 |
-| [C091](#c091) | manuscript.tex:1076 | zhang2024chain_agents | 直接支持 |
-| [C092](#c092) | manuscript.tex:1078 | yao2023tree_of_thoughts | 直接支持 |
-| [C093](#c093) | manuscript.tex:1079 | besta2024graph_of_thoughts | 直接支持 |
-| [C094](#c094) | manuscript.tex:1083 | zhao2024longagent | 直接支持 |
-| [C095](#c095) | manuscript.tex:1093 | shinn2023reflexion | 直接支持 |
-| [C096](#c096) | manuscript.tex:1095 | madaan2023self_refine | 直接支持 |
-| [C097](#c097) | manuscript.tex:1097 | dhuliawala2023chain_of_verification | 直接支持 |
-| [C098](#c098) | manuscript.tex:1106 | wang2023self_consistency, du2024multiagent_debate, zhang2024chain_agents, shinn2023reflexion, madaan2023self_refine, dhuliawala2023chain_of_verification | 多来源支持程度不同 |
-| [C099](#c099) | manuscript.tex:1610 | anthropic2024mcp | 直接支持 |
-| [C100](#c100) | manuscript.tex:1622 | wu2024autogen, crewai2023, hong2024metagpt | 直接支持 |
-| [C101](#c101) | manuscript.tex:1626 | li2023camel, qian2023chatdev, hong2024metagpt | 直接支持 |
-| [C102](#c102) | manuscript.tex:1629 | wu2024autogen, duan2024langgraph_crewai, chen2024agentverse | 直接支持 |
-| [C103](#c103) | manuscript.tex:1633 | zhuge2024gptswarm, khattab2024dspy | 直接支持 |
-| [C104](#c104) | manuscript.tex:1662 | li2023camel | 直接支持 |
-| [C105](#c105) | manuscript.tex:1667 | qian2023chatdev | 直接支持 |
-| [C106](#c106) | manuscript.tex:1672 | hong2024metagpt | 直接支持 |
-| [C107](#c107) | manuscript.tex:1677 | wu2024autogen | 直接支持 |
-| [C108](#c108) | manuscript.tex:1682 | chen2024agentverse | 直接支持 |
-| [C109](#c109) | manuscript.tex:1687 | langgraph2024, langgraph2024interrupt | 作者推论，须标明边界 |
-| [C110](#c110) | manuscript.tex:1692 | zhuge2024gptswarm | 直接支持 |
-| [C111](#c111) | manuscript.tex:1697 | khattab2024dspy | 直接支持 |
-| [C112](#c112) | manuscript.tex:1723 | anthropic2024mcp | 部分支持/表述需收窄 |
-| [C113](#c113) | manuscript.tex:1763 | shao2024storm | 直接支持 |
-| [C114](#c114) | manuscript.tex:1767 | shao2024costorm | 直接支持 |
-| [C115](#c115) | manuscript.tex:1781 | ragflow2024 | 部分支持/表述需收窄 |
-| [C116](#c116) | manuscript.tex:1847 | yang2018hotpotqa | 直接支持 |
-| [C117](#c117) | manuscript.tex:1849 | reddy2019coqa | 直接支持 |
-| [C118](#c118) | manuscript.tex:1850 | hendrycks2021mmlu | 直接支持 |
-| [C119](#c119) | manuscript.tex:1852 | trivedi2022musique | 直接支持 |
-| [C120](#c120) | manuscript.tex:1858 | liu2024agentbench | 直接支持 |
-| [C121](#c121) | manuscript.tex:1860 | mialon2024gaia | 直接支持 |
-| [C122](#c122) | manuscript.tex:1861 | zhou2024webarena | 直接支持 |
-| [C123](#c123) | manuscript.tex:1891 | autorag2024 | 直接支持 |
-| [C124](#c124) | manuscript.tex:1939 | zhang2024eduplanner | 部分支持/表述需收窄 |
-| [C125](#c125) | manuscript.tex:1941 | fatemi2024financialqa | 部分支持/表述需收窄 |
-| [C126](#c126) | manuscript.tex:1959 | qian2024scaling_multiagent | 直接支持 |
-| [C127](#c127) | manuscript.tex:1986 | hendrycks2021mmlu, yang2018hotpotqa, liu2024agentbench, mialon2024gaia | 作者推论，须标明边界 |
-| [C128](#c128) | manuscript.tex:1992 | han2024mast | 作者推论，须标明边界 |
-| [C129](#c129) | manuscript.tex:2010 | tang2024medagents, cui2023chatlaw | 作者推论，须标明边界 |
-| [C130](#c130) | manuscript.tex:2011 | duan2024langgraph_crewai, langgraph2024interrupt | 直接支持 |
-| [C131](#c131) | manuscript.tex:2056 | wu2024autogen, langgraph2024, crewai2023, dify2024 | 多来源支持程度不同 |
-| [C132](#c132) | manuscript.tex:2068 | kim2024mdagents | 直接支持 |
-| [C133](#c133) | manuscript.tex:2070 | qian2024scaling_multiagent | 直接支持 |
-| [C134](#c134) | manuscript.tex:2104 | han2024mast | 直接支持 |
-| [C135](#c135) | manuscript.tex:2139 | zhang2024memory_survey, shinn2023reflexion | 多来源支持程度不同 |
-| [C136](#c136) | manuscript.tex:2147 | park2023generative_agents, chen2024agentverse | 前瞻建议，非原论文验证 |
+| [C009](#c009) | manuscript.tex:218 | chen2024reconcile | 直接支持 |
+| [C010](#c010) | manuscript.tex:218 | zhang2024chain_agents | 直接支持 |
+| [C011](#c011) | manuscript.tex:219 | jiang2026cocoa | 直接支持 |
+| [C012](#c012) | manuscript.tex:276 | karpukhin2020dpr | 直接支持 |
+| [C013](#c013) | manuscript.tex:276 | lewis2020rag | 直接支持 |
+| [C014](#c014) | manuscript.tex:279 | yang2018hotpotqa | 直接支持 |
+| [C015](#c015) | manuscript.tex:280 | kwiatkowski2019natural_questions | 直接支持 |
+| [C016](#c016) | manuscript.tex:281 | reddy2019coqa | 直接支持 |
+| [C017](#c017) | manuscript.tex:282 | choi2018quac | 直接支持 |
+| [C018](#c018) | manuscript.tex:299 | yao2023react | 直接支持 |
+| [C019](#c019) | manuscript.tex:313 | vaswani2017attention | 直接支持 |
+| [C020](#c020) | manuscript.tex:315 | devlin2019bert | 直接支持 |
+| [C021](#c021) | manuscript.tex:316 | brown2020gpt3 | 直接支持 |
+| [C022](#c022) | manuscript.tex:317 | openai2023gpt4 | 直接支持 |
+| [C023](#c023) | manuscript.tex:318 | touvron2023llama | 直接支持 |
+| [C024](#c024) | manuscript.tex:319 | glm2024chatglm | 直接支持 |
+| [C025](#c025) | manuscript.tex:321 | ouyang2022instructgpt | 直接支持 |
+| [C026](#c026) | manuscript.tex:372 | minsky1988society | 作者推论，须标明边界 |
+| [C027](#c027) | manuscript.tex:374 | park2023generative_agents | 直接支持 |
+| [C028](#c028) | manuscript.tex:379 | hong2024metagpt | 直接支持 |
+| [C029](#c029) | manuscript.tex:380 | li2023camel | 直接支持 |
+| [C030](#c030) | manuscript.tex:391 | zhao2024longagent, zhang2024chain_agents | 直接支持 |
+| [C031](#c031) | manuscript.tex:398 | du2024multiagent_debate, chen2024reconcile, xiong2023inter_consistency | 直接支持 |
+| [C032](#c032) | manuscript.tex:452 | du2024multiagent_debate | 直接支持 |
+| [C033](#c033) | manuscript.tex:452 | liang2024divergent_debate | 直接支持 |
+| [C034](#c034) | manuscript.tex:452 | chen2024reconcile | 直接支持 |
+| [C035](#c035) | manuscript.tex:452 | xiong2023inter_consistency | 直接支持 |
+| [C036](#c036) | manuscript.tex:457 | li2023camel | 直接支持 |
+| [C037](#c037) | manuscript.tex:462 | wu2024autogen | 直接支持 |
+| [C038](#c038) | manuscript.tex:477 | hong2024metagpt | 直接支持 |
+| [C039](#c039) | manuscript.tex:478 | qian2023chatdev | 直接支持 |
+| [C040](#c040) | manuscript.tex:487 | zhao2024longagent | 直接支持 |
+| [C041](#c041) | manuscript.tex:488 | zhang2024chain_agents | 直接支持 |
+| [C042](#c042) | manuscript.tex:490 | jiang2026cocoa | 直接支持 |
+| [C043](#c043) | manuscript.tex:494 | shen2024hugginggpt | 直接支持 |
+| [C044](#c044) | manuscript.tex:510 | langgraph2024 | 直接支持 |
+| [C045](#c045) | manuscript.tex:510 | zhuge2024gptswarm | 直接支持 |
+| [C046](#c046) | manuscript.tex:516 | chen2024agentverse | 直接支持 |
+| [C047](#c047) | manuscript.tex:519 | kim2024mdagents | 直接支持 |
+| [C048](#c048) | manuscript.tex:529 | langgraph2024interrupt | 直接支持 |
+| [C049](#c049) | manuscript.tex:590 | du2024multiagent_debate | 作者推论，须标明边界 |
+| [C050](#c050) | manuscript.tex:594 | li2023camel | 作者推论，须标明边界 |
+| [C051](#c051) | manuscript.tex:598 | wu2024autogen | 直接支持 |
+| [C052](#c052) | manuscript.tex:604 | hong2024metagpt | 作者推论，须标明边界 |
+| [C053](#c053) | manuscript.tex:609 | zhao2024longagent, zhang2024chain_agents, jiang2026cocoa | 多来源支持程度不同 |
+| [C054](#c054) | manuscript.tex:617 | zhuge2024gptswarm, langgraph2024 | 作者推论，须标明边界 |
+| [C055](#c055) | manuscript.tex:621 | kim2024mdagents | 作者推论，须标明边界 |
+| [C056](#c056) | manuscript.tex:625 | langgraph2024interrupt | 作者推论，须标明边界 |
+| [C057](#c057) | manuscript.tex:675 | han2024mast | 作者推论，须标明边界 |
+| [C058](#c058) | manuscript.tex:698 | peffers2007dsrm | 作者推论，须标明边界 |
+| [C059](#c059) | manuscript.tex:763 | tang2024medagents | 作者推论，须标明边界 |
+| [C060](#c060) | manuscript.tex:764 | tang2025llmmedqa | 作者推论，须标明边界 |
+| [C061](#c061) | manuscript.tex:765 | legalgraphrag2026 | 作者推论，须标明边界 |
+| [C062](#c062) | manuscript.tex:766 | hu2024triad | 作者推论，须标明边界 |
+| [C063](#c063) | manuscript.tex:767 | zhao2024longagent | 作者推论，须标明边界 |
+| [C064](#c064) | manuscript.tex:768 | qian2023chatdev | 作者推论，须标明边界 |
+| [C065](#c065) | manuscript.tex:769 | huang2023agentcoder | 作者推论，须标明边界 |
+| [C066](#c066) | manuscript.tex:770 | du2024multiagent_debate | 作者推论，须标明边界 |
+| [C067](#c067) | manuscript.tex:771 | zhang2024eduplanner | 作者推论，须标明边界 |
+| [C068](#c068) | manuscript.tex:772 | fatemi2024financialqa | 作者推论，须标明边界 |
+| [C069](#c069) | manuscript.tex:839 | wu2024autogen | 直接支持 |
+| [C070](#c070) | manuscript.tex:842 | qian2023chatdev | 直接支持 |
+| [C071](#c071) | manuscript.tex:858 | anthropic2024mcp | 直接支持 |
+| [C072](#c072) | manuscript.tex:859 | google2025a2a | 直接支持 |
+| [C073](#c073) | manuscript.tex:878 | wu2024autogen, qian2023chatdev, anthropic2024mcp, google2025a2a | 作者推论，须标明边界 |
+| [C074](#c074) | manuscript.tex:899 | zhou2023least_to_most | 直接支持 |
+| [C075](#c075) | manuscript.tex:900 | khot2023decomposed_prompting | 直接支持 |
+| [C076](#c076) | manuscript.tex:902 | wang2023plan_and_solve | 直接支持 |
+| [C077](#c077) | manuscript.tex:923 | hong2024metagpt | 直接支持 |
+| [C078](#c078) | manuscript.tex:925 | chen2024agentverse | 直接支持 |
+| [C079](#c079) | manuscript.tex:933 | khattab2024dspy | 直接支持 |
+| [C080](#c080) | manuscript.tex:942 | zhou2023least_to_most, khot2023decomposed_prompting, wang2023plan_and_solve, hong2024metagpt, chen2024agentverse | 直接支持 |
+| [C081](#c081) | manuscript.tex:952 | khattab2024dspy | 直接支持 |
+| [C082](#c082) | manuscript.tex:1000 | packer2023memgpt | 直接支持 |
+| [C083](#c083) | manuscript.tex:1010 | zhang2024memory_survey | 直接支持 |
+| [C084](#c084) | manuscript.tex:1012 | lewis2020rag, gao2024rag_survey | 直接支持 |
+| [C085](#c085) | manuscript.tex:1027 | asai2024selfrag | 直接支持 |
+| [C086](#c086) | manuscript.tex:1028 | jiang2023active_rag | 直接支持 |
+| [C087](#c087) | manuscript.tex:1040 | packer2023memgpt, lewis2020rag, gao2024rag_survey, asai2024selfrag, jiang2023active_rag | 直接支持 |
+| [C088](#c088) | manuscript.tex:1059 | wei2022chain_of_thought | 直接支持 |
+| [C089](#c089) | manuscript.tex:1062 | wang2023self_consistency | 直接支持 |
+| [C090](#c090) | manuscript.tex:1067 | du2024multiagent_debate, chen2024reconcile | 直接支持 |
+| [C091](#c091) | manuscript.tex:1088 | zhang2024chain_agents | 直接支持 |
+| [C092](#c092) | manuscript.tex:1090 | yao2023tree_of_thoughts | 直接支持 |
+| [C093](#c093) | manuscript.tex:1091 | besta2024graph_of_thoughts | 直接支持 |
+| [C094](#c094) | manuscript.tex:1095 | zhao2024longagent | 直接支持 |
+| [C095](#c095) | manuscript.tex:1105 | shinn2023reflexion | 直接支持 |
+| [C096](#c096) | manuscript.tex:1107 | madaan2023self_refine | 直接支持 |
+| [C097](#c097) | manuscript.tex:1109 | dhuliawala2023chain_of_verification | 直接支持 |
+| [C098](#c098) | manuscript.tex:1118 | wang2023self_consistency, du2024multiagent_debate, zhang2024chain_agents, shinn2023reflexion, madaan2023self_refine, dhuliawala2023chain_of_verification | 直接支持 |
+| [C099](#c099) | manuscript.tex:1622 | anthropic2024mcp | 直接支持 |
+| [C100](#c100) | manuscript.tex:1634 | wu2024autogen, crewai2023, hong2024metagpt | 直接支持 |
+| [C101](#c101) | manuscript.tex:1638 | li2023camel, qian2023chatdev, hong2024metagpt | 直接支持 |
+| [C102](#c102) | manuscript.tex:1641 | wu2024autogen, duan2024langgraph_crewai, chen2024agentverse | 直接支持 |
+| [C103](#c103) | manuscript.tex:1645 | zhuge2024gptswarm, khattab2024dspy | 直接支持 |
+| [C104](#c104) | manuscript.tex:1674 | li2023camel | 作者推论，须标明边界 |
+| [C105](#c105) | manuscript.tex:1679 | qian2023chatdev | 直接支持 |
+| [C106](#c106) | manuscript.tex:1684 | hong2024metagpt | 直接支持 |
+| [C107](#c107) | manuscript.tex:1689 | wu2024autogen | 直接支持 |
+| [C108](#c108) | manuscript.tex:1694 | chen2024agentverse | 作者推论，须标明边界 |
+| [C109](#c109) | manuscript.tex:1699 | langgraph2024, langgraph2024interrupt | 作者推论，须标明边界 |
+| [C110](#c110) | manuscript.tex:1704 | zhuge2024gptswarm | 作者推论，须标明边界 |
+| [C111](#c111) | manuscript.tex:1709 | khattab2024dspy | 直接支持 |
+| [C112](#c112) | manuscript.tex:1735 | anthropic2024mcp | 直接支持 |
+| [C113](#c113) | manuscript.tex:1775 | shao2024storm | 直接支持 |
+| [C114](#c114) | manuscript.tex:1779 | shao2024costorm | 直接支持 |
+| [C115](#c115) | manuscript.tex:1793 | ragflow2024 | 直接支持 |
+| [C116](#c116) | manuscript.tex:1859 | yang2018hotpotqa | 直接支持 |
+| [C117](#c117) | manuscript.tex:1861 | reddy2019coqa | 直接支持 |
+| [C118](#c118) | manuscript.tex:1862 | hendrycks2021mmlu | 直接支持 |
+| [C119](#c119) | manuscript.tex:1864 | trivedi2022musique | 直接支持 |
+| [C120](#c120) | manuscript.tex:1870 | liu2024agentbench | 直接支持 |
+| [C121](#c121) | manuscript.tex:1872 | mialon2024gaia | 直接支持 |
+| [C122](#c122) | manuscript.tex:1873 | zhou2024webarena | 直接支持 |
+| [C123](#c123) | manuscript.tex:1903 | autorag2024 | 直接支持 |
+| [C124](#c124) | manuscript.tex:1951 | zhang2024eduplanner | 直接支持 |
+| [C125](#c125) | manuscript.tex:1953 | fatemi2024financialqa | 直接支持 |
+| [C126](#c126) | manuscript.tex:1971 | qian2024scaling_multiagent | 直接支持 |
+| [C127](#c127) | manuscript.tex:1998 | hendrycks2021mmlu, yang2018hotpotqa, liu2024agentbench, mialon2024gaia | 作者推论，须标明边界 |
+| [C128](#c128) | manuscript.tex:2004 | han2024mast | 作者推论，须标明边界 |
+| [C129](#c129) | manuscript.tex:2022 | tang2024medagents, cui2023chatlaw | 作者推论，须标明边界 |
+| [C130](#c130) | manuscript.tex:2023 | duan2024langgraph_crewai, langgraph2024interrupt | 直接支持 |
+| [C131](#c131) | manuscript.tex:2068 | wu2024autogen, langgraph2024, crewai2023, dify2024 | 作者推论，须标明边界 |
+| [C132](#c132) | manuscript.tex:2080 | kim2024mdagents | 直接支持 |
+| [C133](#c133) | manuscript.tex:2082 | qian2024scaling_multiagent | 直接支持 |
+| [C134](#c134) | manuscript.tex:2116 | han2024mast | 直接支持 |
+| [C135](#c135) | manuscript.tex:2151 | zhang2024memory_survey, shinn2023reflexion | 多来源支持程度不同 |
+| [C136](#c136) | manuscript.tex:2159 | park2023generative_agents, chen2024agentverse | 前瞻建议，非原论文验证 |
 
 <a id="c001"></a>
 ## C001 · manuscript.tex:134
@@ -202,7 +202,11 @@
 
 - Retain the source for the corresponding method/dataset/capability clause. Other clauses in a multi-source command are outside this key's evidence scope.
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \citep{minsky1988society} and the formal foundations of multi-agent systems \citep{wooldridge1995intelligent}.
 
 <a id="c004"></a>
 ## C004 · manuscript.tex:150
@@ -219,7 +223,11 @@
 
 - Retain the source for the corresponding method/dataset/capability clause. Other clauses in a multi-source command are outside this key's evidence scope.
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \citep{minsky1988society} and the formal foundations of multi-agent systems \citep{wooldridge1995intelligent}.
 
 <a id="c005"></a>
 ## C005 · manuscript.tex:152
@@ -230,13 +238,17 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [wu2024autogen](https://arxiv.org/html/2308.08155v2) | Sections 2–3; Appendix A.5 (GroupChatManager) | Conversable customizable agents combine LLMs, tools and humans. GroupChatManager selects a speaker, collects a response and broadcasts it; developer-defined patterns and group-chat comparisons are reported. | 直接支持 |
+| [wu2024autogen](D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf) | COLM2024 formal PDF p1; §§2.1–2.2 pp3–6; §3 A5 p9 | Conversable agents use developer-defined conversation control; GroupChatManager selects speakers and broadcasts responses. | 直接支持 |
 
 处理建议：
 
-- Retain the source for the corresponding method/dataset/capability clause. Other clauses in a multi-source command are outside this key's evidence scope.
+- 按COLM2024正式§§2.1–2.2及§3A5复核；通用选择/部署建议保持作者分析，不归为该文实测效果。
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> For example, influential frameworks such as AutoGen \citep{wu2024autogen} and MetaGPT \citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination.
 
 <a id="c006"></a>
 ## C006 · manuscript.tex:153
@@ -253,7 +265,11 @@
 
 - Retain the source for the corresponding method/dataset/capability clause. Other clauses in a multi-source command are outside this key's evidence scope.
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> For example, influential frameworks such as AutoGen \citep{wu2024autogen} and MetaGPT \citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination.
 
 <a id="c007"></a>
 ## C007 · manuscript.tex:155
@@ -264,13 +280,17 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [du2024multiagent_debate](https://arxiv.org/pdf/2305.14325) | Sections 3.1–3.3, Tables 1–2 | Mutual debate and multiple independent responses are evaluated against single-agent/reflection/majority baselines on specified reasoning/factual tasks. This supports 'can improve' as a conditional claim, but does not independently establish every role-specialization/decomposition mechanism in the sentence. | 直接支持 |
+| [du2024multiagent_debate](https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf) | Formal ICML2024 §§2.1–2.2, Fig2–3 physical pp2–4; §§3.1–3.2/Tables1–2 physical pp4–6 | Each model instance updates its own answer from peer responses using repeated common prompts; disagreement at debate end uses majority rule. Arithmetic/GSM8K/MMLU and factual tasks compare debate with single-agent and reflection baselines; convergence is not guaranteed. | 直接支持 |
 
 处理建议：
 
 - Retain the conditional 'can improve' wording and associate this key with the mutual-debate clause.
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> Through role specialization, mutual debate \citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.
 
 <a id="c008"></a>
 ## C008 · manuscript.tex:161
@@ -298,19 +318,19 @@
 > Although several surveys on LLM-based agents exist \citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents}, they focus primarily on general agent architectures or foundational capabilities.
 
 <a id="c009"></a>
-## C009 · manuscript.tex:221
+## C009 · manuscript.tex:218
 
 原句/表格行：
 
-> It added ReConcile \citep{chen2024reconcile}, Chain-of-Agents \citep{zhang2024chain_agents}, and CoCoA \citep{jiang2026cocoa}.
+> The historical working records list ReConcile \citep{chen2024reconcile}, Chain-of-Agents \citep{zhang2024chain_agents}, and CoCoA \citep{jiang2026cocoa} as additions.
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [chen2024reconcile](https://aclanthology.org/2024.acl-long.381/) | Export citation and abstract | ReConcile is an ACL 2024 multi-model discussion study. | 部分支持/表述需收窄 |
+| [chen2024reconcile](https://aclanthology.org/2024.acl-long.381/) | §3–4/Fig2, §5/Table2, printed7069–7072 | Distinct LLMs exchange candidate answers and confidence for QA and reasoning benchmarks. | 直接支持 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Source confirms identity, not the manuscript's historical update-search action; link internal dated search evidence.
+- 仅引用作品身份和发表日期；历史增补以working records注明，未把论文存在当作原始检索操作证明。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -319,19 +339,19 @@
 > Three directly relevant studies absent from the initial collection were added after full metadata verification: ReConcile \citep{chen2024reconcile}, Chain-of-Agents \citep{zhang2024chain_agents}, and CoCoA \citep{jiang2026cocoa}.
 
 <a id="c010"></a>
-## C010 · manuscript.tex:221
+## C010 · manuscript.tex:218
 
 原句/表格行：
 
-> It added ReConcile \citep{chen2024reconcile}, Chain-of-Agents \citep{zhang2024chain_agents}, and CoCoA \citep{jiang2026cocoa}.
+> The historical working records list ReConcile \citep{chen2024reconcile}, Chain-of-Agents \citep{zhang2024chain_agents}, and CoCoA \citep{jiang2026cocoa} as additions.
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract-Conference.html) | Official title/authors/proceedings | CoA is a NeurIPS 2024 long-context collaboration study. | 部分支持/表述需收窄 |
+| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf) | §3/Algorithm1, §4 QA datasets/Table1, physical pp4–6 | Sequential worker LLMs pass evidence to a manager; QA is a main evaluation track alongside other tasks. | 直接支持 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Keep identity; independently document when it was added and what metadata fields were verified.
+- 仅引用作品身份和发表日期；历史增补以working records注明，未把论文存在当作原始检索操作证明。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -340,19 +360,19 @@
 > Three directly relevant studies absent from the initial collection were added after full metadata verification: ReConcile \citep{chen2024reconcile}, Chain-of-Agents \citep{zhang2024chain_agents}, and CoCoA \citep{jiang2026cocoa}.
 
 <a id="c011"></a>
-## C011 · manuscript.tex:222
+## C011 · manuscript.tex:219
 
 原句/表格行：
 
-> It added ReConcile \citep{chen2024reconcile}, Chain-of-Agents \citep{zhang2024chain_agents}, and CoCoA \citep{jiang2026cocoa}.
+> The historical working records list ReConcile \citep{chen2024reconcile}, Chain-of-Agents \citep{zhang2024chain_agents}, and CoCoA \citep{jiang2026cocoa} as additions.
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [jiang2026cocoa](https://aclanthology.org/2026.acl-long.167/) | Export citation; month/year | ACL metadata dates CoCoA to July 2026. | 部分支持/表述需收窄 |
+| [jiang2026cocoa](https://aclanthology.org/2026.acl-long.167.pdf) | §3.2/Algorithm1 and §4/Tables1–2, printed3665–3668 | CoCoA-zero uses internal, external and decision agents for evaluated QA; distilled CoCoA is a separate single-model system. | 直接支持 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Keep eligible July 2026 record; distinguish paper identity from proof that a targeted search added it.
+- 仅引用作品身份和发表日期；历史增补以working records注明，未把论文存在当作原始检索操作证明。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -361,7 +381,7 @@
 > Three directly relevant studies absent from the initial collection were added after full metadata verification: ReConcile \citep{chen2024reconcile}, Chain-of-Agents \citep{zhang2024chain_agents}, and CoCoA \citep{jiang2026cocoa}.
 
 <a id="c012"></a>
-## C012 · manuscript.tex:274
+## C012 · manuscript.tex:276
 
 原句/表格行：
 
@@ -378,7 +398,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c013"></a>
-## C013 · manuscript.tex:274
+## C013 · manuscript.tex:276
 
 原句/表格行：
 
@@ -395,7 +415,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c014"></a>
-## C014 · manuscript.tex:277
+## C014 · manuscript.tex:279
 
 原句/表格行：
 
@@ -412,7 +432,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c015"></a>
-## C015 · manuscript.tex:278
+## C015 · manuscript.tex:280
 
 原句/表格行：
 
@@ -429,7 +449,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c016"></a>
-## C016 · manuscript.tex:279
+## C016 · manuscript.tex:281
 
 原句/表格行：
 
@@ -446,7 +466,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c017"></a>
-## C017 · manuscript.tex:280
+## C017 · manuscript.tex:282
 
 原句/表格行：
 
@@ -463,7 +483,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c018"></a>
-## C018 · manuscript.tex:297
+## C018 · manuscript.tex:299
 
 原句/表格行：
 
@@ -480,7 +500,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c019"></a>
-## C019 · manuscript.tex:311
+## C019 · manuscript.tex:313
 
 原句/表格行：
 
@@ -501,7 +521,7 @@
 > Representative milestones include the Transformer \citep{vaswani2017attention}, which introduced self-attention; BERT \citep{devlin2019bert}, which established the pre-train--fine-tune paradigm; and GPT-3 \citep{brown2020gpt3} and GPT-4 \citep{openai2023gpt4}, which demonstrated powerful few-shot and zero-shot capabilities.
 
 <a id="c020"></a>
-## C020 · manuscript.tex:313
+## C020 · manuscript.tex:315
 
 原句/表格行：
 
@@ -522,7 +542,7 @@
 > Representative milestones include the Transformer \citep{vaswani2017attention}, which introduced self-attention; BERT \citep{devlin2019bert}, which established the pre-train--fine-tune paradigm; and GPT-3 \citep{brown2020gpt3} and GPT-4 \citep{openai2023gpt4}, which demonstrated powerful few-shot and zero-shot capabilities.
 
 <a id="c021"></a>
-## C021 · manuscript.tex:314
+## C021 · manuscript.tex:316
 
 原句/表格行：
 
@@ -543,7 +563,7 @@
 > Representative milestones include the Transformer \citep{vaswani2017attention}, which introduced self-attention; BERT \citep{devlin2019bert}, which established the pre-train--fine-tune paradigm; and GPT-3 \citep{brown2020gpt3} and GPT-4 \citep{openai2023gpt4}, which demonstrated powerful few-shot and zero-shot capabilities.
 
 <a id="c022"></a>
-## C022 · manuscript.tex:315
+## C022 · manuscript.tex:317
 
 原句/表格行：
 
@@ -564,7 +584,7 @@
 > Representative milestones include the Transformer \citep{vaswani2017attention}, which introduced self-attention; BERT \citep{devlin2019bert}, which established the pre-train--fine-tune paradigm; and GPT-3 \citep{brown2020gpt3} and GPT-4 \citep{openai2023gpt4}, which demonstrated powerful few-shot and zero-shot capabilities.
 
 <a id="c023"></a>
-## C023 · manuscript.tex:316
+## C023 · manuscript.tex:318
 
 原句/表格行：
 
@@ -585,7 +605,7 @@
 > Open-source models such as LLaMA \citep{touvron2023llama} and ChatGLM \citep{glm2024chatglm} further democratized agent development, while InstructGPT \citep{ouyang2022instructgpt} exemplifies the use of Reinforcement Learning from Human Feedback (RLHF) to improve instruction following.
 
 <a id="c024"></a>
-## C024 · manuscript.tex:317
+## C024 · manuscript.tex:319
 
 原句/表格行：
 
@@ -606,7 +626,7 @@
 > Open-source models such as LLaMA \citep{touvron2023llama} and ChatGLM \citep{glm2024chatglm} further democratized agent development, while InstructGPT \citep{ouyang2022instructgpt} exemplifies the use of Reinforcement Learning from Human Feedback (RLHF) to improve instruction following.
 
 <a id="c025"></a>
-## C025 · manuscript.tex:319
+## C025 · manuscript.tex:321
 
 原句/表格行：
 
@@ -627,7 +647,7 @@
 > Open-source models such as LLaMA \citep{touvron2023llama} and ChatGLM \citep{glm2024chatglm} further democratized agent development, while InstructGPT \citep{ouyang2022instructgpt} exemplifies the use of Reinforcement Learning from Human Feedback (RLHF) to improve instruction following.
 
 <a id="c026"></a>
-## C026 · manuscript.tex:370
+## C026 · manuscript.tex:372
 
 原句/表格行：
 
@@ -648,7 +668,7 @@
 > Inspired by Minsky's Society of Mind \citep{minsky1988society}, a multi-agent architecture decomposes a complex task and assigns subtasks to agents with distinct responsibilities \citep{park2023generative_agents}.
 
 <a id="c027"></a>
-## C027 · manuscript.tex:372
+## C027 · manuscript.tex:374
 
 原句/表格行：
 
@@ -669,7 +689,7 @@
 > Inspired by Minsky's Society of Mind \citep{minsky1988society}, a multi-agent architecture decomposes a complex task and assigns subtasks to agents with distinct responsibilities \citep{park2023generative_agents}.
 
 <a id="c028"></a>
-## C028 · manuscript.tex:377
+## C028 · manuscript.tex:379
 
 原句/表格行：
 
@@ -690,7 +710,7 @@
 > MetaGPT demonstrates role allocation among product managers, architects, and engineers in software development \citep{hong2024metagpt}, while CAMEL studies sustained interaction between user and assistant roles \citep{li2023camel}.
 
 <a id="c029"></a>
-## C029 · manuscript.tex:378
+## C029 · manuscript.tex:380
 
 原句/表格行：
 
@@ -711,7 +731,7 @@
 > MetaGPT demonstrates role allocation among product managers, architects, and engineers in software development \citep{hong2024metagpt}, while CAMEL studies sustained interaction between user and assistant roles \citep{li2023camel}.
 
 <a id="c030"></a>
-## C030 · manuscript.tex:389
+## C030 · manuscript.tex:391
 
 原句/表格行：
 
@@ -719,8 +739,8 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhao2024longagent](https://aclanthology.org/2024.emnlp-main.912/) | abstract | leader协调成员分块处理长文并综合，支持当前can support broader coverage的限定表述；段落后续聚合瓶颈属于作者分析。 | 直接支持 |
-| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract-Conference.html) | Abstract | Sequential workers cover different text segments before manager synthesis. | 直接支持 |
+| [zhao2024longagent](https://aclanthology.org/2024.emnlp-main.912/) | §2, §3 and Table1, printed16311–16315 | Leader/member LLM agents perform long-document QA and empirical retrieval and multi-hop tests. | 直接支持 |
+| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf) | §3/Algorithm1, §4 QA datasets/Table1, physical pp4–6 | Sequential worker LLMs pass evidence to a manager; QA is a main evaluation track alongside other tasks. | 直接支持 |
 
 处理建议：
 
@@ -730,28 +750,30 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c031"></a>
-## C031 · manuscript.tex:397
+## C031 · manuscript.tex:398
 
 原句/表格行：
 
-> Debate, cross-checking, and reconciliation may expose errors that self-refinement within one workflow overlooks \citep{du2024multiagent_debate,chen2024reconcile, xiong2023inter_consistency}.
+> Debate and reconciliation compare answers from different reasoners \citep{du2024multiagent_debate,chen2024reconcile, xiong2023inter_consistency}; their benefits depend on the task and the agents involved.
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [du2024multiagent_debate](https://arxiv.org/pdf/2305.14325) | Sections 3.1–3.3, Tables 1–2 | Sections3.1–3.3 compare debate with single-agent and reflection baselines and report improvements on the evaluated reasoning/factual tasks. The cautious 'may expose errors' formulation fits those results. | 直接支持 |
-| [chen2024reconcile](https://aclanthology.org/2024.acl-long.381/) | Abstract | Diverse models discuss answers and vote using confidence. | 部分支持/表述需收窄 |
-| [xiong2023inter_consistency](https://aclanthology.org/2023.findings-emnlp.508.pdf) | FORD three-stage debate method; inter-consistency experiments; capability-imbalance discussion | FORD studies inter-model consistency and multi-stage debate, including capability imbalance and strong-model domination. It supports checking diverse models but does not alone establish a general comparison with every self-refinement workflow. | 部分支持/表述需收窄 |
+| [du2024multiagent_debate](https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf) | Formal ICML2024 §§2.1–2.2, Fig2–3 physical pp2–4; §§3.1–3.2/Tables1–2 physical pp4–6 | Each model instance updates its own answer from peer responses using repeated common prompts; disagreement at debate end uses majority rule. Arithmetic/GSM8K/MMLU and factual tasks compare debate with single-agent and reflection baselines; convergence is not guaranteed. | 直接支持 |
+| [chen2024reconcile](https://aclanthology.org/2024.acl-long.381/) | §3–4/Fig2, §5/Table2, printed7069–7072 | Distinct LLMs exchange candidate answers and confidence for QA and reasoning benchmarks. | 直接支持 |
+| [xiong2023inter_consistency](https://aclanthology.org/2023.findings-emnlp.508.pdf) | §2.1/Table1, §3/FORD, printed7573–7575 | At least two LLM debaters and a judge are evaluated on commonsense QA and StrategyQA. | 直接支持 |
 
 处理建议：
 
-- Retain 'may' and the comparison's task-conditional scope.
-- Current wording re-read against retained source evidence. Keep the qualified may-correct-errors claim; avoid universal superiority to self-refinement based on abstract evidence.
-- Retain the grouped conditional claim because Du supplies the reflection comparison; avoid attributing a universal self-refinement superiority result to Xiong.
+- 当前只说跨reasoner答案对比；已撤去全部来源均证明普遍优于自我修正的含义。
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> Debate, cross-checking, and reconciliation may expose errors that self-refinement within one workflow overlooks \citep{du2024multiagent_debate,chen2024reconcile, xiong2023inter_consistency}.
 
 <a id="c032"></a>
-## C032 · manuscript.tex:450
+## C032 · manuscript.tex:452
 
 原句/表格行：
 
@@ -759,7 +781,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [du2024multiagent_debate](https://arxiv.org/pdf/2305.14325) | Sections 3.1–3.3, Tables 1–2 | Debate is tested on arithmetic, GSM8K, chess, biographies and MMLU against single-agent, reflection and majority-vote baselines. Agent/round-count benefits are task-conditional, not a universal QA guarantee. | 直接支持 |
+| [du2024multiagent_debate](https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf) | Formal ICML2024 §§2.1–2.2, Fig2–3 physical pp2–4; §§3.1–3.2/Tables1–2 physical pp4–6 | Each model instance updates its own answer from peer responses using repeated common prompts; disagreement at debate end uses majority rule. Arithmetic/GSM8K/MMLU and factual tasks compare debate with single-agent and reflection baselines; convergence is not guaranteed. | 直接支持 |
 
 处理建议：
 
@@ -772,7 +794,7 @@
 > For example, \citet{du2024multiagent_debate} report improved factuality and reasoning performance on the tasks they evaluate, whereas divergent prompting can mitigate convergence toward similar reasoning paths \citep{liang2024divergent_debate}.
 
 <a id="c033"></a>
-## C033 · manuscript.tex:450
+## C033 · manuscript.tex:452
 
 原句/表格行：
 
@@ -780,7 +802,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [liang2024divergent_debate](https://aclanthology.org/2024.emnlp-main.992.pdf) | Section2; Section4; AppendixD Table11 | The MAD method assigns affirmative/negative/judge roles and studies prompts that preserve disagreement; moderate tit-for-tat settings improve outcomes in the paper's experiments. This supports divergent prompting as a mitigation approach. | 直接支持 |
+| [liang2024divergent_debate](https://aclanthology.org/2024.emnlp-main.992.pdf) | §2–3, printed17890–17893 | Two LLM debaters and a judge answer counter-intuitive arithmetic questions; translation is an additional task. | 直接支持 |
 
 处理建议：
 
@@ -793,7 +815,7 @@
 > For example, \citet{du2024multiagent_debate} report improved factuality and reasoning performance on the tasks they evaluate, whereas divergent prompting can mitigate convergence toward similar reasoning paths \citep{liang2024divergent_debate}.
 
 <a id="c034"></a>
-## C034 · manuscript.tex:450
+## C034 · manuscript.tex:452
 
 原句/表格行：
 
@@ -801,7 +823,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [chen2024reconcile](https://aclanthology.org/2024.acl-long.381/) | Abstract | Heterogeneous models and confidence-weighted voting improve consensus on evaluated tasks. | 直接支持 |
+| [chen2024reconcile](https://aclanthology.org/2024.acl-long.381/) | §3–4/Fig2, §5/Table2, printed7069–7072 | Distinct LLMs exchange candidate answers and confidence for QA and reasoning benchmarks. | 直接支持 |
 
 处理建议：
 
@@ -814,7 +836,7 @@
 > ReConcile provides another example by integrating heterogeneous models with confidence-weighted consensus \citep{chen2024reconcile}; answer consistency and degeneration nevertheless remain notable failure modes \citep{xiong2023inter_consistency}.
 
 <a id="c035"></a>
-## C035 · manuscript.tex:450
+## C035 · manuscript.tex:452
 
 原句/表格行：
 
@@ -822,7 +844,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [xiong2023inter_consistency](https://aclanthology.org/2023.findings-emnlp.508.pdf) | FORD method and inter-consistency/capability-imbalance experiments/discussion | FORD's debate experiments examine inter-model consistency and effects of capability imbalance/strong-model domination. Current wording names those considerations and removes the misattributed degeneration concept. | 直接支持 |
+| [xiong2023inter_consistency](https://aclanthology.org/2023.findings-emnlp.508.pdf) | §2.1/Table1, §3/FORD, printed7573–7575 | At least two LLM debaters and a judge are evaluated on commonsense QA and StrategyQA. | 直接支持 |
 
 处理建议：
 
@@ -835,7 +857,7 @@
 > ReConcile provides another example by integrating heterogeneous models with confidence-weighted consensus \citep{chen2024reconcile}; answer consistency and degeneration nevertheless remain notable failure modes \citep{xiong2023inter_consistency}.
 
 <a id="c036"></a>
-## C036 · manuscript.tex:455
+## C036 · manuscript.tex:457
 
 原句/表格行：
 
@@ -849,10 +871,14 @@
 
 - Retain the source for the corresponding method/dataset/capability clause. Other clauses in a multi-source command are outside this key's evidence scope.
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> For example, CAMEL \citep{li2023camel} employs an "AI User" and an "AI Assistant" paired with inception prompting to maintain role-conditioned interaction.
 
 <a id="c037"></a>
-## C037 · manuscript.tex:460
+## C037 · manuscript.tex:462
 
 原句/表格行：
 
@@ -860,16 +886,16 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [wu2024autogen](https://arxiv.org/html/2308.08155v2) | Sections 2–3; Appendix A.5 (GroupChatManager) | AutoGen's conversable-agent design permits developer-defined conversation patterns; GroupChatManager provides configurable speaker selection and broadcast. The manuscript explicitly avoids claiming that the framework enforces a flat topology. | 直接支持 |
+| [wu2024autogen](D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf) | COLM2024 formal PDF p1; §§2.1–2.2 pp3–6; §3 A5 p9 | Conversable agents use developer-defined conversation control; GroupChatManager selects speakers and broadcasts responses. | 直接支持 |
 
 处理建议：
 
-- Retain this nuanced configuration-dependent statement.
+- 按COLM2024正式§§2.1–2.2及§3A5复核；通用选择/部署建议保持作者分析，不归为该文实测效果。
 
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c038"></a>
-## C038 · manuscript.tex:475
+## C038 · manuscript.tex:477
 
 原句/表格行：
 
@@ -886,7 +912,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c039"></a>
-## C039 · manuscript.tex:476
+## C039 · manuscript.tex:478
 
 原句/表格行：
 
@@ -903,7 +929,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c040"></a>
-## C040 · manuscript.tex:485
+## C040 · manuscript.tex:487
 
 原句/表格行：
 
@@ -911,7 +937,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhao2024longagent](https://aclanthology.org/2024.emnlp-main.912/) | abstract | leader分配文档片段给成员并多轮讨论形成答案。 | 直接支持 |
+| [zhao2024longagent](https://aclanthology.org/2024.emnlp-main.912/) | §2, §3 and Table1, printed16311–16315 | Leader/member LLM agents perform long-document QA and empirical retrieval and multi-hop tests. | 直接支持 |
 
 处理建议：
 
@@ -924,7 +950,7 @@
 > Representative implementations include LONGAGENT \citep{zhao2024longagent}, which coordinates a leader with document-reading members; Chain-of-Agents \citep{zhang2024chain_agents}, which propagates information across context segments before synthesis; and CoCoA \citep{jiang2026cocoa}, which coordinates parametric and retrieved knowledge for QA.
 
 <a id="c041"></a>
-## C041 · manuscript.tex:486
+## C041 · manuscript.tex:488
 
 原句/表格行：
 
@@ -932,7 +958,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract-Conference.html) | Abstract | Workers sequentially pass information from context segments to a manager. | 直接支持 |
+| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf) | §3/Algorithm1, §4 QA datasets/Table1, physical pp4–6 | Sequential worker LLMs pass evidence to a manager; QA is a main evaluation track alongside other tasks. | 直接支持 |
 
 处理建议：
 
@@ -945,7 +971,7 @@
 > Representative implementations include LONGAGENT \citep{zhao2024longagent}, which coordinates a leader with document-reading members; Chain-of-Agents \citep{zhang2024chain_agents}, which propagates information across context segments before synthesis; and CoCoA \citep{jiang2026cocoa}, which coordinates parametric and retrieved knowledge for QA.
 
 <a id="c042"></a>
-## C042 · manuscript.tex:488
+## C042 · manuscript.tex:490
 
 原句/表格行：
 
@@ -953,7 +979,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [jiang2026cocoa](https://aclanthology.org/2026.acl-long.167.pdf) | §1 p.3664; §3.2–3.3 pp.3665–3666 | CoCoA-zero combines three agents for parametric/retrieved knowledge integration. CoCoA training transfers the collaborative process into one model; current text now distinguishes them. | 直接支持 |
+| [jiang2026cocoa](https://aclanthology.org/2026.acl-long.167.pdf) | §3.2/Algorithm1 and §4/Tables1–2, printed3665–3668 | CoCoA-zero uses internal, external and decision agents for evaluated QA; distilled CoCoA is a separate single-model system. | 直接支持 |
 
 处理建议：
 
@@ -966,7 +992,7 @@
 > Representative implementations include LONGAGENT \citep{zhao2024longagent}, which coordinates a leader with document-reading members; Chain-of-Agents \citep{zhang2024chain_agents}, which propagates information across context segments before synthesis; and CoCoA \citep{jiang2026cocoa}, which coordinates parametric and retrieved knowledge for QA.
 
 <a id="c043"></a>
-## C043 · manuscript.tex:492
+## C043 · manuscript.tex:494
 
 原句/表格行：
 
@@ -987,7 +1013,7 @@
 > By contrast, HuggingGPT \citep{shen2024hugginggpt} uses a controller to invoke specialised models and tools.
 
 <a id="c044"></a>
-## C044 · manuscript.tex:508
+## C044 · manuscript.tex:510
 
 原句/表格行：
 
@@ -1001,14 +1027,18 @@
 
 - Current wording re-read against retained source evidence. Retain as technical evidence, not comparative QA performance.
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> For example, LangGraph \citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation.
 
 <a id="c045"></a>
-## C045 · manuscript.tex:508
+## C045 · manuscript.tex:510
 
 原句/表格行：
 
-> GPTSwarm \citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections.
+> GPTSwarm \citep{zhuge2024gptswarm} provides an empirical example of optimising prompts and inter-agent graph connections.
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
@@ -1018,10 +1048,14 @@
 
 - 保留当前限定表述；来源支持上列具体机制，作者条件分析不作为该文实测结果。
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> GPTSwarm \citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections.
 
 <a id="c046"></a>
-## C046 · manuscript.tex:514
+## C046 · manuscript.tex:516
 
 原句/表格行：
 
@@ -1035,27 +1069,35 @@
 
 - 保留当前限定表述；来源支持上列具体机制，作者条件分析不作为该文实测结果。
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> For example, AgentVerse \citep{chen2024agentverse} describes an iterative pipeline consisting of expert recruitment, collaborative decision-making, action execution, and result evaluation.
 
 <a id="c047"></a>
-## C047 · manuscript.tex:517
+## C047 · manuscript.tex:519
 
 原句/表格行：
 
-> MDAgents \citep{kim2024mdagents} provides direct in-case evidence for adaptive medical collaboration.
+> MDAgents \citep{kim2024mdagents} routes medical queries to solo, multidisciplinary-team, or integrated-care-team pathways according to complexity under a moderator.
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [kim2024mdagents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html) | official abstract | 来源在医学QA基准按任务复杂度选择solo/group协作，可支撑adaptive medical collaboration；不能扩展为真实患者临床部署。 | 直接支持 |
+| [kim2024mdagents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html) | §3.1–3.4, §4/Table2, physical pp4–7 | Moderator and recruited specialist LLMs are evaluated on medical QA; the solo branch is not multi-agent evidence. | 直接支持 |
 
 处理建议：
 
 - 保留作为研究内基准证据；in-case不解释为真实临床验证。
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> MDAgents \citep{kim2024mdagents} provides direct in-case evidence for adaptive medical collaboration.
 
 <a id="c048"></a>
-## C048 · manuscript.tex:526
+## C048 · manuscript.tex:529
 
 原句/表格行：
 
@@ -1076,15 +1118,15 @@
 > For example, LangGraph supports pausing a workflow at defined breakpoints for human review \citep{langgraph2024}, which may be useful for high-risk decisions.
 
 <a id="c049"></a>
-## C049 · manuscript.tex:586
+## C049 · manuscript.tex:590
 
 原句/表格行：
 
-> \multirow{3}{*}{\textbf{Flat}} & Multi-agent debate & \citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\
+> \textbf{Flat} & Multi-agent debate & \citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [du2024multiagent_debate](https://arxiv.org/pdf/2305.14325) | Sections 3.1–3.3, Tables 1–2 | The source demonstrates peer debate and aggregation over independently generated answers. The table now omits 'degeneration', and its preceding text explicitly labels architecture labels, suitable contexts and limitations as author synthesis. | 作者推论，须标明边界 |
+| [du2024multiagent_debate](https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf) | Formal ICML2024 §§2.1–2.2, Fig2–3 physical pp2–4; §§3.1–3.2/Tables1–2 physical pp4–6 | Each model instance updates its own answer from peer responses using repeated common prompts; disagreement at debate end uses majority rule. Arithmetic/GSM8K/MMLU and factual tasks compare debate with single-agent and reflection baselines; convergence is not guaranteed. | 作者推论，须标明边界 |
 
 处理建议：
 
@@ -1097,11 +1139,11 @@
 > \multirow{3}{*}{\textbf{Flat}} & Multi-agent debate & \citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Cost, degeneration, and aggregation sensitivity \\
 
 <a id="c050"></a>
-## C050 · manuscript.tex:590
+## C050 · manuscript.tex:594
 
 原句/表格行：
 
-> & Role-conditioned collaboration & CAMEL \citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\
+> \textbf{Role-paired} & Role-conditioned collaboration & CAMEL \citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
@@ -1109,7 +1151,7 @@
 
 处理建议：
 
-- Retain the row and synthesis qualification; no comparative QA superiority is asserted.
+- 具体机制/资源能力获来源支持；控制权类别、适用情境及局限属于明确标注的作者分析。无条件flat/hybrid标签已移除。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1118,19 +1160,19 @@
 > & Role-conditioned collaboration & CAMEL \citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\
 
 <a id="c051"></a>
-## C051 · manuscript.tex:594
+## C051 · manuscript.tex:598
 
 原句/表格行：
 
-> & Group-chat collaboration & AutoGen \citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\
+> \textbf{Configurable} & Group-chat collaboration & AutoGen \citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [wu2024autogen](https://arxiv.org/html/2308.08155v2) | Sections 2–3; Appendix A.5 (GroupChatManager) | AutoGen supports configurable conversable agents and developer-specified patterns/speaker selection. Thus performance and instantiated topology depend on configuration, as the row states. | 直接支持 |
+| [wu2024autogen](D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf) | COLM2024 formal PDF p1; §§2.1–2.2 pp3–6; §3 A5 p9 | Conversable agents use developer-defined conversation control; GroupChatManager selects speakers and broadcasts responses. | 直接支持 |
 
 处理建议：
 
-- Retain the configuration-dependent description; flat classification applies to the illustrated group-chat pattern rather than all AutoGen applications.
+- 按COLM2024正式§§2.1–2.2及§3A5复核；通用选择/部署建议保持作者分析，不归为该文实测效果。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1139,11 +1181,11 @@
 > & Group-chat collaboration & AutoGen \citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\
 
 <a id="c052"></a>
-## C052 · manuscript.tex:600
+## C052 · manuscript.tex:604
 
 原句/表格行：
 
-> \multirow{3}{*}{\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\
+> \multirow{2}{*}{\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
@@ -1160,7 +1202,7 @@
 > \multirow{3}{*}{\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\
 
 <a id="c053"></a>
-## C053 · manuscript.tex:605
+## C053 · manuscript.tex:609
 
 原句/表格行：
 
@@ -1168,9 +1210,9 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhao2024longagent](https://aclanthology.org/2024.emnlp-main.912/) | abstract | 当前标签Staged evidence-processing准确涵盖leader控制成员分块阅读与最终综合，未再宣称独立retrieve阶段。 | 直接支持 |
-| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract-Conference.html) | Official abstract; sequential worker/manager method overview | Chain-of-Agents sequences successive long-context chunk workers, which accumulate and pass information before manager synthesis. This supports staged evidence processing; hierarchical placement and general synthesis limitations remain review interpretation. | 作者推论，须标明边界 |
-| [jiang2026cocoa](https://aclanthology.org/2026.acl-long.167.pdf) | §1 p.3664; §3.2–3.3 pp.3665–3666 | CoCoA-zero coordinates three agents to integrate parametric and retrieved knowledge; CoCoA training transfers their trajectories to one model. This supports a staged integration example; hierarchical placement and general synthesis limitations remain review interpretation. | 作者推论，须标明边界 |
+| [zhao2024longagent](https://aclanthology.org/2024.emnlp-main.912/) | §2, §3 and Table1, printed16311–16315 | Leader/member LLM agents perform long-document QA and empirical retrieval and multi-hop tests. | 直接支持 |
+| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf) | §3/Algorithm1, §4 QA datasets/Table1, physical pp4–6 | Sequential worker LLMs pass evidence to a manager; QA is a main evaluation track alongside other tasks. | 作者推论，须标明边界 |
+| [jiang2026cocoa](https://aclanthology.org/2026.acl-long.167.pdf) | §3.2/Algorithm1 and §4/Tables1–2, printed3665–3668 | CoCoA-zero uses internal, external and decision agents for evaluated QA; distilled CoCoA is a separate single-model system. | 作者推论，须标明边界 |
 
 处理建议：
 
@@ -1184,21 +1226,20 @@
 > & Plan--retrieve--generate pipeline & LONGAGENT; Chain-of-Agents; CoCoA \citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\
 
 <a id="c054"></a>
-## C054 · manuscript.tex:613
+## C054 · manuscript.tex:617
 
 原句/表格行：
 
-> \multirow{3}{*}{\textbf{Hybrid}} & Graph-structured agent networks & GPTSwarm; LangGraph \citep{zhuge2024gptswarm,langgraph2024} & DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\
+> textbf{cutting}}} & Graph-structured agent networks & GPTSwarm; LangGraph \citep{zhuge2024gptswarm,langgraph2024} & DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhuge2024gptswarm](https://arxiv.org/html/2402.16823v3) | v3 §§2.2--2.3 | §2.2规定agent/swarm为DAG，§2.3优化连边；当前行明确将其与LangGraph循环/路由分别归因。 | 直接支持 |
+| [zhuge2024gptswarm](https://arxiv.org/html/2402.16823v3) | v3 §§2.2--2.3 | §2.2规定agent/swarm为DAG，§2.3优化连边；当前行明确将其与LangGraph循环/路由分别归因。 | 作者推论，须标明边界 |
 | [langgraph2024](https://www.langchain.com/blog/langgraph-multi-agent-workflows) | Multi-agent definition; routing examples | Graph representation permits state transitions, routing and nested teams. | 作者推论，须标明边界 |
 
 处理建议：
 
-- 保留已区分的机制；本项仅核GPTSwarm部分。
-- Current wording re-read against retained source evidence. Keep technical capabilities; hybrid placement is author classification, not a reported original label.
+- 具体机制/资源能力获来源支持；控制权类别、适用情境及局限属于明确标注的作者分析。无条件flat/hybrid标签已移除。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1207,19 +1248,19 @@
 > \multirow{3}{*}{\textbf{Hybrid}} & Graph-structured agent networks & GPTSwarm; LangGraph \citep{zhuge2024gptswarm,langgraph2024} & Graph transitions permit loops, branches, and routing policies & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\
 
 <a id="c055"></a>
-## C055 · manuscript.tex:617
+## C055 · manuscript.tex:621
 
 原句/表格行：
 
-> & Adaptive collaboration-mode switching & MDAgents \citep{kim2024mdagents} & Changes collaboration in response to case characteristics & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\
+> & Adaptive collaboration-mode switching & MDAgents \citep{kim2024mdagents} & Moderator routes solo or team consultation according to complexity & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [kim2024mdagents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html) | abstract | 医学复杂度驱动solo/group团队结构选择。 | 直接支持 |
+| [kim2024mdagents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html) | §3.1–3.4, §4/Table2, physical pp4–7 | Moderator and recruited specialist LLMs are evaluated on medical QA; the solo branch is not multi-agent evidence. | 作者推论，须标明边界 |
 
 处理建议：
 
-- 保留当前限定表述；来源支持上列具体机制，作者条件分析不作为该文实测结果。
+- 具体机制/资源能力获来源支持；控制权类别、适用情境及局限属于明确标注的作者分析。无条件flat/hybrid标签已移除。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1228,7 +1269,7 @@
 > & Adaptive collaboration-mode switching & MDAgents \citep{kim2024mdagents} & Changes collaboration in response to case characteristics & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\
 
 <a id="c056"></a>
-## C056 · manuscript.tex:621
+## C056 · manuscript.tex:625
 
 原句/表格行：
 
@@ -1240,7 +1281,7 @@
 
 处理建议：
 
-- HITL source mismatch resolved by the independent December 2024 official article. Checkpointed interruption/review/resume is supported; high-risk usefulness or architecture placement is a design interpretation, not an evaluated safety guarantee.
+- 具体机制/资源能力获来源支持；控制权类别、适用情境及局限属于明确标注的作者分析。无条件flat/hybrid标签已移除。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1249,7 +1290,7 @@
 > & Human-in-the-loop design pattern & LangGraph breakpoints \citep{langgraph2024} & Human review at explicitly defined decision points & High-risk workflows requiring accountability & Direct comparative QA evidence remains limited \\
 
 <a id="c057"></a>
-## C057 · manuscript.tex:671
+## C057 · manuscript.tex:675
 
 原句/表格行：
 
@@ -1270,7 +1311,7 @@
 > A collaborative design is justified only when expected gains in coverage, reliability, or adaptability offset those costs \citep{han2024mast}.
 
 <a id="c058"></a>
-## C058 · manuscript.tex:694
+## C058 · manuscript.tex:698
 
 原句/表格行：
 
@@ -1287,19 +1328,19 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c059"></a>
-## C059 · manuscript.tex:754
+## C059 · manuscript.tex:763
 
 原句/表格行：
 
-> MedAgents \citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\triangle$ \\
+> MedAgents \citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\times$ \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [tang2024medagents](https://aclanthology.org/2024.findings-acl.33/) | §2/Figure2 pp3--4 | §2/Figure2五阶段专家分析、总结、咨询支持staged synthesis；high complexity/moderate risk及flat-vs-hybrid匹配是本文criteria coding，表头/注释已明确。 | 作者推论，须标明边界 |
+| [tang2024medagents](https://aclanthology.org/2024.findings-acl.33.pdf) | §§2.1–2.5, Algorithm1, printed601–603 | Experts analyse and vote; fixed report revision and final decision roles retain asymmetric authority. | 作者推论，须标明边界 |
 
 处理建议：
 
-- 保留作者编码；不作为来源自报架构标签或已量化风险结果。
+- 统一控制权编码已实施；源流程获支持，架构标签和匹配为本文回顾性判断。见case_classification_audit.json；不是来源自报标签或性能/安全保证。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1308,19 +1349,19 @@
 > MedAgents \citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\triangle$ \\
 
 <a id="c060"></a>
-## C060 · manuscript.tex:755
+## C060 · manuscript.tex:764
 
 原句/表格行：
 
-> LLM-MedQA \citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\triangle$ \\
+> LLM-MedQA \citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\times$ \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [tang2025llmmedqa](https://arxiv.org/html/2501.05464v1) | §III-A–F; Algorithm 1 | Experts analyze MCQs, synthesize reports, vote on revisions and choose answers. | 作者推论，须标明边界 |
+| [tang2025llmmedqa](D:/multi-agent review_joural/10.10ziliao/LLM-MedQA_Enhancing_Medical_Question_Answering_through_Case_Studies_in_Large_Language_Models (1).pdf) | Formal IJCNN2025 §§III-A–F, Fig2 and Algorithm1, physical pp3–6 | Several experts vote on a report; a fixed revision and decision pipeline controls the final answer. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Retain MCQ/voting workflow; attach coding rationale for flat/hybrid labels and match marker.
+- 统一控制权编码已实施；源流程获支持，架构标签和匹配为本文回顾性判断。见case_classification_audit.json；不是来源自报标签或性能/安全保证。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1329,19 +1370,19 @@
 > LLM-MedQA \citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\triangle$ \\
 
 <a id="c061"></a>
-## C061 · manuscript.tex:756
+## C061 · manuscript.tex:765
 
 原句/表格行：
 
-> LegalGraphRAG \citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\checkmark$ \\
+> LegalGraphRAG \citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\times$ \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [legalgraphrag2026](https://aclanthology.org/2026.acl-long.1738.pdf) | §4.3, pp.37459–37460 | Researcher retrieves, Auditor validates, Adjudicator renders a judgment. | 作者推论，须标明边界 |
+| [legalgraphrag2026](https://aclanthology.org/2026.acl-long.1738.pdf) | Formal ACL2026 §4.3, printed37459–37460; Fig3 | Researcher, Auditor and Adjudicator perform ordered retrieval, audit and synthesis; graph structure does not switch authority. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Retain verdict/audit mechanism; high-risk profile and hybrid label are author judgments, not validated safety guarantees.
+- 统一控制权编码已实施；源流程获支持，架构标签和匹配为本文回顾性判断。见case_classification_audit.json；不是来源自报标签或性能/安全保证。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1350,7 +1391,7 @@
 > LegalGraphRAG \citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\checkmark$ \\
 
 <a id="c062"></a>
-## C062 · manuscript.tex:757
+## C062 · manuscript.tex:766
 
 原句/表格行：
 
@@ -1358,11 +1399,11 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [hu2024triad](https://aclanthology.org/2024.emnlp-main.101.pdf) | §1, pp.1698–1699; §3, pp.1700–1702 | Triad uses one LLM-based agent in three roles over four phases to produce SPARQL for knowledge-base QA. Current table removes enterprise deployment; architecture labels are explicitly author coding. | 作者推论，须标明边界 |
+| [hu2024triad](https://aclanthology.org/2024.emnlp-main.101.pdf) | Formal EMNLP2024 §3, printed1700–1702 | One multi-role agent follows staged Text-to-SPARQL processing; hierarchical describes its workflow, not a qualifying multi-agent study. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Enterprise claim corrected. Retain the KBQA/SPARQL description and disclosed single-agent multi-role boundary; author decision on role-I eligibility remains pending.
+- 统一控制权编码已实施；源流程获支持，架构标签和匹配为本文回顾性判断。见case_classification_audit.json；不是来源自报标签或性能/安全保证。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1371,7 +1412,7 @@
 > Triad \citep{hu2024triad} & Enterprise KBQA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\checkmark$ \\
 
 <a id="c063"></a>
-## C063 · manuscript.tex:758
+## C063 · manuscript.tex:767
 
 原句/表格行：
 
@@ -1379,11 +1420,11 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhao2024longagent](https://aclanthology.org/2024.emnlp-main.912/) | abstract | 原文leader/member及divide-and-conquer机制支持层级解释；当前表注明source-based architecture coding，匹配符号为本文判断。 | 作者推论，须标明边界 |
+| [zhao2024longagent](https://aclanthology.org/2024.emnlp-main.912.pdf) | Formal EMNLP2024 §§2.1–2.4, Fig2, printed16311–16313 | The leader selects query or conflict-resolution actions and makes the final answer from member evidence. | 作者推论，须标明边界 |
 
 处理建议：
 
-- 保留明确的作者编码，不声称来源自报匹配结论。
+- 统一控制权编码已实施；源流程获支持，架构标签和匹配为本文回顾性判断。见case_classification_audit.json；不是来源自报标签或性能/安全保证。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1392,7 +1433,7 @@
 > LONGAGENT \citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\checkmark$ \\
 
 <a id="c064"></a>
-## C064 · manuscript.tex:759
+## C064 · manuscript.tex:768
 
 原句/表格行：
 
@@ -1400,11 +1441,11 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [qian2023chatdev](https://aclanthology.org/2024.acl-long.810.pdf) | Section3.1, PDFpp3–4, Chat Chain and communicative dehallucination/memory | ChatDev uses ordered design/coding/testing stages and role-paired dialogs. The current heading says source-based architecture coding, and the note identifies both labels as author coding, not independent validation. | 作者推论，须标明边界 |
+| [qian2023chatdev](https://aclanthology.org/2024.acl-long.810.pdf) | Formal ACL2024 §3.1 and Fig2, printed15176–15177 | An ordered ChatChain assigns instructor–assistant interactions across design, coding and testing phases. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Retain the illustrated coding/checkmark and explicit evidence boundary.
+- 统一控制权编码已实施；源流程获支持，架构标签和匹配为本文回顾性判断。见case_classification_audit.json；不是来源自报标签或性能/安全保证。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1413,7 +1454,7 @@
 > ChatDev \citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\checkmark$ \\
 
 <a id="c065"></a>
-## C065 · manuscript.tex:760
+## C065 · manuscript.tex:769
 
 原句/表格行：
 
@@ -1421,11 +1462,11 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [huang2023agentcoder](https://arxiv.org/html/2312.13010v1) | §3: programmer, test designer and test executor | Three roles exchange code, tests and execution feedback. | 作者推论，须标明边界 |
+| [huang2023agentcoder](https://arxiv.org/pdf/2312.13010v1) | arXiv2312.13010v1 §§3.1–3.4, Fig1, pp3–4 | Programmer and test designer are LLM agents; a scripted executor controls testing acceptance and feedback. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Retain dependencies/feedback loop; record taxonomy coding and pin the consulted arXiv version.
+- 统一控制权编码已实施；源流程获支持，架构标签和匹配为本文回顾性判断。见case_classification_audit.json；不是来源自报标签或性能/安全保证。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1434,19 +1475,19 @@
 > AgentCoder \citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\checkmark$ \\
 
 <a id="c066"></a>
-## C066 · manuscript.tex:761
+## C066 · manuscript.tex:770
 
 原句/表格行：
 
-> MAD \citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\triangle$ \\
+> Multiagent debate (Du) \citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\checkmark$ \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [du2024multiagent_debate](https://arxiv.org/pdf/2305.14325) | Sections 3.1–3.3, Tables 1–2 | The paper provides iterative peer debate on reasoning/factual tasks. Flat topology, low-risk profile and the triangle score are review coding; the current heading/note now make the source-based coding status explicit. | 作者推论，须标明边界 |
+| [du2024multiagent_debate](https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf) | Formal ICML2024 §§2.1–2.2, Fig2–3 physical pp2–4; §§3.1–3.2/Tables1–2 physical pp4–6 | Each model instance updates its own answer from peer responses using repeated common prompts; disagreement at debate end uses majority rule. Arithmetic/GSM8K/MMLU and factual tasks compare debate with single-agent and reflection baselines; convergence is not guaranteed. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Retain the diagnostic row and author-coding note; do not interpret the score as independently validated selection accuracy.
+- 统一控制权编码已实施；源流程获支持，架构标签和匹配为本文回顾性判断。见case_classification_audit.json；不是来源自报标签或性能/安全保证。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1455,7 +1496,7 @@
 > MAD \citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\triangle$ \\
 
 <a id="c067"></a>
-## C067 · manuscript.tex:762
+## C067 · manuscript.tex:771
 
 原句/表格行：
 
@@ -1463,11 +1504,11 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhang2024eduplanner](https://arxiv.org/html/2504.05370v1) | §III; Algorithms 1–3 | Evaluator feedback guides optimizer and analyst during instructional-design iteration. | 作者推论，须标明边界 |
+| [zhang2024eduplanner](D:/multi-agent review_joural/10.10ziliao/EduPlanner_LLM-Based_Multiagent_Systems_for_Customized_and_Intelligent_Instructional_Design.pdf) | Formal TLT2025 Fig3, §§III-C–E, Algorithms1–3, printed419–422 | Evaluator scoring and the optimizer/analyst workflow impose stable selection and revision authority. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Retain educational workflow; justify hierarchical classification rather than attributing that label directly to the source.
+- 统一控制权编码已实施；源流程获支持，架构标签和匹配为本文回顾性判断。见case_classification_audit.json；不是来源自报标签或性能/安全保证。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1476,19 +1517,19 @@
 > EduPlanner \citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\times$ \\
 
 <a id="c068"></a>
-## C068 · manuscript.tex:763
+## C068 · manuscript.tex:772
 
 原句/表格行：
 
-> Financial Reflection QA \citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\times$ \\
+> Financial Reflection QA \citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\checkmark$ \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [fatemi2024financialqa](https://arxiv.org/html/2410.21741v1) | §3.1; Figures 1–3 | A financial expert receives feedback from one or two specialised critics, including extraction/calculation checks. Current wording correctly identifies external critic feedback. | 作者推论，须标明边界 |
+| [fatemi2024financialqa](D:/multi-agent review_joural/10.10ziliao/Enhancing Financial Question Answering with a Multi-Agent Reflection Framework.pdf) | Formal ICAIF2024 §3.1, printed532; §6, printed534 | Two critics give sequential feedback to an expert that revises the answer; repeated multi-turn debate is future work. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Self-critique wording corrected to critic feedback. Mechanism supported; hybrid classification and match marker remain review coding.
+- 统一控制权编码已实施；源流程获支持，架构标签和匹配为本文回顾性判断。见case_classification_audit.json；不是来源自报标签或性能/安全保证。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1497,7 +1538,7 @@
 > Financial Reflection QA \citep{fatemi2024financialqa} & Numerical QA; convergence with self-critique & Hierarchical versus hybrid reflection loop & $\times$ \\
 
 <a id="c069"></a>
-## C069 · manuscript.tex:827
+## C069 · manuscript.tex:839
 
 原句/表格行：
 
@@ -1505,16 +1546,16 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [wu2024autogen](https://arxiv.org/html/2308.08155v2) | Sections 2–3; Appendix A.5 (GroupChatManager) | Conversable customizable agents combine LLMs, tools and humans. GroupChatManager selects a speaker, collects a response and broadcasts it; developer-defined patterns and group-chat comparisons are reported. | 直接支持 |
+| [wu2024autogen](D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf) | COLM2024 formal PDF p1; §§2.1–2.2 pp3–6; §3 A5 p9 | Conversable agents use developer-defined conversation control; GroupChatManager selects speakers and broadcasts responses. | 直接支持 |
 
 处理建议：
 
-- Retain the source for the corresponding method/dataset/capability clause. Other clauses in a multi-source command are outside this key's evidence scope.
+- 按COLM2024正式§§2.1–2.2及§3A5复核；通用选择/部署建议保持作者分析，不归为该文实测效果。
 
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c070"></a>
-## C070 · manuscript.tex:830
+## C070 · manuscript.tex:842
 
 原句/表格行：
 
@@ -1531,7 +1572,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c071"></a>
-## C071 · manuscript.tex:846
+## C071 · manuscript.tex:858
 
 原句/表格行：
 
@@ -1539,7 +1580,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [anthropic2024mcp](https://modelcontextprotocol.io/specification/2024-11-05) | Overview; Base Protocol; Features | MCP standardises connections between LLM applications and external tools/contextual data through host/client/server interfaces. The current claim no longer relies on an unverified nickname. | 直接支持 |
+| [anthropic2024mcp](https://www.anthropic.com/news/model-context-protocol) | Dated announcement25November2024, Model Context Protocol section; versioned2024-11-05 spec as supplementary evidence | MCP defines connections between applications and tools/data; orchestration policy remains application design. | 直接支持 |
 
 处理建议：
 
@@ -1552,7 +1593,7 @@
 > For example, Anthropic introduced the Model Context Protocol (MCP) \citep{anthropic2024mcp}—dubbed the "USB-C of AI"—to standardise the way agents connect to external tools and data sources.
 
 <a id="c072"></a>
-## C072 · manuscript.tex:847
+## C072 · manuscript.tex:859
 
 原句/表格行：
 
@@ -1560,7 +1601,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [google2025a2a](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) | Google official launch article, 9 April 2025: How A2A works | A2A enables capability discovery, task lifecycle exchange and messages between client/remote agents across frameworks and vendors; it does not prescribe one flat collaboration topology. | 直接支持 |
+| [google2025a2a](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) | Dated announcement9April2025, byline; design principles; How A2A works | Four named authors describe capability discovery, task lifecycle and cross-framework agent messages. | 直接支持 |
 
 处理建议：
 
@@ -1573,7 +1614,7 @@
 > Another example is Google's proposed Agent-to-Agent (A2A) protocol \citep{google2025a2a}, which regulates horizontal peer-to-peer collaboration among agents.
 
 <a id="c073"></a>
-## C073 · manuscript.tex:866
+## C073 · manuscript.tex:878
 
 原句/表格行：
 
@@ -1581,22 +1622,20 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [wu2024autogen](https://arxiv.org/html/2308.08155v2) | Sections 2–3; Appendix A.5 (GroupChatManager) | Conversable agents, configurable conversation patterns and GroupChatManager provide examples of control and shared conversational state. The traceability/state/cost selection rule is synthesized by the review, not formally evaluated in AutoGen. | 作者推论，须标明边界 |
+| [wu2024autogen](D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf) | COLM2024 formal PDF p1; §§2.1–2.2 pp3–6; §3 A5 p9 | Conversable agents use developer-defined conversation control; GroupChatManager selects speakers and broadcasts responses. | 作者推论，须标明边界 |
 | [qian2023chatdev](https://aclanthology.org/2024.acl-long.810.pdf) | Section3.1, PDFpp3–4, Chat Chain and communicative dehallucination/memory | ChatChain records staged dialogs and distinguishes within-phase utterance memory from cross-phase solution memory. This illustrates shared state and workflow traceability; it does not test the review's general protocol-selection rule. | 作者推论，须标明边界 |
-| [anthropic2024mcp](https://modelcontextprotocol.io/specification/2024-11-05) | Overview; hosts/clients/servers | MCP specifies a tool/data interface, not a collaboration-policy evaluation. | 部分支持/表述需收窄 |
-| [google2025a2a](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) | Design principles; How A2A works | A2A handles cross-system capability discovery, task lifecycle and messages. | 部分支持/表述需收窄 |
+| [anthropic2024mcp](https://www.anthropic.com/news/model-context-protocol) | Dated announcement25November2024, Model Context Protocol section; versioned2024-11-05 spec as supplementary evidence | MCP defines connections between applications and tools/data; orchestration policy remains application design. | 作者推论，须标明边界 |
+| [google2025a2a](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) | Dated announcement9April2025, byline; design principles; How A2A works | Four named authors describe capability discovery, task lifecycle and cross-framework agent messages. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Present the criteria as design guidance inferred from the cited mechanisms, with task-level validation still needed.
-- Retain as mechanism evidence and mark the selection criterion as review synthesis.
-- Current wording re-read against retained source evidence. Keep interface-layer distinction; present traceability/state/cost selection criteria as review synthesis.
-- Current wording re-read against retained source evidence. Keep interoperability distinction; avoid claiming one topology or empirical QA reliability from protocol existence.
+- 按COLM2024正式§§2.1–2.2及§3A5复核；通用选择/部署建议保持作者分析，不归为该文实测效果。
+- 具体机制/资源能力获来源支持；控制权类别、适用情境及局限属于明确标注的作者分析。无条件flat/hybrid标签已移除。
 
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c074"></a>
-## C074 · manuscript.tex:887
+## C074 · manuscript.tex:899
 
 原句/表格行：
 
@@ -1617,7 +1656,7 @@
 > Representative methods include Least-to-Most Prompting \citep{zhou2023least_to_most} and Decomposed Prompting \citep{khot2023decomposed_prompting}, which allow a model to solve simpler sub-problems first and then exploit their answers to resolve the ultimate target.
 
 <a id="c075"></a>
-## C075 · manuscript.tex:888
+## C075 · manuscript.tex:900
 
 原句/表格行：
 
@@ -1638,7 +1677,7 @@
 > Representative methods include Least-to-Most Prompting \citep{zhou2023least_to_most} and Decomposed Prompting \citep{khot2023decomposed_prompting}, which allow a model to solve simpler sub-problems first and then exploit their answers to resolve the ultimate target.
 
 <a id="c076"></a>
-## C076 · manuscript.tex:890
+## C076 · manuscript.tex:902
 
 原句/表格行：
 
@@ -1659,7 +1698,7 @@
 > Plan-and-Solve \citep{wang2023plan_and_solve} provides another example by explicitly separating the planning and solving phases, substantially improving decomposition reliability.
 
 <a id="c077"></a>
-## C077 · manuscript.tex:911
+## C077 · manuscript.tex:923
 
 原句/表格行：
 
@@ -1680,7 +1719,7 @@
 > For example, MetaGPT \citep{hong2024metagpt} and AgentVerse \citep{chen2024agentverse} construct fine-grained agent profiles (Agent Profiling) that tag each agent with specific role labels.
 
 <a id="c078"></a>
-## C078 · manuscript.tex:913
+## C078 · manuscript.tex:925
 
 原句/表格行：
 
@@ -1701,7 +1740,7 @@
 > For example, MetaGPT \citep{hong2024metagpt} and AgentVerse \citep{chen2024agentverse} construct fine-grained agent profiles (Agent Profiling) that tag each agent with specific role labels.
 
 <a id="c079"></a>
-## C079 · manuscript.tex:921
+## C079 · manuscript.tex:933
 
 原句/表格行：
 
@@ -1709,7 +1748,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [khattab2024dspy](https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf) | §§3–4 | 声明模块与编译器用任务指标优化prompt/demonstrations。 | 直接支持 |
+| [khattab2024dspy](https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf) | Formal ICLR2024 PDF p1; §§3–4 | Declarative modules and metric-driven compilation optimize language-model pipelines. | 直接支持 |
 
 处理建议：
 
@@ -1718,7 +1757,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c080"></a>
-## C080 · manuscript.tex:930
+## C080 · manuscript.tex:942
 
 原句/表格行：
 
@@ -1741,7 +1780,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c081"></a>
-## C081 · manuscript.tex:940
+## C081 · manuscript.tex:952
 
 原句/表格行：
 
@@ -1749,7 +1788,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [khattab2024dspy](https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf) | §§3–4 | 按validation metric优化LM模块；不是动态agent负载均衡研究。 | 直接支持 |
+| [khattab2024dspy](https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf) | Formal ICLR2024 PDF p1; §§3–4 | Declarative modules and metric-driven compilation optimize language-model pipelines. | 直接支持 |
 
 处理建议：
 
@@ -1758,7 +1797,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c082"></a>
-## C082 · manuscript.tex:988
+## C082 · manuscript.tex:1000
 
 原句/表格行：
 
@@ -1766,7 +1805,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [packer2023memgpt](https://arxiv.org/pdf/2310.08560v1) | v1 §§2.1--2.2 pp3--4 | v1 §§2.1--2.2使用函数调用管理有限main context/外部记忆，以FIFO消息队列及递归摘要处理上下文压力；当前已删attention-weight eviction。 | 直接支持 |
+| [packer2023memgpt](https://arxiv.org/pdf/2310.08560v1) | v1 §§2.1–2.2 pp3–4 | Function calls manage main context and external memory; this is not attention-weight eviction. | 直接支持 |
 
 处理建议：
 
@@ -1779,7 +1818,7 @@
 > For example, MemGPT \citep{packer2023memgpt} draws on the paged-memory mechanism of modern operating systems to design a hierarchical working-memory system.
 
 <a id="c083"></a>
-## C083 · manuscript.tex:998
+## C083 · manuscript.tex:1010
 
 原句/表格行：
 
@@ -1787,11 +1826,11 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhang2024memory_survey](https://arxiv.org/html/2404.13501) | 2024 preprint §§5.2,8.1 | 2024预印本§5.2/§8.1讨论外部textual memory及历史经验、外部知识；当前已不把长期记忆概括为通常等于向量库。2025正式全文定位尚未取得。 | 部分支持/表述需收窄 |
+| [zhang2024memory_survey](D:/multi-agent review_joural/10.10ziliao/A survey on the memory mechanism of large language model-based agents.pdf) | Formal TOIS2025 §5.2.1, physical pp15–18 (155:15–155:18) | Textual memory stores historical observations/interactions within and across trials and external knowledge, including structured databases/tuples; retrieval is an access method rather than the definition of long-term memory. | 直接支持 |
 
 处理建议：
 
-- 保留当前宽泛限定；待正式TOIS全文核对定位，不能称正式全文已确认。
+- Current broad statement supported in formal2025 version; prior formal-locator restriction resolved.
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -1800,7 +1839,7 @@
 > Long-term memory typically relies on vector databases to store vast historical experiences and external domain knowledge \citep{zhang2024memory_survey}.
 
 <a id="c084"></a>
-## C084 · manuscript.tex:1000
+## C084 · manuscript.tex:1012
 
 原句/表格行：
 
@@ -1823,7 +1862,7 @@
 > A representative access mechanism is Retrieval-Augmented Generation (RAG) \citep{lewis2020rag,gao2024rag_survey}, through which multi-agent QA systems access long-term memory.
 
 <a id="c085"></a>
-## C085 · manuscript.tex:1015
+## C085 · manuscript.tex:1027
 
 原句/表格行：
 
@@ -1831,7 +1870,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [asai2024selfrag](https://proceedings.iclr.cc/paper_files/paper/2024/file/25f7be9694d7b32d5cc670927b8091e1-Paper-Conference.pdf) | §3/Algorithm1 pp3--5 | §3/Algorithm1推理时LM生成retrieval/reflection tokens并批判生成片段；critic用于离线训练。当前未再声称原方案由专门检索agent团队执行。 | 直接支持 |
+| [asai2024selfrag](https://proceedings.iclr.cc/paper_files/paper/2024/file/25f7be9694d7b32d5cc670927b8091e1-Paper-Conference.pdf) | Formal ICLR2024 PDF p1; §3/Algorithm1 pp3–5 | Reflection tokens guide on-demand retrieval and critique in one trained language model. | 直接支持 |
 
 处理建议：
 
@@ -1844,7 +1883,7 @@
 > For example, Self-RAG \citep{asai2024selfrag} and proactive retrieval (FLARE) \citep{jiang2023active_rag} allow specialised retrieval agents to autonomously determine when to retrieve, evaluate retrieval quality, and pass refined knowledge to the generation agent.
 
 <a id="c086"></a>
-## C086 · manuscript.tex:1016
+## C086 · manuscript.tex:1028
 
 原句/表格行：
 
@@ -1865,7 +1904,7 @@
 > For example, Self-RAG \citep{asai2024selfrag} and proactive retrieval (FLARE) \citep{jiang2023active_rag} allow specialised retrieval agents to autonomously determine when to retrieve, evaluate retrieval quality, and pass refined knowledge to the generation agent.
 
 <a id="c087"></a>
-## C087 · manuscript.tex:1028
+## C087 · manuscript.tex:1040
 
 原句/表格行：
 
@@ -1873,10 +1912,10 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [packer2023memgpt](https://arxiv.org/pdf/2310.08560v1) | v1 §2 | 主/外部上下文与函数调用访问历史。 | 直接支持 |
+| [packer2023memgpt](https://arxiv.org/pdf/2310.08560v1) | v1 §§2.1–2.2 pp3–4 | Function calls manage main context and external memory; this is not attention-weight eviction. | 直接支持 |
 | [lewis2020rag](https://arxiv.org/html/2005.11401v4) | Figure1 and Section2.2 Retriever: DPR | Original RAG combines a parametric generator with a nonparametric retriever over passages outside the active prompt context. It directly supports the external-information-access clause, without itself providing session memory management. | 直接支持 |
 | [gao2024rag_survey](https://arxiv.org/abs/2312.10997) | abstract | 外部知识库增强生成。 | 直接支持 |
-| [asai2024selfrag](https://proceedings.iclr.cc/paper_files/paper/2024/file/25f7be9694d7b32d5cc670927b8091e1-Paper-Conference.pdf) | §3 | 按需检索与生成反思。 | 直接支持 |
+| [asai2024selfrag](https://proceedings.iclr.cc/paper_files/paper/2024/file/25f7be9694d7b32d5cc670927b8091e1-Paper-Conference.pdf) | Formal ICLR2024 PDF p1; §3/Algorithm1 pp3–5 | Reflection tokens guide on-demand retrieval and critique in one trained language model. | 直接支持 |
 | [jiang2023active_rag](https://aclanthology.org/2023.emnlp-main.495.pdf) | §3.2 | 低置信触发检索后重生成。 | 直接支持 |
 
 处理建议：
@@ -1887,7 +1926,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c088"></a>
-## C088 · manuscript.tex:1047
+## C088 · manuscript.tex:1059
 
 原句/表格行：
 
@@ -1908,7 +1947,7 @@
 > Chain-of-Thought (CoT) prompting \citep{wei2022chain_of_thought} has greatly unlocked the reasoning potential of LLMs.
 
 <a id="c089"></a>
-## C089 · manuscript.tex:1050
+## C089 · manuscript.tex:1062
 
 原句/表格行：
 
@@ -1929,7 +1968,7 @@
 > Self-Consistency \citep{wang2023self_consistency} provides a representative single-model method: it samples multiple reasoning paths and selects an answer by marginalising over those paths.
 
 <a id="c090"></a>
-## C090 · manuscript.tex:1055
+## C090 · manuscript.tex:1067
 
 原句/表格行：
 
@@ -1937,8 +1976,8 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [du2024multiagent_debate](https://arxiv.org/pdf/2305.14325) | Sections 3.1–3.3, Tables 1–2 | Multiple agents first generate responses and then exchange/critique reasoning over rounds; this gives distinct candidate paths followed by debate. | 直接支持 |
-| [chen2024reconcile](https://aclanthology.org/2024.acl-long.381/) | Abstract | Independent model agents discuss candidate answers and use confidence-aware voting. | 直接支持 |
+| [du2024multiagent_debate](https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf) | Formal ICML2024 §§2.1–2.2, Fig2–3 physical pp2–4; §§3.1–3.2/Tables1–2 physical pp4–6 | Each model instance updates its own answer from peer responses using repeated common prompts; disagreement at debate end uses majority rule. Arithmetic/GSM8K/MMLU and factual tasks compare debate with single-agent and reflection baselines; convergence is not guaranteed. | 直接支持 |
+| [chen2024reconcile](https://aclanthology.org/2024.acl-long.381/) | §3–4/Fig2, §5/Table2, printed7069–7072 | Distinct LLMs exchange candidate answers and confidence for QA and reasoning benchmarks. | 直接支持 |
 
 处理建议：
 
@@ -1952,7 +1991,7 @@
 > Multi-agent systems adapt this diversity principle by assigning independent reasoners and then using debate or confidence-aware aggregation \citep{du2024multiagent_debate,chen2024reconcile}.
 
 <a id="c091"></a>
-## C091 · manuscript.tex:1076
+## C091 · manuscript.tex:1088
 
 原句/表格行：
 
@@ -1960,7 +1999,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract-Conference.html) | Abstract and method overview | Worker agents process successive long-context chunks, exchange accumulated information and pass it to a manager for synthesis. Current text no longer describes ToT/GoT as necessarily multi-agent. | 直接支持 |
+| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf) | §3/Algorithm1, §4 QA datasets/Table1, physical pp4–6 | Sequential worker LLMs pass evidence to a manager; QA is a main evaluation track alongside other tasks. | 直接支持 |
 
 处理建议：
 
@@ -1973,7 +2012,7 @@
 > Representative search topologies include Chain-of-Agents \citep{zhang2024chain_agents}, Tree of Thoughts \citep{yao2023tree_of_thoughts}, and Graph of Thoughts \citep{besta2024graph_of_thoughts}; these distribute reasoning across multiple serially or graph-connected agents.
 
 <a id="c092"></a>
-## C092 · manuscript.tex:1078
+## C092 · manuscript.tex:1090
 
 原句/表格行：
 
@@ -1994,7 +2033,7 @@
 > Representative search topologies include Chain-of-Agents \citep{zhang2024chain_agents}, Tree of Thoughts \citep{yao2023tree_of_thoughts}, and Graph of Thoughts \citep{besta2024graph_of_thoughts}; these distribute reasoning across multiple serially or graph-connected agents.
 
 <a id="c093"></a>
-## C093 · manuscript.tex:1079
+## C093 · manuscript.tex:1091
 
 原句/表格行：
 
@@ -2015,7 +2054,7 @@
 > Representative search topologies include Chain-of-Agents \citep{zhang2024chain_agents}, Tree of Thoughts \citep{yao2023tree_of_thoughts}, and Graph of Thoughts \citep{besta2024graph_of_thoughts}; these distribute reasoning across multiple serially or graph-connected agents.
 
 <a id="c094"></a>
-## C094 · manuscript.tex:1083
+## C094 · manuscript.tex:1095
 
 原句/表格行：
 
@@ -2023,7 +2062,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhao2024longagent](https://aclanthology.org/2024.emnlp-main.912/) | abstract | leader协调member读长文档片段并综合。 | 直接支持 |
+| [zhao2024longagent](https://aclanthology.org/2024.emnlp-main.912/) | §2, §3 and Table1, printed16311–16315 | Leader/member LLM agents perform long-document QA and empirical retrieval and multi-hop tests. | 直接支持 |
 
 处理建议：
 
@@ -2036,7 +2075,7 @@
 > LONGAGENT \citep{zhao2024longagent} uses a different leader--member design in which a leader coordinates member agents over long-document segments.
 
 <a id="c095"></a>
-## C095 · manuscript.tex:1093
+## C095 · manuscript.tex:1105
 
 原句/表格行：
 
@@ -2057,7 +2096,7 @@
 > For example, Reflexion \citep{shinn2023reflexion} stores linguistic feedback from prior trials in episodic memory, whereas Self-Refine \citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and revision without additional model training.
 
 <a id="c096"></a>
-## C096 · manuscript.tex:1095
+## C096 · manuscript.tex:1107
 
 原句/表格行：
 
@@ -2078,7 +2117,7 @@
 > For example, Reflexion \citep{shinn2023reflexion} stores linguistic feedback from prior trials in episodic memory, whereas Self-Refine \citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and revision without additional model training.
 
 <a id="c097"></a>
-## C097 · manuscript.tex:1097
+## C097 · manuscript.tex:1109
 
 原句/表格行：
 
@@ -2099,7 +2138,7 @@
 > In addition, combined with Chain-of-Verification \citep{dhuliawala2023chain_of_verification}, the system can configure dedicated \emph{Critic} agents that rigorously audit generated results for safety, factuality, and logical coherence through mutual-critique mechanisms.
 
 <a id="c098"></a>
-## C098 · manuscript.tex:1106
+## C098 · manuscript.tex:1118
 
 原句/表格行：
 
@@ -2108,8 +2147,8 @@
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
 | [wang2023self_consistency](https://iclr.cc/virtual/2023/poster/11718) | official ICLR2023 abstract | 采样多条推理路径，边缘化并选择一致答案；原方法为单模型解码。当前引用只用于对应方法机制，ICLR2023官方摘要直接支持。 | 直接支持 |
-| [du2024multiagent_debate](https://arxiv.org/pdf/2305.14325) | Sections 3.1–3.3, Tables 1–2 | The paper evaluates independently generated responses followed by iterative debate, which broadens candidate reasoning before reconciliation. | 直接支持 |
-| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract-Conference.html) | Abstract | CoA distributes reading and reasoning over long-context chunks. | 部分支持/表述需收窄 |
+| [du2024multiagent_debate](https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf) | Formal ICML2024 §§2.1–2.2, Fig2–3 physical pp2–4; §§3.1–3.2/Tables1–2 physical pp4–6 | Each model instance updates its own answer from peer responses using repeated common prompts; disagreement at debate end uses majority rule. Arithmetic/GSM8K/MMLU and factual tasks compare debate with single-agent and reflection baselines; convergence is not guaranteed. | 直接支持 |
+| [zhang2024chain_agents](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf) | §3/Algorithm1, §4 QA datasets/Table1, physical pp4–6 | Sequential worker LLMs pass evidence to a manager; QA is a main evaluation track alongside other tasks. | 直接支持 |
 | [shinn2023reflexion](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html) | abstract | 反思文本反馈后续试验。 | 直接支持 |
 | [madaan2023self_refine](https://proceedings.neurips.cc/paper_files/paper/2023/hash/91edff07232fb1b55a505a9e9f6c0ff3-Abstract-Conference.html) | abstract | 生成-反馈-修订循环。 | 直接支持 |
 | [dhuliawala2023chain_of_verification](https://aclanthology.org/2024.findings-acl.212.pdf) | §3 | 验证问题独立作答后修正事实。 | 直接支持 |
@@ -2124,7 +2163,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c099"></a>
-## C099 · manuscript.tex:1610
+## C099 · manuscript.tex:1622
 
 原句/表格行：
 
@@ -2132,7 +2171,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [anthropic2024mcp](https://modelcontextprotocol.io/specification/2024-11-05) | Overview; Base Protocol; Features | MCP standardizes LLM application connections to tools and data resources. | 直接支持 |
+| [anthropic2024mcp](https://www.anthropic.com/news/model-context-protocol) | Dated announcement25November2024, Model Context Protocol section; versioned2024-11-05 spec as supplementary evidence | MCP defines connections between applications and tools/data; orchestration policy remains application design. | 直接支持 |
 
 处理建议：
 
@@ -2141,7 +2180,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c100"></a>
-## C100 · manuscript.tex:1622
+## C100 · manuscript.tex:1634
 
 原句/表格行：
 
@@ -2149,20 +2188,20 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [wu2024autogen](https://arxiv.org/html/2308.08155v2) | Sections 2–3; Appendix A.5 (GroupChatManager) | AutoGen provides reusable conversable-agent and configurable-conversation components, supporting its inclusion as a framework resource. | 直接支持 |
-| [crewai2023](https://pypi.org/project/crewai/0.1.0/) | Key dates; Credits; Getting Started; Key Features | Version 0.1.0 was released 14 November 2023; author Joao Moura. Its versioned description defines Agent, Task, Crew and Process.sequential, with role-based agent design and task assignment. The page says only sequential process was then supported. | 直接支持 |
+| [wu2024autogen](D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf) | COLM2024 formal PDF p1; §§2.1–2.2 pp3–6; §3 A5 p9 | Conversable agents use developer-defined conversation control; GroupChatManager selects speakers and broadcasts responses. | 直接支持 |
+| [crewai2023](https://pypi.org/project/crewai/0.1.0/) | Version0.1.0 release14November2023, Credits; Agent/Task/Crew/Process.sequential | The pinned release provides roles, tasks and sequential processes; later capabilities are not assumed. | 直接支持 |
 | [hong2024metagpt](https://arxiv.org/html/2308.00352v7) | Section 3.1 role specialization; Section 3.2 communication | MetaGPT provides a role-specialized SOP framework with shared communication, supporting its inclusion among collaborative framework resources. | 直接支持 |
 
 处理建议：
 
-- Retain the framework-resource example; the figure's organization is the review's classification.
+- 按COLM2024正式§§2.1–2.2及§3A5复核；通用选择/部署建议保持作者分析，不归为该文实测效果。
 - The pinned 0.1.0 description supports basic roles, assigned tasks and reusable Crew/Process components. Broader historical capabilities and automatic architecture assembly are not established by this source.
 - Retain the example; the resource-map layer is review synthesis.
 
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c101"></a>
-## C101 · manuscript.tex:1626
+## C101 · manuscript.tex:1638
 
 原句/表格行：
 
@@ -2183,7 +2222,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c102"></a>
-## C102 · manuscript.tex:1629
+## C102 · manuscript.tex:1641
 
 原句/表格行：
 
@@ -2191,19 +2230,19 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [wu2024autogen](https://arxiv.org/html/2308.08155v2) | Sections 2–3; Appendix A.5 (GroupChatManager) | AutoGen's developers can configure conversations, participating agents, tools and speaker patterns; this substantiates the source-specific control-flow example. | 直接支持 |
+| [wu2024autogen](D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf) | COLM2024 formal PDF p1; §§2.1–2.2 pp3–6; §3 A5 p9 | Conversable agents use developer-defined conversation control; GroupChatManager selects speakers and broadcasts responses. | 直接支持 |
 | [duan2024langgraph_crewai](https://arxiv.org/html/2411.18241v1) | §III-A | §III-A描述LangGraph图式控制、循环及持久状态。 | 直接支持 |
 | [chen2024agentverse](https://proceedings.iclr.cc/paper_files/paper/2024/file/578e65cdee35d00c708d4c64bce32971-Paper-Conference.pdf) | §2 | 招募、决策、执行、评价构成phased process。 | 直接支持 |
 
 处理建议：
 
-- Retain the AutoGen clause, with other framework clauses mapped to their own sources.
+- 按COLM2024正式§§2.1–2.2及§3A5复核；通用选择/部署建议保持作者分析，不归为该文实测效果。
 - 保留当前限定表述；来源支持上列具体机制，作者条件分析不作为该文实测结果。
 
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c103"></a>
-## C103 · manuscript.tex:1633
+## C103 · manuscript.tex:1645
 
 原句/表格行：
 
@@ -2212,7 +2251,7 @@
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
 | [zhuge2024gptswarm](https://proceedings.mlr.press/v235/zhuge24a.html) | PMLR abstract | 节点提示与agent连接优化。 | 直接支持 |
-| [khattab2024dspy](https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf) | §§3–4 | 按指标优化声明LM pipeline。 | 直接支持 |
+| [khattab2024dspy](https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf) | Formal ICLR2024 PDF p1; §§3–4 | Declarative modules and metric-driven compilation optimize language-model pipelines. | 直接支持 |
 
 处理建议：
 
@@ -2221,19 +2260,19 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c104"></a>
-## C104 · manuscript.tex:1662
+## C104 · manuscript.tex:1674
 
 原句/表格行：
 
-> CAMEL \citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\
+> CAMEL \citep{li2023camel} & Role-paired workflow & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [li2023camel](https://papers.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf) | Section3.1 role-playing framework and optional critic | CAMEL's role-conditioned AIUser/AIAssistant conversation and inception prompts support the row's interaction/context description. Current memory text is 'Role-conditioned dialogue context', removing the unsupported tree mechanism. | 直接支持 |
+| [li2023camel](https://papers.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf) | Section3.1 role-playing framework and optional critic | CAMEL's role-conditioned AIUser/AIAssistant conversation and inception prompts support the row's interaction/context description. Current memory text is 'Role-conditioned dialogue context', removing the unsupported tree mechanism. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Retain corrected role/dialogue mechanism cells. Flat classification and exploratory suitability are review taxonomy, not comparative QA results.
+- 具体机制/资源能力获来源支持；控制权类别、适用情境及局限属于明确标注的作者分析。无条件flat/hybrid标签已移除。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -2242,7 +2281,7 @@
 > CAMEL \citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Dialogue context tree & Exploratory dialogue; task simulation \\
 
 <a id="c105"></a>
-## C105 · manuscript.tex:1667
+## C105 · manuscript.tex:1679
 
 原句/表格行：
 
@@ -2263,7 +2302,7 @@
 > ChatDev \citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Local code and document files & Software development; code generation \\
 
 <a id="c106"></a>
-## C106 · manuscript.tex:1672
+## C106 · manuscript.tex:1684
 
 原句/表格行：
 
@@ -2284,7 +2323,7 @@
 > MetaGPT \citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Message queue and project documents & Software engineering \\
 
 <a id="c107"></a>
-## C107 · manuscript.tex:1677
+## C107 · manuscript.tex:1689
 
 原句/表格行：
 
@@ -2292,11 +2331,11 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [wu2024autogen](https://arxiv.org/html/2308.08155v2) | Sections 2–3; Appendix A.5 (GroupChatManager) | Conversable agents exchange natural-language/code messages; conversation and speaker patterns, tools and contexts are configurable, including code/debugging use cases. | 直接支持 |
+| [wu2024autogen](D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf) | COLM2024 formal PDF p1; §§2.1–2.2 pp3–6; §3 A5 p9 | Conversable agents use developer-defined conversation control; GroupChatManager selects speakers and broadcasts responses. | 直接支持 |
 
 处理建议：
 
-- Retain the configuration-sensitive row; application suitability is illustrative rather than a comparative QA result.
+- 按COLM2024正式§§2.1–2.2及§3A5复核；通用选择/部署建议保持作者分析，不归为该文实测效果。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -2305,19 +2344,19 @@
 > AutoGen \citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\
 
 <a id="c108"></a>
-## C108 · manuscript.tex:1682
+## C108 · manuscript.tex:1694
 
 原句/表格行：
 
-> AgentVerse \citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\
+> AgentVerse \citep{chen2024agentverse} & Adaptive role pipeline & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [chen2024agentverse](https://proceedings.iclr.cc/paper_files/paper/2024/file/578e65cdee35d00c708d4c64bce32971-Paper-Conference.pdf) | §§2.1--2.4 pp3--4 | §§2.1--2.4明确专家招募、横/纵向消息沟通和评价反馈；当前memory列已缩为Conversation and evaluation context，没有shared blackboard断言。 | 直接支持 |
+| [chen2024agentverse](https://proceedings.iclr.cc/paper_files/paper/2024/file/578e65cdee35d00c708d4c64bce32971-Paper-Conference.pdf) | §§2.1--2.4 pp3--4 | §§2.1--2.4明确专家招募、横/纵向消息沟通和评价反馈；当前memory列已缩为Conversation and evaluation context，没有shared blackboard断言。 | 作者推论，须标明边界 |
 
 处理建议：
 
-- 保留当前行；Hybrid为本文control-flow coding。
+- 具体机制/资源能力获来源支持；控制权类别、适用情境及局限属于明确标注的作者分析。无条件flat/hybrid标签已移除。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -2326,11 +2365,11 @@
 > AgentVerse \citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Shared blackboard & NLP evaluation; multi-step reasoning \\
 
 <a id="c109"></a>
-## C109 · manuscript.tex:1687
+## C109 · manuscript.tex:1699
 
 原句/表格行：
 
-> LangGraph \citep{langgraph2024,langgraph2024interrupt} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\
+> LangGraph \citep{langgraph2024,langgraph2024interrupt} & Configurable state graph & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
@@ -2339,8 +2378,7 @@
 
 处理建议：
 
-- Graph state transitions and developer-defined nodes supported; hybrid label and suitability for long-running QA remain author interpretation. Checkpoint recovery is supported by the separately cited interrupt source.
-- Persistent checkpoints and resumption supported. Hybrid label and long-running QA suitability are review coding; do not claim an evaluated QA recovery benefit.
+- 具体机制/资源能力获来源支持；控制权类别、适用情境及局限属于明确标注的作者分析。无条件flat/hybrid标签已移除。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -2349,19 +2387,19 @@
 > LangGraph \citep{duan2024langgraph_crewai} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\
 
 <a id="c110"></a>
-## C110 · manuscript.tex:1692
+## C110 · manuscript.tex:1704
 
 原句/表格行：
 
-> GPTSwarm \citep{zhuge2024gptswarm} & Hybrid & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\
+> GPTSwarm \citep{zhuge2024gptswarm} & Optimizable agent graph & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhuge2024gptswarm](https://arxiv.org/html/2402.16823v3) | v3 §2.2; §2.4/Algorithm3; §3.1 | §2.2为DAG信息流，§§2.3--2.4优化边和节点prompt；§2.4明确h_n记录节点输入与输出，§3.1使用MMLU QA。当前表内四项均有直接依据。 | 直接支持 |
+| [zhuge2024gptswarm](https://arxiv.org/html/2402.16823v3) | v3 §2.2; §2.4/Algorithm3; §3.1 | §2.2为DAG信息流，§§2.3--2.4优化边和节点prompt；§2.4明确h_n记录节点输入与输出，§3.1使用MMLU QA。当前表内四项均有直接依据。 | 作者推论，须标明边界 |
 
 处理建议：
 
-- 保留当前行；关闭parallel-inference不实归因，且撤销旧审计对节点状态的过严泛化。
+- 具体机制/资源能力获来源支持；控制权类别、适用情境及局限属于明确标注的作者分析。无条件flat/hybrid标签已移除。
 
 实施状态：已修正相关表述，按当前句重新判断。
 
@@ -2370,7 +2408,7 @@
 > GPTSwarm \citep{zhuge2024gptswarm} & Hybrid & Computational graph connections & Automatic graph-structure search & Intra-node state & Parallel inference optimization \\
 
 <a id="c111"></a>
-## C111 · manuscript.tex:1697
+## C111 · manuscript.tex:1709
 
 原句/表格行：
 
@@ -2378,7 +2416,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [khattab2024dspy](https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf) | §§3–5 | 声明modules、metric编译及优化示例；案例含HotPotQA/RAG。 | 直接支持 |
+| [khattab2024dspy](https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf) | Formal ICLR2024 PDF p1; §§3–4 | Declarative modules and metric-driven compilation optimize language-model pipelines. | 直接支持 |
 
 处理建议：
 
@@ -2391,7 +2429,7 @@
 > DSPy \citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\
 
 <a id="c112"></a>
-## C112 · manuscript.tex:1723
+## C112 · manuscript.tex:1735
 
 原句/表格行：
 
@@ -2399,16 +2437,16 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [anthropic2024mcp](https://modelcontextprotocol.io/specification/2024-11-05) | Overview; hosts/clients/servers; Features | MCP exposes contextual resources and tools through standardized client/server interfaces. | 部分支持/表述需收窄 |
+| [anthropic2024mcp](https://www.anthropic.com/news/model-context-protocol) | Dated announcement25November2024, Model Context Protocol section; versioned2024-11-05 spec as supplementary evidence | MCP defines connections between applications and tools/data; orchestration policy remains application design. | 直接支持 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Retain interface/control distinction; do not treat specification existence as proof of effective collaboration.
+- 当前具体机制按所选正式全文或历史版本复核；条件性设计分析不作为来源已验证效果。
 
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c113"></a>
-## C113 · manuscript.tex:1763
+## C113 · manuscript.tex:1775
 
 原句/表格行：
 
@@ -2425,7 +2463,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c114"></a>
-## C114 · manuscript.tex:1767
+## C114 · manuscript.tex:1779
 
 原句/表格行：
 
@@ -2442,7 +2480,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c115"></a>
-## C115 · manuscript.tex:1781
+## C115 · manuscript.tex:1793
 
 原句/表格行：
 
@@ -2450,16 +2488,16 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [ragflow2024](https://github.com/infiniflow/ragflow) | README: Key Features; Quality in, quality out | Deep document understanding extracts knowledge from complex-format unstructured documents. | 部分支持/表述需收窄 |
+| [ragflow2024](https://raw.githubusercontent.com/infiniflow/ragflow/v0.6.0/README.md) | Tagged0.6.0 README What is RAGFlow/Key Features; official release21May2024 | The pinned release supports deep document parsing, retrieval, grounded citations and configurable RAG components. | 直接支持 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Keep engineering description with a fixed release/commit and honest access-date provenance.
+- 当前具体机制按所选正式全文或历史版本复核；条件性设计分析不作为来源已验证效果。
 
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c116"></a>
-## C116 · manuscript.tex:1847
+## C116 · manuscript.tex:1859
 
 原句/表格行：
 
@@ -2476,7 +2514,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c117"></a>
-## C117 · manuscript.tex:1849
+## C117 · manuscript.tex:1861
 
 原句/表格行：
 
@@ -2493,7 +2531,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c118"></a>
-## C118 · manuscript.tex:1850
+## C118 · manuscript.tex:1862
 
 原句/表格行：
 
@@ -2510,7 +2548,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c119"></a>
-## C119 · manuscript.tex:1852
+## C119 · manuscript.tex:1864
 
 原句/表格行：
 
@@ -2527,7 +2565,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c120"></a>
-## C120 · manuscript.tex:1858
+## C120 · manuscript.tex:1870
 
 原句/表格行：
 
@@ -2544,7 +2582,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c121"></a>
-## C121 · manuscript.tex:1860
+## C121 · manuscript.tex:1872
 
 原句/表格行：
 
@@ -2552,7 +2590,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [mialon2024gaia](https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html) | Abstract | GAIA questions combine reasoning, multimodality, browsing and general tool-use proficiency. | 直接支持 |
+| [mialon2024gaia](https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf) | Formal ICLR2024 PDF p1; §§3.1–3.2 pp4–6 | Six authors including Craig Swift; assistant tasks require reasoning, information access and tools. | 直接支持 |
 
 处理建议：
 
@@ -2561,7 +2599,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c122"></a>
-## C122 · manuscript.tex:1861
+## C122 · manuscript.tex:1873
 
 原句/表格行：
 
@@ -2578,7 +2616,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c123"></a>
-## C123 · manuscript.tex:1891
+## C123 · manuscript.tex:1903
 
 原句/表格行：
 
@@ -2595,41 +2633,49 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c124"></a>
-## C124 · manuscript.tex:1939
+## C124 · manuscript.tex:1951
 
 原句/表格行：
 
-> EduPlanner \citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \citep{fatemi2024financialqa} combines a convergent numerical objective with iterative multi-critic reflection.
+> EduPlanner \citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \citep{fatemi2024financialqa} combines a convergent numerical objective with critic feedback and answer revision.
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhang2024eduplanner](https://arxiv.org/html/2504.05370v1) | §III-D; Algorithms 1–3; §IV | Instructional plans are generated and iteratively optimized against educational scoring. | 部分支持/表述需收窄 |
+| [zhang2024eduplanner](D:/multi-agent review_joural/10.10ziliao/EduPlanner_LLM-Based_Multiagent_Systems_for_Customized_and_Intelligent_Instructional_Design.pdf) | Formal TLT2025, printed p419 Fig.3; pp420–422 §§III-B–E, Algorithms1–3 | Instructional design generates lesson plans and evaluates/optimizes them against multidimensional educational scoring. | 直接支持 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Retain mixed-objective example; topology-selection implications are review synthesis.
+- 当前具体机制按所选正式全文或历史版本复核；条件性设计分析不作为来源已验证效果。
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> EduPlanner \citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \citep{fatemi2024financialqa} combines a convergent numerical objective with iterative multi-critic reflection.
 
 <a id="c125"></a>
-## C125 · manuscript.tex:1941
+## C125 · manuscript.tex:1953
 
 原句/表格行：
 
-> EduPlanner \citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \citep{fatemi2024financialqa} combines a convergent numerical objective with iterative multi-critic reflection.
+> EduPlanner \citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \citep{fatemi2024financialqa} combines a convergent numerical objective with critic feedback and answer revision.
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [fatemi2024financialqa](https://arxiv.org/html/2410.21741v1) | §3.1; three-agent setting | Two critics inspect extraction and calculations, returning feedback to the financial expert. | 部分支持/表述需收窄 |
+| [fatemi2024financialqa](D:/multi-agent review_joural/10.10ziliao/Enhancing Financial Question Answering with a Multi-Agent Reflection Framework.pdf) | §3.1, §4–5, printed532–534 | Expert and two critic agents answer financial questions; empirical evaluation uses FinQA. | 直接支持 |
 
 处理建议：
 
-- Current wording re-read against retained source evidence. Retain numerical QA/critic iteration; multi-label architecture interpretation is author synthesis.
+- 当前具体机制按所选正式全文或历史版本复核；条件性设计分析不作为来源已验证效果。
 
-实施状态：原表述保留，按当前证据复核。
+实施状态：已修正相关表述，按当前句重新判断。
+
+修正前：
+
+> EduPlanner \citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \citep{fatemi2024financialqa} combines a convergent numerical objective with iterative multi-critic reflection.
 
 <a id="c126"></a>
-## C126 · manuscript.tex:1959
+## C126 · manuscript.tex:1971
 
 原句/表格行：
 
@@ -2637,7 +2683,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [qian2024scaling_multiagent](https://proceedings.iclr.cc/paper_files/paper/2025/file/66a026c0d17040889b50f0dfa650e5e0-Paper-Conference.pdf) | Equation5 PDFp4; Sections3.2–3.3/Table1 PDFpp6–8 | Equation5 and Sections3.2–3.3/Table1 show topology-dependent context growth and task-dependent utility/saturation. Current citation attaches to that result; N(N−1) deliveries is separately stated under an explicit all-to-all sending assumption, and latency/token costs are not claimed universally quadratic. | 直接支持 |
+| [qian2024scaling_multiagent](https://proceedings.iclr.cc/paper_files/paper/2025/file/66a026c0d17040889b50f0dfa650e5e0-Paper-Conference.pdf) | §2, §3 datasets/Table1, physical pp3–6 | Multiple GPT-3.5 agents exchange artifacts; MMLU is one of four main evaluation tracks. | 直接支持 |
 
 处理建议：
 
@@ -2650,7 +2696,7 @@
 > In a fully connected broadcast topology, potential pairwise messages per round grow quadratically with team size, increasing token and latency costs without guaranteeing information gain \citep{qian2024scaling_multiagent}.
 
 <a id="c127"></a>
-## C127 · manuscript.tex:1986
+## C127 · manuscript.tex:1998
 
 原句/表格行：
 
@@ -2661,7 +2707,7 @@
 | [hendrycks2021mmlu](https://arxiv.org/abs/2009.03300) | Abstract: task construction and accuracy evaluation | MMLU evaluates answer accuracy over 57 academic/professional tasks. Outcome accuracy does not by itself identify individual team contributions; that implication is this review's measurement argument. | 作者推论，须标明边界 |
 | [yang2018hotpotqa](https://aclanthology.org/D18-1259/) | ACL Anthology metadata and abstract; EMNLP2018 pp.2369–2380, DOI10.18653/v1/D18-1259 | HotpotQA supplies answers and sentence-level supporting facts. Current text explicitly includes supporting-fact accuracy and argues that outcome measures alone do not establish causal team-process contributions; this latter comparison is the review's analytical inference. | 作者推论，须标明边界 |
 | [liu2024agentbench](https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html) | Official abstract: eight environments; performance and failure analysis | AgentBench evaluates interactive agent task performance across eight environments and also analyses agent failures. Current text acknowledges outcome measures without claiming that the benchmark contains no process/failure analysis. | 作者推论，须标明边界 |
-| [mialon2024gaia](https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html) | Official abstract: benchmark question requirements and assistant performance | GAIA evaluates general-assistant answers to questions requiring reasoning, multimodal information and tools. Answer correctness alone does not isolate the contribution of a collaboration mechanism; that implication is review inference. | 作者推论，须标明边界 |
+| [mialon2024gaia](https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf) | Formal ICLR2024 PDF p1; §§3.1–3.2 pp4–6 | Six authors including Craig Swift; assistant tasks require reasoning, information access and tools. | 作者推论，须标明边界 |
 
 处理建议：
 
@@ -2675,7 +2721,7 @@
 > Conventional benchmarks and agent environments measure answer correctness or task completion \citep{hendrycks2021mmlu,yang2018hotpotqa, liu2024agentbench,mialon2024gaia}; they do not reveal whether debate added independent evidence, whether a long-context chain lost a decisive fact, or whether a critic detected and corrected an error.
 
 <a id="c128"></a>
-## C128 · manuscript.tex:1992
+## C128 · manuscript.tex:2004
 
 原句/表格行：
 
@@ -2696,7 +2742,7 @@
 > Trace analyses such as MAST identify design, alignment, and verification failures \citep{han2024mast}, but process-level measures of contribution, complementarity, and error correction are not standard in QA evaluation.
 
 <a id="c129"></a>
-## C129 · manuscript.tex:2010
+## C129 · manuscript.tex:2022
 
 原句/表格行：
 
@@ -2704,8 +2750,8 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [tang2024medagents](https://aclanthology.org/2024.findings-acl.33/) | §2; §3 | MedAgents为医学QA专家共识的应用实例；当前句明确这些oversight requirements是proposed，未说该文测得监督权限/审计效果。 | 作者推论，须标明边界 |
-| [cui2023chatlaw](https://arxiv.org/pdf/2306.16092v1) | v1 §2 | 2023v1为法律模型/混合检索应用实例；当前句仅把法律QA作为作者提出监督需求的背景，未归因原文验证该清单。 | 作者推论，须标明边界 |
+| [tang2024medagents](https://aclanthology.org/2024.findings-acl.33.pdf) | §2, Algorithm1, §3/Table2, printed601–603 | LLM expert roles collaborate through a report-consultation pipeline on medical QA benchmarks. | 作者推论，须标明边界 |
+| [cui2023chatlaw](https://arxiv.org/pdf/2306.16092v1) | v1 p1 and §2 | The2023 legal model integrates external knowledge; it does not validate proposed oversight policies. | 作者推论，须标明边界 |
 
 处理建议：
 
@@ -2719,7 +2765,7 @@
 > Medical and legal QA illustrate these demands \citep{tang2024medagents,cui2023chatlaw}.
 
 <a id="c130"></a>
-## C130 · manuscript.tex:2011
+## C130 · manuscript.tex:2023
 
 原句/表格行：
 
@@ -2742,7 +2788,7 @@
 > Yet many workflows provide only a textual correction or final approval \citep{duan2024langgraph_crewai, langgraph2024}, without specifying when intervention is useful, what can be revised, or how the intervention affects subsequent reasoning.
 
 <a id="c131"></a>
-## C131 · manuscript.tex:2056
+## C131 · manuscript.tex:2068
 
 原句/表格行：
 
@@ -2750,22 +2796,19 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [wu2024autogen](https://arxiv.org/html/2308.08155v2) | Sections 2–3; Appendix A.5 (GroupChatManager) | AutoGen supplies reusable conversable-agent, tools/human integration and developer-defined conversation components. This substantiates the reusable-configuration clause. | 直接支持 |
-| [langgraph2024](https://www.langchain.com/blog/langgraph-multi-agent-workflows) | Multi-agent examples; Agent Supervisor; Hierarchical Agent Teams | Independent graph nodes, routing edges, supervisor graphs and nested teams are reusable agent-composition primitives in the January 2024 official examples. | 直接支持 |
-| [crewai2023](https://pypi.org/project/crewai/0.1.0/) | Key dates; Credits; Getting Started; Key Features | Version 0.1.0 was released 14 November 2023; author Joao Moura. Its versioned description defines Agent, Task, Crew and Process.sequential, with role-based agent design and task assignment. The page says only sequential process was then supported. | 直接支持 |
-| [dify2024](https://github.com/langgenius/dify) | Repository description and README | Agentic workflows, RAG pipelines and model/tool integrations are available components. | 部分支持/表述需收窄 |
+| [wu2024autogen](D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf) | COLM2024 formal PDF p1; §§2.1–2.2 pp3–6; §3 A5 p9 | Conversable agents use developer-defined conversation control; GroupChatManager selects speakers and broadcasts responses. | 作者推论，须标明边界 |
+| [langgraph2024](https://www.langchain.com/blog/langgraph-multi-agent-workflows) | Multi-agent examples; Agent Supervisor; Hierarchical Agent Teams | Independent graph nodes, routing edges, supervisor graphs and nested teams are reusable agent-composition primitives in the January 2024 official examples. | 作者推论，须标明边界 |
+| [crewai2023](https://pypi.org/project/crewai/0.1.0/) | Version0.1.0 release14November2023, Credits; Agent/Task/Crew/Process.sequential | The pinned release provides roles, tasks and sequential processes; later capabilities are not assumed. | 作者推论，须标明边界 |
+| [dify2024](https://raw.githubusercontent.com/langgenius/dify/0.6.0/README.md) | Tagged0.6.0 README introduction/features; LICENSE; official release8April2024 | The pinned release supplies RAG, agent capabilities and workflow orchestration, not automatic architecture selection. | 作者推论，须标明边界 |
 
 处理建议：
 
-- Retain the claim; the requirement for validation before deployment is the review's recommendation, not an empirical AutoGen deployment guarantee.
-- Reusable graph/nested workflow components supported. Current paragraph explicitly treats automatic declarative assembly as a proposal requiring validation.
-- The pinned 0.1.0 description supports basic roles, assigned tasks and reusable Crew/Process components. Broader historical capabilities and automatic architecture assembly are not established by this source.
-- Current wording re-read against retained source evidence. Pin release/commit supporting the claim; do not present a mutable current README as dated 2024 evidence.
+- 所选版本支持基本可复用组件；自动组装和部署前验证仍是本文提出的方案，不是原资源验证的选择策略。
 
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c132"></a>
-## C132 · manuscript.tex:2068
+## C132 · manuscript.tex:2080
 
 原句/表格行：
 
@@ -2773,16 +2816,16 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [kim2024mdagents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html) | abstract | 医学复杂度驱动协作结构分配，基准与ablation检验。 | 直接支持 |
+| [kim2024mdagents](https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html) | §3.1–3.4, §4/Table2, physical pp4–7 | Moderator and recruited specialist LLMs are evaluated on medical QA; the solo branch is not multi-agent evidence. | 直接支持 |
 
 处理建议：
 
-- 保留当前限定表述；来源支持上列具体机制，作者条件分析不作为该文实测结果。
+- 复杂度驱动的solo/MDT/ICT路由已在正式§3核实；不扩展为动态控制权切换或临床部署安全证据。
 
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c133"></a>
-## C133 · manuscript.tex:2070
+## C133 · manuscript.tex:2082
 
 原句/表格行：
 
@@ -2790,7 +2833,7 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [qian2024scaling_multiagent](https://proceedings.iclr.cc/paper_files/paper/2025/file/66a026c0d17040889b50f0dfa650e5e0-Paper-Conference.pdf) | Equation5, PDFp4; Sections3.2–3.3 and Table1, PDFpp6–8 | Equation5 and the task/topology experiments show saturation and that the utility/cost of more agents depends on coordination design and task characteristics. | 直接支持 |
+| [qian2024scaling_multiagent](https://proceedings.iclr.cc/paper_files/paper/2025/file/66a026c0d17040889b50f0dfa650e5e0-Paper-Conference.pdf) | §2, §3 datasets/Table1, physical pp3–6 | Multiple GPT-3.5 agents exchange artifacts; MMLU is one of four main evaluation tracks. | 直接支持 |
 
 处理建议：
 
@@ -2799,7 +2842,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c134"></a>
-## C134 · manuscript.tex:2104
+## C134 · manuscript.tex:2116
 
 原句/表格行：
 
@@ -2816,7 +2859,7 @@
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c135"></a>
-## C135 · manuscript.tex:2139
+## C135 · manuscript.tex:2151
 
 原句/表格行：
 
@@ -2824,18 +2867,18 @@
 
 | 来源 | 证据位置 | 来源内容与支持范围 | 支持程度 |
 |---|---|---|---|
-| [zhang2024memory_survey](https://arxiv.org/html/2404.13501) | 2024 preprint §§5.3,8.3 | 可读2024预印本§§5.3,8.3讨论记忆操作与lifelong learning，支持未来更新组件；2025正式版相同位置待核。 | 部分支持/表述需收窄 |
+| [zhang2024memory_survey](D:/multi-agent review_joural/10.10ziliao/A survey on the memory mechanism of large language model-based agents.pdf) | Formal TOIS2025 §5.3 physical pp20–22 (155:20–155:22); §8.3 physical p35 (155:35) | Memory writing/management/reading and memory-based lifelong learning offer updating components; the survey does not validate the proposed QA system or require this specific timestamp/confidence/validation schema. | 作者推论，须标明边界 |
 | [shinn2023reflexion](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html) | abstract | 反思文字的episodic memory用于后续试验。 | 直接支持 |
 
 处理建议：
 
-- 保留组件级未来建议；来源/时间戳/置信度要求为本文建议，正式全文定位pending。
+- Formal version supports memory components. Future QA updates and metadata/validation requirements remain manuscript proposals; formal-locator restriction resolved.
 - 保留当前限定表述；来源支持上列具体机制，作者条件分析不作为该文实测结果。
 
 实施状态：原表述保留，按当前证据复核。
 
 <a id="c136"></a>
-## C136 · manuscript.tex:2147
+## C136 · manuscript.tex:2159
 
 原句/表格行：
 

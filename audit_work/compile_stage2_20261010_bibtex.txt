@@ -1,0 +1,13 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+The top-level auxiliary file: manuscript.aux
+The style file: cas-model2-names.bst
+Database file #1: references.bib
+Warning--empty pages in hendrycks2021mmlu
+Warning--empty pages in khot2023decomposed_prompting
+Warning--empty pages in mialon2024gaia
+Warning--empty pages in vaswani2017attention
+Warning--empty pages in wang2023self_consistency
+Warning--empty pages in wu2024autogen
+Warning--empty pages in yao2023react
+Warning--empty pages in zhou2023least_to_most
+(There were 8 warnings)

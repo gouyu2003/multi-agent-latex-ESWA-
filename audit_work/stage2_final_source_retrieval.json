@@ -1,0 +1,57 @@
+[
+  {
+    "id": "khattab2024dspy__official_page",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html",
+    "retrieved_on": "2026-10-10",
+    "status": 200,
+    "final_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html",
+    "content_type": "text/html; charset=utf-8",
+    "byte_count": 10461,
+    "file": "audit_work/stage2_sources/khattab2024dspy__official_page.txt",
+    "sha256": "bcd4bff66965ec3145e90eebf447161330e217cc4f0f4512a0d1a79f2fabd954"
+  },
+  {
+    "id": "asai2024selfrag__official_page",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html",
+    "retrieved_on": "2026-10-10",
+    "status": 200,
+    "final_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html",
+    "content_type": "text/html; charset=utf-8",
+    "byte_count": 9827,
+    "file": "audit_work/stage2_sources/asai2024selfrag__official_page.txt",
+    "sha256": "c0189bf7fd563e04ee9bb8bfe2474ac1762f57a97d87d1439e9e236430392b24"
+  },
+  {
+    "id": "mialon2024gaia__official_page",
+    "url": "https://openreview.net/forum?id=fibxvahvs3",
+    "retrieved_on": "2026-10-10",
+    "status": 200,
+    "final_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dfibxvahvs3",
+    "content_type": "text/html; charset=utf-8",
+    "byte_count": 4787,
+    "file": "audit_work/stage2_sources/mialon2024gaia__official_page.txt",
+    "sha256": "2acdae4edd7e6fbf29f2487016099e85ef7fd615102d0e6d5f56207ee5ea8b48"
+  },
+  {
+    "id": "qian2024scaling_multiagent__official_page",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/66a026c0d17040889b50f0dfa650e5e0-Abstract-Conference.html",
+    "retrieved_on": "2026-10-10",
+    "status": 200,
+    "final_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/66a026c0d17040889b50f0dfa650e5e0-Abstract-Conference.html",
+    "content_type": "text/html; charset=utf-8",
+    "byte_count": 9870,
+    "file": "audit_work/stage2_sources/qian2024scaling_multiagent__official_page.txt",
+    "sha256": "04bdd03736e058bc79e84ae9edde615d92a29041d08eb6f63f00220bfcd92b4d"
+  },
+  {
+    "id": "vaswani2017attention__bibtex",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Bibtex.bib",
+    "retrieved_on": "2026-10-10",
+    "status": 200,
+    "final_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Bibtex.bib",
+    "content_type": "application/x-bibtex",
+    "byte_count": 619,
+    "file": "audit_work/stage2_sources/vaswani2017attention__bibtex.txt",
+    "sha256": "9ec3339f2e27750b8d16af3c12af3cc6d228ba0405ebf3f7e66a49a2d9d9c870"
+  }
+]

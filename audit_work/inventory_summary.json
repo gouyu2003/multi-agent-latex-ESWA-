@@ -3,7 +3,7 @@
   "source_files": [
     {
       "file": "manuscript.tex",
-      "sha256": "23bb9eea4316745fce3775ec817bb78bf74d5c597f194d19c8e690d4d441259b"
+      "sha256": "313d927dede40f5574e9afede3459a7bbf60fc2e304d7034ec048529b8288976"
     }
   ],
   "excluded_ranges": [
@@ -69,20 +69,20 @@
     },
     {
       "file": "manuscript.tex",
-      "start_line": 1120,
-      "end_line": 1569,
+      "start_line": 1132,
+      "end_line": 1581,
       "reason": "iffalse/false flag"
     },
     {
       "file": "manuscript.tex",
-      "start_line": 1650,
-      "end_line": 1650,
+      "start_line": 1662,
+      "end_line": 1662,
       "reason": "macro definition"
     },
     {
       "file": "manuscript.tex",
-      "start_line": 2233,
-      "end_line": 2233,
+      "start_line": 2246,
+      "end_line": 2246,
       "reason": "after end document"
     }
   ],
@@ -95,11 +95,11 @@
   "compiled_artifacts": [
     {
       "file": "manuscript.aux",
-      "sha256": "403a6ca0521c3bd04b115b7b8db70fdf570adc50005d3dc0fc4231f7ace53918"
+      "sha256": "fcf57ad263345298a5e582f15f9aba1ba0bb0bb4b83f22584900ec3265834891"
     },
     {
       "file": "manuscript.bbl",
-      "sha256": "c2c02ca5e4bbdb7979b8315e21131d55bb8c338195e0dd70123bdc85d949d6ee"
+      "sha256": "acceed7ec1d4f476b0e2a2a50873527830eb8afd23351bbc450f5a5195b00743"
     }
   ],
   "aux_cited_keys": 78,

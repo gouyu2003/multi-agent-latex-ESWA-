@@ -4,14 +4,14 @@
     "file": "manuscript.tex",
     "line": 134,
     "end_line": 134,
-    "offset": 6115,
+    "offset": 6098,
     "command": "citep",
     "keys": [
       "brown2020gpt3"
     ],
     "raw_command": "\\citep{brown2020gpt3}",
     "original_sentence": "In recent years, large language models (LLMs) such as GPT series \\citep{brown2020gpt3} \\citep{openai2023gpt4} have demonstrated strong natural-language understanding and generation capabilities relevant to QA.",
-    "context": "Automatic question answering (QA) systems aim to enable users to pose natural-language questions and receive accurate, concise answers from a computer system. From early rule-based expert systems to modern deep-learning architectures grounded in information retrieval and machine reading comprehension, QA has undergone a remarkable transformation. In recent years, large language models (LLMs) such as GPT series \\citep{brown2020gpt3} \\citep{openai2023gpt4} have demonstrated strong natural-language understanding and generation capabilities relevant to QA. Nevertheless, QA systems built on a single LLM agent continue to face fundamental limitations. \\emph{First}, single agents are prone to hallucination, producing factually incorrect outputs with high confidence. \\emph{Second}, finite context windows impede reliable reasoning over long documents or multi-hop inference chains. \\emph{Third}, a monolithic model cannot simultaneously possess expert-level knowledge across all domains, often failing on queries that require cross-disciplinary collaboration.",
+    "context": "Automatic question answering (QA) systems aim to enable users to pose natural-language questions and receive accurate, concise answers from a computer system. From early rule-based expert systems to modern deep-learning architectures grounded in information retrieval and machine reading comprehension, QA has undergone a remarkable transformation. In recent years, large language models (LLMs) such as GPT series \\citep{brown2020gpt3} \\citep{openai2023gpt4} have demonstrated strong natural-language understanding and generation capabilities relevant to QA. Nevertheless, QA systems built on a single LLM agent continue to face fundamental limitations. \\emph{First}, single agents are prone to hallucination, producing factually incorrect outputs with high confidence. \\emph{Second}, finite context windows impede reliable reasoning over long documents or multi-hop inference chains. \\emph{Third}, a single model may lack sufficient domain coverage for a query that requires several areas of expertise; combining perspectives is one possible response whose benefit requires task-level evaluation.",
     "section": "Introduction",
     "kind": "prose"
   },
@@ -20,14 +20,14 @@
     "file": "manuscript.tex",
     "line": 134,
     "end_line": 134,
-    "offset": 6137,
+    "offset": 6120,
     "command": "citep",
     "keys": [
       "openai2023gpt4"
     ],
     "raw_command": "\\citep{openai2023gpt4}",
     "original_sentence": "In recent years, large language models (LLMs) such as GPT series \\citep{brown2020gpt3} \\citep{openai2023gpt4} have demonstrated strong natural-language understanding and generation capabilities relevant to QA.",
-    "context": "Automatic question answering (QA) systems aim to enable users to pose natural-language questions and receive accurate, concise answers from a computer system. From early rule-based expert systems to modern deep-learning architectures grounded in information retrieval and machine reading comprehension, QA has undergone a remarkable transformation. In recent years, large language models (LLMs) such as GPT series \\citep{brown2020gpt3} \\citep{openai2023gpt4} have demonstrated strong natural-language understanding and generation capabilities relevant to QA. Nevertheless, QA systems built on a single LLM agent continue to face fundamental limitations. \\emph{First}, single agents are prone to hallucination, producing factually incorrect outputs with high confidence. \\emph{Second}, finite context windows impede reliable reasoning over long documents or multi-hop inference chains. \\emph{Third}, a monolithic model cannot simultaneously possess expert-level knowledge across all domains, often failing on queries that require cross-disciplinary collaboration.",
+    "context": "Automatic question answering (QA) systems aim to enable users to pose natural-language questions and receive accurate, concise answers from a computer system. From early rule-based expert systems to modern deep-learning architectures grounded in information retrieval and machine reading comprehension, QA has undergone a remarkable transformation. In recent years, large language models (LLMs) such as GPT series \\citep{brown2020gpt3} \\citep{openai2023gpt4} have demonstrated strong natural-language understanding and generation capabilities relevant to QA. Nevertheless, QA systems built on a single LLM agent continue to face fundamental limitations. \\emph{First}, single agents are prone to hallucination, producing factually incorrect outputs with high confidence. \\emph{Second}, finite context windows impede reliable reasoning over long documents or multi-hop inference chains. \\emph{Third}, a single model may lack sufficient domain coverage for a query that requires several areas of expertise; combining perspectives is one possible response whose benefit requires task-level evaluation.",
     "section": "Introduction",
     "kind": "prose"
   },
@@ -36,14 +36,14 @@
     "file": "manuscript.tex",
     "line": 149,
     "end_line": 149,
-    "offset": 6899,
+    "offset": 6917,
     "command": "citep",
     "keys": [
       "minsky1988society"
     ],
     "raw_command": "\\citep{minsky1988society}",
     "original_sentence": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}.",
-    "context": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. Between 2023 and 2026 this field has witnessed explosive growth. For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination. Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
+    "context": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination. Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
     "section": "Introduction",
     "kind": "prose"
   },
@@ -52,14 +52,14 @@
     "file": "manuscript.tex",
     "line": 150,
     "end_line": 150,
-    "offset": 6975,
+    "offset": 6993,
     "command": "citep",
     "keys": [
       "wooldridge1995intelligent"
     ],
     "raw_command": "\\citep{wooldridge1995intelligent}",
     "original_sentence": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}.",
-    "context": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. Between 2023 and 2026 this field has witnessed explosive growth. For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination. Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
+    "context": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination. Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
     "section": "Introduction",
     "kind": "prose"
   },
@@ -68,14 +68,14 @@
     "file": "manuscript.tex",
     "line": 152,
     "end_line": 152,
-    "offset": 7127,
+    "offset": 7080,
     "command": "citep",
     "keys": [
       "wu2024autogen"
     ],
     "raw_command": "\\citep{wu2024autogen}",
     "original_sentence": "For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination.",
-    "context": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. Between 2023 and 2026 this field has witnessed explosive growth. For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination. Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
+    "context": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination. Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
     "section": "Introduction",
     "kind": "prose"
   },
@@ -84,14 +84,14 @@
     "file": "manuscript.tex",
     "line": 153,
     "end_line": 153,
-    "offset": 7161,
+    "offset": 7114,
     "command": "citep",
     "keys": [
       "hong2024metagpt"
     ],
     "raw_command": "\\citep{hong2024metagpt}",
     "original_sentence": "For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination.",
-    "context": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. Between 2023 and 2026 this field has witnessed explosive growth. For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination. Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
+    "context": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination. Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
     "section": "Introduction",
     "kind": "prose"
   },
@@ -100,14 +100,14 @@
     "file": "manuscript.tex",
     "line": 155,
     "end_line": 155,
-    "offset": 7291,
+    "offset": 7244,
     "command": "citep",
     "keys": [
       "du2024multiagent_debate"
     ],
     "raw_command": "\\citep{du2024multiagent_debate}",
     "original_sentence": "Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
-    "context": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. Between 2023 and 2026 this field has witnessed explosive growth. For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination. Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
+    "context": "At the same time, multi-agent collaborative paradigms have emerged, drawing theoretical inspiration from Minsky's ``Society of Mind'' \\citep{minsky1988society} and the formal foundations of multi-agent systems \\citep{wooldridge1995intelligent}. For example, influential frameworks such as AutoGen \\citep{wu2024autogen} and MetaGPT \\citep{hong2024metagpt} illustrate the emergence of explicit multi-agent coordination. Through role specialization, mutual debate \\citep{du2024multiagent_debate}, and structured task decomposition, multi-agent systems can improve answer verification and task performance.",
     "section": "Introduction",
     "kind": "prose"
   },
@@ -116,7 +116,7 @@
     "file": "manuscript.tex",
     "line": 161,
     "end_line": 161,
-    "offset": 7522,
+    "offset": 7475,
     "command": "citep",
     "keys": [
       "guo2024llm_multiagent_survey",
@@ -132,57 +132,57 @@
   {
     "command_id": "C009",
     "file": "manuscript.tex",
-    "line": 221,
-    "end_line": 221,
-    "offset": 11416,
+    "line": 218,
+    "end_line": 218,
+    "offset": 11120,
     "command": "citep",
     "keys": [
       "chen2024reconcile"
     ],
     "raw_command": "\\citep{chen2024reconcile}",
-    "original_sentence": "It added ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa}.",
-    "context": "The historical targeted update used combinations of \\textit{multi-agent}, \\textit{LLM}, \\textit{question answering}, \\textit{reasoning}, \\textit{long-context}, and \\textit{retrieval-augmented generation} across the ACL Anthology, OpenReview, arXiv, and publisher proceedings. It added ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa}.",
+    "original_sentence": "The historical working records list ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa} as additions.",
+    "context": "The historical working records list ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa} as additions. The source audit confirms their identities and publication dates; it does not reconstruct the original update queries, retrieval results, or search dates.",
     "section": "Corpus construction and verification",
     "kind": "prose"
   },
   {
     "command_id": "C010",
     "file": "manuscript.tex",
-    "line": 221,
-    "end_line": 221,
-    "offset": 11459,
+    "line": 218,
+    "end_line": 218,
+    "offset": 11163,
     "command": "citep",
     "keys": [
       "zhang2024chain_agents"
     ],
     "raw_command": "\\citep{zhang2024chain_agents}",
-    "original_sentence": "It added ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa}.",
-    "context": "The historical targeted update used combinations of \\textit{multi-agent}, \\textit{LLM}, \\textit{question answering}, \\textit{reasoning}, \\textit{long-context}, and \\textit{retrieval-augmented generation} across the ACL Anthology, OpenReview, arXiv, and publisher proceedings. It added ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa}.",
+    "original_sentence": "The historical working records list ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa} as additions.",
+    "context": "The historical working records list ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa} as additions. The source audit confirms their identities and publication dates; it does not reconstruct the original update queries, retrieval results, or search dates.",
     "section": "Corpus construction and verification",
     "kind": "prose"
   },
   {
     "command_id": "C011",
     "file": "manuscript.tex",
-    "line": 222,
-    "end_line": 222,
-    "offset": 11500,
+    "line": 219,
+    "end_line": 219,
+    "offset": 11204,
     "command": "citep",
     "keys": [
       "jiang2026cocoa"
     ],
     "raw_command": "\\citep{jiang2026cocoa}",
-    "original_sentence": "It added ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa}.",
-    "context": "The historical targeted update used combinations of \\textit{multi-agent}, \\textit{LLM}, \\textit{question answering}, \\textit{reasoning}, \\textit{long-context}, and \\textit{retrieval-augmented generation} across the ACL Anthology, OpenReview, arXiv, and publisher proceedings. It added ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa}.",
+    "original_sentence": "The historical working records list ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa} as additions.",
+    "context": "The historical working records list ReConcile \\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa} as additions. The source audit confirms their identities and publication dates; it does not reconstruct the original update queries, retrieval results, or search dates.",
     "section": "Corpus construction and verification",
     "kind": "prose"
   },
   {
     "command_id": "C012",
     "file": "manuscript.tex",
-    "line": 274,
-    "end_line": 274,
-    "offset": 15116,
+    "line": 276,
+    "end_line": 276,
+    "offset": 15232,
     "command": "citep",
     "keys": [
       "karpukhin2020dpr"
@@ -196,9 +196,9 @@
   {
     "command_id": "C013",
     "file": "manuscript.tex",
-    "line": 274,
-    "end_line": 274,
-    "offset": 15208,
+    "line": 276,
+    "end_line": 276,
+    "offset": 15324,
     "command": "citep",
     "keys": [
       "lewis2020rag"
@@ -212,9 +212,9 @@
   {
     "command_id": "C014",
     "file": "manuscript.tex",
-    "line": 277,
-    "end_line": 277,
-    "offset": 15768,
+    "line": 279,
+    "end_line": 279,
+    "offset": 15884,
     "command": "citep",
     "keys": [
       "yang2018hotpotqa"
@@ -228,9 +228,9 @@
   {
     "command_id": "C015",
     "file": "manuscript.tex",
-    "line": 278,
-    "end_line": 278,
-    "offset": 15836,
+    "line": 280,
+    "end_line": 280,
+    "offset": 15952,
     "command": "citep",
     "keys": [
       "kwiatkowski2019natural_questions"
@@ -244,9 +244,9 @@
   {
     "command_id": "C016",
     "file": "manuscript.tex",
-    "line": 279,
-    "end_line": 279,
-    "offset": 15920,
+    "line": 281,
+    "end_line": 281,
+    "offset": 16036,
     "command": "citep",
     "keys": [
       "reddy2019coqa"
@@ -260,9 +260,9 @@
   {
     "command_id": "C017",
     "file": "manuscript.tex",
-    "line": 280,
-    "end_line": 280,
-    "offset": 15951,
+    "line": 282,
+    "end_line": 282,
+    "offset": 16067,
     "command": "citep",
     "keys": [
       "choi2018quac"
@@ -276,9 +276,9 @@
   {
     "command_id": "C018",
     "file": "manuscript.tex",
-    "line": 297,
-    "end_line": 297,
-    "offset": 17171,
+    "line": 299,
+    "end_line": 299,
+    "offset": 17287,
     "command": "citep",
     "keys": [
       "yao2023react"
@@ -292,9 +292,9 @@
   {
     "command_id": "C019",
     "file": "manuscript.tex",
-    "line": 311,
-    "end_line": 311,
-    "offset": 17898,
+    "line": 313,
+    "end_line": 313,
+    "offset": 18014,
     "command": "citep",
     "keys": [
       "vaswani2017attention"
@@ -308,9 +308,9 @@
   {
     "command_id": "C020",
     "file": "manuscript.tex",
-    "line": 313,
-    "end_line": 313,
-    "offset": 18004,
+    "line": 315,
+    "end_line": 315,
+    "offset": 18120,
     "command": "citep",
     "keys": [
       "devlin2019bert"
@@ -324,9 +324,9 @@
   {
     "command_id": "C021",
     "file": "manuscript.tex",
-    "line": 314,
-    "end_line": 314,
-    "offset": 18110,
+    "line": 316,
+    "end_line": 316,
+    "offset": 18226,
     "command": "citep",
     "keys": [
       "brown2020gpt3"
@@ -340,9 +340,9 @@
   {
     "command_id": "C022",
     "file": "manuscript.tex",
-    "line": 315,
-    "end_line": 315,
-    "offset": 18142,
+    "line": 317,
+    "end_line": 317,
+    "offset": 18258,
     "command": "citep",
     "keys": [
       "openai2023gpt4"
@@ -356,9 +356,9 @@
   {
     "command_id": "C023",
     "file": "manuscript.tex",
-    "line": 316,
-    "end_line": 316,
-    "offset": 18266,
+    "line": 318,
+    "end_line": 318,
+    "offset": 18382,
     "command": "citep",
     "keys": [
       "touvron2023llama"
@@ -372,9 +372,9 @@
   {
     "command_id": "C024",
     "file": "manuscript.tex",
-    "line": 317,
-    "end_line": 317,
-    "offset": 18303,
+    "line": 319,
+    "end_line": 319,
+    "offset": 18419,
     "command": "citep",
     "keys": [
       "glm2024chatglm"
@@ -388,9 +388,9 @@
   {
     "command_id": "C025",
     "file": "manuscript.tex",
-    "line": 319,
-    "end_line": 319,
-    "offset": 18398,
+    "line": 321,
+    "end_line": 321,
+    "offset": 18514,
     "command": "citep",
     "keys": [
       "ouyang2022instructgpt"
@@ -404,9 +404,9 @@
   {
     "command_id": "C026",
     "file": "manuscript.tex",
-    "line": 370,
-    "end_line": 370,
-    "offset": 20917,
+    "line": 372,
+    "end_line": 372,
+    "offset": 21033,
     "command": "citep",
     "keys": [
       "minsky1988society"
@@ -420,9 +420,9 @@
   {
     "command_id": "C027",
     "file": "manuscript.tex",
-    "line": 372,
-    "end_line": 372,
-    "offset": 21076,
+    "line": 374,
+    "end_line": 374,
+    "offset": 21192,
     "command": "citep",
     "keys": [
       "park2023generative_agents"
@@ -436,9 +436,9 @@
   {
     "command_id": "C028",
     "file": "manuscript.tex",
-    "line": 377,
-    "end_line": 377,
-    "offset": 21455,
+    "line": 379,
+    "end_line": 379,
+    "offset": 21571,
     "command": "citep",
     "keys": [
       "hong2024metagpt"
@@ -452,9 +452,9 @@
   {
     "command_id": "C029",
     "file": "manuscript.tex",
-    "line": 378,
-    "end_line": 378,
-    "offset": 21555,
+    "line": 380,
+    "end_line": 380,
+    "offset": 21671,
     "command": "citep",
     "keys": [
       "li2023camel"
@@ -468,9 +468,9 @@
   {
     "command_id": "C030",
     "file": "manuscript.tex",
-    "line": 389,
-    "end_line": 389,
-    "offset": 22237,
+    "line": 391,
+    "end_line": 391,
+    "offset": 22353,
     "command": "citep",
     "keys": [
       "zhao2024longagent",
@@ -485,9 +485,9 @@
   {
     "command_id": "C031",
     "file": "manuscript.tex",
-    "line": 397,
-    "end_line": 398,
-    "offset": 22724,
+    "line": 398,
+    "end_line": 399,
+    "offset": 22762,
     "command": "citep",
     "keys": [
       "du2024multiagent_debate",
@@ -495,17 +495,17 @@
       "xiong2023inter_consistency"
     ],
     "raw_command": "\\citep{du2024multiagent_debate,chen2024reconcile,\nxiong2023inter_consistency}",
-    "original_sentence": "Debate, cross-checking, and reconciliation may expose errors that self-refinement within one workflow overlooks \\citep{du2024multiagent_debate,chen2024reconcile, xiong2023inter_consistency}.",
-    "context": "Multi-agent collaboration can also improve reasoning reliability by creating separate candidate, review, and verification paths. Debate, cross-checking, and reconciliation may expose errors that self-refinement within one workflow overlooks \\citep{du2024multiagent_debate,chen2024reconcile, xiong2023inter_consistency}. However, additional agents do not guarantee correctness: weak aggregation, poor interaction design, or correlated errors can preserve or amplify an incorrect answer. Coordination quality is thus a central design variable, not an incidental implementation detail.",
+    "original_sentence": "Debate and reconciliation compare answers from different reasoners \\citep{du2024multiagent_debate,chen2024reconcile, xiong2023inter_consistency}; their benefits depend on the task and the agents involved.",
+    "context": "Multi-agent collaboration provides mechanisms for comparing candidate answers and review paths. Debate and reconciliation compare answers from different reasoners \\citep{du2024multiagent_debate,chen2024reconcile, xiong2023inter_consistency}; their benefits depend on the task and the agents involved. Additional agents do not guarantee correctness or establish universal superiority over self-refinement: weak aggregation, poor interaction design, or correlated errors can preserve an incorrect answer. Coordination quality therefore requires evaluation.",
     "section": "Rationale for the transition from single-agent to multi-agent systems",
     "kind": "prose"
   },
   {
     "command_id": "C032",
     "file": "manuscript.tex",
-    "line": 450,
-    "end_line": 450,
-    "offset": 25726,
+    "line": 452,
+    "end_line": 452,
+    "offset": 25814,
     "command": "citet",
     "keys": [
       "du2024multiagent_debate"
@@ -519,9 +519,9 @@
   {
     "command_id": "C033",
     "file": "manuscript.tex",
-    "line": 450,
-    "end_line": 450,
-    "offset": 25923,
+    "line": 452,
+    "end_line": 452,
+    "offset": 26011,
     "command": "citep",
     "keys": [
       "liang2024divergent_debate"
@@ -535,9 +535,9 @@
   {
     "command_id": "C034",
     "file": "manuscript.tex",
-    "line": 450,
-    "end_line": 450,
-    "offset": 26064,
+    "line": 452,
+    "end_line": 452,
+    "offset": 26152,
     "command": "citep",
     "keys": [
       "chen2024reconcile"
@@ -551,9 +551,9 @@
   {
     "command_id": "C035",
     "file": "manuscript.tex",
-    "line": 450,
-    "end_line": 450,
-    "offset": 26187,
+    "line": 452,
+    "end_line": 452,
+    "offset": 26275,
     "command": "citep",
     "keys": [
       "xiong2023inter_consistency"
@@ -567,25 +567,25 @@
   {
     "command_id": "C036",
     "file": "manuscript.tex",
-    "line": 455,
-    "end_line": 455,
-    "offset": 26675,
+    "line": 457,
+    "end_line": 457,
+    "offset": 26763,
     "command": "citep",
     "keys": [
       "li2023camel"
     ],
     "raw_command": "\\citep{li2023camel}",
     "original_sentence": "For example, CAMEL \\citep{li2023camel} employs an \"AI User\" and an \"AI Assistant\" paired with inception prompting to maintain role-conditioned interaction.",
-    "context": "Role-conditioned collaboration assigns different prompts or task views to participating agents. For example, CAMEL \\citep{li2023camel} employs an \"AI User\" and an \"AI Assistant\" paired with inception prompting to maintain role-conditioned interaction. This constitutes an adjacent multi-agent framework and does not serve as direct evidence that role playing improves QA accuracy.",
+    "context": "Role-conditioned collaboration assigns different prompts or task views to participating agents. For example, CAMEL \\citep{li2023camel} employs an \"AI User\" and an \"AI Assistant\" paired with inception prompting to maintain role-conditioned interaction. This role pair has asymmetric instructions; role play alone does not establish a flat decision-authority structure. This constitutes an adjacent multi-agent framework and does not serve as direct evidence that role playing improves QA accuracy.",
     "section": "Flat architectures",
     "kind": "prose"
   },
   {
     "command_id": "C037",
     "file": "manuscript.tex",
-    "line": 460,
-    "end_line": 460,
-    "offset": 27119,
+    "line": 462,
+    "end_line": 462,
+    "offset": 27323,
     "command": "citep",
     "keys": [
       "wu2024autogen"
@@ -599,9 +599,9 @@
   {
     "command_id": "C038",
     "file": "manuscript.tex",
-    "line": 475,
-    "end_line": 475,
-    "offset": 28589,
+    "line": 477,
+    "end_line": 477,
+    "offset": 28793,
     "command": "citep",
     "keys": [
       "hong2024metagpt"
@@ -615,9 +615,9 @@
   {
     "command_id": "C039",
     "file": "manuscript.tex",
-    "line": 476,
-    "end_line": 476,
-    "offset": 28728,
+    "line": 478,
+    "end_line": 478,
+    "offset": 28932,
     "command": "citep",
     "keys": [
       "qian2023chatdev"
@@ -631,9 +631,9 @@
   {
     "command_id": "C040",
     "file": "manuscript.tex",
-    "line": 485,
-    "end_line": 485,
-    "offset": 29222,
+    "line": 487,
+    "end_line": 487,
+    "offset": 29426,
     "command": "citep",
     "keys": [
       "zhao2024longagent"
@@ -647,9 +647,9 @@
   {
     "command_id": "C041",
     "file": "manuscript.tex",
-    "line": 486,
-    "end_line": 486,
-    "offset": 29323,
+    "line": 488,
+    "end_line": 488,
+    "offset": 29527,
     "command": "citep",
     "keys": [
       "zhang2024chain_agents"
@@ -663,9 +663,9 @@
   {
     "command_id": "C042",
     "file": "manuscript.tex",
-    "line": 488,
-    "end_line": 488,
-    "offset": 29440,
+    "line": 490,
+    "end_line": 490,
+    "offset": 29644,
     "command": "citep",
     "keys": [
       "jiang2026cocoa"
@@ -679,9 +679,9 @@
   {
     "command_id": "C043",
     "file": "manuscript.tex",
-    "line": 492,
-    "end_line": 492,
-    "offset": 29797,
+    "line": 494,
+    "end_line": 494,
+    "offset": 30001,
     "command": "citep",
     "keys": [
       "shen2024hugginggpt"
@@ -695,73 +695,73 @@
   {
     "command_id": "C044",
     "file": "manuscript.tex",
-    "line": 508,
-    "end_line": 508,
-    "offset": 31086,
+    "line": 510,
+    "end_line": 510,
+    "offset": 31290,
     "command": "citep",
     "keys": [
       "langgraph2024"
     ],
     "raw_command": "\\citep{langgraph2024}",
     "original_sentence": "For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation.",
-    "context": "Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \\citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections.",
+    "context": "Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \\citep{zhuge2024gptswarm} provides an empirical example of optimising prompts and inter-agent graph connections. A graph representation, edge optimisation, or conditional routing alone does not establish hybrid decision authority; the implementation must actually change who controls decisions.",
     "section": "Hybrid architectures",
     "kind": "prose"
   },
   {
     "command_id": "C045",
     "file": "manuscript.tex",
-    "line": 508,
-    "end_line": 508,
-    "offset": 31307,
+    "line": 510,
+    "end_line": 510,
+    "offset": 31511,
     "command": "citep",
     "keys": [
       "zhuge2024gptswarm"
     ],
     "raw_command": "\\citep{zhuge2024gptswarm}",
-    "original_sentence": "GPTSwarm \\citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections.",
-    "context": "Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \\citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections.",
+    "original_sentence": "GPTSwarm \\citep{zhuge2024gptswarm} provides an empirical example of optimising prompts and inter-agent graph connections.",
+    "context": "Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \\citep{zhuge2024gptswarm} provides an empirical example of optimising prompts and inter-agent graph connections. A graph representation, edge optimisation, or conditional routing alone does not establish hybrid decision authority; the implementation must actually change who controls decisions.",
     "section": "Hybrid architectures",
     "kind": "prose"
   },
   {
     "command_id": "C046",
     "file": "manuscript.tex",
-    "line": 514,
-    "end_line": 514,
-    "offset": 31643,
+    "line": 516,
+    "end_line": 516,
+    "offset": 31974,
     "command": "citep",
     "keys": [
       "chen2024agentverse"
     ],
     "raw_command": "\\citep{chen2024agentverse}",
     "original_sentence": "For example, AgentVerse \\citep{chen2024agentverse} describes an iterative pipeline consisting of expert recruitment, collaborative decision-making, action execution, and result evaluation.",
-    "context": "Adaptive systems adjust team composition or control patterns as tasks evolve. For example, AgentVerse \\citep{chen2024agentverse} describes an iterative pipeline consisting of expert recruitment, collaborative decision-making, action execution, and result evaluation. This mechanism cannot be simplified to a \"simple-flat/complex- hierarchical\" rule. MDAgents \\citep{kim2024mdagents} provides direct in-case evidence for adaptive medical collaboration. Such adaptive mechanisms enhance routing flexibility, yet introduce extra requirements for state management and performance evaluation.",
+    "context": "Adaptive systems can adjust team composition or interaction patterns. For example, AgentVerse \\citep{chen2024agentverse} describes an iterative pipeline consisting of expert recruitment, collaborative decision-making, action execution, and result evaluation. This mechanism cannot be simplified to a \"simple-flat/complex- hierarchical\" rule. MDAgents \\citep{kim2024mdagents} routes medical queries to solo, multidisciplinary-team, or integrated-care-team pathways according to complexity under a moderator. This supports adaptive collaboration, but a persistent moderator means that mode switching alone is insufficient to prove hybrid authority. State management and performance still require evaluation.",
     "section": "Hybrid architectures",
     "kind": "prose"
   },
   {
     "command_id": "C047",
     "file": "manuscript.tex",
-    "line": 517,
-    "end_line": 517,
-    "offset": 31900,
+    "line": 519,
+    "end_line": 519,
+    "offset": 32231,
     "command": "citep",
     "keys": [
       "kim2024mdagents"
     ],
     "raw_command": "\\citep{kim2024mdagents}",
-    "original_sentence": "MDAgents \\citep{kim2024mdagents} provides direct in-case evidence for adaptive medical collaboration.",
-    "context": "Adaptive systems adjust team composition or control patterns as tasks evolve. For example, AgentVerse \\citep{chen2024agentverse} describes an iterative pipeline consisting of expert recruitment, collaborative decision-making, action execution, and result evaluation. This mechanism cannot be simplified to a \"simple-flat/complex- hierarchical\" rule. MDAgents \\citep{kim2024mdagents} provides direct in-case evidence for adaptive medical collaboration. Such adaptive mechanisms enhance routing flexibility, yet introduce extra requirements for state management and performance evaluation.",
+    "original_sentence": "MDAgents \\citep{kim2024mdagents} routes medical queries to solo, multidisciplinary-team, or integrated-care-team pathways according to complexity under a moderator.",
+    "context": "Adaptive systems can adjust team composition or interaction patterns. For example, AgentVerse \\citep{chen2024agentverse} describes an iterative pipeline consisting of expert recruitment, collaborative decision-making, action execution, and result evaluation. This mechanism cannot be simplified to a \"simple-flat/complex- hierarchical\" rule. MDAgents \\citep{kim2024mdagents} routes medical queries to solo, multidisciplinary-team, or integrated-care-team pathways according to complexity under a moderator. This supports adaptive collaboration, but a persistent moderator means that mode switching alone is insufficient to prove hybrid authority. State management and performance still require evaluation.",
     "section": "Hybrid architectures",
     "kind": "prose"
   },
   {
     "command_id": "C048",
     "file": "manuscript.tex",
-    "line": 526,
-    "end_line": 526,
-    "offset": 32303,
+    "line": 529,
+    "end_line": 529,
+    "offset": 32760,
     "command": "citep",
     "keys": [
       "langgraph2024interrupt"
@@ -775,73 +775,73 @@
   {
     "command_id": "C049",
     "file": "manuscript.tex",
-    "line": 586,
-    "end_line": 586,
-    "offset": 35860,
+    "line": 590,
+    "end_line": 590,
+    "offset": 36413,
     "command": "citet",
     "keys": [
       "du2024multiagent_debate"
     ],
     "raw_command": "\\citet{du2024multiagent_debate}",
-    "original_sentence": "\\multirow{3}{*}{\\textbf{Flat}} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Comparison of multi-agent collaborative QA architecture classes.} \\label{tab:9categories} \\scriptsize \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}} \\toprule \\textbf{Architecture} & \\textbf{Sub-paradigm} & \\textbf{Representative systems} & \\textbf{Coordination and control} & \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\ \\midrule \\multirow{3}{*}{\\textbf{Flat}} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\ & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\ & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\ \\midrule \\multirow{3}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\ & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
+    "original_sentence": "\\textbf{Flat} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Representative control patterns and related mechanisms for multi-agent collaborative QA.} \\label{tab:9categories} \\scriptsize \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}} \\toprule \\textbf{Architecture} & \\textbf{Sub-paradigm} & \\textbf{Representative systems} & \\textbf{Coordination and control} & \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\ \\midrule \\textbf{Flat} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\ \\textbf{Role-paired} & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\ \\textbf{Configurable} & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\ \\midrule \\multirow{2}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\ & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
     "section": "Comparative discussion of architecture types",
     "kind": "table_row"
   },
   {
     "command_id": "C050",
     "file": "manuscript.tex",
-    "line": 590,
-    "end_line": 590,
-    "offset": 36119,
+    "line": 594,
+    "end_line": 594,
+    "offset": 36693,
     "command": "citep",
     "keys": [
       "li2023camel"
     ],
     "raw_command": "\\citep{li2023camel}",
-    "original_sentence": "& Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Comparison of multi-agent collaborative QA architecture classes.} \\label{tab:9categories} \\scriptsize \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}} \\toprule \\textbf{Architecture} & \\textbf{Sub-paradigm} & \\textbf{Representative systems} & \\textbf{Coordination and control} & \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\ \\midrule \\multirow{3}{*}{\\textbf{Flat}} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\ & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\ & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\ \\midrule \\multirow{3}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\ & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
+    "original_sentence": "\\textbf{Role-paired} & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Representative control patterns and related mechanisms for multi-agent collaborative QA.} \\label{tab:9categories} \\scriptsize \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}} \\toprule \\textbf{Architecture} & \\textbf{Sub-paradigm} & \\textbf{Representative systems} & \\textbf{Coordination and control} & \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\ \\midrule \\textbf{Flat} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\ \\textbf{Role-paired} & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\ \\textbf{Configurable} & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\ \\midrule \\multirow{2}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\ & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
     "section": "Comparative discussion of architecture types",
     "kind": "table_row"
   },
   {
     "command_id": "C051",
     "file": "manuscript.tex",
-    "line": 594,
-    "end_line": 594,
-    "offset": 36366,
+    "line": 598,
+    "end_line": 598,
+    "offset": 36962,
     "command": "citep",
     "keys": [
       "wu2024autogen"
     ],
     "raw_command": "\\citep{wu2024autogen}",
-    "original_sentence": "& Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Comparison of multi-agent collaborative QA architecture classes.} \\label{tab:9categories} \\scriptsize \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}} \\toprule \\textbf{Architecture} & \\textbf{Sub-paradigm} & \\textbf{Representative systems} & \\textbf{Coordination and control} & \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\ \\midrule \\multirow{3}{*}{\\textbf{Flat}} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\ & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\ & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\ \\midrule \\multirow{3}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\ & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
+    "original_sentence": "\\textbf{Configurable} & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Representative control patterns and related mechanisms for multi-agent collaborative QA.} \\label{tab:9categories} \\scriptsize \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}} \\toprule \\textbf{Architecture} & \\textbf{Sub-paradigm} & \\textbf{Representative systems} & \\textbf{Coordination and control} & \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\ \\midrule \\textbf{Flat} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\ \\textbf{Role-paired} & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\ \\textbf{Configurable} & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\ \\midrule \\multirow{2}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\ & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
     "section": "Comparative discussion of architecture types",
     "kind": "table_row"
   },
   {
     "command_id": "C052",
     "file": "manuscript.tex",
-    "line": 600,
-    "end_line": 600,
-    "offset": 36668,
+    "line": 604,
+    "end_line": 604,
+    "offset": 37264,
     "command": "citep",
     "keys": [
       "hong2024metagpt"
     ],
     "raw_command": "\\citep{hong2024metagpt}",
-    "original_sentence": "\\multirow{3}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Comparison of multi-agent collaborative QA architecture classes.} \\label{tab:9categories} \\scriptsize \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}} \\toprule \\textbf{Architecture} & \\textbf{Sub-paradigm} & \\textbf{Representative systems} & \\textbf{Coordination and control} & \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\ \\midrule \\multirow{3}{*}{\\textbf{Flat}} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\ & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\ & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\ \\midrule \\multirow{3}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\ & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
+    "original_sentence": "\\multirow{2}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Representative control patterns and related mechanisms for multi-agent collaborative QA.} \\label{tab:9categories} \\scriptsize \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}} \\toprule \\textbf{Architecture} & \\textbf{Sub-paradigm} & \\textbf{Representative systems} & \\textbf{Coordination and control} & \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\ \\midrule \\textbf{Flat} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\ \\textbf{Role-paired} & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\ \\textbf{Configurable} & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\ \\midrule \\multirow{2}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\ & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
     "section": "Comparative discussion of architecture types",
     "kind": "table_row"
   },
   {
     "command_id": "C053",
     "file": "manuscript.tex",
-    "line": 605,
-    "end_line": 605,
-    "offset": 36928,
+    "line": 609,
+    "end_line": 609,
+    "offset": 37524,
     "command": "citep",
     "keys": [
       "zhao2024longagent",
@@ -850,65 +850,65 @@
     ],
     "raw_command": "\\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa}",
     "original_sentence": "& Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Comparison of multi-agent collaborative QA architecture classes.} \\label{tab:9categories} \\scriptsize \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}} \\toprule \\textbf{Architecture} & \\textbf{Sub-paradigm} & \\textbf{Representative systems} & \\textbf{Coordination and control} & \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\ \\midrule \\multirow{3}{*}{\\textbf{Flat}} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\ & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\ & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\ \\midrule \\multirow{3}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\ & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Representative control patterns and related mechanisms for multi-agent collaborative QA.} \\label{tab:9categories} \\scriptsize \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}} \\toprule \\textbf{Architecture} & \\textbf{Sub-paradigm} & \\textbf{Representative systems} & \\textbf{Coordination and control} & \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\ \\midrule \\textbf{Flat} & Multi-agent debate & \\citet{du2024multiagent_debate} & Peer critique and aggregation can add independent answer paths & Tasks needing competing factual or reasoning views & Coordination cost and aggregation sensitivity \\\\ \\textbf{Role-paired} & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & Personas structure interaction but do not by themselves establish QA gains & Exploratory collaboration and prompt-role studies & Fixed roles or correlated perspectives \\\\ \\textbf{Configurable} & Group-chat collaboration & AutoGen \\citep{wu2024autogen} & Developer-defined speaker selection and dialogue patterns & Applications requiring configurable conversations & Topology and QA performance depend on configuration \\\\ \\midrule \\multirow{2}{*}{\\textbf{Hierarchical}} & Manager--executor pattern & MetaGPT \\citep{hong2024metagpt} & Manager assigns staged work to specialised executors & Structured engineering workflows & Planner bottleneck and error propagation \\\\ & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} & Explicit sequencing and final synthesis over distributed evidence & Long-document or knowledge-intensive QA & Information loss and coordination cost at synthesis \\\\",
     "section": "Comparative discussion of architecture types",
     "kind": "table_row"
   },
   {
     "command_id": "C054",
     "file": "manuscript.tex",
-    "line": 613,
-    "end_line": 613,
-    "offset": 37289,
+    "line": 617,
+    "end_line": 617,
+    "offset": 37916,
     "command": "citep",
     "keys": [
       "zhuge2024gptswarm",
       "langgraph2024"
     ],
     "raw_command": "\\citep{zhuge2024gptswarm,langgraph2024}",
-    "original_sentence": "\\multirow{3}{*}{\\textbf{Hybrid}} & Graph-structured agent networks & GPTSwarm; LangGraph \\citep{zhuge2024gptswarm,langgraph2024} & DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\\\",
-    "context": "\\midrule \\multirow{3}{*}{\\textbf{Hybrid}} & Graph-structured agent networks & GPTSwarm; LangGraph \\citep{zhuge2024gptswarm,langgraph2024} & DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\\\ & Adaptive collaboration-mode switching & MDAgents \\citep{kim2024mdagents} & Changes collaboration in response to case characteristics & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\\\ & Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} & Human review at explicitly defined decision points & High-risk workflows requiring accountability & Direct comparative QA evidence remains limited \\\\ \\bottomrule \\end{tabular} \\end{table*}",
+    "original_sentence": "textbf{cutting}}} & Graph-structured agent networks & GPTSwarm; LangGraph \\citep{zhuge2024gptswarm,langgraph2024} & DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\\\",
+    "context": "\\midrule \\multirow{3}{*}{\\shortstack{\\textbf{Cross-}\\\\\\textbf{cutting}}} & Graph-structured agent networks & GPTSwarm; LangGraph \\citep{zhuge2024gptswarm,langgraph2024} & DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\\\ & Adaptive collaboration-mode switching & MDAgents \\citep{kim2024mdagents} & Moderator routes solo or team consultation according to complexity & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\\\ & Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} & Human review at explicitly defined decision points & High-risk workflows requiring accountability & Direct comparative QA evidence remains limited \\\\ \\bottomrule \\end{tabular} \\end{table*}",
     "section": "Comparative discussion of architecture types",
     "kind": "table_row"
   },
   {
     "command_id": "C055",
     "file": "manuscript.tex",
-    "line": 617,
-    "end_line": 617,
-    "offset": 37593,
+    "line": 621,
+    "end_line": 621,
+    "offset": 38220,
     "command": "citep",
     "keys": [
       "kim2024mdagents"
     ],
     "raw_command": "\\citep{kim2024mdagents}",
-    "original_sentence": "& Adaptive collaboration-mode switching & MDAgents \\citep{kim2024mdagents} & Changes collaboration in response to case characteristics & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\\\",
-    "context": "\\midrule \\multirow{3}{*}{\\textbf{Hybrid}} & Graph-structured agent networks & GPTSwarm; LangGraph \\citep{zhuge2024gptswarm,langgraph2024} & DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\\\ & Adaptive collaboration-mode switching & MDAgents \\citep{kim2024mdagents} & Changes collaboration in response to case characteristics & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\\\ & Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} & Human review at explicitly defined decision points & High-risk workflows requiring accountability & Direct comparative QA evidence remains limited \\\\ \\bottomrule \\end{tabular} \\end{table*}",
+    "original_sentence": "& Adaptive collaboration-mode switching & MDAgents \\citep{kim2024mdagents} & Moderator routes solo or team consultation according to complexity & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\\\",
+    "context": "\\midrule \\multirow{3}{*}{\\shortstack{\\textbf{Cross-}\\\\\\textbf{cutting}}} & Graph-structured agent networks & GPTSwarm; LangGraph \\citep{zhuge2024gptswarm,langgraph2024} & DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\\\ & Adaptive collaboration-mode switching & MDAgents \\citep{kim2024mdagents} & Moderator routes solo or team consultation according to complexity & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\\\ & Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} & Human review at explicitly defined decision points & High-risk workflows requiring accountability & Direct comparative QA evidence remains limited \\\\ \\bottomrule \\end{tabular} \\end{table*}",
     "section": "Comparative discussion of architecture types",
     "kind": "table_row"
   },
   {
     "command_id": "C056",
     "file": "manuscript.tex",
-    "line": 621,
-    "end_line": 621,
-    "offset": 37854,
+    "line": 625,
+    "end_line": 625,
+    "offset": 38490,
     "command": "citep",
     "keys": [
       "langgraph2024interrupt"
     ],
     "raw_command": "\\citep{langgraph2024interrupt}",
     "original_sentence": "& Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} & Human review at explicitly defined decision points & High-risk workflows requiring accountability & Direct comparative QA evidence remains limited \\\\",
-    "context": "\\midrule \\multirow{3}{*}{\\textbf{Hybrid}} & Graph-structured agent networks & GPTSwarm; LangGraph \\citep{zhuge2024gptswarm,langgraph2024} & DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\\\ & Adaptive collaboration-mode switching & MDAgents \\citep{kim2024mdagents} & Changes collaboration in response to case characteristics & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\\\ & Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} & Human review at explicitly defined decision points & High-risk workflows requiring accountability & Direct comparative QA evidence remains limited \\\\ \\bottomrule \\end{tabular} \\end{table*}",
+    "context": "\\midrule \\multirow{3}{*}{\\shortstack{\\textbf{Cross-}\\\\\\textbf{cutting}}} & Graph-structured agent networks & GPTSwarm; LangGraph \\citep{zhuge2024gptswarm,langgraph2024} & DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph & Workflows with conditional state transitions & Different evidence roles; difficult debugging and tracing \\\\ & Adaptive collaboration-mode switching & MDAgents \\citep{kim2024mdagents} & Moderator routes solo or team consultation according to complexity & Tasks with heterogeneous requirements & Routing policy must be evaluated, not assumed beneficial \\\\ & Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} & Human review at explicitly defined decision points & High-risk workflows requiring accountability & Direct comparative QA evidence remains limited \\\\ \\bottomrule \\end{tabular} \\end{table*}",
     "section": "Comparative discussion of architecture types",
     "kind": "table_row"
   },
   {
     "command_id": "C057",
     "file": "manuscript.tex",
-    "line": 671,
-    "end_line": 671,
-    "offset": 40494,
+    "line": 675,
+    "end_line": 675,
+    "offset": 41130,
     "command": "citep",
     "keys": [
       "han2024mast"
@@ -922,9 +922,9 @@
   {
     "command_id": "C058",
     "file": "manuscript.tex",
-    "line": 694,
-    "end_line": 694,
-    "offset": 41741,
+    "line": 698,
+    "end_line": 698,
+    "offset": 42377,
     "command": "citep",
     "keys": [
       "peffers2007dsrm"
@@ -938,169 +938,169 @@
   {
     "command_id": "C059",
     "file": "manuscript.tex",
-    "line": 754,
-    "end_line": 754,
-    "offset": 44749,
+    "line": 763,
+    "end_line": 763,
+    "offset": 45840,
     "command": "citep",
     "keys": [
       "tang2024medagents"
     ],
     "raw_command": "\\citep{tang2024medagents}",
-    "original_sentence": "MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned; $\\times$ = divergent. Both architecture labels are the authors' coding of the selection approach and the reported workflow, not independent validation. Triad uses one LLM in three roles and is retained as an eligibility boundary case. \\end{table*}",
+    "original_sentence": "MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different categories. Proposed labels are retained from the preceding draft; source-based labels are the authors' retrospective control-flow coding. Neither label nor agreement establishes selection accuracy or safety. Triad is a single-agent, three-role supporting study (S), outside the 13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting workflow examples. Criterion profiles are illustrative author judgments. \\end{table*}",
     "section": "Verification and illustrative applications",
     "kind": "table_row"
   },
   {
     "command_id": "C060",
     "file": "manuscript.tex",
-    "line": 755,
-    "end_line": 755,
-    "offset": 44908,
+    "line": 764,
+    "end_line": 764,
+    "offset": 46002,
     "command": "citep",
     "keys": [
       "tang2025llmmedqa"
     ],
     "raw_command": "\\citep{tang2025llmmedqa}",
-    "original_sentence": "LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned; $\\times$ = divergent. Both architecture labels are the authors' coding of the selection approach and the reported workflow, not independent validation. Triad uses one LLM in three roles and is retained as an eligibility boundary case. \\end{table*}",
+    "original_sentence": "LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different categories. Proposed labels are retained from the preceding draft; source-based labels are the authors' retrospective control-flow coding. Neither label nor agreement establishes selection accuracy or safety. Triad is a single-agent, three-role supporting study (S), outside the 13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting workflow examples. Criterion profiles are illustrative author judgments. \\end{table*}",
     "section": "Verification and illustrative applications",
     "kind": "table_row"
   },
   {
     "command_id": "C061",
     "file": "manuscript.tex",
-    "line": 756,
-    "end_line": 756,
-    "offset": 45073,
+    "line": 765,
+    "end_line": 765,
+    "offset": 46170,
     "command": "citep",
     "keys": [
       "legalgraphrag2026"
     ],
     "raw_command": "\\citep{legalgraphrag2026}",
-    "original_sentence": "LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned; $\\times$ = divergent. Both architecture labels are the authors' coding of the selection approach and the reported workflow, not independent validation. Triad uses one LLM in three roles and is retained as an eligibility boundary case. \\end{table*}",
+    "original_sentence": "LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different categories. Proposed labels are retained from the preceding draft; source-based labels are the authors' retrospective control-flow coding. Neither label nor agreement establishes selection accuracy or safety. Triad is a single-agent, three-role supporting study (S), outside the 13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting workflow examples. Criterion profiles are illustrative author judgments. \\end{table*}",
     "section": "Verification and illustrative applications",
     "kind": "table_row"
   },
   {
     "command_id": "C062",
     "file": "manuscript.tex",
-    "line": 757,
-    "end_line": 757,
-    "offset": 45231,
+    "line": 766,
+    "end_line": 766,
+    "offset": 46330,
     "command": "citep",
     "keys": [
       "hu2024triad"
     ],
     "raw_command": "\\citep{hu2024triad}",
     "original_sentence": "Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned; $\\times$ = divergent. Both architecture labels are the authors' coding of the selection approach and the reported workflow, not independent validation. Triad uses one LLM in three roles and is retained as an eligibility boundary case. \\end{table*}",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different categories. Proposed labels are retained from the preceding draft; source-based labels are the authors' retrospective control-flow coding. Neither label nor agreement establishes selection accuracy or safety. Triad is a single-agent, three-role supporting study (S), outside the 13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting workflow examples. Criterion profiles are illustrative author judgments. \\end{table*}",
     "section": "Verification and illustrative applications",
     "kind": "table_row"
   },
   {
     "command_id": "C063",
     "file": "manuscript.tex",
-    "line": 758,
-    "end_line": 758,
-    "offset": 45385,
+    "line": 767,
+    "end_line": 767,
+    "offset": 46484,
     "command": "citep",
     "keys": [
       "zhao2024longagent"
     ],
     "raw_command": "\\citep{zhao2024longagent}",
     "original_sentence": "LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned; $\\times$ = divergent. Both architecture labels are the authors' coding of the selection approach and the reported workflow, not independent validation. Triad uses one LLM in three roles and is retained as an eligibility boundary case. \\end{table*}",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different categories. Proposed labels are retained from the preceding draft; source-based labels are the authors' retrospective control-flow coding. Neither label nor agreement establishes selection accuracy or safety. Triad is a single-agent, three-role supporting study (S), outside the 13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting workflow examples. Criterion profiles are illustrative author judgments. \\end{table*}",
     "section": "Verification and illustrative applications",
     "kind": "table_row"
   },
   {
     "command_id": "C064",
     "file": "manuscript.tex",
-    "line": 759,
-    "end_line": 759,
-    "offset": 45554,
+    "line": 768,
+    "end_line": 768,
+    "offset": 46653,
     "command": "citep",
     "keys": [
       "qian2023chatdev"
     ],
     "raw_command": "\\citep{qian2023chatdev}",
     "original_sentence": "ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned; $\\times$ = divergent. Both architecture labels are the authors' coding of the selection approach and the reported workflow, not independent validation. Triad uses one LLM in three roles and is retained as an eligibility boundary case. \\end{table*}",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different categories. Proposed labels are retained from the preceding draft; source-based labels are the authors' retrospective control-flow coding. Neither label nor agreement establishes selection accuracy or safety. Triad is a single-agent, three-role supporting study (S), outside the 13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting workflow examples. Criterion profiles are illustrative author judgments. \\end{table*}",
     "section": "Verification and illustrative applications",
     "kind": "table_row"
   },
   {
     "command_id": "C065",
     "file": "manuscript.tex",
-    "line": 760,
-    "end_line": 760,
-    "offset": 45707,
+    "line": 769,
+    "end_line": 769,
+    "offset": 46806,
     "command": "citep",
     "keys": [
       "huang2023agentcoder"
     ],
     "raw_command": "\\citep{huang2023agentcoder}",
     "original_sentence": "AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned; $\\times$ = divergent. Both architecture labels are the authors' coding of the selection approach and the reported workflow, not independent validation. Triad uses one LLM in three roles and is retained as an eligibility boundary case. \\end{table*}",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different categories. Proposed labels are retained from the preceding draft; source-based labels are the authors' retrospective control-flow coding. Neither label nor agreement establishes selection accuracy or safety. Triad is a single-agent, three-role supporting study (S), outside the 13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting workflow examples. Criterion profiles are illustrative author judgments. \\end{table*}",
     "section": "Verification and illustrative applications",
     "kind": "table_row"
   },
   {
     "command_id": "C066",
     "file": "manuscript.tex",
-    "line": 761,
-    "end_line": 761,
-    "offset": 45862,
+    "line": 770,
+    "end_line": 770,
+    "offset": 46980,
     "command": "citep",
     "keys": [
       "du2024multiagent_debate"
     ],
     "raw_command": "\\citep{du2024multiagent_debate}",
-    "original_sentence": "MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned; $\\times$ = divergent. Both architecture labels are the authors' coding of the selection approach and the reported workflow, not independent validation. Triad uses one LLM in three roles and is retained as an eligibility boundary case. \\end{table*}",
+    "original_sentence": "Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different categories. Proposed labels are retained from the preceding draft; source-based labels are the authors' retrospective control-flow coding. Neither label nor agreement establishes selection accuracy or safety. Triad is a single-agent, three-role supporting study (S), outside the 13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting workflow examples. Criterion profiles are illustrative author judgments. \\end{table*}",
     "section": "Verification and illustrative applications",
     "kind": "table_row"
   },
   {
     "command_id": "C067",
     "file": "manuscript.tex",
-    "line": 762,
-    "end_line": 762,
-    "offset": 46018,
+    "line": 771,
+    "end_line": 771,
+    "offset": 47123,
     "command": "citep",
     "keys": [
       "zhang2024eduplanner"
     ],
     "raw_command": "\\citep{zhang2024eduplanner}",
     "original_sentence": "EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned; $\\times$ = divergent. Both architecture labels are the authors' coding of the selection approach and the reported workflow, not independent validation. Triad uses one LLM in three roles and is retained as an eligibility boundary case. \\end{table*}",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different categories. Proposed labels are retained from the preceding draft; source-based labels are the authors' retrospective control-flow coding. Neither label nor agreement establishes selection accuracy or safety. Triad is a single-agent, three-role supporting study (S), outside the 13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting workflow examples. Criterion profiles are illustrative author judgments. \\end{table*}",
     "section": "Verification and illustrative applications",
     "kind": "table_row"
   },
   {
     "command_id": "C068",
     "file": "manuscript.tex",
-    "line": 763,
-    "end_line": 763,
-    "offset": 46193,
+    "line": 772,
+    "end_line": 772,
+    "offset": 47298,
     "command": "citep",
     "keys": [
       "fatemi2024financialqa"
     ],
     "raw_command": "\\citep{fatemi2024financialqa}",
-    "original_sentence": "Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\",
-    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hybrid reflection loop & $\\times$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned; $\\times$ = divergent. Both architecture labels are the authors' coding of the selection approach and the reported workflow, not independent validation. Triad uses one LLM in three roles and is retained as an eligibility boundary case. \\end{table*}",
+    "original_sentence": "Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\",
+    "context": "\\begin{table*}[pos=t] \\centering \\caption{Diagnostic comparison of the architecture-selection approach with ten published systems.} \\label{tab:validation} \\small \\begin{tabularx}{\\textwidth}{p{3.0cm} X p{3.0cm} c} \\toprule \\textbf{System} & \\textbf{Application and criterion profile} & \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\ \\midrule MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\ LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\ LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\ Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\ LONGAGENT \\citep{zhao2024longagent} & Ultra-long multi-hop QA; divide-and-conquer process & Hierarchical versus hierarchical leader--member workflow & $\\checkmark$ \\\\ ChatDev \\citep{qian2023chatdev} & Software engineering; highly standardised stages & Hierarchical versus hierarchical ChatChain & $\\checkmark$ \\\\ AgentCoder \\citep{huang2023agentcoder} & Code generation; explicit three-role dependencies & Hierarchical versus hierarchical feedback loop & $\\checkmark$ \\\\ Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\ EduPlanner \\citep{zhang2024eduplanner} & Educational planning; open and convergent requirements & Flat versus hierarchical evaluator--optimizer & $\\times$ \\\\ Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\ \\bottomrule \\end{tabularx} \\footnotesize \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different categories. Proposed labels are retained from the preceding draft; source-based labels are the authors' retrospective control-flow coding. Neither label nor agreement establishes selection accuracy or safety. Triad is a single-agent, three-role supporting study (S), outside the 13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting workflow examples. Criterion profiles are illustrative author judgments. \\end{table*}",
     "section": "Verification and illustrative applications",
     "kind": "table_row"
   },
   {
     "command_id": "C069",
     "file": "manuscript.tex",
-    "line": 827,
-    "end_line": 827,
-    "offset": 49827,
+    "line": 839,
+    "end_line": 839,
+    "offset": 51129,
     "command": "citep",
     "keys": [
       "wu2024autogen"
@@ -1114,9 +1114,9 @@
   {
     "command_id": "C070",
     "file": "manuscript.tex",
-    "line": 830,
-    "end_line": 830,
-    "offset": 50037,
+    "line": 842,
+    "end_line": 842,
+    "offset": 51339,
     "command": "citep",
     "keys": [
       "qian2023chatdev"
@@ -1130,9 +1130,9 @@
   {
     "command_id": "C071",
     "file": "manuscript.tex",
-    "line": 846,
-    "end_line": 846,
-    "offset": 51013,
+    "line": 858,
+    "end_line": 858,
+    "offset": 52315,
     "command": "citep",
     "keys": [
       "anthropic2024mcp"
@@ -1146,9 +1146,9 @@
   {
     "command_id": "C072",
     "file": "manuscript.tex",
-    "line": 847,
-    "end_line": 847,
-    "offset": 51137,
+    "line": 859,
+    "end_line": 859,
+    "offset": 52439,
     "command": "citep",
     "keys": [
       "google2025a2a"
@@ -1162,9 +1162,9 @@
   {
     "command_id": "C073",
     "file": "manuscript.tex",
-    "line": 866,
-    "end_line": 866,
-    "offset": 52355,
+    "line": 878,
+    "end_line": 878,
+    "offset": 53657,
     "command": "citep",
     "keys": [
       "wu2024autogen",
@@ -1181,9 +1181,9 @@
   {
     "command_id": "C074",
     "file": "manuscript.tex",
-    "line": 887,
-    "end_line": 887,
-    "offset": 53406,
+    "line": 899,
+    "end_line": 899,
+    "offset": 54708,
     "command": "citep",
     "keys": [
       "zhou2023least_to_most"
@@ -1197,9 +1197,9 @@
   {
     "command_id": "C075",
     "file": "manuscript.tex",
-    "line": 888,
-    "end_line": 888,
-    "offset": 53461,
+    "line": 900,
+    "end_line": 900,
+    "offset": 54763,
     "command": "citep",
     "keys": [
       "khot2023decomposed_prompting"
@@ -1213,9 +1213,9 @@
   {
     "command_id": "C076",
     "file": "manuscript.tex",
-    "line": 890,
-    "end_line": 890,
-    "offset": 53633,
+    "line": 902,
+    "end_line": 902,
+    "offset": 54935,
     "command": "citep",
     "keys": [
       "wang2023plan_and_solve"
@@ -1229,9 +1229,9 @@
   {
     "command_id": "C077",
     "file": "manuscript.tex",
-    "line": 911,
-    "end_line": 911,
-    "offset": 54518,
+    "line": 923,
+    "end_line": 923,
+    "offset": 55820,
     "command": "citep",
     "keys": [
       "hong2024metagpt"
@@ -1245,9 +1245,9 @@
   {
     "command_id": "C078",
     "file": "manuscript.tex",
-    "line": 913,
-    "end_line": 913,
-    "offset": 54623,
+    "line": 925,
+    "end_line": 925,
+    "offset": 55925,
     "command": "citep",
     "keys": [
       "chen2024agentverse"
@@ -1261,9 +1261,9 @@
   {
     "command_id": "C079",
     "file": "manuscript.tex",
-    "line": 921,
-    "end_line": 921,
-    "offset": 55102,
+    "line": 933,
+    "end_line": 933,
+    "offset": 56404,
     "command": "citep",
     "keys": [
       "khattab2024dspy"
@@ -1277,9 +1277,9 @@
   {
     "command_id": "C080",
     "file": "manuscript.tex",
-    "line": 930,
-    "end_line": 931,
-    "offset": 56056,
+    "line": 942,
+    "end_line": 943,
+    "offset": 57358,
     "command": "citep",
     "keys": [
       "zhou2023least_to_most",
@@ -1297,9 +1297,9 @@
   {
     "command_id": "C081",
     "file": "manuscript.tex",
-    "line": 940,
-    "end_line": 940,
-    "offset": 56791,
+    "line": 952,
+    "end_line": 952,
+    "offset": 58093,
     "command": "citep",
     "keys": [
       "khattab2024dspy"
@@ -1313,9 +1313,9 @@
   {
     "command_id": "C082",
     "file": "manuscript.tex",
-    "line": 988,
-    "end_line": 988,
-    "offset": 59280,
+    "line": 1000,
+    "end_line": 1000,
+    "offset": 60691,
     "command": "citep",
     "keys": [
       "packer2023memgpt"
@@ -1329,9 +1329,9 @@
   {
     "command_id": "C083",
     "file": "manuscript.tex",
-    "line": 998,
-    "end_line": 998,
-    "offset": 59743,
+    "line": 1010,
+    "end_line": 1010,
+    "offset": 61154,
     "command": "citep",
     "keys": [
       "zhang2024memory_survey"
@@ -1345,9 +1345,9 @@
   {
     "command_id": "C084",
     "file": "manuscript.tex",
-    "line": 1000,
-    "end_line": 1000,
-    "offset": 59868,
+    "line": 1012,
+    "end_line": 1012,
+    "offset": 61279,
     "command": "citep",
     "keys": [
       "lewis2020rag",
@@ -1362,9 +1362,9 @@
   {
     "command_id": "C085",
     "file": "manuscript.tex",
-    "line": 1015,
-    "end_line": 1015,
-    "offset": 60640,
+    "line": 1027,
+    "end_line": 1027,
+    "offset": 62051,
     "command": "citep",
     "keys": [
       "asai2024selfrag"
@@ -1378,9 +1378,9 @@
   {
     "command_id": "C086",
     "file": "manuscript.tex",
-    "line": 1016,
-    "end_line": 1016,
-    "offset": 60762,
+    "line": 1028,
+    "end_line": 1028,
+    "offset": 62173,
     "command": "citep",
     "keys": [
       "jiang2023active_rag"
@@ -1394,9 +1394,9 @@
   {
     "command_id": "C087",
     "file": "manuscript.tex",
-    "line": 1028,
-    "end_line": 1029,
-    "offset": 61469,
+    "line": 1040,
+    "end_line": 1041,
+    "offset": 62880,
     "command": "citep",
     "keys": [
       "packer2023memgpt",
@@ -1414,9 +1414,9 @@
   {
     "command_id": "C088",
     "file": "manuscript.tex",
-    "line": 1047,
-    "end_line": 1047,
-    "offset": 62407,
+    "line": 1059,
+    "end_line": 1059,
+    "offset": 63818,
     "command": "citep",
     "keys": [
       "wei2022chain_of_thought"
@@ -1430,9 +1430,9 @@
   {
     "command_id": "C089",
     "file": "manuscript.tex",
-    "line": 1050,
-    "end_line": 1050,
-    "offset": 62548,
+    "line": 1062,
+    "end_line": 1062,
+    "offset": 63959,
     "command": "citep",
     "keys": [
       "wang2023self_consistency"
@@ -1446,9 +1446,9 @@
   {
     "command_id": "C090",
     "file": "manuscript.tex",
-    "line": 1055,
-    "end_line": 1055,
-    "offset": 62861,
+    "line": 1067,
+    "end_line": 1067,
+    "offset": 64272,
     "command": "citep",
     "keys": [
       "du2024multiagent_debate",
@@ -1463,9 +1463,9 @@
   {
     "command_id": "C091",
     "file": "manuscript.tex",
-    "line": 1076,
-    "end_line": 1076,
-    "offset": 63743,
+    "line": 1088,
+    "end_line": 1088,
+    "offset": 65154,
     "command": "citep",
     "keys": [
       "zhang2024chain_agents"
@@ -1479,9 +1479,9 @@
   {
     "command_id": "C092",
     "file": "manuscript.tex",
-    "line": 1078,
-    "end_line": 1078,
-    "offset": 63850,
+    "line": 1090,
+    "end_line": 1090,
+    "offset": 65261,
     "command": "citep",
     "keys": [
       "yao2023tree_of_thoughts"
@@ -1495,9 +1495,9 @@
   {
     "command_id": "C093",
     "file": "manuscript.tex",
-    "line": 1079,
-    "end_line": 1079,
-    "offset": 63904,
+    "line": 1091,
+    "end_line": 1091,
+    "offset": 65315,
     "command": "citep",
     "keys": [
       "besta2024graph_of_thoughts"
@@ -1511,9 +1511,9 @@
   {
     "command_id": "C094",
     "file": "manuscript.tex",
-    "line": 1083,
-    "end_line": 1083,
-    "offset": 64149,
+    "line": 1095,
+    "end_line": 1095,
+    "offset": 65560,
     "command": "citep",
     "keys": [
       "zhao2024longagent"
@@ -1527,57 +1527,57 @@
   {
     "command_id": "C095",
     "file": "manuscript.tex",
-    "line": 1093,
-    "end_line": 1093,
-    "offset": 64626,
+    "line": 1105,
+    "end_line": 1105,
+    "offset": 66111,
     "command": "citep",
     "keys": [
       "shinn2023reflexion"
     ],
     "raw_command": "\\citep{shinn2023reflexion}",
     "original_sentence": "For example, Reflexion \\citep{shinn2023reflexion} stores linguistic feedback from prior trials in episodic memory, whereas Self-Refine \\citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and revision without additional model training.",
-    "context": "To suppress hallucination, agents must be capable of iterative self-examination. For example, Reflexion \\citep{shinn2023reflexion} stores linguistic feedback from prior trials in episodic memory, whereas Self-Refine \\citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and revision without additional model training. Chain-of-Verification \\citep{dhuliawala2023chain_of_verification} drafts an answer, plans verification questions, answers them independently, and then revises the original answer. This procedure targets factual errors; dedicated critic agents are a possible multi-agent extension that requires evaluation.",
+    "context": "Reflection and critique are possible approaches to factual-error reduction; they do not guarantee correctness or replace checking the underlying evidence. For example, Reflexion \\citep{shinn2023reflexion} stores linguistic feedback from prior trials in episodic memory, whereas Self-Refine \\citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and revision without additional model training. Chain-of-Verification \\citep{dhuliawala2023chain_of_verification} drafts an answer, plans verification questions, answers them independently, and then revises the original answer. This procedure targets factual errors; dedicated critic agents are a possible multi-agent extension that requires evaluation.",
     "section": "Self-reflection and mutual-critique mechanisms",
     "kind": "prose"
   },
   {
     "command_id": "C096",
     "file": "manuscript.tex",
-    "line": 1095,
-    "end_line": 1095,
-    "offset": 64738,
+    "line": 1107,
+    "end_line": 1107,
+    "offset": 66223,
     "command": "citep",
     "keys": [
       "madaan2023self_refine"
     ],
     "raw_command": "\\citep{madaan2023self_refine}",
     "original_sentence": "For example, Reflexion \\citep{shinn2023reflexion} stores linguistic feedback from prior trials in episodic memory, whereas Self-Refine \\citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and revision without additional model training.",
-    "context": "To suppress hallucination, agents must be capable of iterative self-examination. For example, Reflexion \\citep{shinn2023reflexion} stores linguistic feedback from prior trials in episodic memory, whereas Self-Refine \\citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and revision without additional model training. Chain-of-Verification \\citep{dhuliawala2023chain_of_verification} drafts an answer, plans verification questions, answers them independently, and then revises the original answer. This procedure targets factual errors; dedicated critic agents are a possible multi-agent extension that requires evaluation.",
+    "context": "Reflection and critique are possible approaches to factual-error reduction; they do not guarantee correctness or replace checking the underlying evidence. For example, Reflexion \\citep{shinn2023reflexion} stores linguistic feedback from prior trials in episodic memory, whereas Self-Refine \\citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and revision without additional model training. Chain-of-Verification \\citep{dhuliawala2023chain_of_verification} drafts an answer, plans verification questions, answers them independently, and then revises the original answer. This procedure targets factual errors; dedicated critic agents are a possible multi-agent extension that requires evaluation.",
     "section": "Self-reflection and mutual-critique mechanisms",
     "kind": "prose"
   },
   {
     "command_id": "C097",
     "file": "manuscript.tex",
-    "line": 1097,
-    "end_line": 1097,
-    "offset": 64906,
+    "line": 1109,
+    "end_line": 1109,
+    "offset": 66391,
     "command": "citep",
     "keys": [
       "dhuliawala2023chain_of_verification"
     ],
     "raw_command": "\\citep{dhuliawala2023chain_of_verification}",
     "original_sentence": "Chain-of-Verification \\citep{dhuliawala2023chain_of_verification} drafts an answer, plans verification questions, answers them independently, and then revises the original answer.",
-    "context": "To suppress hallucination, agents must be capable of iterative self-examination. For example, Reflexion \\citep{shinn2023reflexion} stores linguistic feedback from prior trials in episodic memory, whereas Self-Refine \\citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and revision without additional model training. Chain-of-Verification \\citep{dhuliawala2023chain_of_verification} drafts an answer, plans verification questions, answers them independently, and then revises the original answer. This procedure targets factual errors; dedicated critic agents are a possible multi-agent extension that requires evaluation.",
+    "context": "Reflection and critique are possible approaches to factual-error reduction; they do not guarantee correctness or replace checking the underlying evidence. For example, Reflexion \\citep{shinn2023reflexion} stores linguistic feedback from prior trials in episodic memory, whereas Self-Refine \\citep{madaan2023self_refine} provides another example by iterating between generation, feedback, and revision without additional model training. Chain-of-Verification \\citep{dhuliawala2023chain_of_verification} drafts an answer, plans verification questions, answers them independently, and then revises the original answer. This procedure targets factual errors; dedicated critic agents are a possible multi-agent extension that requires evaluation.",
     "section": "Self-reflection and mutual-critique mechanisms",
     "kind": "prose"
   },
   {
     "command_id": "C098",
     "file": "manuscript.tex",
-    "line": 1106,
-    "end_line": 1108,
-    "offset": 65480,
+    "line": 1118,
+    "end_line": 1120,
+    "offset": 66965,
     "command": "citep",
     "keys": [
       "wang2023self_consistency",
@@ -1596,9 +1596,9 @@
   {
     "command_id": "C099",
     "file": "manuscript.tex",
-    "line": 1610,
-    "end_line": 1610,
-    "offset": 93980,
+    "line": 1622,
+    "end_line": 1622,
+    "offset": 95465,
     "command": "citep",
     "keys": [
       "anthropic2024mcp"
@@ -1612,9 +1612,9 @@
   {
     "command_id": "C100",
     "file": "manuscript.tex",
-    "line": 1622,
-    "end_line": 1622,
-    "offset": 94599,
+    "line": 1634,
+    "end_line": 1634,
+    "offset": 96084,
     "command": "citep",
     "keys": [
       "wu2024autogen",
@@ -1630,9 +1630,9 @@
   {
     "command_id": "C101",
     "file": "manuscript.tex",
-    "line": 1626,
-    "end_line": 1626,
-    "offset": 94890,
+    "line": 1638,
+    "end_line": 1638,
+    "offset": 96375,
     "command": "citep",
     "keys": [
       "li2023camel",
@@ -1648,9 +1648,9 @@
   {
     "command_id": "C102",
     "file": "manuscript.tex",
-    "line": 1629,
-    "end_line": 1630,
-    "offset": 95148,
+    "line": 1641,
+    "end_line": 1642,
+    "offset": 96633,
     "command": "citep",
     "keys": [
       "wu2024autogen",
@@ -1666,9 +1666,9 @@
   {
     "command_id": "C103",
     "file": "manuscript.tex",
-    "line": 1633,
-    "end_line": 1633,
-    "offset": 95434,
+    "line": 1645,
+    "end_line": 1645,
+    "offset": 96919,
     "command": "citep",
     "keys": [
       "zhuge2024gptswarm",
@@ -1683,138 +1683,138 @@
   {
     "command_id": "C104",
     "file": "manuscript.tex",
-    "line": 1662,
-    "end_line": 1662,
-    "offset": 96583,
+    "line": 1674,
+    "end_line": 1674,
+    "offset": 98068,
     "command": "citep",
     "keys": [
       "li2023camel"
     ],
     "raw_command": "\\citep{li2023camel}",
-    "original_sentence": "CAMEL \\citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\",
-    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
+    "original_sentence": "CAMEL \\citep{li2023camel} & Role-paired workflow & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\",
+    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Role-paired workflow & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
     "section": "Orchestration layer: multi-agent frameworks",
     "kind": "table_row"
   },
   {
     "command_id": "C105",
     "file": "manuscript.tex",
-    "line": 1667,
-    "end_line": 1667,
-    "offset": 96774,
+    "line": 1679,
+    "end_line": 1679,
+    "offset": 98275,
     "command": "citep",
     "keys": [
       "qian2023chatdev"
     ],
     "raw_command": "\\citep{qian2023chatdev}",
     "original_sentence": "ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\",
-    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
+    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Role-paired workflow & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
     "section": "Orchestration layer: multi-agent frameworks",
     "kind": "table_row"
   },
   {
     "command_id": "C106",
     "file": "manuscript.tex",
-    "line": 1672,
-    "end_line": 1672,
-    "offset": 96994,
+    "line": 1684,
+    "end_line": 1684,
+    "offset": 98495,
     "command": "citep",
     "keys": [
       "hong2024metagpt"
     ],
     "raw_command": "\\citep{hong2024metagpt}",
     "original_sentence": "MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\",
-    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
+    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Role-paired workflow & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
     "section": "Orchestration layer: multi-agent frameworks",
     "kind": "table_row"
   },
   {
     "command_id": "C107",
     "file": "manuscript.tex",
-    "line": 1677,
-    "end_line": 1677,
-    "offset": 97199,
+    "line": 1689,
+    "end_line": 1689,
+    "offset": 98700,
     "command": "citep",
     "keys": [
       "wu2024autogen"
     ],
     "raw_command": "\\citep{wu2024autogen}",
     "original_sentence": "AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\",
-    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
+    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Role-paired workflow & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
     "section": "Orchestration layer: multi-agent frameworks",
     "kind": "table_row"
   },
   {
     "command_id": "C108",
     "file": "manuscript.tex",
-    "line": 1682,
-    "end_line": 1682,
-    "offset": 97442,
+    "line": 1694,
+    "end_line": 1694,
+    "offset": 98943,
     "command": "citep",
     "keys": [
       "chen2024agentverse"
     ],
     "raw_command": "\\citep{chen2024agentverse}",
-    "original_sentence": "AgentVerse \\citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\",
-    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
+    "original_sentence": "AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\",
+    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Role-paired workflow & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
     "section": "Orchestration layer: multi-agent frameworks",
     "kind": "table_row"
   },
   {
     "command_id": "C109",
     "file": "manuscript.tex",
-    "line": 1687,
-    "end_line": 1687,
-    "offset": 97666,
+    "line": 1699,
+    "end_line": 1699,
+    "offset": 99183,
     "command": "citep",
     "keys": [
       "langgraph2024",
       "langgraph2024interrupt"
     ],
     "raw_command": "\\citep{langgraph2024,langgraph2024interrupt}",
-    "original_sentence": "LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\",
-    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
+    "original_sentence": "LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\",
+    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Role-paired workflow & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
     "section": "Orchestration layer: multi-agent frameworks",
     "kind": "table_row"
   },
   {
     "command_id": "C110",
     "file": "manuscript.tex",
-    "line": 1692,
-    "end_line": 1692,
-    "offset": 97892,
+    "line": 1704,
+    "end_line": 1704,
+    "offset": 99427,
     "command": "citep",
     "keys": [
       "zhuge2024gptswarm"
     ],
     "raw_command": "\\citep{zhuge2024gptswarm}",
-    "original_sentence": "GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\",
-    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
+    "original_sentence": "GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\",
+    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Role-paired workflow & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
     "section": "Orchestration layer: multi-agent frameworks",
     "kind": "table_row"
   },
   {
     "command_id": "C111",
     "file": "manuscript.tex",
-    "line": 1697,
-    "end_line": 1697,
-    "offset": 98078,
+    "line": 1709,
+    "end_line": 1709,
+    "offset": 99630,
     "command": "citep",
     "keys": [
       "khattab2024dspy"
     ],
     "raw_command": "\\citep{khattab2024dspy}",
     "original_sentence": "DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\",
-    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Flat & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Hybrid & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
+    "context": "\\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm} >{\\raggedright\\arraybackslash}p{1.9cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{2.8cm} >{\\raggedright\\arraybackslash}p{3.2cm}} \\toprule \\textbf{Framework} & \\textbf{Architecture} & \\textbf{Communication} & \\textbf{Task decomposition} & \\textbf{Memory} & \\textbf{Typical QA application} \\\\ \\midrule CAMEL \\citep{li2023camel} & Role-paired workflow & Role-play dialogue & Role-based task breakdown & Role-conditioned dialogue context & Exploratory dialogue; task simulation \\\\ ChatDev \\citep{qian2023chatdev} & Hierarchical & Role-based ChatChain & Waterfall-style decomposition & Within-phase dialogue; cross-phase solutions & Software development; code generation \\\\ MetaGPT \\citep{hong2024metagpt} & Hierarchical & Structured SOP messages & Role and responsibility mapping & Shared message pool and project documents & Software engineering \\\\ AutoGen \\citep{wu2024autogen} & Configurable & Configurable agent conversations & Configurable orchestration and speaker selection & Dialogue context; external tools & Conversational reasoning; code debugging \\\\ AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline & Explicit messaging and debate & Expert recruitment; phase switching & Conversation and evaluation context & NLP evaluation; multi-step reasoning \\\\ LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph & State-graph transitions & Developer-defined workflow nodes & Persistent state and checkpoint recovery & Long-running QA workflows \\\\ GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph & DAG information flow & Prompt and edge optimization & Node input--output histories & MMLU QA; graph optimization \\\\ DSPy \\citep{khattab2024dspy} & Modular pipeline toolkit & Declarative module calls & Metric-driven prompt optimization & Module state and optimized demonstrations & QA and RAG pipeline optimization \\\\ \\bottomrule \\end{tabular} \\end{table} \\clearpage \\twocolumn",
     "section": "Orchestration layer: multi-agent frameworks",
     "kind": "table_row"
   },
   {
     "command_id": "C112",
     "file": "manuscript.tex",
-    "line": 1723,
-    "end_line": 1723,
-    "offset": 99312,
+    "line": 1735,
+    "end_line": 1735,
+    "offset": 100864,
     "command": "citep",
     "keys": [
       "anthropic2024mcp"
@@ -1828,9 +1828,9 @@
   {
     "command_id": "C113",
     "file": "manuscript.tex",
-    "line": 1763,
-    "end_line": 1763,
-    "offset": 101486,
+    "line": 1775,
+    "end_line": 1775,
+    "offset": 103038,
     "command": "citep",
     "keys": [
       "shao2024storm"
@@ -1844,9 +1844,9 @@
   {
     "command_id": "C114",
     "file": "manuscript.tex",
-    "line": 1767,
-    "end_line": 1767,
-    "offset": 101817,
+    "line": 1779,
+    "end_line": 1779,
+    "offset": 103369,
     "command": "citep",
     "keys": [
       "shao2024costorm"
@@ -1860,9 +1860,9 @@
   {
     "command_id": "C115",
     "file": "manuscript.tex",
-    "line": 1781,
-    "end_line": 1781,
-    "offset": 102601,
+    "line": 1793,
+    "end_line": 1793,
+    "offset": 104153,
     "command": "citep",
     "keys": [
       "ragflow2024"
@@ -1876,9 +1876,9 @@
   {
     "command_id": "C116",
     "file": "manuscript.tex",
-    "line": 1847,
-    "end_line": 1847,
-    "offset": 106063,
+    "line": 1859,
+    "end_line": 1859,
+    "offset": 107610,
     "command": "citep",
     "keys": [
       "yang2018hotpotqa"
@@ -1892,9 +1892,9 @@
   {
     "command_id": "C117",
     "file": "manuscript.tex",
-    "line": 1849,
-    "end_line": 1849,
-    "offset": 106181,
+    "line": 1861,
+    "end_line": 1861,
+    "offset": 107728,
     "command": "citep",
     "keys": [
       "reddy2019coqa"
@@ -1908,9 +1908,9 @@
   {
     "command_id": "C118",
     "file": "manuscript.tex",
-    "line": 1850,
-    "end_line": 1850,
-    "offset": 106281,
+    "line": 1862,
+    "end_line": 1862,
+    "offset": 107828,
     "command": "citep",
     "keys": [
       "hendrycks2021mmlu"
@@ -1924,9 +1924,9 @@
   {
     "command_id": "C119",
     "file": "manuscript.tex",
-    "line": 1852,
-    "end_line": 1852,
-    "offset": 106411,
+    "line": 1864,
+    "end_line": 1864,
+    "offset": 107958,
     "command": "citep",
     "keys": [
       "trivedi2022musique"
@@ -1940,9 +1940,9 @@
   {
     "command_id": "C120",
     "file": "manuscript.tex",
-    "line": 1858,
-    "end_line": 1858,
-    "offset": 106756,
+    "line": 1870,
+    "end_line": 1870,
+    "offset": 108303,
     "command": "citep",
     "keys": [
       "liu2024agentbench"
@@ -1956,9 +1956,9 @@
   {
     "command_id": "C121",
     "file": "manuscript.tex",
-    "line": 1860,
-    "end_line": 1860,
-    "offset": 106888,
+    "line": 1872,
+    "end_line": 1872,
+    "offset": 108435,
     "command": "citep",
     "keys": [
       "mialon2024gaia"
@@ -1972,9 +1972,9 @@
   {
     "command_id": "C122",
     "file": "manuscript.tex",
-    "line": 1861,
-    "end_line": 1861,
-    "offset": 107016,
+    "line": 1873,
+    "end_line": 1873,
+    "offset": 108563,
     "command": "citep",
     "keys": [
       "zhou2024webarena"
@@ -1988,9 +1988,9 @@
   {
     "command_id": "C123",
     "file": "manuscript.tex",
-    "line": 1891,
-    "end_line": 1891,
-    "offset": 109263,
+    "line": 1903,
+    "end_line": 1903,
+    "offset": 110810,
     "command": "citep",
     "keys": [
       "autorag2024"
@@ -2004,41 +2004,41 @@
   {
     "command_id": "C124",
     "file": "manuscript.tex",
-    "line": 1939,
-    "end_line": 1939,
-    "offset": 112079,
+    "line": 1951,
+    "end_line": 1951,
+    "offset": 113626,
     "command": "citep",
     "keys": [
       "zhang2024eduplanner"
     ],
     "raw_command": "\\citep{zhang2024eduplanner}",
-    "original_sentence": "EduPlanner \\citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \\citep{fatemi2024financialqa} combines a convergent numerical objective with iterative multi-critic reflection.",
-    "context": "The taxonomy in Section~3 distinguishes flat, hierarchical, and hybrid architectures by their distribution of decision authority and control. In practice, a task may require open-ended exploration, reliable convergence, specialized knowledge, low latency, and risk control at the same time. EduPlanner \\citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \\citep{fatemi2024financialqa} combines a convergent numerical objective with iterative multi-critic reflection. These cases illustrate why a single criterion or categorical label may not capture the control structure a task requires. Static architecture selection can also be inadequate when the workflow needs to change topology or authority across stages.",
+    "original_sentence": "EduPlanner \\citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \\citep{fatemi2024financialqa} combines a convergent numerical objective with critic feedback and answer revision.",
+    "context": "The taxonomy in Section~3 distinguishes flat, hierarchical, and hybrid architectures by their distribution of decision authority and control. In practice, a task may require open-ended exploration, reliable convergence, specialized knowledge, low latency, and risk control at the same time. EduPlanner \\citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \\citep{fatemi2024financialqa} combines a convergent numerical objective with critic feedback and answer revision. These cases illustrate why a single criterion or categorical label may not capture the control structure a task requires. Static architecture selection can also be inadequate when the workflow needs to change topology or authority across stages.",
     "section": "Architecture selection under competing requirements",
     "kind": "prose"
   },
   {
     "command_id": "C125",
     "file": "manuscript.tex",
-    "line": 1941,
-    "end_line": 1941,
-    "offset": 112214,
+    "line": 1953,
+    "end_line": 1953,
+    "offset": 113761,
     "command": "citep",
     "keys": [
       "fatemi2024financialqa"
     ],
     "raw_command": "\\citep{fatemi2024financialqa}",
-    "original_sentence": "EduPlanner \\citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \\citep{fatemi2024financialqa} combines a convergent numerical objective with iterative multi-critic reflection.",
-    "context": "The taxonomy in Section~3 distinguishes flat, hierarchical, and hybrid architectures by their distribution of decision authority and control. In practice, a task may require open-ended exploration, reliable convergence, specialized knowledge, low latency, and risk control at the same time. EduPlanner \\citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \\citep{fatemi2024financialqa} combines a convergent numerical objective with iterative multi-critic reflection. These cases illustrate why a single criterion or categorical label may not capture the control structure a task requires. Static architecture selection can also be inadequate when the workflow needs to change topology or authority across stages.",
+    "original_sentence": "EduPlanner \\citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \\citep{fatemi2024financialqa} combines a convergent numerical objective with critic feedback and answer revision.",
+    "context": "The taxonomy in Section~3 distinguishes flat, hierarchical, and hybrid architectures by their distribution of decision authority and control. In practice, a task may require open-ended exploration, reliable convergence, specialized knowledge, low latency, and risk control at the same time. EduPlanner \\citep{zhang2024eduplanner} combines open-ended instructional design with curriculum-scoring objectives, while Financial Reflection QA \\citep{fatemi2024financialqa} combines a convergent numerical objective with critic feedback and answer revision. These cases illustrate why a single criterion or categorical label may not capture the control structure a task requires. Static architecture selection can also be inadequate when the workflow needs to change topology or authority across stages.",
     "section": "Architecture selection under competing requirements",
     "kind": "prose"
   },
   {
     "command_id": "C126",
     "file": "manuscript.tex",
-    "line": 1959,
-    "end_line": 1959,
-    "offset": 113315,
+    "line": 1971,
+    "end_line": 1971,
+    "offset": 114864,
     "command": "citep",
     "keys": [
       "qian2024scaling_multiagent"
@@ -2052,9 +2052,9 @@
   {
     "command_id": "C127",
     "file": "manuscript.tex",
-    "line": 1986,
-    "end_line": 1986,
-    "offset": 114859,
+    "line": 1998,
+    "end_line": 1998,
+    "offset": 116408,
     "command": "citep",
     "keys": [
       "hendrycks2021mmlu",
@@ -2071,9 +2071,9 @@
   {
     "command_id": "C128",
     "file": "manuscript.tex",
-    "line": 1992,
-    "end_line": 1992,
-    "offset": 115309,
+    "line": 2004,
+    "end_line": 2004,
+    "offset": 116858,
     "command": "citep",
     "keys": [
       "han2024mast"
@@ -2087,9 +2087,9 @@
   {
     "command_id": "C129",
     "file": "manuscript.tex",
-    "line": 2010,
-    "end_line": 2010,
-    "offset": 116344,
+    "line": 2022,
+    "end_line": 2022,
+    "offset": 117893,
     "command": "citep",
     "keys": [
       "tang2024medagents",
@@ -2104,9 +2104,9 @@
   {
     "command_id": "C130",
     "file": "manuscript.tex",
-    "line": 2011,
-    "end_line": 2012,
-    "offset": 116451,
+    "line": 2023,
+    "end_line": 2024,
+    "offset": 118000,
     "command": "citep",
     "keys": [
       "duan2024langgraph_crewai",
@@ -2121,9 +2121,9 @@
   {
     "command_id": "C131",
     "file": "manuscript.tex",
-    "line": 2056,
-    "end_line": 2056,
-    "offset": 118935,
+    "line": 2068,
+    "end_line": 2068,
+    "offset": 120484,
     "command": "citep",
     "keys": [
       "wu2024autogen",
@@ -2140,9 +2140,9 @@
   {
     "command_id": "C132",
     "file": "manuscript.tex",
-    "line": 2068,
-    "end_line": 2068,
-    "offset": 119639,
+    "line": 2080,
+    "end_line": 2080,
+    "offset": 121188,
     "command": "citep",
     "keys": [
       "kim2024mdagents"
@@ -2156,9 +2156,9 @@
   {
     "command_id": "C133",
     "file": "manuscript.tex",
-    "line": 2070,
-    "end_line": 2070,
-    "offset": 119768,
+    "line": 2082,
+    "end_line": 2082,
+    "offset": 121317,
     "command": "citep",
     "keys": [
       "qian2024scaling_multiagent"
@@ -2172,9 +2172,9 @@
   {
     "command_id": "C134",
     "file": "manuscript.tex",
-    "line": 2104,
-    "end_line": 2104,
-    "offset": 121628,
+    "line": 2116,
+    "end_line": 2116,
+    "offset": 123177,
     "command": "citep",
     "keys": [
       "han2024mast"
@@ -2188,9 +2188,9 @@
   {
     "command_id": "C135",
     "file": "manuscript.tex",
-    "line": 2139,
-    "end_line": 2139,
-    "offset": 123598,
+    "line": 2151,
+    "end_line": 2151,
+    "offset": 125147,
     "command": "citep",
     "keys": [
       "zhang2024memory_survey",
@@ -2205,9 +2205,9 @@
   {
     "command_id": "C136",
     "file": "manuscript.tex",
-    "line": 2147,
-    "end_line": 2147,
-    "offset": 124083,
+    "line": 2159,
+    "end_line": 2159,
+    "offset": 125632,
     "command": "citep",
     "keys": [
       "park2023generative_agents",

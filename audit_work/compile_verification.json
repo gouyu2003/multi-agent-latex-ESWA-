@@ -1,91 +1,119 @@
 {
+  "audit_date": "2026-10-10",
+  "revision": "Stage-two completion; authorized bibliography and necessary prose edits",
   "runs": [
+    {
+      "step": "latex_first",
+      "command": [
+        "D:\\texlive\\2026\\bin\\windows\\pdflatex.exe",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-no-shell-escape",
+        "-synctex=1",
+        "manuscript.tex"
+      ],
+      "exit_code": 0,
+      "output_file": "audit_work/compile_stage2_20261010_latex_first.txt",
+      "elapsed_seconds": 2.56
+    },
     {
       "step": "bibtex",
       "command": [
-        "bibtex",
+        "D:\\texlive\\2026\\bin\\windows\\bibtex.exe",
         "manuscript"
       ],
       "exit_code": 0,
-      "output_file": "audit_work/compile_bibtex.txt"
+      "output_file": "audit_work/compile_stage2_20261010_bibtex.txt",
+      "elapsed_seconds": 0.58
     },
     {
       "step": "latex_second",
       "command": [
-        "pdflatex",
+        "D:\\texlive\\2026\\bin\\windows\\pdflatex.exe",
         "-interaction=nonstopmode",
         "-halt-on-error",
+        "-no-shell-escape",
+        "-synctex=1",
         "manuscript.tex"
       ],
       "exit_code": 0,
-      "output_file": "audit_work/compile_latex_second.txt"
+      "output_file": "audit_work/compile_stage2_20261010_latex_second.txt",
+      "elapsed_seconds": 2.61
     },
     {
       "step": "latex_final",
       "command": [
-        "pdflatex",
+        "D:\\texlive\\2026\\bin\\windows\\pdflatex.exe",
         "-interaction=nonstopmode",
         "-halt-on-error",
+        "-no-shell-escape",
+        "-synctex=1",
         "manuscript.tex"
       ],
       "exit_code": 0,
-      "output_file": "audit_work/compile_latex_final.txt"
+      "output_file": "audit_work/compile_stage2_20261010_latex_final.txt",
+      "elapsed_seconds": 2.7
     }
   ],
   "undefined_citation_or_reference": [],
   "overfull_boxes": [
     "Overfull \\hbox (123.62721pt too wide) detected at line 102",
-    "Overfull \\hbox (1.43248pt too wide) in paragraph at lines 1658--1658",
-    "Overfull \\hbox (0.81834pt too wide) in paragraph at lines 1651--1704",
-    "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2125--2132"
+    "Overfull \\hbox (0.76843pt too wide) in paragraph at lines 598--598",
+    "Overfull \\hbox (1.43248pt too wide) in paragraph at lines 1670--1670",
+    "Overfull \\hbox (0.81834pt too wide) in paragraph at lines 1663--1716",
+    "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2137--2144",
+    "Overfull \\hbox (0.92711pt too wide) in paragraph at lines 76--90"
   ],
-  "underfull_box_count": 104,
-  "output": [
-    "Output written on manuscript.pdf (23 pages, 2131169 bytes)."
-  ],
-  "inputs_sha256": {
-    "manuscript.tex": "23bb9eea4316745fce3775ec817bb78bf74d5c597f194d19c8e690d4d441259b",
-    "references.bib": "59129caedf01823a4050b0bf93a0634b4d781509970a54d2de342cbd780c6045",
-    "manuscript.aux": "403a6ca0521c3bd04b115b7b8db70fdf570adc50005d3dc0fc4231f7ace53918",
-    "manuscript.bbl": "c2c02ca5e4bbdb7979b8315e21131d55bb8c338195e0dd70123bdc85d949d6ee",
-    "manuscript.pdf": "767bfdc780cc576d33ae4fc08907f31ca4606bb51aa60ff7012e7c56e9a118f6"
-  },
+  "underfull_box_count": 118,
   "bibtex_warnings": [
-    "Warning--empty pages in asai2024selfrag",
-    "Warning--empty pages in han2024mast",
-    "Warning--empty pages in chen2024agentverse",
     "Warning--empty pages in hendrycks2021mmlu",
-    "Warning--empty pages in hong2024metagpt",
-    "Warning--empty pages in khattab2024dspy",
     "Warning--empty pages in khot2023decomposed_prompting",
-    "Warning--empty pages in liu2024agentbench",
     "Warning--empty pages in mialon2024gaia",
-    "Warning--empty pages in qian2024scaling_multiagent",
     "Warning--empty pages in vaswani2017attention",
     "Warning--empty pages in wang2023self_consistency",
     "Warning--empty pages in wu2024autogen",
     "Warning--empty pages in yao2023react",
-    "Warning--empty pages in zhang2024chain_agents",
-    "Warning--empty pages in zhou2023least_to_most",
-    "Warning--empty pages in zhou2024webarena"
+    "Warning--empty pages in zhou2023least_to_most"
   ],
+  "output": [
+    "Output written on manuscript.pdf (23 pages, 2129722 bytes)."
+  ],
+  "inputs_sha256": {
+    "manuscript.tex": "313d927dede40f5574e9afede3459a7bbf60fc2e304d7034ec048529b8288976",
+    "references.bib": "ac99388adaec65913d43b1622abad079f3f094cb49dad1d0cdf5ab99d38b6627",
+    "manuscript.aux": "fcf57ad263345298a5e582f15f9aba1ba0bb0bb4b83f22584900ec3265834891",
+    "manuscript.bbl": "acceed7ec1d4f476b0e2a2a50873527830eb8afd23351bbc450f5a5195b00743",
+    "manuscript.pdf": "84a98dc518018039a9cea4670136f360b0c85f1d094b77751b93879e5c10c077",
+    "manuscript.synctex.gz": "ad8eefc4d9b806ded626204a6e3a20e2945a885448fcea900a82e8950a355d21"
+  },
   "visual_review": {
+    "status": "reviewed",
     "pages": [
       1,
-      11,
+      2,
+      7,
+      9,
       15,
+      17,
       20,
-      22
+      21,
+      22,
+      23
     ],
-    "scope": "First page, corrected memory/RAG text, framework table, declarations, and representative bibliography page; not all-page formatting approval",
-    "result": "Inspected renders: no clipping or overlap introduced in reviewed content. Existing large whitespace/table placement and layout warnings deferred to formatting phase.",
+    "scope": "Current abstract/methods, taxonomy and ten-case table, framework/platform comparison, conclusion and references. Full formatting and original figures deferred.",
+    "result": "Updated counts, case symbols/notes, pinned-version references and author/page corrections display correctly; no new clipping/overlap found in reviewed spots. Existing spacing/font/URL and layout warnings remain for formatting/figure stage.",
+    "pdf_sha256": "84a98dc518018039a9cea4670136f360b0c85f1d094b77751b93879e5c10c077",
     "render_sha256": {
-      "audit_work/render_checks/page_01.png": "316f5bca3bd32cb484462b9dcd7f2153f01246e157b1b8170777128d3ed6f6d8",
-      "audit_work/render_checks/page_11.png": "a560a24da197e21c2d8c6db4bee2819a4f9f15c80a9f5695728a8e5b7576658d",
-      "audit_work/render_checks/page_15.png": "9606266cfaeae59e6c3ac2a5d8a0ea10e52f5dd2e840cbb8d523bda5817de9a0",
-      "audit_work/render_checks/page_20.png": "0646ec89c1e326454a6c1f2ba2ba7d95d18a3ee87bef95f718af933078363a55",
-      "audit_work/render_checks/page_22.png": "9472c0e36aae401b2e56df0778bc630eae4005569d21d1816a37b4e7e336b045"
+      "C:\\Users\\ccbus\\.codex\\visualizations\\2026\\10\\01\\01a0f818-44a8-7dc1-9898-b86221bb286d\\stage2_completion_20261010\\manuscript_stage2_p01.png": "00a7f3407256c9b90dbcb70799e8aa4c02504c571fa636e3d20b0ea7ee637d95",
+      "C:\\Users\\ccbus\\.codex\\visualizations\\2026\\10\\01\\01a0f818-44a8-7dc1-9898-b86221bb286d\\stage2_completion_20261010\\manuscript_stage2_p02.png": "f03c519bc929e63e51447da4f31cdc7e8b0a904532f7aae10dfe8dbc3d526873",
+      "C:\\Users\\ccbus\\.codex\\visualizations\\2026\\10\\01\\01a0f818-44a8-7dc1-9898-b86221bb286d\\stage2_completion_20261010\\manuscript_stage2_p07.png": "099d3a249f9afed07de5f0479b68294cddab13cd9bc7096c64511f2e25a1596b",
+      "C:\\Users\\ccbus\\.codex\\visualizations\\2026\\10\\01\\01a0f818-44a8-7dc1-9898-b86221bb286d\\stage2_completion_20261010\\manuscript_stage2_p09.png": "28e12c6327adec6e9de63eca9ac79b95573d863dd338ac3811596a3725ad5c1d",
+      "C:\\Users\\ccbus\\.codex\\visualizations\\2026\\10\\01\\01a0f818-44a8-7dc1-9898-b86221bb286d\\stage2_completion_20261010\\manuscript_stage2_p15.png": "05974f6d984a896e38195591bc7f146ff42eb286b10e099e8461cfb83226b626",
+      "C:\\Users\\ccbus\\.codex\\visualizations\\2026\\10\\01\\01a0f818-44a8-7dc1-9898-b86221bb286d\\stage2_completion_20261010\\manuscript_stage2_p17.png": "57c26504a85c4f29525ae40e632d716f5e0b33e4242e687d2be7df04777c05d3",
+      "C:\\Users\\ccbus\\.codex\\visualizations\\2026\\10\\01\\01a0f818-44a8-7dc1-9898-b86221bb286d\\stage2_completion_20261010\\manuscript_stage2_p20.png": "c678affd5a94aa81ba121bd0597ec22d43bce414f33f5ee57773c4840a70d882",
+      "C:\\Users\\ccbus\\.codex\\visualizations\\2026\\10\\01\\01a0f818-44a8-7dc1-9898-b86221bb286d\\stage2_completion_20261010\\manuscript_stage2_p21.png": "784ffcda770318d9112b919c2ac2d758dc55d2ed4ed2020d4dbf03e90be1be88",
+      "C:\\Users\\ccbus\\.codex\\visualizations\\2026\\10\\01\\01a0f818-44a8-7dc1-9898-b86221bb286d\\stage2_completion_20261010\\manuscript_stage2_p22.png": "72514cd407e7709f56fcd96554a37c51138c13d927d6be7b9beaae575fc30a15",
+      "C:\\Users\\ccbus\\.codex\\visualizations\\2026\\10\\01\\01a0f818-44a8-7dc1-9898-b86221bb286d\\stage2_completion_20261010\\manuscript_stage2_p23.png": "5c15e6979e6c62f111d7a9b812f374df2ed325079f17f2833fe6bae30ca2311f"
     }
-  },
-  "abstract_words_whitespace": 225
+  }
 }

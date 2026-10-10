@@ -1,0 +1,1108 @@
+{
+  "audit_date": "2026-10-10",
+  "scope": "Only advisor baseline; stage-two references and necessary source-grounded prose changes; original figures/hidden chapters protected.",
+  "bibliography_edits": [
+    {
+      "key": "openai2023gpt4",
+      "field": "url",
+      "before": "https://arxiv.org/abs/2303.08774",
+      "after": "https://arxiv.org/abs/2303.08774v1",
+      "evidence_url": "https://arxiv.org/abs/2303.08774v1",
+      "locator": "v1 title, byline and submission history",
+      "reason": "固定与正文实际机制及当前作者/题名对应的v1，不让无版本URL指向另一版本。"
+    },
+    {
+      "key": "packer2023memgpt",
+      "field": "url",
+      "before": "https://arxiv.org/abs/2310.08560",
+      "after": "https://arxiv.org/abs/2310.08560v1",
+      "evidence_url": "https://arxiv.org/abs/2310.08560v1",
+      "locator": "v1 title, byline and submission history",
+      "reason": "固定与正文实际机制及当前作者/题名对应的v1，不让无版本URL指向另一版本。"
+    },
+    {
+      "key": "cui2023chatlaw",
+      "field": "url",
+      "before": "https://arxiv.org/abs/2306.16092",
+      "after": "https://arxiv.org/abs/2306.16092v1",
+      "evidence_url": "https://arxiv.org/abs/2306.16092v1",
+      "locator": "v1 title, byline and submission history",
+      "reason": "固定与正文实际机制及当前作者/题名对应的v1，不让无版本URL指向另一版本。"
+    },
+    {
+      "key": "huang2023agentcoder",
+      "field": "url",
+      "before": "https://arxiv.org/abs/2312.13010",
+      "after": "https://arxiv.org/abs/2312.13010v1",
+      "evidence_url": "https://arxiv.org/abs/2312.13010v1",
+      "locator": "v1 title, byline and submission history",
+      "reason": "固定与正文实际机制及当前作者/题名对应的v1，不让无版本URL指向另一版本。"
+    },
+    {
+      "key": "openai2023gpt4",
+      "field": "doi",
+      "before": "",
+      "after": "10.48550/arXiv.2303.08774",
+      "evidence_url": "https://arxiv.org/abs/2303.08774v1",
+      "locator": "Cite as; arXiv-issued DOI via DataCite",
+      "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。"
+    },
+    {
+      "key": "tran2025multiagent_survey",
+      "field": "doi",
+      "before": "",
+      "after": "10.48550/arXiv.2501.06322",
+      "evidence_url": "https://arxiv.org/abs/2501.06322",
+      "locator": "Cite as; arXiv-issued DOI via DataCite",
+      "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。"
+    },
+    {
+      "key": "touvron2023llama",
+      "field": "doi",
+      "before": "",
+      "after": "10.48550/arXiv.2302.13971",
+      "evidence_url": "https://arxiv.org/abs/2302.13971",
+      "locator": "Cite as; arXiv-issued DOI via DataCite",
+      "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。"
+    },
+    {
+      "key": "glm2024chatglm",
+      "field": "doi",
+      "before": "",
+      "after": "10.48550/arXiv.2406.12793",
+      "evidence_url": "https://arxiv.org/abs/2406.12793",
+      "locator": "Cite as; arXiv-issued DOI via DataCite",
+      "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。"
+    },
+    {
+      "key": "gao2024rag_survey",
+      "field": "doi",
+      "before": "",
+      "after": "10.48550/arXiv.2312.10997",
+      "evidence_url": "https://arxiv.org/abs/2312.10997",
+      "locator": "Cite as; arXiv-issued DOI via DataCite",
+      "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。"
+    },
+    {
+      "key": "duan2024langgraph_crewai",
+      "field": "doi",
+      "before": "",
+      "after": "10.48550/arXiv.2411.18241",
+      "evidence_url": "https://arxiv.org/abs/2411.18241",
+      "locator": "Cite as; arXiv-issued DOI via DataCite",
+      "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。"
+    },
+    {
+      "key": "packer2023memgpt",
+      "field": "doi",
+      "before": "",
+      "after": "10.48550/arXiv.2310.08560",
+      "evidence_url": "https://arxiv.org/abs/2310.08560v1",
+      "locator": "Cite as; arXiv-issued DOI via DataCite",
+      "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。"
+    },
+    {
+      "key": "cui2023chatlaw",
+      "field": "doi",
+      "before": "",
+      "after": "10.48550/arXiv.2306.16092",
+      "evidence_url": "https://arxiv.org/abs/2306.16092v1",
+      "locator": "Cite as; arXiv-issued DOI via DataCite",
+      "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。"
+    },
+    {
+      "key": "huang2023agentcoder",
+      "field": "doi",
+      "before": "",
+      "after": "10.48550/arXiv.2312.13010",
+      "evidence_url": "https://arxiv.org/abs/2312.13010v1",
+      "locator": "Cite as; arXiv-issued DOI via DataCite",
+      "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。"
+    },
+    {
+      "key": "autorag2024",
+      "field": "doi",
+      "before": "",
+      "after": "10.48550/arXiv.2410.20878",
+      "evidence_url": "https://arxiv.org/abs/2410.20878",
+      "locator": "Cite as; arXiv-issued DOI via DataCite",
+      "reason": "补入本次官方arXiv页面明确提供的标识符；DOI标识作品，URL固定所用版本。"
+    },
+    {
+      "key": "minsky1988society",
+      "field": "year",
+      "before": "1986",
+      "after": "1988",
+      "evidence_url": "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130",
+      "locator": "Publisher product details; ISBN 9780671657130; 15 March 1988",
+      "reason": "采用已链接的1988平装版，不把它标成1986首版。"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "author",
+      "before": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and Awadallah, Ahmed Hassan and White, Ryen W. and Burger, Doug and Wang, Chi",
+      "after": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and Awadallah, Ahmed and White, Ryen W. and Burger, Doug and Wang, Chi",
+      "evidence_url": "D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf",
+      "locator": "COLM2024 formal PDF p1",
+      "reason": "作者全表和顺序按正式PDF；Ahmed Awadallah依PDF显示姓名。"
+    },
+    {
+      "key": "khattab2024dspy",
+      "field": "title",
+      "before": "{DSPy}: Compiling Declarative Language Model Calls into State-of-the-Art Pipelines",
+      "after": "{DSPy}: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf",
+      "locator": "ICLR2024 PDF p1",
+      "reason": "正式全文题名与落地页旧题名不同，采用实际引用正式PDF。"
+    },
+    {
+      "key": "khattab2024dspy",
+      "field": "author",
+      "before": "Khattab, Omar and Singhvi, Arnav and Maheshwari, Paridhi and Zhang, Zhiyuan and Santhanam, Keshav and A, Sri Vardhamanan and Haq, Saiful and Sharma, Ashutosh and Joshi, Thomas and Moazam, Hanna and Miller, Heather and Zaharia, Matei and Potts, Christopher",
+      "after": "Khattab, Omar and Singhvi, Arnav and Maheshwari, Paridhi and Zhang, Zhiyuan and Santhanam, Keshav and Vardhamanan, Sri and Haq, Saiful and Sharma, Ashutosh and Joshi, Thomas T. and Moazam, Hanna and Miller, Heather and Zaharia, Matei and Potts, Christopher",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf",
+      "locator": "ICLR2024 PDF p1",
+      "reason": "采用正式PDF署名，保留13位作者及原顺序。"
+    },
+    {
+      "key": "asai2024selfrag",
+      "field": "author",
+      "before": "Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avi and Hajishirzi, Hannaneh",
+      "after": "Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avirup and Hajishirzi, Hannaneh",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25f7be9694d7b32d5cc670927b8091e1-Paper-Conference.pdf",
+      "locator": "Formal PDF p1; official proceedings author metadata",
+      "reason": "Avirup采用PDF全名；Wu保留官方元数据Zeqiu及PDF文本可抽取姓名，说明PDF视觉缩写/元数据差异，不臆改作者顺序。"
+    },
+    {
+      "key": "mialon2024gaia",
+      "field": "author",
+      "before": "Mialon, Gr{\\'e}goire and Fourrier, Cl{\\'e}mentine and Wolf, Thomas and LeCun, Yann and Scialom, Thomas",
+      "after": "Mialon, Gr{\\'e}goire and Fourrier, Cl{\\'e}mentine and Swift, Craig and Wolf, Thomas and LeCun, Yann and Scialom, Thomas",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf",
+      "locator": "ICLR2024 PDF p1",
+      "reason": "正式PDF六位作者，补回第三位Craig Swift。"
+    },
+    {
+      "key": "mialon2024gaia",
+      "field": "url",
+      "before": "https://openreview.net/forum?id=fibxvahvs3",
+      "after": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf",
+      "locator": "Official proceedings PDF retrieved 2026-10-10",
+      "reason": "指向本次实际读取并确认的正式版本，保留网页署名冲突历史。"
+    },
+    {
+      "key": "guha2023legalbench",
+      "field": "author",
+      "before": "Guha, Neel and Nyarko, Julian and Ho, Daniel and R{\\'e}, Christopher and Chilton, Adam and K, Aditya and Chohlas-Wood, Alex and Peters, Austin and Waldon, Brandon and Rockmore, Daniel and Zambrano, Diego and Talisman, Dmitry and Hoque, Enam and Surani, Faiz and Fagan, Frank and Sarfaty, Galit and Dickinson, Gregory and Porat, Haggai and Hegland, Jason and Wu, Jessica and Nudell, Joe and Niklaus, Joel and Nay, John and Choi, Jonathan and Tobia, Kevin and Hagan, Margaret and Ma, Megan and Livermore, Michael and Rasumov-Rahe, Nikon and Holzenberger, Nils and Kolt, Noam and Henderson, Peter and Rehaag, Sean and Goel, Sharad and Gao, Shang and Williams, Spencer and Gandhi, Sunny and Zur, Tom and Iyer, Varun and Li, Zehua",
+      "after": "Guha, Neel and Nyarko, Julian and Ho, Daniel E. and R{\\'e}, Christopher and Chilton, Adam and Narayana, Aditya and Chohlas-Wood, Alex and Peters, Austin and Waldon, Brandon and Rockmore, Daniel N. and Zambrano, Diego and Talisman, Dmitry and Hoque, Enam and Surani, Faiz and Fagan, Frank and Sarfaty, Galit and Dickinson, Gregory M. and Porat, Haggai and Hegland, Jason and Wu, Jessica and Nudell, Joe and Niklaus, Joel and Nay, John and Choi, Jonathan H. and Tobia, Kevin and Hagan, Margaret and Ma, Megan and Livermore, Michael and Rasumov-Rahe, Nikon and Holzenberger, Nils and Kolt, Noam and Henderson, Peter and Rehaag, Sean and Goel, Sharad and Gao, Shang and Williams, Spencer and Gandhi, Sunny and Zur, Tom and Iyer, Varun and Li, Zehua",
+      "evidence_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/89e44582fd28ddfea1ea4dcb0ebbf4b0-Paper-Datasets_and_Benchmarks.pdf",
+      "locator": "NeurIPS2023 formal PDF p1 (40 authors)",
+      "reason": "采用正式PDF第六位Aditya Narayana，规范四位作者中间名，保留网页Aditya K来源差异。该条仍未被正文引用。"
+    },
+    {
+      "key": "zhang2024eduplanner",
+      "field": "title",
+      "before": "EduPlanner: LLM-based multi-agent systems for customized and intelligent instructional design",
+      "after": "EduPlanner: LLM-based Multiagent systems for customized and intelligent instructional design",
+      "evidence_url": "https://api.crossref.org/works/10.1109%2FTLT.2025.3561332",
+      "locator": "IEEE-deposited title and supplied TLT PDF p1",
+      "reason": "正式题名使用Multiagent单词。"
+    },
+    {
+      "key": "zhang2024memory_survey",
+      "field": "pages",
+      "before": "1--47",
+      "after": "155:1--155:47",
+      "evidence_url": "https://doi.org/10.1145/3748302",
+      "locator": "Formal TOIS43(6) Article155; printed155:1–155:47",
+      "reason": "保留ACM文章号155；当前bst无article-number字段，用正式前缀页码表示文章编号及页跨度。"
+    },
+    {
+      "key": "zhang2024memory_survey",
+      "field": "publisher",
+      "before": "ACM New York, NY",
+      "after": "Association for Computing Machinery",
+      "evidence_url": "https://doi.org/10.1145/3748302",
+      "locator": "Formal PDF ACM imprint; Crossref publisher",
+      "reason": "采用已核实机构名称，不保留未核实的New York城市附加信息。"
+    },
+    {
+      "key": "kwiatkowski2019natural_questions",
+      "field": "pages",
+      "before": "452--466",
+      "after": "453--466",
+      "evidence_url": "https://aclanthology.org/Q19-1026.pdf",
+      "locator": "PDF p1 printed TACL453–466; Crossref publisher page453–466",
+      "reason": "官方Anthology HTML误列452，正式PDF及MIT出版社Crossref均列453；撤销先前随HTML的452。"
+    },
+    {
+      "key": "anthropic2024mcp",
+      "field": "title",
+      "before": "Model Context Protocol ({MCP}): Technical Specification",
+      "after": "Introducing the Model Context Protocol",
+      "evidence_url": "https://www.anthropic.com/news/model-context-protocol",
+      "locator": "Official dated announcement, 25 November2024",
+      "reason": "当前论述只需发布/工具与数据接口，引用有日期的官方公告，避免以当前可变规范冒充2024技术规范。"
+    },
+    {
+      "key": "anthropic2024mcp",
+      "field": "howpublished",
+      "before": "https://modelcontextprotocol.io",
+      "after": "Anthropic announcement",
+      "evidence_url": "https://www.anthropic.com/news/model-context-protocol",
+      "locator": "Announcement publisher and date",
+      "reason": "按实际采用资源类型更新。"
+    },
+    {
+      "key": "anthropic2024mcp",
+      "field": "url",
+      "before": "https://modelcontextprotocol.io",
+      "after": "https://www.anthropic.com/news/model-context-protocol",
+      "evidence_url": "https://www.anthropic.com/news/model-context-protocol",
+      "locator": "Official launch article",
+      "reason": "链接固定为2024官方发布文章，版本化2024-11-05规范作为审计补证。"
+    },
+    {
+      "key": "google2025a2a",
+      "field": "author",
+      "before": "{Google}",
+      "after": "Surapaneni, Rao and Jha, Miku and Vakoc, Michael and Segal, Todd",
+      "evidence_url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+      "locator": "Official article byline, 9 April2025",
+      "reason": "采用Google发布文章四位具名作者；不把现今LinuxFoundation规范归到2025Google发布。"
+    },
+    {
+      "key": "google2025a2a",
+      "field": "title",
+      "before": "Agent-to-Agent ({A2A}) Protocol: Technical Specification",
+      "after": "Announcing the Agent2Agent Protocol ({A2A})",
+      "evidence_url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+      "locator": "Official heading",
+      "reason": "采用有日期的发布文章题名，当前正文能力限于发现/任务/消息接口。"
+    },
+    {
+      "key": "google2025a2a",
+      "field": "howpublished",
+      "before": "https://google.github.io/A2A",
+      "after": "Google Developers Blog",
+      "evidence_url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+      "locator": "Official publication identity",
+      "reason": "技术公告而非现行规范。"
+    },
+    {
+      "key": "google2025a2a",
+      "field": "url",
+      "before": "https://google.github.io/A2A",
+      "after": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+      "evidence_url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+      "locator": "Official launch page",
+      "reason": "替换迁移前google.github.io入口。"
+    },
+    {
+      "key": "crewai2023",
+      "field": "url",
+      "before": "https://github.com/crewAIInc/crewAI",
+      "after": "https://pypi.org/project/crewai/0.1.0/",
+      "evidence_url": "https://pypi.org/pypi/crewai/0.1.0/json",
+      "locator": "Version0.1.0 upload dates/description",
+      "reason": "固定2023实际可核PyPI版本，仅引用其基本角色/任务/顺序流程。"
+    },
+    {
+      "key": "crewai2023",
+      "field": "howpublished",
+      "before": "GitHub repository",
+      "after": "Software release, PyPI version 0.1.0",
+      "evidence_url": "https://pypi.org/pypi/crewai/0.1.0/json",
+      "locator": "Versioned registry",
+      "reason": "书目明确软件版本，不以当前主分支能力推溯到2023。"
+    },
+    {
+      "key": "dify2024",
+      "field": "author",
+      "before": "{Dify.AI}",
+      "after": "{LangGenius, Inc.}",
+      "evidence_url": "https://raw.githubusercontent.com/langgenius/dify/0.6.0/LICENSE",
+      "locator": "Tagged license copyright©2024LangGenius,Inc.",
+      "reason": "发行主体采用标签许可证所列机构。"
+    },
+    {
+      "key": "dify2024",
+      "field": "title",
+      "before": "{Dify: Open-source LLM App Development Platform}",
+      "after": "{Dify}: Open-Source {LLM} App Development Platform",
+      "evidence_url": "https://raw.githubusercontent.com/langgenius/dify/0.6.0/README.md",
+      "locator": "Tagged README introduction",
+      "reason": "题名采用标签对应项目描述。"
+    },
+    {
+      "key": "dify2024",
+      "field": "howpublished",
+      "before": "GitHub repository",
+      "after": "Software release, version 0.6.0",
+      "evidence_url": "https://github.com/langgenius/dify/releases/tag/0.6.0",
+      "locator": "Official release8April2024",
+      "reason": "2024固定release而非项目首次创立年份。"
+    },
+    {
+      "key": "dify2024",
+      "field": "url",
+      "before": "https://github.com/langgenius/dify",
+      "after": "https://github.com/langgenius/dify/tree/0.6.0",
+      "evidence_url": "https://github.com/langgenius/dify/releases/tag/0.6.0",
+      "locator": "Version0.6.0 repository/release",
+      "reason": "固定RAG、workflow及agent基本能力出处。"
+    },
+    {
+      "key": "dify2024",
+      "field": "note",
+      "before": "Open-source production-grade LLM application platform with multi-agent and RAG support.",
+      "after": "Version 0.6.0, released 8 April 2024; accessed 10 October 2026.",
+      "evidence_url": "https://github.com/langgenius/dify/releases/tag/0.6.0",
+      "locator": "Official timestamp2024-04-08T10:55:21Z; current retrieval record",
+      "reason": "移除未经标签证明的泛化multi-agent描述，改为可核版本/日期。"
+    },
+    {
+      "key": "ragflow2024",
+      "field": "howpublished",
+      "before": "Software repository",
+      "after": "Software release, version 0.6.0",
+      "evidence_url": "https://github.com/infiniflow/ragflow/releases/tag/v0.6.0",
+      "locator": "Official release21May2024",
+      "reason": "固定实际使用的历史版本。"
+    },
+    {
+      "key": "ragflow2024",
+      "field": "url",
+      "before": "https://github.com/infiniflow/ragflow",
+      "after": "https://github.com/infiniflow/ragflow/tree/v0.6.0",
+      "evidence_url": "https://github.com/infiniflow/ragflow/releases/tag/v0.6.0",
+      "locator": "Tagged README / released21May2024",
+      "reason": "以标签的文档解析、引文、检索流程能力为准，不移用当前多agent新功能。"
+    },
+    {
+      "key": "ragflow2024",
+      "field": "note",
+      "before": "Accessed: 2026-08-02",
+      "after": "Version 0.6.0, released 21 May 2024; accessed 10 October 2026.",
+      "evidence_url": "https://github.com/infiniflow/ragflow/releases/tag/v0.6.0",
+      "locator": "Official timestamp2024-05-21T03:25:34Z; current retrieval record",
+      "reason": "真实记录本次访问日期，旧访问声明保存在before日志。"
+    },
+    {
+      "key": "langgraph2024",
+      "field": "url",
+      "before": "https://blog.langchain.dev/langgraph-multi-agent-workflows/",
+      "after": "https://www.langchain.com/blog/langgraph-multi-agent-workflows",
+      "evidence_url": "https://www.langchain.com/blog/langgraph-multi-agent-workflows",
+      "locator": "Official dated January2024 article",
+      "reason": "使用已核规范官方地址，避免只依赖跳转域名。"
+    },
+    {
+      "key": "hong2024metagpt",
+      "field": "pages",
+      "before": "",
+      "after": "23247--23275",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/6507b115562bb0a305f1958ccc87355a-Abstract-Conference.html",
+      "locator": "Official proceedings citation_firstpage / citation_lastpage",
+      "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。"
+    },
+    {
+      "key": "chen2024agentverse",
+      "field": "pages",
+      "before": "",
+      "after": "20094--20136",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html",
+      "locator": "Official proceedings citation_firstpage / citation_lastpage",
+      "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。"
+    },
+    {
+      "key": "khattab2024dspy",
+      "field": "pages",
+      "before": "",
+      "after": "54928--54958",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html",
+      "locator": "Official proceedings citation_firstpage / citation_lastpage",
+      "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。"
+    },
+    {
+      "key": "asai2024selfrag",
+      "field": "pages",
+      "before": "",
+      "after": "9112--9141",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html",
+      "locator": "Official proceedings citation_firstpage / citation_lastpage",
+      "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。"
+    },
+    {
+      "key": "liu2024agentbench",
+      "field": "pages",
+      "before": "",
+      "after": "52989--53046",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html",
+      "locator": "Official proceedings citation_firstpage / citation_lastpage",
+      "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。"
+    },
+    {
+      "key": "zhou2024webarena",
+      "field": "pages",
+      "before": "",
+      "after": "15585--15606",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/4410c0711e9154a7a2d26f9b3816d1ef-Abstract-Conference.html",
+      "locator": "Official proceedings citation_firstpage / citation_lastpage",
+      "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。"
+    },
+    {
+      "key": "qian2024scaling_multiagent",
+      "field": "pages",
+      "before": "",
+      "after": "41488--41505",
+      "evidence_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/66a026c0d17040889b50f0dfa650e5e0-Abstract-Conference.html",
+      "locator": "Official proceedings citation_firstpage / citation_lastpage",
+      "reason": "采用官方出版元数据连续页码，非根据PDF页数编造。"
+    }
+  ],
+  "additional_bibliography_edits": [
+    {
+      "key": "huang2023agentcoder",
+      "field": "author",
+      "before": "Huang, Dong and Zhang, Jie M. and Luck, Michael and Bu, Qingwen and Qing, Yuhao and Cui, Heming",
+      "after": "Huang, Dong and Bu, Qingwen and Zhang, Jie M. and Luck, Michael and Cui, Heming",
+      "evidence_url": "https://arxiv.org/abs/2312.13010v1",
+      "locator": "v1 official metadata; v1 PDF p1",
+      "reason": "固定2023v1后必须同步五位作者与顺序；旧记录混入后续版本的Yuhao Qing且Bu的位置不同，不能只固定URL。"
+    },
+    {
+      "key": "singhal2023medpalm",
+      "field": "publisher",
+      "before": "Nature Publishing Group UK London",
+      "after": "Springer Science and Business Media LLC",
+      "evidence_url": "https://api.crossref.org/works/10.1038%2Fs41586-023-06291-2",
+      "locator": "Publisher-deposited Crossref publisher field",
+      "reason": "采用本次正式登记机构字符串，去掉未核实的UK/London附加信息。"
+    }
+  ],
+  "manuscript_edits": [
+    {
+      "before": "The historical targeted update used combinations of \\textit{multi-agent},\n\\textit{LLM}, \\textit{question answering}, \\textit{reasoning},\n\\textit{long-context}, and \\textit{retrieval-augmented generation} across the ACL\nAnthology, OpenReview, arXiv, and publisher proceedings. It added ReConcile\n\\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and\nCoCoA \\citep{jiang2026cocoa}.",
+      "after": "The historical working records list ReConcile\n\\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and\nCoCoA \\citep{jiang2026cocoa} as additions. The source audit confirms their\nidentities and publication dates; it does not reconstruct the original update\nqueries, retrieval results, or search dates.",
+      "reason": "区分可核论文身份与无法仅凭论文原文重建的历史检索动作，撤去未经原始检索导出证明的操作细节。",
+      "original_line": 217
+    },
+    {
+      "before": "A source-level recheck on 8 October 2026 compared the 84-record bibliography\npool with publisher records, official proceedings, versioned arXiv papers,\nand project documentation. The accompanying audit separates source existence,\nfield accuracy, version conflicts, and claim support. Confirmed corrections\nwere applied, while inaccessible fields and unresolved conflicts remain\nexplicitly marked. One official LangGraph article was added to support the\nspecific interrupt and checkpoint mechanisms discussed below.",
+      "after": "Source-level checks on 8 and 10 October 2026 compared the bibliography with\npublisher records, official proceedings, versioned arXiv papers, and dated or\nversioned project documentation. The current pool contains 85 records, of\nwhich 78 are cited in the active manuscript. The audit separates source\nexistence, field accuracy, version selection, and claim support. Confirmed\ncorrections were applied; unavailable optional fields and source discrepancies\nare recorded without blanket verification claims. One dated official LangGraph\narticle supports the interrupt and checkpoint mechanisms discussed below.",
+      "reason": "反映本次第二阶段真实核查范围，保留不可获得字段的边界。",
+      "original_line": 224
+    },
+    {
+      "before": "\\emph{Third}, a monolithic model cannot simultaneously possess expert-level\nknowledge across all domains, often failing on queries that require\ncross-disciplinary collaboration.",
+      "after": "\\emph{Third}, a single model may lack sufficient domain coverage for a query\nthat requires several areas of expertise; combining perspectives is one\npossible response whose benefit requires task-level evaluation.",
+      "reason": "删除单模型不可能拥有所有领域知识的绝对断言。",
+      "original_line": 143
+    },
+    {
+      "before": "Between 2023 and 2026 this field has witnessed explosive growth. ",
+      "after": "",
+      "reason": "删除未提供增长统计证据的强表述。"
+    },
+    {
+      "before": "Multi-agent collaboration can also improve reasoning reliability by creating\nseparate candidate, review, and verification paths. Debate, cross-checking,\nand reconciliation may expose errors that self-refinement within one workflow\noverlooks \\citep{du2024multiagent_debate,chen2024reconcile,\nxiong2023inter_consistency}. However, additional agents do not guarantee\ncorrectness: weak aggregation, poor interaction design, or correlated errors\ncan preserve or amplify an incorrect answer. Coordination quality is thus a\ncentral design variable, not an incidental implementation detail.",
+      "after": "Multi-agent collaboration provides mechanisms for comparing candidate answers\nand review paths. Debate and reconciliation compare answers from different\nreasoners \\citep{du2024multiagent_debate,chen2024reconcile,\nxiong2023inter_consistency}; their benefits depend on the task and the agents\ninvolved. Additional agents do not guarantee correctness or establish universal\nsuperiority over self-refinement: weak aggregation, poor interaction design,\nor correlated errors can preserve an incorrect answer. Coordination quality\ntherefore requires evaluation.",
+      "reason": "移除多来源中只有部分论文研究的普遍自我修正对照归因。",
+      "original_line": 394
+    },
+    {
+      "before": "For example, CAMEL \\citep{li2023camel} employs an \"AI User\" and an \"AI Assistant\" paired with inception prompting to maintain role-conditioned interaction.",
+      "after": "For example, CAMEL \\citep{li2023camel} employs an \"AI User\" and an \"AI Assistant\" paired with inception prompting to maintain role-conditioned interaction. This role pair has asymmetric instructions; role play alone does not establish a flat decision-authority structure.",
+      "reason": "区分角色对话与控制权分类，避免把CAMEL固定认定为平等决策。"
+    },
+    {
+      "before": "GPTSwarm \\citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections. ",
+      "after": "GPTSwarm \\citep{zhuge2024gptswarm} provides an empirical example of optimising prompts and inter-agent graph connections. A graph representation, edge optimisation, or conditional routing alone does not establish hybrid decision authority; the implementation must actually change who controls decisions.",
+      "reason": "撤去图结构等同hybrid的含义，保留已核实优化机制。"
+    },
+    {
+      "before": "Adaptive systems adjust team composition or control patterns as tasks evolve.\nFor example, AgentVerse \\citep{chen2024agentverse} describes an iterative pipeline consisting of\nexpert recruitment, collaborative decision-making, action execution, and\nresult evaluation. This mechanism cannot be simplified to a \"simple-flat/complex-\nhierarchical\" rule. MDAgents \\citep{kim2024mdagents} provides direct\nin-case evidence for adaptive medical collaboration. Such adaptive mechanisms\nenhance routing flexibility, yet introduce extra requirements for state management\nand performance evaluation.",
+      "after": "Adaptive systems can adjust team composition or interaction patterns.\nFor example, AgentVerse \\citep{chen2024agentverse} describes an iterative pipeline consisting of\nexpert recruitment, collaborative decision-making, action execution, and\nresult evaluation. This mechanism cannot be simplified to a \"simple-flat/complex-\nhierarchical\" rule. MDAgents \\citep{kim2024mdagents} routes medical queries to\nsolo, multidisciplinary-team, or integrated-care-team pathways according to\ncomplexity under a moderator. This supports adaptive collaboration, but a\npersistent moderator means that mode switching alone is insufficient to prove\nhybrid authority. State management and performance still require evaluation.",
+      "reason": "正式MDAgents§3.1–3.4核实复杂度路由和持续moderator；区分招募/团队变化与控制权切换。",
+      "original_line": 513
+    },
+    {
+      "before": "Table~\\ref{tab:9categories} compares the three architecture classes and their\nsub-paradigms in terms of control, task suitability, and limitations.\nArchitecture labels, suitable contexts, and limitations are the authors'\nsynthesis of the cited mechanisms.",
+      "after": "Table~\\ref{tab:9categories} compares representative control patterns and\nrelated mechanisms. Architecture labels, suitable contexts, and limitations\nare the authors' synthesis. Role-paired, configurable, and cross-cutting\nentries describe mechanisms or tool capabilities, not additional architecture\nclasses or evidence that every configuration is hybrid.",
+      "reason": "表格不再把可配置框架及交叉机制机械归入三类架构。",
+      "original_line": 568
+    },
+    {
+      "before": "\\caption{Comparison of multi-agent collaborative QA architecture classes.}",
+      "after": "\\caption{Representative control patterns and related mechanisms for multi-agent collaborative QA.}",
+      "reason": "表格题名与核实后的分类边界一致。"
+    },
+    {
+      "before": "\\multirow{3}{*}{\\textbf{Flat}} &",
+      "after": "\\textbf{Flat} &",
+      "reason": "仅将Du的对等辩论例子作为flat，角色对话及可配置AutoGen单独说明。"
+    },
+    {
+      "before": "    & Role-conditioned collaboration & CAMEL",
+      "after": "    \\textbf{Role-paired} & Role-conditioned collaboration & CAMEL",
+      "reason": "CAMEL不再自动归为flat。"
+    },
+    {
+      "before": "    & Group-chat collaboration & AutoGen",
+      "after": "    \\textbf{Configurable} & Group-chat collaboration & AutoGen",
+      "reason": "AutoGen框架支持多种组织方式，group-chatmanager本身含调度权。"
+    },
+    {
+      "before": "\\multirow{3}{*}{\\textbf{Hierarchical}} &",
+      "after": "\\multirow{2}{*}{\\textbf{Hierarchical}} &",
+      "reason": "修正该组实际两行，避免与下一组的机制分类混淆。"
+    },
+    {
+      "before": "\\multirow{3}{*}{\\textbf{Hybrid}} &",
+      "after": "\\multirow{3}{*}{\\shortstack{\\textbf{Cross-}\\\\\\textbf{cutting}}} &",
+      "reason": "图/动态招募/HITL均为交叉机制，不以其存在认定hybrid。"
+    },
+    {
+      "before": "    Changes collaboration in response to case characteristics &",
+      "after": "    Moderator routes solo or team consultation according to complexity &",
+      "reason": "MDAgents机制核对后按实际调度描述。"
+    },
+    {
+      "before": "The approach is verified for interpretive consistency by comparing its\ninferred architectures with ten published systems. This purposive sample was\nselected because the systems report agent roles and control flow with enough\ndetail for coding and cover different domains, process structures, and risk\nlevels. The comparison does not evaluate system performance, establish causal\nbenefit, or claim external validity.\n\nFive cases are broadly aligned, three are partially aligned, and two are\ndivergent under the coding used here. MedAgents and LLM-MedQA combine\nparallel expert perspectives with staged synthesis; MAD is flat at the macro\nlevel but uses iterative convergence; EduPlanner and Financial Reflection QA\ncombine convergent objectives with evaluator or critic feedback. These boundary\ncases show that competing requirements can make a single categorical label\ninsufficient and that a multi-label description of control flow may sometimes\nbe preferable.",
+      "after": "The approach is examined for interpretive consistency using ten published\nsystems. This purposive sample contains both core QA studies and supporting\nworkflow examples; it does not evaluate performance, establish causal benefit,\nor provide independent validation. The existing proposed labels are retained\nfor comparison, while reported workflows are re-coded using one rule:\nflat control has no persistent top-down controller; hierarchical control has\nstable routing, approval, or final-decision authority; hybrid control requires\na demonstrated change in that authority. Iteration, voting, multiple roles,\nand graph structure alone are insufficient.\n\nExact category agreement occurs in six cases, with four disagreements.\nMedAgents, LLM-MedQA, LegalGraphRAG, and EduPlanner have fixed asymmetric\nstages or final-decision roles, while their retained proposed labels differ.\nDu et al.'s peer debate remains flat despite repeated rounds, and Financial\nReflection QA remains hierarchical despite critic feedback. Nine reported\nworkflows are coded hierarchical and one flat; this sample therefore does not\nvalidate the hybrid category. The comparison is retrospective and was not\nblind or preregistered. The six agreements are descriptive, not prediction\naccuracy or evidence of an effective architecture-selection policy.",
+      "reason": "冻结已有建议标签，正式流程统一按控制权重编码；6一致4不一致，不再维护5/3/2，无独立盲评或hybrid验证夸大。",
+      "original_line": 728
+    },
+    {
+      "before": "Flat versus hybrid staged synthesis & $\\triangle$",
+      "after": "Flat versus hierarchical staged synthesis & $\\times$",
+      "reason": "十案例来源类别与统一匹配标准同步；案例名称明确Du以免与Liang的judge-mediated MAD混淆。"
+    },
+    {
+      "before": "Flat versus hybrid voting pipeline & $\\triangle$",
+      "after": "Flat versus hierarchical voting pipeline & $\\times$",
+      "reason": "十案例来源类别与统一匹配标准同步；案例名称明确Du以免与Liang的judge-mediated MAD混淆。"
+    },
+    {
+      "before": "Hybrid versus hybrid graph audit chain & $\\checkmark$",
+      "after": "Hybrid versus hierarchical graph audit chain & $\\times$",
+      "reason": "十案例来源类别与统一匹配标准同步；案例名称明确Du以免与Liang的judge-mediated MAD混淆。"
+    },
+    {
+      "before": "MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$",
+      "after": "Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$",
+      "reason": "十案例来源类别与统一匹配标准同步；案例名称明确Du以免与Liang的judge-mediated MAD混淆。"
+    },
+    {
+      "before": "Hierarchical versus hybrid reflection loop & $\\times$",
+      "after": "Hierarchical versus hierarchical critic feedback & $\\checkmark$",
+      "reason": "十案例来源类别与统一匹配标准同步；案例名称明确Du以免与Liang的judge-mediated MAD混淆。"
+    },
+    {
+      "before": "  \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned;\n  $\\times$ = divergent. Both architecture labels are the authors' coding of\n  the selection approach and the reported workflow, not independent validation.\n  Triad uses a single LLM-based agent in three roles; it is coded S and\n  retained as a supporting example, outside the 13 core studies.",
+      "after": "  \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different\n  categories. Proposed labels are retained from the preceding draft;\n  source-based labels are the authors' retrospective control-flow coding.\n  Neither label nor agreement establishes selection accuracy or safety.\n  Triad is a single-agent, three-role supporting study (S), outside the\n  13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting\n  workflow examples. Criterion profiles are illustrative author judgments.",
+      "reason": "严格一致/不一致两类匹配；风险档案及S案例边界明确，不把分类算作来源实测验证。",
+      "original_line": 767
+    },
+    {
+      "before": "The criteria can also be applied analytically to contrasting settings. In\nhigh-risk, cross-domain consultation, parallel specialist analysis may improve\ncoverage, but final decisions require an explicit review boundary, making a\nhybrid workflow with human approval a plausible candidate. Standardised,\nevidence-grounded QA generally supports a hierarchical RAG baseline with\nsource and citation checks. Open-ended educational or legal tasks may benefit\nfrom bounded peer critique, but legal use additionally requires auditability\nand human accountability. These examples illustrate how task and governance\nrequirements constrain the design space; they do not imply one universally\ncorrect topology.",
+      "after": "The criteria can also be applied analytically to contrasting settings. In\ncross-domain consultation, parallel specialist analysis may improve coverage,\nwhile a fixed review and final-decision boundary produces a hierarchical\nworkflow. A hybrid candidate requires an actual conditional change in decision\nauthority, rather than the mere addition of human approval. Standardised,\nevidence-grounded QA can use a hierarchical retrieval-and-synthesis baseline\nwith source and citation checks. Open-ended tasks may use bounded peer\ncritique, while consequential decisions call for explicit accountability.\nThese are design hypotheses, not evaluated prescriptions for a universally\ncorrect topology.",
+      "reason": "不把并行分析+固定人工审批自动称hybrid；保留条件性的作者设计建议。",
+      "original_line": 774
+    },
+    {
+      "before": "In complex collaboration, knowledge must not be siloed within individual\nagents.\nThe system needs a global knowledge graph shared across agents so that all\ncollaborative nodes can synchronise critical facts in real time.\nBy constructing a shared graph-vector database, newly spawned sub-agents\ncan rapidly inherit the team's cumulative knowledge, avoiding redundant\nretrieval and cognitive divergence.",
+      "after": "In complex collaboration, designers may provide a shared evidence repository\nwhen agents need access to the same verified information. A graph, vector\nstore, document store, or their combination is an implementation choice,\nrather than a requirement that every system use a global knowledge graph.\nNew agents may reuse relevant context subject to provenance and access\nchecks. Whether this reduces repeated retrieval or inconsistent answers\nrequires measurement; synchronisation is not automatically real time.",
+      "reason": "撤去必须全局知识图谱/实时同步/保证避免重复检索等无来源强断言。",
+      "original_line": 956
+    },
+    {
+      "before": "To suppress hallucination, agents must be capable of iterative\nself-examination.",
+      "after": "Reflection and critique are possible approaches to factual-error reduction;\nthey do not guarantee correctness or replace checking the underlying evidence.",
+      "reason": "迭代自省并非抑制幻觉的必要充分条件，保留机制证据。",
+      "original_line": 1092
+    },
+    {
+      "before": "CAMEL \\citep{li2023camel} & Flat &",
+      "after": "CAMEL \\citep{li2023camel} & Role-paired workflow &",
+      "reason": "技术表不将角色对话无条件等同flat架构。"
+    },
+    {
+      "before": "AgentVerse \\citep{chen2024agentverse} & Hybrid &",
+      "after": "AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline &",
+      "reason": "四阶段/招募反馈不足以证明控制权切换，按所证机制命名。"
+    },
+    {
+      "before": "LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Hybrid &",
+      "after": "LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph &",
+      "reason": "工具能力与实际工作流架构分开。"
+    },
+    {
+      "before": "GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid &",
+      "after": "GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph &",
+      "reason": "DAG连边优化不自动构成hybridauthority。"
+    },
+    {
+      "before": "Document ingestion, retrieval, and configurable workflow components",
+      "after": "Document ingestion, retrieval, and configurable RAG components",
+      "reason": "RAGFlow0.6.0提供RAG管线组件，不移用后期多智能体workflow能力。"
+    },
+    {
+      "before": "iterative multi-critic reflection.",
+      "after": "critic feedback and answer revision.",
+      "reason": "FinancialQA正式§3.1实现两critic反馈和答案修订；§6多轮反复辩论为未来工作。"
+    },
+    {
+      "before": "verification exercise rather than independent confirmation of general validity; broader",
+      "after": "retrospective diagnostic comparison rather than independent validation; it contains\nno source-coded hybrid example. Broader",
+      "reason": "局限同步案例样本缺少hybrid及非独立验证。"
+    },
+    {
+      "before": "publication fields, version choices, and evidence boundaries.",
+      "after": "optional publication fields, documented version selections, and evidence boundaries.",
+      "reason": "说明版本选择已落实，剩余未决字段不全部仍是版本冲突。"
+    },
+    {
+      "before": "when independent perspectives are valuable; changing requirements or\nconditional review support hybrid control. Compare the selected design with a\nsingle-agent baseline using task quality, latency, cost, provenance, and\nfailure-recovery measures.",
+      "after": "when independent perspectives are valuable; hybrid control is a candidate\nwhen changing requirements necessitate a change in decision authority.\nConditional review under a fixed approver remains hierarchical. Compare the\nselected design with a single-agent baseline using task quality, latency,\ncost, provenance, and failure-recovery measures.",
+      "reason": "统一第二阶段控制权规则：条件审核本身不足以认定hybrid；固定审批属于层级。"
+    },
+    {
+      "before": "Hybrid architectures are useful when task requirements are heterogeneous or when the workflow must combine deliberation, controlled execution, and conditional review. Their trade-off lies in engineering complexity:",
+      "after": "Hybrid architectures may be appropriate when heterogeneous task requirements call for transitions between peer deliberation and central decision authority. Their trade-off lies in engineering complexity:",
+      "reason": "混合适用性表述同步实际控制权切换，避免再次将条件审核等同hybrid。"
+    },
+    {
+      "before": "(4) QA, retrieval-augmented answering, conversational QA, or question-driven domain decision support as the primary evaluated task; and",
+      "after": "(4) QA, retrieval-augmented answering, conversational QA, or question-driven domain decision support as a substantive primary evaluation track; and",
+      "reason": "明确多任务核心论文的纳入解释：QA必须为实质主要评估轨道，可同时包含其他主要任务。"
+    },
+    {
+      "before": "and 8~T; seven uncited records remain in the pool. The remaining 13 role-I\nlabels retain the existing author coding. Triad uses a single LLM-based agent",
+      "after": "and 8~T; seven uncited records remain in the pool. The 13 role-I studies\nwere reassessed against these five criteria and retain their labels.\nQA need not be their sole task, but incidental QA demonstrations are\ninsufficient for inclusion. Triad uses a single LLM-based agent",
+      "reason": "正文同步已实施的13项五标准全文重核，明确非仅继承旧标签，也非将任意附带QA纳入。"
+    }
+  ],
+  "cases": [
+    {
+      "key": "tang2024medagents",
+      "name": "MedAgents",
+      "evidence_role": "I",
+      "prior_proposed_label": "Flat",
+      "prior_source_label": "Hybrid",
+      "source_based_label": "Hierarchical",
+      "match": "disagreement",
+      "citation_id": "C059",
+      "evidence_url": "https://aclanthology.org/2024.findings-acl.33.pdf",
+      "locator": "§§2.1–2.5, Algorithm1, printed601–603",
+      "source_evidence": "Experts analyse and vote; fixed report revision and final decision roles retain asymmetric authority.",
+      "rule_note": "本文统一控制权标准的回顾性编码，非原作者自报架构标签、非盲评/预注册/性能测验。"
+    },
+    {
+      "key": "tang2025llmmedqa",
+      "name": "LLM-MedQA",
+      "evidence_role": "I",
+      "prior_proposed_label": "Flat",
+      "prior_source_label": "Hybrid",
+      "source_based_label": "Hierarchical",
+      "match": "disagreement",
+      "citation_id": "C060",
+      "evidence_url": "D:/multi-agent review_joural/10.10ziliao/LLM-MedQA_Enhancing_Medical_Question_Answering_through_Case_Studies_in_Large_Language_Models (1).pdf",
+      "locator": "Formal IJCNN2025 §§III-A–F, Fig2 and Algorithm1, physical pp3–6",
+      "source_evidence": "Several experts vote on a report; a fixed revision and decision pipeline controls the final answer.",
+      "rule_note": "本文统一控制权标准的回顾性编码，非原作者自报架构标签、非盲评/预注册/性能测验。"
+    },
+    {
+      "key": "legalgraphrag2026",
+      "name": "LegalGraphRAG",
+      "evidence_role": "I",
+      "prior_proposed_label": "Hybrid",
+      "prior_source_label": "Hybrid",
+      "source_based_label": "Hierarchical",
+      "match": "disagreement",
+      "citation_id": "C061",
+      "evidence_url": "https://aclanthology.org/2026.acl-long.1738.pdf",
+      "locator": "Formal ACL2026 §4.3, printed37459–37460; Fig3",
+      "source_evidence": "Researcher, Auditor and Adjudicator perform ordered retrieval, audit and synthesis; graph structure does not switch authority.",
+      "rule_note": "本文统一控制权标准的回顾性编码，非原作者自报架构标签、非盲评/预注册/性能测验。"
+    },
+    {
+      "key": "hu2024triad",
+      "name": "Triad",
+      "evidence_role": "S",
+      "prior_proposed_label": "Hierarchical",
+      "prior_source_label": "Hierarchical",
+      "source_based_label": "Hierarchical",
+      "match": "agreement",
+      "citation_id": "C062",
+      "evidence_url": "https://aclanthology.org/2024.emnlp-main.101.pdf",
+      "locator": "Formal EMNLP2024 §3, printed1700–1702",
+      "source_evidence": "One multi-role agent follows staged Text-to-SPARQL processing; hierarchical describes its workflow, not a qualifying multi-agent study.",
+      "rule_note": "本文统一控制权标准的回顾性编码，非原作者自报架构标签、非盲评/预注册/性能测验。"
+    },
+    {
+      "key": "zhao2024longagent",
+      "name": "LONGAGENT",
+      "evidence_role": "I",
+      "prior_proposed_label": "Hierarchical",
+      "prior_source_label": "Hierarchical",
+      "source_based_label": "Hierarchical",
+      "match": "agreement",
+      "citation_id": "C063",
+      "evidence_url": "https://aclanthology.org/2024.emnlp-main.912.pdf",
+      "locator": "Formal EMNLP2024 §§2.1–2.4, Fig2, printed16311–16313",
+      "source_evidence": "The leader selects query or conflict-resolution actions and makes the final answer from member evidence.",
+      "rule_note": "本文统一控制权标准的回顾性编码，非原作者自报架构标签、非盲评/预注册/性能测验。"
+    },
+    {
+      "key": "qian2023chatdev",
+      "name": "ChatDev",
+      "evidence_role": "S",
+      "prior_proposed_label": "Hierarchical",
+      "prior_source_label": "Hierarchical",
+      "source_based_label": "Hierarchical",
+      "match": "agreement",
+      "citation_id": "C064",
+      "evidence_url": "https://aclanthology.org/2024.acl-long.810.pdf",
+      "locator": "Formal ACL2024 §3.1 and Fig2, printed15176–15177",
+      "source_evidence": "An ordered ChatChain assigns instructor–assistant interactions across design, coding and testing phases.",
+      "rule_note": "本文统一控制权标准的回顾性编码，非原作者自报架构标签、非盲评/预注册/性能测验。"
+    },
+    {
+      "key": "huang2023agentcoder",
+      "name": "AgentCoder",
+      "evidence_role": "S",
+      "prior_proposed_label": "Hierarchical",
+      "prior_source_label": "Hierarchical",
+      "source_based_label": "Hierarchical",
+      "match": "agreement",
+      "citation_id": "C065",
+      "evidence_url": "https://arxiv.org/pdf/2312.13010v1",
+      "locator": "arXiv2312.13010v1 §§3.1–3.4, Fig1, pp3–4",
+      "source_evidence": "Programmer and test designer are LLM agents; a scripted executor controls testing acceptance and feedback.",
+      "rule_note": "本文统一控制权标准的回顾性编码，非原作者自报架构标签、非盲评/预注册/性能测验。"
+    },
+    {
+      "key": "du2024multiagent_debate",
+      "name": "Multiagent debate (Du)",
+      "evidence_role": "I",
+      "prior_proposed_label": "Flat",
+      "prior_source_label": "Flat",
+      "source_based_label": "Flat",
+      "match": "agreement",
+      "citation_id": "C066",
+      "evidence_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf",
+      "locator": "Formal ICML2024 §§2.1–2.2, Fig2–3, physical pp2–4; peer updates and rule-based majority at end of debate",
+      "source_evidence": "Peer model instances exchange critiques using the same update procedure; repeated rounds retain peer control.",
+      "rule_note": "本文统一控制权标准的回顾性编码，非原作者自报架构标签、非盲评/预注册/性能测验。"
+    },
+    {
+      "key": "zhang2024eduplanner",
+      "name": "EduPlanner",
+      "evidence_role": "S",
+      "prior_proposed_label": "Flat",
+      "prior_source_label": "Hierarchical",
+      "source_based_label": "Hierarchical",
+      "match": "disagreement",
+      "citation_id": "C067",
+      "evidence_url": "D:/multi-agent review_joural/10.10ziliao/EduPlanner_LLM-Based_Multiagent_Systems_for_Customized_and_Intelligent_Instructional_Design.pdf",
+      "locator": "Formal TLT2025 Fig3, §§III-C–E, Algorithms1–3, printed419–422",
+      "source_evidence": "Evaluator scoring and the optimizer/analyst workflow impose stable selection and revision authority.",
+      "rule_note": "本文统一控制权标准的回顾性编码，非原作者自报架构标签、非盲评/预注册/性能测验。"
+    },
+    {
+      "key": "fatemi2024financialqa",
+      "name": "Financial Reflection QA",
+      "evidence_role": "I",
+      "prior_proposed_label": "Hierarchical",
+      "prior_source_label": "Hybrid",
+      "source_based_label": "Hierarchical",
+      "match": "agreement",
+      "citation_id": "C068",
+      "evidence_url": "D:/multi-agent review_joural/10.10ziliao/Enhancing Financial Question Answering with a Multi-Agent Reflection Framework.pdf",
+      "locator": "Formal ICAIF2024 §3.1, printed532; §6, printed534",
+      "source_evidence": "Two critics give sequential feedback to an expert that revises the answer; repeated multi-turn debate is future work.",
+      "rule_note": "本文统一控制权标准的回顾性编码，非原作者自报架构标签、非盲评/预注册/性能测验。"
+    }
+  ],
+  "core_eligibility": [
+    {
+      "key": "du2024multiagent_debate",
+      "year": 2024,
+      "source_version": "Proceedings of the 41st International Conference on Machine Learning",
+      "method_evidence": "Multiple model instances debate arithmetic, factual and MMLU answers.",
+      "locator": "Formal ICML2024 §§2.1–2.2 physical pp2–4; §§3.1–3.2/Tables1–2 physical pp4–6",
+      "sources": [
+        "https://proceedings.mlr.press/v235/du24e.html",
+        "https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": ""
+    },
+    {
+      "key": "qian2024scaling_multiagent",
+      "year": 2025,
+      "source_version": "International Conference on Learning Representations",
+      "method_evidence": "Multiple GPT-3.5 agents exchange artifacts; MMLU is one of four main evaluation tracks.",
+      "locator": "§2, §3 datasets/Table1, physical pp3–6",
+      "sources": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/66a026c0d17040889b50f0dfa650e5e0-Abstract-Conference.html",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/66a026c0d17040889b50f0dfa650e5e0-Paper-Conference.pdf"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": "QA is a substantive main evaluation track, not the only task. Eligibility does not claim every task/result is QA."
+    },
+    {
+      "key": "liang2024divergent_debate",
+      "year": 2024,
+      "source_version": "Proceedings of the 2024 conference on empirical methods in natural language processing",
+      "method_evidence": "Two LLM debaters and a judge answer counter-intuitive arithmetic questions; translation is an additional task.",
+      "locator": "§2–3, printed17890–17893",
+      "sources": [
+        "https://aclanthology.org/2024.emnlp-main.992/",
+        "https://aclanthology.org/2024.emnlp-main.992.pdf"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": "QA is a substantive main evaluation track, not the only task. Eligibility does not claim every task/result is QA."
+    },
+    {
+      "key": "xiong2023inter_consistency",
+      "year": 2023,
+      "source_version": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+      "method_evidence": "At least two LLM debaters and a judge are evaluated on commonsense QA and StrategyQA.",
+      "locator": "§2.1/Table1, §3/FORD, printed7573–7575",
+      "sources": [
+        "https://aclanthology.org/2023.findings-emnlp.508/",
+        "https://aclanthology.org/2023.findings-emnlp.508.pdf"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": ""
+    },
+    {
+      "key": "zhao2024longagent",
+      "year": 2024,
+      "source_version": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "method_evidence": "Leader/member LLM agents perform long-document QA and empirical retrieval and multi-hop tests.",
+      "locator": "§2, §3 and Table1, printed16311–16315",
+      "sources": [
+        "https://aclanthology.org/2024.emnlp-main.912/"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": ""
+    },
+    {
+      "key": "kim2024mdagents",
+      "year": 2024,
+      "source_version": "Advances in Neural Information Processing Systems",
+      "method_evidence": "Moderator and recruited specialist LLMs are evaluated on medical QA; the solo branch is not multi-agent evidence.",
+      "locator": "§3.1–3.4, §4/Table2, physical pp4–7",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html",
+        "https://arxiv.org/abs/2404.15155"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": "Only group pathways establish the multiple-agent criterion."
+    },
+    {
+      "key": "tang2024medagents",
+      "year": 2024,
+      "source_version": "Findings of the Association for Computational Linguistics: ACL 2024",
+      "method_evidence": "LLM expert roles collaborate through a report-consultation pipeline on medical QA benchmarks.",
+      "locator": "§2, Algorithm1, §3/Table2, printed601–603",
+      "sources": [
+        "https://aclanthology.org/2024.findings-acl.33/",
+        "https://aclanthology.org/2024.findings-acl.33.pdf"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": ""
+    },
+    {
+      "key": "tang2025llmmedqa",
+      "year": 2025,
+      "source_version": "2025 International Joint Conference on Neural Networks (IJCNN)",
+      "method_evidence": "Several LLM expert agents review and revise reports; experiments use medical question answering.",
+      "locator": "§III/Algorithm1 and §IV, physical pp3–7",
+      "sources": [
+        "https://researchconnect.suny.edu/en/publications/llm-medqa-enhancing-medical-question-answering-through-case-studi/",
+        "https://arxiv.org/html/2501.05464v1",
+        "https://dblp.org/rec/conf/ijcnn/YangCGCLHHWW25",
+        "D:/multi-agent review_joural/10.10ziliao/LLM-MedQA_Enhancing_Medical_Question_Answering_through_Case_Studies_in_Large_Language_Models (1).pdf"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": ""
+    },
+    {
+      "key": "legalgraphrag2026",
+      "year": 2026,
+      "source_version": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "method_evidence": "Researcher, Auditor and Adjudicator collaborate on legal question-driven verdict reasoning with empirical evaluation.",
+      "locator": "§4.3 and §5, printed37459–37462",
+      "sources": [
+        "https://aclanthology.org/2026.acl-long.1738/",
+        "https://aclanthology.org/2026.acl-long.1738.pdf"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": ""
+    },
+    {
+      "key": "fatemi2024financialqa",
+      "year": 2024,
+      "source_version": "Proceedings of the 5th ACM International Conference on AI in Finance",
+      "method_evidence": "Expert and two critic agents answer financial questions; empirical evaluation uses FinQA.",
+      "locator": "§3.1, §4–5, printed532–534",
+      "sources": [
+        "https://arxiv.org/abs/2410.21741",
+        "https://arxiv.org/html/2410.21741v1",
+        "https://dblp.org/rec/conf/icaif/FatemiH24",
+        "D:/multi-agent review_joural/10.10ziliao/Enhancing Financial Question Answering with a Multi-Agent Reflection Framework.pdf"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": ""
+    },
+    {
+      "key": "chen2024reconcile",
+      "year": 2024,
+      "source_version": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "method_evidence": "Distinct LLMs exchange candidate answers and confidence for QA and reasoning benchmarks.",
+      "locator": "§3–4/Fig2, §5/Table2, printed7069–7072",
+      "sources": [
+        "https://aclanthology.org/2024.acl-long.381/"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": ""
+    },
+    {
+      "key": "zhang2024chain_agents",
+      "year": 2024,
+      "source_version": "Advances in Neural Information Processing Systems",
+      "method_evidence": "Sequential worker LLMs pass evidence to a manager; QA is a main evaluation track alongside other tasks.",
+      "locator": "§3/Algorithm1, §4 QA datasets/Table1, physical pp4–6",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract-Conference.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": "QA is a substantive main evaluation track, not the only task. Eligibility does not claim every task/result is QA."
+    },
+    {
+      "key": "jiang2026cocoa",
+      "year": 2026,
+      "source_version": "Formal ACL2026; eligibility restricted to CoCoA-zero",
+      "method_evidence": "CoCoA-zero uses internal, external and decision agents for evaluated QA; distilled CoCoA is a separate single-model system.",
+      "locator": "§3.2/Algorithm1 and §4/Tables1–2, printed3665–3668",
+      "sources": [
+        "https://aclanthology.org/2026.acl-long.167/",
+        "https://aclanthology.org/2026.acl-long.167.pdf"
+      ],
+      "criteria": {
+        "date_within_2019_01_to_2026_07": true,
+        "llm_primary_backbone": true,
+        "at_least_two_collaborating_agents": true,
+        "qa_or_question_driven_primary_evaluation_track": true,
+        "method_and_empirical_evaluation": true
+      },
+      "decision": "retain_I",
+      "scope_note": "Only CoCoA-zero multi-agent evidence counts; single-model distillation does not establish multi-agent benefit."
+    }
+  ],
+  "source_pdfs": [
+    {
+      "path": "D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf",
+      "sha256": "b1050948cf2c3aceaed607f650b02c04d1e3225bf364bcb0b3690bfe5d90bad8",
+      "page_count": 46
+    }
+  ],
+  "previous_audit_reuse": "All136currentactivecitationcontextsreviewed. Unchanged primary evidence from8October and four formalPDF follow-up retained with scope limits; fresh public-source/localPDF evidence replaces obsolete or insufficient locators.",
+  "nonblocking_limits": [
+    "Some optional DOI/pagination/publisher fields lack direct evidence and remain explicitly unverified.",
+    "Original historical search exports are unavailable; body reports historical log entries, not reconstructed verified search operations.",
+    "Original figures and image-source data are historical snapshots; synchronization/font reduction belongs to the figure stage.",
+    "No independent coder, blind coding or prospective architecture-selection validation is claimed."
+  ]
+}

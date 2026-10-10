@@ -1,0 +1,245 @@
+{
+  "audit_date": "2026-10-10",
+  "authorization": "User provided four PDFs and explicitly accepted Triad I→S; only Triad and corresponding counts/Highlights changed in manuscript. Other corrections remain recommendations.",
+  "triad_decision": {
+    "key": "hu2024triad",
+    "previous_role": "I",
+    "current_role": "S",
+    "reason": "The source describes one LLM-based agent with three roles; it fails the manuscript core inclusion rule of at least two agents.",
+    "comparison_table": "retained as supporting boundary example; not one of 13 core studies",
+    "architecture_and_match_labels": "left unchanged; still author interpretation"
+  },
+  "source_pdfs": {
+    "zhang2024memory_survey": {
+      "path": "D:/multi-agent review_joural/10.10ziliao/A survey on the memory mechanism of large language model-based agents.pdf",
+      "sha256": "112ae980232985668bbbbfda4a39450976678248f84ff6f4e886a105f362923b",
+      "page_count": 47,
+      "source_type": "user-provided formal publisher PDF",
+      "online_url_resolution_verified_by_this_pdf": false,
+      "formal_metadata": {
+        "title": "A Survey on the Memory Mechanism of Large Language Model-based Agents",
+        "author_order": [
+          "Zeyu Zhang",
+          "Quanyu Dai",
+          "Xiaohe Bo",
+          "Chen Ma",
+          "Rui Li",
+          "Xu Chen",
+          "Jieming Zhu",
+          "Zhenhua Dong",
+          "Ji-Rong Wen"
+        ],
+        "venue": "ACM Transactions on Information Systems",
+        "year": 2025,
+        "volume": "43",
+        "issue": "6",
+        "article_number": "155",
+        "extent": "47 pages, printed article pagination 155:1–155:47",
+        "doi": "10.1145/3748302",
+        "publisher": "ACM",
+        "metadata_locator": "physical pages 1–2; running footer on all pages"
+      }
+    },
+    "zhang2024eduplanner": {
+      "path": "D:/multi-agent review_joural/10.10ziliao/EduPlanner_LLM-Based_Multiagent_Systems_for_Customized_and_Intelligent_Instructional_Design.pdf",
+      "sha256": "e1c92cf5ea5605498dc80f58f6ca500179b395e7238fd23d3546721d9efe5968",
+      "page_count": 12,
+      "source_type": "user-provided formal publisher PDF",
+      "online_url_resolution_verified_by_this_pdf": false,
+      "formal_metadata": {
+        "title": "EduPlanner: LLM-Based Multiagent Systems for Customized and Intelligent Instructional Design",
+        "author_order": [
+          "Xueqiao Zhang",
+          "Chao Zhang",
+          "Jianwen Sun",
+          "Jun Xiao",
+          "Yi Yang",
+          "Yawei Luo"
+        ],
+        "venue": "IEEE Transactions on Learning Technologies",
+        "year": 2025,
+        "volume": "18",
+        "pages": "416–427",
+        "doi": "10.1109/TLT.2025.3561332",
+        "publisher": "IEEE",
+        "metadata_locator": "physical page 1 (printed 416), final page 12 (printed 427)"
+      }
+    },
+    "fatemi2024financialqa": {
+      "path": "D:/multi-agent review_joural/10.10ziliao/Enhancing Financial Question Answering with a Multi-Agent Reflection Framework.pdf",
+      "sha256": "60c158e89aef47578bbd0cff27ce535b1513c462db0ff596411a952d40ce1637",
+      "page_count": 8,
+      "source_type": "user-provided formal publisher PDF",
+      "online_url_resolution_verified_by_this_pdf": false,
+      "formal_metadata": {
+        "title": "Enhancing Financial Question Answering with a Multi-Agent Reflection Framework",
+        "author_order": [
+          "Sorouralsadat Fatemi",
+          "Yuheng Hu"
+        ],
+        "venue": "5th ACM International Conference on AI in Finance (ICAIF 2024)",
+        "year": 2024,
+        "pages": "530–537",
+        "doi": "10.1145/3677052.3698686",
+        "publisher": "ACM",
+        "metadata_locator": "physical page 1 ACM Reference Format and DOI; printed footers 530–537"
+      }
+    },
+    "tang2025llmmedqa": {
+      "path": "D:/multi-agent review_joural/10.10ziliao/LLM-MedQA_Enhancing_Medical_Question_Answering_through_Case_Studies_in_Large_Language_Models (1).pdf",
+      "sha256": "4c27d253f6df5b9834392cc4550db905b3e47eaf6e3732a414c76480398d226b",
+      "page_count": 8,
+      "source_type": "user-provided formal publisher PDF",
+      "online_url_resolution_verified_by_this_pdf": false,
+      "formal_metadata": {
+        "title": "LLM-MedQA: Enhancing Medical Question Answering through Case Studies in Large Language Models",
+        "author_order": [
+          "Hang Yang",
+          "Hao Chen",
+          "Hui Guo",
+          "Yineng Chen",
+          "Ching-Sheng Lin",
+          "Shu Hu",
+          "Jinrong Hu",
+          "Xi Wu",
+          "Xin Wang"
+        ],
+        "venue": "2025 International Joint Conference on Neural Networks (IJCNN)",
+        "year": 2025,
+        "extent": "8 physical pages; explicit printed numeric 1–8 span absent",
+        "doi": "10.1109/IJCNN64981.2025.11228647",
+        "publisher": "IEEE",
+        "metadata_locator": "physical page 1 vertical copyright/conference/DOI text; full PDF has 8 pages"
+      }
+    }
+  },
+  "changes": [
+    {
+      "file": "manuscript.tex",
+      "before": "85-record bibliography pool, with 14 studies coded as core or boundary-case\nevidence published through July 2026. We first",
+      "after": "85-record bibliography pool, with 13 studies coded as core\nevidence published through July 2026. We first"
+    },
+    {
+      "file": "manuscript.tex",
+      "before": "The current bibliography pool contains 85 records: 14~I, 16~S, 46~B, and\n9~T. The effective manuscript cites 78 of these records: 14~I, 14~S, 42~B,\nand 8~T; seven uncited records remain in the pool. The 14 role-I labels are\ninherited author coding. Triad uses one LLM in three roles and is retained as\na boundary case pending an eligibility decision, rather than treated as\nunambiguous evidence of multiple independent agents. Table~\\ref{tab:validation}\nidentifies that boundary in the diagnostic comparison. Other claims use\nsources appropriate to their scope. Fig.~\\ref{fig:reference_corpus} retains\nthe earlier corpus snapshot; its counts require synchronization with this\ncorrected text.",
+      "after": "The current bibliography pool contains 85 records: 13~I, 17~S, 46~B, and\n9~T. The effective manuscript cites 78 of these records: 13~I, 15~S, 42~B,\nand 8~T; seven uncited records remain in the pool. The remaining 13 role-I\nlabels retain the existing author coding. Triad uses a single LLM-based agent\nin three roles and is coded as a supporting study (role~S), because it does\nnot meet the core criterion of at least two agents. It remains a related\nboundary example in Table~\\ref{tab:validation}, outside the 13 core studies.\nOther claims use sources appropriate to their scope.\nFig.~\\ref{fig:reference_corpus} retains the earlier corpus snapshot; its counts\nrequire synchronization with this corrected text."
+    },
+    {
+      "file": "manuscript.tex",
+      "before": "  Triad uses one LLM in three roles and is retained as an eligibility boundary case.",
+      "after": "  Triad uses a single LLM-based agent in three roles; it is coded S and\n  retained as a supporting example, outside the 13 core studies."
+    },
+    {
+      "file": "Highlights.txt",
+      "before": "Evidence map of 14 core studies and 58 supporting sources through July 2026.",
+      "after": "Evidence map of 13 core studies within 78 cited sources through July 2026."
+    },
+    {
+      "file": "literature_audit.csv",
+      "key": "hu2024triad",
+      "before": {
+        "sequence": "99",
+        "key": "hu2024triad",
+        "search_origin": "local_references_bib",
+        "cited_in_manuscript": "yes",
+        "evidence_role": "I",
+        "existence_status": "verified",
+        "official_source": "https://doi.org/10.18653/v1/2024.emnlp-main.101",
+        "authors_title_consistency": "Yes",
+        "metadata_status": "verified",
+        "local_title": "Triad: A framework leveraging a multi-role LLM-based agent to solve knowledge base question answering",
+        "local_first_author": "Zong, Chang",
+        "local_year": "2024",
+        "matched_title": "Triad: A framework leveraging a multi-role LLM-based agent to solve knowledge base question answering",
+        "matched_first_author": "Zong, Chang",
+        "matched_year": "2024",
+        "citation_count": "1",
+        "notes": "",
+        "current_audit_date": "2026-10-08",
+        "current_field_audit": "audit_work/reference_field_audit.json#hu2024triad"
+      },
+      "after": {
+        "sequence": "99",
+        "key": "hu2024triad",
+        "search_origin": "local_references_bib",
+        "cited_in_manuscript": "yes",
+        "evidence_role": "S",
+        "existence_status": "verified",
+        "official_source": "https://doi.org/10.18653/v1/2024.emnlp-main.101",
+        "authors_title_consistency": "Yes",
+        "metadata_status": "verified",
+        "local_title": "Triad: A framework leveraging a multi-role LLM-based agent to solve knowledge base question answering",
+        "local_first_author": "Zong, Chang",
+        "local_year": "2024",
+        "matched_title": "Triad: A framework leveraging a multi-role LLM-based agent to solve knowledge base question answering",
+        "matched_first_author": "Zong, Chang",
+        "matched_year": "2024",
+        "citation_count": "1",
+        "notes": "2026-10-10 author decision: single LLM-based agent with three roles; supporting boundary example, excluded from core I count.",
+        "current_audit_date": "2026-10-10",
+        "current_field_audit": "audit_work/reference_field_audit.json#hu2024triad"
+      }
+    }
+  ],
+  "backup": "audit_work/before_triad_role_update_20261010.zip",
+  "citation_context_review": {
+    "changed_command_ids": [
+      "C059",
+      "C060",
+      "C061",
+      "C062",
+      "C063",
+      "C064",
+      "C065",
+      "C066",
+      "C067",
+      "C068"
+    ],
+    "unchanged_context_commands": 126,
+    "citation_commands": 136,
+    "key_assessments": 180,
+    "review_result": "All ten table contexts re-read after footnote change. Case rows, labels and match markers unchanged; author-inference assessments retained. All other 126 contexts are byte-identical in scanner output.",
+    "old_source_sha256": {
+      "manuscript.tex": "23bb9eea4316745fce3775ec817bb78bf74d5c597f194d19c8e690d4d441259b",
+      "references.bib": "59129caedf01823a4050b0bf93a0634b4d781509970a54d2de342cbd780c6045",
+      "literature_audit.csv": "120dae68b99d5230509b7b46a75159377fd988825f86263f78f4c8489474d0ef",
+      "Highlights.txt": "b670106c62961b217c0000016d63a6cacd876aa19386277a72f5d9a2bfb9574a"
+    },
+    "current_source_sha256": {
+      "manuscript.tex": "b0a7e5064f7a97732fcd2fd24e8ad38171caf7cd6eb1a148a13b70c99d07f27b",
+      "references.bib": "59129caedf01823a4050b0bf93a0634b4d781509970a54d2de342cbd780c6045",
+      "literature_audit.csv": "a2631a566f940e781a2fd04ca744d60dfaddf0004f87b68b8120eee0bc0ed480",
+      "Highlights.txt": "4ba695739365de60a9e308889aeabb09967155f70cd36d9e143e8dec14575162"
+    }
+  },
+  "pending_scientific_edits": [
+    {
+      "key": "fatemi2024financialqa",
+      "command_ids": [
+        "C068",
+        "C125"
+      ],
+      "issue": "Formal §3.1 implements critic feedback followed by expert revision; §6 lists multi-turn iterative debate as future work. Current iterative multi-critic reflection risks implying implemented repeated cycles.",
+      "proposed_text": "combines a convergent numerical objective with critic feedback and answer revision",
+      "formal_locator": "physical p3 (printed 532), §3.1; p5 (printed 534), §6; p8 (printed 537), Fig.5",
+      "action": "Recorded for subsequent authorized edit; body unchanged here."
+    },
+    {
+      "key": "zhang2024memory_survey",
+      "issue": "Formal article identifier 155 not represented explicitly in current BibTeX. Current pages 1--47 express length but omit article pagination.",
+      "proposal": "Add a suitable article-number field or publisher-consistent article pagination after checking elsarticle-harv output; do not invent a conventional page span."
+    },
+    {
+      "case_coding": "LegalGraphRAG, Financial Reflection QA, MAD, LLM-MedQA, EduPlanner",
+      "issue": "Use one explicit decision-authority rule and match criterion for all ten cases before changing labels or recalculating 5/3/2. Source existence/feedback loops do not themselves validate hybrid coding."
+    }
+  ],
+  "protected_scope": {
+    "figures_unchanged": true,
+    "hidden_tex_unchanged": true,
+    "historical_chapters_unchanged": true,
+    "references_bib_unchanged": true,
+    "supplied_source_pdfs_unchanged": true
+  },
+  "stage_two_complete": false
+}

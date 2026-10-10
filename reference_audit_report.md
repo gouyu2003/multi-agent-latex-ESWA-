@@ -1,90 +1,74 @@
-# 参考文献修正与验收报告
+# 第二阶段参考文献与正文证据审计报告
 
-日期：2026-10-08。已应用有来源依据的书目字段修正和正文最小修正，保留导师修改后的章节结构及原有 citation keys；图片留待下一阶段。
+核查日期：2026-10-10。唯一基线：ESWA_Submission_caomodify。
 
-## 当前统计
+## 当前结论
 
-| 口径 | 数量 |
-|---|---:|
-| 书目池 | 85 |
-| 有效正文不同文献 | 78 |
-| 有效引用命令 | 136 |
-| 展开多键后的出现次数 | 180 |
-| 保留的未引用记录 | 7 |
+第二阶段已完成：书目版本及必要字段修正、有效正文引用相关性、13项核心纳入标准、十案例统一分类及匹配修正均已落实；新稿已编译并通过保护与结构验收。
+这里的完成不代表所有可选字段均得到证明：缺乏正式证据的DOI、页码、出版者等仍逐字段标为未核实；不据篇幅编造出版页码，不将作者分析改标为原文实证。
 
-原有84条全部保留。新增1条有日期的官方 LangGraph interrupt 技术文章，用于暂停、检查点和恢复机制；不是补足文献数量。
-书目池角色：{"B": 46, "S": 16, "I": 14, "T": 9}；有效引用角色：{"B": 42, "S": 14, "I": 14, "T": 8}。
-14项I沿用作者编码；Triad的一个LLM承担三角色已在方法和表格中披露为纳入边界，是否转为S仍待作者裁定。
+## 核查覆盖
 
-## 已完成修改
+| 项目 | 当前结果 |
+|---|---|
+| 书目池 | 85条；全部逐字段记录 |
+| 有效引用 | 78篇；136处引用命令；180个逐来源判断 |
+| 池内角色 | {"B": 46, "S": 17, "I": 13, "T": 9} |
+| 有效引用角色 | {"B": 42, "S": 15, "I": 13, "T": 8} |
+| 核心纳入重核 | 13项；五项标准均有方法/评估证据定位 |
+| 本次实施 | 55项书目字段修改；38处正文差异块 |
+| 引用判断 | {"direct": 105, "author_inference": 28, "mixed": 2, "proposal": 1} |
+| 十案例 | 6例一致；4例不一致；来源流程编码为9层级、1扁平、0混合 |
 
-- 修正 Natural Questions 页码、ReAct及NeurIPS会议条目类型、GLM集体署名、MemGPT姓名显示、SWE-agent错误URL、CrewAI首次PyPI发布日期；补充已核实的会议DOI。
-- Guo综述使用IJCAI2024正式出处，GPTSwarm使用ICML/PMLR正式出处；Least-to-Most、Decomposed Prompting、Self-Consistency使用ICLR2023正式出处。仍存在来源冲突的作者字段没有自动覆盖。
-- 收窄综述新颖性定位；修正MemGPT、Self-RAG/FLARE、ToT/GoT、CoVe、AgentVerse/MetaGPT及GPTSwarm等机制归因。区分CoCoA-zero多代理推理与CoCoA单模型蒸馏。
-- 将架构适用性、成本收益准则、治理要求和部分评估建议标为作者综合或建议；修复两处失效交叉引用，保留AI使用披露。
-- 正文与literature_audit.csv同步当前统计，历史排除记录保留；搜索历史与本次字段核查分别记录。
-书目修改日志含100项字段/新增记录操作；正文有49个差异块。日志包含修正前后内容，不能把一个差异块视为一个独立科学结论。
+未引用的7条记录保留在书目池，未为凑数补引。I是核心研究、S是支持研究、B是背景、T是技术资源；Triad按作者明确决定为S。
 
-完整记录：[书目before/after](audit_work/reference_correction_log.json)、[正文before/after](audit_work/manuscript_correction_log.json)、[修改前快照](audit_work/before_reference_corrections_20261008.zip)。
+## 已落实的主要修改
 
-## 当前证据台账
+- AutoGen使用用户提供的COLM 2024正式全文，核对14位作者、正式题名及GroupChatManager等机制位置；没有把46页篇幅填成正式出版页码。
+- GPT-4、MemGPT、ChatLaw、AgentCoder固定实际使用的arXiv版本。AgentCoder按2023 v1的五位作者及顺序修正；该版本测试执行角色为脚本，正文不把它算作第三个LLM智能体。
+- DSPy题名/作者以正式全文为依据；GAIA补回Craig Swift；Self-RAG使用官方Zeqiu拼写及正式全文Avirup全名；LegalBench以正式全文作者列为依据，保留网页差异历史。
+- Natural Questions采用正式PDF和出版商登记一致的453–466；ACL网页452–466差异保留。LLM-MedQA的1–8获出版商登记支持；Memory survey按Article155写为155:1–155:47；EduPlanner题名按Multiagent规范。
+- 仅据正式来源补入可确认的ICLR/NeurIPS连续页码与DOI。未获证明的字段维持未核实；可访问的摘要不替代未读的实验内容。
+- CrewAI固定0.1.0、Dify固定0.6.0、RAGFlow固定v0.6.0；MCP采用2024-11-25公告、A2A采用2025-04-09公告；不以当前功能倒推早期版本。
+- 十案例保留既有建议架构，按统一控制权标准重新编码来源流程。MedAgents、LLM-MedQA、LegalGraphRAG、EduPlanner改判为层级，得到六例一致、四例不一致；不作为选择策略预测准确率。
+- CAMEL角色对、AutoGen可配置会话、GPTSwarm图结构、AgentVerse反馈、LangGraph状态图不再机械等同扁平或混合。区分控制权架构与可复用机制。
+- Financial QA收窄为critic feedback and answer revision；其多轮反复辩论是未来工作。撤去必须全局知识图谱、实时同步及保证避免重复检索等缺少依据的强断言。
 
-- [85条书目字段台账](audit_work/reference_field_audit.md)：[CSV](audit_work/reference_field_audit.csv)、[JSON](audit_work/reference_field_audit.json)。逐字段标明已核实、冲突、未核实等，原差异与已修正项保留历史。
-- [136处正文引用证据台账](audit_work/citation_claim_audit.md)：[CSV](audit_work/citation_claim_audit.csv)、[JSON](audit_work/citation_claim_audit.json)。当前原句、证据位置、支持程度、实施状态及修改前句分别记录，多键命令逐来源判断。
+## 按有效章节定位
 
-10项核心字段状态：
+| 章节 | 本次相关修正 |
+|---|---|
+| 第1章 Introduction及文献筛选说明 | 历史检索描述收窄为工作记录，85/78与核心13口径同步；绝对性领域知识/增长断言收窄 |
+| 第2章 Background | 跨reasoner答案比较与普遍优于自我修正分开；已核机制归因保持来源边界 |
+| 第3章 Architectures | 控制权分类、交叉机制表、十案例编码/勾叉、人工审批及混合判断规则修正 |
+| 第4章 Key technologies | 按选定版本核实MemGPT/Self-RAG/FLARE/ToT/GoT/CoVe；知识共享与自省效果不作无条件保证 |
+| 第5章 Development and evaluation resources | 框架表按实际机制命名，固定软件/协议版本，不扩展为自动架构选择或部署验证 |
+| 第6章 Challenges and Future Directions | Financial QA反馈修订机制收窄；建议和来源实测效果明确区分 |
+| 第7章 Conclusion及末尾声明 | 六/四回顾性比较、无来源编码混合样本、非独立验证局限及版本选择同步 |
 
-| 状态 | 字段数 |
-|---|---:|
-| 已核实 | 569 |
-| 未核实 | 131 |
-| 不适用 | 120 |
-| 版本/来源冲突 | 17 |
-| 建议规范化 | 10 |
-| 字段不完整 | 3 |
+导师隐藏的旧应用章/旧完整选择章及独立历史章节文件继续保留，不参与此次有效正文核查。完整逐处before/after见[正文修改日志](audit_work/stage2_manuscript_correction_log.json)；逐字段见[书目修改日志](audit_work/stage2_reference_correction_log.json)。
 
-引用命令状态：
+## 核心证据与限制
 
-| 支持程度 | 命令数 |
-|---|---:|
-| 直接支持 | 99 |
-| 部分支持/表述需收窄 | 8 |
-| 作者推论，须标明边界 | 21 |
-| 多来源支持程度不同 | 7 |
-| 前瞻建议，非原论文验证 | 1 |
+[书目字段台账](audit_work/reference_field_audit.md)覆盖全部85条及附加字段；[正文证据台账](audit_work/citation_claim_audit.md)覆盖全部136处有效引用及180个逐来源语境。
+[核心纳入重核](audit_work/core_eligibility_audit.md)记录13项五标准证据；[十案例复核](audit_work/case_classification_audit.md)记录来源流程、编码和匹配。
+来源优先正式全文、出版社/会议官方页、出版商登记、选定arXiv版本及官方日期/发行记录；同一机构的HTML和PDF属于主来源的不同载体，不冒充独立双源。检索失败、页面访问限制和版本差异保留在快照/检索记录与字段台账中。
+[余下未核实字段](audit_work/pending_reference_decisions.md)逐项列出，均保留限制而非标记通过。历史检索原始导出、独立编码/前瞻验证未取得，已在正文收窄或声明限制；它们不被伪造为已完成的实证。
 
-作者推论或前瞻建议不自动视为错误，也不升级为原论文已验证结论。存在性核实不等于所有字段核实；未获取正式全文的字段保持限制说明。
+## 验收与后续范围
 
-## 编译及一致性验收
+当前输入绑定的新编译：True；[编译与渲染记录](audit_work/compile_verification.json)。pdfLaTeX → BibTeX → pdfLaTeX → pdfLaTeX，保持SyncTeX同步。
+[结构验收](audit_work/static_reference_checks.json)检查引用、aux/bbl、证据覆盖及输入输出哈希；结构通过不代表所有字段全部核实。
+[保护验收](audit_work/correction_verification.json)检查隐藏正文、19个原图、历史章节、历史排除记录和五篇用户PDF未变化。修正前文件保存在audit_work/before_stage2_completion_20261010.zip。
+全面格式调整与图中文字缩小仍是后续阶段。原图仍保留旧84条快照，需要随后同步为pool85（I13/S17/B46/T9）、active78（I13/S15/B42/T8），并核对分类标签。此次未改原图。
+长URL、原有版面警告及AI绘图采用来源说明留待相应阶段，不能据本次编译宣称整篇已达到最终投稿排版要求。
 
-当前编译快照有效：True；编译和引用解析通过：True。
-[编译记录](audit_work/compile_verification.json)保存命令、退出码、未定义引用检查、版面警告和输入/输出哈希。过长URL与原有版面警告留待格式阶段，不据此声称最终排版已验收。
-[当前清单](audit_work/inventory_summary.json)对照实际主稿、.aux及.bbl；[静态检查](audit_work/static_reference_checks.json)检查覆盖、定位和哈希，warnings为待确认项，不等同于结构检查失败。
-禁用条件块、未被主稿包含的历史章节和19个原图片文件保持不变；保护检查见[correction_verification.json](audit_work/correction_verification.json)。
-
-复现台账检查：
+复核命令：
 
 ```powershell
-python -m unittest discover -s tools -p test_active_tex.py -v
-python tools/build_reference_inventory.py
-python tools/build_audit_ledgers.py
-python tools/static_reference_checks.py
+python -B tools/build_reference_inventory.py
+python -B tools/build_audit_ledgers.py
+python -B tools/static_reference_checks.py
 ```
 
-证据生成器不联网，也不自动证明来源；来源变化后需要重新审阅，禁止仅改哈希绕过。旧finalize工具入口已停用，防止过时缓存删掉未引记录。
-
-## 待确认及图片阶段
-
-[待确认清单](audit_work/pending_reference_decisions.md)汇总Triad、版本选择、官方网页/PDF冲突及未直接核实字段；[CSV](audit_work/pending_reference_decisions.csv)逐字段保留。
-图片仍有84 active或旧角色分配等口径。正文已注明旧快照；下一阶段需同步为书目池85、有效引用78、作者编码I14（Triad待裁定），并缩小图中文字。本轮未改图。
-以下7条保留，不为凑数补引：
-
-- `li2024genmentor`
-- `singhal2023medpalm`
-- `guha2023legalbench`
-- `brynjolfsson2023generative_ai_work`
-- `yang2024swe_agent`
-- `jimenez2024swe_bench`
-- `xagent2023`
-
-[旧报告归档](audit_work/reference_audit_report_legacy_20260802.md)保留历史75条结论。literature_audit.csv的引用标志和次数已同步，旧元数据匹配列仍属历史证据，当前字段结论以两份台账为准。
+生成器仅整理已审阅证据，不能靠改哈希、题名相似或自动匹配证明来源。历史literature_audit.csv的旧匹配列保留；当前结论以两份台账为准。

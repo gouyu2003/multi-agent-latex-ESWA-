@@ -1,33 +1,44 @@
 {
-  "original_84_keys_preserved": true,
-  "added_keys": [
-    "langgraph2024interrupt"
-  ],
+  "audit_date": "2026-10-10",
+  "stage2_baseline": "audit_work/stage2_completion_baseline.json",
+  "checks": {
+    "bibliography_pool_keys_preserved": true,
+    "inactive_block_byte_identical": true,
+    "section_headings_unchanged": true,
+    "historically_excluded_csv_rows_preserved": true,
+    "figure_source_data_byte_identical": true,
+    "historical_tex_files_unchanged": true,
+    "source_pdfs_sha256_unchanged": true,
+    "original_figures_unchanged": true,
+    "active_citation_count_preserved": true,
+    "triad_is_supporting": true
+  },
+  "bibliography_pool_keys_preserved": true,
   "inactive_block_byte_identical": true,
   "section_headings_unchanged": true,
-  "figure_files_checked": 19,
-  "changed_figure_files": [],
   "historically_excluded_csv_rows_preserved": true,
+  "figure_source_data_byte_identical": true,
+  "historical_tex_files_unchanged": true,
+  "source_pdfs_sha256_unchanged": true,
+  "original_figures_unchanged": true,
+  "active_citation_count_preserved": true,
+  "triad_is_supporting": true,
+  "figure_files_checked": 19,
+  "historical_tex_files_checked": 7,
+  "source_pdfs_checked": 5,
+  "bibliography_modified_as_authorized": true,
+  "bibliography_byte_identical_to_followup_baseline": false,
   "bibliography_pool_roles": {
+    "S": 17,
     "B": 46,
-    "S": 16,
-    "I": 14,
+    "I": 13,
     "T": 9
   },
   "active_citation_roles": {
     "B": 42,
-    "S": 14,
-    "I": 14,
+    "S": 15,
+    "I": 13,
     "T": 8
   },
-  "unused_pool_keys": [
-    "li2024genmentor",
-    "singhal2023medpalm",
-    "guha2023legalbench",
-    "brynjolfsson2023generative_ai_work",
-    "yang2024swe_agent",
-    "jimenez2024swe_bench",
-    "xagent2023"
-  ],
   "checks_passed": true
 }

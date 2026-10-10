@@ -30,3 +30,58 @@
 /audit_work/compile_bibtex.txt -whitespace
 /audit_work/compile_latex_final.txt -whitespace
 /audit_work/compile_latex_second.txt -whitespace
+
+# Extend existing checkout-byte rules for the completed stage-two audit.
+/.gitattributes text eol=lf
+/audit_work/stage2_sources/* -text -whitespace
+/audit_work/compile_20261010_*.txt -text -whitespace
+/audit_work/compile_stage2_20261010_*.txt -text -whitespace
+/Highlights.txt text eol=lf
+/audit_work/case_classification_audit.json text eol=crlf
+/audit_work/case_classification_audit.md text eol=crlf
+/audit_work/citation_claim_audit.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/audit_work/citation_claim_audit.json text eol=crlf
+/audit_work/citation_claim_audit.md text eol=crlf
+/audit_work/compile_verification.json text eol=crlf
+/audit_work/core_eligibility_audit.json text eol=crlf
+/audit_work/core_eligibility_audit.md text eol=crlf
+/audit_work/correction_baseline.json text eol=crlf
+/audit_work/correction_verification.json text eol=crlf
+/audit_work/ledger_evidence_01_28.json text eol=crlf
+/audit_work/ledger_evidence_29_56.json text eol=crlf
+/audit_work/ledger_evidence_57_84.json text eol=crlf
+/audit_work/manuscript_correction_log.json text eol=crlf
+/audit_work/pending_reference_decisions.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/audit_work/pending_reference_decisions.json text eol=crlf
+/audit_work/pending_reference_decisions.md text eol=crlf
+/audit_work/reference_correction_log.json text eol=crlf
+/audit_work/reference_field_audit.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/audit_work/reference_field_audit.json text eol=crlf
+/audit_work/reference_field_audit.md text eol=crlf
+/audit_work/reference_followup_20261010.json text eol=crlf
+/audit_work/stage2_acceptance_source_requests.json text eol=lf
+/audit_work/stage2_acceptance_source_retrieval.json text eol=crlf
+/audit_work/stage2_completion_baseline.json text eol=crlf
+/audit_work/stage2_completion_review.json text eol=crlf
+/audit_work/stage2_completion_review_spec.json text eol=crlf
+/audit_work/stage2_final_source_requests.json text eol=lf
+/audit_work/stage2_final_source_retrieval.json text eol=crlf
+/audit_work/stage2_manuscript_correction_log.json text eol=crlf
+/audit_work/stage2_more_source_requests.json text eol=lf
+/audit_work/stage2_more_source_retrieval.json text eol=crlf
+/audit_work/stage2_reference_correction_log.json text eol=crlf
+/audit_work/stage2_source_requests.json text eol=lf
+/audit_work/stage2_source_retrieval.json text eol=crlf
+/fig_pub_overview_nature.svg text eol=crlf
+/fig_reference_corpus.svg text eol=crlf
+/literature_audit.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/manuscript.tex text eol=crlf
+/reference_audit_report.md text eol=crlf
+/references.bib text eol=crlf
+/search_log.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/tools/active_tex.py text eol=lf
+/tools/build_audit_ledgers.py text eol=crlf
+/tools/build_reference_inventory.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/tools/complete_stage2_review.py text eol=lf
+/tools/static_reference_checks.py text eol=lf
+/tools/verify_stage2_completion.py text eol=lf
