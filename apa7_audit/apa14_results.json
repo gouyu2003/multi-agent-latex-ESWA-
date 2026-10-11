@@ -1,0 +1,120 @@
+[
+  {
+    "rule": "parenthetical_two",
+    "expected": "(Alpha & Beta, 2020)",
+    "actual": "(Alpha & Beta, 2020).",
+    "result": "PASS",
+    "evidence": "probe.pdf page 1 TWO-P"
+  },
+  {
+    "rule": "narrative_two",
+    "expected": "Alpha and Beta (2020)",
+    "actual": "Alpha and Beta (2020).",
+    "result": "PASS",
+    "evidence": "probe.pdf page 1 TWO-T"
+  },
+  {
+    "rule": "three_first",
+    "expected": "(Gamma et al., 2021)",
+    "actual": "(Gamma et al., 2021).",
+    "result": "PASS",
+    "evidence": "probe.pdf page 1 THREE-FIRST"
+  },
+  {
+    "rule": "corporate",
+    "expected": "(Example Institute, 2024)",
+    "actual": "(Example Institute, 2024).",
+    "result": "PASS",
+    "evidence": "probe.pdf page 1 CORPORATE"
+  },
+  {
+    "rule": "reference_20_authors",
+    "expected": "Name01 through Name20; final &; no ellipsis",
+    "actual": "Name01, A., Name02, A., Name03, A., Name04, A., Name05, A., Name06, A., Name07, A., Name08, A., Name09, A., Name10, A., Name11, A., Name12, A., Name13, A., Name14, A., Name15, A., Name16, A., Name17, A., Name18, A., Name19, A., & Name20, A. (2025). List of 20 authors.",
+    "result": "PASS",
+    "evidence": "probe.pdf page 1 names20; 20 displayed names"
+  },
+  {
+    "rule": "reference_21_authors",
+    "expected": "Name01 through Name19, ellipsis, Name21; no Name20; no & before last",
+    "actual": "Name01, A., Name02, A., Name03, A., Name04, A., Name05, A., Name06, A., Name07, A., Name08, A., Name09, A., Name10, A., Name11, A., Name12, A., Name13, A., Name14, A., Name15, A., Name16, A., Name17, A., Name18, A., Name19, A., ... Name21, A. (2025). List of 21 authors.",
+    "result": "PASS",
+    "evidence": "probe.pdf page 1 names21; first 19 plus last"
+  },
+  {
+    "rule": "same_authors_same_year_letters",
+    "expected": "Alpha study: 2022a; Beta study: 2022b; matching in-text labels",
+    "actual": "Kappa, K., Lambda, L., & Mu, M. (2022a). Alpha study. / Kappa, K., Lambda, L., & Mu, M. (2022b). Beta study.",
+    "result": "PASS",
+    "evidence": "reversed source citation order; bibliography alphabetic title order"
+  },
+  {
+    "rule": "doi_precedence",
+    "expected": "https://doi.org/10.1000/test; no https://example.invalid/duplicate",
+    "actual": "Alpha, A., & Beta, B. (2020). Two-author example. Test Journal, 8(2), 10–20. https://doi.org/10.1000/test",
+    "result": "PASS",
+    "evidence": "probe.pdf text and hyperlink targets"
+  },
+  {
+    "rule": "different_first_author_initials",
+    "expected": "(J. Chen et al., 2024; W. Chen et al., 2024), no spurious a/b",
+    "actual": "(J. Chen et al., 2024; W. Chen et al., 2024).",
+    "result": "PASS",
+    "evidence": "two real Chen records; no a/b"
+  },
+  {
+    "rule": "et_al_disambiguation",
+    "expected": "(Yao, Yu, et al., 2023; Yao, Zhao, et al., 2023), no spurious a/b",
+    "actual": "(Yao, Yu, et al., 2023; Yao, Zhao, et al., 2023).",
+    "result": "PASS",
+    "evidence": "two real Yao records; no a/b"
+  },
+  {
+    "rule": "et_al_cannot_replace_one_person",
+    "expected": "All four names in both references, & in brackets / and in narrative; no et al. or a/b",
+    "actual": "(Hasan, Liang, Kahn, & Jones, 2015; Hasan, Liang, Kahn, & Weintraub, 2015). / Hasan, Liang, Kahn, and Jones (2015) and Hasan, Liang, Kahn, and Weintraub (2015).",
+    "result": "PASS",
+    "evidence": "both parenthetical and narrative four-author boundary cases"
+  },
+  {
+    "rule": "same_year_each_year_repeated",
+    "expected": "(Kappa et al., 2022a, 2022b)",
+    "actual": "(Kappa et al., 2022a, 2022b).",
+    "result": "PASS",
+    "evidence": "probe.pdf IDENTICAL"
+  },
+  {
+    "rule": "journal_volume_issue",
+    "expected": "Test Journal italic; 8 italic; (2) roman with no space after volume; 10–20",
+    "actual": {
+      "journal": [
+        {
+          "text": "Test",
+          "font": "STIXGeneral-Italic"
+        },
+        {
+          "text": "Journal",
+          "font": "STIXGeneral-Italic"
+        }
+      ],
+      "volume": {
+        "text": "8",
+        "font": "STIXGeneral-Italic"
+      },
+      "issue": {
+        "text": "(2),",
+        "font": "STIXGeneral-Regular"
+      },
+      "gap_pt": 0.0
+    },
+    "result": "PASS",
+    "evidence": "PDF font spans and positions, not plain text inference"
+  },
+  {
+    "rule": "no_period_after_doi",
+    "expected": "https://doi.org/10.1000/test with no following full stop",
+    "actual": "Alpha, A., & Beta, B. (2020). Two-author example. Test Journal, 8(2), 10–20. https://doi.org/10.1000/test",
+    "result": "PASS",
+    "evidence": "probe.pdf entry ends at URL, not URL plus period"
+  }
+]

@@ -1,0 +1,1909 @@
+[
+  {
+    "key": "brown2020gpt3",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/brown2020gpt3__page.txt",
+        "sha256": "c878f336a08f4d56d444f2d9912fec844a9dd7b8095042aa8154f2cf7d3db7e4",
+        "url": "https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/brown2020gpt3__official_bib.txt",
+        "sha256": "7ff3e0e8f59a7796257a27b56e562d283ccfbc057b0ffc495699db7fc7f848bb",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/9883-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/brown2020gpt3__official_bib.txt",
+        "sha256": "7ff3e0e8f59a7796257a27b56e562d283ccfbc057b0ffc495699db7fc7f848bb",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/9883-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "openai2023gpt4",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "online",
+    "classification": "预印本（保留既有版本）",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "minsky1988society",
+    "cited": true,
+    "original_type": "book",
+    "target_type": "book",
+    "classification": "书籍",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "wooldridge1995intelligent",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "article",
+    "classification": "期刊论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/wooldridge1995intelligent__crossref.txt",
+        "sha256": "0b7354cb121820aa5301ad6295994b20095126125871091d0b8ab13a8f3257a7",
+        "url": "https://api.crossref.org/works/10.1017/S0269888900008122",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "wu2024autogen",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "editor/publisher/pages: COLM/OpenReview official accepted paper supplies no verified values; supplementation stopped",
+      "pages: no confirmed pagination in consulted primary records; left empty"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/wu2024autogen__page.txt",
+        "sha256": "09a051f2991de00dfb4b3974008d0ce3b7fb46844bfc4e4cf24c95e4715db2bb",
+        "url": "https://openreview.net/forum?id=BAakY1hNKS",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "hong2024metagpt",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/hong2024metagpt__page.txt",
+        "sha256": "8495add13361009798f3495fd45efec802bf3afd6aad003a2da580bedc26849a",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/6507b115562bb0a305f1958ccc87355a-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/hong2024metagpt__official_bib.txt",
+        "sha256": "049fd2584d9d919aef553012beda5d2e6290d52831992e46443377be7f4b8d96",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/4491-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/hong2024metagpt__official_bib.txt",
+        "sha256": "049fd2584d9d919aef553012beda5d2e6290d52831992e46443377be7f4b8d96",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/4491-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2024__catalog.txt",
+        "sha256": "7b4c92614f49888ed0632af8742f3088492d420056bdb8e52724284128411778",
+        "url": "https://www.proceedings.com/80585.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "du2024multiagent_debate",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/du2024multiagent_debate__page.txt",
+        "sha256": "c2f87115d39b697b7a565a7f134a481ae67c47ed15876b42f16309690a1d8a61",
+        "url": "https://proceedings.mlr.press/v235/du24e.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "guo2024llm_multiagent_survey",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/guo2024llm_multiagent_survey__crossref.txt",
+        "sha256": "b6ee2042cbecf0f835177cd6606d53e9a8e44f24e1ea5400e081b06d8dcfc006",
+        "url": "https://api.crossref.org/works/10.24963/ijcai.2024/890",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/ijcai2024__volume.txt",
+        "sha256": "393ee1b184bc47d469b80a0abf15707b12c2c343a590a38a05609a7a64e1e0ba",
+        "url": "https://www.ijcai.org/proceedings/2024/bibtex/890",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "tran2025multiagent_survey",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "online",
+    "classification": "预印本（保留既有版本）",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "wang2024survey_autonomous_agents",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "article",
+    "classification": "期刊论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/wang2024survey_autonomous_agents__crossref.txt",
+        "sha256": "18a4b4db13aa5e8291052234bd387c386e35f26ddc1b6208cf0097065788f539",
+        "url": "https://api.crossref.org/works/10.1007/s11704-024-40231-1",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "karpukhin2020dpr",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/karpukhin2020dpr__crossref.txt",
+        "sha256": "88bb9721417968d405b41b359445fca11b4aeb42c34352fee3079ce8fc871eec",
+        "url": "https://api.crossref.org/works/10.18653/v1/2020.emnlp-main.550",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/karpukhin2020dpr__page.txt",
+        "sha256": "ca115a26bae310891753eb3d4744f3c956c0fece8c8b156f0852a9031951b274",
+        "url": "https://aclanthology.org/2020.emnlp-main.550/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/karpukhin2020dpr__bib.txt",
+        "sha256": "3dbc8ae28a12c56340496b8bb19cab79bdad9d079f1259abe529a29031a6db19",
+        "url": "https://aclanthology.org/2020.emnlp-main.550.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "yang2018hotpotqa",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/yang2018hotpotqa__crossref.txt",
+        "sha256": "0af58e1ca5981512d6b56d7d2bc3a95244a73acf12dd55faa2fb0dd89389e1cd",
+        "url": "https://api.crossref.org/works/10.18653/v1/D18-1259",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/yang2018hotpotqa__page.txt",
+        "sha256": "c9fc7412d283aaaf8ed2dc503b90730f866edc86c8f3909095caca003a07944f",
+        "url": "https://aclanthology.org/D18-1259/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/yang2018hotpotqa__bib.txt",
+        "sha256": "00f12f6fbe10edae3a45667b666957119458ac108edaa4695d0929c14340357f",
+        "url": "https://aclanthology.org/D18-1259.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "kwiatkowski2019natural_questions",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "article",
+    "classification": "期刊论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/kwiatkowski2019natural_questions__crossref.txt",
+        "sha256": "85f611cde76e0136cb0d1b60ec76f8dca4c64ea596fd28ad5e545b3a0c0a5f15",
+        "url": "https://api.crossref.org/works/10.1162/tacl_a_00276",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "reddy2019coqa",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "article",
+    "classification": "期刊论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/reddy2019coqa__crossref.txt",
+        "sha256": "b2931357c680107348d96e3529ba6b81d7b2c5d218e055f1f79a9788fdfc4ad7",
+        "url": "https://api.crossref.org/works/10.1162/tacl_a_00266",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "choi2018quac",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/choi2018quac__crossref.txt",
+        "sha256": "8a240ec68be7fb4e534c56e56a1fac48d56573f174c46dc4d7fe90f901cc3e0d",
+        "url": "https://api.crossref.org/works/10.18653/v1/D18-1241",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/choi2018quac__page.txt",
+        "sha256": "2e0456e1cec49baeb2eefa61dd41c667ef58380162a7a656cc6757b24403ad4e",
+        "url": "https://aclanthology.org/D18-1241/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/choi2018quac__bib.txt",
+        "sha256": "7278abf3f542f5ac5ef6e36d3c1db630be3196fe37e67dadcd9f7d34372dadd7",
+        "url": "https://aclanthology.org/D18-1241.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "lewis2020rag",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/lewis2020rag__page.txt",
+        "sha256": "a0a600dcdd1692e200ba34431510eb2c31a6a49002d542810f67ea95ad56e347",
+        "url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/lewis2020rag__official_bib.txt",
+        "sha256": "b5dd13c142cde654dcc29ed108696cf79684bb347bed4ad3866a0bf62ae13440",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/10517-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/lewis2020rag__official_bib.txt",
+        "sha256": "b5dd13c142cde654dcc29ed108696cf79684bb347bed4ad3866a0bf62ae13440",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/10517-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "yao2023react",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "editor: official record supplies no editor; no unsupported editor was added",
+      "pages: no confirmed pagination in consulted primary records; left empty"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/yao2023react__page.txt",
+        "sha256": "09180195502fa6bdeb63a1bd58fe097b688c5edeb6afd10e8e3b361903c5f6ff",
+        "url": "https://openreview.net/forum?id=WE_vluYUL-X",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2023__catalog.txt",
+        "sha256": "3a416a91570e16a5d4dbdf010294a67ad2860126083c8b6052da28c65a24ef17",
+        "url": "https://www.proceedings.com/80586.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "vaswani2017attention",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "pages: no confirmed pagination in consulted primary records; left empty"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/vaswani2017attention__page.txt",
+        "sha256": "d1e6d785978f5e38fe3405d808ccf957294f72a681b38b07e54738afe120e5eb",
+        "url": "https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/vaswani2017attention__official_bib.txt",
+        "sha256": "c9c5a9263d80c7c58c847595bad753210ff34b49107577d23d8159c75176f7c3",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Bibtex.bib",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/vaswani2017attention__official_bib.txt",
+        "sha256": "c9c5a9263d80c7c58c847595bad753210ff34b49107577d23d8159c75176f7c3",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Bibtex.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "devlin2019bert",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/devlin2019bert__crossref.txt",
+        "sha256": "fd4d84230512cba351ffd398fa8bebb77f720ae22f53058039b032aa6dbd5788",
+        "url": "https://api.crossref.org/works/10.18653/v1/N19-1423",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/devlin2019bert__page.txt",
+        "sha256": "690441db7f39da0105e41f62cf1d4cd4ff9b1b3342d97862ef6072f8f4de4d54",
+        "url": "https://aclanthology.org/N19-1423/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/devlin2019bert__bib.txt",
+        "sha256": "6d2636c7a224fb4c7a38a9cde506e79eb0ddbd0e151d42485ae40b8011bb2c81",
+        "url": "https://aclanthology.org/N19-1423.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "touvron2023llama",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "online",
+    "classification": "预印本（保留既有版本）",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "glm2024chatglm",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "online",
+    "classification": "预印本（保留既有版本）",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "ouyang2022instructgpt",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/ouyang2022instructgpt__crossref.txt",
+        "sha256": "2521b95a94f64f9783a4d6814b2b6f9011d65d936d34ec9eff3eed0b2651abc0",
+        "url": "https://api.crossref.org/works/10.52202/068431-2011",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/ouyang2022instructgpt__official_bib.txt",
+        "sha256": "e9d2c09fb7d2d0682bf08db29db61d74f0f13aac921742514cef2f7e99aa1155",
+        "url": "",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\ouyang2022instructgpt__official_bib.txt",
+        "sha256": "e9d2c09fb7d2d0682bf08db29db61d74f0f13aac921742514cef2f7e99aa1155",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/19175-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "qian2024scaling_multiagent",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/qian2024scaling_multiagent__page.txt",
+        "sha256": "9132b02ddc43339e38d31abf1e4ed474e198446c62b577a48e4ae8f82b139503",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/66a026c0d17040889b50f0dfa650e5e0-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/qian2024scaling_multiagent__official_bib.txt",
+        "sha256": "b054b9ce6fa469d1a1907f9189dc6809b7d926bb2df0b3b871981cd30913bc45",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/1620-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/qian2024scaling_multiagent__official_bib.txt",
+        "sha256": "b054b9ce6fa469d1a1907f9189dc6809b7d926bb2df0b3b871981cd30913bc45",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/1620-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2025_catalog__extra.txt",
+        "sha256": "1ef638738d370ddd27ad1b88885a2c52bac8a1e3802870c1a7985c23980fcbe1",
+        "url": "https://www.proceedings.com/80508.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "park2023generative_agents",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "editor: primary publication registration has no editor field; absence of editorial credit is not established; supplementation stopped"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/park2023generative_agents__crossref.txt",
+        "sha256": "edae7d5f7c179d706bd333f20ce7d6ccffa3402cbf222adabb6f59baee8b051b",
+        "url": "https://api.crossref.org/works/10.1145/3586183.3606763",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "liang2024divergent_debate",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/liang2024divergent_debate__crossref.txt",
+        "sha256": "570d7e369ab6a526d08bfd07c1236f136217d08c28ddfb7da68647014875cc25",
+        "url": "https://api.crossref.org/works/10.18653/v1/2024.emnlp-main.992",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/liang2024divergent_debate__page.txt",
+        "sha256": "09c8221fbad6a675067afd763976f2ecd8036351344c7e55b6862b2c0c817fe6",
+        "url": "https://aclanthology.org/2024.emnlp-main.992/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/liang2024divergent_debate__bib.txt",
+        "sha256": "089520ad7b579582342e10e44545cc92f13d5f83d0f20d3c7cd64b0faf557aac",
+        "url": "https://aclanthology.org/2024.emnlp-main.992.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "xiong2023inter_consistency",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/xiong2023inter_consistency__crossref.txt",
+        "sha256": "83f471e5010d4d68feed07515c1a8f6b43e2696448698823ceb669cd7747d3d4",
+        "url": "https://api.crossref.org/works/10.18653/v1/2023.findings-emnlp.508",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/xiong2023inter_consistency__page.txt",
+        "sha256": "b3593ba58c15ef07e18ac487c95dc2e07c7a39deff8727f321e39a4ecad3d660",
+        "url": "https://aclanthology.org/2023.findings-emnlp.508/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/xiong2023inter_consistency__bib.txt",
+        "sha256": "ee5e70e96a04f78e1aa5dc7a07a6e4540b14e2324d9804e9459319a3f2ec5bd8",
+        "url": "https://aclanthology.org/2023.findings-emnlp.508.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "li2023camel",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/li2023camel__crossref.txt",
+        "sha256": "ffbe568e0b745865900772981f752f70b89b325d824839085feeb8401f6423c6",
+        "url": "https://api.crossref.org/works/10.52202/075280-2264",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shen2024hugginggpt__official_bib.txt",
+        "sha256": "d161a3b328fa4bcbb80d042bbf30fbb7d359fe2ff56e3a19b2e3cdb35dc83b11",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "qian2023chatdev",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/qian2023chatdev__crossref.txt",
+        "sha256": "16a8861060049fcdcfc34ab23fc47ce7722be05328db2a6ac7bee93bf2e3ff5d",
+        "url": "https://api.crossref.org/works/10.18653/v1/2024.acl-long.810",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/qian2023chatdev__page.txt",
+        "sha256": "d032068a12f52e9d42fc095d36d5ddf16dd09e6c931703de8c9f650920b082ec",
+        "url": "https://aclanthology.org/2024.acl-long.810/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/qian2023chatdev__bib.txt",
+        "sha256": "3f2628acb24f18cddeccaa37728046512469f903c1598bea7a2161737bc6847a",
+        "url": "https://aclanthology.org/2024.acl-long.810.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "gao2024rag_survey",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "online",
+    "classification": "预印本（保留既有版本）",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "shen2024hugginggpt",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/shen2024hugginggpt__crossref.txt",
+        "sha256": "57e9621d761659c1b0d832eb5f83dc8c24352d5413ebf06c399102f3608c4faa",
+        "url": "https://api.crossref.org/works/10.52202/075280-1657",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shen2024hugginggpt__page.txt",
+        "sha256": "57def7f947d11712d0e9c33b37c0768fa13a18ccfbf944c0c1d95103457b2aa7",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shen2024hugginggpt__official_bib.txt",
+        "sha256": "d161a3b328fa4bcbb80d042bbf30fbb7d359fe2ff56e3a19b2e3cdb35dc83b11",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shen2024hugginggpt__official_bib.txt",
+        "sha256": "d161a3b328fa4bcbb80d042bbf30fbb7d359fe2ff56e3a19b2e3cdb35dc83b11",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "zhao2024longagent",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/zhao2024longagent__crossref.txt",
+        "sha256": "24e86a2ee1ac95a77e96eb11d59e31f3fd76376daa0667ffefe51dc960dd6fa3",
+        "url": "https://api.crossref.org/works/10.18653/v1/2024.emnlp-main.912",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/zhao2024longagent__page.txt",
+        "sha256": "c6dff027c2d303b7715de5f88b1c59d0aa0230383d2c4d410febdbdc000a9e4f",
+        "url": "https://aclanthology.org/2024.emnlp-main.912/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/zhao2024longagent__bib.txt",
+        "sha256": "6c0d50d237db388458487595a5b39a7ce5dc67286ecb8b2f6d15f92ca29db416",
+        "url": "https://aclanthology.org/2024.emnlp-main.912.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "khattab2024dspy",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/khattab2024dspy__page.txt",
+        "sha256": "c03a4b815e72abe27c68d9772f404f3589e3f1cfbfc34a50de302e42abcf9791",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/khattab2024dspy__official_bib.txt",
+        "sha256": "fabad9a3bda3a4f2f37ce21778d349fe80d99de1b90e4b25f9ca03dd2bc54ec8",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/4781-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/khattab2024dspy__official_bib.txt",
+        "sha256": "fabad9a3bda3a4f2f37ce21778d349fe80d99de1b90e4b25f9ca03dd2bc54ec8",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/4781-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2024__catalog.txt",
+        "sha256": "7b4c92614f49888ed0632af8742f3088492d420056bdb8e52724284128411778",
+        "url": "https://www.proceedings.com/80585.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "duan2024langgraph_crewai",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "online",
+    "classification": "预印本（保留既有版本）",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "zhuge2024gptswarm",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/zhuge2024gptswarm__page.txt",
+        "sha256": "47b49f048bff13d8e74f1f126a0100b523d610ca60a99c67d4b9cb11f4ef6e61",
+        "url": "https://proceedings.mlr.press/v235/zhuge24a.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "chen2024agentverse",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/chen2024agentverse__page.txt",
+        "sha256": "6203b8f2a79ddfd35688eae3db89d85526c676da7e670dc4deb1daae351c7169",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/chen2024agentverse__official_bib.txt",
+        "sha256": "5d40b61b6a02a5b78eaa1fd4e2419ae36d34de13316a3b01746d012da85725a6",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/5144-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/chen2024agentverse__official_bib.txt",
+        "sha256": "5d40b61b6a02a5b78eaa1fd4e2419ae36d34de13316a3b01746d012da85725a6",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/5144-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2024__catalog.txt",
+        "sha256": "7b4c92614f49888ed0632af8742f3088492d420056bdb8e52724284128411778",
+        "url": "https://www.proceedings.com/80585.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "kim2024mdagents",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/kim2024mdagents__crossref.txt",
+        "sha256": "2b8b5cd2758e1688160871a296bcc08e722756ddb40a57a56889f34427b0b6ff",
+        "url": "https://api.crossref.org/works/10.52202/079017-2522",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/kim2024mdagents__page.txt",
+        "sha256": "1f900847de786db6f67ed08b10b38ebb54c2666f8b2826eba70aa0c0177ff17b",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/kim2024mdagents__official_bib.txt",
+        "sha256": "50f908e1f18dfd457e18e3aaca0f68f44b6b30b540a8ebcde5d69c018dc0dff6",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/25061-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/kim2024mdagents__official_bib.txt",
+        "sha256": "50f908e1f18dfd457e18e3aaca0f68f44b6b30b540a8ebcde5d69c018dc0dff6",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/25061-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "zhou2023least_to_most",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "editor: official record supplies no editor; no unsupported editor was added",
+      "pages: no confirmed pagination in consulted primary records; left empty"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/zhou2023least_to_most__page.txt",
+        "sha256": "c50fd19d9b59a889295c095d651530e2b1a203eef05f9e9aaa0b8c318d476d51",
+        "url": "https://openreview.net/forum?id=WZH7099tgfM",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2023__catalog.txt",
+        "sha256": "3a416a91570e16a5d4dbdf010294a67ad2860126083c8b6052da28c65a24ef17",
+        "url": "https://www.proceedings.com/80586.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "khot2023decomposed_prompting",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "editor: official record supplies no editor; no unsupported editor was added",
+      "pages: no confirmed pagination in consulted primary records; left empty"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/khot2023decomposed_prompting__page.txt",
+        "sha256": "bd6cd62c6f5b8f81e7267d6c519e8d38b270170c4487a03d65ab3e55fc131417",
+        "url": "https://openreview.net/forum?id=_nGgzQjzaRy",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2023__catalog.txt",
+        "sha256": "3a416a91570e16a5d4dbdf010294a67ad2860126083c8b6052da28c65a24ef17",
+        "url": "https://www.proceedings.com/80586.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "wang2023plan_and_solve",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/wang2023plan_and_solve__crossref.txt",
+        "sha256": "b4bc93d1e57ab7be0416516411e985679ec10586bd9227932b04e8d58191509b",
+        "url": "https://api.crossref.org/works/10.18653/v1/2023.acl-long.147",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/wang2023plan_and_solve__page.txt",
+        "sha256": "a376fa9b10c8d182f797fff1f793a763e72892c0e3567a9bddaeec25b04d3bd8",
+        "url": "https://aclanthology.org/2023.acl-long.147/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/wang2023plan_and_solve__bib.txt",
+        "sha256": "fed7643a1249855cbf2fe6c2b6fc28adef23437947b4fa6d1418330bdd60cc2e",
+        "url": "https://aclanthology.org/2023.acl-long.147.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "packer2023memgpt",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "online",
+    "classification": "预印本（保留既有版本）",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "zhang2024memory_survey",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "article",
+    "classification": "期刊论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/zhang2024memory_survey__crossref.txt",
+        "sha256": "4bd6089248d38ada87325cad6159d83ec282f4d68a6c58204b76c4a145ff9ae2",
+        "url": "https://api.crossref.org/works/10.1145/3748302",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "asai2024selfrag",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/asai2024selfrag__page.txt",
+        "sha256": "f1e41cf2e39ffbd2ee22017fbaca5cc41c602689a9e28dd418189462c284f3b0",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/asai2024selfrag__official_bib.txt",
+        "sha256": "f239451390e2ec0f768c9ec4a50cf467e40c8ff87fa3fe8a51a3193577dc379b",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/4936-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/asai2024selfrag__official_bib.txt",
+        "sha256": "f239451390e2ec0f768c9ec4a50cf467e40c8ff87fa3fe8a51a3193577dc379b",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/4936-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2024__catalog.txt",
+        "sha256": "7b4c92614f49888ed0632af8742f3088492d420056bdb8e52724284128411778",
+        "url": "https://www.proceedings.com/80585.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "jiang2023active_rag",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/jiang2023active_rag__crossref.txt",
+        "sha256": "332ea0d18bac06d17ef3921490e368a9d45c11ec686044fb06835b7c9fb8f395",
+        "url": "https://api.crossref.org/works/10.18653/v1/2023.emnlp-main.495",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/jiang2023active_rag__page.txt",
+        "sha256": "e3c8ed713a080cb0d2196d51c2130b6bb118750117fd47a65c6afb18dff2a579",
+        "url": "https://aclanthology.org/2023.emnlp-main.495/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/jiang2023active_rag__bib.txt",
+        "sha256": "e6cd64b2685e3f3c389573ad08efc2394646f4a9172bf77be647cd3f54e5a92e",
+        "url": "https://aclanthology.org/2023.emnlp-main.495.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "wei2022chain_of_thought",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/wei2022chain_of_thought__crossref.txt",
+        "sha256": "5649430caf7d9964a2036161ea11311bc13987e06302e5251bc75d31d1b4c4a2",
+        "url": "https://api.crossref.org/works/10.52202/068431-1800",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/wei2022chain_of_thought__official_bib.txt",
+        "sha256": "915fad35bd81b4df3ec07706fd87b706359c343b2ddc7d5814a681973961730a",
+        "url": "",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\wei2022chain_of_thought__official_bib.txt",
+        "sha256": "915fad35bd81b4df3ec07706fd87b706359c343b2ddc7d5814a681973961730a",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/18168-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "wang2023self_consistency",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "editor: official record supplies no editor; no unsupported editor was added",
+      "pages: no confirmed pagination in consulted primary records; left empty"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/wang2023self_consistency__page.txt",
+        "sha256": "425bb675cb286ab9976b0c8e6592e2ad3064b2d5bf071b29240e6481f7c2c24f",
+        "url": "https://openreview.net/forum?id=1PL1NIMMrw",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2023__catalog.txt",
+        "sha256": "3a416a91570e16a5d4dbdf010294a67ad2860126083c8b6052da28c65a24ef17",
+        "url": "https://www.proceedings.com/80586.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "yao2023tree_of_thoughts",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/yao2023tree_of_thoughts__crossref.txt",
+        "sha256": "ff422368eedf29d4a22db720224a1381a0cffcd5f1ddad565a07dff3da95d853",
+        "url": "https://api.crossref.org/works/10.52202/075280-0517",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shen2024hugginggpt__official_bib.txt",
+        "sha256": "d161a3b328fa4bcbb80d042bbf30fbb7d359fe2ff56e3a19b2e3cdb35dc83b11",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "besta2024graph_of_thoughts",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "article",
+    "classification": "期刊/连续出版物形式会议论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/besta2024graph_of_thoughts__crossref.txt",
+        "sha256": "6209d718c105183f2a7f37ec31348346b0a58743255a60ea4d90b2e42bf176e3",
+        "url": "https://api.crossref.org/works/10.1609/aaai.v38i16.29720",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "shinn2023reflexion",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/shinn2023reflexion__crossref.txt",
+        "sha256": "2a8c82b861e3fc4e3d16e37786cfa7088cc15fec67f00926f7368189e9cecf7c",
+        "url": "https://api.crossref.org/works/10.52202/075280-0377",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shen2024hugginggpt__official_bib.txt",
+        "sha256": "d161a3b328fa4bcbb80d042bbf30fbb7d359fe2ff56e3a19b2e3cdb35dc83b11",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "madaan2023self_refine",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/madaan2023self_refine__crossref.txt",
+        "sha256": "a622dc5a574108c802a7e9522abde72cb740342c4bba93c76dfd37cea4eeaf66",
+        "url": "https://api.crossref.org/works/10.52202/075280-2019",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shen2024hugginggpt__official_bib.txt",
+        "sha256": "d161a3b328fa4bcbb80d042bbf30fbb7d359fe2ff56e3a19b2e3cdb35dc83b11",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "dhuliawala2023chain_of_verification",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/dhuliawala2023chain_of_verification__crossref.txt",
+        "sha256": "076de66ebb86de3828bf5ef35279ba0eb3cd1d29c6f6e1386b460b83ba2fcb3b",
+        "url": "https://api.crossref.org/works/10.18653/v1/2024.findings-acl.212",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/dhuliawala2023chain_of_verification__page.txt",
+        "sha256": "74bdcc50cc39e47212b4cc56a92637c78170b39b29304137b03729419fa5418d",
+        "url": "https://aclanthology.org/2024.findings-acl.212/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/dhuliawala2023chain_of_verification__bib.txt",
+        "sha256": "e16742a3bea5a594c293bfe19644bef3776ef8581aa2a960ad51554140aa6b9a",
+        "url": "https://aclanthology.org/2024.findings-acl.212.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "tang2024medagents",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/tang2024medagents__crossref.txt",
+        "sha256": "d0526a512171e2029fc2c9e7c2e5bfbdd1dd0d29d7a4f7564f0db9d1422b89f0",
+        "url": "https://api.crossref.org/works/10.18653/v1/2024.findings-acl.33",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/tang2024medagents__page.txt",
+        "sha256": "55041d659a4a7ab7db40eb683b9b66977ec7dddf8cfbbd0ec469e65a6c42800f",
+        "url": "https://aclanthology.org/2024.findings-acl.33/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/tang2024medagents__bib.txt",
+        "sha256": "04d4adededf733913e6c61e2e6f505d67a9e1eb83665d4019aa0ff5de00205ad",
+        "url": "https://aclanthology.org/2024.findings-acl.33.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "cui2023chatlaw",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "online",
+    "classification": "预印本（保留既有版本）",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "li2024genmentor",
+    "cited": false,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "editor: primary publication registration has no editor field; absence of editorial credit is not established; supplementation stopped"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/li2024genmentor__crossref.txt",
+        "sha256": "cfb88461ba360383d9e333a0cb56e822deee6b1e8b8bb1060945a0a247dd9681",
+        "url": "https://api.crossref.org/works/10.1145/3701716.3715244",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "singhal2023medpalm",
+    "cited": false,
+    "original_type": "article",
+    "target_type": "article",
+    "classification": "期刊论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/singhal2023medpalm__crossref.txt",
+        "sha256": "d5a6584b45d1c9f463bfa61f61ec5f5f2d5e5c9b4f53f31ebcf9d7c04e674154",
+        "url": "https://api.crossref.org/works/10.1038/s41586-023-06291-2",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "guha2023legalbench",
+    "cited": false,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/guha2023legalbench__crossref.txt",
+        "sha256": "3d23674f3579cf8cb9090997c2ba5dc9ecacec1a134192280d144828fb19cb9d",
+        "url": "https://api.crossref.org/works/10.52202/075280-1915",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shen2024hugginggpt__official_bib.txt",
+        "sha256": "d161a3b328fa4bcbb80d042bbf30fbb7d359fe2ff56e3a19b2e3cdb35dc83b11",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "brynjolfsson2023generative_ai_work",
+    "cited": false,
+    "original_type": "article",
+    "target_type": "article",
+    "classification": "期刊论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/brynjolfsson2023generative_ai_work__crossref.txt",
+        "sha256": "5d9ae4d086a735fe50e4d6ecb03080b7a1a1c9b1e9b6ecda80e132d7f1f9d329",
+        "url": "https://api.crossref.org/works/10.1093/qje/qjae044",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "yang2024swe_agent",
+    "cited": false,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/yang2024swe_agent__crossref.txt",
+        "sha256": "84a6a1f43d442a437b763ab9e5cedcbfc803f808295535fd247f103030f81691",
+        "url": "https://api.crossref.org/works/10.52202/079017-1601",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/yang2024swe_agent__page.txt",
+        "sha256": "97b4bbdee559e24006f2949656568e3ecfa2dfbcb708b8cc4e77563949a6650f",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/yang2024swe_agent__official_bib.txt",
+        "sha256": "ae31eda0a940659d78c2ca976a70eed909d49cf980b38222d36ae48b0548b08f",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/24337-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/yang2024swe_agent__official_bib.txt",
+        "sha256": "ae31eda0a940659d78c2ca976a70eed909d49cf980b38222d36ae48b0548b08f",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/24337-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "jimenez2024swe_bench",
+    "cited": false,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/jimenez2024swe_bench__page.txt",
+        "sha256": "be29d679d7768b7e9483fa794d7e548803dca17f457fd37317afe2b31c0568c5",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/jimenez2024swe_bench__official_bib.txt",
+        "sha256": "6dd0b7838e2f1e65fa481b0295948406d3679f1dd4e92494c4532d9801eee554",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/5227-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/jimenez2024swe_bench__official_bib.txt",
+        "sha256": "6dd0b7838e2f1e65fa481b0295948406d3679f1dd4e92494c4532d9801eee554",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/5227-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2024__catalog.txt",
+        "sha256": "7b4c92614f49888ed0632af8742f3088492d420056bdb8e52724284128411778",
+        "url": "https://www.proceedings.com/80585.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "han2024mast",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/han2024mast__crossref.txt",
+        "sha256": "4aefcde623fdbfb93f36c7aa2c6cc0f52556fce20ea90181f43a1bbb5b98f31c",
+        "url": "https://api.crossref.org/works/10.52202/085713-4082",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/han2024mast__page.txt",
+        "sha256": "c6b32527c07b9fd9f6d72a754f4acd879635a6f87b9622268e61997f137a7523",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/han2024mast__official_bib.txt",
+        "sha256": "84e1980c57bcc17a6737b7a89e0db8e2582849418c615e37a7fa6bffab63ab8f",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/33158-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/han2024mast__official_bib.txt",
+        "sha256": "84e1980c57bcc17a6737b7a89e0db8e2582849418c615e37a7fa6bffab63ab8f",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/33158-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "anthropic2024mcp",
+    "cited": true,
+    "original_type": "misc",
+    "target_type": "online",
+    "classification": "网页",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/anthropic2024mcp__page.txt",
+        "sha256": "ea781c16a5b8385b6d2c6c00b5804803d5e69406f2eb73d67a62c551ca066c59",
+        "url": "https://www.anthropic.com/news/model-context-protocol",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "google2025a2a",
+    "cited": true,
+    "original_type": "misc",
+    "target_type": "online",
+    "classification": "网页",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/google2025a2a__page.txt",
+        "sha256": "a05648c89331517dfde016d0c99c48f1bf45ef49544b68d9de92cea56aa4a81c",
+        "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "langgraph2024",
+    "cited": true,
+    "original_type": "misc",
+    "target_type": "online",
+    "classification": "网页",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/langgraph2024__page.txt",
+        "sha256": "1e06658db95689cf28ed96b6144946bc50dc142348a1e1a10bb0285690618b35",
+        "url": "https://www.langchain.com/blog/langgraph-multi-agent-workflows",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "crewai2023",
+    "cited": true,
+    "original_type": "misc",
+    "target_type": "software",
+    "classification": "软件",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/crewai2023__page.txt",
+        "sha256": "3df518f81505ef50e09d540c8e6b76927bf3366bbddfd6d098513b384c980ea5",
+        "url": "https://pypi.org/project/crewai/0.1.0/",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "dify2024",
+    "cited": true,
+    "original_type": "misc",
+    "target_type": "software",
+    "classification": "软件",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/dify2024__page.txt",
+        "sha256": "445da6054481ca2d4b7f23c339df1111d9c12ddd8b8f0d6d68178cc6e238c4bd",
+        "url": "https://github.com/langgenius/dify/tree/0.6.0",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "tang2025llmmedqa",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "editor: primary publication registration has no editor field; absence of editorial credit is not established; supplementation stopped"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/tang2025llmmedqa__crossref.txt",
+        "sha256": "ca67a44faeb6c0604c8b53377d1819f558c8003c540d0a5b966f99f6db12323a",
+        "url": "https://api.crossref.org/works/10.1109/IJCNN64981.2025.11228647",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "legalgraphrag2026",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/legalgraphrag2026__crossref.txt",
+        "sha256": "b17764c4fe1cbf0ada94421bdff4fe65a48a98640b40b231d6d751b28a54ff96",
+        "url": "https://api.crossref.org/works/10.18653/v1/2026.acl-long.1738",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/legalgraphrag2026__page.txt",
+        "sha256": "485705a539145bc67d8a95516f402972a0d27e9cec48d46f250ea0ba9d6a0908",
+        "url": "https://aclanthology.org/2026.acl-long.1738/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/legalgraphrag2026__bib.txt",
+        "sha256": "6b33e59cf84116e919524dde37c797a101c57f2d02fce8d8a59ad779259f0016",
+        "url": "https://aclanthology.org/2026.acl-long.1738.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "hu2024triad",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/hu2024triad__crossref.txt",
+        "sha256": "b2018062f716eeba8b3007d3bdd80048ff77e318daa1dd2852eb620fb8d9e567",
+        "url": "https://api.crossref.org/works/10.18653/v1/2024.emnlp-main.101",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/hu2024triad__page.txt",
+        "sha256": "a106e7b3cad9c03df2cbfcf424d8200fb9e99ac017d6e7a2e99b19b70b1d648e",
+        "url": "https://aclanthology.org/2024.emnlp-main.101/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/hu2024triad__bib.txt",
+        "sha256": "9a214b823e801db49e37273e7a922196fde4bd0baad62fc09bf285c936fbad2e",
+        "url": "https://aclanthology.org/2024.emnlp-main.101.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "huang2023agentcoder",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "online",
+    "classification": "预印本（保留既有版本）",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "zhang2024eduplanner",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "article",
+    "classification": "期刊论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/zhang2024eduplanner__crossref.txt",
+        "sha256": "9752e53fa4163e41499676aa8431b17c4dad6fb70c6a301bffe6e5e234f4fb16",
+        "url": "https://api.crossref.org/works/10.1109/TLT.2025.3561332",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "fatemi2024financialqa",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "editor: primary publication registration has no editor field; absence of editorial credit is not established; supplementation stopped"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/fatemi2024financialqa__crossref.txt",
+        "sha256": "6b9d02396921e03514cddb0ef0999c4da3b8d9697f606445e554325e938a14b0",
+        "url": "https://api.crossref.org/works/10.1145/3677052.3698686",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "peffers2007dsrm",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "article",
+    "classification": "期刊论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/peffers2007dsrm__crossref.txt",
+        "sha256": "91959aa2789e0779ea8449373879c18b0d0e8487432c9c4a13e5a6e0c98f4555",
+        "url": "https://api.crossref.org/works/10.2753/MIS0742-1222240302",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "xagent2023",
+    "cited": false,
+    "original_type": "misc",
+    "target_type": "software",
+    "classification": "软件",
+    "pending": [
+      "version/date: unversioned XAgent; original year retained; not a verified release date"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/xagent2023__page.txt",
+        "sha256": "d2d0eb80421ef643d0b89922e0e9c02511ac82a0219cf28383823e593620f851",
+        "url": "https://github.com/OpenBMB/XAgent",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "chen2024reconcile",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/chen2024reconcile__crossref.txt",
+        "sha256": "5d383aea17f6c0f8a345fb830ecd5da3167acf4476c59cf8814ba5d5376cfb18",
+        "url": "https://api.crossref.org/works/10.18653/v1/2024.acl-long.381",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/chen2024reconcile__page.txt",
+        "sha256": "3798b1eb1a10e107fe815fb1f4989040c65d6b4aba62ad18fbf3f1c7933b10db",
+        "url": "https://aclanthology.org/2024.acl-long.381/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/chen2024reconcile__bib.txt",
+        "sha256": "b4e9a475be61afdc2f0d0638d9a1d360fd42a69e0e352f144a955ba5ce1fe864",
+        "url": "https://aclanthology.org/2024.acl-long.381.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "zhang2024chain_agents",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/zhang2024chain_agents__crossref.txt",
+        "sha256": "6c461d0ca7eb34c3318fd2f3c9dab29e499ae25abf3f934d149bda86c5742ca3",
+        "url": "https://api.crossref.org/works/10.52202/079017-4202",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/zhang2024chain_agents__page.txt",
+        "sha256": "6068413ec7e1c2f80f49d07dc74a692f346fa798a82c1b35e73f7e6c53e6a8f1",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/zhang2024chain_agents__official_bib.txt",
+        "sha256": "6d2902c13203a24afd21484946f16c9377387e86411e2c781282ea71f64ce27e",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/25361-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/zhang2024chain_agents__official_bib.txt",
+        "sha256": "6d2902c13203a24afd21484946f16c9377387e86411e2c781282ea71f64ce27e",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/25361-/bibtex",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "jiang2026cocoa",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/jiang2026cocoa__crossref.txt",
+        "sha256": "75e6b77740d29adef7e09cf8200f858e4bb6b563c957c7a6fbdaeb3ba573fe71",
+        "url": "https://api.crossref.org/works/10.18653/v1/2026.acl-long.167",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/jiang2026cocoa__page.txt",
+        "sha256": "324320a94881ead0a062749ebcaa590cf631754d24f8f178e33b662ea28595a3",
+        "url": "https://aclanthology.org/2026.acl-long.167/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/jiang2026cocoa__bib.txt",
+        "sha256": "d4082bd1dea5ba653d9b09c4e79b1d1286b4758e395593fcc21e8e0f0cb39852",
+        "url": "https://aclanthology.org/2026.acl-long.167.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "shao2024storm",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/shao2024storm__crossref.txt",
+        "sha256": "d769ba33d7b45ca44cc67bb737ca8e75592152a582cd921f69144c3c473d85d1",
+        "url": "https://api.crossref.org/works/10.18653/v1/2024.naacl-long.347",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shao2024storm__page.txt",
+        "sha256": "05456402822dc058e838fc47e3f5bba8a54fcc887f9f9a0a6d1e9eab3139c1e6",
+        "url": "https://aclanthology.org/2024.naacl-long.347/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shao2024storm__bib.txt",
+        "sha256": "9e903c7f30d5891bf1292af0fd34d8be9a1a351d0c4a2744cca3bfa2316d0d85",
+        "url": "https://aclanthology.org/2024.naacl-long.347.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "shao2024costorm",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/shao2024costorm__crossref.txt",
+        "sha256": "62adb80e483a623b36e0c7f4f893bdd8f5c2a7b419a809fb99132bffb5af8b35",
+        "url": "https://api.crossref.org/works/10.18653/v1/2024.emnlp-main.554",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shao2024costorm__page.txt",
+        "sha256": "e5d8614358d40173de70455bd4d6ee2443d2f61aec46ed903e4cda3871ba3c92",
+        "url": "https://aclanthology.org/2024.emnlp-main.554/",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/shao2024costorm__bib.txt",
+        "sha256": "4307f6a62dec5a9b96423358b2e5865e28e7fccd49c8a5d6745a16b8a44af3f1",
+        "url": "https://aclanthology.org/2024.emnlp-main.554.bib",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "ragflow2024",
+    "cited": true,
+    "original_type": "misc",
+    "target_type": "software",
+    "classification": "软件",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/ragflow2024__page.txt",
+        "sha256": "3358931962e451046b5f2c3c1528f2c29255919285834bba88388163815bd288",
+        "url": "https://github.com/infiniflow/ragflow/tree/v0.6.0",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "hendrycks2021mmlu",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [
+      "editor: official record supplies no editor; no unsupported editor was added",
+      "pages: no confirmed pagination in consulted primary records; left empty"
+    ],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/hendrycks2021mmlu__page.txt",
+        "sha256": "3aa3b572ee152184670914a36cb2755da42663a1acb48aaa89e99c2919ea39cd",
+        "url": "https://openreview.net/forum?id=d7KBjmI3GmQ",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2021_catalog__extra.txt",
+        "sha256": "4e57793d639862f20b12a4391aac160a8b52d76a42c42f5233c480a129fd78ce",
+        "url": "https://www.proceedings.com/80587.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "trivedi2022musique",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "article",
+    "classification": "期刊论文",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/trivedi2022musique__crossref.txt",
+        "sha256": "b3152c858b0b1dc1a244a076bb785ddc1ba0ee21889d752cdba90b2a8bfb8933",
+        "url": "https://api.crossref.org/works/10.1162/tacl_a_00475",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "liu2024agentbench",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/liu2024agentbench__page.txt",
+        "sha256": "85250f88e17ee28a407f28679091fb0486eac093fd746aee0f90ab2e7dfd0914",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/liu2024agentbench__official_bib.txt",
+        "sha256": "5c573eca45597c8aadc1eda525f1248bf0a513e525bd879e6cd9596187f52008",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/5292-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/liu2024agentbench__official_bib.txt",
+        "sha256": "5c573eca45597c8aadc1eda525f1248bf0a513e525bd879e6cd9596187f52008",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/5292-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2024__catalog.txt",
+        "sha256": "7b4c92614f49888ed0632af8742f3088492d420056bdb8e52724284128411778",
+        "url": "https://www.proceedings.com/80585.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "mialon2024gaia",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/mialon2024gaia__page.txt",
+        "sha256": "39d9d0b4e0d22e3c46298c03ac26f1e3343c7bf7b002c882fe9df07f30467b79",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/mialon2024gaia__official_bib.txt",
+        "sha256": "aec8b5dc2b76f1176cbb2d5d721d00c29b3f0f75efc9be542ef44a308fa068be",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/4267-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/mialon2024gaia__official_bib.txt",
+        "sha256": "aec8b5dc2b76f1176cbb2d5d721d00c29b3f0f75efc9be542ef44a308fa068be",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/4267-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2024__catalog.txt",
+        "sha256": "7b4c92614f49888ed0632af8742f3088492d420056bdb8e52724284128411778",
+        "url": "https://www.proceedings.com/80585.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "zhou2024webarena",
+    "cited": true,
+    "original_type": "inproceedings",
+    "target_type": "incollection",
+    "classification": "正式会议论文集文章",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/zhou2024webarena__page.txt",
+        "sha256": "45ffd72e73a16e0303b0525414fb911ca7ca1be2bc7010f75b9d751d3623867e",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/4410c0711e9154a7a2d26f9b3816d1ef-Abstract-Conference.html",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/zhou2024webarena__official_bib.txt",
+        "sha256": "396500e72155ce40e87e95e34b11bd05b54ac04e9fe414b0990b33f4c53dbfba",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/4147-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp/apa7_migration/sources/zhou2024webarena__official_bib.txt",
+        "sha256": "396500e72155ce40e87e95e34b11bd05b54ac04e9fe414b0990b33f4c53dbfba",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/4147-/bibtex",
+        "status": 200
+      },
+      {
+        "path": "tmp\\apa7_migration\\sources\\iclr2024__catalog.txt",
+        "sha256": "7b4c92614f49888ed0632af8742f3088492d420056bdb8e52724284128411778",
+        "url": "https://www.proceedings.com/80585.html",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "key": "autorag2024",
+    "cited": true,
+    "original_type": "article",
+    "target_type": "online",
+    "classification": "预印本（保留既有版本）",
+    "pending": [],
+    "evidence": []
+  },
+  {
+    "key": "langgraph2024interrupt",
+    "cited": true,
+    "original_type": "misc",
+    "target_type": "online",
+    "classification": "网页",
+    "pending": [],
+    "evidence": [
+      {
+        "path": "tmp/apa7_migration/sources/langgraph2024interrupt__page.txt",
+        "sha256": "9a083a0543d335772e78decdafc7757cbe59c5e16dd83c9fa77c8bb8c54fc8d4",
+        "url": "https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt",
+        "status": 200
+      }
+    ]
+  }
+]

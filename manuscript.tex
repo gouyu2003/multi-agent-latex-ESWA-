@@ -1,14 +1,14 @@
 % !TeX program = pdflatex
-% !BIB program = bibtex
+% !BIB program = biber
 %%
 %% Expert Systems with Applications — Manuscript (Double-Column, CAS)
 %% Double-anonymized peer review: NO author names, affiliations, or acknowledgements in this file.
 %%
 \documentclass[a4paper,fleqn]{cas-dc}
 
-% ESWA author-year citations use the abbreviated author list in running text
-% (e.g., Ouyang et al., 2022), including the first occurrence.
-\usepackage[authoryear]{natbib}
+% ESWA APA seventh edition; preserve existing natbib citation commands.
+\input{eswa-apa-config.tex}
+\addbibresource{references.bib}
 
 \usepackage{booktabs}      % professional tables
 \usepackage{multirow}      % table row merging
@@ -2235,7 +2235,6 @@ needed and take full responsibility for the content of the published article.
 % ==============================================================================
 % BIBLIOGRAPHY
 % ==============================================================================
-\bibliographystyle{cas-model2-names}
-\bibliography{references}
+\printbibliography
 
 \end{document}

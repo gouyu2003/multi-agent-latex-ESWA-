@@ -1,0 +1,163 @@
+\documentclass[a4paper,fleqn]{cas-dc}
+\input{eswa-apa-config.tex}
+\addbibresource{references.bib}
+\usepackage{hyperref}
+\newcommand{\restoretestcolumns}{%
+  \normalfont\setlength{\columnsep}{18pt}%
+  \setlength{\columnwidth}{\dimexpr(\textwidth-\columnsep)/2\relax}%
+  \setlength{\hsize}{\columnwidth}\setlength{\linewidth}{\columnwidth}}
+\begin{document}
+\let\WriteBookmarks\relax
+\renewcommand{\printorcid}{}
+\title{Isolated APA seventh edition compatibility test}
+\shorttitle{Isolated APA test}\shortauthors{Test}
+\begin{abstract}This isolated test contains bibliographic boundary cases.
+It is not part of the manuscript and is not a submission document.\end{abstract}
+\maketitle\restoretestcolumns
+\setlength{\emergencystretch}{1em}
+\section{All active citation commands replayed}
+CMD 001: \citep{brown2020gpt3}\par
+CMD 002: \citep{openai2023gpt4}\par
+CMD 003: \citep{minsky1988society}\par
+CMD 004: \citep{wooldridge1995intelligent}\par
+CMD 005: \citep{wu2024autogen}\par
+CMD 006: \citep{hong2024metagpt}\par
+CMD 007: \citep{du2024multiagent_debate}\par
+CMD 008: \citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents}\par
+CMD 009: \citep{chen2024reconcile}\par
+CMD 010: \citep{zhang2024chain_agents}\par
+CMD 011: \citep{jiang2026cocoa}\par
+CMD 012: \citep{karpukhin2020dpr}\par
+CMD 013: \citep{lewis2020rag}\par
+CMD 014: \citep{yang2018hotpotqa}\par
+CMD 015: \citep{kwiatkowski2019natural_questions}\par
+CMD 016: \citep{reddy2019coqa}\par
+CMD 017: \citep{choi2018quac}\par
+CMD 018: \citep{yao2023react}\par
+CMD 019: \citep{vaswani2017attention}\par
+CMD 020: \citep{devlin2019bert}\par
+CMD 021: \citep{brown2020gpt3}\par
+CMD 022: \citep{openai2023gpt4}\par
+CMD 023: \citep{touvron2023llama}\par
+CMD 024: \citep{glm2024chatglm}\par
+CMD 025: \citep{ouyang2022instructgpt}\par
+CMD 026: \citep{minsky1988society}\par
+CMD 027: \citep{park2023generative_agents}\par
+CMD 028: \citep{hong2024metagpt}\par
+CMD 029: \citep{li2023camel}\par
+CMD 030: \citep{zhao2024longagent,zhang2024chain_agents}\par
+CMD 031: \citep{du2024multiagent_debate,chen2024reconcile,
+xiong2023inter_consistency}\par
+CMD 032: \citet{du2024multiagent_debate}\par
+CMD 033: \citep{liang2024divergent_debate}\par
+CMD 034: \citep{chen2024reconcile}\par
+CMD 035: \citep{xiong2023inter_consistency}\par
+CMD 036: \citep{li2023camel}\par
+CMD 037: \citep{wu2024autogen}\par
+CMD 038: \citep{hong2024metagpt}\par
+CMD 039: \citep{qian2023chatdev}\par
+CMD 040: \citep{zhao2024longagent}\par
+CMD 041: \citep{zhang2024chain_agents}\par
+CMD 042: \citep{jiang2026cocoa}\par
+CMD 043: \citep{shen2024hugginggpt}\par
+CMD 044: \citep{langgraph2024}\par
+CMD 045: \citep{zhuge2024gptswarm}\par
+CMD 046: \citep{chen2024agentverse}\par
+CMD 047: \citep{kim2024mdagents}\par
+CMD 048: \citep{langgraph2024interrupt}\par
+CMD 049: \citet{du2024multiagent_debate}\par
+CMD 050: \citep{li2023camel}\par
+CMD 051: \citep{wu2024autogen}\par
+CMD 052: \citep{hong2024metagpt}\par
+CMD 053: \citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa}\par
+CMD 054: \citep{zhuge2024gptswarm,langgraph2024}\par
+CMD 055: \citep{kim2024mdagents}\par
+CMD 056: \citep{langgraph2024interrupt}\par
+CMD 057: \citep{han2024mast}\par
+CMD 058: \citep{peffers2007dsrm}\par
+CMD 059: \citep{tang2024medagents}\par
+CMD 060: \citep{tang2025llmmedqa}\par
+CMD 061: \citep{legalgraphrag2026}\par
+CMD 062: \citep{hu2024triad}\par
+CMD 063: \citep{zhao2024longagent}\par
+CMD 064: \citep{qian2023chatdev}\par
+CMD 065: \citep{huang2023agentcoder}\par
+CMD 066: \citep{du2024multiagent_debate}\par
+CMD 067: \citep{zhang2024eduplanner}\par
+CMD 068: \citep{fatemi2024financialqa}\par
+CMD 069: \citep{wu2024autogen}\par
+CMD 070: \citep{qian2023chatdev}\par
+CMD 071: \citep{anthropic2024mcp}\par
+CMD 072: \citep{google2025a2a}\par
+CMD 073: \citep{wu2024autogen,qian2023chatdev,anthropic2024mcp,google2025a2a}\par
+CMD 074: \citep{zhou2023least_to_most}\par
+CMD 075: \citep{khot2023decomposed_prompting}\par
+CMD 076: \citep{wang2023plan_and_solve}\par
+CMD 077: \citep{hong2024metagpt}\par
+CMD 078: \citep{chen2024agentverse}\par
+CMD 079: \citep{khattab2024dspy}\par
+CMD 080: \citep{zhou2023least_to_most,khot2023decomposed_prompting,
+wang2023plan_and_solve,hong2024metagpt,chen2024agentverse}\par
+CMD 081: \citep{khattab2024dspy}\par
+CMD 082: \citep{packer2023memgpt}\par
+CMD 083: \citep{zhang2024memory_survey}\par
+CMD 084: \citep{lewis2020rag,gao2024rag_survey}\par
+CMD 085: \citep{asai2024selfrag}\par
+CMD 086: \citep{jiang2023active_rag}\par
+CMD 087: \citep{packer2023memgpt,lewis2020rag,gao2024rag_survey,asai2024selfrag,
+jiang2023active_rag}\par
+CMD 088: \citep{wei2022chain_of_thought}\par
+CMD 089: \citep{wang2023self_consistency}\par
+CMD 090: \citep{du2024multiagent_debate,chen2024reconcile}\par
+CMD 091: \citep{zhang2024chain_agents}\par
+CMD 092: \citep{yao2023tree_of_thoughts}\par
+CMD 093: \citep{besta2024graph_of_thoughts}\par
+CMD 094: \citep{zhao2024longagent}\par
+CMD 095: \citep{shinn2023reflexion}\par
+CMD 096: \citep{madaan2023self_refine}\par
+CMD 097: \citep{dhuliawala2023chain_of_verification}\par
+CMD 098: \citep{wang2023self_consistency,du2024multiagent_debate,
+zhang2024chain_agents,shinn2023reflexion,madaan2023self_refine,
+dhuliawala2023chain_of_verification}\par
+CMD 099: \citep{anthropic2024mcp}\par
+CMD 100: \citep{wu2024autogen,crewai2023,hong2024metagpt}\par
+CMD 101: \citep{li2023camel,qian2023chatdev,hong2024metagpt}\par
+CMD 102: \citep{wu2024autogen,duan2024langgraph_crewai,
+chen2024agentverse}\par
+CMD 103: \citep{zhuge2024gptswarm,khattab2024dspy}\par
+CMD 104: \citep{li2023camel}\par
+CMD 105: \citep{qian2023chatdev}\par
+CMD 106: \citep{hong2024metagpt}\par
+CMD 107: \citep{wu2024autogen}\par
+CMD 108: \citep{chen2024agentverse}\par
+CMD 109: \citep{langgraph2024,langgraph2024interrupt}\par
+CMD 110: \citep{zhuge2024gptswarm}\par
+CMD 111: \citep{khattab2024dspy}\par
+CMD 112: \citep{anthropic2024mcp}\par
+CMD 113: \citep{shao2024storm}\par
+CMD 114: \citep{shao2024costorm}\par
+CMD 115: \citep{ragflow2024}\par
+CMD 116: \citep{yang2018hotpotqa}\par
+CMD 117: \citep{reddy2019coqa}\par
+CMD 118: \citep{hendrycks2021mmlu}\par
+CMD 119: \citep{trivedi2022musique}\par
+CMD 120: \citep{liu2024agentbench}\par
+CMD 121: \citep{mialon2024gaia}\par
+CMD 122: \citep{zhou2024webarena}\par
+CMD 123: \citep{autorag2024}\par
+CMD 124: \citep{zhang2024eduplanner}\par
+CMD 125: \citep{fatemi2024financialqa}\par
+CMD 126: \citep{qian2024scaling_multiagent}\par
+CMD 127: \citep{hendrycks2021mmlu,yang2018hotpotqa,liu2024agentbench,mialon2024gaia}\par
+CMD 128: \citep{han2024mast}\par
+CMD 129: \citep{tang2024medagents,cui2023chatlaw}\par
+CMD 130: \citep{duan2024langgraph_crewai,
+langgraph2024interrupt}\par
+CMD 131: \citep{wu2024autogen,langgraph2024,crewai2023,dify2024}\par
+CMD 132: \citep{kim2024mdagents}\par
+CMD 133: \citep{qian2024scaling_multiagent}\par
+CMD 134: \citep{han2024mast}\par
+CMD 135: \citep{zhang2024memory_survey,shinn2023reflexion}\par
+CMD 136: \citep{park2023generative_agents,chen2024agentverse}\par
+\printbibliography
+\end{document}

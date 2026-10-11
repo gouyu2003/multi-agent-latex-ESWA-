@@ -1,0 +1,107 @@
+[
+  {
+    "test": "journal_real",
+    "expected": "The Knowledge Engineering Review, italic 10, roman (2), 115–152, canonical DOI",
+    "actual": "The Knowledge Engineering Review, 10(2), 115–152. https://doi.org/10.1017/S0269888900008122",
+    "result": "PASS",
+    "before": "The knowledge engineering review: original lowercase metadata"
+  },
+  {
+    "test": "book_real",
+    "expected": "Italic standalone title; one literal publisher name; no publisher city",
+    "actual": "Minsky, M. (1988). Society of mind. Simon and Schuster.",
+    "result": "PASS",
+    "before": "Simon; Schuster: original publisher parsed as two list items"
+  },
+  {
+    "test": "conference_real",
+    "expected": "In initials-first editors (Eds.), italic proceedings title, (pp. 7066–7085), publisher, DOI",
+    "actual": "Chen, J., Saha, S., & Bansal, M. (2024). ReConcile: Round-table conference improves reasoning via consensus among diverse LLMs. In L.-W. Ku, A. Martins, & V. Srikumar (Eds.), Proceedings of the 62nd annual meeting of the Association for Computational Linguistics (volume 1: Long papers) (pp. 7066–7085). Association for Computational Linguistics. https://doi.org/10.18653/ v1/2024.acl-long.381",
+    "result": "PASS",
+    "before": "No editors in original record; APA style maps inproceedings without editor/crossref to article and drops publisher"
+  },
+  {
+    "test": "preprint_real",
+    "expected": "Italic GPT-4 technical report; arXiv named; DOI canonical; no journal volume/issue",
+    "actual": "OpenAI. (2023). GPT-4 technical report. arXiv. https://doi.org/10.48550/ arXiv.2303.08774",
+    "result": "PASS",
+    "before": null
+  },
+  {
+    "test": "software_crewai2023",
+    "expected": "(Version 0.1.0) [Computer software]. PyPI.; URL; no mandatory retrieval date",
+    "actual": "Moura, J. (2023). CrewAI: Framework for orchestrating role-playing, autonomous AI agents (Version 0.1.0) [Computer software]. PyPI. https://pypi.org/project/crewai/0.1.0/",
+    "result": "PASS",
+    "before": "(Computer software; Version ...) when incorrectly using type instead of entrysubtype"
+  },
+  {
+    "test": "software_dify2024",
+    "expected": "(Version 0.6.0) [Computer software]. GitHub.; URL; no mandatory retrieval date",
+    "actual": "LangGenius, Inc. (2024). Dify: Open-source LLM app development platform (Version 0.6.0) [Computer software]. GitHub. https://github.com/langgenius/dify/tree/0.6.0",
+    "result": "PASS",
+    "before": "(Computer software; Version ...) when incorrectly using type instead of entrysubtype"
+  },
+  {
+    "test": "software_ragflow2024",
+    "expected": "(Version 0.6.0) [Computer software]. GitHub.; URL; no mandatory retrieval date",
+    "actual": "InfiniFlow. (2024). RAGFlow: An open-source RAG engine based on deep document understanding (Version 0.6.0) [Computer software]. GitHub. https://github.com/infiniflow/ragflow/tree/v0.6.0",
+    "result": "PASS",
+    "before": "(Computer software; Version ...) when incorrectly using type instead of entrysubtype"
+  },
+  {
+    "test": "web_anthropic2024mcp",
+    "expected": "Italic title; full known publication date; actual retrieval date 2026-10-11; full cited URL",
+    "actual": " Anthropic. (2024, November 25). Introducing the Model Context Protocol. Retrieved October 11, 2026, from https://www.anthropic.com/ news/model-context-protocol Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D., Wu, J., Winter, C., .. | Link: https://www.anthropic.com/news/model-context-protocol",
+    "result": "PASS",
+    "before": "Original database note/date/type need explicit mapping; initial test used evidenced 2026-10-10"
+  },
+  {
+    "test": "web_google2025a2a",
+    "expected": "Italic title; full known publication date; actual retrieval date 2026-10-11; full cited URL",
+    "actual": ", R., Jha, M., Vakoc, M., & Segal, T. (2025, April 9). Announcing the Agent2Agent protocol (A2A). Google Developers Blog. Retrieved October 11, 2026, from https://developers.googleblog. com/en/a2a-a-new-era-of-agent-interoperability/ The LangChain Team. (2024a, January 23). LangGraph: Multi-agent workflows. LangChain. Retrieved October 11, 2026, from https : / / www.langchain.com/blog/langgraph-multi-agent-workflows The L | Link: https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/",
+    "result": "PASS",
+    "before": "Original database note/date/type need explicit mapping; initial test used evidenced 2026-10-10"
+  },
+  {
+    "test": "web_langgraph2024",
+    "expected": "Italic title; full known publication date; actual retrieval date 2026-10-11; full cited URL",
+    "actual": "roperability/ The LangChain Team. (2024a, January 23). LangGraph: Multi-agent workflows. LangChain. Retrieved October 11, 2026, from https : / / www.langchain.com/blog/langgraph-multi-agent-workflows The LangChain Team. (2024b, December 14). Making it easier to build human-in-the-loop agents with interrupt. LangChain. Retrieved October 11, 2026, from https : / / www. langchain . com / blog / making-it-easier-to-build-huma | Link: https://www.langchain.com/blog/langgraph-multi-agent-workflows",
+    "result": "PASS",
+    "before": "Original database note/date/type need explicit mapping; initial test used evidenced 2026-10-10"
+  },
+  {
+    "test": "web_langgraph2024interrupt",
+    "expected": "Italic title; full known publication date; actual retrieval date 2026-10-11; full cited URL",
+    "actual": "nt-workflows The LangChain Team. (2024b, December 14). Making it easier to build human-in-the-loop agents with interrupt. LangChain. Retrieved October 11, 2026, from https : / / www. langchain . com / blog / making-it-easier-to-build-human-in-the-loop-agents-withinterrupt Wooldridge, M., & Jennings, N. R. (1995). Intelligent agents: Theory and practice. The Knowledge Engineering Review, 10(2), 115–152. https://doi.org/10. | Link: https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt",
+    "result": "PASS",
+    "before": "Original database note/date/type need explicit mapping; initial test used evidenced 2026-10-10"
+  },
+  {
+    "test": "corporate_same_identity",
+    "expected": "Both verified LangChain pages use The LangChain Team and consistent 2024a/b labels",
+    "actual": "The LangChain Team (2024a, January 23) / (2024b, December 14)",
+    "result": "PASS",
+    "before": "Original records use LangChain Team vs The LangChain Team"
+  },
+  {
+    "test": "natbib_prenote_postnote",
+    "expected": "(see Alpha & Beta, 2020, p. 12) / Alpha and Beta (2020, p. 12)",
+    "actual": "(see Alpha & Beta, 2020, p. 12). / Alpha and Beta (2020, p. 12).",
+    "result": "PASS",
+    "before": null
+  },
+  {
+    "test": "real_author_list_20",
+    "expected": "20: all names; 31: first 19 plus last, ellipsis and no final &",
+    "actual": "Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J., & Lowe, R. ",
+    "result": "PASS",
+    "before": null
+  },
+  {
+    "test": "real_author_list_31",
+    "expected": "20: all names; 31: first 19 plus last, ellipsis and no final &",
+    "actual": "Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D., Wu, J., Winter, C., ... Amodei, D. ",
+    "result": "PASS",
+    "before": null
+  }
+]

@@ -1,0 +1,35 @@
+\documentclass[a4paper,fleqn]{cas-dc}
+\input{eswa-apa-config.tex}
+\addbibresource{types_fixed.bib}
+\usepackage{hyperref}
+\newcommand{\restoretestcolumns}{%
+  \normalfont\setlength{\columnsep}{18pt}%
+  \setlength{\columnwidth}{\dimexpr(\textwidth-\columnsep)/2\relax}%
+  \setlength{\hsize}{\columnwidth}\setlength{\linewidth}{\columnwidth}}
+\begin{document}
+\let\WriteBookmarks\relax
+\renewcommand{\printorcid}{}
+\title{Isolated APA seventh edition compatibility test}
+\shorttitle{Isolated APA test}\shortauthors{Test}
+\begin{abstract}This isolated test contains bibliographic boundary cases.
+It is not part of the manuscript and is not a submission document.\end{abstract}
+\maketitle\restoretestcolumns
+\setlength{\emergencystretch}{1em}
+\section{Real-record type tests}
+\noindent TYPE wooldridge1995intelligent: \citep{wooldridge1995intelligent}.\par
+\noindent TYPE minsky1988society: \citep{minsky1988society}.\par
+\noindent TYPE openai2023gpt4: \citep{openai2023gpt4}.\par
+\noindent TYPE chen2024reconcile: \citep{chen2024reconcile}.\par
+\noindent TYPE brown2020gpt3: \citep{brown2020gpt3}.\par
+\noindent TYPE ouyang2022instructgpt: \citep{ouyang2022instructgpt}.\par
+\noindent TYPE anthropic2024mcp: \citep{anthropic2024mcp}.\par
+\noindent TYPE google2025a2a: \citep{google2025a2a}.\par
+\noindent TYPE langgraph2024: \citep{langgraph2024}.\par
+\noindent TYPE langgraph2024interrupt: \citep{langgraph2024interrupt}.\par
+\noindent TYPE crewai2023: \citep{crewai2023}.\par
+\noindent TYPE dify2024: \citep{dify2024}.\par
+\noindent TYPE ragflow2024: \citep{ragflow2024}.\par
+\nocite{*}
+
+\printbibliography
+\end{document}

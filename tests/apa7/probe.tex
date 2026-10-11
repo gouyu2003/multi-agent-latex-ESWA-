@@ -1,0 +1,34 @@
+\documentclass[a4paper,fleqn]{cas-dc}
+\input{eswa-apa-config.tex}
+\addbibresource{probe.bib}
+\usepackage{hyperref}
+\newcommand{\restoretestcolumns}{%
+  \normalfont\setlength{\columnsep}{18pt}%
+  \setlength{\columnwidth}{\dimexpr(\textwidth-\columnsep)/2\relax}%
+  \setlength{\hsize}{\columnwidth}\setlength{\linewidth}{\columnwidth}}
+\begin{document}
+\let\WriteBookmarks\relax
+\renewcommand{\printorcid}{}
+\title{Isolated APA seventh edition compatibility test}
+\shorttitle{Isolated APA test}\shortauthors{Test}
+\begin{abstract}This isolated test contains bibliographic boundary cases.
+It is not part of the manuscript and is not a submission document.\end{abstract}
+\maketitle\restoretestcolumns
+\setlength{\emergencystretch}{1em}
+\section{Original fourteen gates}
+TWO-P: \citep{two}.\par
+TWO-T: \citet{two}.\par
+THREE-FIRST: \citep{three}.\par
+IDENTICAL: \citep{identicalB,identicalA}.\par
+INITIALS: \citep{chen2024agentverse,chen2024reconcile}.\par
+YAO: \citep{yao2023react,yao2023tree_of_thoughts}.\par
+FINAL-P: \citep{lastA,lastB}.\par
+FINAL-T: \citet{lastA,lastB}.\par
+CORPORATE: \citep{corporate}.\par
+NOTES: \citep[see][p.~12]{two}.\par
+ALT: \citealp{two}.\par
+TEXT-NOTES: \citet[p.~12]{two}.\par
+\nocite{*}
+
+\printbibliography
+\end{document}

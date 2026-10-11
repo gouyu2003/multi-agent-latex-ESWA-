@@ -6,6 +6,8 @@
 *.lof
 *.lot
 *.blg
+*.bcf
+*.run.xml
 *.fls
 *.fdb_latexmk
 *.synctex*

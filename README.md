@@ -26,12 +26,20 @@ With a working local LaTeX installation, compile from the repository root:
 
 ```text
 pdflatex manuscript.tex
-bibtex manuscript
+biber manuscript
 pdflatex manuscript.tex
 pdflatex manuscript.tex
 ```
 
-The repository setup does not compile or validate the manuscript. Generated
+The APA migration uses `biblatex-apa` with the project configuration in
+`eswa-apa-config.tex` and a reviewed per-record source map. The original
+`references.bib` remains unchanged. To avoid loading an old BibTeX `.bbl`, use
+`powershell -File build.ps1` for a separate build directory and the complete
+four-stage build. `latexmk -pdf manuscript.tex` uses the project `.latexmkrc`.
+Validated dependencies: TeX Live 2026, biblatex 3.22a, biblatex-apa 9.20, Biber
+2.22, babel and csquotes. Biber and biblatex versions must be compatible.
+
+Generated
 `manuscript.pdf`, `manuscript.bbl`, LaTeX auxiliary files, `tmp/` previews, and
 Python bytecode are ignored. They remain available locally; submission packages
 can include generated outputs separately. Figure PDFs are tracked.

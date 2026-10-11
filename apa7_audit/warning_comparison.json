@@ -1,0 +1,22 @@
+{
+  "before": {
+    "overfull": [
+      "Overfull \\hbox (123.62721pt too wide) detected at line 102",
+      "Overfull \\hbox (0.76843pt too wide) in paragraph at lines 595--595",
+      "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2132--2139",
+      "Overfull \\hbox (0.92711pt too wide) in paragraph at lines 77--91"
+    ],
+    "underfull_count": 125,
+    "warnings": []
+  },
+  "after": {
+    "overfull": [
+      "Overfull \\hbox (123.62721pt too wide) detected at line 102",
+      "Overfull \\hbox (0.76843pt too wide) in paragraph at lines 595--595",
+      "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2132--2139"
+    ],
+    "underfull_count": 69,
+    "warnings": []
+  },
+  "biber_warnings": []
+}

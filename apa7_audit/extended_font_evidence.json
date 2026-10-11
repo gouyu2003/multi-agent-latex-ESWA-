@@ -1,0 +1,66 @@
+{
+  "Society": [
+    {
+      "text": "Society",
+      "font": "STIXGeneral-Italic"
+    },
+    {
+      "text": "simonandschuster . com / books / Society - Of - Mind / Marvin -",
+      "font": "STIXGeneral-Regular"
+    }
+  ],
+  "GPT-4": [
+    {
+      "text": " GPT-4 technical report",
+      "font": "STIXGeneral-Italic"
+    }
+  ],
+  "LangGraph:": [
+    {
+      "text": " LangGraph: Multi-agent work-",
+      "font": "STIXGeneral-Italic"
+    }
+  ],
+  "Introducing": [
+    {
+      "text": " Introducing the Model Context Protocol",
+      "font": "STIXGeneral-Italic"
+    }
+  ],
+  "Announcing": [
+    {
+      "text": " Announcing",
+      "font": "STIXGeneral-Italic"
+    }
+  ],
+  "Making": [
+    {
+      "text": "Making",
+      "font": "STIXGeneral-Italic"
+    }
+  ],
+  "CrewAI:": [
+    {
+      "text": " CrewAI: Framework for orchestrating role-playing, au-",
+      "font": "STIXGeneral-Italic"
+    }
+  ],
+  "Dify:": [
+    {
+      "text": "Dify:",
+      "font": "STIXGeneral-Italic"
+    }
+  ],
+  "RAGFlow:": [
+    {
+      "text": " RAGFlow: An open-source RAG engine based on deep",
+      "font": "STIXGeneral-Italic"
+    }
+  ],
+  "Proceedings": [
+    {
+      "text": "Proceedings",
+      "font": "STIXGeneral-Italic"
+    }
+  ]
+}

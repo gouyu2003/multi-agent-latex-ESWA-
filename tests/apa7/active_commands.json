@@ -1,0 +1,1270 @@
+[
+  {
+    "index": 1,
+    "command": "citep",
+    "keys": [
+      "brown2020gpt3"
+    ],
+    "raw": "\\citep{brown2020gpt3}",
+    "source_line": 134
+  },
+  {
+    "index": 2,
+    "command": "citep",
+    "keys": [
+      "openai2023gpt4"
+    ],
+    "raw": "\\citep{openai2023gpt4}",
+    "source_line": 134
+  },
+  {
+    "index": 3,
+    "command": "citep",
+    "keys": [
+      "minsky1988society"
+    ],
+    "raw": "\\citep{minsky1988society}",
+    "source_line": 149
+  },
+  {
+    "index": 4,
+    "command": "citep",
+    "keys": [
+      "wooldridge1995intelligent"
+    ],
+    "raw": "\\citep{wooldridge1995intelligent}",
+    "source_line": 150
+  },
+  {
+    "index": 5,
+    "command": "citep",
+    "keys": [
+      "wu2024autogen"
+    ],
+    "raw": "\\citep{wu2024autogen}",
+    "source_line": 152
+  },
+  {
+    "index": 6,
+    "command": "citep",
+    "keys": [
+      "hong2024metagpt"
+    ],
+    "raw": "\\citep{hong2024metagpt}",
+    "source_line": 153
+  },
+  {
+    "index": 7,
+    "command": "citep",
+    "keys": [
+      "du2024multiagent_debate"
+    ],
+    "raw": "\\citep{du2024multiagent_debate}",
+    "source_line": 155
+  },
+  {
+    "index": 8,
+    "command": "citep",
+    "keys": [
+      "guo2024llm_multiagent_survey",
+      "tran2025multiagent_survey",
+      "wang2024survey_autonomous_agents"
+    ],
+    "raw": "\\citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents}",
+    "source_line": 161
+  },
+  {
+    "index": 9,
+    "command": "citep",
+    "keys": [
+      "chen2024reconcile"
+    ],
+    "raw": "\\citep{chen2024reconcile}",
+    "source_line": 218
+  },
+  {
+    "index": 10,
+    "command": "citep",
+    "keys": [
+      "zhang2024chain_agents"
+    ],
+    "raw": "\\citep{zhang2024chain_agents}",
+    "source_line": 218
+  },
+  {
+    "index": 11,
+    "command": "citep",
+    "keys": [
+      "jiang2026cocoa"
+    ],
+    "raw": "\\citep{jiang2026cocoa}",
+    "source_line": 219
+  },
+  {
+    "index": 12,
+    "command": "citep",
+    "keys": [
+      "karpukhin2020dpr"
+    ],
+    "raw": "\\citep{karpukhin2020dpr}",
+    "source_line": 276
+  },
+  {
+    "index": 13,
+    "command": "citep",
+    "keys": [
+      "lewis2020rag"
+    ],
+    "raw": "\\citep{lewis2020rag}",
+    "source_line": 276
+  },
+  {
+    "index": 14,
+    "command": "citep",
+    "keys": [
+      "yang2018hotpotqa"
+    ],
+    "raw": "\\citep{yang2018hotpotqa}",
+    "source_line": 279
+  },
+  {
+    "index": 15,
+    "command": "citep",
+    "keys": [
+      "kwiatkowski2019natural_questions"
+    ],
+    "raw": "\\citep{kwiatkowski2019natural_questions}",
+    "source_line": 280
+  },
+  {
+    "index": 16,
+    "command": "citep",
+    "keys": [
+      "reddy2019coqa"
+    ],
+    "raw": "\\citep{reddy2019coqa}",
+    "source_line": 281
+  },
+  {
+    "index": 17,
+    "command": "citep",
+    "keys": [
+      "choi2018quac"
+    ],
+    "raw": "\\citep{choi2018quac}",
+    "source_line": 282
+  },
+  {
+    "index": 18,
+    "command": "citep",
+    "keys": [
+      "yao2023react"
+    ],
+    "raw": "\\citep{yao2023react}",
+    "source_line": 299
+  },
+  {
+    "index": 19,
+    "command": "citep",
+    "keys": [
+      "vaswani2017attention"
+    ],
+    "raw": "\\citep{vaswani2017attention}",
+    "source_line": 313
+  },
+  {
+    "index": 20,
+    "command": "citep",
+    "keys": [
+      "devlin2019bert"
+    ],
+    "raw": "\\citep{devlin2019bert}",
+    "source_line": 315
+  },
+  {
+    "index": 21,
+    "command": "citep",
+    "keys": [
+      "brown2020gpt3"
+    ],
+    "raw": "\\citep{brown2020gpt3}",
+    "source_line": 316
+  },
+  {
+    "index": 22,
+    "command": "citep",
+    "keys": [
+      "openai2023gpt4"
+    ],
+    "raw": "\\citep{openai2023gpt4}",
+    "source_line": 317
+  },
+  {
+    "index": 23,
+    "command": "citep",
+    "keys": [
+      "touvron2023llama"
+    ],
+    "raw": "\\citep{touvron2023llama}",
+    "source_line": 318
+  },
+  {
+    "index": 24,
+    "command": "citep",
+    "keys": [
+      "glm2024chatglm"
+    ],
+    "raw": "\\citep{glm2024chatglm}",
+    "source_line": 319
+  },
+  {
+    "index": 25,
+    "command": "citep",
+    "keys": [
+      "ouyang2022instructgpt"
+    ],
+    "raw": "\\citep{ouyang2022instructgpt}",
+    "source_line": 321
+  },
+  {
+    "index": 26,
+    "command": "citep",
+    "keys": [
+      "minsky1988society"
+    ],
+    "raw": "\\citep{minsky1988society}",
+    "source_line": 369
+  },
+  {
+    "index": 27,
+    "command": "citep",
+    "keys": [
+      "park2023generative_agents"
+    ],
+    "raw": "\\citep{park2023generative_agents}",
+    "source_line": 371
+  },
+  {
+    "index": 28,
+    "command": "citep",
+    "keys": [
+      "hong2024metagpt"
+    ],
+    "raw": "\\citep{hong2024metagpt}",
+    "source_line": 376
+  },
+  {
+    "index": 29,
+    "command": "citep",
+    "keys": [
+      "li2023camel"
+    ],
+    "raw": "\\citep{li2023camel}",
+    "source_line": 377
+  },
+  {
+    "index": 30,
+    "command": "citep",
+    "keys": [
+      "zhao2024longagent",
+      "zhang2024chain_agents"
+    ],
+    "raw": "\\citep{zhao2024longagent,zhang2024chain_agents}",
+    "source_line": 388
+  },
+  {
+    "index": 31,
+    "command": "citep",
+    "keys": [
+      "du2024multiagent_debate",
+      "chen2024reconcile",
+      "xiong2023inter_consistency"
+    ],
+    "raw": "\\citep{du2024multiagent_debate,chen2024reconcile,\nxiong2023inter_consistency}",
+    "source_line": 395
+  },
+  {
+    "index": 32,
+    "command": "citet",
+    "keys": [
+      "du2024multiagent_debate"
+    ],
+    "raw": "\\citet{du2024multiagent_debate}",
+    "source_line": 449
+  },
+  {
+    "index": 33,
+    "command": "citep",
+    "keys": [
+      "liang2024divergent_debate"
+    ],
+    "raw": "\\citep{liang2024divergent_debate}",
+    "source_line": 449
+  },
+  {
+    "index": 34,
+    "command": "citep",
+    "keys": [
+      "chen2024reconcile"
+    ],
+    "raw": "\\citep{chen2024reconcile}",
+    "source_line": 449
+  },
+  {
+    "index": 35,
+    "command": "citep",
+    "keys": [
+      "xiong2023inter_consistency"
+    ],
+    "raw": "\\citep{xiong2023inter_consistency}",
+    "source_line": 449
+  },
+  {
+    "index": 36,
+    "command": "citep",
+    "keys": [
+      "li2023camel"
+    ],
+    "raw": "\\citep{li2023camel}",
+    "source_line": 454
+  },
+  {
+    "index": 37,
+    "command": "citep",
+    "keys": [
+      "wu2024autogen"
+    ],
+    "raw": "\\citep{wu2024autogen}",
+    "source_line": 459
+  },
+  {
+    "index": 38,
+    "command": "citep",
+    "keys": [
+      "hong2024metagpt"
+    ],
+    "raw": "\\citep{hong2024metagpt}",
+    "source_line": 474
+  },
+  {
+    "index": 39,
+    "command": "citep",
+    "keys": [
+      "qian2023chatdev"
+    ],
+    "raw": "\\citep{qian2023chatdev}",
+    "source_line": 475
+  },
+  {
+    "index": 40,
+    "command": "citep",
+    "keys": [
+      "zhao2024longagent"
+    ],
+    "raw": "\\citep{zhao2024longagent}",
+    "source_line": 484
+  },
+  {
+    "index": 41,
+    "command": "citep",
+    "keys": [
+      "zhang2024chain_agents"
+    ],
+    "raw": "\\citep{zhang2024chain_agents}",
+    "source_line": 485
+  },
+  {
+    "index": 42,
+    "command": "citep",
+    "keys": [
+      "jiang2026cocoa"
+    ],
+    "raw": "\\citep{jiang2026cocoa}",
+    "source_line": 487
+  },
+  {
+    "index": 43,
+    "command": "citep",
+    "keys": [
+      "shen2024hugginggpt"
+    ],
+    "raw": "\\citep{shen2024hugginggpt}",
+    "source_line": 491
+  },
+  {
+    "index": 44,
+    "command": "citep",
+    "keys": [
+      "langgraph2024"
+    ],
+    "raw": "\\citep{langgraph2024}",
+    "source_line": 507
+  },
+  {
+    "index": 45,
+    "command": "citep",
+    "keys": [
+      "zhuge2024gptswarm"
+    ],
+    "raw": "\\citep{zhuge2024gptswarm}",
+    "source_line": 507
+  },
+  {
+    "index": 46,
+    "command": "citep",
+    "keys": [
+      "chen2024agentverse"
+    ],
+    "raw": "\\citep{chen2024agentverse}",
+    "source_line": 513
+  },
+  {
+    "index": 47,
+    "command": "citep",
+    "keys": [
+      "kim2024mdagents"
+    ],
+    "raw": "\\citep{kim2024mdagents}",
+    "source_line": 516
+  },
+  {
+    "index": 48,
+    "command": "citep",
+    "keys": [
+      "langgraph2024interrupt"
+    ],
+    "raw": "\\citep{langgraph2024interrupt}",
+    "source_line": 526
+  },
+  {
+    "index": 49,
+    "command": "citet",
+    "keys": [
+      "du2024multiagent_debate"
+    ],
+    "raw": "\\citet{du2024multiagent_debate}",
+    "source_line": 587
+  },
+  {
+    "index": 50,
+    "command": "citep",
+    "keys": [
+      "li2023camel"
+    ],
+    "raw": "\\citep{li2023camel}",
+    "source_line": 591
+  },
+  {
+    "index": 51,
+    "command": "citep",
+    "keys": [
+      "wu2024autogen"
+    ],
+    "raw": "\\citep{wu2024autogen}",
+    "source_line": 595
+  },
+  {
+    "index": 52,
+    "command": "citep",
+    "keys": [
+      "hong2024metagpt"
+    ],
+    "raw": "\\citep{hong2024metagpt}",
+    "source_line": 601
+  },
+  {
+    "index": 53,
+    "command": "citep",
+    "keys": [
+      "zhao2024longagent",
+      "zhang2024chain_agents",
+      "jiang2026cocoa"
+    ],
+    "raw": "\\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa}",
+    "source_line": 606
+  },
+  {
+    "index": 54,
+    "command": "citep",
+    "keys": [
+      "zhuge2024gptswarm",
+      "langgraph2024"
+    ],
+    "raw": "\\citep{zhuge2024gptswarm,langgraph2024}",
+    "source_line": 614
+  },
+  {
+    "index": 55,
+    "command": "citep",
+    "keys": [
+      "kim2024mdagents"
+    ],
+    "raw": "\\citep{kim2024mdagents}",
+    "source_line": 618
+  },
+  {
+    "index": 56,
+    "command": "citep",
+    "keys": [
+      "langgraph2024interrupt"
+    ],
+    "raw": "\\citep{langgraph2024interrupt}",
+    "source_line": 622
+  },
+  {
+    "index": 57,
+    "command": "citep",
+    "keys": [
+      "han2024mast"
+    ],
+    "raw": "\\citep{han2024mast}",
+    "source_line": 672
+  },
+  {
+    "index": 58,
+    "command": "citep",
+    "keys": [
+      "peffers2007dsrm"
+    ],
+    "raw": "\\citep{peffers2007dsrm}",
+    "source_line": 695
+  },
+  {
+    "index": 59,
+    "command": "citep",
+    "keys": [
+      "tang2024medagents"
+    ],
+    "raw": "\\citep{tang2024medagents}",
+    "source_line": 760
+  },
+  {
+    "index": 60,
+    "command": "citep",
+    "keys": [
+      "tang2025llmmedqa"
+    ],
+    "raw": "\\citep{tang2025llmmedqa}",
+    "source_line": 761
+  },
+  {
+    "index": 61,
+    "command": "citep",
+    "keys": [
+      "legalgraphrag2026"
+    ],
+    "raw": "\\citep{legalgraphrag2026}",
+    "source_line": 762
+  },
+  {
+    "index": 62,
+    "command": "citep",
+    "keys": [
+      "hu2024triad"
+    ],
+    "raw": "\\citep{hu2024triad}",
+    "source_line": 763
+  },
+  {
+    "index": 63,
+    "command": "citep",
+    "keys": [
+      "zhao2024longagent"
+    ],
+    "raw": "\\citep{zhao2024longagent}",
+    "source_line": 764
+  },
+  {
+    "index": 64,
+    "command": "citep",
+    "keys": [
+      "qian2023chatdev"
+    ],
+    "raw": "\\citep{qian2023chatdev}",
+    "source_line": 765
+  },
+  {
+    "index": 65,
+    "command": "citep",
+    "keys": [
+      "huang2023agentcoder"
+    ],
+    "raw": "\\citep{huang2023agentcoder}",
+    "source_line": 766
+  },
+  {
+    "index": 66,
+    "command": "citep",
+    "keys": [
+      "du2024multiagent_debate"
+    ],
+    "raw": "\\citep{du2024multiagent_debate}",
+    "source_line": 767
+  },
+  {
+    "index": 67,
+    "command": "citep",
+    "keys": [
+      "zhang2024eduplanner"
+    ],
+    "raw": "\\citep{zhang2024eduplanner}",
+    "source_line": 768
+  },
+  {
+    "index": 68,
+    "command": "citep",
+    "keys": [
+      "fatemi2024financialqa"
+    ],
+    "raw": "\\citep{fatemi2024financialqa}",
+    "source_line": 769
+  },
+  {
+    "index": 69,
+    "command": "citep",
+    "keys": [
+      "wu2024autogen"
+    ],
+    "raw": "\\citep{wu2024autogen}",
+    "source_line": 836
+  },
+  {
+    "index": 70,
+    "command": "citep",
+    "keys": [
+      "qian2023chatdev"
+    ],
+    "raw": "\\citep{qian2023chatdev}",
+    "source_line": 839
+  },
+  {
+    "index": 71,
+    "command": "citep",
+    "keys": [
+      "anthropic2024mcp"
+    ],
+    "raw": "\\citep{anthropic2024mcp}",
+    "source_line": 855
+  },
+  {
+    "index": 72,
+    "command": "citep",
+    "keys": [
+      "google2025a2a"
+    ],
+    "raw": "\\citep{google2025a2a}",
+    "source_line": 856
+  },
+  {
+    "index": 73,
+    "command": "citep",
+    "keys": [
+      "wu2024autogen",
+      "qian2023chatdev",
+      "anthropic2024mcp",
+      "google2025a2a"
+    ],
+    "raw": "\\citep{wu2024autogen,qian2023chatdev,anthropic2024mcp,google2025a2a}",
+    "source_line": 875
+  },
+  {
+    "index": 74,
+    "command": "citep",
+    "keys": [
+      "zhou2023least_to_most"
+    ],
+    "raw": "\\citep{zhou2023least_to_most}",
+    "source_line": 896
+  },
+  {
+    "index": 75,
+    "command": "citep",
+    "keys": [
+      "khot2023decomposed_prompting"
+    ],
+    "raw": "\\citep{khot2023decomposed_prompting}",
+    "source_line": 897
+  },
+  {
+    "index": 76,
+    "command": "citep",
+    "keys": [
+      "wang2023plan_and_solve"
+    ],
+    "raw": "\\citep{wang2023plan_and_solve}",
+    "source_line": 899
+  },
+  {
+    "index": 77,
+    "command": "citep",
+    "keys": [
+      "hong2024metagpt"
+    ],
+    "raw": "\\citep{hong2024metagpt}",
+    "source_line": 920
+  },
+  {
+    "index": 78,
+    "command": "citep",
+    "keys": [
+      "chen2024agentverse"
+    ],
+    "raw": "\\citep{chen2024agentverse}",
+    "source_line": 922
+  },
+  {
+    "index": 79,
+    "command": "citep",
+    "keys": [
+      "khattab2024dspy"
+    ],
+    "raw": "\\citep{khattab2024dspy}",
+    "source_line": 930
+  },
+  {
+    "index": 80,
+    "command": "citep",
+    "keys": [
+      "zhou2023least_to_most",
+      "khot2023decomposed_prompting",
+      "wang2023plan_and_solve",
+      "hong2024metagpt",
+      "chen2024agentverse"
+    ],
+    "raw": "\\citep{zhou2023least_to_most,khot2023decomposed_prompting,\nwang2023plan_and_solve,hong2024metagpt,chen2024agentverse}",
+    "source_line": 939
+  },
+  {
+    "index": 81,
+    "command": "citep",
+    "keys": [
+      "khattab2024dspy"
+    ],
+    "raw": "\\citep{khattab2024dspy}",
+    "source_line": 949
+  },
+  {
+    "index": 82,
+    "command": "citep",
+    "keys": [
+      "packer2023memgpt"
+    ],
+    "raw": "\\citep{packer2023memgpt}",
+    "source_line": 997
+  },
+  {
+    "index": 83,
+    "command": "citep",
+    "keys": [
+      "zhang2024memory_survey"
+    ],
+    "raw": "\\citep{zhang2024memory_survey}",
+    "source_line": 1007
+  },
+  {
+    "index": 84,
+    "command": "citep",
+    "keys": [
+      "lewis2020rag",
+      "gao2024rag_survey"
+    ],
+    "raw": "\\citep{lewis2020rag,gao2024rag_survey}",
+    "source_line": 1009
+  },
+  {
+    "index": 85,
+    "command": "citep",
+    "keys": [
+      "asai2024selfrag"
+    ],
+    "raw": "\\citep{asai2024selfrag}",
+    "source_line": 1024
+  },
+  {
+    "index": 86,
+    "command": "citep",
+    "keys": [
+      "jiang2023active_rag"
+    ],
+    "raw": "\\citep{jiang2023active_rag}",
+    "source_line": 1025
+  },
+  {
+    "index": 87,
+    "command": "citep",
+    "keys": [
+      "packer2023memgpt",
+      "lewis2020rag",
+      "gao2024rag_survey",
+      "asai2024selfrag",
+      "jiang2023active_rag"
+    ],
+    "raw": "\\citep{packer2023memgpt,lewis2020rag,gao2024rag_survey,asai2024selfrag,\njiang2023active_rag}",
+    "source_line": 1037
+  },
+  {
+    "index": 88,
+    "command": "citep",
+    "keys": [
+      "wei2022chain_of_thought"
+    ],
+    "raw": "\\citep{wei2022chain_of_thought}",
+    "source_line": 1056
+  },
+  {
+    "index": 89,
+    "command": "citep",
+    "keys": [
+      "wang2023self_consistency"
+    ],
+    "raw": "\\citep{wang2023self_consistency}",
+    "source_line": 1059
+  },
+  {
+    "index": 90,
+    "command": "citep",
+    "keys": [
+      "du2024multiagent_debate",
+      "chen2024reconcile"
+    ],
+    "raw": "\\citep{du2024multiagent_debate,chen2024reconcile}",
+    "source_line": 1064
+  },
+  {
+    "index": 91,
+    "command": "citep",
+    "keys": [
+      "zhang2024chain_agents"
+    ],
+    "raw": "\\citep{zhang2024chain_agents}",
+    "source_line": 1085
+  },
+  {
+    "index": 92,
+    "command": "citep",
+    "keys": [
+      "yao2023tree_of_thoughts"
+    ],
+    "raw": "\\citep{yao2023tree_of_thoughts}",
+    "source_line": 1087
+  },
+  {
+    "index": 93,
+    "command": "citep",
+    "keys": [
+      "besta2024graph_of_thoughts"
+    ],
+    "raw": "\\citep{besta2024graph_of_thoughts}",
+    "source_line": 1088
+  },
+  {
+    "index": 94,
+    "command": "citep",
+    "keys": [
+      "zhao2024longagent"
+    ],
+    "raw": "\\citep{zhao2024longagent}",
+    "source_line": 1092
+  },
+  {
+    "index": 95,
+    "command": "citep",
+    "keys": [
+      "shinn2023reflexion"
+    ],
+    "raw": "\\citep{shinn2023reflexion}",
+    "source_line": 1102
+  },
+  {
+    "index": 96,
+    "command": "citep",
+    "keys": [
+      "madaan2023self_refine"
+    ],
+    "raw": "\\citep{madaan2023self_refine}",
+    "source_line": 1104
+  },
+  {
+    "index": 97,
+    "command": "citep",
+    "keys": [
+      "dhuliawala2023chain_of_verification"
+    ],
+    "raw": "\\citep{dhuliawala2023chain_of_verification}",
+    "source_line": 1106
+  },
+  {
+    "index": 98,
+    "command": "citep",
+    "keys": [
+      "wang2023self_consistency",
+      "du2024multiagent_debate",
+      "zhang2024chain_agents",
+      "shinn2023reflexion",
+      "madaan2023self_refine",
+      "dhuliawala2023chain_of_verification"
+    ],
+    "raw": "\\citep{wang2023self_consistency,du2024multiagent_debate,\nzhang2024chain_agents,shinn2023reflexion,madaan2023self_refine,\ndhuliawala2023chain_of_verification}",
+    "source_line": 1115
+  },
+  {
+    "index": 99,
+    "command": "citep",
+    "keys": [
+      "anthropic2024mcp"
+    ],
+    "raw": "\\citep{anthropic2024mcp}",
+    "source_line": 1619
+  },
+  {
+    "index": 100,
+    "command": "citep",
+    "keys": [
+      "wu2024autogen",
+      "crewai2023",
+      "hong2024metagpt"
+    ],
+    "raw": "\\citep{wu2024autogen,crewai2023,hong2024metagpt}",
+    "source_line": 1631
+  },
+  {
+    "index": 101,
+    "command": "citep",
+    "keys": [
+      "li2023camel",
+      "qian2023chatdev",
+      "hong2024metagpt"
+    ],
+    "raw": "\\citep{li2023camel,qian2023chatdev,hong2024metagpt}",
+    "source_line": 1635
+  },
+  {
+    "index": 102,
+    "command": "citep",
+    "keys": [
+      "wu2024autogen",
+      "duan2024langgraph_crewai",
+      "chen2024agentverse"
+    ],
+    "raw": "\\citep{wu2024autogen,duan2024langgraph_crewai,\nchen2024agentverse}",
+    "source_line": 1638
+  },
+  {
+    "index": 103,
+    "command": "citep",
+    "keys": [
+      "zhuge2024gptswarm",
+      "khattab2024dspy"
+    ],
+    "raw": "\\citep{zhuge2024gptswarm,khattab2024dspy}",
+    "source_line": 1642
+  },
+  {
+    "index": 104,
+    "command": "citep",
+    "keys": [
+      "li2023camel"
+    ],
+    "raw": "\\citep{li2023camel}",
+    "source_line": 1669
+  },
+  {
+    "index": 105,
+    "command": "citep",
+    "keys": [
+      "qian2023chatdev"
+    ],
+    "raw": "\\citep{qian2023chatdev}",
+    "source_line": 1674
+  },
+  {
+    "index": 106,
+    "command": "citep",
+    "keys": [
+      "hong2024metagpt"
+    ],
+    "raw": "\\citep{hong2024metagpt}",
+    "source_line": 1679
+  },
+  {
+    "index": 107,
+    "command": "citep",
+    "keys": [
+      "wu2024autogen"
+    ],
+    "raw": "\\citep{wu2024autogen}",
+    "source_line": 1684
+  },
+  {
+    "index": 108,
+    "command": "citep",
+    "keys": [
+      "chen2024agentverse"
+    ],
+    "raw": "\\citep{chen2024agentverse}",
+    "source_line": 1689
+  },
+  {
+    "index": 109,
+    "command": "citep",
+    "keys": [
+      "langgraph2024",
+      "langgraph2024interrupt"
+    ],
+    "raw": "\\citep{langgraph2024,langgraph2024interrupt}",
+    "source_line": 1694
+  },
+  {
+    "index": 110,
+    "command": "citep",
+    "keys": [
+      "zhuge2024gptswarm"
+    ],
+    "raw": "\\citep{zhuge2024gptswarm}",
+    "source_line": 1699
+  },
+  {
+    "index": 111,
+    "command": "citep",
+    "keys": [
+      "khattab2024dspy"
+    ],
+    "raw": "\\citep{khattab2024dspy}",
+    "source_line": 1704
+  },
+  {
+    "index": 112,
+    "command": "citep",
+    "keys": [
+      "anthropic2024mcp"
+    ],
+    "raw": "\\citep{anthropic2024mcp}",
+    "source_line": 1728
+  },
+  {
+    "index": 113,
+    "command": "citep",
+    "keys": [
+      "shao2024storm"
+    ],
+    "raw": "\\citep{shao2024storm}",
+    "source_line": 1768
+  },
+  {
+    "index": 114,
+    "command": "citep",
+    "keys": [
+      "shao2024costorm"
+    ],
+    "raw": "\\citep{shao2024costorm}",
+    "source_line": 1772
+  },
+  {
+    "index": 115,
+    "command": "citep",
+    "keys": [
+      "ragflow2024"
+    ],
+    "raw": "\\citep{ragflow2024}",
+    "source_line": 1786
+  },
+  {
+    "index": 116,
+    "command": "citep",
+    "keys": [
+      "yang2018hotpotqa"
+    ],
+    "raw": "\\citep{yang2018hotpotqa}",
+    "source_line": 1852
+  },
+  {
+    "index": 117,
+    "command": "citep",
+    "keys": [
+      "reddy2019coqa"
+    ],
+    "raw": "\\citep{reddy2019coqa}",
+    "source_line": 1854
+  },
+  {
+    "index": 118,
+    "command": "citep",
+    "keys": [
+      "hendrycks2021mmlu"
+    ],
+    "raw": "\\citep{hendrycks2021mmlu}",
+    "source_line": 1855
+  },
+  {
+    "index": 119,
+    "command": "citep",
+    "keys": [
+      "trivedi2022musique"
+    ],
+    "raw": "\\citep{trivedi2022musique}",
+    "source_line": 1857
+  },
+  {
+    "index": 120,
+    "command": "citep",
+    "keys": [
+      "liu2024agentbench"
+    ],
+    "raw": "\\citep{liu2024agentbench}",
+    "source_line": 1863
+  },
+  {
+    "index": 121,
+    "command": "citep",
+    "keys": [
+      "mialon2024gaia"
+    ],
+    "raw": "\\citep{mialon2024gaia}",
+    "source_line": 1865
+  },
+  {
+    "index": 122,
+    "command": "citep",
+    "keys": [
+      "zhou2024webarena"
+    ],
+    "raw": "\\citep{zhou2024webarena}",
+    "source_line": 1866
+  },
+  {
+    "index": 123,
+    "command": "citep",
+    "keys": [
+      "autorag2024"
+    ],
+    "raw": "\\citep{autorag2024}",
+    "source_line": 1898
+  },
+  {
+    "index": 124,
+    "command": "citep",
+    "keys": [
+      "zhang2024eduplanner"
+    ],
+    "raw": "\\citep{zhang2024eduplanner}",
+    "source_line": 1946
+  },
+  {
+    "index": 125,
+    "command": "citep",
+    "keys": [
+      "fatemi2024financialqa"
+    ],
+    "raw": "\\citep{fatemi2024financialqa}",
+    "source_line": 1948
+  },
+  {
+    "index": 126,
+    "command": "citep",
+    "keys": [
+      "qian2024scaling_multiagent"
+    ],
+    "raw": "\\citep{qian2024scaling_multiagent}",
+    "source_line": 1966
+  },
+  {
+    "index": 127,
+    "command": "citep",
+    "keys": [
+      "hendrycks2021mmlu",
+      "yang2018hotpotqa",
+      "liu2024agentbench",
+      "mialon2024gaia"
+    ],
+    "raw": "\\citep{hendrycks2021mmlu,yang2018hotpotqa,liu2024agentbench,mialon2024gaia}",
+    "source_line": 1993
+  },
+  {
+    "index": 128,
+    "command": "citep",
+    "keys": [
+      "han2024mast"
+    ],
+    "raw": "\\citep{han2024mast}",
+    "source_line": 1999
+  },
+  {
+    "index": 129,
+    "command": "citep",
+    "keys": [
+      "tang2024medagents",
+      "cui2023chatlaw"
+    ],
+    "raw": "\\citep{tang2024medagents,cui2023chatlaw}",
+    "source_line": 2017
+  },
+  {
+    "index": 130,
+    "command": "citep",
+    "keys": [
+      "duan2024langgraph_crewai",
+      "langgraph2024interrupt"
+    ],
+    "raw": "\\citep{duan2024langgraph_crewai,\nlanggraph2024interrupt}",
+    "source_line": 2018
+  },
+  {
+    "index": 131,
+    "command": "citep",
+    "keys": [
+      "wu2024autogen",
+      "langgraph2024",
+      "crewai2023",
+      "dify2024"
+    ],
+    "raw": "\\citep{wu2024autogen,langgraph2024,crewai2023,dify2024}",
+    "source_line": 2063
+  },
+  {
+    "index": 132,
+    "command": "citep",
+    "keys": [
+      "kim2024mdagents"
+    ],
+    "raw": "\\citep{kim2024mdagents}",
+    "source_line": 2075
+  },
+  {
+    "index": 133,
+    "command": "citep",
+    "keys": [
+      "qian2024scaling_multiagent"
+    ],
+    "raw": "\\citep{qian2024scaling_multiagent}",
+    "source_line": 2077
+  },
+  {
+    "index": 134,
+    "command": "citep",
+    "keys": [
+      "han2024mast"
+    ],
+    "raw": "\\citep{han2024mast}",
+    "source_line": 2111
+  },
+  {
+    "index": 135,
+    "command": "citep",
+    "keys": [
+      "zhang2024memory_survey",
+      "shinn2023reflexion"
+    ],
+    "raw": "\\citep{zhang2024memory_survey,shinn2023reflexion}",
+    "source_line": 2146
+  },
+  {
+    "index": 136,
+    "command": "citep",
+    "keys": [
+      "park2023generative_agents",
+      "chen2024agentverse"
+    ],
+    "raw": "\\citep{park2023generative_agents,chen2024agentverse}",
+    "source_line": 2154
+  }
+]

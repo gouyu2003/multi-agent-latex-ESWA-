@@ -1,0 +1,58 @@
+[
+  [
+    "parenthetical_two",
+    "(Alpha & Beta, 2020)"
+  ],
+  [
+    "narrative_two",
+    "Alpha and Beta (2020)"
+  ],
+  [
+    "three_first",
+    "(Gamma et al., 2021)"
+  ],
+  [
+    "corporate",
+    "(Example Institute, 2024)"
+  ],
+  [
+    "reference_20_authors",
+    "Name01 through Name20; final &; no ellipsis"
+  ],
+  [
+    "reference_21_authors",
+    "Name01 through Name19, ellipsis, Name21; no Name20; no & before last"
+  ],
+  [
+    "same_authors_same_year_letters",
+    "Alpha study: 2022a; Beta study: 2022b; matching in-text labels"
+  ],
+  [
+    "doi_precedence",
+    "https://doi.org/10.1000/test; no https://example.invalid/duplicate"
+  ],
+  [
+    "different_first_author_initials",
+    "(J. Chen et al., 2024; W. Chen et al., 2024), no spurious a/b"
+  ],
+  [
+    "et_al_disambiguation",
+    "(Yao, Yu, et al., 2023; Yao, Zhao, et al., 2023), no spurious a/b"
+  ],
+  [
+    "et_al_cannot_replace_one_person",
+    "All four names in both references, & in brackets / and in narrative; no et al. or a/b"
+  ],
+  [
+    "same_year_each_year_repeated",
+    "(Kappa et al., 2022a, 2022b)"
+  ],
+  [
+    "journal_volume_issue",
+    "Test Journal italic; 8 italic; (2) roman with no space after volume; 10–20"
+  ],
+  [
+    "no_period_after_doi",
+    "https://doi.org/10.1000/test with no following full stop"
+  ]
+]

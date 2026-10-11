@@ -1,0 +1,156 @@
+[
+  {
+    "page": 1,
+    "result": "PASS",
+    "note": "CAS 前置信息与摘要为官方版式；正文双栏，无作者身份泄露。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_01.png"
+  },
+  {
+    "page": 2,
+    "result": "PASS",
+    "note": "双栏正文连续，栏目边界清晰。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_02.png"
+  },
+  {
+    "page": 3,
+    "result": "PASS",
+    "note": "图1、图2完整；图1旧84快照及声明为既有受保护内容，未更新。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_03.png"
+  },
+  {
+    "page": 4,
+    "result": "PASS",
+    "note": "表1完整跨栏；前后正文和章节标题正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_04.png"
+  },
+  {
+    "page": 5,
+    "result": "PASS",
+    "note": "图3完整；正文双栏。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_05.png"
+  },
+  {
+    "page": 6,
+    "result": "PASS",
+    "note": "连续正文，引用消歧后换行正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_06.png"
+  },
+  {
+    "page": 7,
+    "result": "PASS",
+    "note": "表2完整；架构选择正文正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_07.png"
+  },
+  {
+    "page": 8,
+    "result": "PASS",
+    "note": "双栏连续；图4自然移至第9页，无空白浮动页。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_08.png"
+  },
+  {
+    "page": 9,
+    "result": "PASS",
+    "note": "图4和表3完整，字幕/注释均显示。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_09.png"
+  },
+  {
+    "page": 10,
+    "result": "PASS",
+    "note": "技术章节及公式正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_10.png"
+  },
+  {
+    "page": 11,
+    "result": "PASS",
+    "note": "正文与公式正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_11.png"
+  },
+  {
+    "page": 12,
+    "result": "PASS",
+    "note": "正文与公式正常；图5前置引用位于本页。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_12.png"
+  },
+  {
+    "page": 13,
+    "result": "PASS",
+    "note": "图5维持0.94textwidth；原图无裁切，字体可读，图注及两栏资源正文对应。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_13.png"
+  },
+  {
+    "page": 14,
+    "result": "PASS",
+    "note": "表4八行六列完整；LangChain a/b引用增加换行但未重叠；后续正文正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_14.png"
+  },
+  {
+    "page": 15,
+    "result": "PASS",
+    "note": "表5完整，正文正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_15.png"
+  },
+  {
+    "page": 16,
+    "result": "PASS",
+    "note": "表6完整；相邻评估及挑战正文正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_16.png"
+  },
+  {
+    "page": 17,
+    "result": "PASS",
+    "note": "后续研究方向双栏连续。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_17.png"
+  },
+  {
+    "page": 18,
+    "result": "PASS",
+    "note": "结论和声明正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_18.png"
+  },
+  {
+    "page": 19,
+    "result": "PASS",
+    "note": "声明接参考文献；两栏悬挂缩进，无覆盖。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_19.png"
+  },
+  {
+    "page": 20,
+    "result": "PASS",
+    "note": "逐条参考文献，期刊/会议/软件字体与链接正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_20.png"
+  },
+  {
+    "page": 21,
+    "result": "PASS",
+    "note": "逐条参考文献；机构作者a/b及网页检索日期正常。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_21.png"
+  },
+  {
+    "page": 22,
+    "result": "PASS",
+    "note": "参考文献自然结束；末页右栏下方余白是条目结束所致，无人为填页。",
+    "outside_page": [],
+    "render": "tmp/apa7_migration/rendered/after_22.png"
+  }
+]

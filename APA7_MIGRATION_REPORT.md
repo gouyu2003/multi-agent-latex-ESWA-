@@ -1,0 +1,217 @@
+# ESWA APA 第七版正式迁移验收报告
+
+**本地迁移及格式输出验证已完成；全部78篇严格合规的最终验收尚未通过：9篇会议论文编辑者/出版者元数据待补证。** 未核实字段停止补填，不以空字段自动宣称不存在，不编造编辑者。当前版本留在 `codex/eswa-apa7-migration`，不合并main、不推送、不投稿、不联系编辑部。
+
+核查日期：2026-10-11。适用本机版本：CAS 2.4（2024-05-04）、TeX Live 2026、pdfLaTeX/pdfTeX 1.40.29、biblatex 3.22a、biblatex-apa 9.20、Biber 2.22、babel[american]、csquotes。
+
+## 1. 基线与保护
+
+迁移前 main 工作区干净。基线提交 `fc20fb7fbd95efaa85efb4bc85a872b4808e02ac`（Archive inactive chapter source files），标签 `codex/eswa-apa7-baseline-20261011`。原PDF与关键文件保存在 `tmp/apa7_migration/baseline/`；原系统还完成了一次新四阶段构建，PDF位于 `tmp/apa7_migration/baseline_build/manuscript.pdf`。基线清单覆盖 249 个原Git文件。
+
+原文献库SHA-256：`ef7c289c90c183c5f72f5484ee31b64d675a0f7a8dbfc325803d1bdc1d7b9a59`；前后完全相同。全部85个键、7条未引用记录、78篇有效引用、136处原始引用命令均保留。正式BBL两个排序上下文各含78条，是APA引用排序数据，不是重复打印；正文参考文献列表78条，无缺失或重复。
+
+正文从begin{document}到文末仅改变参考文献输出命令，其余逐字符一致。原图、尺寸命令、双栏恢复宏、表格设置、官方CAS三个文件、禁用历史章节、原参考文献审计材料均通过原Git文件哈希保护检查。完整结果见 `apa7_audit/scope_validation.json`。
+
+## 2. 文件与流程变化
+
+|文件/组|变化及作用|
+|---|---|
+|manuscript.tex|移除独立natbib，加载项目APA配置、addbibresource和printbibliography；原136处命令未重写|
+|eswa-apa-config.tex|统一babel、csquotes、backend=biber、style=apa、natbib=true、annotation=false|
+|eswa-apa-sourcemap.tex|项目级逐key类型与元数据映射；官方样式未修改|
+|apa_reference_adaptations.json|85条原值、适配值、理由、来源URL与响应哈希|
+|build.ps1 / .latexmkrc / README.md / .gitignore|四阶段Biber构建、隔离输出目录及生成物忽略|
+|tools/新增APA工具 / tests/apa7/|数据映射生成、构建、逐条输出审计、回归样例、PDF渲染与冻结BBL验证|
+|apa7_audit/|逐条元数据差异、会议分类、78/85输出、14+15测试、保护与版面报告|
+
+旧流程：pdfLaTeX → BibTeX → pdfLaTeX → pdfLaTeX。新流程：pdfLaTeX → Biber → pdfLaTeX → pdfLaTeX。
+
+复现正式构建：`powershell -File build.ps1`；复现测试：`python -B tools/run_apa_tests.py`。构建输出在 `tmp/apa7_build/`，成功后同步PDF、BBL及其对应日志到根目录。旧BibTeX BBL已保存后移入基线，避免新后端错误读取；未清理整个工作区。
+
+## 3. 85条元数据适配与会议分类
+
+原池56会议、20article、8misc、1book；实际出版分类：{'正式会议论文集文章': 55, '预印本（保留既有版本）': 10, '书籍': 1, '期刊论文': 10, '期刊/连续出版物形式会议论文': 1, '网页': 4, '软件': 4}。56会议中55为正式会议论文集文章、1为AAAI期刊/连续出版物会议论文；正文52会议中51/1。没有把已接受正式会议论文改成演讲、海报或预印本。
+
+适配差异 305 项，均在独立映射层；其中 45 条补入有官方证据的编辑者，46 条适配出版社。ACL编辑者取自逐篇.bib，PMLR取自官方嵌入BibTeX，NeurIPS按相同系列、相同年份卷取官方编辑者，ICLR2024/2025取逐篇官方BibTeX；ICLR出版社由官方指向的目录区分原出版者和POD印刷商。IJCAI编辑者来自该篇官方BibTeX。
+
+同系列卷关联使用完整“Neural Information Processing Systems”，避免把IJCNN的Neural Networks错误关联到NeurIPS。该误配在逐条复核中发现并撤销；最终LLM-MedQA出版社为IEEE，未填NeurIPS编辑者。没有将程序委员会成员机械认定为编辑者。
+
+SWE-bench新增54107–54157、GAIA新增9025–9049，均由本轮官方ICLR BibTeX直接确认，关闭既有缺页码限制；原audit_work历史记录不覆盖，差异及新证据另存。Attention官方BibTeX页码为空，保留空值。没有从PDF篇幅推导出版页码。
+
+AAAI条目转article并保留38(16)与页码。Frontiers条目用Article186345，Memory survey用Article155及43(6)，不把编号误当页码。期刊名称按出版商登记恢复规范大小写。Minsky出版社作为单一文字名称保留，避免解析成两个出版社。预印本改为online+arXiv，保留既有题名/作者/年份/DOI/选择版本，不做版本替换。软件设version和entrysubtype=Computer software。专名和缩写按真实命名保护。
+
+机构作者The LangChain Team由实际官方署名统一，两篇2024文献正确输出a/b。四网页采用已验证的完整发布日期及本轮成功访问日期2026-10-11。ESWA要求网页完整URL与访问日期，因此这四项输出Retrieved日期；APA一般只对变化网页要求日期，此处遵循期刊额外要求。固定版本软件不机械添加日期；未定版本XAgent使用有实际证据的访问日期，但其版本/发布日期仍需核实。原2026-10-10访问备注完整保留在原库及annotation数据，annotation=false避免混入参考文献正文。
+
+逐条分类与证据见 [56条会议台账](apa7_audit/conference_56_review.md)；所有原值/新值/原因/URL见 [元数据修改日志](apa7_audit/metadata_changes.json)。原始响应保存在被忽略的tmp/apa7_migration/sources，Git中的映射和台账保留URL与响应哈希。
+
+## 4. 78条实际输出与9条缺证
+
+正式PDF每条已核对作者显示顺序及20/21+规则、年份/后缀、题名、独立作品斜体、会议录斜体、期刊/卷斜体和期号正体、Article编号、DOI/URL实际链接、DOI优先且无尾句点、网页实际日期、软件版本/方括号描述及审计备注不打印。78/78通过这些明确的输出检查；全部85条独立预览也通过同类检查。
+
+**这些输出PASS不表示全部出版元数据得到证明，故不宣称78篇全部严格合规。** 已审计原始作者与版本数据保持，原45项可选字段/访问限制也未被静默升级为已核实。以下9篇停止补填编辑者/出版者，待原会议录署名页或明确无编辑者的官方证据：
+
+|key|缺证及处理|
+|---|---|
+|fatemi2024financialqa|editor: primary publication registration has no editor field; absence of editorial credit is not established; supplementation stopped|
+|hendrycks2021mmlu|editor: official record supplies no editor; no unsupported editor was added；pages: no confirmed pagination in consulted primary records; left empty|
+|khot2023decomposed_prompting|editor: official record supplies no editor; no unsupported editor was added；pages: no confirmed pagination in consulted primary records; left empty|
+|park2023generative_agents|editor: primary publication registration has no editor field; absence of editorial credit is not established; supplementation stopped|
+|wang2023self_consistency|editor: official record supplies no editor; no unsupported editor was added；pages: no confirmed pagination in consulted primary records; left empty|
+|wu2024autogen|editor/publisher/pages: COLM/OpenReview official accepted paper supplies no verified values; supplementation stopped；pages: no confirmed pagination in consulted primary records; left empty|
+|tang2025llmmedqa|editor: primary publication registration has no editor field; absence of editorial credit is not established; supplementation stopped|
+|yao2023react|editor: official record supplies no editor; no unsupported editor was added；pages: no confirmed pagination in consulted primary records; left empty|
+|zhou2023least_to_most|editor: official record supplies no editor; no unsupported editor was added；pages: no confirmed pagination in consulted primary records; left empty|
+
+另有未引用GenMentor的编辑者、未引用XAgent的版本/对应发布日期待补证；均保留在85条库和预览，不补引。Attention缺页码维持限制，APA对确无分页的电子章节允许省略页码；这里不假称空值证明无分页。
+
+详细预期值、实际PDF条目、每项检查、字体与链接证据见 [78条逐项台账](apa7_audit/reference_78_review.md)、[结构化检查](apa7_audit/reference_78_acceptance.json)、[85条预览](apa7_audit/reference_85_preview.csv)。
+
+## 5. 最终配置14项APA测试
+
+|规则|预期|实际输出/证据|结果|
+|---|---|---|---|
+|parenthetical_two|(Alpha & Beta, 2020)|(Alpha & Beta, 2020).|PASS|
+|narrative_two|Alpha and Beta (2020)|Alpha and Beta (2020).|PASS|
+|three_first|(Gamma et al., 2021)|(Gamma et al., 2021).|PASS|
+|corporate|(Example Institute, 2024)|(Example Institute, 2024).|PASS|
+|reference_20_authors|Name01 through Name20; final &; no ellipsis|Name01, A., Name02, A., Name03, A., Name04, A., Name05, A., Name06, A., Name07, A., Name08, A., Name09, A., Name10, A., Name11, A., Name12, A., Name13, A., Name14, A., Name15, A., Name16, A., Name17, A., Name18, A., Name19, A., & Name20, A. (2025). List of 20 authors.|PASS|
+|reference_21_authors|Name01 through Name19, ellipsis, Name21; no Name20; no & before last|Name01, A., Name02, A., Name03, A., Name04, A., Name05, A., Name06, A., Name07, A., Name08, A., Name09, A., Name10, A., Name11, A., Name12, A., Name13, A., Name14, A., Name15, A., Name16, A., Name17, A., Name18, A., Name19, A., ... Name21, A. (2025). List of 21 authors.|PASS|
+|same_authors_same_year_letters|Alpha study: 2022a; Beta study: 2022b; matching in-text labels|Kappa, K., Lambda, L., & Mu, M. (2022a). Alpha study. / Kappa, K., Lambda, L., & Mu, M. (2022b). Beta study.|PASS|
+|doi_precedence|https://doi.org/10.1000/test; no https://example.invalid/duplicate|Alpha, A., & Beta, B. (2020). Two-author example. Test Journal, 8(2), 10–20. https://doi.org/10.1000/test|PASS|
+|different_first_author_initials|(J. Chen et al., 2024; W. Chen et al., 2024), no spurious a/b|(J. Chen et al., 2024; W. Chen et al., 2024).|PASS|
+|et_al_disambiguation|(Yao, Yu, et al., 2023; Yao, Zhao, et al., 2023), no spurious a/b|(Yao, Yu, et al., 2023; Yao, Zhao, et al., 2023).|PASS|
+|et_al_cannot_replace_one_person|All four names in both references, & in brackets / and in narrative; no et al. or a/b|(Hasan, Liang, Kahn, & Jones, 2015; Hasan, Liang, Kahn, & Weintraub, 2015). / Hasan, Liang, Kahn, and Jones (2015) and Hasan, Liang, Kahn, and Weintraub (2015).|PASS|
+|same_year_each_year_repeated|(Kappa et al., 2022a, 2022b)|(Kappa et al., 2022a, 2022b).|PASS|
+|journal_volume_issue|Test Journal italic; 8 italic; (2) roman with no space after volume; 10–20|{"journal": [{"text": "Test", "font": "STIXGeneral-Italic"}, {"text": "Journal", "font": "STIXGeneral-Italic"}], "volume": {"text": "8", "font": "STIXGeneral-Italic"}, "issue": {"text": "(2),", "font": "STIXGeneral-Regular"}, "gap_pt": 0.0}|PASS|
+|no_period_after_doi|https://doi.org/10.1000/test with no following full stop|Alpha, A., & Beta, B. (2020). Two-author example. Test Journal, 8(2), 10–20. https://doi.org/10.1000/test|PASS|
+
+之前失败的6项（同姓首字母、不同作者名单消歧、et al.不得仅替代一人、同年年份后缀、期刊卷期字体、DOI尾点）均重新通过；包括真实Chen与Yao记录和PDF字体/位置证明。
+
+## 6. 最终配置15项扩展测试
+
+|测试|预期|实际输出|结果|
+|---|---|---|---|
+|journal_real|The Knowledge Engineering Review, italic 10, roman (2), 115–152, canonical DOI|The Knowledge Engineering Review, 10(2), 115–152. https://doi.org/10.1017/S0269888900008122|PASS|
+|book_real|Italic standalone title; one literal publisher name; no publisher city|Minsky, M. (1988). Society of mind. Simon and Schuster.|PASS|
+|conference_real|In initials-first editors (Eds.), italic proceedings title, (pp. 7066–7085), publisher, DOI|Chen, J., Saha, S., & Bansal, M. (2024). ReConcile: Round-table conference improves reasoning via consensus among diverse LLMs. In L.-W. Ku, A. Martins, & V. Srikumar (Eds.), Proceedings of the 62nd annual meeting of the Association for Computational Linguistics (volume 1: Long papers) (pp. 7066–7085). Association for Computational Linguistics. https://doi.org/10.18653/ v1/2024.acl-long.381|PASS|
+|preprint_real|Italic GPT-4 technical report; arXiv named; DOI canonical; no journal volume/issue|OpenAI. (2023). GPT-4 technical report. arXiv. https://doi.org/10.48550/ arXiv.2303.08774|PASS|
+|software_crewai2023|(Version 0.1.0) [Computer software]. PyPI.; URL; no mandatory retrieval date|Moura, J. (2023). CrewAI: Framework for orchestrating role-playing, autonomous AI agents (Version 0.1.0) [Computer software]. PyPI. https://pypi.org/project/crewai/0.1.0/|PASS|
+|software_dify2024|(Version 0.6.0) [Computer software]. GitHub.; URL; no mandatory retrieval date|LangGenius, Inc. (2024). Dify: Open-source LLM app development platform (Version 0.6.0) [Computer software]. GitHub. https://github.com/langgenius/dify/tree/0.6.0|PASS|
+|software_ragflow2024|(Version 0.6.0) [Computer software]. GitHub.; URL; no mandatory retrieval date|InfiniFlow. (2024). RAGFlow: An open-source RAG engine based on deep document understanding (Version 0.6.0) [Computer software]. GitHub. https://github.com/infiniflow/ragflow/tree/v0.6.0|PASS|
+|web_anthropic2024mcp|Italic title; full known publication date; actual retrieval date 2026-10-11; full cited URL| Anthropic. (2024, November 25). Introducing the Model Context Protocol. Retrieved October 11, 2026, from https://www.anthropic.com/ news/model-context-protocol Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D., Wu, J., Winter, C., .. \| Link: https://www.anthropic.com/news/model-context-protocol|PASS|
+|web_google2025a2a|Italic title; full known publication date; actual retrieval date 2026-10-11; full cited URL|, R., Jha, M., Vakoc, M., & Segal, T. (2025, April 9). Announcing the Agent2Agent protocol (A2A). Google Developers Blog. Retrieved October 11, 2026, from https://developers.googleblog. com/en/a2a-a-new-era-of-agent-interoperability/ The LangChain Team. (2024a, January 23). LangGraph: Multi-agent workflows. LangChain. Retrieved October 11, 2026, from https : / / www.langchain.com/blog/langgraph-multi-agent-workflows The L \| Link: https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/|PASS|
+|web_langgraph2024|Italic title; full known publication date; actual retrieval date 2026-10-11; full cited URL|roperability/ The LangChain Team. (2024a, January 23). LangGraph: Multi-agent workflows. LangChain. Retrieved October 11, 2026, from https : / / www.langchain.com/blog/langgraph-multi-agent-workflows The LangChain Team. (2024b, December 14). Making it easier to build human-in-the-loop agents with interrupt. LangChain. Retrieved October 11, 2026, from https : / / www. langchain . com / blog / making-it-easier-to-build-huma \| Link: https://www.langchain.com/blog/langgraph-multi-agent-workflows|PASS|
+|web_langgraph2024interrupt|Italic title; full known publication date; actual retrieval date 2026-10-11; full cited URL|nt-workflows The LangChain Team. (2024b, December 14). Making it easier to build human-in-the-loop agents with interrupt. LangChain. Retrieved October 11, 2026, from https : / / www. langchain . com / blog / making-it-easier-to-build-human-in-the-loop-agents-withinterrupt Wooldridge, M., & Jennings, N. R. (1995). Intelligent agents: Theory and practice. The Knowledge Engineering Review, 10(2), 115–152. https://doi.org/10. \| Link: https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt|PASS|
+|corporate_same_identity|Both verified LangChain pages use The LangChain Team and consistent 2024a/b labels|The LangChain Team (2024a, January 23) / (2024b, December 14)|PASS|
+|natbib_prenote_postnote|(see Alpha & Beta, 2020, p. 12) / Alpha and Beta (2020, p. 12)|(see Alpha & Beta, 2020, p. 12). / Alpha and Beta (2020, p. 12).|PASS|
+|real_author_list_20|20: all names; 31: first 19 plus last, ellipsis and no final &|Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J., & Lowe, R. |PASS|
+|real_author_list_31|20: all names; 31: first 19 plus last, ellipsis and no final &|Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D., Wu, J., Winter, C., ... Amodei, D. |PASS|
+
+测试重新执行四阶段，使用当前eswa-apa-config和同一sourcemap；类型样例使用13条未经预修正的原库真实记录。核心样例有合成边界记录和虚构测试DOI，均未进入正式文献库。覆盖测试确认85/78完整，136条命令重放兼容。最后结果存于apa7_audit，全部控制台/LaTeX/Biber日志位于tmp/apa7_regression。
+
+## 7. 编译、警告与逐页版面
+
+正式build.ps1四阶段全部成功。最终参考文献排序为APA global，正文消歧和机构年份后缀正常，未见缺失引用、重复条目、错误作者拆分或Biber/biblatex最终警告。
+
+前后均22页。Overfull：4→3；Underfull：125→69。当前3个Overfull为CAS前置信息内部123.62721pt、表格段落0.76843pt和正文0.5575pt。大数警告在基线也存在；实页检查没有文字越界或叠印。后两处低于1pt。Underfull为双栏/表格断行疏松提示，非构建失败；没有为消除警告修改研究正文或既有布局。分项见warning_comparison.json。
+
+图4由第8页自然流至第9页；图5仍第13页，表1第4页、表4第14页。已有版式参数未改。全部22页完成联系表检查，表1、表4、图5另看1.5倍全页；参考文献四页逐条字体与链接检查。
+
+|页|逐页检查|
+|---|---|
+|1|CAS 前置信息与摘要为官方版式；正文双栏，无作者身份泄露。|
+|2|双栏正文连续，栏目边界清晰。|
+|3|图1、图2完整；图1旧84快照及声明为既有受保护内容，未更新。|
+|4|表1完整跨栏；前后正文和章节标题正常。|
+|5|图3完整；正文双栏。|
+|6|连续正文，引用消歧后换行正常。|
+|7|表2完整；架构选择正文正常。|
+|8|双栏连续；图4自然移至第9页，无空白浮动页。|
+|9|图4和表3完整，字幕/注释均显示。|
+|10|技术章节及公式正常。|
+|11|正文与公式正常。|
+|12|正文与公式正常；图5前置引用位于本页。|
+|13|图5维持0.94textwidth；原图无裁切，字体可读，图注及两栏资源正文对应。|
+|14|表4八行六列完整；LangChain a/b引用增加换行但未重叠；后续正文正常。|
+|15|表5完整，正文正常。|
+|16|表6完整；相邻评估及挑战正文正常。|
+|17|后续研究方向双栏连续。|
+|18|结论和声明正常。|
+|19|声明接参考文献；两栏悬挂缩进，无覆盖。|
+|20|逐条参考文献，期刊/会议/软件字体与链接正常。|
+|21|逐条参考文献；机构作者a/b及网页检索日期正常。|
+|22|参考文献自然结束；末页右栏下方余白是条目结束所致，无人为填页。|
+
+最终PDF SHA-256：`30fd8678d2b1e2d4d3c4c947ad2c508d8d950992f0df39ef3bd3a311370d238f`。PDF及同批日志在根目录；渲染图位于tmp/apa7_migration/rendered，逐页结果见apa7_audit/pdf_page_review.json。
+
+## 8. 投稿兼容性与源文件
+
+Elsevier明确说明多数期刊初次投稿接受本地PDF；若允许PDF，应以Manuscript上传本地PDF，另打包LaTeX source files。ESWA实际界面是否提供该选项、是否执行Biber、biblatex/apa及Biber版本均待确认。没有把本地构建视为平台兼容已证实。[Elsevier LaTeX instructions](https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions)
+
+建议审核并补齐元数据后：如系统允许，上传独立名称review.pdf及同层源文件ZIP（按平台LaTeX source files类别）。如果平台限制PDF，先确认Biber或兼容预生成BBL支持；官方帮助提供的传统BibTeX BBL input方式不能直接套用到biblatex结构化BBL。[Editorial Manager官方帮助](https://www.elsevier.support/publishing/answer/how-to-submit-a-latex-file-in-editorial-manager)
+
+源文件：manuscript.tex、references.bib、eswa-apa-config.tex、eswa-apa-sourcemap.tex、cas-dc.cls、cas-common.sty、change_timeline.jpg、classify.jpg、fig3_topology.pdf、fig_flow.jpg、fig_reference_corpus.pdf；需要冻结参考文献时加同jobname的manuscript.bbl。build.ps1、.latexmkrc和依赖说明供重建使用。旧bst不参与Biber编译；历史章节、审计报告、原始检索/用户PDF及未使用图片不用塞入稿件源文件包。所有投稿文件同层，不用子目录。
+
+全稿同层冻结BBL测试在本机只运行三次pdfLaTeX、不运行Biber，22页文本与72dpi像素逐页相同，见frozen_submission_result.json和tmp/apa7_migration/frozen_full_release。预生成BBL格式3.3，需兼容biblatex/apa版本与完整源码，不能对修改后的bib/配置复用旧BBL，也不能随便input传统BBL。平台旧版本可能拒绝、误读或使用不同样式；需询问ESWA/Elsevier其后端、包版本及是否接受PDF+sources。未上传，也未联系编辑部。
+
+期刊依据优先用户复制的ESWA指南（原附件SHA：8e4fceaecef90ecd721bc37318a298f54f641ea1bb467821ba73c5bc368665b5）；官网下载全文未成功，不假称本轮已读取最新Guide全文。[ESWA Guide](https://www.sciencedirect.com/journal/expert-systems-with-applications/publish/guide-for-authors)。APA依据为[官方会议格式](https://apastyle.apa.org/style-grammar-guidelines/references/examples/conference-proceeding-references)、[作者/题名/日期规则](https://apastyle.apa.org/style-grammar-guidelines/references/elements-list-entry)、[DOI与URL](https://apastyle.apa.org/style-grammar-guidelines/references/dois-urls)。
+
+## 9. Git差异与回滚
+
+修改前工作区干净，全部改动限制为引用配置、适配层、项目构建和验收文件。正式.tex的diff仅导言区及文末bibliography；全部新旧值可审查。完整变化清单：
+
+- `.gitignore`
+- `.latexmkrc`
+- `APA7_MIGRATION_REPORT.md`
+- `README.md`
+- `apa7_audit/apa14_results.json`
+- `apa7_audit/conference_56_review.md`
+- `apa7_audit/coverage_results.json`
+- `apa7_audit/extended_font_evidence.json`
+- `apa7_audit/extended_results.json`
+- `apa7_audit/final_checks.json`
+- `apa7_audit/font_evidence.json`
+- `apa7_audit/frozen_submission_result.json`
+- `apa7_audit/metadata_changes.json`
+- `apa7_audit/pdf_page_review.json`
+- `apa7_audit/publication_classification.json`
+- `apa7_audit/reference_78_acceptance.csv`
+- `apa7_audit/reference_78_acceptance.json`
+- `apa7_audit/reference_78_review.md`
+- `apa7_audit/reference_85_preview.csv`
+- `apa7_audit/reference_85_preview.json`
+- `apa7_audit/scope_validation.json`
+- `apa7_audit/warning_comparison.json`
+- `apa_reference_adaptations.json`
+- `build.ps1`
+- `eswa-apa-config.tex`
+- `eswa-apa-sourcemap.tex`
+- `manuscript.tex`
+- `tests/apa7/README.md`
+- `tests/apa7/active_commands.json`
+- `tests/apa7/commands78.tex`
+- `tests/apa7/expected_rules.json`
+- `tests/apa7/pool78.tex`
+- `tests/apa7/pool85.tex`
+- `tests/apa7/probe.bib`
+- `tests/apa7/probe.tex`
+- `tests/apa7/types_fixed.bib`
+- `tests/apa7/types_fixed.tex`
+- `tests/apa7/validate.py`
+- `tools/audit_apa_output.py`
+- `tools/build_apa_stage.py`
+- `tools/fetch_apa_metadata.py`
+- `tools/freeze_apa_submission_test.py`
+- `tools/generate_apa_sourcemap.py`
+- `tools/inspect_apa_pdf.py`
+- `tools/prepare_apa_adaptations.py`
+- `tools/run_apa_tests.py`
+- `tools/write_apa_migration_report.py`
+
+本地提交保留在独立迁移分支。报告不写自身提交SHA（避免自引用）；使用git log -1查看。main仍为迁移前fc20fb7；没有push。审阅完整差异：`git diff codex/eswa-apa7-baseline-20261011..codex/eswa-apa7-migration`。
+
+回滚操作先确认工作区干净或保存新修改，再git switch main（或从基线标签新建codex/eswa-bibtex-rollback分支）；源文件恢复旧配置。生成物不会随Git切换自动回滚：将tmp/apa7_migration/baseline中的原manuscript.bbl、aux和PDF恢复到根目录，或在新的忽略目录用独立jobname重新执行原四阶段BibTeX构建。不要在旧natbib主稿中直接读取新biblatex BBL。新迁移源码仍在独立分支，新生成物仍在tmp/apa7_build中；禁止reset --hard或全盘清理。
+
+## 10. 验收判定与尚未解决项
+
+**可审阅的本地迁移完成；APA14/15及78实际输出检查均通过，85池与136命令及布局保护通过。全部78篇严格元数据合规尚未验收通过。** 9篇会议作品的编辑者/出版者仍需有权威证据，相关补填已停止。GenMentor、XAgent为未引记录仍需补证；既有可选DOI/分页限制保留。ESWA服务器后端/版本仍待确认。图片中的旧84快照及原研究声明是既有受保护内容，本轮未修改，也不据本报告宣称其他投稿材料均已准备完毕。

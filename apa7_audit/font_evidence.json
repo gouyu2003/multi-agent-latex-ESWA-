@@ -1,0 +1,21 @@
+{
+  "journal": [
+    {
+      "text": "Test",
+      "font": "STIXGeneral-Italic"
+    },
+    {
+      "text": "Journal",
+      "font": "STIXGeneral-Italic"
+    }
+  ],
+  "volume": {
+    "text": "8",
+    "font": "STIXGeneral-Italic"
+  },
+  "issue": {
+    "text": "(2),",
+    "font": "STIXGeneral-Regular"
+  },
+  "gap_pt": 0.0
+}
