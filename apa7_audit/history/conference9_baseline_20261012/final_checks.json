@@ -1,0 +1,44 @@
+{
+  "core14_pass": 14,
+  "extended15_pass": 15,
+  "body_pages_1_to_18_unchanged_after_brand_fixes": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "formal_pages": 22,
+  "formal_pdf_sha256": "30fd8678d2b1e2d4d3c4c947ad2c508d8d950992f0df39ef3bd3a311370d238f",
+  "configuration_sha256": {
+    "manuscript.tex": "7fc8787bbc1cc3c0da23b14bb94ce14df81f7433248abc2091eed2adb90b3598",
+    "eswa-apa-config.tex": "65c42428fba1eafb0f393fa8ce015a439c407659b4f2dc497875ddcc6cafd37b",
+    "eswa-apa-sourcemap.tex": "2295fe576b2859323f657486e700358c4732ccc347a28116306fdb953f5b6af6",
+    "apa_reference_adaptations.json": "53920d1a2b5c334f3f96f5e0f86e84f654e72ace4e1f4d291d6832b12e2f3bab"
+  },
+  "bbl_sha256": "14c98cadf4307d7f588a600870446dc505365abcb7d99d6d40ec9c56b28b3bbb",
+  "metadata_pending": [
+    "fatemi2024financialqa",
+    "hendrycks2021mmlu",
+    "khot2023decomposed_prompting",
+    "park2023generative_agents",
+    "wang2023self_consistency",
+    "wu2024autogen",
+    "tang2025llmmedqa",
+    "yao2023react",
+    "zhou2023least_to_most"
+  ]
+}

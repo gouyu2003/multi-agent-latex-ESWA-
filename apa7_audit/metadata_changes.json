@@ -72,6 +72,14 @@
     "evidence": "https://openreview.net/forum?id=BAakY1hNKS"
   },
   {
+    "key": "wu2024autogen",
+    "field": "author",
+    "old": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and Awadallah, Ahmed and White, Ryen W. and Burger, Doug and Wang, Chi",
+    "new": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and Awadallah, Ahmed Hassan and White, Ryen W. and Burger, Doug and Wang, Chi",
+    "reason": "Complete formal-version author names/order from user-supplied official OpenReview BibTeX; no preprint author list substituted.",
+    "evidence": "https://openreview.net/forum?id=BAakY1hNKS"
+  },
+  {
     "key": "hong2024metagpt",
     "field": "ENTRYTYPE",
     "old": "inproceedings",
@@ -323,8 +331,26 @@
     "key": "yao2023react",
     "field": "booktitle",
     "old": "International Conference on Learning Representations",
-    "new": "{International Conference on Learning Representations}",
-    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "new": "The Eleventh {International Conference on Learning Representations}",
+    "reason": "Formal 2023 proceedings name in official OpenReview export (Decomposed Prompting: authors official repository citation); apply only to the four selected ICLR 2023 papers. Preserve proper conference name in APA sentence case.",
+    "evidence": "https://openreview.net/forum?id=WE_vluYUL-X",
+    "history": [
+      {
+        "key": "yao2023react",
+        "field": "booktitle",
+        "old": "International Conference on Learning Representations",
+        "new": "{International Conference on Learning Representations}",
+        "reason": "APA proceedings sentence case with institution/acronym protection",
+        "evidence": "https://openreview.net/forum?id=WE_vluYUL-X"
+      }
+    ]
+  },
+  {
+    "key": "yao2023react",
+    "field": "author",
+    "old": "Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan",
+    "new": "Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik R and Cao, Yuan",
+    "reason": "Complete formal-version author names/order from user-supplied official OpenReview BibTeX; no preprint author list substituted.",
     "evidence": "https://openreview.net/forum?id=WE_vluYUL-X"
   },
   {
@@ -507,9 +533,19 @@
     "key": "park2023generative_agents",
     "field": "publisher",
     "old": null,
-    "new": "ACM",
-    "reason": "Publisher-deposited Crossref publication venue publisher",
-    "evidence": "https://api.crossref.org/works/10.1145/3586183.3606763"
+    "new": "Association for Computing Machinery",
+    "reason": "Official ACM article export supplies full publisher name; APA publisher source uses name on publication, not an imposed acronym.",
+    "evidence": "https://apastyle.apa.org/blog/publisher-locations-in-book-references",
+    "history": [
+      {
+        "key": "park2023generative_agents",
+        "field": "publisher",
+        "old": null,
+        "new": "ACM",
+        "reason": "Publisher-deposited Crossref publication venue publisher",
+        "evidence": "https://api.crossref.org/works/10.1145/3586183.3606763"
+      }
+    ]
   },
   {
     "key": "park2023generative_agents",
@@ -517,6 +553,38 @@
     "old": "Proceedings of the 36th annual ACM symposium on user interface software and technology",
     "new": "Proceedings of the 36th annual {ACM} symposium on user interface software and technology",
     "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://doi.org/10.1145/3586183.3606763"
+  },
+  {
+    "key": "park2023generative_agents",
+    "field": "editor",
+    "old": null,
+    "new": "Follmer, Sean and Han, Jeff and Steimle, Jürgen and Riche, Nathalie Henry",
+    "reason": "ACM same-volume Published In explicitly labels four Editors; DOI 10.1145/3586183 and ISBN match the selected paper, so article-level missing editor does not prevent a verified supplement.",
+    "evidence": "https://doi.org/10.1145/3586183.3606810"
+  },
+  {
+    "key": "park2023generative_agents",
+    "field": "eid",
+    "old": null,
+    "new": "2",
+    "reason": "Official ACM article BibTeX articleno=2 and publisher page Article No. 2; biblatex uses eid, not articleno or a fabricated starting page.",
+    "evidence": "https://doi.org/10.1145/3586183.3606763"
+  },
+  {
+    "key": "park2023generative_agents",
+    "field": "pages",
+    "old": "1--22",
+    "new": null,
+    "reason": "ACM 1-22 is per-article internal pagination. Use Article 2 as the reference locator; preserve internal page range and numpages=22 in field audit, not as proceedings-continuous pagination.",
+    "evidence": "https://doi.org/10.1145/3586183.3606763"
+  },
+  {
+    "key": "park2023generative_agents",
+    "field": "pagetotal",
+    "old": null,
+    "new": "22",
+    "reason": "Official ACM numpages=22 maps to biblatex pagetotal, separately from Article 2; not printed as a page range.",
     "evidence": "https://doi.org/10.1145/3586183.3606763"
   },
   {
@@ -915,8 +983,26 @@
     "key": "zhou2023least_to_most",
     "field": "booktitle",
     "old": "International Conference on Learning Representations",
-    "new": "{International Conference on Learning Representations}",
-    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "new": "The Eleventh {International Conference on Learning Representations}",
+    "reason": "Formal 2023 proceedings name in official OpenReview export (Decomposed Prompting: authors official repository citation); apply only to the four selected ICLR 2023 papers. Preserve proper conference name in APA sentence case.",
+    "evidence": "https://openreview.net/forum?id=WZH7099tgfM",
+    "history": [
+      {
+        "key": "zhou2023least_to_most",
+        "field": "booktitle",
+        "old": "International Conference on Learning Representations",
+        "new": "{International Conference on Learning Representations}",
+        "reason": "APA proceedings sentence case with institution/acronym protection",
+        "evidence": "https://openreview.net/forum?id=WZH7099tgfM"
+      }
+    ]
+  },
+  {
+    "key": "zhou2023least_to_most",
+    "field": "author",
+    "old": "Zhou, Denny and Sch{\\\"a}rli, Nathanael and Hou, Le and Wei, Jason and Scales, Nathan and Wang, Xuezhi and Schuurmans, Dale and Cui, Claire and Bousquet, Olivier and Le, Quoc and Chi, Ed",
+    "new": "Zhou, Denny and Schärli, Nathanael and Hou, Le and Wei, Jason and Scales, Nathan and Wang, Xuezhi and Schuurmans, Dale and Cui, Claire and Bousquet, Olivier and Le, Quoc V and Chi, Ed H.",
+    "reason": "Complete formal-version author names/order from user-supplied official OpenReview BibTeX; no preprint author list substituted.",
     "evidence": "https://openreview.net/forum?id=WZH7099tgfM"
   },
   {
@@ -939,9 +1025,19 @@
     "key": "khot2023decomposed_prompting",
     "field": "booktitle",
     "old": "International Conference on Learning Representations",
-    "new": "{International Conference on Learning Representations}",
-    "reason": "APA proceedings sentence case with institution/acronym protection",
-    "evidence": "https://openreview.net/forum?id=_nGgzQjzaRy"
+    "new": "The Eleventh {International Conference on Learning Representations}",
+    "reason": "Formal 2023 proceedings name in official OpenReview export (Decomposed Prompting: authors official repository citation); apply only to the four selected ICLR 2023 papers. Preserve proper conference name in APA sentence case.",
+    "evidence": "https://github.com/HarshTrivedi/DecomP-ODQA",
+    "history": [
+      {
+        "key": "khot2023decomposed_prompting",
+        "field": "booktitle",
+        "old": "International Conference on Learning Representations",
+        "new": "{International Conference on Learning Representations}",
+        "reason": "APA proceedings sentence case with institution/acronym protection",
+        "evidence": "https://openreview.net/forum?id=_nGgzQjzaRy"
+      }
+    ]
   },
   {
     "key": "wang2023plan_and_solve",
@@ -1131,8 +1227,26 @@
     "key": "wang2023self_consistency",
     "field": "booktitle",
     "old": "International Conference on Learning Representations",
-    "new": "{International Conference on Learning Representations}",
-    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "new": "The Eleventh {International Conference on Learning Representations}",
+    "reason": "Formal 2023 proceedings name in official OpenReview export (Decomposed Prompting: authors official repository citation); apply only to the four selected ICLR 2023 papers. Preserve proper conference name in APA sentence case.",
+    "evidence": "https://openreview.net/forum?id=1PL1NIMMrw",
+    "history": [
+      {
+        "key": "wang2023self_consistency",
+        "field": "booktitle",
+        "old": "International Conference on Learning Representations",
+        "new": "{International Conference on Learning Representations}",
+        "reason": "APA proceedings sentence case with institution/acronym protection",
+        "evidence": "https://openreview.net/forum?id=1PL1NIMMrw"
+      }
+    ]
+  },
+  {
+    "key": "wang2023self_consistency",
+    "field": "author",
+    "old": "Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc and Chi, Ed and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny",
+    "new": "Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc V and Chi, Ed H. and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny",
+    "reason": "Complete formal-version author names/order from user-supplied official OpenReview BibTeX; no preprint author list substituted.",
     "evidence": "https://openreview.net/forum?id=1PL1NIMMrw"
   },
   {
@@ -1987,9 +2101,19 @@
     "key": "fatemi2024financialqa",
     "field": "publisher",
     "old": null,
-    "new": "ACM",
-    "reason": "Publisher-deposited Crossref publication venue publisher",
-    "evidence": "https://api.crossref.org/works/10.1145/3677052.3698686"
+    "new": "Association for Computing Machinery",
+    "reason": "Official ACM article export supplies full publisher name; APA publisher source uses name on publication, not an imposed acronym.",
+    "evidence": "https://apastyle.apa.org/blog/publisher-locations-in-book-references",
+    "history": [
+      {
+        "key": "fatemi2024financialqa",
+        "field": "publisher",
+        "old": null,
+        "new": "ACM",
+        "reason": "Publisher-deposited Crossref publication venue publisher",
+        "evidence": "https://api.crossref.org/works/10.1145/3677052.3698686"
+      }
+    ]
   },
   {
     "key": "fatemi2024financialqa",

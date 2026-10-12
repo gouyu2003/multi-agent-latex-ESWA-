@@ -1,0 +1,2442 @@
+[
+  {
+    "key": "brown2020gpt3",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html"
+  },
+  {
+    "key": "brown2020gpt3",
+    "field": "editor",
+    "old": null,
+    "new": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/9883-/bibtex"
+  },
+  {
+    "key": "brown2020gpt3",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/9883-/bibtex"
+  },
+  {
+    "key": "openai2023gpt4",
+    "field": "ENTRYTYPE",
+    "old": "article",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://arxiv.org/abs/2303.08774v1"
+  },
+  {
+    "key": "openai2023gpt4",
+    "field": "journal",
+    "old": "arXiv preprint arXiv:2303.08774",
+    "new": null,
+    "reason": "Preprint server is a source, not a journal",
+    "evidence": "https://arxiv.org/abs/2303.08774v1"
+  },
+  {
+    "key": "openai2023gpt4",
+    "field": "organization",
+    "old": null,
+    "new": "arXiv",
+    "reason": "Original record DOI/URL and prior verified selected arXiv version",
+    "evidence": "https://arxiv.org/abs/2303.08774v1"
+  },
+  {
+    "key": "minsky1988society",
+    "field": "publisher",
+    "old": "Simon and Schuster",
+    "new": "{Simon and Schuster}",
+    "reason": "Preserve the existing single literal publisher; prevent and being parsed as list separator",
+    "evidence": "https://www.simonandschuster.com/books/Society-Of-Mind/Marvin-Minsky/9780671657130"
+  },
+  {
+    "key": "wooldridge1995intelligent",
+    "field": "journal",
+    "old": "The knowledge engineering review",
+    "new": "The Knowledge Engineering Review",
+    "reason": "Canonical journal capitalization from publisher-deposited Crossref",
+    "evidence": "https://api.crossref.org/works/10.1017/S0269888900008122"
+  },
+  {
+    "key": "wu2024autogen",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://openreview.net/forum?id=BAakY1hNKS"
+  },
+  {
+    "key": "hong2024metagpt",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/6507b115562bb0a305f1958ccc87355a-Abstract-Conference.html"
+  },
+  {
+    "key": "hong2024metagpt",
+    "field": "editor",
+    "old": null,
+    "new": "B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/4491-/bibtex"
+  },
+  {
+    "key": "hong2024metagpt",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80585.html"
+  },
+  {
+    "key": "hong2024metagpt",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/6507b115562bb0a305f1958ccc87355a-Abstract-Conference.html"
+  },
+  {
+    "key": "du2024multiagent_debate",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.mlr.press/v235/du24e.html"
+  },
+  {
+    "key": "du2024multiagent_debate",
+    "field": "editor",
+    "old": null,
+    "new": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+    "reason": "Official PMLR embedded BibTeX editors",
+    "evidence": "https://proceedings.mlr.press/v235/du24e.html"
+  },
+  {
+    "key": "guo2024llm_multiagent_survey",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.24963/ijcai.2024/890"
+  },
+  {
+    "key": "guo2024llm_multiagent_survey",
+    "field": "editor",
+    "old": null,
+    "new": "Kate Larson",
+    "reason": "Official IJCAI paper BibTeX editor",
+    "evidence": "https://www.ijcai.org/proceedings/2024/bibtex/890"
+  },
+  {
+    "key": "tran2025multiagent_survey",
+    "field": "ENTRYTYPE",
+    "old": "article",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://arxiv.org/abs/2501.06322"
+  },
+  {
+    "key": "tran2025multiagent_survey",
+    "field": "title",
+    "old": "Multi-agent collaboration mechanisms: A survey of LLMs",
+    "new": "Multi-agent collaboration mechanisms: A survey of {LLMs}",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://arxiv.org/abs/2501.06322"
+  },
+  {
+    "key": "tran2025multiagent_survey",
+    "field": "journal",
+    "old": "arXiv preprint arXiv:2501.06322",
+    "new": null,
+    "reason": "Preprint server is a source, not a journal",
+    "evidence": "https://arxiv.org/abs/2501.06322"
+  },
+  {
+    "key": "tran2025multiagent_survey",
+    "field": "organization",
+    "old": null,
+    "new": "arXiv",
+    "reason": "Original record DOI/URL and prior verified selected arXiv version",
+    "evidence": "https://arxiv.org/abs/2501.06322"
+  },
+  {
+    "key": "wang2024survey_autonomous_agents",
+    "field": "eid",
+    "old": null,
+    "new": "186345",
+    "reason": "Publisher-deposited article identifier",
+    "evidence": "https://api.crossref.org/works/10.1007/s11704-024-40231-1"
+  },
+  {
+    "key": "wang2024survey_autonomous_agents",
+    "field": "pages",
+    "old": "186345",
+    "new": null,
+    "reason": "Article identifier is not a page range",
+    "evidence": "https://doi.org/10.1007/s11704-024-40231-1"
+  },
+  {
+    "key": "karpukhin2020dpr",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2020.emnlp-main.550/"
+  },
+  {
+    "key": "karpukhin2020dpr",
+    "field": "editor",
+    "old": null,
+    "new": "Webber, Bonnie and Cohn, Trevor and He, Yulan and Liu, Yang",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2020.emnlp-main.550.bib"
+  },
+  {
+    "key": "karpukhin2020dpr",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/2020.emnlp-main.550"
+  },
+  {
+    "key": "karpukhin2020dpr",
+    "field": "booktitle",
+    "old": "Proceedings of the 2020 conference on empirical methods in natural language processing (EMNLP)",
+    "new": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing ({EMNLP})",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2020.emnlp-main.550/"
+  },
+  {
+    "key": "yang2018hotpotqa",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/D18-1259/"
+  },
+  {
+    "key": "yang2018hotpotqa",
+    "field": "editor",
+    "old": null,
+    "new": "Riloff, Ellen and Chiang, David and Hockenmaier, Julia and Tsujii, Jun{'}ichi",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/D18-1259.bib"
+  },
+  {
+    "key": "yang2018hotpotqa",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/D18-1259"
+  },
+  {
+    "key": "choi2018quac",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/D18-1241/"
+  },
+  {
+    "key": "choi2018quac",
+    "field": "editor",
+    "old": null,
+    "new": "Riloff, Ellen and Chiang, David and Hockenmaier, Julia and Tsujii, Jun{'}ichi",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/D18-1241.bib"
+  },
+  {
+    "key": "choi2018quac",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/D18-1241"
+  },
+  {
+    "key": "choi2018quac",
+    "field": "booktitle",
+    "old": "Proceedings of the 2018 conference on empirical methods in natural language processing",
+    "new": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/D18-1241/"
+  },
+  {
+    "key": "lewis2020rag",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html"
+  },
+  {
+    "key": "lewis2020rag",
+    "field": "title",
+    "old": "Retrieval-augmented generation for knowledge-intensive NLP tasks",
+    "new": "Retrieval-augmented generation for knowledge-intensive {NLP} tasks",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html"
+  },
+  {
+    "key": "lewis2020rag",
+    "field": "editor",
+    "old": null,
+    "new": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/10517-/bibtex"
+  },
+  {
+    "key": "lewis2020rag",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/10517-/bibtex"
+  },
+  {
+    "key": "yao2023react",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://openreview.net/forum?id=WE_vluYUL-X"
+  },
+  {
+    "key": "yao2023react",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80586.html"
+  },
+  {
+    "key": "yao2023react",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://openreview.net/forum?id=WE_vluYUL-X"
+  },
+  {
+    "key": "vaswani2017attention",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html"
+  },
+  {
+    "key": "vaswani2017attention",
+    "field": "editor",
+    "old": null,
+    "new": "I. Guyon and von Luxburg, U. and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Bibtex.bib"
+  },
+  {
+    "key": "vaswani2017attention",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Bibtex.bib"
+  },
+  {
+    "key": "devlin2019bert",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/N19-1423/"
+  },
+  {
+    "key": "devlin2019bert",
+    "field": "editor",
+    "old": null,
+    "new": "Burstein, Jill and Doran, Christy and Solorio, Thamar",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/N19-1423.bib"
+  },
+  {
+    "key": "devlin2019bert",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/N19-1423"
+  },
+  {
+    "key": "devlin2019bert",
+    "field": "booktitle",
+    "old": "Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics: human language technologies, volume 1 (long and short papers)",
+    "new": "Proceedings of the 2019 Conference of the North {A}merican Chapter of the {Association for Computational Linguistics}: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/N19-1423/"
+  },
+  {
+    "key": "touvron2023llama",
+    "field": "ENTRYTYPE",
+    "old": "article",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://arxiv.org/abs/2302.13971"
+  },
+  {
+    "key": "touvron2023llama",
+    "field": "journal",
+    "old": "arXiv preprint arXiv:2302.13971",
+    "new": null,
+    "reason": "Preprint server is a source, not a journal",
+    "evidence": "https://arxiv.org/abs/2302.13971"
+  },
+  {
+    "key": "touvron2023llama",
+    "field": "organization",
+    "old": null,
+    "new": "arXiv",
+    "reason": "Original record DOI/URL and prior verified selected arXiv version",
+    "evidence": "https://arxiv.org/abs/2302.13971"
+  },
+  {
+    "key": "glm2024chatglm",
+    "field": "ENTRYTYPE",
+    "old": "article",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://arxiv.org/abs/2406.12793"
+  },
+  {
+    "key": "glm2024chatglm",
+    "field": "title",
+    "old": "{ChatGLM}: A Family of Large Language Models from {GLM}-130B to {GLM}-4 All Tools",
+    "new": "{ChatGLM}: A Family of Large Language Models from {GLM-130B} to {GLM-4} All Tools",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://arxiv.org/abs/2406.12793"
+  },
+  {
+    "key": "glm2024chatglm",
+    "field": "journal",
+    "old": "arXiv preprint arXiv:2406.12793",
+    "new": null,
+    "reason": "Preprint server is a source, not a journal",
+    "evidence": "https://arxiv.org/abs/2406.12793"
+  },
+  {
+    "key": "glm2024chatglm",
+    "field": "organization",
+    "old": null,
+    "new": "arXiv",
+    "reason": "Original record DOI/URL and prior verified selected arXiv version",
+    "evidence": "https://arxiv.org/abs/2406.12793"
+  },
+  {
+    "key": "ouyang2022instructgpt",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.52202/068431-2011"
+  },
+  {
+    "key": "ouyang2022instructgpt",
+    "field": "editor",
+    "old": null,
+    "new": "S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/19175-/bibtex"
+  },
+  {
+    "key": "ouyang2022instructgpt",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/19175-/bibtex"
+  },
+  {
+    "key": "qian2024scaling_multiagent",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/66a026c0d17040889b50f0dfa650e5e0-Abstract-Conference.html"
+  },
+  {
+    "key": "qian2024scaling_multiagent",
+    "field": "editor",
+    "old": null,
+    "new": "Y. Yue and A. Garg and N. Peng and F. Sha and R. Yu",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/1620-/bibtex"
+  },
+  {
+    "key": "qian2024scaling_multiagent",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80508.html"
+  },
+  {
+    "key": "qian2024scaling_multiagent",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/66a026c0d17040889b50f0dfa650e5e0-Abstract-Conference.html"
+  },
+  {
+    "key": "park2023generative_agents",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.1145/3586183.3606763"
+  },
+  {
+    "key": "park2023generative_agents",
+    "field": "publisher",
+    "old": null,
+    "new": "ACM",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.1145/3586183.3606763"
+  },
+  {
+    "key": "park2023generative_agents",
+    "field": "booktitle",
+    "old": "Proceedings of the 36th annual ACM symposium on user interface software and technology",
+    "new": "Proceedings of the 36th annual {ACM} symposium on user interface software and technology",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://doi.org/10.1145/3586183.3606763"
+  },
+  {
+    "key": "liang2024divergent_debate",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2024.emnlp-main.992/"
+  },
+  {
+    "key": "liang2024divergent_debate",
+    "field": "editor",
+    "old": null,
+    "new": "Al-Onaizan, Yaser and Bansal, Mohit and Chen, Yun-Nung",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2024.emnlp-main.992.bib"
+  },
+  {
+    "key": "liang2024divergent_debate",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/2024.emnlp-main.992"
+  },
+  {
+    "key": "liang2024divergent_debate",
+    "field": "booktitle",
+    "old": "Proceedings of the 2024 conference on empirical methods in natural language processing",
+    "new": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2024.emnlp-main.992/"
+  },
+  {
+    "key": "xiong2023inter_consistency",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2023.findings-emnlp.508/"
+  },
+  {
+    "key": "xiong2023inter_consistency",
+    "field": "editor",
+    "old": null,
+    "new": "Bouamor, Houda and Pino, Juan and Bali, Kalika",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2023.findings-emnlp.508.bib"
+  },
+  {
+    "key": "xiong2023inter_consistency",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/2023.findings-emnlp.508"
+  },
+  {
+    "key": "xiong2023inter_consistency",
+    "field": "booktitle",
+    "old": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "new": "Findings of the {Association for Computational Linguistics}: {EMNLP} 2023",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2023.findings-emnlp.508/"
+  },
+  {
+    "key": "li2023camel",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.52202/075280-2264"
+  },
+  {
+    "key": "li2023camel",
+    "field": "title",
+    "old": "{CAMEL}: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+    "new": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://doi.org/10.52202/075280-2264"
+  },
+  {
+    "key": "li2023camel",
+    "field": "editor",
+    "old": null,
+    "new": "A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "li2023camel",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "qian2023chatdev",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2024.acl-long.810/"
+  },
+  {
+    "key": "qian2023chatdev",
+    "field": "title",
+    "old": "ChatDev: Communicative agents for software development",
+    "new": "{ChatDev}: Communicative agents for software development",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://aclanthology.org/2024.acl-long.810/"
+  },
+  {
+    "key": "qian2023chatdev",
+    "field": "editor",
+    "old": null,
+    "new": "Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2024.acl-long.810.bib"
+  },
+  {
+    "key": "qian2023chatdev",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/2024.acl-long.810"
+  },
+  {
+    "key": "qian2023chatdev",
+    "field": "booktitle",
+    "old": "Proceedings of the 62nd annual meeting of the association for computational linguistics (volume 1: Long papers)",
+    "new": "Proceedings of the 62nd Annual Meeting of the {Association for Computational Linguistics} (Volume 1: Long Papers)",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2024.acl-long.810/"
+  },
+  {
+    "key": "gao2024rag_survey",
+    "field": "ENTRYTYPE",
+    "old": "article",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://arxiv.org/abs/2312.10997"
+  },
+  {
+    "key": "gao2024rag_survey",
+    "field": "journal",
+    "old": "arXiv preprint arXiv:2312.10997",
+    "new": null,
+    "reason": "Preprint server is a source, not a journal",
+    "evidence": "https://arxiv.org/abs/2312.10997"
+  },
+  {
+    "key": "gao2024rag_survey",
+    "field": "organization",
+    "old": null,
+    "new": "arXiv",
+    "reason": "Original record DOI/URL and prior verified selected arXiv version",
+    "evidence": "https://arxiv.org/abs/2312.10997"
+  },
+  {
+    "key": "shen2024hugginggpt",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html"
+  },
+  {
+    "key": "shen2024hugginggpt",
+    "field": "title",
+    "old": "{HuggingGPT}: Solving AI tasks with ChatGPT and its friends in Hugging Face",
+    "new": "{HuggingGPT}: Solving {AI} tasks with {ChatGPT} and its friends in {Hugging Face}",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/77c33e6a367922d003ff102ffb92b658-Abstract-Conference.html"
+  },
+  {
+    "key": "shen2024hugginggpt",
+    "field": "editor",
+    "old": null,
+    "new": "A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "shen2024hugginggpt",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "zhao2024longagent",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2024.emnlp-main.912/"
+  },
+  {
+    "key": "zhao2024longagent",
+    "field": "editor",
+    "old": null,
+    "new": "Al-Onaizan, Yaser and Bansal, Mohit and Chen, Yun-Nung",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2024.emnlp-main.912.bib"
+  },
+  {
+    "key": "zhao2024longagent",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/2024.emnlp-main.912"
+  },
+  {
+    "key": "khattab2024dspy",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html"
+  },
+  {
+    "key": "khattab2024dspy",
+    "field": "editor",
+    "old": null,
+    "new": "B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/4781-/bibtex"
+  },
+  {
+    "key": "khattab2024dspy",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80585.html"
+  },
+  {
+    "key": "khattab2024dspy",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html"
+  },
+  {
+    "key": "duan2024langgraph_crewai",
+    "field": "ENTRYTYPE",
+    "old": "article",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://arxiv.org/abs/2411.18241"
+  },
+  {
+    "key": "duan2024langgraph_crewai",
+    "field": "title",
+    "old": "Exploration of LLM multi-agent application implementation based on LangGraph+CrewAI",
+    "new": "Exploration of {LLM} multi-agent application implementation based on {LangGraph}+{CrewAI}",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://arxiv.org/abs/2411.18241"
+  },
+  {
+    "key": "duan2024langgraph_crewai",
+    "field": "journal",
+    "old": "arXiv preprint arXiv:2411.18241",
+    "new": null,
+    "reason": "Preprint server is a source, not a journal",
+    "evidence": "https://arxiv.org/abs/2411.18241"
+  },
+  {
+    "key": "duan2024langgraph_crewai",
+    "field": "organization",
+    "old": null,
+    "new": "arXiv",
+    "reason": "Original record DOI/URL and prior verified selected arXiv version",
+    "evidence": "https://arxiv.org/abs/2411.18241"
+  },
+  {
+    "key": "zhuge2024gptswarm",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.mlr.press/v235/zhuge24a.html"
+  },
+  {
+    "key": "zhuge2024gptswarm",
+    "field": "title",
+    "old": "Gptswarm: Language agents as optimizable graphs",
+    "new": "{GPTSwarm}: Language agents as optimizable graphs",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://proceedings.mlr.press/v235/zhuge24a.html"
+  },
+  {
+    "key": "zhuge2024gptswarm",
+    "field": "editor",
+    "old": null,
+    "new": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+    "reason": "Official PMLR embedded BibTeX editors",
+    "evidence": "https://proceedings.mlr.press/v235/zhuge24a.html"
+  },
+  {
+    "key": "chen2024agentverse",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html"
+  },
+  {
+    "key": "chen2024agentverse",
+    "field": "title",
+    "old": "Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors",
+    "new": "{AgentVerse}: Facilitating multi-agent collaboration and exploring emergent behaviors",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html"
+  },
+  {
+    "key": "chen2024agentverse",
+    "field": "editor",
+    "old": null,
+    "new": "B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/5144-/bibtex"
+  },
+  {
+    "key": "chen2024agentverse",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80585.html"
+  },
+  {
+    "key": "chen2024agentverse",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/578e65cdee35d00c708d4c64bce32971-Abstract-Conference.html"
+  },
+  {
+    "key": "kim2024mdagents",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html"
+  },
+  {
+    "key": "kim2024mdagents",
+    "field": "title",
+    "old": "Mdagents: An adaptive collaboration of llms for medical decision-making",
+    "new": "{MDAgents}: An adaptive collaboration of {LLMs} for medical decision-making",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html"
+  },
+  {
+    "key": "kim2024mdagents",
+    "field": "editor",
+    "old": null,
+    "new": "A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/25061-/bibtex"
+  },
+  {
+    "key": "kim2024mdagents",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/25061-/bibtex"
+  },
+  {
+    "key": "zhou2023least_to_most",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://openreview.net/forum?id=WZH7099tgfM"
+  },
+  {
+    "key": "zhou2023least_to_most",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80586.html"
+  },
+  {
+    "key": "zhou2023least_to_most",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://openreview.net/forum?id=WZH7099tgfM"
+  },
+  {
+    "key": "khot2023decomposed_prompting",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://openreview.net/forum?id=_nGgzQjzaRy"
+  },
+  {
+    "key": "khot2023decomposed_prompting",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80586.html"
+  },
+  {
+    "key": "khot2023decomposed_prompting",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://openreview.net/forum?id=_nGgzQjzaRy"
+  },
+  {
+    "key": "wang2023plan_and_solve",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2023.acl-long.147/"
+  },
+  {
+    "key": "wang2023plan_and_solve",
+    "field": "editor",
+    "old": null,
+    "new": "Rogers, Anna and Boyd-Graber, Jordan and Okazaki, Naoaki",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2023.acl-long.147.bib"
+  },
+  {
+    "key": "wang2023plan_and_solve",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/2023.acl-long.147"
+  },
+  {
+    "key": "wang2023plan_and_solve",
+    "field": "booktitle",
+    "old": "Proceedings of the 61st annual meeting of the association for computational linguistics (volume 1: long papers)",
+    "new": "Proceedings of the 61st Annual Meeting of the {Association for Computational Linguistics} (Volume 1: Long Papers)",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2023.acl-long.147/"
+  },
+  {
+    "key": "packer2023memgpt",
+    "field": "ENTRYTYPE",
+    "old": "article",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://arxiv.org/abs/2310.08560v1"
+  },
+  {
+    "key": "packer2023memgpt",
+    "field": "title",
+    "old": "MemGPT: towards LLMs as operating systems.",
+    "new": "{MemGPT}: towards {LLMs} as operating systems",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://arxiv.org/abs/2310.08560v1"
+  },
+  {
+    "key": "packer2023memgpt",
+    "field": "journal",
+    "old": "arXiv preprint arXiv:2310.08560",
+    "new": null,
+    "reason": "Preprint server is a source, not a journal",
+    "evidence": "https://arxiv.org/abs/2310.08560v1"
+  },
+  {
+    "key": "packer2023memgpt",
+    "field": "organization",
+    "old": null,
+    "new": "arXiv",
+    "reason": "Original record DOI/URL and prior verified selected arXiv version",
+    "evidence": "https://arxiv.org/abs/2310.08560v1"
+  },
+  {
+    "key": "zhang2024memory_survey",
+    "field": "eid",
+    "old": null,
+    "new": "155",
+    "reason": "Prior official article audit confirms Article 155, pages 155:1–155:47",
+    "evidence": "https://doi.org/10.1145/3748302"
+  },
+  {
+    "key": "zhang2024memory_survey",
+    "field": "pages",
+    "old": "155:1--155:47",
+    "new": null,
+    "reason": "Use APA Article 155 rather than article-prefixed pagination",
+    "evidence": "https://doi.org/10.1145/3748302"
+  },
+  {
+    "key": "asai2024selfrag",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html"
+  },
+  {
+    "key": "asai2024selfrag",
+    "field": "editor",
+    "old": null,
+    "new": "B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/4936-/bibtex"
+  },
+  {
+    "key": "asai2024selfrag",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80585.html"
+  },
+  {
+    "key": "asai2024selfrag",
+    "field": "booktitle",
+    "old": "International conference on learning representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25f7be9694d7b32d5cc670927b8091e1-Abstract-Conference.html"
+  },
+  {
+    "key": "jiang2023active_rag",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2023.emnlp-main.495/"
+  },
+  {
+    "key": "jiang2023active_rag",
+    "field": "editor",
+    "old": null,
+    "new": "Bouamor, Houda and Pino, Juan and Bali, Kalika",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2023.emnlp-main.495.bib"
+  },
+  {
+    "key": "jiang2023active_rag",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/2023.emnlp-main.495"
+  },
+  {
+    "key": "jiang2023active_rag",
+    "field": "booktitle",
+    "old": "Proceedings of the 2023 conference on empirical methods in natural language processing",
+    "new": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2023.emnlp-main.495/"
+  },
+  {
+    "key": "wei2022chain_of_thought",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.52202/068431-1800"
+  },
+  {
+    "key": "wei2022chain_of_thought",
+    "field": "editor",
+    "old": null,
+    "new": "S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/18168-/bibtex"
+  },
+  {
+    "key": "wei2022chain_of_thought",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/18168-/bibtex"
+  },
+  {
+    "key": "wang2023self_consistency",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://openreview.net/forum?id=1PL1NIMMrw"
+  },
+  {
+    "key": "wang2023self_consistency",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80586.html"
+  },
+  {
+    "key": "wang2023self_consistency",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://openreview.net/forum?id=1PL1NIMMrw"
+  },
+  {
+    "key": "yao2023tree_of_thoughts",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.52202/075280-0517"
+  },
+  {
+    "key": "yao2023tree_of_thoughts",
+    "field": "editor",
+    "old": null,
+    "new": "A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "yao2023tree_of_thoughts",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "besta2024graph_of_thoughts",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "article",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.1609/aaai.v38i16.29720"
+  },
+  {
+    "key": "besta2024graph_of_thoughts",
+    "field": "journaltitle",
+    "old": null,
+    "new": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "reason": "Publisher-deposited Crossref classifies this as a journal article",
+    "evidence": "https://api.crossref.org/works/10.1609/aaai.v38i16.29720"
+  },
+  {
+    "key": "besta2024graph_of_thoughts",
+    "field": "booktitle",
+    "old": "Proceedings of the AAAI conference on artificial intelligence",
+    "new": null,
+    "reason": "Transferred serialized conference title to journaltitle",
+    "evidence": "https://doi.org/10.1609/aaai.v38i16.29720"
+  },
+  {
+    "key": "shinn2023reflexion",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.52202/075280-0377"
+  },
+  {
+    "key": "shinn2023reflexion",
+    "field": "editor",
+    "old": null,
+    "new": "A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "shinn2023reflexion",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "madaan2023self_refine",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.52202/075280-2019"
+  },
+  {
+    "key": "madaan2023self_refine",
+    "field": "title",
+    "old": "Self-refine: Iterative refinement with self-feedback",
+    "new": "{Self-refine}: Iterative refinement with self-feedback",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://doi.org/10.52202/075280-2019"
+  },
+  {
+    "key": "madaan2023self_refine",
+    "field": "editor",
+    "old": null,
+    "new": "A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "madaan2023self_refine",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "dhuliawala2023chain_of_verification",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2024.findings-acl.212/"
+  },
+  {
+    "key": "dhuliawala2023chain_of_verification",
+    "field": "editor",
+    "old": null,
+    "new": "Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2024.findings-acl.212.bib"
+  },
+  {
+    "key": "dhuliawala2023chain_of_verification",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/2024.findings-acl.212"
+  },
+  {
+    "key": "dhuliawala2023chain_of_verification",
+    "field": "booktitle",
+    "old": "Findings of the association for computational linguistics: ACL 2024",
+    "new": "Findings of the {Association for Computational Linguistics}: {ACL} 2024",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2024.findings-acl.212/"
+  },
+  {
+    "key": "tang2024medagents",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2024.findings-acl.33/"
+  },
+  {
+    "key": "tang2024medagents",
+    "field": "title",
+    "old": "Medagents: Large language models as collaborators for zero-shot medical reasoning",
+    "new": "{MedAgents}: Large language models as collaborators for zero-shot medical reasoning",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://aclanthology.org/2024.findings-acl.33/"
+  },
+  {
+    "key": "tang2024medagents",
+    "field": "editor",
+    "old": null,
+    "new": "Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2024.findings-acl.33.bib"
+  },
+  {
+    "key": "tang2024medagents",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/2024.findings-acl.33"
+  },
+  {
+    "key": "tang2024medagents",
+    "field": "booktitle",
+    "old": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "new": "Findings of the {Association for Computational Linguistics}: {ACL} 2024",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2024.findings-acl.33/"
+  },
+  {
+    "key": "cui2023chatlaw",
+    "field": "ENTRYTYPE",
+    "old": "article",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://arxiv.org/abs/2306.16092v1"
+  },
+  {
+    "key": "cui2023chatlaw",
+    "field": "title",
+    "old": "Chatlaw: Open-source legal large language model with integrated external knowledge bases",
+    "new": "{ChatLaw}: Open-source legal large language model with integrated external knowledge bases",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://arxiv.org/abs/2306.16092v1"
+  },
+  {
+    "key": "cui2023chatlaw",
+    "field": "journal",
+    "old": "arXiv preprint arXiv:2306.16092",
+    "new": null,
+    "reason": "Preprint server is a source, not a journal",
+    "evidence": "https://arxiv.org/abs/2306.16092v1"
+  },
+  {
+    "key": "cui2023chatlaw",
+    "field": "organization",
+    "old": null,
+    "new": "arXiv",
+    "reason": "Original record DOI/URL and prior verified selected arXiv version",
+    "evidence": "https://arxiv.org/abs/2306.16092v1"
+  },
+  {
+    "key": "li2024genmentor",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.1145/3701716.3715244"
+  },
+  {
+    "key": "li2024genmentor",
+    "field": "title",
+    "old": "LLM-powered multi-agent framework for goal-oriented learning in intelligent tutoring system",
+    "new": "{LLM}-powered multi-agent framework for goal-oriented learning in intelligent tutoring system",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://doi.org/10.1145/3701716.3715244"
+  },
+  {
+    "key": "li2024genmentor",
+    "field": "publisher",
+    "old": null,
+    "new": "ACM",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.1145/3701716.3715244"
+  },
+  {
+    "key": "li2024genmentor",
+    "field": "booktitle",
+    "old": "Companion Proceedings of the ACM on Web Conference 2025",
+    "new": "Companion Proceedings of the {ACM} on Web Conference 2025",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://doi.org/10.1145/3701716.3715244"
+  },
+  {
+    "key": "guha2023legalbench",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.52202/075280-1915"
+  },
+  {
+    "key": "guha2023legalbench",
+    "field": "title",
+    "old": "Legalbench: A collaboratively built benchmark for measuring legal reasoning in large language models",
+    "new": "{LegalBench}: A collaboratively built benchmark for measuring legal reasoning in large language models",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://doi.org/10.52202/075280-1915"
+  },
+  {
+    "key": "guha2023legalbench",
+    "field": "editor",
+    "old": null,
+    "new": "A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "guha2023legalbench",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/22816-/bibtex"
+  },
+  {
+    "key": "brynjolfsson2023generative_ai_work",
+    "field": "title",
+    "old": "Generative AI at work",
+    "new": "Generative {AI} at work",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://doi.org/10.1093/qje/qjae044"
+  },
+  {
+    "key": "yang2024swe_agent",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html"
+  },
+  {
+    "key": "yang2024swe_agent",
+    "field": "title",
+    "old": "SWE-agent: Agent-computer interfaces enable automated software engineering",
+    "new": "{SWE-agent}: Agent-computer interfaces enable automated software engineering",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html"
+  },
+  {
+    "key": "yang2024swe_agent",
+    "field": "editor",
+    "old": null,
+    "new": "A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/24337-/bibtex"
+  },
+  {
+    "key": "yang2024swe_agent",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/24337-/bibtex"
+  },
+  {
+    "key": "jimenez2024swe_bench",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-Abstract-Conference.html"
+  },
+  {
+    "key": "jimenez2024swe_bench",
+    "field": "title",
+    "old": "SWE-bench: Can language models resolve real-world GitHub issues?",
+    "new": "{SWE-bench}: Can language models resolve real-world {GitHub} issues?",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-Abstract-Conference.html"
+  },
+  {
+    "key": "jimenez2024swe_bench",
+    "field": "editor",
+    "old": null,
+    "new": "B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/5227-/bibtex"
+  },
+  {
+    "key": "jimenez2024swe_bench",
+    "field": "pages",
+    "old": null,
+    "new": "54107--54157",
+    "reason": "Previously missing page range now explicitly available in official BibTeX",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/5227-/bibtex"
+  },
+  {
+    "key": "jimenez2024swe_bench",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80585.html"
+  },
+  {
+    "key": "jimenez2024swe_bench",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-Abstract-Conference.html"
+  },
+  {
+    "key": "han2024mast",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html"
+  },
+  {
+    "key": "han2024mast",
+    "field": "title",
+    "old": "Why do multi-agent LLM systems fail?",
+    "new": "Why do multi-agent {LLM} systems fail?",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html"
+  },
+  {
+    "key": "han2024mast",
+    "field": "editor",
+    "old": null,
+    "new": "D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/33158-/bibtex"
+  },
+  {
+    "key": "han2024mast",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/33158-/bibtex"
+  },
+  {
+    "key": "anthropic2024mcp",
+    "field": "ENTRYTYPE",
+    "old": "misc",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://www.anthropic.com/news/model-context-protocol"
+  },
+  {
+    "key": "anthropic2024mcp",
+    "field": "title",
+    "old": "Introducing the Model Context Protocol",
+    "new": "Introducing the {Model Context Protocol}",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://www.anthropic.com/news/model-context-protocol"
+  },
+  {
+    "key": "anthropic2024mcp",
+    "field": "date",
+    "old": null,
+    "new": "2024-11-25",
+    "reason": "Full publication date verified in official page and preserved validation evidence",
+    "evidence": "https://www.anthropic.com/news/model-context-protocol"
+  },
+  {
+    "key": "anthropic2024mcp",
+    "field": "urldate",
+    "old": null,
+    "new": "2026-10-11",
+    "reason": "Actual successful HTTP 200 retrieval logged in this migration; ESWA requires web access date",
+    "evidence": "https://www.anthropic.com/news/model-context-protocol"
+  },
+  {
+    "key": "anthropic2024mcp",
+    "field": "howpublished",
+    "old": "Anthropic announcement",
+    "new": null,
+    "reason": "Replaced legacy howpublished with structured source/type fields",
+    "evidence": "https://www.anthropic.com/news/model-context-protocol"
+  },
+  {
+    "key": "anthropic2024mcp",
+    "field": "annotation",
+    "old": null,
+    "new": "Accessed 10 October 2026.",
+    "reason": "Keep historical audit/access evidence out of printed bibliographic note",
+    "evidence": "https://www.anthropic.com/news/model-context-protocol"
+  },
+  {
+    "key": "anthropic2024mcp",
+    "field": "note",
+    "old": "Accessed 10 October 2026.",
+    "new": null,
+    "reason": "Historical audit note is not an APA bibliographic element",
+    "evidence": "https://www.anthropic.com/news/model-context-protocol"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "ENTRYTYPE",
+    "old": "misc",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "title",
+    "old": "Announcing the Agent2Agent Protocol ({A2A})",
+    "new": "Announcing the {Agent2Agent} Protocol ({A2A})",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "date",
+    "old": null,
+    "new": "2025-04-09",
+    "reason": "Full publication date verified in official page and preserved validation evidence",
+    "evidence": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "urldate",
+    "old": null,
+    "new": "2026-10-11",
+    "reason": "Actual successful HTTP 200 retrieval logged in this migration; ESWA requires web access date",
+    "evidence": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "organization",
+    "old": null,
+    "new": "Google Developers Blog",
+    "reason": "Official website identity",
+    "evidence": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "howpublished",
+    "old": "Google Developers Blog",
+    "new": null,
+    "reason": "Replaced legacy howpublished with structured source/type fields",
+    "evidence": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "annotation",
+    "old": null,
+    "new": "Accessed 10 October 2026.",
+    "reason": "Keep historical audit/access evidence out of printed bibliographic note",
+    "evidence": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+  },
+  {
+    "key": "google2025a2a",
+    "field": "note",
+    "old": "Accessed 10 October 2026.",
+    "new": null,
+    "reason": "Historical audit note is not an APA bibliographic element",
+    "evidence": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+  },
+  {
+    "key": "langgraph2024",
+    "field": "ENTRYTYPE",
+    "old": "misc",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://www.langchain.com/blog/langgraph-multi-agent-workflows"
+  },
+  {
+    "key": "langgraph2024",
+    "field": "title",
+    "old": "{LangGraph: Multi-Agent Workflows}",
+    "new": "{LangGraph}: Multi-Agent Workflows",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://www.langchain.com/blog/langgraph-multi-agent-workflows"
+  },
+  {
+    "key": "langgraph2024",
+    "field": "date",
+    "old": null,
+    "new": "2024-01-23",
+    "reason": "Full publication date verified in official page and preserved validation evidence",
+    "evidence": "https://www.langchain.com/blog/langgraph-multi-agent-workflows"
+  },
+  {
+    "key": "langgraph2024",
+    "field": "urldate",
+    "old": null,
+    "new": "2026-10-11",
+    "reason": "Actual successful HTTP 200 retrieval logged in this migration; ESWA requires web access date",
+    "evidence": "https://www.langchain.com/blog/langgraph-multi-agent-workflows"
+  },
+  {
+    "key": "langgraph2024",
+    "field": "author",
+    "old": "{LangChain Team}",
+    "new": "{The LangChain Team}",
+    "reason": "Exact official page byline; unify corporate identity across two publications",
+    "evidence": "https://www.langchain.com/blog/langgraph-multi-agent-workflows"
+  },
+  {
+    "key": "langgraph2024",
+    "field": "organization",
+    "old": null,
+    "new": "LangChain",
+    "reason": "Official website identity",
+    "evidence": "https://www.langchain.com/blog/langgraph-multi-agent-workflows"
+  },
+  {
+    "key": "langgraph2024",
+    "field": "howpublished",
+    "old": "Technical Blog, LangChain",
+    "new": null,
+    "reason": "Replaced legacy howpublished with structured source/type fields",
+    "evidence": "https://www.langchain.com/blog/langgraph-multi-agent-workflows"
+  },
+  {
+    "key": "langgraph2024",
+    "field": "annotation",
+    "old": null,
+    "new": "Published January 2024. No peer-reviewed paper; official engineering documentation. Accessed 10 October 2026.",
+    "reason": "Keep historical audit/access evidence out of printed bibliographic note",
+    "evidence": "https://www.langchain.com/blog/langgraph-multi-agent-workflows"
+  },
+  {
+    "key": "langgraph2024",
+    "field": "note",
+    "old": "Published January 2024. No peer-reviewed paper; official engineering documentation. Accessed 10 October 2026.",
+    "new": null,
+    "reason": "Historical audit note is not an APA bibliographic element",
+    "evidence": "https://www.langchain.com/blog/langgraph-multi-agent-workflows"
+  },
+  {
+    "key": "crewai2023",
+    "field": "ENTRYTYPE",
+    "old": "misc",
+    "new": "software",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://pypi.org/project/crewai/0.1.0/"
+  },
+  {
+    "key": "crewai2023",
+    "field": "title",
+    "old": "{CrewAI: Framework for Orchestrating Role-Playing, Autonomous AI Agents}",
+    "new": "{CrewAI}: Framework for Orchestrating Role-Playing, Autonomous {AI} Agents",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://pypi.org/project/crewai/0.1.0/"
+  },
+  {
+    "key": "crewai2023",
+    "field": "entrysubtype",
+    "old": null,
+    "new": "Computer software",
+    "reason": "APA bracketed description uses entrysubtype, not type",
+    "evidence": "https://pypi.org/project/crewai/0.1.0/"
+  },
+  {
+    "key": "crewai2023",
+    "field": "version",
+    "old": null,
+    "new": "0.1.0",
+    "reason": "Preserved version explicitly verified in prior software release audit",
+    "evidence": "https://pypi.org/project/crewai/0.1.0/"
+  },
+  {
+    "key": "crewai2023",
+    "field": "publisher",
+    "old": null,
+    "new": "PyPI",
+    "reason": "Actual distribution/repository host, not inferred software creator",
+    "evidence": "https://pypi.org/project/crewai/0.1.0/"
+  },
+  {
+    "key": "crewai2023",
+    "field": "howpublished",
+    "old": "Software release, PyPI version 0.1.0",
+    "new": null,
+    "reason": "Replaced legacy howpublished with structured source/type fields",
+    "evidence": "https://pypi.org/project/crewai/0.1.0/"
+  },
+  {
+    "key": "crewai2023",
+    "field": "annotation",
+    "old": null,
+    "new": "First released on PyPI on 14 November 2023 (version 0.1.0).",
+    "reason": "Keep historical audit/access evidence out of printed bibliographic note",
+    "evidence": "https://pypi.org/project/crewai/0.1.0/"
+  },
+  {
+    "key": "crewai2023",
+    "field": "note",
+    "old": "First released on PyPI on 14 November 2023 (version 0.1.0).",
+    "new": null,
+    "reason": "Historical audit note is not an APA bibliographic element",
+    "evidence": "https://pypi.org/project/crewai/0.1.0/"
+  },
+  {
+    "key": "dify2024",
+    "field": "ENTRYTYPE",
+    "old": "misc",
+    "new": "software",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://github.com/langgenius/dify/tree/0.6.0"
+  },
+  {
+    "key": "dify2024",
+    "field": "entrysubtype",
+    "old": null,
+    "new": "Computer software",
+    "reason": "APA bracketed description uses entrysubtype, not type",
+    "evidence": "https://github.com/langgenius/dify/tree/0.6.0"
+  },
+  {
+    "key": "dify2024",
+    "field": "version",
+    "old": null,
+    "new": "0.6.0",
+    "reason": "Preserved version explicitly verified in prior software release audit",
+    "evidence": "https://github.com/langgenius/dify/tree/0.6.0"
+  },
+  {
+    "key": "dify2024",
+    "field": "publisher",
+    "old": null,
+    "new": "GitHub",
+    "reason": "Actual distribution/repository host, not inferred software creator",
+    "evidence": "https://github.com/langgenius/dify/tree/0.6.0"
+  },
+  {
+    "key": "dify2024",
+    "field": "howpublished",
+    "old": "Software release, version 0.6.0",
+    "new": null,
+    "reason": "Replaced legacy howpublished with structured source/type fields",
+    "evidence": "https://github.com/langgenius/dify/tree/0.6.0"
+  },
+  {
+    "key": "dify2024",
+    "field": "annotation",
+    "old": null,
+    "new": "Version 0.6.0, released 8 April 2024; accessed 10 October 2026.",
+    "reason": "Keep historical audit/access evidence out of printed bibliographic note",
+    "evidence": "https://github.com/langgenius/dify/tree/0.6.0"
+  },
+  {
+    "key": "dify2024",
+    "field": "note",
+    "old": "Version 0.6.0, released 8 April 2024; accessed 10 October 2026.",
+    "new": null,
+    "reason": "Historical audit note is not an APA bibliographic element",
+    "evidence": "https://github.com/langgenius/dify/tree/0.6.0"
+  },
+  {
+    "key": "tang2025llmmedqa",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.1109/IJCNN64981.2025.11228647"
+  },
+  {
+    "key": "tang2025llmmedqa",
+    "field": "title",
+    "old": "Llm-medqa: Enhancing medical question answering through case studies in large language models",
+    "new": "{LLM-MedQA}: Enhancing medical question answering through case studies in large language models",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://doi.org/10.1109/IJCNN64981.2025.11228647"
+  },
+  {
+    "key": "tang2025llmmedqa",
+    "field": "publisher",
+    "old": null,
+    "new": "IEEE",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.1109/IJCNN64981.2025.11228647"
+  },
+  {
+    "key": "tang2025llmmedqa",
+    "field": "booktitle",
+    "old": "2025 International Joint Conference on Neural Networks (IJCNN)",
+    "new": "2025 International Joint Conference on Neural Networks ({IJCNN})",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://doi.org/10.1109/IJCNN64981.2025.11228647"
+  },
+  {
+    "key": "legalgraphrag2026",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2026.acl-long.1738/"
+  },
+  {
+    "key": "legalgraphrag2026",
+    "field": "title",
+    "old": "LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning",
+    "new": "{LegalGraphRAG}: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://aclanthology.org/2026.acl-long.1738/"
+  },
+  {
+    "key": "legalgraphrag2026",
+    "field": "editor",
+    "old": null,
+    "new": "Liakata, Maria and Moreira, Viviane P. and Zhang, Jiajun and Jurgens, David",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2026.acl-long.1738.bib"
+  },
+  {
+    "key": "legalgraphrag2026",
+    "field": "booktitle",
+    "old": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "new": "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2026.acl-long.1738/"
+  },
+  {
+    "key": "hu2024triad",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2024.emnlp-main.101/"
+  },
+  {
+    "key": "hu2024triad",
+    "field": "title",
+    "old": "Triad: A framework leveraging a multi-role LLM-based agent to solve knowledge base question answering",
+    "new": "Triad: A framework leveraging a multi-role {LLM}-based agent to solve knowledge base question answering",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://aclanthology.org/2024.emnlp-main.101/"
+  },
+  {
+    "key": "hu2024triad",
+    "field": "editor",
+    "old": null,
+    "new": "Al-Onaizan, Yaser and Bansal, Mohit and Chen, Yun-Nung",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2024.emnlp-main.101.bib"
+  },
+  {
+    "key": "hu2024triad",
+    "field": "publisher",
+    "old": null,
+    "new": "Association for Computational Linguistics",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.18653/v1/2024.emnlp-main.101"
+  },
+  {
+    "key": "huang2023agentcoder",
+    "field": "ENTRYTYPE",
+    "old": "article",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://arxiv.org/abs/2312.13010v1"
+  },
+  {
+    "key": "huang2023agentcoder",
+    "field": "title",
+    "old": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+    "new": "{AgentCoder}: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://arxiv.org/abs/2312.13010v1"
+  },
+  {
+    "key": "huang2023agentcoder",
+    "field": "journal",
+    "old": "arXiv preprint arXiv:2312.13010",
+    "new": null,
+    "reason": "Preprint server is a source, not a journal",
+    "evidence": "https://arxiv.org/abs/2312.13010v1"
+  },
+  {
+    "key": "huang2023agentcoder",
+    "field": "organization",
+    "old": null,
+    "new": "arXiv",
+    "reason": "Original record DOI/URL and prior verified selected arXiv version",
+    "evidence": "https://arxiv.org/abs/2312.13010v1"
+  },
+  {
+    "key": "zhang2024eduplanner",
+    "field": "title",
+    "old": "EduPlanner: LLM-based Multiagent systems for customized and intelligent instructional design",
+    "new": "{EduPlanner}: {LLM}-based Multiagent systems for customized and intelligent instructional design",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://doi.org/10.1109/TLT.2025.3561332"
+  },
+  {
+    "key": "fatemi2024financialqa",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://doi.org/10.1145/3677052.3698686"
+  },
+  {
+    "key": "fatemi2024financialqa",
+    "field": "publisher",
+    "old": null,
+    "new": "ACM",
+    "reason": "Publisher-deposited Crossref publication venue publisher",
+    "evidence": "https://api.crossref.org/works/10.1145/3677052.3698686"
+  },
+  {
+    "key": "fatemi2024financialqa",
+    "field": "booktitle",
+    "old": "Proceedings of the 5th ACM International Conference on AI in Finance",
+    "new": "Proceedings of the 5th {ACM} International Conference on {AI} in Finance",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://doi.org/10.1145/3677052.3698686"
+  },
+  {
+    "key": "peffers2007dsrm",
+    "field": "journal",
+    "old": "Journal of management information systems",
+    "new": "Journal of Management Information Systems",
+    "reason": "Canonical journal capitalization from publisher-deposited Crossref",
+    "evidence": "https://api.crossref.org/works/10.2753/MIS0742-1222240302"
+  },
+  {
+    "key": "xagent2023",
+    "field": "ENTRYTYPE",
+    "old": "misc",
+    "new": "software",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://github.com/OpenBMB/XAgent"
+  },
+  {
+    "key": "xagent2023",
+    "field": "entrysubtype",
+    "old": null,
+    "new": "Computer software",
+    "reason": "APA bracketed description uses entrysubtype, not type",
+    "evidence": "https://github.com/OpenBMB/XAgent"
+  },
+  {
+    "key": "xagent2023",
+    "field": "urldate",
+    "old": null,
+    "new": "2026-10-11",
+    "reason": "Actual successful repository access; unknown software version requires access date in ESWA",
+    "evidence": "https://github.com/OpenBMB/XAgent"
+  },
+  {
+    "key": "xagent2023",
+    "field": "publisher",
+    "old": null,
+    "new": "GitHub",
+    "reason": "Actual distribution/repository host, not inferred software creator",
+    "evidence": "https://github.com/OpenBMB/XAgent"
+  },
+  {
+    "key": "xagent2023",
+    "field": "howpublished",
+    "old": "\\url{https://github.com/OpenBMB/XAgent}",
+    "new": null,
+    "reason": "Replaced legacy howpublished with structured source/type fields",
+    "evidence": "https://github.com/OpenBMB/XAgent"
+  },
+  {
+    "key": "chen2024reconcile",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2024.acl-long.381/"
+  },
+  {
+    "key": "chen2024reconcile",
+    "field": "title",
+    "old": "{ReConcile}: Round-Table Conference Improves Reasoning via Consensus among Diverse {LLM}s",
+    "new": "{ReConcile}: Round-Table Conference Improves Reasoning via Consensus among Diverse {LLMs}",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://aclanthology.org/2024.acl-long.381/"
+  },
+  {
+    "key": "chen2024reconcile",
+    "field": "editor",
+    "old": null,
+    "new": "Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2024.acl-long.381.bib"
+  },
+  {
+    "key": "chen2024reconcile",
+    "field": "booktitle",
+    "old": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "new": "Proceedings of the 62nd Annual Meeting of the {Association for Computational Linguistics} (Volume 1: Long Papers)",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2024.acl-long.381/"
+  },
+  {
+    "key": "zhang2024chain_agents",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract-Conference.html"
+  },
+  {
+    "key": "zhang2024chain_agents",
+    "field": "editor",
+    "old": null,
+    "new": "A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/25361-/bibtex"
+  },
+  {
+    "key": "zhang2024chain_agents",
+    "field": "publisher",
+    "old": null,
+    "new": "Curran Associates, Inc.",
+    "reason": "Official proceedings BibTeX publisher",
+    "evidence": "https://proceedings.neurips.cc/paper_files/paper/25361-/bibtex"
+  },
+  {
+    "key": "jiang2026cocoa",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2026.acl-long.167/"
+  },
+  {
+    "key": "jiang2026cocoa",
+    "field": "editor",
+    "old": null,
+    "new": "Liakata, Maria and Moreira, Viviane P. and Zhang, Jiajun and Jurgens, David",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2026.acl-long.167.bib"
+  },
+  {
+    "key": "jiang2026cocoa",
+    "field": "booktitle",
+    "old": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "new": "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2026.acl-long.167/"
+  },
+  {
+    "key": "shao2024storm",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2024.naacl-long.347/"
+  },
+  {
+    "key": "shao2024storm",
+    "field": "editor",
+    "old": null,
+    "new": "Duh, Kevin and Gomez, Helena and Bethard, Steven",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2024.naacl-long.347.bib"
+  },
+  {
+    "key": "shao2024storm",
+    "field": "booktitle",
+    "old": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "new": "Proceedings of the 2024 Conference of the {North American Chapter} of the {Association for Computational Linguistics}: Human Language Technologies (Volume 1: Long Papers)",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://aclanthology.org/2024.naacl-long.347/"
+  },
+  {
+    "key": "shao2024costorm",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://aclanthology.org/2024.emnlp-main.554/"
+  },
+  {
+    "key": "shao2024costorm",
+    "field": "editor",
+    "old": null,
+    "new": "Al-Onaizan, Yaser and Bansal, Mohit and Chen, Yun-Nung",
+    "reason": "Official ACL Anthology BibTeX editor",
+    "evidence": "https://aclanthology.org/2024.emnlp-main.554.bib"
+  },
+  {
+    "key": "ragflow2024",
+    "field": "ENTRYTYPE",
+    "old": "misc",
+    "new": "software",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://github.com/infiniflow/ragflow/tree/v0.6.0"
+  },
+  {
+    "key": "ragflow2024",
+    "field": "entrysubtype",
+    "old": null,
+    "new": "Computer software",
+    "reason": "APA bracketed description uses entrysubtype, not type",
+    "evidence": "https://github.com/infiniflow/ragflow/tree/v0.6.0"
+  },
+  {
+    "key": "ragflow2024",
+    "field": "version",
+    "old": null,
+    "new": "0.6.0",
+    "reason": "Preserved version explicitly verified in prior software release audit",
+    "evidence": "https://github.com/infiniflow/ragflow/tree/v0.6.0"
+  },
+  {
+    "key": "ragflow2024",
+    "field": "publisher",
+    "old": null,
+    "new": "GitHub",
+    "reason": "Actual distribution/repository host, not inferred software creator",
+    "evidence": "https://github.com/infiniflow/ragflow/tree/v0.6.0"
+  },
+  {
+    "key": "ragflow2024",
+    "field": "howpublished",
+    "old": "Software release, version 0.6.0",
+    "new": null,
+    "reason": "Replaced legacy howpublished with structured source/type fields",
+    "evidence": "https://github.com/infiniflow/ragflow/tree/v0.6.0"
+  },
+  {
+    "key": "ragflow2024",
+    "field": "annotation",
+    "old": null,
+    "new": "Version 0.6.0, released 21 May 2024; accessed 10 October 2026.",
+    "reason": "Keep historical audit/access evidence out of printed bibliographic note",
+    "evidence": "https://github.com/infiniflow/ragflow/tree/v0.6.0"
+  },
+  {
+    "key": "ragflow2024",
+    "field": "note",
+    "old": "Version 0.6.0, released 21 May 2024; accessed 10 October 2026.",
+    "new": null,
+    "reason": "Historical audit note is not an APA bibliographic element",
+    "evidence": "https://github.com/infiniflow/ragflow/tree/v0.6.0"
+  },
+  {
+    "key": "hendrycks2021mmlu",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://openreview.net/forum?id=d7KBjmI3GmQ"
+  },
+  {
+    "key": "hendrycks2021mmlu",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80587.html"
+  },
+  {
+    "key": "hendrycks2021mmlu",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://openreview.net/forum?id=d7KBjmI3GmQ"
+  },
+  {
+    "key": "liu2024agentbench",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html"
+  },
+  {
+    "key": "liu2024agentbench",
+    "field": "editor",
+    "old": null,
+    "new": "B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/5292-/bibtex"
+  },
+  {
+    "key": "liu2024agentbench",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80585.html"
+  },
+  {
+    "key": "liu2024agentbench",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html"
+  },
+  {
+    "key": "mialon2024gaia",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf"
+  },
+  {
+    "key": "mialon2024gaia",
+    "field": "editor",
+    "old": null,
+    "new": "B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/4267-/bibtex"
+  },
+  {
+    "key": "mialon2024gaia",
+    "field": "pages",
+    "old": null,
+    "new": "9025--9049",
+    "reason": "Previously missing page range now explicitly available in official BibTeX",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/4267-/bibtex"
+  },
+  {
+    "key": "mialon2024gaia",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80585.html"
+  },
+  {
+    "key": "mialon2024gaia",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/file/25ae35b5b1738d80f1f03a8713e405ec-Paper-Conference.pdf"
+  },
+  {
+    "key": "zhou2024webarena",
+    "field": "ENTRYTYPE",
+    "old": "inproceedings",
+    "new": "incollection",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/4410c0711e9154a7a2d26f9b3816d1ef-Abstract-Conference.html"
+  },
+  {
+    "key": "zhou2024webarena",
+    "field": "editor",
+    "old": null,
+    "new": "B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun",
+    "reason": "Official paper BibTeX / same proceedings volume explicitly credits these editors",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/4147-/bibtex"
+  },
+  {
+    "key": "zhou2024webarena",
+    "field": "publisher",
+    "old": null,
+    "new": "International Conference on Learning Representations",
+    "reason": "ICLR-linked publisher catalog distinguishes original publisher from POD publisher Curran",
+    "evidence": "https://www.proceedings.com/80585.html"
+  },
+  {
+    "key": "zhou2024webarena",
+    "field": "booktitle",
+    "old": "International Conference on Learning Representations",
+    "new": "{International Conference on Learning Representations}",
+    "reason": "APA proceedings sentence case with institution/acronym protection",
+    "evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/4410c0711e9154a7a2d26f9b3816d1ef-Abstract-Conference.html"
+  },
+  {
+    "key": "autorag2024",
+    "field": "ENTRYTYPE",
+    "old": "article",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://arxiv.org/abs/2410.20878"
+  },
+  {
+    "key": "autorag2024",
+    "field": "journal",
+    "old": "arXiv preprint arXiv:2410.20878",
+    "new": null,
+    "reason": "Preprint server is a source, not a journal",
+    "evidence": "https://arxiv.org/abs/2410.20878"
+  },
+  {
+    "key": "autorag2024",
+    "field": "organization",
+    "old": null,
+    "new": "arXiv",
+    "reason": "Original record DOI/URL and prior verified selected arXiv version",
+    "evidence": "https://arxiv.org/abs/2410.20878"
+  },
+  {
+    "key": "langgraph2024interrupt",
+    "field": "ENTRYTYPE",
+    "old": "misc",
+    "new": "online",
+    "reason": "Verified publication form / APA driver, not automatic inproceedings fallback",
+    "evidence": "https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt"
+  },
+  {
+    "key": "langgraph2024interrupt",
+    "field": "title",
+    "old": "Making it easier to build human-in-the-loop agents with {interrupt}",
+    "new": "Making it easier to build human-in-the-loop agents with interrupt",
+    "reason": "APA sentence case; protect documented proper names and acronyms; remove a title-final period from data",
+    "evidence": "https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt"
+  },
+  {
+    "key": "langgraph2024interrupt",
+    "field": "date",
+    "old": null,
+    "new": "2024-12-14",
+    "reason": "Full publication date verified in official page and preserved validation evidence",
+    "evidence": "https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt"
+  },
+  {
+    "key": "langgraph2024interrupt",
+    "field": "urldate",
+    "old": null,
+    "new": "2026-10-11",
+    "reason": "Actual successful HTTP 200 retrieval logged in this migration; ESWA requires web access date",
+    "evidence": "https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt"
+  },
+  {
+    "key": "langgraph2024interrupt",
+    "field": "organization",
+    "old": null,
+    "new": "LangChain",
+    "reason": "Official website identity",
+    "evidence": "https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt"
+  },
+  {
+    "key": "langgraph2024interrupt",
+    "field": "howpublished",
+    "old": "Official LangChain technical article",
+    "new": null,
+    "reason": "Replaced legacy howpublished with structured source/type fields",
+    "evidence": "https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt"
+  },
+  {
+    "key": "langgraph2024interrupt",
+    "field": "annotation",
+    "old": null,
+    "new": "Published 14 December 2024; accessed 10 October 2026.",
+    "reason": "Keep historical audit/access evidence out of printed bibliographic note",
+    "evidence": "https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt"
+  },
+  {
+    "key": "langgraph2024interrupt",
+    "field": "note",
+    "old": "Published 14 December 2024; accessed 10 October 2026.",
+    "new": null,
+    "reason": "Historical audit note is not an APA bibliographic element",
+    "evidence": "https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt"
+  }
+]

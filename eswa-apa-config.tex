@@ -4,3 +4,12 @@
 \usepackage{csquotes}
 \usepackage[backend=biber,style=apa,natbib=true,annotation=false]{biblatex}
 \input{eswa-apa-sourcemap.tex}
+% APA uses Article identifiers instead of internal PDF pagination. apa.bbx 9.20
+% prints eid for journals but not its inbook driver used for proceedings papers.
+% Extend only its post-booktitle locator; leave the installed style unchanged.
+\usepackage{xpatch}
+\DeclareFieldFormat[inbook,incollection]{eid}{\bibcpstring{jourarticle}~#1}
+\xpatchbibmacro{addinfo1}
+  {\printfield{pages}}
+  {\iffieldundef{eid}{\printfield{pages}}{\printfield{eid}}}
+  {}{\PackageError{eswa-apa}{APA proceedings locator patch failed}{Review the installed biblatex-apa version.}}

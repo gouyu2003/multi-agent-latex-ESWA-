@@ -1,0 +1,2 @@
+# Preserve downloaded HTTP bodies byte-for-byte for retrieval-manifest hashes.
+*.txt -text -diff

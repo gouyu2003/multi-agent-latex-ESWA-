@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-12",
+  "before": "tmp/conference9_before_build/manuscript.pdf",
+  "after": "manuscript.pdf",
+  "before_sha256": "c9d73c89a05b37279df76458cacdbe894991874d38c7bd8d4dd23a1e6710c1a0",
+  "after_sha256": "4c57b1d85fd178fa9a5b7c72a1c565be21baf45590e6a657f9da9ea8b136847d",
+  "pages": [
+    {
+      "page": 1,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_01.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 2,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_02.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 3,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_03.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 4,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_04.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 5,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_05.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 6,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_06.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 7,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_07.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 8,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_08.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 9,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_09.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 10,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_10.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 11,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_11.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 12,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_12.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 13,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_13.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 14,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_14.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 15,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_15.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 16,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_16.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 17,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_17.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 18,
+      "text_identical": true,
+      "pixels_identical_72dpi": true,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_18.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 19,
+      "text_identical": false,
+      "pixels_identical_72dpi": false,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_19.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 20,
+      "text_identical": false,
+      "pixels_identical_72dpi": false,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_20.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 21,
+      "text_identical": false,
+      "pixels_identical_72dpi": false,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_21.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    },
+    {
+      "page": 22,
+      "text_identical": false,
+      "pixels_identical_72dpi": false,
+      "outside_page": [],
+      "image_rectangles_identical": true,
+      "render": "tmp/conference9_rendered/page_22.png",
+      "result": "PASS",
+      "visual_review": "Six contact sheets for 22 pages inspected; pages 19-22 additionally inspected at full rendered resolution. Double columns, hanging indents, target entries, captions and figures have no introduced clipping or overlap."
+    }
+  ]
+}

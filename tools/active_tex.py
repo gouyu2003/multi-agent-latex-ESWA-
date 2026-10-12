@@ -261,6 +261,19 @@ class Scanner:
                     raise ScanError(f"Dynamic citation/input/conditional in macro at {rel}:{line(start)}")
                 pos = last_end = end
                 mask(start, pos, "macro definition")
+            elif name == "xpatchbibmacro":
+                # Five balanced arguments patch a bibliography macro; their
+                # deferred conditionals do not branch the manuscript source.
+                # Still reject hidden citations or dynamic source inclusion.
+                arguments = []
+                cursor = pos
+                for _ in range(5):
+                    value, cursor = group(text, cursor)
+                    arguments.append(value)
+                if any(re.search(r"\\(?:cite\w*|input|include)\b", value) for value in arguments):
+                    raise ScanError(f"Dynamic citation/input in bibliography patch at {rel}:{line(start)}")
+                pos = last_end = cursor
+                mask(start, pos, "bibliography macro patch")
             elif name == "includeonly":
                 values, pos = group(text, pos)
                 self.includeonly = {v.strip().removesuffix(".tex") for v in values.split(",")}

@@ -17,7 +17,7 @@ try {
     foreach ($buildStage in @('pass1','biber','pass2','pass3')) {
         if ($buildStage -eq 'biber') {
             Push-Location -LiteralPath $buildDirectory
-            try { & $bibEngine manuscript *> (Join-Path $buildDirectory 'manuscript.biber.console.txt') }
+            try { & $bibEngine manuscript 2>&1 | Out-File -LiteralPath (Join-Path $buildDirectory 'manuscript.biber.console.txt') -Encoding utf8 }
             finally { Pop-Location }
         } else {
             & $pdfEngine -interaction=nonstopmode -halt-on-error -file-line-error -recorder "-output-directory=$buildDirectory" manuscript.tex *> (Join-Path $buildDirectory "manuscript.$buildStage.console.txt")

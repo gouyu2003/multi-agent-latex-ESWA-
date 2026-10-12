@@ -1,0 +1,16 @@
+{
+  "url": "https://doi.org/10.1145/3586183.3606810",
+  "retrieval_method": "web search cached primary publisher page; direct requests returned 403",
+  "retrieved": "2026-10-12",
+  "proceedings_doi": "10.1145/3586183",
+  "isbn": "9798400701320",
+  "explicit_label": "Editors",
+  "editors": [
+    "Sean Follmer",
+    "Jeff Han",
+    "Jürgen Steimle",
+    "Nathalie Henry Riche"
+  ],
+  "publisher": "Association for Computing Machinery",
+  "note": "Names are explicitly labeled Editors in ACM Published In, not inferred from frontmatter chairs. Frontmatter is corroborating only."
+}

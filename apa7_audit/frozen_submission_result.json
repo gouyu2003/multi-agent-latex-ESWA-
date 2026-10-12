@@ -71,15 +71,15 @@
   "source_hashes": {
     "manuscript.tex": "7fc8787bbc1cc3c0da23b14bb94ce14df81f7433248abc2091eed2adb90b3598",
     "references.bib": "ef7c289c90c183c5f72f5484ee31b64d675a0f7a8dbfc325803d1bdc1d7b9a59",
-    "cas-dc.cls": "9f7dd6cfc91f7ce52d0db29579894662e1dd8ae96d42cf18d6d0c697e42464f5",
-    "cas-common.sty": "e95a01f4b33531d01ade231669fcc1e42f52193dddcb22ead5b63240eb952f8f",
-    "eswa-apa-config.tex": "65c42428fba1eafb0f393fa8ce015a439c407659b4f2dc497875ddcc6cafd37b",
-    "eswa-apa-sourcemap.tex": "2295fe576b2859323f657486e700358c4732ccc347a28116306fdb953f5b6af6",
+    "cas-dc.cls": "06c00def8a669e925053aa906cfdc9cc805ad9fec64e0607590eb7b4bacfd028",
+    "cas-common.sty": "afc0d69f90bf85fe646e2d435f04120933b8ef315c8251b04329c552b9b87021",
+    "eswa-apa-config.tex": "d87ea1492c9234ffdc54f95c34d7af9cfa8e1c0237a8dc9b3ad01acf74357f28",
+    "eswa-apa-sourcemap.tex": "063ebf3eab62c81017fe1aa1598a15126459ce74802b1d4989feca9b494a4ce3",
     "change_timeline.jpg": "3d64cc9c81f44d318ee46ee5975abb1e19b60ae38b2da111b4af8abb4ccfbb38",
     "classify.jpg": "ba422df21868dc4cbcedad80030e71061b658c17b0d9a0cea0f02c1b572f0b61",
     "fig3_topology.pdf": "015046a44f98dc11dd3c2d77b62875e49cf84fa7bdb9609b55dff5b993eab4a1",
     "fig_flow.jpg": "b3add8f2a85ceaa5b460e872dfdac003c714fce0baab934917554ace9a1f60f4",
     "fig_reference_corpus.pdf": "d1c7ec8f9c6ec4db64eeaee589197d9d7819dde76d656349a75223955e758d2d",
-    "manuscript.bbl": "14c98cadf4307d7f588a600870446dc505365abcb7d99d6d40ec9c56b28b3bbb"
+    "manuscript.bbl": "c0b086e805ea79b007c3ee9fd71ad756456e9c5ed63389a8e07aaff46a16c8e4"
   }
 }

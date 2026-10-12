@@ -3,11 +3,11 @@
     "overfull": [
       "Overfull \\hbox (123.62721pt too wide) detected at line 102",
       "Overfull \\hbox (0.76843pt too wide) in paragraph at lines 595--595",
-      "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2132--2139",
-      "Overfull \\hbox (0.92711pt too wide) in paragraph at lines 77--91"
+      "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2132--2139"
     ],
-    "underfull_count": 125,
-    "warnings": []
+    "underfull_count": 69,
+    "warnings": [],
+    "errors": []
   },
   "after": {
     "overfull": [
@@ -16,7 +16,9 @@
       "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2132--2139"
     ],
     "underfull_count": 69,
-    "warnings": []
+    "warnings": [],
+    "errors": []
   },
-  "biber_warnings": []
+  "biber_warnings": [],
+  "comparison_baseline": "tmp/conference9_before_build/manuscript.log; same APA branch before nine-paper follow-up"
 }

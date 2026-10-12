@@ -1,7 +1,8 @@
 {
+  "date": "2026-10-12",
   "core14_pass": 14,
   "extended15_pass": 15,
-  "body_pages_1_to_18_unchanged_after_brand_fixes": [
+  "body_pages_1_to_18_unchanged_after_conference9_followup": [
     true,
     true,
     true,
@@ -22,23 +23,26 @@
     true
   ],
   "formal_pages": 22,
-  "formal_pdf_sha256": "30fd8678d2b1e2d4d3c4c947ad2c508d8d950992f0df39ef3bd3a311370d238f",
+  "formal_pdf_sha256": "4c57b1d85fd178fa9a5b7c72a1c565be21baf45590e6a657f9da9ea8b136847d",
   "configuration_sha256": {
     "manuscript.tex": "7fc8787bbc1cc3c0da23b14bb94ce14df81f7433248abc2091eed2adb90b3598",
-    "eswa-apa-config.tex": "65c42428fba1eafb0f393fa8ce015a439c407659b4f2dc497875ddcc6cafd37b",
-    "eswa-apa-sourcemap.tex": "2295fe576b2859323f657486e700358c4732ccc347a28116306fdb953f5b6af6",
-    "apa_reference_adaptations.json": "53920d1a2b5c334f3f96f5e0f86e84f654e72ace4e1f4d291d6832b12e2f3bab"
+    "eswa-apa-config.tex": "d87ea1492c9234ffdc54f95c34d7af9cfa8e1c0237a8dc9b3ad01acf74357f28",
+    "eswa-apa-sourcemap.tex": "063ebf3eab62c81017fe1aa1598a15126459ce74802b1d4989feca9b494a4ce3",
+    "apa_reference_adaptations.json": "164f855ebd9140535b380f06dbf08e901dea0ac856df5705cfd0daad734af03d"
   },
-  "bbl_sha256": "14c98cadf4307d7f588a600870446dc505365abcb7d99d6d40ec9c56b28b3bbb",
+  "bbl_sha256": "c0b086e805ea79b007c3ee9fd71ad756456e9c5ed63389a8e07aaff46a16c8e4",
   "metadata_pending": [
     "fatemi2024financialqa",
     "hendrycks2021mmlu",
     "khot2023decomposed_prompting",
-    "park2023generative_agents",
     "wang2023self_consistency",
     "wu2024autogen",
     "tang2025llmmedqa",
     "yao2023react",
     "zhou2023least_to_most"
-  ]
+  ],
+  "conference9_extra_checks": "9/9 output checks passed; remaining metadata uncertainty retained",
+  "scope_protection_pass": true,
+  "baseline_head": "6679e5ab3008799af3df0e397bb78329c16545b6",
+  "scanner_patch_tests_pass": 3
 }

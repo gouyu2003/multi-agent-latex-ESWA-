@@ -1,0 +1,268 @@
+[
+  {
+    "name": "park_crossref",
+    "url": "https://api.crossref.org/works/10.1145/3586183.3606763",
+    "status": 200,
+    "content_type": "application/json",
+    "path": "apa7_audit/conference9_sources/park_crossref.json",
+    "sha256": "136891a60c26490724170c1dc853ed730550467400a54fe608f19b7f2f619034",
+    "bytes": 27549,
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "fatemi_crossref",
+    "url": "https://api.crossref.org/works/10.1145/3677052.3698686",
+    "status": 200,
+    "content_type": "application/json",
+    "path": "apa7_audit/conference9_sources/fatemi_crossref.json",
+    "sha256": "6b9d02396921e03514cddb0ef0999c4da3b8d9697f606445e554325e938a14b0",
+    "bytes": 14708,
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "yang_crossref",
+    "url": "https://api.crossref.org/works/10.1109/IJCNN64981.2025.11228647",
+    "status": 200,
+    "content_type": "application/json",
+    "path": "apa7_audit/conference9_sources/yang_crossref.json",
+    "sha256": "ca67a44faeb6c0604c8b53377d1819f558c8003c540d0a5b966f99f6db12323a",
+    "bytes": 9813,
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "uist_volume_crossref",
+    "url": "https://api.crossref.org/works/10.1145/3586183",
+    "status": 200,
+    "content_type": "application/json",
+    "path": "apa7_audit/conference9_sources/uist_volume_crossref.json",
+    "sha256": "bd84d4f8bf1cdf9cbe427a23ccca80273fe47868a10eaa4ce0ec6a87e5fd3eed",
+    "bytes": 1670,
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "icaif_volume_crossref",
+    "url": "https://api.crossref.org/works/10.1145/3677052",
+    "status": 200,
+    "content_type": "application/json",
+    "path": "apa7_audit/conference9_sources/icaif_volume_crossref.json",
+    "sha256": "89c8b2351e60712015cf57b02d2cd47ed10f81359923fada07210d9936a41646",
+    "bytes": 1629,
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "uist_frontmatter",
+    "url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/follmer_uist23_frontmatter.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "path": "apa7_audit/conference9_sources/uist_frontmatter.pdf",
+    "sha256": "6802303d7220b774553250466e64cf45875efcf28fb7ae153390f4b4ab6b4676",
+    "bytes": 1531720,
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "uist_editors_acm",
+    "url": "https://dl.acm.org/doi/10.1145/3586183.3606810",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "icaif_volume_acm",
+    "url": "https://dl.acm.org/doi/proceedings/10.1145/3677052",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "colm_accepted",
+    "url": "https://colmweb.org/2024/AcceptedPapers.html",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "path": "apa7_audit/conference9_sources/colm_accepted.txt",
+    "sha256": "f879b4bc6f8a4ab24be5b0a18472a060f1f640ac8dfeefcbcb151d50e866f5b7",
+    "bytes": 83744,
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "colm_home",
+    "url": "https://colmweb.org/2024/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "path": "apa7_audit/conference9_sources/colm_home.txt",
+    "sha256": "d757f26ff2876cac240bc07e0b1dd78638307b9d4fcea3d3c2f848f799e85cf9",
+    "bytes": 20475,
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "iclr2023_catalog",
+    "url": "https://www.proceedings.com/80586.html",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "path": "apa7_audit/conference9_sources/iclr2023_catalog.txt",
+    "sha256": "33536b5fd626a04f275d57806a8face04448b5c341003e6ab7e5914dd23ec51f",
+    "bytes": 552956,
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "iclr2021_catalog",
+    "url": "https://www.proceedings.com/80587.html",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "path": "apa7_audit/conference9_sources/iclr2021_catalog.txt",
+    "sha256": "603d6cdad850edf46aa67eab01ad2b4e0a04a8dd8b8f707dac243bafd104f2a5",
+    "bytes": 553255,
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "apa_publishers",
+    "url": "https://apastyle.apa.org/blog/publisher-locations-in-book-references",
+    "status": 200,
+    "content_type": "text/html",
+    "path": "apa7_audit/conference9_sources/apa_publishers.txt",
+    "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+    "bytes": 212,
+    "retrieved": "2026-10-12",
+    "content_validation": "BLOCKED_CHALLENGE_NOT_USABLE",
+    "usable_publication_evidence": false,
+    "note": "HTTP 200 body is an Incapsula challenge, not APA guidance; guidance was consulted separately through web retrieval."
+  },
+  {
+    "name": "apa_conference",
+    "url": "https://apastyle.apa.org/style-grammar-guidelines/references/examples/conference-proceeding-references",
+    "status": 200,
+    "content_type": "text/html",
+    "path": "apa7_audit/conference9_sources/apa_conference.txt",
+    "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+    "bytes": 212,
+    "retrieved": "2026-10-12",
+    "content_validation": "BLOCKED_CHALLENGE_NOT_USABLE",
+    "usable_publication_evidence": false,
+    "note": "HTTP 200 body is an Incapsula challenge, not APA guidance; guidance was consulted separately through web retrieval."
+  },
+  {
+    "name": "autogen_api",
+    "url": "https://api2.openreview.net/notes?id=BAakY1hNKS",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "autogen_api1",
+    "url": "https://api.openreview.net/notes?id=BAakY1hNKS",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "autogen_bib",
+    "url": "https://openreview.net/bibtex?id=BAakY1hNKS",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 404: Not Found",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "mmlu_api",
+    "url": "https://api2.openreview.net/notes?id=d7KBjmI3GmQ",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "mmlu_api1",
+    "url": "https://api.openreview.net/notes?id=d7KBjmI3GmQ",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "mmlu_bib",
+    "url": "https://openreview.net/bibtex?id=d7KBjmI3GmQ",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 404: Not Found",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "decomp_api",
+    "url": "https://api2.openreview.net/notes?id=_nGgzQjzaRy",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "decomp_api1",
+    "url": "https://api.openreview.net/notes?id=_nGgzQjzaRy",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "decomp_bib",
+    "url": "https://openreview.net/bibtex?id=_nGgzQjzaRy",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 404: Not Found",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "self_consistency_api",
+    "url": "https://api2.openreview.net/notes?id=1PL1NIMMrw",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "self_consistency_api1",
+    "url": "https://api.openreview.net/notes?id=1PL1NIMMrw",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "self_consistency_bib",
+    "url": "https://openreview.net/bibtex?id=1PL1NIMMrw",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 404: Not Found",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "react_api",
+    "url": "https://api2.openreview.net/notes?id=WE_vluYUL-X",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "react_api1",
+    "url": "https://api.openreview.net/notes?id=WE_vluYUL-X",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "react_bib",
+    "url": "https://openreview.net/bibtex?id=WE_vluYUL-X",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 404: Not Found",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "least_to_most_api",
+    "url": "https://api2.openreview.net/notes?id=WZH7099tgfM",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "least_to_most_api1",
+    "url": "https://api.openreview.net/notes?id=WZH7099tgfM",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "name": "least_to_most_bib",
+    "url": "https://openreview.net/bibtex?id=WZH7099tgfM",
+    "status": "UNAVAILABLE",
+    "error": "HTTP Error 404: Not Found",
+    "retrieved": "2026-10-12"
+  }
+]

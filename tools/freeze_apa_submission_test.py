@@ -5,9 +5,10 @@ This local test does not certify the ESWA submission server.
 from pathlib import Path
 import hashlib,json,os,re,shutil,subprocess,sys
 import fitz
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'tmp/apa7_migration'/('frozen_full_release' if '--release' in sys.argv else 'frozen_full_final' if '--final' in sys.argv else 'frozen_full')
-if OUT.exists():raise SystemExit('Preserve existing evidence; use a fresh directory for another frozen test.')
-OUT.mkdir(parents=True);sys.path.insert(0,str(ROOT/'tools'))
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/'tmp/apa7_migration'/('frozen_conference9_20261012' if '--conference9' in sys.argv else 'frozen_full_release' if '--release' in sys.argv else 'frozen_full_final' if '--final' in sys.argv else 'frozen_full')
+if OUT.exists() and any(OUT.iterdir()):raise SystemExit('Preserve existing evidence; use a fresh directory for another frozen test.')
+OUT.mkdir(parents=True,exist_ok=True);sys.path.insert(0,str(ROOT/'tools'))
 from active_tex import scan_manuscript
 active='\n'.join(scan_manuscript(ROOT).active_texts.values())
 figures=set(re.findall(r'\\includegraphics(?:\[[^\]]*\])?\{([^}]+)\}',active))
@@ -16,7 +17,7 @@ for name in files:shutil.copy2(ROOT/name,OUT/Path(name).name)
 shutil.copy2(ROOT/'tmp/apa7_build/manuscript.bbl',OUT/'manuscript.bbl')
 env=dict(os.environ,TEXINPUTS=str(OUT)+';',BIBINPUTS=str(OUT)+';',LC_ALL='C',LC_CTYPE='C',LANG='C');returncodes=[]
 for i in range(1,4):
- p=subprocess.run([r'D:\texlive\2026\bin\windows\pdflatex.exe','-interaction=nonstopmode','-halt-on-error','-file-line-error','-recorder','manuscript.tex'],cwd=OUT,env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+ p=subprocess.run([shutil.which('pdflatex'),'-interaction=nonstopmode','-halt-on-error','-file-line-error','-recorder','manuscript.tex'],cwd=OUT,env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
  (OUT/f'pass{i}.console.txt').write_bytes(p.stdout);returncodes.append(p.returncode)
  if p.returncode:print(p.stdout[-3000:].decode('utf-8','replace'));raise SystemExit(p.returncode)
 original=fitz.open(ROOT/'manuscript.pdf');frozen=fitz.open(OUT/'manuscript.pdf')

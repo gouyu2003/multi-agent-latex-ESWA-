@@ -1,6 +1,6 @@
 """Inspect each actual bibliography paragraph, not just the minimal examples."""
 from pathlib import Path
-import collections,csv,hashlib,json,re,subprocess,sys
+import argparse,collections,csv,hashlib,json,re,subprocess,sys
 import fitz
 ROOT=Path(__file__).resolve().parents[1];HERE=ROOT/'tmp/apa7_migration'; OUT=ROOT/'apa7_audit'
 sys.path.insert(0,str(ROOT/'tools'))
@@ -10,12 +10,23 @@ def norm(s):return re.sub(r'\s+',' ',re.sub(r'(?<=[A-Za-z])-\n(?=[A-Za-z])','',s
 def plain(s):return re.sub(r'[^\w]','',s).casefold()
 data=json.loads((ROOT/'apa_reference_adaptations.json').read_text(encoding='utf-8'))
 rows={r['key']:r for r in data['records']}
-pool85='--pool85' in sys.argv
-build=ROOT/('tmp/apa7_regression' if pool85 else 'tmp/apa7_build'); job='pool85' if pool85 else 'manuscript'
+parser=argparse.ArgumentParser()
+parser.add_argument('--pool85',action='store_true')
+parser.add_argument('--build-dir')
+parser.add_argument('--pdf')
+parser.add_argument('--output-stem')
+parser.add_argument('--skip-scope',action='store_true')
+parser.add_argument('--overlay',help='Reviewed overlay matching an archived PDF, for before/after evidence')
+args=parser.parse_args()
+if args.overlay:
+ data=json.loads((ROOT/args.overlay).read_text(encoding='utf-8'))
+ rows={r['key']:r for r in data['records']}
+pool85=args.pool85
+build=ROOT/(args.build_dir or ('tmp/apa7_regression' if pool85 else 'tmp/apa7_build')); job='pool85' if pool85 else 'manuscript'
 bbl=(build/(job+'.bbl')).read_text(encoding='utf-8')
 globaldata=bbl.split(r'\datalist[entry]{apa/global//global/global/global}',1)[1].split(r'\enddatalist',1)[0]
 entries=list(re.finditer(r'\\entry\{([^}]+)\}\{([^}]+)\}.*?\\endentry',globaldata,re.S));keys=[m[1] for m in entries]
-doc=fitz.open(build/(job+'.pdf') if pool85 else ROOT/'manuscript.pdf'); paragraphs=[];current=None;inrefs=False
+doc=fitz.open(ROOT/args.pdf if args.pdf else build/(job+'.pdf') if pool85 else ROOT/'manuscript.pdf'); paragraphs=[];current=None;inrefs=False
 for pi,p in enumerate(doc):
  blocks=p.get_text('dict')['blocks']
  for block in blocks:
@@ -94,12 +105,12 @@ for i,(entry,par) in enumerate(zip(entries,paragraphs),1):
  checks['no_audit_annotation']=not any(s in actual for s in ['Accessed 10 October','accessed 10 October','No peer-reviewed paper','First released on PyPI'])
  critical=[x for x in r['pending'] if x.startswith('editor')]
  results.append(dict(index=i,key=k,type=entry[2],classification=r['classification'],expected={n:f.get(n) for n in ['author','year','date','title','journal','journaltitle','booktitle','editor','publisher','volume','number','pages','eid','doi','url','version','entrysubtype','urldate'] if f.get(n)},actual=actual,pages=sorted({l['page'] for l in par['locations']}),checks=checks,format_result='PASS' if all(checks.values()) else 'FAIL',metadata_result='PENDING' if critical else 'CHECKED_WITH_RECORDED_LIMITS',pending=r['pending'],source_evidence=r['evidence'],font_evidence=[dict(text=s['text'],font=s['font'],size=s['size']) for s in par['spans']],links=uri))
-stem='reference_85_preview' if pool85 else 'reference_78_acceptance'
+stem=args.output_stem or ('reference_85_preview' if pool85 else 'reference_78_acceptance')
 (OUT/(stem+'.json')).write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf-8')
 with (OUT/(stem+'.csv')).open('w',encoding='utf-8-sig',newline='') as file:
  writer=csv.DictWriter(file,fieldnames=['index','key','classification','pages','format_result','metadata_result','failed_checks','pending','actual']);writer.writeheader()
  for r in results:writer.writerow({n:r.get(n,'') for n in writer.fieldnames if n not in ['failed_checks','pending']}|{'failed_checks':','.join(k for k,v in r['checks'].items() if not v),'pending':' | '.join(r['pending'])})
-if pool85:
+if pool85 or args.skip_scope:
  print('POOL85 entries',len(keys),'format pass',sum(r['format_result']=='PASS' for r in results),'failures',[(r['key'],[k for k,v in r['checks'].items() if not v]) for r in results if r['format_result']=='FAIL']);sys.exit(0)
 base=json.loads((HERE/'baseline/manifest.json').read_text(encoding='utf-8'));scan=scan_manuscript(ROOT)
 before=(HERE/'baseline/manuscript.tex').read_text(encoding='utf-8');after=(ROOT/'manuscript.tex').read_text(encoding='utf-8')

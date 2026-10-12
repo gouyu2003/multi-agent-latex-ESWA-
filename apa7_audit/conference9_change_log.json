@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-12",
+  "baseline_head": "6679e5ab3008799af3df0e397bb78329c16545b6",
+  "changes": [
+    {
+      "key": "fatemi2024financialqa",
+      "field": "publisher",
+      "before": "ACM",
+      "after": "Association for Computing Machinery",
+      "reason": "Official ACM article export supplies full publisher name; APA publisher source uses name on publication, not an imposed acronym.",
+      "evidence": "https://apastyle.apa.org/blog/publisher-locations-in-book-references"
+    },
+    {
+      "key": "park2023generative_agents",
+      "field": "publisher",
+      "before": "ACM",
+      "after": "Association for Computing Machinery",
+      "reason": "Official ACM article export supplies full publisher name; APA publisher source uses name on publication, not an imposed acronym.",
+      "evidence": "https://apastyle.apa.org/blog/publisher-locations-in-book-references"
+    },
+    {
+      "key": "park2023generative_agents",
+      "field": "editor",
+      "before": null,
+      "after": "Follmer, Sean and Han, Jeff and Steimle, Jürgen and Riche, Nathalie Henry",
+      "reason": "ACM same-volume Published In explicitly labels four Editors; DOI 10.1145/3586183 and ISBN match the selected paper, so article-level missing editor does not prevent a verified supplement.",
+      "evidence": "https://doi.org/10.1145/3586183.3606810"
+    },
+    {
+      "key": "park2023generative_agents",
+      "field": "eid",
+      "before": null,
+      "after": "2",
+      "reason": "Official ACM article BibTeX articleno=2 and publisher page Article No. 2; biblatex uses eid, not articleno or a fabricated starting page.",
+      "evidence": "https://doi.org/10.1145/3586183.3606763"
+    },
+    {
+      "key": "park2023generative_agents",
+      "field": "pages",
+      "before": "1--22",
+      "after": null,
+      "reason": "ACM 1-22 is per-article internal pagination. Use Article 2 as the reference locator; preserve internal page range and numpages=22 in field audit, not as proceedings-continuous pagination.",
+      "evidence": "https://doi.org/10.1145/3586183.3606763"
+    },
+    {
+      "key": "park2023generative_agents",
+      "field": "pagetotal",
+      "before": null,
+      "after": "22",
+      "reason": "Official ACM numpages=22 maps to biblatex pagetotal, separately from Article 2; not printed as a page range.",
+      "evidence": "https://doi.org/10.1145/3586183.3606763"
+    },
+    {
+      "key": "wang2023self_consistency",
+      "field": "author",
+      "before": "Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc and Chi, Ed and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny",
+      "after": "Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc V and Chi, Ed H. and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny",
+      "reason": "Complete formal-version author names/order from user-supplied official OpenReview BibTeX; no preprint author list substituted.",
+      "evidence": "https://openreview.net/forum?id=1PL1NIMMrw"
+    },
+    {
+      "key": "yao2023react",
+      "field": "author",
+      "before": "Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan",
+      "after": "Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik R and Cao, Yuan",
+      "reason": "Complete formal-version author names/order from user-supplied official OpenReview BibTeX; no preprint author list substituted.",
+      "evidence": "https://openreview.net/forum?id=WE_vluYUL-X"
+    },
+    {
+      "key": "zhou2023least_to_most",
+      "field": "author",
+      "before": "Zhou, Denny and Sch{\\\"a}rli, Nathanael and Hou, Le and Wei, Jason and Scales, Nathan and Wang, Xuezhi and Schuurmans, Dale and Cui, Claire and Bousquet, Olivier and Le, Quoc and Chi, Ed",
+      "after": "Zhou, Denny and Schärli, Nathanael and Hou, Le and Wei, Jason and Scales, Nathan and Wang, Xuezhi and Schuurmans, Dale and Cui, Claire and Bousquet, Olivier and Le, Quoc V and Chi, Ed H.",
+      "reason": "Complete formal-version author names/order from user-supplied official OpenReview BibTeX; no preprint author list substituted.",
+      "evidence": "https://openreview.net/forum?id=WZH7099tgfM"
+    },
+    {
+      "key": "wu2024autogen",
+      "field": "author",
+      "before": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and Awadallah, Ahmed and White, Ryen W. and Burger, Doug and Wang, Chi",
+      "after": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and Awadallah, Ahmed Hassan and White, Ryen W. and Burger, Doug and Wang, Chi",
+      "reason": "Complete formal-version author names/order from user-supplied official OpenReview BibTeX; no preprint author list substituted.",
+      "evidence": "https://openreview.net/forum?id=BAakY1hNKS"
+    },
+    {
+      "key": "wang2023self_consistency",
+      "field": "booktitle",
+      "before": "{International Conference on Learning Representations}",
+      "after": "The Eleventh {International Conference on Learning Representations}",
+      "reason": "Formal 2023 proceedings name in official OpenReview export (Decomposed Prompting: authors official repository citation); apply only to the four selected ICLR 2023 papers. Preserve proper conference name in APA sentence case.",
+      "evidence": "https://openreview.net/forum?id=1PL1NIMMrw"
+    },
+    {
+      "key": "yao2023react",
+      "field": "booktitle",
+      "before": "{International Conference on Learning Representations}",
+      "after": "The Eleventh {International Conference on Learning Representations}",
+      "reason": "Formal 2023 proceedings name in official OpenReview export (Decomposed Prompting: authors official repository citation); apply only to the four selected ICLR 2023 papers. Preserve proper conference name in APA sentence case.",
+      "evidence": "https://openreview.net/forum?id=WE_vluYUL-X"
+    },
+    {
+      "key": "zhou2023least_to_most",
+      "field": "booktitle",
+      "before": "{International Conference on Learning Representations}",
+      "after": "The Eleventh {International Conference on Learning Representations}",
+      "reason": "Formal 2023 proceedings name in official OpenReview export (Decomposed Prompting: authors official repository citation); apply only to the four selected ICLR 2023 papers. Preserve proper conference name in APA sentence case.",
+      "evidence": "https://openreview.net/forum?id=WZH7099tgfM"
+    },
+    {
+      "key": "khot2023decomposed_prompting",
+      "field": "booktitle",
+      "before": "{International Conference on Learning Representations}",
+      "after": "The Eleventh {International Conference on Learning Representations}",
+      "reason": "Formal 2023 proceedings name in official OpenReview export (Decomposed Prompting: authors official repository citation); apply only to the four selected ICLR 2023 papers. Preserve proper conference name in APA sentence case.",
+      "evidence": "https://github.com/HarshTrivedi/DecomP-ODQA"
+    }
+  ],
+  "reviews": [
+    {
+      "key": "fatemi2024financialqa",
+      "date": "2026-10-12",
+      "source_verification": "formal version retained",
+      "editor": "PENDING",
+      "editor_note": "Article export, volume deposit/catalog and available proceedings consulted; no conclusive editor or explicit no-editor evidence. Leave blank without claiming non-existence.",
+      "pages": "VERIFIED_PUBLISHER_PAGES",
+      "pages_note": "Official publisher/export page range retained",
+      "publisher": "VERIFIED",
+      "publisher_note": "Formal publication publisher retained or normalized",
+      "internal_pages": null,
+      "official_articleno": null,
+      "official_numpages": null,
+      "remaining_pending": [
+        "editor: primary publication registration has no editor field; absence of editorial credit is not established; supplementation stopped"
+      ]
+    },
+    {
+      "key": "hendrycks2021mmlu",
+      "date": "2026-10-12",
+      "source_verification": "formal version retained",
+      "editor": "PENDING",
+      "editor_note": "Article export, volume deposit/catalog and available proceedings consulted; no conclusive editor or explicit no-editor evidence. Leave blank without claiming non-existence.",
+      "pages": "PENDING",
+      "pages_note": "No verified proceedings-wide page range; PDF length is not a substitute. Do not invent pagination or import the later POD edition.",
+      "publisher": "VERIFIED",
+      "publisher_note": "Formal publication publisher retained or normalized",
+      "internal_pages": null,
+      "official_articleno": null,
+      "official_numpages": null,
+      "remaining_pending": [
+        "editor: official record supplies no editor; no unsupported editor was added",
+        "pages: no confirmed pagination in consulted primary records; left empty"
+      ]
+    },
+    {
+      "key": "khot2023decomposed_prompting",
+      "date": "2026-10-12",
+      "source_verification": "formal version retained",
+      "editor": "PENDING",
+      "editor_note": "Article export, volume deposit/catalog and available proceedings consulted; no conclusive editor or explicit no-editor evidence. Leave blank without claiming non-existence.",
+      "pages": "PENDING",
+      "pages_note": "No verified proceedings-wide page range; PDF length is not a substitute. Do not invent pagination or import the later POD edition.",
+      "publisher": "VERIFIED",
+      "publisher_note": "Formal publication publisher retained or normalized",
+      "internal_pages": null,
+      "official_articleno": null,
+      "official_numpages": null,
+      "remaining_pending": [
+        "editor: official record supplies no editor; no unsupported editor was added",
+        "pages: no confirmed pagination in consulted primary records; left empty"
+      ]
+    },
+    {
+      "key": "park2023generative_agents",
+      "date": "2026-10-12",
+      "source_verification": "formal version retained",
+      "editor": "VERIFIED",
+      "editor_note": "Explicit publisher editorial credit",
+      "pages": "VERIFIED_ARTICLE_IDENTIFIER",
+      "pages_note": "Article 2; internal 1-22 and length 22 retained separately",
+      "publisher": "VERIFIED",
+      "publisher_note": "Formal publication publisher retained or normalized",
+      "internal_pages": "1--22",
+      "official_articleno": "2",
+      "official_numpages": "22",
+      "remaining_pending": []
+    },
+    {
+      "key": "wang2023self_consistency",
+      "date": "2026-10-12",
+      "source_verification": "formal version retained",
+      "editor": "PENDING",
+      "editor_note": "Article export, volume deposit/catalog and available proceedings consulted; no conclusive editor or explicit no-editor evidence. Leave blank without claiming non-existence.",
+      "pages": "PENDING",
+      "pages_note": "No verified proceedings-wide page range; PDF length is not a substitute. Do not invent pagination or import the later POD edition.",
+      "publisher": "VERIFIED",
+      "publisher_note": "Formal publication publisher retained or normalized",
+      "internal_pages": null,
+      "official_articleno": null,
+      "official_numpages": null,
+      "remaining_pending": [
+        "editor: official record supplies no editor; no unsupported editor was added",
+        "pages: no confirmed pagination in consulted primary records; left empty"
+      ]
+    },
+    {
+      "key": "wu2024autogen",
+      "date": "2026-10-12",
+      "source_verification": "formal version retained",
+      "editor": "PENDING",
+      "editor_note": "Article export, volume deposit/catalog and available proceedings consulted; no conclusive editor or explicit no-editor evidence. Leave blank without claiming non-existence.",
+      "pages": "PENDING",
+      "pages_note": "No verified proceedings-wide page range; PDF length is not a substitute. Do not invent pagination or import the later POD edition.",
+      "publisher": "PENDING",
+      "publisher_note": "COLM hosts/organizers and OpenReview platform do not establish a publishing imprint",
+      "internal_pages": null,
+      "official_articleno": null,
+      "official_numpages": null,
+      "remaining_pending": [
+        "editor/publisher/pages: COLM/OpenReview official accepted paper supplies no verified values; supplementation stopped",
+        "pages: no confirmed pagination in consulted primary records; left empty"
+      ]
+    },
+    {
+      "key": "tang2025llmmedqa",
+      "date": "2026-10-12",
+      "source_verification": "formal version retained",
+      "editor": "PENDING",
+      "editor_note": "Article export, volume deposit/catalog and available proceedings consulted; no conclusive editor or explicit no-editor evidence. Leave blank without claiming non-existence.",
+      "pages": "VERIFIED_PUBLISHER_PAGES",
+      "pages_note": "Official publisher/export page range retained",
+      "publisher": "VERIFIED",
+      "publisher_note": "Formal publication publisher retained or normalized",
+      "internal_pages": null,
+      "official_articleno": null,
+      "official_numpages": null,
+      "remaining_pending": [
+        "editor: primary publication registration has no editor field; absence of editorial credit is not established; supplementation stopped"
+      ]
+    },
+    {
+      "key": "yao2023react",
+      "date": "2026-10-12",
+      "source_verification": "formal version retained",
+      "editor": "PENDING",
+      "editor_note": "Article export, volume deposit/catalog and available proceedings consulted; no conclusive editor or explicit no-editor evidence. Leave blank without claiming non-existence.",
+      "pages": "PENDING",
+      "pages_note": "No verified proceedings-wide page range; PDF length is not a substitute. Do not invent pagination or import the later POD edition.",
+      "publisher": "VERIFIED",
+      "publisher_note": "Formal publication publisher retained or normalized",
+      "internal_pages": null,
+      "official_articleno": null,
+      "official_numpages": null,
+      "remaining_pending": [
+        "editor: official record supplies no editor; no unsupported editor was added",
+        "pages: no confirmed pagination in consulted primary records; left empty"
+      ]
+    },
+    {
+      "key": "zhou2023least_to_most",
+      "date": "2026-10-12",
+      "source_verification": "formal version retained",
+      "editor": "PENDING",
+      "editor_note": "Article export, volume deposit/catalog and available proceedings consulted; no conclusive editor or explicit no-editor evidence. Leave blank without claiming non-existence.",
+      "pages": "PENDING",
+      "pages_note": "No verified proceedings-wide page range; PDF length is not a substitute. Do not invent pagination or import the later POD edition.",
+      "publisher": "VERIFIED",
+      "publisher_note": "Formal publication publisher retained or normalized",
+      "internal_pages": null,
+      "official_articleno": null,
+      "official_numpages": null,
+      "remaining_pending": [
+        "editor: official record supplies no editor; no unsupported editor was added",
+        "pages: no confirmed pagination in consulted primary records; left empty"
+      ]
+    }
+  ],
+  "original_bib_unchanged": true
+}
