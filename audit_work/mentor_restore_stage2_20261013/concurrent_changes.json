@@ -1,0 +1,41 @@
+[
+  {
+    "path": "output/figure2_editable/20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410/final/codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410_edited.pptx",
+    "before_sha256": "f7a36ed7bc79e85f37ce0c3233690e2fcd9d435fa6878e125b991de1eb2c6289",
+    "current_sha256": "4069bc513bf24465c8498f0531cf8d714e35fe3a765248c775923bb68a0462b4",
+    "current_copy": "audit_work\\mentor_restore_stage2_20261013\\concurrent_protection\\codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410_edited_4069bc513bf2.pptx",
+    "current_copy_sha256": "4069bc513bf24465c8498f0531cf8d714e35fe3a765248c775923bb68a0462b4",
+    "mtime_ns": 1791895761867120100,
+    "earlier_checkpoints": [],
+    "note": "执行期间并发外部PPTX修改，本轮工具未写入源路径；初始和各检查点版本保留，不回退、不覆盖。"
+  },
+  {
+    "path": "output/figure4_editable/20261013-161131-Figure4_architecture_selection/final/Figure4_architecture_selection_edited.pptx",
+    "before_sha256": "a885d065e6f19425f5d83b6f1155424034e04fe6855939fab41fef6feae03829",
+    "current_sha256": "8147dece1a707b52e8c0a7c5db50869129c84847dbaa23af050f61467e0f3b31",
+    "current_copy": "audit_work\\mentor_restore_stage2_20261013\\concurrent_protection\\Figure4_architecture_selection_edited_8147dece1a70.pptx",
+    "current_copy_sha256": "8147dece1a707b52e8c0a7c5db50869129c84847dbaa23af050f61467e0f3b31",
+    "mtime_ns": 1791895767601049400,
+    "earlier_checkpoints": [],
+    "note": "执行期间并发外部PPTX修改，本轮工具未写入源路径；初始和各检查点版本保留，不回退、不覆盖。"
+  },
+  {
+    "path": "output/figure5_editable/20261013-163435-Figure5_resource_map/final/Figure5_resource_map_edited.pptx",
+    "before_sha256": "d146291831438a7d39478536ae7e13ed10dbe235896747e3af0e56962f055a30",
+    "current_sha256": "9cb10fa2a3c72478723e75a00d39ff52cebef266e3ff06a71ef93ec957a3a0d4",
+    "current_copy": "audit_work\\mentor_restore_stage2_20261013\\concurrent_protection\\Figure5_resource_map_edited_9cb10fa2a3c7.pptx",
+    "current_copy_sha256": "9cb10fa2a3c72478723e75a00d39ff52cebef266e3ff06a71ef93ec957a3a0d4",
+    "mtime_ns": 1791895650073156100,
+    "earlier_checkpoints": [
+      {
+        "path": "output/figure5_editable/20261013-163435-Figure5_resource_map/final/Figure5_resource_map_edited.pptx",
+        "before_sha256": "d146291831438a7d39478536ae7e13ed10dbe235896747e3af0e56962f055a30",
+        "current_sha256": "024200287d82053146393b9fbf922d3338e237b59a2e3c5246d5a217b7b50cff",
+        "current_copy_sha256": "024200287d82053146393b9fbf922d3338e237b59a2e3c5246d5a217b7b50cff",
+        "current_mtime_ns": 1791895640437899200,
+        "note": "执行期间并发外部修改，Office锁文件同时出现；本轮没有任何工具写入此路径，保留执行前与当前两个版本，不回退、不覆盖。"
+      }
+    ],
+    "note": "执行期间并发外部PPTX修改，本轮工具未写入源路径；初始和各检查点版本保留，不回退、不覆盖。"
+  }
+]

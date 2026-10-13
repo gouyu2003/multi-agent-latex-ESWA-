@@ -1,0 +1,38 @@
+[
+  {
+    "figure": 2,
+    "path": "output/figure2_editable/20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410/final/Figure2_Evolution_of_QA_Paradigms.pdf",
+    "sha256": "a87c2ea2e65d0a154fa5df4c4e7dfe60ce24c97fb7e6242378b4ec88ce4fca9e",
+    "page_size_pt": [
+      0.0,
+      0.0,
+      531.719970703125,
+      247.55999755859375
+    ],
+    "text": "1960s onward\nSymbolic\napproaches\nELIZA (1966)\nProlog, Cyc\nRules & logic\nKnowledge representation\n1990s onward\nRetrieval & reading\ncomprehension\nTREC QA (1999)\nWeb search\nSQuAD (2016)\nDocument retrieval\nAnswer extraction\n2010s onward\nNeural &\ngenerative QA\nTransformer\nBERT, GPT-2/3\nT5\nPretraining & fine-tuning\nRAG (2020), CoT (2022)\n2022 onward\nLLM-based\nagentic QA\nReAct (2022/2023)\nGPT-4, Gemini (2023)\nTool use\nMulti-agent collaboration\nLLM\nRepresentative milestones; paradigms overlap and continue to coexist.\n"
+  },
+  {
+    "figure": 4,
+    "path": "output/figure4_editable/20261013-161131-Figure4_architecture_selection/final/Figure4_architecture_selection_edited.pdf",
+    "sha256": "aaaf93dbbfe16b387a656a183d50c1ab2a7430107eb3654773e8ccca532a3a4f",
+    "page_size_pt": [
+      0.0,
+      0.0,
+      490.55999755859375,
+      259.55999755859375
+    ],
+    "text": "Input: Target QA Application Scenario\n(Assess Key Decision Factors)\nPhase 1: Pre-screening\nIs task complexity low and\nspecialization requirement not\nhigh?\nIs it in fields with high safety &\ncompliance requirements like\nMedical/Legal?\nT\nF\nT\nF\nSingle-Agent Low latency, low cost.\nSuitable for: Simple fact query,\nsingle-step reasoning tasks\nHybrid + HITL Human review at key points.\nSuitable for: Medical diagnosis, legal consultation,\nfinancial risk control\nPhase 2: Selection\nIs task workflow highly standardized\nwith clear serial dependencies?\nDoes task difficulty fluctuate widely with\ncomplex cross-domain multi-hop reasoning?\nT\nF\nT\nF\nHierarchical Manager-Executor / RAG Pipeline\nSuitable for: Knowledge-intensive QA,\nlong document QA\nHybrid Adaptive switching / Mesh network\nSuitable for: Large complexity span,\nmulti-hop reasoning\nFlat Multi-party debate / Role play / Group chat\nSuitable for: Open-domain QA,\nmulti-perspective verification\nNote: Phase 1 judgment is a hard constraint; Phase 2 is a preferred recommendation, practice can be balanced with team capabilities & budget constraints.\n"
+  },
+  {
+    "figure": 5,
+    "path": "output/figure5_editable/20261013-163435-Figure5_resource_map/final/Figure5_resource_map_edited.pdf",
+    "sha256": "695fd1d38ad3b5e7d173581da43b2c37df22a22834a8b956ee392b458a4a2726",
+    "page_size_pt": [
+      0.0,
+      0.0,
+      960.0,
+      540.0
+    ],
+    "text": "Foundation Layer\nModel & Retrieval\nComponents\n</>\nLangChain\nLlamaIndex\nModel\nInterfaces\nRetrieval\nComponents\nOrchestration Layer\nMulti-Agent Frameworks\nAutoGen\nCrewAI\nMetaGPT\nRole\nDefinition\nWorkflow\nControl\nApplication\nResource Layer\nRepresentative Platforms\nSTORM\nCo-STORM\nRAGFlow\nRetrieval-Grounded\nSynthesis\nDocument\nUnderstanding\nBenchmarks &\nEvaluation Tools\nQA & knowledge benchmarks\nHotpotQA\nQA\nCoQA\nMMLU\nMuSiQue\nAgent-task benchmarks\nAgentBench\nGAIA\nWebArena\nRAG tool: AutoRAG\nAnswer & Task\nAssessment\nRAG Component\nEvaluation\nAI\nMulti-Agent\nQA System\nSystem Construction\n& Evaluation\nConceptual resource map; process assessment needs trace-level measures.\n"
+  }
+]

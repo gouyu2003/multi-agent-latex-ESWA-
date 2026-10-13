@@ -1,0 +1,16 @@
+{
+  "method": "去注释、iffalse、图/表/展示公式及cite/ref/label/input/includegraphics；按英文词元SequenceMatcher(autojunk=False)。只是可重复编辑距离代理指标，不是导师风格的定量证明。",
+  "mentor_tokens": 9968,
+  "metrics": {
+    "before": {
+      "tokens": 10307,
+      "changed_tokens": 2065,
+      "similarity": 0.898150431565968
+    },
+    "after": {
+      "tokens": 10587,
+      "changed_tokens": 1531,
+      "similarity": 0.9255169058623206
+    }
+  }
+}

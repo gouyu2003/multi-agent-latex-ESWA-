@@ -1,0 +1,124 @@
+{
+  "pool": 85,
+  "cited": 78,
+  "core": [
+    "chen2024reconcile",
+    "du2024multiagent_debate",
+    "fatemi2024financialqa",
+    "jiang2026cocoa",
+    "kim2024mdagents",
+    "legalgraphrag2026",
+    "liang2024divergent_debate",
+    "qian2024scaling_multiagent",
+    "tang2024medagents",
+    "tang2025llmmedqa",
+    "xiong2023inter_consistency",
+    "zhang2024chain_agents",
+    "zhao2024longagent"
+  ],
+  "pool_roles": {
+    "B": 46,
+    "S": 17,
+    "I": 13,
+    "T": 9
+  },
+  "cited_roles": {
+    "B": 42,
+    "I": 13,
+    "T": 8,
+    "S": 15
+  },
+  "cited_key_set_identical": true,
+  "citation_commands_before": 136,
+  "citation_commands_after": 135,
+  "citation_key_appearances": 180,
+  "command_count_reason": "Q4合并层级两行引用为一条命令，键出现次数180及唯一键78不变",
+  "protected_regions": {
+    "all_figure_environments": true,
+    "conclusion": true,
+    "hidden_history": true,
+    "section_order": true,
+    "taxonomy_definition": true
+  },
+  "all_changes_recorded": true,
+  "unauthorised_body_changes": false,
+  "protected_file_count": 1484,
+  "changed_existing_files": [
+    "manuscript.aux",
+    "manuscript.bcf",
+    "manuscript.blg",
+    "manuscript.fls",
+    "manuscript.log",
+    "manuscript.pdf",
+    "manuscript.tex",
+    "output/figure2_editable/20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410/final/codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410_edited.pptx",
+    "output/figure4_editable/20261013-161131-Figure4_architecture_selection/final/Figure4_architecture_selection_edited.pptx",
+    "output/figure5_editable/20261013-163435-Figure5_resource_map/final/Figure5_resource_map_edited.pptx"
+  ],
+  "concurrent_external_changes": [
+    {
+      "path": "output/figure2_editable/20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410/final/codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410_edited.pptx",
+      "before_sha256": "f7a36ed7bc79e85f37ce0c3233690e2fcd9d435fa6878e125b991de1eb2c6289",
+      "current_sha256": "4069bc513bf24465c8498f0531cf8d714e35fe3a765248c775923bb68a0462b4",
+      "current_copy": "audit_work\\mentor_restore_stage2_20261013\\concurrent_protection\\codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410_edited_4069bc513bf2.pptx",
+      "current_copy_sha256": "4069bc513bf24465c8498f0531cf8d714e35fe3a765248c775923bb68a0462b4",
+      "mtime_ns": 1791895761867120100,
+      "earlier_checkpoints": [],
+      "note": "执行期间并发外部PPTX修改，本轮工具未写入源路径；初始和各检查点版本保留，不回退、不覆盖。"
+    },
+    {
+      "path": "output/figure4_editable/20261013-161131-Figure4_architecture_selection/final/Figure4_architecture_selection_edited.pptx",
+      "before_sha256": "a885d065e6f19425f5d83b6f1155424034e04fe6855939fab41fef6feae03829",
+      "current_sha256": "8147dece1a707b52e8c0a7c5db50869129c84847dbaa23af050f61467e0f3b31",
+      "current_copy": "audit_work\\mentor_restore_stage2_20261013\\concurrent_protection\\Figure4_architecture_selection_edited_8147dece1a70.pptx",
+      "current_copy_sha256": "8147dece1a707b52e8c0a7c5db50869129c84847dbaa23af050f61467e0f3b31",
+      "mtime_ns": 1791895767601049400,
+      "earlier_checkpoints": [],
+      "note": "执行期间并发外部PPTX修改，本轮工具未写入源路径；初始和各检查点版本保留，不回退、不覆盖。"
+    },
+    {
+      "path": "output/figure5_editable/20261013-163435-Figure5_resource_map/final/Figure5_resource_map_edited.pptx",
+      "before_sha256": "d146291831438a7d39478536ae7e13ed10dbe235896747e3af0e56962f055a30",
+      "current_sha256": "9cb10fa2a3c72478723e75a00d39ff52cebef266e3ff06a71ef93ec957a3a0d4",
+      "current_copy": "audit_work\\mentor_restore_stage2_20261013\\concurrent_protection\\Figure5_resource_map_edited_9cb10fa2a3c7.pptx",
+      "current_copy_sha256": "9cb10fa2a3c72478723e75a00d39ff52cebef266e3ff06a71ef93ec957a3a0d4",
+      "mtime_ns": 1791895650073156100,
+      "earlier_checkpoints": [
+        {
+          "path": "output/figure5_editable/20261013-163435-Figure5_resource_map/final/Figure5_resource_map_edited.pptx",
+          "before_sha256": "d146291831438a7d39478536ae7e13ed10dbe235896747e3af0e56962f055a30",
+          "current_sha256": "024200287d82053146393b9fbf922d3338e237b59a2e3c5246d5a217b7b50cff",
+          "current_copy_sha256": "024200287d82053146393b9fbf922d3338e237b59a2e3c5246d5a217b7b50cff",
+          "current_mtime_ns": 1791895640437899200,
+          "note": "执行期间并发外部修改，Office锁文件同时出现；本轮没有任何工具写入此路径，保留执行前与当前两个版本，不回退、不覆盖。"
+        }
+      ],
+      "note": "执行期间并发外部PPTX修改，本轮工具未写入源路径；初始和各检查点版本保留，不回退、不覆盖。"
+    }
+  ],
+  "unexpected_protected_changes": [],
+  "q4_three_classes_five_mechanisms": true,
+  "q5_counts": {
+    "partial": 2,
+    "divergent": 2,
+    "broad": 6
+  },
+  "q5_source_counts": {
+    "Hierarchical": 9,
+    "Flat": 1
+  },
+  "mentor_metrics": {
+    "before": {
+      "tokens": 10307,
+      "changed_tokens": 2065,
+      "similarity": 0.898150431565968
+    },
+    "after": {
+      "tokens": 10587,
+      "changed_tokens": 1531,
+      "similarity": 0.9255169058623206
+    }
+  },
+  "head": "6191a1b7d6e562c4cd65d2c409840dadccae58ba",
+  "branch": "codex/mentor-conservative-restore-stage2"
+}

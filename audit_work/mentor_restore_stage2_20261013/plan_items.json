@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "D001",
+    "block": "D001",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：编译指令。\n- 理由：当前工作流使用 Biber；回退会与 biblatex 不一致。\n- 引用、表格、图注、统计或章节结论影响：保留 APA7/Biber 编译入口。\n- 依据：[E01](#e01)。\n\n<a id=\"d002\"></a>",
+    "mentor": "% !BIB program = bibtex\n",
+    "pre_restore_plan": "% !BIB program = biber\n"
+  },
+  {
+    "id": "D002",
+    "block": "D002",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：natbib→APA7 配置入口。\n- 理由：必要格式迁移；现有 citep/citet 由兼容配置承载。\n- 引用、表格、图注、统计或章节结论影响：不恢复 natbib 包或旧 BibTeX 配置。\n- 依据：[E01](#e01)。\n\n<a id=\"d003\"></a>",
+    "mentor": "% ESWA author-year citations use the abbreviated author list in running text\n% (e.g., Ouyang et al., 2022), including the first occurrence.\n\\usepackage[authoryear]{natbib}\n",
+    "pre_restore_plan": "% ESWA APA seventh edition; preserve existing natbib citation commands.\n\\input{eswa-apa-config.tex}\n\\addbibresource{references.bib}\n"
+  },
+  {
+    "id": "D003a",
+    "block": "D003",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：84/14→85池、78引用、13核心。\n- 理由：当前文件复算和 Triad 原文支持这些数字；不能为了原版一致而回退。\n- 引用、表格、图注、统计或章节结论影响：摘要与图1、纳入标准同步；Q2未裁定前保持13。\n- 依据：[E01](#e01)、[E02](#e02)、[E03](#e03)。",
+    "mentor": "review of multi-agent collaborative QA based on 84 verified sources,\nincluding 14 core empirical studies published through July 2026. We first\n",
+    "pre_restore_plan": "review of multi-agent collaborative QA using 78 cited sources from an\n85-record bibliography pool, with 13 studies coded as core\nevidence published through July 2026. We first\n"
+  },
+  {
+    "id": "D003b",
+    "block": "D003",
+    "class": "B",
+    "recommendation": "恢复（局部）",
+    "decision": "- 决策对象：using…with…coded as core evidence 替代 based on…including…core empirical studies。\n- 理由：新增编码表达不纠正独立事实；保留新数字即可恢复原句骨架。\n- 引用、表格、图注、统计或章节结论影响：建议 based on 78 cited sources from an 85-record bibliography pool, including 13 core empirical studies；不改变统计。\n- 依据：[E01](#e01)、[E03](#e03)。\n\n### 第1章 Introduction与文献筛选说明\n\n<a id=\"d004\"></a>",
+    "mentor": "review of multi-agent collaborative QA based on 84 verified sources,\nincluding 14 core empirical studies published through July 2026. We first\n",
+    "pre_restore_plan": "review of multi-agent collaborative QA using 78 cited sources from an\n85-record bibliography pool, with 13 studies coded as core\nevidence published through July 2026. We first\n"
+  },
+  {
+    "id": "D004",
+    "block": "D004",
+    "class": "B",
+    "recommendation": "恢复",
+    "decision": "- 决策对象：extraordinary / ushering…new era → strong…relevant to QA。\n- 理由：原句是定性引言修辞，未报告定量效果或无条件安全结论；GPT-3/GPT-4 所引能力未被本次证据否定。新句更克制并不足以构成必须保留理由。\n- 引用、表格、图注、统计或章节结论影响：恢复导师原句；引用键不变。若作者希望全稿弱化修辞，另行统一决定。\n- 依据：[E04](#e04)。\n\n<a id=\"d005\"></a>",
+    "mentor": "extraordinary natural-language understanding and generation capabilities,\nushering QA systems into a new, agent-centric era.\n",
+    "pre_restore_plan": "strong natural-language understanding and generation capabilities relevant\nto QA.\n"
+  },
+  {
+    "id": "D005a",
+    "block": "D005",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：cannot…all domains。\n- 理由：绝对不可能性和经常失败没有对应实测证明，应改为可能不足。\n- 引用、表格、图注、统计或章节结论影响：保留 Third 与跨领域逻辑；仅将绝对句收窄，不恢复 cannot。\n- 依据：[E04](#e04)。",
+    "mentor": "\\emph{Third}, a monolithic model cannot simultaneously possess expert-level\nknowledge across all domains, often failing on queries that require\ncross-disciplinary collaboration.\n",
+    "pre_restore_plan": "\\emph{Third}, a single model may lack sufficient domain coverage for a query\nthat requires several areas of expertise; combining perspectives is one\npossible response whose benefit requires task-level evaluation.\n"
+  },
+  {
+    "id": "D005b",
+    "block": "D005",
+    "class": "B",
+    "recommendation": "恢复（删除扩写）",
+    "decision": "- 决策对象：combining perspectives…benefit requires task-level evaluation 的新增尾句。\n- 理由：这一原则已在原版后文和选择方法中充分存在；此处扩写不是修正绝对句所必需。\n- 引用、表格、图注、统计或章节结论影响：删除这一新增尾句；不删除后文原有任务评估限制。\n- 依据：[E04](#e04)。\n\n<a id=\"d006\"></a>",
+    "mentor": "\\emph{Third}, a monolithic model cannot simultaneously possess expert-level\nknowledge across all domains, often failing on queries that require\ncross-disciplinary collaboration.\n",
+    "pre_restore_plan": "\\emph{Third}, a single model may lack sufficient domain coverage for a query\nthat requires several areas of expertise; combining perspectives is one\npossible response whose benefit requires task-level evaluation.\n"
+  },
+  {
+    "id": "D006",
+    "block": "D006",
+    "class": "A",
+    "recommendation": "保留删除",
+    "decision": "- 决策对象：explosive growth 的未经量化增长断言。\n- 理由：没有按2023–2026同口径计算的增长数据；论文数量或下载量不能自动证明该具体断言。\n- 引用、表格、图注、统计或章节结论影响：不把历史图1筛选/增长数字重新带回引言。\n- 依据：[E01](#e01)、[E04](#e04)。\n\n<a id=\"d007\"></a>",
+    "mentor": "Between 2023 and 2026 this field has witnessed explosive growth. For example,\n",
+    "pre_restore_plan": "For example,\n"
+  },
+  {
+    "id": "D007",
+    "block": "D007",
+    "class": "C",
+    "recommendation": "等待确认 Q1",
+    "decision": "- 决策对象：QA系统性综述缺口段落被改为 builds on…。\n- 理由：Tran 已覆盖通信、组织结构、编排及 QA，但这并不等于已经覆盖原句所称 QA任务治理与选择权衡的整合；整个删除缺口陈述改变论文定位，不能据台账直接裁定原句错误。\n- 引用、表格、图注、统计或章节结论影响：五项贡献条目本身基本原样；需确认缺口定位，不增加新的创新主张。\n- 依据：[E05](#e05)。\n\n<a id=\"d008\"></a>",
+    "mentor": "Although several surveys on LLM-based agents exist\n\\citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents},\nthey focus primarily on general agent architectures or foundational\ncapabilities. A systematic account of collaboration topologies, enabling\nmechanisms, task and governance requirements, and architecture-selection\ntrade-offs for QA remains limited. This survey addresses that gap through five\nrelated contributions:\n",
+    "pre_restore_plan": "Existing surveys cover general LLM-agent construction, communication,\nand orchestration\n\\citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents}.\nThis survey builds on that coverage by connecting collaboration topologies and enabling mechanisms\nto QA-specific task and governance requirements and architecture-selection\ntrade-offs through five related contributions:\n"
+  },
+  {
+    "id": "D008",
+    "block": "D008",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：全池已核实的暗示。\n- 理由：仍有不可核字段/来源冲突；source-checked 区分已检查与全部已证明。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E01](#e01)。\n\n<a id=\"d009\"></a>",
+    "mentor": "        QA, based on a verified corpus with explicit roles for core empirical\n",
+    "pre_restore_plan": "        QA, based on a source-checked corpus with explicit roles for core empirical\n"
+  },
+  {
+    "id": "D009a",
+    "block": "D009",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：each entry was verified 的全字段核实断言。\n- 理由：日志与当前字段台账不能证明每条作者/年份/出版字段/标识均已核实；不恢复全面验证承诺。\n- 引用、表格、图注、统计或章节结论影响：保留108/四条作为历史记录数，与85/78分开。\n- 依据：[E01](#e01)。",
+    "mentor": "The initial candidate set contained 108 unique entries from the authors' working bibliography. On 2 August 2026, each entry was verified by title, first author, publication year, venue, and persistent identifier against Crossref, OpenAlex, arXiv, and, where available, official publisher proceedings or project documentation. This process uncovered four records with corrupted or mismatched metadata for which an authoritative source could not be confirmed. The process also identified duplicate, uncited, and out-of-scope records; these were preserved in the audit trail but excluded from the active bibliography.\n",
+    "pre_restore_plan": "The historical audit log records an initial candidate set of 108 unique\nentries from the authors' working bibliography and checks dated 2 August\n2026 using Crossref, OpenAlex, arXiv, and official sources. It records four\ncorrupted or mismatched records for which an authoritative source was not\nconfirmed, together with duplicate, uncited, and out-of-scope records. These\nhistorical records are retained in the audit trail; the log alone is not\nindependent evidence that every publication field was verified.\n"
+  },
+  {
+    "id": "D009b",
+    "block": "D009",
+    "class": "C",
+    "recommendation": "等待确认 Q3",
+    "decision": "- 决策对象：由作者执行过程改为 historical audit log records。\n- 理由：仓库 search_log.csv 确实记录日期与动作；缺少原始检索导出不证明作者没有实施这些步骤。是否保留作者方法陈述需作者确认。\n- 引用、表格、图注、统计或章节结论影响：影响方法可追溯性；只确认历史动作，不重新确认未核字段。\n- 依据：[E01](#e01)。\n\n<a id=\"d010\"></a>",
+    "mentor": "The initial candidate set contained 108 unique entries from the authors' working bibliography. On 2 August 2026, each entry was verified by title, first author, publication year, venue, and persistent identifier against Crossref, OpenAlex, arXiv, and, where available, official publisher proceedings or project documentation. This process uncovered four records with corrupted or mismatched metadata for which an authoritative source could not be confirmed. The process also identified duplicate, uncited, and out-of-scope records; these were preserved in the audit trail but excluded from the active bibliography.\n",
+    "pre_restore_plan": "The historical audit log records an initial candidate set of 108 unique\nentries from the authors' working bibliography and checks dated 2 August\n2026 using Crossref, OpenAlex, arXiv, and official sources. It records four\ncorrupted or mismatched records for which an authoritative source was not\nconfirmed, together with duplicate, uncited, and out-of-scope records. These\nhistorical records are retained in the audit trail; the log alone is not\nindependent evidence that every publication field was verified.\n"
+  },
+  {
+    "id": "D010a",
+    "block": "D010",
+    "class": "C",
+    "recommendation": "等待确认 Q3",
+    "decision": "- 决策对象：删除查询组合、数据库与实际检索动作陈述。\n- 理由：实际原版和日志给出了查询词与来源；新增检查不能重建历史动作，但也不能据此认定其虚假。\n- 引用、表格、图注、统计或章节结论影响：保留 ReConcile/CoA/CoCoA 的三个引用键和添加身份；不借此补新文献。\n- 依据：[E01](#e01)、[E03](#e03)。",
+    "mentor": "A targeted update search was then conducted using combinations of \\textit{multi-agent},\n\\textit{LLM}, \\textit{question answering}, \\textit{reasoning},\n\\textit{long-context}, and \\textit{retrieval-augmented generation} across the ACL\nAnthology, OpenReview, arXiv, and publisher proceedings. Three directly\nrelevant studies absent from the initial collection were added after full\nmetadata verification: ReConcile \\citep{chen2024reconcile}, Chain-of-Agents\n\\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa}. \n",
+    "pre_restore_plan": "The historical working records list ReConcile\n\\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and\nCoCoA \\citep{jiang2026cocoa} as additions. The source audit confirms their\nidentities and publication dates; it does not reconstruct the original update\nqueries, retrieval results, or search dates.\n\nSource-level checks on 8 and 10 October 2026 compared the bibliography with\npublisher records, official proceedings, versioned arXiv papers, and dated or\nversioned project documentation. The current pool contains 85 records, of\nwhich 78 are cited in the active manuscript. The audit separates source\nexistence, field accuracy, version selection, and claim support. Confirmed\ncorrections were applied; unavailable optional fields and source discrepancies\nare recorded without blanket verification claims. One dated official LangGraph\narticle supports the interrupt and checkpoint mechanisms discussed below.\n"
+  },
+  {
+    "id": "D010b",
+    "block": "D010",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：after full metadata verification 与当前85/78、LangGraph补证。\n- 理由：全元数据验证承诺过强；新补证来源及统计真实。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E01](#e01)、[E12](#e12)。",
+    "mentor": "A targeted update search was then conducted using combinations of \\textit{multi-agent},\n\\textit{LLM}, \\textit{question answering}, \\textit{reasoning},\n\\textit{long-context}, and \\textit{retrieval-augmented generation} across the ACL\nAnthology, OpenReview, arXiv, and publisher proceedings. Three directly\nrelevant studies absent from the initial collection were added after full\nmetadata verification: ReConcile \\citep{chen2024reconcile}, Chain-of-Agents\n\\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa}. \n",
+    "pre_restore_plan": "The historical working records list ReConcile\n\\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and\nCoCoA \\citep{jiang2026cocoa} as additions. The source audit confirms their\nidentities and publication dates; it does not reconstruct the original update\nqueries, retrieval results, or search dates.\n\nSource-level checks on 8 and 10 October 2026 compared the bibliography with\npublisher records, official proceedings, versioned arXiv papers, and dated or\nversioned project documentation. The current pool contains 85 records, of\nwhich 78 are cited in the active manuscript. The audit separates source\nexistence, field accuracy, version selection, and claim support. Confirmed\ncorrections were applied; unavailable optional fields and source discrepancies\nare recorded without blanket verification claims. One dated official LangGraph\narticle supports the interrupt and checkpoint mechanisms discussed below.\n"
+  },
+  {
+    "id": "D010c",
+    "block": "D010",
+    "class": "B",
+    "recommendation": "恢复（缩短新增段）",
+    "decision": "- 决策对象：新核查段的逐流程展开。\n- 理由：existence/field/version/claim 的完整说明及每个不可获字段的叙述已有审计文件；不是正文事实纠错必需的全部篇幅。\n- 引用、表格、图注、统计或章节结论影响：保留核查日期、统计及有待核字段的最短交代，将其余既有过程说明留在现有记录；不删除记录。\n- 依据：[E01](#e01)。\n\n<a id=\"d011\"></a>",
+    "mentor": "A targeted update search was then conducted using combinations of \\textit{multi-agent},\n\\textit{LLM}, \\textit{question answering}, \\textit{reasoning},\n\\textit{long-context}, and \\textit{retrieval-augmented generation} across the ACL\nAnthology, OpenReview, arXiv, and publisher proceedings. Three directly\nrelevant studies absent from the initial collection were added after full\nmetadata verification: ReConcile \\citep{chen2024reconcile}, Chain-of-Agents\n\\citep{zhang2024chain_agents}, and CoCoA \\citep{jiang2026cocoa}. \n",
+    "pre_restore_plan": "The historical working records list ReConcile\n\\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and\nCoCoA \\citep{jiang2026cocoa} as additions. The source audit confirms their\nidentities and publication dates; it does not reconstruct the original update\nqueries, retrieval results, or search dates.\n\nSource-level checks on 8 and 10 October 2026 compared the bibliography with\npublisher records, official proceedings, versioned arXiv papers, and dated or\nversioned project documentation. The current pool contains 85 records, of\nwhich 78 are cited in the active manuscript. The audit separates source\nexistence, field accuracy, version selection, and claim support. Confirmed\ncorrections were applied; unavailable optional fields and source discrepancies\nare recorded without blanket verification claims. One dated official LangGraph\narticle supports the interrupt and checkpoint mechanisms discussed below.\n"
+  },
+  {
+    "id": "D011",
+    "block": "D011",
+    "class": "B",
+    "recommendation": "恢复",
+    "decision": "- 决策对象：Core included studies…had to satisfy → core eligibility screen…used。\n- 理由：同样列出五项条件，纯表达替换。\n- 引用、表格、图注、统计或章节结论影响：只恢复引导句，不连带恢复Q2所涉及的第4条。\n- 依据：[E03](#e03)。\n\n<a id=\"d012\"></a>",
+    "mentor": "Core included studies (role \\textbf{I}) had to satisfy five criteria:\n",
+    "pre_restore_plan": "The core eligibility screen (role \\textbf{I}) used five criteria:\n"
+  },
+  {
+    "id": "D012",
+    "block": "D012",
+    "class": "C",
+    "recommendation": "等待确认 Q2",
+    "decision": "- 决策对象：第4条纳入标准的解释范围。\n- 理由：Qian、Liang、CoA 有实质 QA 评估及其他主要任务；是否原标准允许并列主任务是作者的方法解释，不由来源替作者决定。\n- 引用、表格、图注、统计或章节结论影响：当前13保持；若改成更窄规则，必须另行重筛全部13项，不能直接填新数量。\n- 依据：[E03](#e03)。\n\n<a id=\"d013\"></a>",
+    "mentor": "(4) QA, retrieval-augmented answering, conversational QA, or question-driven domain decision support as the primary evaluated task; and\n",
+    "pre_restore_plan": "(4) QA, retrieval-augmented answering, conversational QA, or question-driven domain decision support as a substantive primary evaluation track; and\n"
+  },
+  {
+    "id": "D013a",
+    "block": "D013",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：85/78、I13/S17/B46/T9与Triad边界。\n- 理由：直接从现有文件复算，Triad 为一个LLM-based agent的三角色系统，不满足原版至少两个智能体的条件。\n- 引用、表格、图注、统计或章节结论影响：保留 pool/cited 两种角色统计及Triad为S；不删Triad引用。\n- 依据：[E01](#e01)、[E02](#e02)。",
+    "mentor": "Foundational models, datasets, single-agent methods, and review articles were coded as background (role \\textbf{B}); official protocols and software documentation were coded as technical sources (role \\textbf{T}). Sources excluded from the active bibliography remain coded as \\textbf{X} in the audit file. The resulting active bibliography contains 84 verified sources:\n14~I, 16~S, 46~B, and 8~T. Fig.~\\ref{fig:reference_corpus} summarizes the verification and evidence-role allocation. The 14 role-I studies provide the empirical basis for the architecture taxonomy and subsequent evidence synthesis;\nother claims are supported by sources appropriate to their scope.\n",
+    "pre_restore_plan": "Foundational models, datasets, single-agent methods, and review articles were coded as background (role \\textbf{B}); official protocols and software documentation were coded as technical sources (role \\textbf{T}).\nHistorically excluded sources remain coded as \\textbf{X} in the audit file.\nThe current bibliography pool contains 85 records: 13~I, 17~S, 46~B, and\n9~T. The effective manuscript cites 78 of these records: 13~I, 15~S, 42~B,\nand 8~T; seven uncited records remain in the pool. The 13 role-I studies\nwere reassessed against these five criteria and retain their labels.\nQA need not be their sole task, but incidental QA demonstrations are\ninsufficient for inclusion. Triad uses a single LLM-based agent\nin three roles and is coded as a supporting study (role~S), because it does\nnot meet the core criterion of at least two agents. It remains a related\nboundary example in Table~\\ref{tab:validation}, outside the 13 core studies.\nOther claims use sources appropriate to their scope.\nFig.~\\ref{fig:reference_corpus} shows the current bibliography pool,\nits cited and uncited records, and the evidence-role composition of cited sources.\n"
+  },
+  {
+    "id": "D013b",
+    "block": "D013",
+    "class": "C",
+    "recommendation": "等待确认 Q2",
+    "decision": "- 决策对象：QA need not be their sole task 的纳入解释。\n- 理由：与第4条的范围调整相同，应与Q2联动，不能独立裁定。\n- 引用、表格、图注、统计或章节结论影响：不自动改动13项现有核心标签。\n- 依据：[E03](#e03)。",
+    "mentor": "Foundational models, datasets, single-agent methods, and review articles were coded as background (role \\textbf{B}); official protocols and software documentation were coded as technical sources (role \\textbf{T}). Sources excluded from the active bibliography remain coded as \\textbf{X} in the audit file. The resulting active bibliography contains 84 verified sources:\n14~I, 16~S, 46~B, and 8~T. Fig.~\\ref{fig:reference_corpus} summarizes the verification and evidence-role allocation. The 14 role-I studies provide the empirical basis for the architecture taxonomy and subsequent evidence synthesis;\nother claims are supported by sources appropriate to their scope.\n",
+    "pre_restore_plan": "Foundational models, datasets, single-agent methods, and review articles were coded as background (role \\textbf{B}); official protocols and software documentation were coded as technical sources (role \\textbf{T}).\nHistorically excluded sources remain coded as \\textbf{X} in the audit file.\nThe current bibliography pool contains 85 records: 13~I, 17~S, 46~B, and\n9~T. The effective manuscript cites 78 of these records: 13~I, 15~S, 42~B,\nand 8~T; seven uncited records remain in the pool. The 13 role-I studies\nwere reassessed against these five criteria and retain their labels.\nQA need not be their sole task, but incidental QA demonstrations are\ninsufficient for inclusion. Triad uses a single LLM-based agent\nin three roles and is coded as a supporting study (role~S), because it does\nnot meet the core criterion of at least two agents. It remains a related\nboundary example in Table~\\ref{tab:validation}, outside the 13 core studies.\nOther claims use sources appropriate to their scope.\nFig.~\\ref{fig:reference_corpus} shows the current bibliography pool,\nits cited and uncited records, and the evidence-role composition of cited sources.\n"
+  },
+  {
+    "id": "D013c",
+    "block": "D013",
+    "class": "B",
+    "recommendation": "恢复（局部）",
+    "decision": "- 决策对象：原句 The 14 role-I studies provide the empirical basis…及原段顺序被删除。\n- 理由：将14改为13后，核心论文作为分类与证据综合的经验来源仍合理；该句没有宣称分类已独立验证。\n- 引用、表格、图注、统计或章节结论影响：恢复 The 13 role-I studies provide the empirical basis for the architecture taxonomy and subsequent evidence synthesis; other claims…；保留必要新统计、Triad边界及当前图1说明。\n- 依据：[E02](#e02)、[E03](#e03)。\n\n<a id=\"d014\"></a>",
+    "mentor": "Foundational models, datasets, single-agent methods, and review articles were coded as background (role \\textbf{B}); official protocols and software documentation were coded as technical sources (role \\textbf{T}). Sources excluded from the active bibliography remain coded as \\textbf{X} in the audit file. The resulting active bibliography contains 84 verified sources:\n14~I, 16~S, 46~B, and 8~T. Fig.~\\ref{fig:reference_corpus} summarizes the verification and evidence-role allocation. The 14 role-I studies provide the empirical basis for the architecture taxonomy and subsequent evidence synthesis;\nother claims are supported by sources appropriate to their scope.\n",
+    "pre_restore_plan": "Foundational models, datasets, single-agent methods, and review articles were coded as background (role \\textbf{B}); official protocols and software documentation were coded as technical sources (role \\textbf{T}).\nHistorically excluded sources remain coded as \\textbf{X} in the audit file.\nThe current bibliography pool contains 85 records: 13~I, 17~S, 46~B, and\n9~T. The effective manuscript cites 78 of these records: 13~I, 15~S, 42~B,\nand 8~T; seven uncited records remain in the pool. The 13 role-I studies\nwere reassessed against these five criteria and retain their labels.\nQA need not be their sole task, but incidental QA demonstrations are\ninsufficient for inclusion. Triad uses a single LLM-based agent\nin three roles and is coded as a supporting study (role~S), because it does\nnot meet the core criterion of at least two agents. It remains a related\nboundary example in Table~\\ref{tab:validation}, outside the 13 core studies.\nOther claims use sources appropriate to their scope.\nFig.~\\ref{fig:reference_corpus} shows the current bibliography pool,\nits cited and uncited records, and the evidence-role composition of cited sources.\n"
+  },
+  {
+    "id": "D014",
+    "block": "D014",
+    "class": "A",
+    "recommendation": "保留（保护未提交改动）",
+    "decision": "- 决策对象：历史语料流程图注→当前文献池图注。\n- 理由：当前未提交图1已移除历史筛选流程，只显示当前池与引用角色；回退旧图注会与现图不符。\n- 引用、表格、图注、统计或章节结论影响：85=78+7、78=13+15+42+8；保护当前图1三种格式；本次不评价全文嵌图分页。\n- 依据：[E01](#e01)、[E22](#e22)。\n\n### 第2章 Background\n\n<a id=\"d015\"></a>",
+    "mentor": "  \\caption{Reference-corpus verification and evidence-role allocation. The counts describe the reconstructed working bibliography and targeted update, rather than an exhaustive PRISMA screening flow across the entire database.}\n",
+    "pre_restore_plan": "  \\caption{Current bibliography pool and evidence-role composition of cited sources. The pool contains 85 records: 78 cited sources and seven uncited records. Under the authors' evidence-role classification, cited sources comprise 13 core studies (I), 15 supporting studies (S), 42 background sources (B), and eight technical resources (T); segment widths in the horizontal bar are proportional to these counts. AI tools assisted with plotting code and layout; counts are computed from the bibliography, active citations, and evidence-role table.}\n"
+  },
+  {
+    "id": "D015",
+    "block": "D015",
+    "class": "A",
+    "recommendation": "保留必要纠正",
+    "decision": "- 决策对象：introduced self-attention / established pre-train--fine-tune。\n- 理由：Transformer 提出 attention-only 序列架构，不是整个self-attention概念的最早发明；BERT不是整个预训练微调范式的起点。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E06](#e06)。\n\n<a id=\"d016\"></a>",
+    "mentor": "which introduced self-attention; BERT \\citep{devlin2019bert}, which established\nthe pre-train--fine-tune paradigm; and GPT-3 \\citep{brown2020gpt3} and GPT-4\n",
+    "pre_restore_plan": "which introduced an attention-only sequence-transduction architecture; BERT\n\\citep{devlin2019bert}, which advanced bidirectional pretraining and\ntask-specific fine-tuning; and GPT-3 \\citep{brown2020gpt3} and GPT-4\n"
+  },
+  {
+    "id": "D016",
+    "block": "D016",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：open-source 全称与 democratized 效果。\n- 理由：LLaMA初代是研究用途权重开放；ChatGLM报告含开放与闭源系列，不能笼统覆盖。社会效果 democratized 未被所引实验直接测量。\n- 引用、表格、图注、统计或章节结论影响：恢复原句句序与模型顺序，必要处用 open-weight，保留局部使用支持的含义；不恢复全系列开源或已测社会效果。\n- 依据：[E06](#e06)。\n\n<a id=\"d017\"></a>",
+    "mentor": "capabilities. Open-source models such as LLaMA \\citep{touvron2023llama} and\nChatGLM \\citep{glm2024chatglm} further democratized agent development, while\n",
+    "pre_restore_plan": "capabilities. Open-weight releases such as LLaMA \\citep{touvron2023llama} and\nChatGLM \\citep{glm2024chatglm} provide additional options for local\nexperimentation, while\n"
+  },
+  {
+    "id": "D017",
+    "block": "D017",
+    "class": "A",
+    "recommendation": "保留删除",
+    "decision": "- 决策对象：clearpage/onecolumn。\n- 理由：双栏排版修复；原命令会使后续有效章节继续单栏。\n- 引用、表格、图注、统计或章节结论影响：保留 table*；不改变模型能力表数据。\n- 依据：[E01](#e01)。\n\n<a id=\"d018\"></a>",
+    "mentor": "\n\\clearpage\n\\onecolumn\n",
+    "pre_restore_plan": "[原文已删除：此处无当前文字]\n"
+  },
+  {
+    "id": "D018a",
+    "block": "D018",
+    "class": "A",
+    "recommendation": "保留来源边界",
+    "decision": "- 决策对象：把任务分解分配直接归于Generative Agents。\n- 理由：Park 实测社交代理记忆、反思、规划，不能作为专业QA任务调度的直接证据。\n- 引用、表格、图注、统计或章节结论影响：保留Park键，避免错误紧邻归因。\n- 依据：[E07](#e07)。",
+    "mentor": "\\citep{minsky1988society}, a multi-agent architecture decomposes a complex\ntask and assigns subtasks to agents with distinct responsibilities\n\\citep{park2023generative_agents}. A single ``generalist'' workflow may combine\n",
+    "pre_restore_plan": "\\citep{minsky1988society}, multi-agent architectures can combine agents with\nindividual memory, reflection, and planning, as illustrated in social\nsimulations \\citep{park2023generative_agents}. A single ``generalist'' workflow may combine\n"
+  },
+  {
+    "id": "D018b",
+    "block": "D018",
+    "class": "B",
+    "recommendation": "恢复（原论证骨架）",
+    "decision": "- 决策对象：原版 capability extension→task decomposition 的论证被全句替换。\n- 理由：任务分解和职责分工本身是原稿观点，后文MetaGPT等已有支持；不必因一个引用范围问题撤去原来的过渡逻辑。\n- 引用、表格、图注、统计或章节结论影响：恢复原句的分解/职责分工论述为本文分析；把已有Park社交模拟说明留作该引用的适用限定，不新增观点或键。\n- 依据：[E07](#e07)、[E15](#e15)。\n\n<a id=\"d019\"></a>",
+    "mentor": "\\citep{minsky1988society}, a multi-agent architecture decomposes a complex\ntask and assigns subtasks to agents with distinct responsibilities\n\\citep{park2023generative_agents}. A single ``generalist'' workflow may combine\n",
+    "pre_restore_plan": "\\citep{minsky1988society}, multi-agent architectures can combine agents with\nindividual memory, reflection, and planning, as illustrated in social\nsimulations \\citep{park2023generative_agents}. A single ``generalist'' workflow may combine\n"
+  },
+  {
+    "id": "D019",
+    "block": "D019",
+    "class": "B",
+    "recommendation": "恢复",
+    "decision": "- 决策对象：can improve…may expose…coordination quality 等段落。\n- 理由：原版已经用can/may，且紧接does not guarantee correctness及失败条件。Du正式论文Table1–2实际对照single-agent reflection并报告任务内改进；原句不是普遍优越性断言。台账把它当作普遍对照不足以支持整段改写。\n- 引用、表格、图注、统计或章节结论影响：保留原can/may、来源组及原失败限制；若限定on evaluated tasks，只在该短语处处理，不全段润色。\n- 依据：[E08](#e08)。\n\n### 第3章 Architectures与架构选择方法\n\n<a id=\"d020\"></a>",
+    "mentor": "Multi-agent collaboration can also improve reasoning reliability by creating\nseparate candidate, review, and verification paths. Debate, cross-checking,\nand reconciliation may expose errors that self-refinement within one workflow\noverlooks \\citep{du2024multiagent_debate,chen2024reconcile,\nxiong2023inter_consistency}. However, additional agents do not guarantee\ncorrectness: weak aggregation, poor interaction design, or correlated errors\ncan preserve or amplify an incorrect answer. Coordination quality is thus a\ncentral design variable, not an incidental implementation detail.\n",
+    "pre_restore_plan": "Multi-agent collaboration provides mechanisms for comparing candidate answers\nand review paths. Debate and reconciliation compare answers from different\nreasoners \\citep{du2024multiagent_debate,chen2024reconcile,\nxiong2023inter_consistency}; their benefits depend on the task and the agents\ninvolved. Additional agents do not guarantee correctness or establish universal\nsuperiority over self-refinement: weak aggregation, poor interaction design,\nor correlated errors can preserve an incorrect answer. Coordination quality\ntherefore requires evaluation.\n"
+  },
+  {
+    "id": "D020",
+    "block": "D020",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：tab:core_taxonomy_mapping→tab:9categories。\n- 理由：旧标签在有效正文未定义；当前标签存在。\n- 引用、表格、图注、统计或章节结论影响：修复图注引用；图片文件不变。\n- 依据：[E01](#e01)。\n\n<a id=\"d021\"></a>",
+    "mentor": "\t\tcontrol, as specified in the text and Table~\\ref{tab:core_taxonomy_mapping}.}\n",
+    "pre_restore_plan": "\t\tcontrol, as specified in the text and Table~\\ref{tab:9categories}.}\n"
+  },
+  {
+    "id": "D021",
+    "block": "D021",
+    "class": "A",
+    "recommendation": "保留最小词组修正",
+    "decision": "- 决策对象：answer consistency and degeneration→inter-model inconsistency and capability imbalance。\n- 理由：已读正文研究inter-inconsistency、能力不匹配和弱模型支配等；旧短语错误概括来源重点。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E09](#e09)。\n\n<a id=\"d022\"></a>",
+    "mentor": "In the multi-agent debate paradigm, several LLM agents generate candidate answers and critique one another across one or more rounds. Representative studies illustrate both the potential and the limits of this design. For example, \\citet{du2024multiagent_debate} report improved factuality and reasoning performance on the tasks they evaluate, whereas divergent prompting can mitigate convergence toward similar reasoning paths \\citep{liang2024divergent_debate}. ReConcile provides another example by integrating heterogeneous models with confidence-weighted consensus \\citep{chen2024reconcile}; answer consistency and degeneration nevertheless remain notable failure modes \\citep{xiong2023inter_consistency}. Accordingly, adding more agents or debate rounds does not reliably boost QA performance; instead, the interaction rules, diversity of evidence, and aggregation procedure determine whether disagreement yields correction, inconsistency, or unnecessary computational cost.\n",
+    "pre_restore_plan": "In the multi-agent debate paradigm, several LLM agents generate candidate answers and critique one another across one or more rounds. Representative studies illustrate both the potential and the limits of this design. For example, \\citet{du2024multiagent_debate} report improved factuality and reasoning performance on the tasks they evaluate, whereas divergent prompting can mitigate convergence toward similar reasoning paths \\citep{liang2024divergent_debate}. ReConcile provides another example by integrating heterogeneous models with confidence-weighted consensus \\citep{chen2024reconcile}; inter-model inconsistency and capability imbalance nevertheless remain important considerations \\citep{xiong2023inter_consistency}. Accordingly, adding more agents or debate rounds does not reliably boost QA performance; instead, the interaction rules, diversity of evidence, and aggregation procedure determine whether disagreement yields correction, inconsistency, or unnecessary computational cost.\n"
+  },
+  {
+    "id": "D022",
+    "block": "D022",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：新增 role pair has asymmetric instructions…not establish flat。\n- 理由：AI User发指令、Assistant求解是原论文事实；但如何将其映射到本文flat或独立机制栏仍属本文编码。保留真实角色描述，表呈现方式待确认。\n- 引用、表格、图注、统计或章节结论影响：与D031/D032/D068统一；不因章标题而声称框架所有配置flat。\n- 依据：[E15](#e15)。\n\n<a id=\"d023\"></a>",
+    "mentor": "Role-conditioned collaboration assigns different prompts or task views to participating agents. For example, CAMEL \\citep{li2023camel} employs an \"AI User\" and an \"AI Assistant\" paired with inception prompting to maintain role-conditioned interaction. This constitutes an adjacent multi-agent framework and does not serve as direct evidence that role playing improves QA accuracy. \n",
+    "pre_restore_plan": "Role-conditioned collaboration assigns different prompts or task views to participating agents. For example, CAMEL \\citep{li2023camel} employs an \"AI User\" and an \"AI Assistant\" paired with inception prompting to maintain role-conditioned interaction. This role pair has asymmetric instructions; role play alone does not establish a flat decision-authority structure. This constitutes an adjacent multi-agent framework and does not serve as direct evidence that role playing improves QA accuracy. \n"
+  },
+  {
+    "id": "D023",
+    "block": "D023",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：CoCoA→CoCoA-zero。\n- 理由：原论文§3.2为三代理推理管线；§3.3为蒸馏到单模型的CoCoA。必须区分被纳入的多智能体证据对象。\n- 引用、表格、图注、统计或章节结论影响：保留jiang2026cocoa键，表中代表系统名同步CoCoA-zero。\n- 依据：[E10](#e10)。\n\n<a id=\"d024\"></a>",
+    "mentor": "CoCoA \\citep{jiang2026cocoa}, which coordinates parametric and retrieved\nknowledge for QA. These role-I systems differ in their communication\n",
+    "pre_restore_plan": "CoCoA-zero \\citep{jiang2026cocoa}, which coordinates parametric and retrieved\nknowledge using three agents at inference time. CoCoA subsequently distils\nthat collaboration into a single model. These role-I systems differ in their communication\n"
+  },
+  {
+    "id": "D024a",
+    "block": "D024",
+    "class": "B",
+    "recommendation": "恢复（首句局部）",
+    "decision": "- 决策对象：provides another example through an empirical study…→provides an empirical example…。\n- 理由：这部分只压缩同一机制描述，无事实变化。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E11](#e11)。",
+    "mentor": "Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \\citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections. \n",
+    "pre_restore_plan": "Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \\citep{zhuge2024gptswarm} provides an empirical example of optimising prompts and inter-agent graph connections. A graph representation, edge optimisation, or conditional routing alone does not establish hybrid decision authority; the implementation must actually change who controls decisions.\n"
+  },
+  {
+    "id": "D024b",
+    "block": "D024",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：新增 graph/edge/routing 不足证明hybrid的整句。\n- 理由：总定义原版已要求控制权变化；新增句落实到图工具时需明确实现级别。是否保留正文重复说明和表分类方案一起裁定。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E11](#e11)、[E12](#e12)。\n\n<a id=\"d025\"></a>",
+    "mentor": "Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \\citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections. \n",
+    "pre_restore_plan": "Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \\citep{zhuge2024gptswarm} provides an empirical example of optimising prompts and inter-agent graph connections. A graph representation, edge optimisation, or conditional routing alone does not establish hybrid decision authority; the implementation must actually change who controls decisions.\n"
+  },
+  {
+    "id": "D025",
+    "block": "D025",
+    "class": "B",
+    "recommendation": "恢复",
+    "decision": "- 决策对象：adjust…control patterns as tasks evolve→can adjust…interaction patterns。\n- 理由：泛指自适应系统可调整成员/控制模式，与AgentVerse/MDAgents机制没有实质矛盾；是措辞与范围替换。\n- 引用、表格、图注、统计或章节结论影响：不回退D026的moderator真实机制。\n- 依据：[E13](#e13)、[E15](#e15)。\n\n<a id=\"d026\"></a>",
+    "mentor": "Adaptive systems adjust team composition or control patterns as tasks evolve.\n",
+    "pre_restore_plan": "Adaptive systems can adjust team composition or interaction patterns.\n"
+  },
+  {
+    "id": "D026a",
+    "block": "D026",
+    "class": "A",
+    "recommendation": "保留机制事实",
+    "decision": "- 决策对象：新增solo/MDT/ICT与moderator。\n- 理由：原论文§3.1–3.4明确复杂度评估、招募及监督路径，事实可核。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E13](#e13)。",
+    "mentor": "hierarchical\" rule. MDAgents \\citep{kim2024mdagents} provides direct\nin-case evidence for adaptive medical collaboration. Such adaptive mechanisms\nenhance routing flexibility, yet introduce extra requirements for state management\nand performance evaluation.\n",
+    "pre_restore_plan": "hierarchical\" rule. MDAgents \\citep{kim2024mdagents} routes medical queries to\nsolo, multidisciplinary-team, or integrated-care-team pathways according to\ncomplexity under a moderator. This supports adaptive collaboration, but a\npersistent moderator means that mode switching alone is insufficient to prove\nhybrid authority. State management and performance still require evaluation.\n"
+  },
+  {
+    "id": "D026b",
+    "block": "D026",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：persistent moderator…insufficient to prove hybrid authority。\n- 理由：监督存在获来源支持，但架构整体如何编码还要按本文粒度判断；不能把方法标签说成来源自报事实。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E13](#e13)。",
+    "mentor": "hierarchical\" rule. MDAgents \\citep{kim2024mdagents} provides direct\nin-case evidence for adaptive medical collaboration. Such adaptive mechanisms\nenhance routing flexibility, yet introduce extra requirements for state management\nand performance evaluation.\n",
+    "pre_restore_plan": "hierarchical\" rule. MDAgents \\citep{kim2024mdagents} routes medical queries to\nsolo, multidisciplinary-team, or integrated-care-team pathways according to\ncomplexity under a moderator. This supports adaptive collaboration, but a\npersistent moderator means that mode switching alone is insufficient to prove\nhybrid authority. State management and performance still require evaluation.\n"
+  },
+  {
+    "id": "D026c",
+    "block": "D026",
+    "class": "B",
+    "recommendation": "恢复（局部）",
+    "decision": "- 决策对象：原 State management/performance要求尾句的替换。\n- 理由：原版已限定额外状态管理与评估需要，无无条件性能收益；新尾句仅为润色。\n- 引用、表格、图注、统计或章节结论影响：恢复原 yet introduce extra requirements for state management and performance evaluation 的尾句；机制主体按A修正。\n- 依据：[E13](#e13)。\n\n<a id=\"d027\"></a>",
+    "mentor": "hierarchical\" rule. MDAgents \\citep{kim2024mdagents} provides direct\nin-case evidence for adaptive medical collaboration. Such adaptive mechanisms\nenhance routing flexibility, yet introduce extra requirements for state management\nand performance evaluation.\n",
+    "pre_restore_plan": "hierarchical\" rule. MDAgents \\citep{kim2024mdagents} routes medical queries to\nsolo, multidisciplinary-team, or integrated-care-team pathways according to\ncomplexity under a moderator. This supports adaptive collaboration, but a\npersistent moderator means that mode switching alone is insufficient to prove\nhybrid authority. State management and performance still require evaluation.\n"
+  },
+  {
+    "id": "D027a",
+    "block": "D027",
+    "class": "A",
+    "recommendation": "保留引用修复",
+    "decision": "- 决策对象：langgraph2024→langgraph2024interrupt。\n- 理由：具体暂停/恢复功能应保留已经加入的日期明确的官方来源。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E12](#e12)。",
+    "mentor": "For example, LangGraph supports pausing a workflow at defined breakpoints for\nhuman review \\citep{langgraph2024}, which may be useful for high-risk\ndecisions.\n",
+    "pre_restore_plan": "For example, LangGraph supports checkpointed state and pausing a workflow\nwith an interrupt for human review \\citep{langgraph2024interrupt}, which may\nbe useful for high-risk decisions.\n"
+  },
+  {
+    "id": "D027b",
+    "block": "D027",
+    "class": "B",
+    "recommendation": "恢复（局部）",
+    "decision": "- 决策对象：defined breakpoints→checkpointed state…interrupt扩写。\n- 理由：官方文章明确此前已有breakpoints/NodeInterrupt；旧词不是错误，增加完整checkpoint句非必要。\n- 引用、表格、图注、统计或章节结论影响：恢复导师For example…defined breakpoints for human review…句式，使用现有langgraph2024interrupt键。\n- 依据：[E12](#e12)。\n\n<a id=\"d028\"></a>",
+    "mentor": "For example, LangGraph supports pausing a workflow at defined breakpoints for\nhuman review \\citep{langgraph2024}, which may be useful for high-risk\ndecisions.\n",
+    "pre_restore_plan": "For example, LangGraph supports checkpointed state and pausing a workflow\nwith an interrupt for human review \\citep{langgraph2024interrupt}, which may\nbe useful for high-risk decisions.\n"
+  },
+  {
+    "id": "D028",
+    "block": "D028",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：heterogeneous/combine deliberation/review→peer与central authority转换。\n- 理由：涉及选择建议的边界，原版定义已经要求adaptive authority；需作者确认以实现控制权还是阶段组合为判定粒度。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E11](#e11)、[E12](#e12)、[E13](#e13)。\n\n<a id=\"d029\"></a>",
+    "mentor": "Hybrid architectures are useful when task requirements are heterogeneous or when the workflow must combine deliberation, controlled execution, and conditional review. Their trade-off lies in engineering complexity: dynamic routing, state transitions, and cross-mode information transfer are more difficult to configure, debug, evaluate, and reproduce. A hybrid design is justified when this additional adaptability addresses documented uncertainty or risk, rather than serving as a default replacement for fixed control patterns.\n",
+    "pre_restore_plan": "Hybrid architectures may be appropriate when heterogeneous task requirements call for transitions between peer deliberation and central decision authority. Their trade-off lies in engineering complexity: dynamic routing, state transitions, and cross-mode information transfer are more difficult to configure, debug, evaluate, and reproduce. A hybrid design is justified when this additional adaptability addresses documented uncertainty or risk, rather than serving as a default replacement for fixed control patterns.\n"
+  },
+  {
+    "id": "D029",
+    "block": "D029",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：三类与子范式→控制模式与机制混列表。\n- 理由：改变表格承担的分类贡献与展示结构，不能只按语言处理。必要底线是区分作者归类与来源机制，避免全框架标签。\n- 引用、表格、图注、统计或章节结论影响：仍保留三类总定义与章节；不把Role-paired/Configurable/Cross-cutting升级新架构类别。\n- 依据：[E11](#e11)、[E12](#e12)、[E15](#e15)。\n\n<a id=\"d030\"></a>",
+    "mentor": "Table~\\ref{tab:9categories} compares the three architecture classes and their\nsub-paradigms in terms of control, task suitability, and limitations.\n",
+    "pre_restore_plan": "Table~\\ref{tab:9categories} compares representative control patterns and\nrelated mechanisms. Architecture labels, suitable contexts, and limitations\nare the authors' synthesis. Role-paired, configurable, and cross-cutting\nentries describe mechanisms or tool capabilities, not additional architecture\nclasses or evidence that every configuration is hybrid.\n"
+  },
+  {
+    "id": "D030",
+    "block": "D030",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：architecture classes→control patterns and related mechanisms。\n- 理由：与表格重构一体，不宜单独恢复或保留。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E11](#e11)、[E12](#e12)、[E15](#e15)。\n\n<a id=\"d031\"></a>",
+    "mentor": "  \\caption{Comparison of multi-agent collaborative QA architecture classes.}\n",
+    "pre_restore_plan": "  \\caption{Representative control patterns and related mechanisms for multi-agent collaborative QA.}\n"
+  },
+  {
+    "id": "D031",
+    "block": "D031",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：Flat分组三行→仅Du一行。\n- 理由：CAMEL/AutoGen是否在架构列单独作为机制需要作者选择展示方案；不是multirow排版修复。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E15](#e15)。\n\n<a id=\"d032\"></a>",
+    "mentor": "    \\multirow{3}{*}{\\textbf{Flat}} &\n",
+    "pre_restore_plan": "    \\textbf{Flat} &\n"
+  },
+  {
+    "id": "D032a",
+    "block": "D032",
+    "class": "A",
+    "recommendation": "保留最小修正",
+    "decision": "- 决策对象：移除degeneration限制词。\n- 理由：此行对应Du来源；不能把其他研究的退化机制不加区分地归入该例。\n- 引用、表格、图注、统计或章节结论影响：限制保持coordination cost、aggregation sensitivity。\n- 依据：[E08](#e08)、[E09](#e09)。",
+    "mentor": "    Cost, degeneration, and aggregation sensitivity \\\\\n    & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & \n",
+    "pre_restore_plan": "    Coordination cost and aggregation sensitivity \\\\\n    \\textbf{Role-paired} & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & \n"
+  },
+  {
+    "id": "D032b",
+    "block": "D032",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：CAMEL行标签Role-paired。\n- 理由：将原子范式移出flat类是分类呈现变更。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E15](#e15)。\n\n<a id=\"d033\"></a>",
+    "mentor": "    Cost, degeneration, and aggregation sensitivity \\\\\n    & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & \n",
+    "pre_restore_plan": "    Coordination cost and aggregation sensitivity \\\\\n    \\textbf{Role-paired} & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & \n"
+  },
+  {
+    "id": "D033",
+    "block": "D033",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：Flat分组→Configurable。\n- 理由：原版正文已说配置决定拓扑；框架不是所有配置都flat。事实限制必须保留，是否单独机制栏由作者定。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E15](#e15)。\n\n<a id=\"d034\"></a>",
+    "mentor": "    & Group-chat collaboration & AutoGen \\citep{wu2024autogen}  &\n",
+    "pre_restore_plan": "    \\textbf{Configurable} & Group-chat collaboration & AutoGen \\citep{wu2024autogen}  &\n"
+  },
+  {
+    "id": "D034",
+    "block": "D034",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：multirow{3}→multirow{2}。\n- 理由：该分组只有两行；原跨度越过分组线，属于排版错误。\n- 引用、表格、图注、统计或章节结论影响：不恢复越界multirow；与内容分类无关。\n- 依据：[E01](#e01)。\n\n<a id=\"d035\"></a>",
+    "mentor": "    \\multirow{3}{*}{\\textbf{Hierarchical}} &\n",
+    "pre_restore_plan": "    \\multirow{2}{*}{\\textbf{Hierarchical}} &\n"
+  },
+  {
+    "id": "D035",
+    "block": "D035",
+    "class": "A",
+    "recommendation": "保留最小名称修正",
+    "decision": "- 决策对象：Plan--retrieve--generate→Staged evidence-processing；CoCoA-zero。\n- 理由：CoA实际为顺序worker处理上下文再manager综合，不必先规划检索；统一旧名称误概括代表方法。\n- 引用、表格、图注、统计或章节结论影响：保留三篇引用键、显式时序和综合描述。\n- 依据：[E03](#e03)、[E10](#e10)。\n\n<a id=\"d036\"></a>",
+    "mentor": "    & Plan--retrieve--generate pipeline & LONGAGENT; Chain-of-Agents; CoCoA\n",
+    "pre_restore_plan": "    & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero\n"
+  },
+  {
+    "id": "D036",
+    "block": "D036",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：图/自适应/HITL从Hybrid分组撤出。\n- 理由：来源只证明机制，是否为本文hybrid实例要按实现判据；该改动删除比较表显式hybrid分组，影响核心展示。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E11](#e11)、[E12](#e12)、[E13](#e13)。\n\n<a id=\"d037\"></a>",
+    "mentor": "    \\multirow{3}{*}{\\textbf{Hybrid}} &\n",
+    "pre_restore_plan": "    \\multirow{3}{*}{\\shortstack{\\textbf{Cross-}\\\\\\textbf{cutting}}} &\n"
+  },
+  {
+    "id": "D037",
+    "block": "D037",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：统一loops/branches→分别说明DAG优化与状态图路由。\n- 理由：GPTSwarm图优化与LangGraph循环/条件分支不能合并当作两者共有的实测机制。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E11](#e11)、[E12](#e12)。\n\n<a id=\"d038\"></a>",
+    "mentor": "    Graph transitions permit loops, branches, and routing policies &\n",
+    "pre_restore_plan": "    DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph &\n"
+  },
+  {
+    "id": "D038",
+    "block": "D038",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：changes collaboration→moderator routes solo/team。\n- 理由：具体机制可由正式方法部分核实；不恢复掩去固定moderator的描述。\n- 引用、表格、图注、统计或章节结论影响：与D026保留同一事实，标签仍按Q4。\n- 依据：[E13](#e13)。\n\n<a id=\"d039\"></a>",
+    "mentor": "    Changes collaboration in response to case characteristics &\n",
+    "pre_restore_plan": "    Moderator routes solo or team consultation according to complexity &\n"
+  },
+  {
+    "id": "D039a",
+    "block": "D039",
+    "class": "A",
+    "recommendation": "保留引用修复",
+    "decision": "- 决策对象：新增langgraph2024interrupt键。\n- 理由：保留具体功能正式补证。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E12](#e12)。",
+    "mentor": "    & Human-in-the-loop design pattern & LangGraph breakpoints \\citep{langgraph2024} &\n",
+    "pre_restore_plan": "    & Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} &\n"
+  },
+  {
+    "id": "D039b",
+    "block": "D039",
+    "class": "B",
+    "recommendation": "恢复（局部）",
+    "decision": "- 决策对象：LangGraph breakpoints→LangGraph interrupts。\n- 理由：该官方文章同时承认旧breakpoints；原术语并非事实错误。\n- 引用、表格、图注、统计或章节结论影响：可恢复LangGraph breakpoints并保留langgraph2024interrupt引用键；不回退书目。\n- 依据：[E12](#e12)。\n\n<a id=\"d040\"></a>",
+    "mentor": "    & Human-in-the-loop design pattern & LangGraph breakpoints \\citep{langgraph2024} &\n",
+    "pre_restore_plan": "    & Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} &\n"
+  },
+  {
+    "id": "D040a",
+    "block": "D040",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：成本收益门槛被绑定MAST来源。\n- 理由：MAST研究失败模式，不直接实测本文的通用收益抵消成本门槛。\n- 引用、表格、图注、统计或章节结论影响：把MAST作为失败模式依据，把阈值明确为本文设计判断。\n- 依据：[E20](#e20)。",
+    "mentor": "communication, aggregation, state-management, and inference costs. A\ncollaborative design is justified only when expected gains in coverage,\nreliability, or adaptability offset those costs\n\\citep{han2024mast}. Assessment should include latency, token use, tool calls,\nmonitoring, and recovery overhead.\n",
+    "pre_restore_plan": "communication, aggregation, state-management, and inference costs. Reported\nmulti-agent failure modes \\citep{han2024mast} motivate checking whether\nadditional coordination provides useful benefits. As a design criterion,\nthis review requires expected gains in coverage, reliability, or adaptability\nto justify the resource burden. Assessment should include latency, token use,\ntool calls, monitoring, and recovery overhead.\n"
+  },
+  {
+    "id": "D040b",
+    "block": "D040",
+    "class": "B",
+    "recommendation": "恢复（原句骨架）",
+    "decision": "- 决策对象：新增失败动机与重述成本标准的两句扩写。\n- 理由：原门槛本就是本文四标准之一，不必把它替换成两句新表达；只需消除错误来源归因。\n- 引用、表格、图注、统计或章节结论影响：恢复A collaborative design is justified only when…offset those costs；标明as a criterion of this review，引用仍支持失败动机，避免再绑定门槛。\n- 依据：[E20](#e20)。\n\n<a id=\"d041\"></a>",
+    "mentor": "communication, aggregation, state-management, and inference costs. A\ncollaborative design is justified only when expected gains in coverage,\nreliability, or adaptability offset those costs\n\\citep{han2024mast}. Assessment should include latency, token use, tool calls,\nmonitoring, and recovery overhead.\n",
+    "pre_restore_plan": "communication, aggregation, state-management, and inference costs. Reported\nmulti-agent failure modes \\citep{han2024mast} motivate checking whether\nadditional coordination provides useful benefits. As a design criterion,\nthis review requires expected gains in coverage, reliability, or adaptability\nto justify the resource burden. Assessment should include latency, token use,\ntool calls, monitoring, and recovery overhead.\n"
+  },
+  {
+    "id": "D041",
+    "block": "D041",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：changing requirements/conditional review→actual authority change。\n- 理由：影响架构推荐输出；固定审批不能仅因出现就称hybrid的事实限制合理，但方法边界与表分类需共同裁定。\n- 引用、表格、图注、统计或章节结论影响：原两阶段、四标准、单智能体基线及性能比较要求均保持。\n- 依据：[E12](#e12)、[E13](#e13)。\n\n<a id=\"d042\"></a>",
+    "mentor": "when independent perspectives are valuable; changing requirements or\nconditional review support hybrid control. Compare the selected design with a\nsingle-agent baseline using task quality, latency, cost, provenance, and\nfailure-recovery measures.\n",
+    "pre_restore_plan": "when independent perspectives are valuable; hybrid control is a candidate\nwhen changing requirements necessitate a change in decision authority.\nConditional review under a fixed approver remains hierarchical. Compare the\nselected design with a single-agent baseline using task quality, latency,\ncost, provenance, and failure-recovery measures.\n"
+  },
+  {
+    "id": "D042",
+    "block": "D042",
+    "class": "C",
+    "recommendation": "等待确认 Q5",
+    "decision": "- 决策对象：verified purposive comparison→冻结建议标签并按一规则重编码。\n- 理由：原版已经不声称性能、因果、外部有效性；新增重编码、冻结建议标签的评价方法不能作为纯事实纠错自动保留。\n- 引用、表格、图注、统计或章节结论影响：与表中匹配符号、六/四、no-hybrid限制联动；不改十个案例身份。\n- 依据：[E14](#e14)。\n\n<a id=\"d043\"></a>",
+    "mentor": "The approach is verified for interpretive consistency by comparing its\ninferred architectures with ten published systems. This purposive sample was\nselected because the systems report agent roles and control flow with enough\ndetail for coding and cover different domains, process structures, and risk\nlevels. The comparison does not evaluate system performance, establish causal\nbenefit, or claim external validity.\n",
+    "pre_restore_plan": "The approach is examined for interpretive consistency using ten published\nsystems. This purposive sample contains both core QA studies and supporting\nworkflow examples; it does not evaluate performance, establish causal benefit,\nor provide independent validation. The existing proposed labels are retained\nfor comparison, while reported workflows are re-coded using one rule:\nflat control has no persistent top-down controller; hierarchical control has\nstable routing, approval, or final-decision authority; hybrid control requires\na demonstrated change in that authority. Iteration, voting, multiple roles,\nand graph structure alone are insufficient.\n"
+  },
+  {
+    "id": "D043",
+    "block": "D043",
+    "class": "C",
+    "recommendation": "等待确认 Q5",
+    "decision": "- 决策对象：匹配数、粒度、多标签建议结论。\n- 理由：原数字按原三档符号算术成立；新6/4按新二档符号也成立。变化来自重新编码及评分规则，不是只修算术。新否定hybrid验证结论依赖当前源标签。\n- 引用、表格、图注、统计或章节结论影响：不混用旧5/3/2与新二档规则；不把6/10说成预测准确率。\n- 依据：[E14](#e14)。\n\n<a id=\"d044\"></a>",
+    "mentor": "Five cases are broadly aligned, three are partially aligned, and two are\ndivergent under the coding used here. MedAgents and LLM-MedQA combine\nparallel expert perspectives with staged synthesis; MAD is flat at the macro\nlevel but uses iterative convergence; EduPlanner and Financial Reflection QA\ncombine convergent objectives with evaluator or critic feedback. These boundary\ncases show that competing requirements can make a single categorical label\ninsufficient and that a multi-label description of control flow may sometimes\nbe preferable.\n",
+    "pre_restore_plan": "Exact category agreement occurs in six cases, with four disagreements.\nMedAgents, LLM-MedQA, LegalGraphRAG, and EduPlanner have fixed asymmetric\nstages or final-decision roles, while their retained proposed labels differ.\nDu et al.'s peer debate remains flat despite repeated rounds, and Financial\nReflection QA remains hierarchical despite critic feedback. Nine reported\nworkflows are coded hierarchical and one flat; this sample therefore does not\nvalidate the hybrid category. The comparison is retrospective and was not\nblind or preregistered. The six agreements are descriptive, not prediction\naccuracy or evidence of an effective architecture-selection policy.\n"
+  },
+  {
+    "id": "D044",
+    "block": "D044",
+    "class": "A",
+    "recommendation": "保留最小表头修正",
+    "decision": "- 决策对象：reported architecture→source-based architecture coding。\n- 理由：这些标签是本文作者回顾性判断，未证明由每篇原作者自报；必须去掉来源自报的误导。\n- 引用、表格、图注、统计或章节结论影响：不预先决定Q5的评分档数。\n- 依据：[E14](#e14)。\n\n<a id=\"d045\"></a>",
+    "mentor": "    \\textbf{Inferred versus reported architecture} & \\textbf{Match} \\\\\n",
+    "pre_restore_plan": "    \\textbf{Inferred versus source-based architecture coding} & \\textbf{Match} \\\\\n"
+  },
+  {
+    "id": "D045a",
+    "block": "D045",
+    "class": "C",
+    "recommendation": "等待确认 Q5",
+    "decision": "- 决策对象：MedAgents source Hybrid→Hierarchical、△→×。\n- 理由：五阶段与固定最终决策确证；全局标签和匹配仍是本文判断。\n- 引用、表格、图注、统计或章节结论影响：原建议Flat保持；不同评分方案需重算。\n- 依据：[E14](#e14)。",
+    "mentor": "    MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\\n    LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\\n    LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\\n    Triad \\citep{hu2024triad} & Enterprise KBQA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\\n",
+    "pre_restore_plan": "    MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\\n    LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\\n    LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\\n    Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\\n"
+  },
+  {
+    "id": "D045b",
+    "block": "D045",
+    "class": "C",
+    "recommendation": "等待确认 Q5",
+    "decision": "- 决策对象：LLM-MedQA source Hybrid→Hierarchical、△→×。\n- 理由：六阶段、专家投票、报告修订与最终选择获预印本支持；正式用户PDF当前不可重读，不能把版本一致性默认为已重新证明。\n- 引用、表格、图注、统计或章节结论影响：原建议Flat保持；记录正式证据定位与当前版本限制。\n- 依据：[E14](#e14)。",
+    "mentor": "    MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\\n    LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\\n    LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\\n    Triad \\citep{hu2024triad} & Enterprise KBQA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\\n",
+    "pre_restore_plan": "    MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\\n    LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\\n    LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\\n    Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\\n"
+  },
+  {
+    "id": "D045c",
+    "block": "D045",
+    "class": "C",
+    "recommendation": "等待确认 Q5",
+    "decision": "- 决策对象：LegalGraphRAG source Hybrid→Hierarchical、✓→×。\n- 理由：Researcher→Auditor→Adjudicator时序确证；图结构不自动证明决策权切换，类别由本文规则解释。\n- 引用、表格、图注、统计或章节结论影响：原建议Hybrid保持，不伪造原作者标签。\n- 依据：[E14](#e14)。",
+    "mentor": "    MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\\n    LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\\n    LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\\n    Triad \\citep{hu2024triad} & Enterprise KBQA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\\n",
+    "pre_restore_plan": "    MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\\n    LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\\n    LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\\n    Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\\n"
+  },
+  {
+    "id": "D045d",
+    "block": "D045",
+    "class": "A",
+    "recommendation": "保留最小领域名称纠正",
+    "decision": "- 决策对象：Triad Enterprise KBQA→Knowledge-base QA。\n- 理由：实测为公开KBQA基准，不是企业部署证据。\n- 引用、表格、图注、统计或章节结论影响：仍为十案例支持例、S角色，不计入13核心。\n- 依据：[E02](#e02)。\n\n<a id=\"d046\"></a>",
+    "mentor": "    MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hybrid staged synthesis & $\\triangle$ \\\\\n    LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hybrid voting pipeline & $\\triangle$ \\\\\n    LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hybrid graph audit chain & $\\checkmark$ \\\\\n    Triad \\citep{hu2024triad} & Enterprise KBQA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\\n",
+    "pre_restore_plan": "    MedAgents \\citep{tang2024medagents} & Multi-specialty medical QA; high complexity and moderate risk & Flat versus hierarchical staged synthesis & $\\times$ \\\\\n    LLM-MedQA \\citep{tang2025llmmedqa} & Standardised medical MCQ; convergent objective with diverse views & Flat versus hierarchical voting pipeline & $\\times$ \\\\\n    LegalGraphRAG \\citep{legalgraphrag2026} & Legal verdict prediction; high risk and structured retrieval & Hybrid versus hierarchical graph audit chain & $\\times$ \\\\\n    Triad \\citep{hu2024triad} & Knowledge-base QA; standardised Text-to-SPARQL workflow & Hierarchical versus hierarchical pipeline & $\\checkmark$ \\\\\n"
+  },
+  {
+    "id": "D046a",
+    "block": "D046",
+    "class": "A",
+    "recommendation": "保留必要身份与事实修正",
+    "decision": "- 决策对象：MAD/low risk→Multiagent debate (Du)/peer exchange。\n- 理由：避免与Liang的MAD及judge流程混淆；原文没有现实风险量化，不能保留low risk为研究实测。\n- 引用、表格、图注、统计或章节结论影响：保留du2024multiagent_debate键；不改案例数量。\n- 依据：[E08](#e08)。",
+    "mentor": "    MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\\n",
+    "pre_restore_plan": "    Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\\n"
+  },
+  {
+    "id": "D046b",
+    "block": "D046",
+    "class": "C",
+    "recommendation": "等待确认 Q5",
+    "decision": "- 决策对象：Flat/Flat 的△→✓。\n- 理由：旧△并非算错，它反映旧“部分一致”的过程评价；新✓来自精确类别一致新规则。\n- 引用、表格、图注、统计或章节结论影响：不能独立改一个符号却保留5/3/2总数。\n- 依据：[E14](#e14)。\n\n<a id=\"d047\"></a>",
+    "mentor": "    MAD \\citep{du2024multiagent_debate} & Open-domain reasoning; open process and low risk & Flat versus flat iterative convergence & $\\triangle$ \\\\\n",
+    "pre_restore_plan": "    Multiagent debate (Du) \\citep{du2024multiagent_debate} & Factual QA and reasoning; peer exchange & Flat versus flat iterative debate & $\\checkmark$ \\\\\n"
+  },
+  {
+    "id": "D047a",
+    "block": "D047",
+    "class": "A",
+    "recommendation": "保留事实纠正",
+    "decision": "- 决策对象：self-critique→critic feedback。\n- 理由：实现为专家与外部critic反馈；来源§6把反复多轮辩论列作未来工作。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E14](#e14)。",
+    "mentor": "    Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with self-critique & Hierarchical versus hybrid reflection loop & $\\times$ \\\\\n",
+    "pre_restore_plan": "    Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\\n"
+  },
+  {
+    "id": "D047b",
+    "block": "D047",
+    "class": "C",
+    "recommendation": "等待确认 Q5",
+    "decision": "- 决策对象：Hierarchical/Hybrid ×→Hierarchical/Hierarchical ✓。\n- 理由：稳定critics→expert修订支持当前编码，但宏观类别及评分是作者判断，需与其他案例统一。\n- 引用、表格、图注、统计或章节结论影响：禁止恢复未实现的多轮机制。\n- 依据：[E14](#e14)。\n\n<a id=\"d048\"></a>",
+    "mentor": "    Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with self-critique & Hierarchical versus hybrid reflection loop & $\\times$ \\\\\n",
+    "pre_restore_plan": "    Financial Reflection QA \\citep{fatemi2024financialqa} & Numerical QA; convergence with critic feedback & Hierarchical versus hierarchical critic feedback & $\\checkmark$ \\\\\n"
+  },
+  {
+    "id": "D048a",
+    "block": "D048",
+    "class": "C",
+    "recommendation": "等待确认 Q5",
+    "decision": "- 决策对象：三档→二档；冻结建议标签等方法说明。\n- 理由：必须与Q5整体决定；原注已经说作者编码且非独立验证，新长注并非全部必需。\n- 引用、表格、图注、统计或章节结论影响：评分、方法、正文统计同步。\n- 依据：[E14](#e14)。",
+    "mentor": "  \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned;\n  $\\times$ = divergent. The labels are author coding and do not constitute\n  independent validation.\n",
+    "pre_restore_plan": "  \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different\n  categories. Proposed labels are retained from the preceding draft;\n  source-based labels are the authors' retrospective control-flow coding.\n  Neither label nor agreement establishes selection accuracy or safety.\n  Triad is a single-agent, three-role supporting study (S), outside the\n  13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting\n  workflow examples. Criterion profiles are illustrative author judgments.\n"
+  },
+  {
+    "id": "D048b",
+    "block": "D048",
+    "class": "A",
+    "recommendation": "保留必要边界",
+    "decision": "- 决策对象：Triad S/单代理；ChatDev/AgentCoder/EduPlanner支持工作流边界。\n- 理由：这些支持例不能充当13项核心QA研究；并不意味着删除十案例的支持例。\n- 引用、表格、图注、统计或章节结论影响：保留十个案例、核心13和相关键；不把混合样本称十项核心QA研究。\n- 依据：[E02](#e02)、[E03](#e03)、[E15](#e15)。\n\n<a id=\"d049\"></a>",
+    "mentor": "  \\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned;\n  $\\times$ = divergent. The labels are author coding and do not constitute\n  independent validation.\n",
+    "pre_restore_plan": "  \\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different\n  categories. Proposed labels are retained from the preceding draft;\n  source-based labels are the authors' retrospective control-flow coding.\n  Neither label nor agreement establishes selection accuracy or safety.\n  Triad is a single-agent, three-role supporting study (S), outside the\n  13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting\n  workflow examples. Criterion profiles are illustrative author judgments.\n"
+  },
+  {
+    "id": "D049a",
+    "block": "D049",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：parallel specialist + approval Hybrid→Hierarchical／actual authoritychange。\n- 理由：改变场景对应架构的建议，是方法应用的重要部分，需按总定义明确。\n- 引用、表格、图注、统计或章节结论影响：与选择流程图和Q5案例解释联动；不自行改图。\n- 依据：[E12](#e12)、[E13](#e13)。",
+    "mentor": "high-risk, cross-domain consultation, parallel specialist analysis may improve\ncoverage, but final decisions require an explicit review boundary, making a\nhybrid workflow with human approval a plausible candidate. Standardised,\nevidence-grounded QA generally supports a hierarchical RAG baseline with\nsource and citation checks. Open-ended educational or legal tasks may benefit\nfrom bounded peer critique, but legal use additionally requires auditability\nand human accountability. These examples illustrate how task and governance\nrequirements constrain the design space; they do not imply one universally\n",
+    "pre_restore_plan": "cross-domain consultation, parallel specialist analysis may improve coverage,\nwhile a fixed review and final-decision boundary produces a hierarchical\nworkflow. A hybrid candidate requires an actual conditional change in decision\nauthority, rather than the mere addition of human approval. Standardised,\nevidence-grounded QA can use a hierarchical retrieval-and-synthesis baseline\nwith source and citation checks. Open-ended tasks may use bounded peer\ncritique, while consequential decisions call for explicit accountability.\nThese are design hypotheses, not evaluated prescriptions for a universally\n"
+  },
+  {
+    "id": "D049b",
+    "block": "D049",
+    "class": "B",
+    "recommendation": "恢复（不涉及架构标签的部分）",
+    "decision": "- 决策对象：删除high-risk、educational/legal、auditability/human accountability及原尾句。\n- 理由：这些是导师原有应用场景与治理要求，原句已经使用may/plausible及not universally correct，不因修一个hybrid判定就应概括掉。\n- 引用、表格、图注、统计或章节结论影响：恢复原场景、论证顺序和These examples illustrate…尾句；hybrid/hierarchical短语等待Q4。\n- 依据：[E04](#e04)。\n\n### 第4章 Key technologies\n\n<a id=\"d050\"></a>",
+    "mentor": "high-risk, cross-domain consultation, parallel specialist analysis may improve\ncoverage, but final decisions require an explicit review boundary, making a\nhybrid workflow with human approval a plausible candidate. Standardised,\nevidence-grounded QA generally supports a hierarchical RAG baseline with\nsource and citation checks. Open-ended educational or legal tasks may benefit\nfrom bounded peer critique, but legal use additionally requires auditability\nand human accountability. These examples illustrate how task and governance\nrequirements constrain the design space; they do not imply one universally\n",
+    "pre_restore_plan": "cross-domain consultation, parallel specialist analysis may improve coverage,\nwhile a fixed review and final-decision boundary produces a hierarchical\nworkflow. A hybrid candidate requires an actual conditional change in decision\nauthority, rather than the mere addition of human approval. Standardised,\nevidence-grounded QA can use a hierarchical retrieval-and-synthesis baseline\nwith source and citation checks. Open-ended tasks may use bounded peer\ncritique, while consequential decisions call for explicit accountability.\nThese are design hypotheses, not evaluated prescriptions for a universally\n"
+  },
+  {
+    "id": "D050a",
+    "block": "D050",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：A2A仅horizontal peer-to-peer；未给日期的Linux Foundation共同采用。\n- 理由：A2A为跨框架/厂商任务协调接口，并不规定QA决策权平等；现有两篇公告不能证明全段后续基金会采用历史。USB-C外号亦不能当Anthropic公告原词。\n- 引用、表格、图注、统计或章节结论影响：保留MCP工具数据接口、A2A官方名称及跨厂商机制，不恢复不明日期采用结论。\n- 依据：[E16](#e16)。",
+    "mentor": "With the rapid development of multi-agent ecosystems, interoperability barriers have arisen between agents developed by different vendors.\nTo address this issue, the industry has initiated efforts to standardize communication protocols. For example, Anthropic introduced the Model Context Protocol (MCP)\n\\citep{anthropic2024mcp}—dubbed the \"USB-C of AI\"—to standardise\nthe way agents connect to external tools and data sources.\nAnother example is Google's proposed Agent-to-Agent (A2A) protocol\n\\citep{google2025a2a}, which regulates horizontal peer-to-peer collaboration\namong agents.\nThese standards are being gradually adopted by the open-source\ncommunity and the Linux Foundation, laying a foundation for heterogeneous\nmulti-agent QA systems.\n",
+    "pre_restore_plan": "Industry initiatives address different parts of the interface problem.\nAnthropic introduced the Model Context Protocol (MCP)\n\\citep{anthropic2024mcp} to standardise connections to external tools and data\nsources. Google's Agent2Agent (A2A) protocol \\citep{google2025a2a} supports\ncommunication and task coordination between agents across frameworks and\nvendors. These interfaces can support heterogeneous multi-agent QA systems.\n"
+  },
+  {
+    "id": "D050b",
+    "block": "D050",
+    "class": "B",
+    "recommendation": "恢复（开头过渡）",
+    "decision": "- 决策对象：原互操作障碍→标准化努力的过渡被缩成Industry initiatives。\n- 理由：官方公告本就针对接口碎片化和互操作；原开头两句的叙述逻辑没有实质错误。\n- 引用、表格、图注、统计或章节结论影响：恢复原With the rapid development…与To address…，保留A2A机制修正与证据边界。\n- 依据：[E16](#e16)。\n\n<a id=\"d051\"></a>",
+    "mentor": "With the rapid development of multi-agent ecosystems, interoperability barriers have arisen between agents developed by different vendors.\nTo address this issue, the industry has initiated efforts to standardize communication protocols. For example, Anthropic introduced the Model Context Protocol (MCP)\n\\citep{anthropic2024mcp}—dubbed the \"USB-C of AI\"—to standardise\nthe way agents connect to external tools and data sources.\nAnother example is Google's proposed Agent-to-Agent (A2A) protocol\n\\citep{google2025a2a}, which regulates horizontal peer-to-peer collaboration\namong agents.\nThese standards are being gradually adopted by the open-source\ncommunity and the Linux Foundation, laying a foundation for heterogeneous\nmulti-agent QA systems.\n",
+    "pre_restore_plan": "Industry initiatives address different parts of the interface problem.\nAnthropic introduced the Model Context Protocol (MCP)\n\\citep{anthropic2024mcp} to standardise connections to external tools and data\nsources. Google's Agent2Agent (A2A) protocol \\citep{google2025a2a} supports\ncommunication and task coordination between agents across frameworks and\nvendors. These interfaces can support heterogeneous multi-agent QA systems.\n"
+  },
+  {
+    "id": "D051",
+    "block": "D051",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：substantially improving decomposition reliability→missing-step errors on evaluated tasks。\n- 理由：原文Table6测missing-step错误，不证明所有任务的总体分解可靠性。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E17](#e17)。\n\n<a id=\"d052\"></a>",
+    "mentor": "by explicitly separating\nthe planning and solving phases, substantially improving decomposition\nreliability.\n",
+    "pre_restore_plan": "by explicitly separating planning from solving and reducing missing-step\nerrors on the evaluated reasoning tasks.\n"
+  },
+  {
+    "id": "D052a",
+    "block": "D052",
+    "class": "A",
+    "recommendation": "保留机制纠正",
+    "decision": "- 决策对象：统一profiling/skill-based routing/maximum throughput。\n- 理由：MetaGPT预定义角色、AgentVerse按目标招募及反馈调整的机制不同；没有通用skill-routing或最大吞吐保证。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E15](#e15)。",
+    "mentor": "After decomposition, the system must assign sub-tasks to the most suitable\nagents. For example, MetaGPT \\citep{hong2024metagpt} and AgentVerse\n\\citep{chen2024agentverse}\nconstruct fine-grained agent profiles (Agent Profiling) that tag each agent\nwith specific role labels.\nDuring runtime, a scheduler uses skill-based routing to dispatch sub-tasks\nsuch as code writing, literature retrieval, or logical verification to the\ncorresponding expert agent, maximising throughput.\n",
+    "pre_restore_plan": "After decomposition, the system must assign sub-tasks to suitable agents.\nFor example, MetaGPT \\citep{hong2024metagpt} organises agents through\npredefined software-engineering roles, while AgentVerse\n\\citep{chen2024agentverse} recruits experts by generating task-specific\nexpertise descriptions and adjusts team composition using evaluation\nfeedback. These mechanisms guide which agents contribute to a task;\ntheir scheduling efficiency requires separate evaluation.\n"
+  },
+  {
+    "id": "D052b",
+    "block": "D052",
+    "class": "B",
+    "recommendation": "恢复（段首）",
+    "decision": "- 决策对象：most suitable→suitable 的段首替换。\n- 理由：原段首是设计目的，应给子任务选择最合适角色，并非已证实全局最优调度算法；后文错误不要求删这个普通目标。\n- 引用、表格、图注、统计或章节结论影响：恢复After decomposition…most suitable agents一句，保留之后的已核机制。\n- 依据：[E15](#e15)。\n\n<a id=\"d053\"></a>",
+    "mentor": "After decomposition, the system must assign sub-tasks to the most suitable\nagents. For example, MetaGPT \\citep{hong2024metagpt} and AgentVerse\n\\citep{chen2024agentverse}\nconstruct fine-grained agent profiles (Agent Profiling) that tag each agent\nwith specific role labels.\nDuring runtime, a scheduler uses skill-based routing to dispatch sub-tasks\nsuch as code writing, literature retrieval, or logical verification to the\ncorresponding expert agent, maximising throughput.\n",
+    "pre_restore_plan": "After decomposition, the system must assign sub-tasks to suitable agents.\nFor example, MetaGPT \\citep{hong2024metagpt} organises agents through\npredefined software-engineering roles, while AgentVerse\n\\citep{chen2024agentverse} recruits experts by generating task-specific\nexpertise descriptions and adjusts team composition using evaluation\nfeedback. These mechanisms guide which agents contribute to a task;\ntheir scheduling efficiency requires separate evaluation.\n"
+  },
+  {
+    "id": "D053a",
+    "block": "D053",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：must/global KG/real time/avoiding retrieval保证。\n- 理由：所有复杂系统都必须全局图且实时同步、一定避开冗余，没有本段证据支持。\n- 引用、表格、图注、统计或章节结论影响：把必须改可选；去掉实时与效果保证；不撤掉原共享知识论点。\n- 依据：[E18](#e18)。",
+    "mentor": "In complex collaboration, knowledge must not be siloed within individual\nagents.\nThe system needs a global knowledge graph shared across agents so that all\ncollaborative nodes can synchronise critical facts in real time.\nBy constructing a shared graph-vector database, newly spawned sub-agents\ncan rapidly inherit the team's cumulative knowledge, avoiding redundant\nretrieval and cognitive divergence.\n",
+    "pre_restore_plan": "In complex collaboration, designers may provide a shared evidence repository\nwhen agents need access to the same verified information. A graph, vector\nstore, document store, or their combination is an implementation choice,\nrather than a requirement that every system use a global knowledge graph.\nNew agents may reuse relevant context subject to provenance and access\nchecks. Whether this reduces repeated retrieval or inconsistent answers\nrequires measurement; synchronisation is not automatically real time.\n"
+  },
+  {
+    "id": "D053b",
+    "block": "D053",
+    "class": "B",
+    "recommendation": "恢复（删除非必要新增内容）",
+    "decision": "- 决策对象：新增graph/vector/document枚举及provenance/access checks。\n- 理由：合理工程建议也不是纠正原绝对句所必需；用户明确不新增内容。\n- 引用、表格、图注、统计或章节结论影响：用原图-向量库论证结构做最小弱化；删除新实现枚举和访问检查扩写。\n- 依据：[E18](#e18)。\n\n<a id=\"d054\"></a>",
+    "mentor": "In complex collaboration, knowledge must not be siloed within individual\nagents.\nThe system needs a global knowledge graph shared across agents so that all\ncollaborative nodes can synchronise critical facts in real time.\nBy constructing a shared graph-vector database, newly spawned sub-agents\ncan rapidly inherit the team's cumulative knowledge, avoiding redundant\nretrieval and cognitive divergence.\n",
+    "pre_restore_plan": "In complex collaboration, designers may provide a shared evidence repository\nwhen agents need access to the same verified information. A graph, vector\nstore, document store, or their combination is an implementation choice,\nrather than a requirement that every system use a global knowledge graph.\nNew agents may reuse relevant context subject to provenance and access\nchecks. Whether this reduces repeated retrieval or inconsistent answers\nrequires measurement; synchronisation is not automatically real time.\n"
+  },
+  {
+    "id": "D054",
+    "block": "D054",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：attention-weight eviction→function calls/FIFO/recursive summaries。\n- 理由：已读v1§2.1–2.2原文直接支持函数控制和FIFO；注意力权重淘汰错误。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E19](#e19)。\n\n<a id=\"d055\"></a>",
+    "mentor": "current QA session. For example, MemGPT \\citep{packer2023memgpt} draws on the\npaged-memory mechanism of modern operating systems to design a hierarchical\nworking-memory system. The system retains critical context in memory based on\nattention weights and evicts redundant information, providing seamless\nlong-conversation support within a limited context window.\n",
+    "pre_restore_plan": "current QA session. For example, MemGPT \\citep{packer2023memgpt} draws on\noperating-system memory hierarchies to manage a limited main context and\nexternal memory. Function calls control information transfer between them,\nwhile a FIFO message queue and recursive summaries manage dialogue context\nunder the context-window limit.\n"
+  },
+  {
+    "id": "D055a",
+    "block": "D055",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：长期记忆普遍vector/RAG必然多智能体。\n- 理由：存储与访问方式应分开；原RAG不是多代理系统实证。当前示例性multi-agent限定必要。\n- 引用、表格、图注、统计或章节结论影响：保留向量余弦检索公式与Top-k定义，不把单模型来源说成多代理。\n- 依据：[E18](#e18)。",
+    "mentor": "Long-term memory typically relies on vector databases to store vast\nhistorical experiences and external domain knowledge\n\\citep{zhang2024memory_survey}. A representative access mechanism is\nRetrieval-Augmented Generation (RAG) \\citep{lewis2020rag,gao2024rag_survey},\nthrough which multi-agent QA systems access long-term memory. A retrieval\nagent selects the Top-$k$ relevant documents from knowledge base $\\mathcal{D}$\n",
+    "pre_restore_plan": "Long-term memory can retain historical experiences and domain knowledge in\nexternal stores \\citep{zhang2024memory_survey}. Vector retrieval is one way\nto access such information: Retrieval-Augmented Generation (RAG)\n\\citep{lewis2020rag,gao2024rag_survey} augments generation with retrieved\ndocuments. As one illustrative multi-agent implementation, a retrieval agent\ncan select the Top-$k$ relevant documents from knowledge base $\\mathcal{D}$\n"
+  },
+  {
+    "id": "D055b",
+    "block": "D055",
+    "class": "B",
+    "recommendation": "恢复（原句顺序）",
+    "decision": "- 决策对象：A representative access mechanism is…等原句骨架被重排。\n- 理由：说明RAG是代表访问机制本身正确；无需为限定主体而改写整段。\n- 引用、表格、图注、统计或章节结论影响：尽量复用原Long-term memory…A representative access mechanism…A retrieval agent…，将typically改can、agent加illustrative限定；不恢复A类错误。\n- 依据：[E18](#e18)。\n\n<a id=\"d056\"></a>",
+    "mentor": "Long-term memory typically relies on vector databases to store vast\nhistorical experiences and external domain knowledge\n\\citep{zhang2024memory_survey}. A representative access mechanism is\nRetrieval-Augmented Generation (RAG) \\citep{lewis2020rag,gao2024rag_survey},\nthrough which multi-agent QA systems access long-term memory. A retrieval\nagent selects the Top-$k$ relevant documents from knowledge base $\\mathcal{D}$\n",
+    "pre_restore_plan": "Long-term memory can retain historical experiences and domain knowledge in\nexternal stores \\citep{zhang2024memory_survey}. Vector retrieval is one way\nto access such information: Retrieval-Augmented Generation (RAG)\n\\citep{lewis2020rag,gao2024rag_survey} augments generation with retrieved\ndocuments. As one illustrative multi-agent implementation, a retrieval agent\ncan select the Top-$k$ relevant documents from knowledge base $\\mathcal{D}$\n"
+  },
+  {
+    "id": "D056",
+    "block": "D056",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：specialised retrieval agents→reflection tokens与low-confidence触发。\n- 理由：分别是受反思token控制的单LM推理，以及预测低置信句后检索再生成；不能直接当成原生专门多代理。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E18](#e18)。\n\n<a id=\"d057\"></a>",
+    "mentor": "evolved from early passive Naive RAG to active variants. For example, Self-RAG\n\\citep{asai2024selfrag} and proactive retrieval (FLARE)\n\\citep{jiang2023active_rag} allow specialised retrieval agents to autonomously\ndetermine when to retrieve, evaluate retrieval quality, and pass refined\nknowledge to the generation agent.\n",
+    "pre_restore_plan": "evolved from passive retrieval to active variants. Self-RAG\n\\citep{asai2024selfrag} uses reflection tokens to decide when to retrieve and\nto critique generated passages, while FLARE \\citep{jiang2023active_rag}\ntriggers retrieval when predicted upcoming text contains low-confidence\ntokens and then regenerates that text. These controls can inform retrieval\ncomponents in a multi-agent workflow.\n"
+  },
+  {
+    "id": "D057",
+    "block": "D057",
+    "class": "B",
+    "recommendation": "恢复",
+    "decision": "- 决策对象：greatly unlocked reasoning potential→任务列表效果。\n- 理由：CoT来源确有推理任务改进；原句没有说适用于全部任务，也无准确率或安全承诺。此处主要是修辞变得更克制，不能以更学术为由强留。\n- 引用、表格、图注、统计或章节结论影响：恢复导师定性句，不添加普遍正确性或新定量结论。\n- 依据：[E21](#e21)。\n\n<a id=\"d058\"></a>",
+    "mentor": "Chain-of-Thought (CoT) prompting \\citep{wei2022chain_of_thought} has\ngreatly unlocked the reasoning potential of LLMs.\n",
+    "pre_restore_plan": "Chain-of-Thought (CoT) prompting \\citep{wei2022chain_of_thought}\ncan improve performance on evaluated arithmetic, commonsense, and symbolic\nreasoning tasks.\n"
+  },
+  {
+    "id": "D058",
+    "block": "D058",
+    "class": "A",
+    "recommendation": "保留最小主体修正",
+    "decision": "- 决策对象：Each agent→single-model baseline。\n- 理由：前文明确介绍单模型SC，再讲多代理推广；原Each agent紧邻公式混淆主体且未说明多代理二层聚合。\n- 引用、表格、图注、统计或章节结论影响：原公式、K、argmax保持；不是研究方法或公式结果更改。\n- 依据：[E21](#e21)。\n\n<a id=\"d059\"></a>",
+    "mentor": "Each agent independently samples $K$ reasoning paths\n$\\{(r_k, a_k)\\}_{k=1}^{K}$ for the same question, and majority voting\nselects the final answer:\n",
+    "pre_restore_plan": "In the single-model baseline, $K$ reasoning paths\n$\\{(r_k, a_k)\\}_{k=1}^{K}$ are sampled for the same question, and majority\nvoting selects the final answer:\n"
+  },
+  {
+    "id": "D059",
+    "block": "D059",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：these distribute…across multiple agents→search states。\n- 理由：原方法的thought/state不是必须独立智能体，不能与CoA统一说成多agent。\n- 引用、表格、图注、统计或章节结论影响：保留CoA多worker证据及三个键。\n- 依据：[E21](#e21)。\n\n<a id=\"d060\"></a>",
+    "mentor": "Representative search topologies include Chain-of-Agents\n\\citep{zhang2024chain_agents}, Tree of Thoughts\n\\citep{yao2023tree_of_thoughts}, and Graph of Thoughts\n\\citep{besta2024graph_of_thoughts}; these distribute reasoning across multiple\nserially or graph-connected agents.\n",
+    "pre_restore_plan": "Chain-of-Agents \\citep{zhang2024chain_agents} distributes evidence processing\nacross worker agents, while Tree of Thoughts\n\\citep{yao2023tree_of_thoughts} and Graph of Thoughts\n\\citep{besta2024graph_of_thoughts} organise intermediate reasoning states as\nsearch structures.\n"
+  },
+  {
+    "id": "D060a",
+    "block": "D060",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：To suppress hallucination…must。\n- 理由：自省不是事实错误降低的必要或充分条件，原must应最小弱化。\n- 引用、表格、图注、统计或章节结论影响：可沿原句改To help reduce hallucination, agents can perform iterative self-examination. 不恢复must。\n- 依据：[E21](#e21)。",
+    "mentor": "To suppress hallucination, agents must be capable of iterative\nself-examination.\n",
+    "pre_restore_plan": "Reflection and critique are possible approaches to factual-error reduction;\nthey do not guarantee correctness or replace checking the underlying evidence.\n"
+  },
+  {
+    "id": "D060b",
+    "block": "D060",
+    "class": "B",
+    "recommendation": "恢复（删重复扩写）",
+    "decision": "- 决策对象：correctness/evidence免责声明的额外尾句。\n- 理由：原段末本已有critic盲点、成本与必须按failure modes评估的限制；更长新句非修must所必需。\n- 引用、表格、图注、统计或章节结论影响：保留原一短句结构并用A的最小弱化替换。\n- 依据：[E21](#e21)。\n\n<a id=\"d061\"></a>",
+    "mentor": "To suppress hallucination, agents must be capable of iterative\nself-examination.\n",
+    "pre_restore_plan": "Reflection and critique are possible approaches to factual-error reduction;\nthey do not guarantee correctness or replace checking the underlying evidence.\n"
+  },
+  {
+    "id": "D061",
+    "block": "D061",
+    "class": "A",
+    "recommendation": "保留来源限定",
+    "decision": "- 决策对象：安全/逻辑审计被挂在CoVe下。\n- 理由：原论文§3仅LLM执行四步事实核查，不验证多critic安全审核。\n- 引用、表格、图注、统计或章节结论影响：保留四步骤事实；若复用原system can configure结构，必须明确这是本文可能扩展且不恢复安全保证。\n- 依据：[E21](#e21)。\n\n### 第5章 Development and evaluation resources\n\n<a id=\"d062\"></a>",
+    "mentor": "In addition, combined with Chain-of-Verification\n\\citep{dhuliawala2023chain_of_verification}, the system can configure\ndedicated \\emph{Critic} agents that rigorously audit generated results for\nsafety, factuality, and logical coherence through mutual-critique mechanisms.\n",
+    "pre_restore_plan": "Chain-of-Verification \\citep{dhuliawala2023chain_of_verification} drafts an\nanswer, plans verification questions, answers them independently, and then\nrevises the original answer. This procedure targets factual errors; dedicated\ncritic agents are a possible multi-agent extension that requires evaluation.\n"
+  },
+  {
+    "id": "D062",
+    "block": "D062",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：figure→figure*。\n- 理由：格式调整，用当前跨栏排版承载资源图。\n- 引用、表格、图注、统计或章节结论影响：仅TeX环境，不还原或覆盖classify.jpg。\n- 依据：[E01](#e01)。\n\n<a id=\"d063\"></a>",
+    "mentor": "\\begin{figure}[t]\n",
+    "pre_restore_plan": "\\begin{figure*}[pos=t,width=\\textwidth]\n"
+  },
+  {
+    "id": "D063",
+    "block": "D063",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：columnwidth→0.94textwidth。\n- 理由：与跨栏环境配套，属于已经实施的格式；不是正文润色。\n- 引用、表格、图注、统计或章节结论影响：图片内容和编辑中图源保护；本轮不重新渲染。\n- 依据：[E01](#e01)。\n\n<a id=\"d064\"></a>",
+    "mentor": "\\includegraphics[width=\\columnwidth]{classify.jpg}\n",
+    "pre_restore_plan": "\\includegraphics[width=0.94\\textwidth]{classify.jpg}\n"
+  },
+  {
+    "id": "D064",
+    "block": "D064",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：end figure→end figure*。\n- 理由：环境配对必要。\n- 引用、表格、图注、统计或章节结论影响：与D062成组。\n- 依据：[E01](#e01)。\n\n<a id=\"d065\"></a>",
+    "mentor": "\\end{figure}\n",
+    "pre_restore_plan": "\\end{figure*}\n"
+  },
+  {
+    "id": "D065",
+    "block": "D065",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：clearpage/onecolumn/table→table*。\n- 理由：消除强制单栏与额外断页，符合现有双栏工作流。\n- 引用、表格、图注、统计或章节结论影响：不改变表格内容。\n- 依据：[E01](#e01)。\n\n<a id=\"d066\"></a>",
+    "mentor": "\\clearpage\n\\onecolumn\n\\begin{table}[t]\n",
+    "pre_restore_plan": "\\begin{table*}[pos=t,width=\\textwidth]\n"
+  },
+  {
+    "id": "D066",
+    "block": "D066",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：normalsize→small。\n- 理由：现有表宽排版修复的一部分；用户不恢复旧格式。\n- 引用、表格、图注、统计或章节结论影响：字号作为格式保护，不与正文语言混算。\n- 依据：[E01](#e01)。\n\n<a id=\"d067\"></a>",
+    "mentor": "  \\normalsize\n",
+    "pre_restore_plan": "  \\small\n"
+  },
+  {
+    "id": "D067",
+    "block": "D067",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：固定宽tabular→textwidth的tabularx。\n- 理由：当前可伸缩列适配跨栏，避免原表宽/溢出问题。\n- 引用、表格、图注、统计或章节结论影响：保持X列与width，不改机制内容。\n- 依据：[E01](#e01)。\n\n<a id=\"d068\"></a>",
+    "mentor": "  \\begin{tabular}{>{\\raggedright\\arraybackslash}p{1.8cm}\n                  >{\\raggedright\\arraybackslash}p{1.9cm}\n                  >{\\raggedright\\arraybackslash}p{2.8cm}\n                  >{\\raggedright\\arraybackslash}p{2.8cm}\n                  >{\\raggedright\\arraybackslash}p{2.8cm}\n                  >{\\raggedright\\arraybackslash}p{3.2cm}}\n",
+    "pre_restore_plan": "  \\begin{tabularx}{\\textwidth}{>{\\raggedright\\arraybackslash}p{2.6cm}\n                  >{\\raggedright\\arraybackslash}p{2.0cm}\n                  >{\\raggedright\\arraybackslash}X\n                  >{\\raggedright\\arraybackslash}X\n                  >{\\raggedright\\arraybackslash}X\n                  >{\\raggedright\\arraybackslash}X}\n"
+  },
+  {
+    "id": "D068",
+    "block": "D068",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：Flat→Role-paired workflow。\n- 理由：实际instruction-solution角色对可核；从架构列改到机制名称属表呈现方案。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E15](#e15)。\n\n<a id=\"d069\"></a>",
+    "mentor": "    CAMEL \\citep{li2023camel} & Flat &\n",
+    "pre_restore_plan": "    CAMEL \\citep{li2023camel} & Role-paired workflow &\n"
+  },
+  {
+    "id": "D069",
+    "block": "D069",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：Dialogue context tree→Role-conditioned dialogue context。\n- 理由：已读角色对话实现是顺序instruction-solution交流，未证明采用上下文树结构；不能按树写成已报机制。\n- 引用、表格、图注、统计或章节结论影响：只替换该单元，不改引用或表结构。\n- 依据：[E15](#e15)。\n\n<a id=\"d070\"></a>",
+    "mentor": "      Dialogue context tree &\n",
+    "pre_restore_plan": "      Role-conditioned dialogue context &\n"
+  },
+  {
+    "id": "D070",
+    "block": "D070",
+    "class": "A",
+    "recommendation": "保留最小机制修正",
+    "decision": "- 决策对象：Local code/doc files→within-phase dialogue/cross-phase solutions。\n- 理由：正式论文§3.1确证短期对话及跨阶段解决方案记忆；本列是memory/state，不应以产物文件替代已描述机制。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E15](#e15)。\n\n<a id=\"d071\"></a>",
+    "mentor": "      Local code and document files &\n",
+    "pre_restore_plan": "      Within-phase dialogue; cross-phase solutions &\n"
+  },
+  {
+    "id": "D071",
+    "block": "D071",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：Message queue→Shared message pool。\n- 理由：原文§3.2/Fig2描述全局共享消息池及订阅，不能无依据改为队列式机制。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E15](#e15)。\n\n<a id=\"d072\"></a>",
+    "mentor": "      Message queue and project documents &\n",
+    "pre_restore_plan": "      Shared message pool and project documents &\n"
+  },
+  {
+    "id": "D072",
+    "block": "D072",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：Hybrid→Adaptive role pipeline。\n- 理由：招募/评价反馈实证不等于必然控制权切换；表归属方案需作者判断。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E15](#e15)。\n\n<a id=\"d073\"></a>",
+    "mentor": "    AgentVerse \\citep{chen2024agentverse} & Hybrid &\n",
+    "pre_restore_plan": "    AgentVerse \\citep{chen2024agentverse} & Adaptive role pipeline &\n"
+  },
+  {
+    "id": "D073",
+    "block": "D073",
+    "class": "A",
+    "recommendation": "保留最小来源边界",
+    "decision": "- 决策对象：Shared blackboard→conversation/evaluation context。\n- 理由：本次可读方法描述招募、对话、执行、反馈，未据此确认特定blackboard存储架构；保留一般上下文描述避免过具体归因。\n- 引用、表格、图注、统计或章节结论影响：未能证明原blackboard错误实现不存在，只是不把未获来源支持的专门机制作为事实。\n- 依据：[E15](#e15)。\n\n<a id=\"d074\"></a>",
+    "mentor": "      Shared blackboard &\n",
+    "pre_restore_plan": "      Conversation and evaluation context &\n"
+  },
+  {
+    "id": "D074a",
+    "block": "D074",
+    "class": "A",
+    "recommendation": "保留引用修复",
+    "decision": "- 决策对象：duan2024langgraph_crewai→官方两键。\n- 理由：官方文档/有日期文章支持状态图及暂停机制，修复必要。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E12](#e12)。",
+    "mentor": "    LangGraph \\citep{duan2024langgraph_crewai} & Hybrid &\n",
+    "pre_restore_plan": "    LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph &\n"
+  },
+  {
+    "id": "D074b",
+    "block": "D074",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：Hybrid→Configurable state graph。\n- 理由：框架能力与实现架构区分是必要底线，具体架构列还是机制列的展示方式待定。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E12](#e12)。\n\n<a id=\"d075\"></a>",
+    "mentor": "    LangGraph \\citep{duan2024langgraph_crewai} & Hybrid &\n",
+    "pre_restore_plan": "    LangGraph \\citep{langgraph2024,langgraph2024interrupt} & Configurable state graph &\n"
+  },
+  {
+    "id": "D075a",
+    "block": "D075",
+    "class": "C",
+    "recommendation": "等待确认 Q4",
+    "decision": "- 决策对象：Hybrid→Optimizable agent graph。\n- 理由：图优化不自动证明运行时决策权变化，但此处如何给类别仍是作者编码选择。\n- 引用、表格、图注、统计或章节结论影响：联动表 tab:9categories、框架表、十案例表及选择流程；图片仅列一致性核查，不覆盖。\n- 依据：[E11](#e11)。",
+    "mentor": "    GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid &\n      Computational graph connections &\n      Automatic graph-structure search &\n      Intra-node state &\n      Parallel inference optimization \\\\\n",
+    "pre_restore_plan": "    GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph &\n      DAG information flow &\n      Prompt and edge optimization &\n      Node input--output histories &\n      MMLU QA; graph optimization \\\\\n"
+  },
+  {
+    "id": "D075b",
+    "block": "D075",
+    "class": "A",
+    "recommendation": "最小修正（仅应用栏）",
+    "decision": "- 决策对象：Parallel inference optimization→MMLU QA; graph optimization 的应用定位。\n- 理由：所读§3评估MMLU、crosswords、HumanEval、GAIA等及图优化，并未把任务定位为并行推理性能优化；旧应用栏不准确。\n- 引用、表格、图注、统计或章节结论影响：保留真实QA/graph优化用途；不以此要求整行所有新技术词必须保留。\n- 依据：[E11](#e11)。",
+    "mentor": "    GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid &\n      Computational graph connections &\n      Automatic graph-structure search &\n      Intra-node state &\n      Parallel inference optimization \\\\\n",
+    "pre_restore_plan": "    GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph &\n      DAG information flow &\n      Prompt and edge optimization &\n      Node input--output histories &\n      MMLU QA; graph optimization \\\\\n"
+  },
+  {
+    "id": "D075c",
+    "block": "D075",
+    "class": "B",
+    "recommendation": "恢复（局部三个单元）",
+    "decision": "- 决策对象：Computational graph connections / Automatic graph-structure search / Intra-node state→更细的三单元表述。\n- 理由：本次补读公开v1§2.2–2.4：计算图连接、连边选择优化以及每节点历史集直接支持原表较粗的机制概括；更具体的DAG、prompt/edge、IO history并不证明原词错误。\n- 引用、表格、图注、统计或章节结论影响：可恢复原三单元文字；不得恢复Hybrid全框架标签或Parallel inference optimization应用定位。保留zhuge2024gptswarm键。\n- 依据：[E11](#e11)。\n\n<a id=\"d076\"></a>",
+    "mentor": "    GPTSwarm \\citep{zhuge2024gptswarm} & Hybrid &\n      Computational graph connections &\n      Automatic graph-structure search &\n      Intra-node state &\n      Parallel inference optimization \\\\\n",
+    "pre_restore_plan": "    GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph &\n      DAG information flow &\n      Prompt and edge optimization &\n      Node input--output histories &\n      MMLU QA; graph optimization \\\\\n"
+  },
+  {
+    "id": "D076",
+    "block": "D076",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：end tabular/table与单双栏切换→tabularx/table*。\n- 理由：与D065/067配套的格式修复。\n- 引用、表格、图注、统计或章节结论影响：不要只恢复环境收尾造成错配。\n- 依据：[E01](#e01)。\n\n<a id=\"d077\"></a>",
+    "mentor": "  \\end{tabular}\n\\end{table}\n\\clearpage\n\\twocolumn\n",
+    "pre_restore_plan": "  \\end{tabularx}\n\\end{table*}\n"
+  },
+  {
+    "id": "D077",
+    "block": "D077",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：workflow→RAG components。\n- 理由：选定v0.6.0是RAG组件；不可用后续版本多代理工作流能力倒推。\n- 引用、表格、图注、统计或章节结论影响：保留软件键与版本选择；不改平台数据。\n- 依据：[E18](#e18)。\n\n<a id=\"d078\"></a>",
+    "mentor": "    Document ingestion, retrieval, and configurable workflow components \\\\\n",
+    "pre_restore_plan": "    Document ingestion, retrieval, and configurable RAG components \\\\\n"
+  },
+  {
+    "id": "D078",
+    "block": "D078",
+    "class": "B",
+    "recommendation": "恢复（删除新增句）",
+    "decision": "- 决策对象：新增 Table summarizes…primary evaluation roles 两行。\n- 理由：纯新增导航，无实质纠错；删除不删表、不造成引用键变化或未定义引用。\n- 引用、表格、图注、统计或章节结论影响：tab:benchmark_resources定义和表内容保留。\n- 依据：[E01](#e01)。\n\n### 第6章 Challenges and Future Directions\n\n<a id=\"d079\"></a>",
+    "mentor": "[此处无原文：当前新增]\n",
+    "pre_restore_plan": "Table~\\ref{tab:benchmark_resources} summarizes these resources and their\nprimary evaluation roles.\n"
+  },
+  {
+    "id": "D079",
+    "block": "D079",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：iterative multi-critic reflection→critic feedback/revision。\n- 理由：来源把反复multi-turn作为未来工作，不能描述成已实现机制。\n- 引用、表格、图注、统计或章节结论影响：挑战章与十案例事实同步；类别仍等Q5。\n- 依据：[E14](#e14)。\n\n<a id=\"d080\"></a>",
+    "mentor": "iterative multi-critic reflection. These cases illustrate why a single\n",
+    "pre_restore_plan": "critic feedback and answer revision. These cases illustrate why a single\n"
+  },
+  {
+    "id": "D080a",
+    "block": "D080",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：quadratic→必然latency/cost 的推断。\n- 理由：链路数二次增长不保证端到端延迟同率，实际调度/消息长度影响成本。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E03](#e03)。",
+    "mentor": "resolving dependencies or disagreement. In a fully connected broadcast\ntopology, potential pairwise messages per round grow quadratically with team\nsize, increasing token and latency costs without guaranteeing information gain\n",
+    "pre_restore_plan": "resolving dependencies or disagreement. If each of $N$ agents sends one\nmessage to every other agent, there are $N(N-1)$ directed message deliveries\nper round. Actual token and latency costs also depend on message length,\nscheduling, and context handling. Scaling experiments illustrate\ntask-dependent benefits and topology-dependent context costs\n"
+  },
+  {
+    "id": "D080b",
+    "block": "D080",
+    "class": "B",
+    "recommendation": "恢复（前半句骨架）",
+    "decision": "- 决策对象：新增N(N−1)推导句及扩写。\n- 理由：原potential pairwise messages grow quadratically本身正确，新增精确计数不是纠正后半句所必需。\n- 引用、表格、图注、统计或章节结论影响：恢复原potential…quadratically；只在成本效果处保留条件限制。不改原论文实验结果。\n- 依据：[E03](#e03)。\n\n<a id=\"d081\"></a>",
+    "mentor": "resolving dependencies or disagreement. In a fully connected broadcast\ntopology, potential pairwise messages per round grow quadratically with team\nsize, increasing token and latency costs without guaranteeing information gain\n",
+    "pre_restore_plan": "resolving dependencies or disagreement. If each of $N$ agents sends one\nmessage to every other agent, there are $N(N-1)$ directed message deliveries\nper round. Actual token and latency costs also depend on message length,\nscheduling, and context handling. Scaling experiments illustrate\ntask-dependent benefits and topology-dependent context costs\n"
+  },
+  {
+    "id": "D081",
+    "block": "D081",
+    "class": "A",
+    "recommendation": "保留最小事实纠正",
+    "decision": "- 决策对象：只final accuracy／不揭示过程的笼统表述。\n- 理由：HotpotQA含supporting-fact指标；结果指标与完整过程因果贡献应区别。不能恢复只测最终答案的共同归因。\n- 引用、表格、图注、统计或章节结论影响：保留原关于独立证据、信息损失、critic纠错的三个问题及原键。\n- 依据：[E20](#e20)。\n\n<a id=\"d082\"></a>",
+    "mentor": "modes, yet they are often compared only by final-answer accuracy. Conventional\nbenchmarks and agent environments measure answer correctness or task\ncompletion \\citep{hendrycks2021mmlu,yang2018hotpotqa,\nliu2024agentbench,mialon2024gaia}; they do not reveal whether debate added\nindependent evidence, whether a long-context chain lost a decisive fact, or\nwhether a critic detected and corrected an error. Additional reasoning rounds\n",
+    "pre_restore_plan": "modes. Conventional benchmarks and agent environments measure answer\ncorrectness, supporting-fact accuracy, or task completion\n\\citep{hendrycks2021mmlu,yang2018hotpotqa,liu2024agentbench,mialon2024gaia};\nthese outcome measures alone do not establish whether debate added independent\nevidence, whether a long-context chain lost a decisive fact, or whether a\ncritic detected and corrected an error. Additional reasoning rounds\n"
+  },
+  {
+    "id": "D082",
+    "block": "D082",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：行业普遍缺失→作者建议complement outcomes。\n- 理由：MAST证据证明失败类型，不证明全QA领域过程指标都不标准化；当前建议是合理边界。\n- 引用、表格、图注、统计或章节结论影响：保留现有引用键；不改变书目池或78篇唯一引用统计。\n- 依据：[E20](#e20)。\n\n<a id=\"d083\"></a>",
+    "mentor": "\\citep{han2024mast}, but process-level measures of contribution,\ncomplementarity, and error correction are not standard in QA evaluation.\n",
+    "pre_restore_plan": "\\citep{han2024mast}, suggesting that process-level measures of contribution,\ncomplementarity, and error correction could complement outcome measures.\n"
+  },
+  {
+    "id": "D083",
+    "block": "D083",
+    "class": "A",
+    "recommendation": "最小修正",
+    "decision": "- 决策对象：医学/法律实测监督权；many workflows only finalapproval。\n- 理由：医学/法律来源提供应用背景而非整套规范验证；LangGraph支持状态编辑/流程重定向，only的共同归因不成立。\n- 引用、表格、图注、统计或章节结论影响：保留导师监督论证顺序及责任需求；只修共同归因、only及引用键。\n- 依据：[E12](#e12)、[E14](#e14)。\n\n<a id=\"d084\"></a>",
+    "mentor": "appropriate to the decision. Medical and legal QA illustrate these demands\n\\citep{tang2024medagents,cui2023chatlaw}. Yet many workflows provide only a\ntextual correction or final approval \\citep{duan2024langgraph_crewai,\nlanggraph2024}, without specifying when intervention is useful, what can be\nrevised, or how the intervention affects subsequent reasoning. Oversight that\n",
+    "pre_restore_plan": "appropriate to the decision. Medical and legal QA provide application\ncontexts for these proposed oversight requirements\n\\citep{tang2024medagents,cui2023chatlaw}. Frameworks support configurable\ninteraction and workflow control \\citep{duan2024langgraph_crewai,\nlanggraph2024interrupt}. Their use still requires designers to specify when\nintervention is useful, what can be revised, and how the intervention affects\nsubsequent reasoning. Oversight that\n"
+  },
+  {
+    "id": "D084a",
+    "block": "D084",
+    "class": "B",
+    "recommendation": "恢复（词组）",
+    "decision": "- 决策对象：verification exercise rather than independent confirmation→retrospective diagnostic comparison…。\n- 理由：导师原句已经明确不是独立一般有效性确认；是换词，不必以更稳健语言为由替换。\n- 引用、表格、图注、统计或章节结论影响：保持原limited…rather than independent confirmation of general validity；不删原局限。\n- 依据：[E14](#e14)。",
+    "mentor": "verification exercise rather than independent confirmation of general validity; broader\n",
+    "pre_restore_plan": "retrospective diagnostic comparison rather than independent validation; it contains\nno source-coded hybrid example. Broader\n"
+  },
+  {
+    "id": "D084b",
+    "block": "D084",
+    "class": "C",
+    "recommendation": "等待确认 Q5",
+    "decision": "- 决策对象：新增no source-coded hybrid example。\n- 理由：按现编码确为9H/1F；该结论依赖Q5的全局编码粒度，须同步该决定。\n- 引用、表格、图注、统计或章节结论影响：若保留现源标签则保留无hybrid限制；不自动新增hybrid案例。\n- 依据：[E14](#e14)。\n\n### 第7章 Conclusion之后的声明与参考文献输出\n\n<a id=\"d085\"></a>",
+    "mentor": "verification exercise rather than independent confirmation of general validity; broader\n",
+    "pre_restore_plan": "retrospective diagnostic comparison rather than independent validation; it contains\nno source-coded hybrid example. Broader\n"
+  },
+  {
+    "id": "D085",
+    "block": "D085",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：新增field/claim CSV及未决边界。\n- 理由：保护可追溯核查记录，避免只提交旧历史audit和search log造成已全部验证误读。\n- 引用、表格、图注、统计或章节结论影响：不覆盖原台账；reference_audit_report.md中的旧BibTeX编译命令不作为当前工作流。\n- 依据：[E01](#e01)。\n\n<a id=\"d086\"></a>",
+    "mentor": "\\texttt{search\\_log.csv}.\n",
+    "pre_restore_plan": "\\texttt{search\\_log.csv}. The current field-level and claim-level audit tables\nare \\texttt{reference\\_field\\_audit.csv} and\n\\texttt{citation\\_claim\\_audit.csv}; they record unresolved\noptional publication fields, documented version selections, and evidence boundaries.\n"
+  },
+  {
+    "id": "D086",
+    "block": "D086",
+    "class": "A",
+    "recommendation": "保留（保护工作区声明）",
+    "decision": "- 决策对象：删除不存在的fig:arch_tradeoffs引用；新增图1代码/布局帮助。\n- 理由：原图标签不在有效正文，不能复活未定义引用；当前图1生成记录对应代码/布局帮助，必须保持声明与实际素材来源一致。\n- 引用、表格、图注、统计或章节结论影响：不恢复旧不存在图号；保护图1和图2文件；不据此认可其他图片生成政策或完成投稿审查。\n- 依据：[E01](#e01)、[E22](#e22)。\n\n<a id=\"d087\"></a>",
+    "mentor": "reference formatting, and used Nano Banana to generate the initial draft of\nthe explanatory architecture schematic in Fig.~\\ref{fig:arch_tradeoffs}.\n",
+    "pre_restore_plan": "reference formatting, and with plotting code and layout for the data-derived\nreference-corpus diagram (Fig.~\\ref{fig:reference_corpus}), and used Nano Banana to generate the initial draft of\nan explanatory architecture schematic during drafting.\n"
+  },
+  {
+    "id": "D087",
+    "block": "D087",
+    "class": "A",
+    "recommendation": "保留",
+    "decision": "- 决策对象：bibliographystyle/bibliography→printbibliography。\n- 理由：APA7/Biber必要输出配置。\n- 引用、表格、图注、统计或章节结论影响：不恢复cas-model2-names/BibTeX输出。\n- 依据：[E01](#e01)。\n\n## 来源证据索引与可追溯限制\n\n下述主来源链接定位事实；官方网页与同机构PDF不是独立双源。已读原文快照、当前在线核读和仅沿用历史正式证据分开标明。不以来源可访问或字段真实替代正文论断支持。\n\n<a id=\"e01\"></a>\n\n### E01 实际Git、有效正文与统计\n\n本次git show f84c78b:manuscript.tex、git diff f84c78b HEAD、git diff HEAD及4ff0569/98732a2/1233a8b/6679e5a逐提交差异；只读active_tex.scan_manuscript、balanced_entries与实际bib键过滤CSV。统计不是旧台账哈希代替计算。格式类根据真实TeX环境和用户明确保留当前工作流的指令分类，未以本次视觉编译声称排版全面合格。参考：[eswa-apa-config.tex](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/eswa-apa-config.tex>)、[eswa-apa-sourcemap.tex](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/eswa-apa-sourcemap.tex>)、[search_log.csv](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/search_log.csv>)、[literature_audit.csv](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/literature_audit.csv>)。旧reference_audit_report.md中的BibTeX命令是迁移前记录，不应拿来指导阶段二。\n\n<a id=\"e02\"></a>\n\n### E02 Triad核心14→13的充分证据\n\n[Triad正式全文](https://aclanthology.org/2024.emnlp-main.101.pdf)与[官方条目](https://aclanthology.org/2024.emnlp-main.101/)，§1及§3，印刷1699–1702页；本次读仓库全文文本快照第2–3页并在线核对官方摘要。作者将系统定义为一个LLM-based agent承担generalist/decision-maker/advisor三角色，任务为KBQA。对照导师原第3条至少两个智能体，移出I有直接依据；不是因名称Triad推断三个独立代理。原14与现13池内键集合比较仅相差hu2024triad。\n\n<a id=\"e03\"></a>\n\n### E03 13项核心与多任务边界\n\n本次读取[audit_work/core_eligibility_audit.md](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/audit_work/core_eligibility_audit.md>)及JSON，并核读本地正式原文文本快照：Du、Qian、Liang、Xiong、LONGAGENT、MDAgents、MedAgents、LegalGraphRAG、ReConcile、Chain-of-Agents、CoCoA；LLM-MedQA和Financial以公开v1方法补核。核心名单为du2024multiagent_debate、qian2024scaling_multiagent、liang2024divergent_debate、xiong2023inter_consistency、zhao2024longagent、kim2024mdagents、tang2024medagents、tang2025llmmedqa、legalgraphrag2026、fatemi2024financialqa、chen2024reconcile、zhang2024chain_agents、jiang2026cocoa。Qian正式§3/Table1有MMLU与其他三轨道；Liang§2–3同时算术与翻译；CoA§3/Algorithm1和§4/Table1为worker→manager且评估QA及其他任务。来源证明这些任务存在，不替作者决定纳入标准的解释。[Qian正式论文](https://proceedings.iclr.cc/paper_files/paper/2025/file/66a026c0d17040889b50f0dfa650e5e0-Paper-Conference.pdf)、[Liang正式论文](https://aclanthology.org/2024.emnlp-main.992.pdf)、[CoA正式论文](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf)。\n\n<a id=\"e04\"></a>\n\n### E04 能力、修辞与新增评估限制\n\n本次核读[GPT-3官方摘要](https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html)和[GPT-4选定v6记录](https://arxiv.org/abs/2303.08774v6)。二者支持广泛语言/QA能力及局限，但不证明不能覆盖所有领域。D004/D057的修辞恢复是本次保守编辑判断，不是假称来源客观量化了extraordinary或新时代。原文已存在不少may/can与任务评估限制，应区分修辞、设计目标和新定量研究断言。\n\n<a id=\"e05\"></a>\n\n### E05 综述前作范围与缺口不能由台账代裁\n\n[Tran全文](https://arxiv.org/html/2501.06322v1)，本次核读§4.3–4.5与§5.2：通信、集中/分散/层级组织、静态/动态编排及QA/NLG均有涉及。Guo官方IJCAI摘要和现有登记也涵盖profiling/communication/skill与benchmark；这能约束前作范围概括，不能直接证明导师所称QA治理和架构选择多维整合缺口已经不存在。[Guo官方论文](https://www.ijcai.org/proceedings/2024/0890.pdf)。\n\n<a id=\"e06\"></a>\n\n### E06 模型里程碑与开放范围\n\n[Transformer官方记录](https://papers.nips.cc/paper/7181-attention-is-all-you-need)、[BERT官方摘要](https://aclanthology.org/N19-1423/)、[LLaMA初代记录](https://arxiv.org/abs/2302.13971)、[ChatGLM报告](https://arxiv.org/abs/2406.12793)。本次核对BERT双向预训练/微调、LLaMA向研究社区释放权重以及ChatGLM家族范围；Transformer既有self-attention不是本文最早发明的概念，attention-only序列架构才是这里的关键创新。需要保持修正范围最小，不将开放权重与全部无限制开源混同。\n\n<a id=\"e07\"></a>\n\n### E07 Park的真正证据对象\n\n本次核读[Generative Agents官方摘要](https://arxiv.org/abs/2304.03442)：25个社交模拟代理及记忆、反思、规划。该来源直接支持社会行为模拟，不直接验证QA专业任务调度；原版任务分解思想可作为本文分析或邻近已有MetaGPT来源所证，不必改掉整段论证。\n\n<a id=\"e08\"></a>\n\n### E08 Du提供任务内self-reflection对照\n\n本次核读[audit_work/stage2_sources/du2024multiagent_debate__formal_pmlr_pdf_text.json](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/audit_work/stage2_sources/du2024multiagent_debate__formal_pmlr_pdf_text.json>)第4–6物理页，Table1–2含Single Agent (Reflection)与Multiagent (Debate)任务内结果；§2.1–2.2为对等模型交换、相同更新过程，末轮不一致采用多数票。[正式ICML条目](https://proceedings.mlr.press/v235/du24e.html)、[正式PDF](https://raw.githubusercontent.com/mlresearch/v235/main/assets/du24e/du24e.pdf)。这支持导师can/may的可能性表述；不支持把所有模型任务都说成普遍优于自我修正。Du的架构标签仍是本文作者编码。\n\n<a id=\"e09\"></a>\n\n### E09 Xiong一致性与能力不平衡\n\n本次读[audit_work/stage2_sources/xiong2023inter_consistency__pdf_text.json](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/audit_work/stage2_sources/xiong2023inter_consistency__pdf_text.json>)第2–3页；[正式全文](https://aclanthology.org/2023.findings-emnlp.508.pdf)§2.1、§3/FORD和主要发现描述能力匹配与失衡、强弱模型让步/主导、judge流程。应修具体来源概括，避免把其他debate机制混用。\n\n<a id=\"e10\"></a>\n\n### E10 CoCoA-zero与单模型蒸馏\n\n本次读[audit_work/stage2_sources/jiang2026cocoa__pdf_text.json](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/audit_work/stage2_sources/jiang2026cocoa__pdf_text.json>)第3–4页；[正式全文](https://aclanthology.org/2026.acl-long.167.pdf)§3.2/Algorithm1与§3.3。两类knowledge-induction agents加decision agent组成CoCoA-zero；后续监督/蒸馏使CoCoA成为单模型。13项核心中的多代理证据须指向前者。\n\n<a id=\"e11\"></a>\n\n### E11 GPTSwarm图优化不等于全自动架构选择\n\n[GPTSwarm官方摘要](https://proceedings.mlr.press/v235/zhuge24a.html)与本次补读的[公开v1方法全文](https://arxiv.org/html/2402.16823v1)，§2.2–2.4/Algorithms1–3：DAG执行、连边选择优化、节点prompt优化与每节点input/output历史集；§3评估包含MMLU。原表Computational graph connections、Automatic graph-structure search与Intra-node state是较粗但可成立的概括，因此D075c列B，建议局部恢复。Hybrid标签仍由Q4裁定；Parallel inference optimization不是这里的已报应用定位，D075b仅保留该用途纠正。正式PDF直接读取本次失败，未声称v1与正式版每个细节已重新核对；现证据足以反对把所有旧技术词机械认定为错误。\n\n<a id=\"e12\"></a>\n\n### E12 LangGraph旧breakpoints与新interrupt均真实\n\n本次核读[2024-12-14官方文章](https://www.langchain.com/blog/making-it-easier-to-build-human-in-the-loop-agents-with-interrupt)，How we built…和interrupt段：checkpoint、暂停/编辑/恢复，明确此前已有breakpoints和NodeInterrupt；Common workflows还支持状态编辑与tool-call review。因此D027/D039引用修复保留，但原breakpoint词并非错误。HITL功能本身不实测QA安全收益，也不必然是hybrid架构。\n\n<a id=\"e13\"></a>\n\n### E13 MDAgentsmoderator与团队路线\n\n本次读[audit_work/stage2_sources/kim2024mdagents__pdf_text.json](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/audit_work/stage2_sources/kim2024mdagents__pdf_text.json>)物理4–5页，§3.1–3.4/Algorithm1：moderator评估复杂度并监督决策、recruiter招募、solo/MDT/ICT路径。正式来源：[audit_work/core_eligibility_audit.md](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/audit_work/core_eligibility_audit.md>)中NeurIPS2024官方PDF定位；[官方论文页](https://proceedings.neurips.cc/paper_files/paper/2024/hash/90d1fc07f46e31387978b88e7e057a31-Abstract-Conference.html)。固定moderator事实获支持，是否整体hybrid需明确分类粒度。\n\n<a id=\"e14\"></a>\n\n### E14 十案例事实、评分与版本边界\n\n本次对照[audit_work/case_classification_audit.json](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/audit_work/case_classification_audit.json>)、两版表格实际行/符号，按旧三档和新二档分别复算；两版建议标签均未改。MedAgents本次读[正式§2/Algorithm1](https://aclanthology.org/2024.findings-acl.33.pdf)，LegalGraphRAG读仓库正式文本§4.3；LLM-MedQA核读[v1 §III-E/F](https://arxiv.org/html/2501.05464v1)，EduPlanner核读[v1 §III-C–E/Algorithms1–3](https://arxiv.org/html/2504.05370v1)，Financial核读[v1 §3.1及§6](https://arxiv.org/html/2410.21741v1)。各自固定阶段、投票/反馈与最终决定是事实；F/H/Hybrid及匹配是本文解释。Financial§6明确把反复multi-turn作为未来工作。LLM-MedQA、EduPlanner、Financial正式用户PDF本轮不可访问；保留旧正式页码定位，不能冒充本次再次核读。LONGAGENT leader、ChatDev有序ChatChain与AgentCoder脚本executor的本地全文快照亦核读。\n\n<a id=\"e15\"></a>\n\n### E15 框架角色、记忆与控制来源\n\n本次核读[CAMEL v2 §3](https://arxiv.org/html/2303.17760v2)的instruction-solution角色对，[MetaGPT v7 §3.1–3.2/Fig2](https://arxiv.org/html/2308.00352v7)共享message pool与订阅，[AgentVerse正式§2.1/§2.4](https://proceedings.iclr.cc/paper_files/paper/2024/file/578e65cdee35d00c708d4c64bce32971-Paper-Conference.pdf)按目标招募和反馈，[AutoGen v2 §2.2/§3 A5](https://arxiv.org/html/2308.08155v2)可编程会话及GroupChatManager选speaker/广播。ChatDev正式§3.1物理4页的本地快照说明阶段内对话与跨阶段solutions；[AgentCoder v1 §3.3–3.4](https://arxiv.org/pdf/2312.13010v1)本地快照说明executor为脚本。框架一般能力不等于每个应用固定架构；CAMEL context tree与AgentVerse blackboard在本次所读方法中没有得到对应具体结构的支持，负证据不等于证明任何实现绝不可能使用它们。\n\n<a id=\"e16\"></a>\n\n### E16 MCP与A2A公告范围\n\n本次读[Anthropic 2024-11-25公告](https://www.anthropic.com/news/model-context-protocol)的工具/数据接口说明及[Google 2025-04-09 A2A公告](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)的跨框架、发现、任务委托、消息/状态沟通。它们不把所有参与agent规定为平等最终决策者。Linux Foundation后续采用历史和USB-C外号不由这两个所选公告直接证明，不能为恢复原段而补造新证据。原互操作障碍叙述可恢复。\n\n<a id=\"e17\"></a>\n\n### E17 Plan-and-Solve的实测对象\n\n本次核读[正式全文](https://aclanthology.org/2023.acl-long.147.pdf)§4.5/Table6，印刷2615页，错误分类包括calculation/missing/semantic；评估中的missing-step错误改善有直接依据，通用分解可靠性结论更强。最小修效果范围，无需扩充算法观点。\n\n<a id=\"e18\"></a>\n\n### E18 记忆、RAG检索与版本边界\n\n本次读MemGPT与Self-RAG本地正式全文文本，FLARE[正式摘要及§3.2](https://aclanthology.org/2023.emnlp-main.495.pdf)：预测将生成句，低置信触发检索再生成。[Self-RAG正式全文](https://proceedings.iclr.cc/paper_files/paper/2024/file/25f7be9694d7b32d5cc670927b8091e1-Paper-Conference.pdf)§3/Algorithm1为reflection-token控制；不是默认几个专门agent。记忆综述正式PDF本轮不可读，仅旧定位及登记摘要，不用于重新声称读过§5.2.1；通用外存而非唯一向量库可由MemGPT不同搜索存储实现补强。RAGFlow选定版本的仓库readme与发布快照在[audit_work/stage2_sources/ragflow_readme.txt](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/audit_work/stage2_sources/ragflow_readme.txt>)、[audit_work/stage2_sources/ragflow_release_html.txt](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/audit_work/stage2_sources/ragflow_release_html.txt>)；不以后期能力解释v0.6.0。共享知识图谱/实时同步的必要性与效果保证在原段没有直接引用支持，未发现可据以恢复的实验数据。\n\n<a id=\"e19\"></a>\n\n### E19 MemGPT函数管理与FIFO\n\n本次直接核读[audit_work/stage2_sources/packer2023memgpt__pdf_text.json](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/audit_work/stage2_sources/packer2023memgpt__pdf_text.json>)物理3–4页；[选定v1](https://arxiv.org/pdf/2310.08560v1)§2.1–2.2明确main/external context、function calls、FIFO与递归总结，并非按attention-weight淘汰。保留此确定机制纠错。\n\n<a id=\"e20\"></a>\n\n### E20 MAST、HotpotQA与评价边界\n\n本次核读[MAST正式摘要](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b1041e52d3be19f0a9bc491657488e4a-Abstract-Datasets_and_Benchmarks_Track.html)与[HotpotQA官方条目](https://aclanthology.org/D18-1259/)。MAST给出系统设计、代理对齐、任务验证失败类别，不实测本文通用收益抵消成本门槛；HotpotQA含supporting-fact监督与评估，不只最终答对。前者不证明全行业process指标均未标准化，后者也不等于完整协作贡献因果追踪。\n\n<a id=\"e21\"></a>\n\n### E21 CoT、Self-Consistency、ToT/GoT、CoVe\n\nSelf-Consistency本次核读[官方ICLR摘要](https://iclr.cc/virtual/2023/poster/11718)为单模型多路径解码；ToT核读[正式§3](https://proceedings.neurips.cc/paper_files/paper/2023/file/271db9922b8d1f4dd7aaef84ed5ac703-Paper-Conference.pdf)thought states/BFS/DFS；CoVe核读[正式§3](https://aclanthology.org/2024.findings-acl.212.pdf)四步、独立回答验证问题，原实现各步使用LLM，并不验证多critic安全审核。GoT thought图结构以及CoT arithmetic/commonsense/symbolic效果已有主来源台账定位，保留其机制与数值，不把thought当agent。D057恢复的是导师定性效果表达，D060只把必要条件must收窄，不扩充新保证。\n\n<a id=\"e22\"></a>\n\n### E22 图1当前未提交素材与AI声明\n\n本次读[figure1_audit/README.md](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/figure1_audit/README.md>)、[figure1_audit/acceptance.json](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/figure1_audit/acceptance.json>)及当前图1生成脚本的Git改动范围。当前图只表示85/78/7及13/15/42/8引用来源角色，历史筛选支路已删除；声明图1代码/布局帮助对应当前工作记录。图2可编辑输出及其他图片只保护，不用这些记录声称本次新做全文PDF视觉验收。\n\n## 完整C类项目索引\n\n| 项目 | 待定内容 | 对应决定 |\n|---|---|---|\n| [D007](#d007) | QA系统性综述缺口段落被改为 builds on… | 等待确认 Q1 |\n| [D009b](#d009) | 由作者执行过程改为 historical audit log records | 等待确认 Q3 |\n| [D010a](#d010) | 删除查询组合、数据库与实际检索动作陈述 | 等待确认 Q3 |\n| [D012](#d012) | 第4条纳入标准的解释范围 | 等待确认 Q2 |\n| [D013b](#d013) | QA need not be their sole task 的纳入解释 | 等待确认 Q2 |\n| [D022](#d022) | 新增 role pair has asymmetric instructions…not establish flat | 等待确认 Q4 |\n| [D024b](#d024) | 新增 graph/edge/routing 不足证明hybrid的整句 | 等待确认 Q4 |\n| [D026b](#d026) | persistent moderator…insufficient to prove hybrid authority | 等待确认 Q4 |\n| [D028](#d028) | heterogeneous/combine deliberation/review→peer与central authority转换 | 等待确认 Q4 |\n| [D029](#d029) | 三类与子范式→控制模式与机制混列表 | 等待确认 Q4 |\n| [D030](#d030) | architecture classes→control patterns and related mechanisms | 等待确认 Q4 |\n| [D031](#d031) | Flat分组三行→仅Du一行 | 等待确认 Q4 |\n| [D032b](#d032) | CAMEL行标签Role-paired | 等待确认 Q4 |\n| [D033](#d033) | Flat分组→Configurable | 等待确认 Q4 |\n| [D036](#d036) | 图/自适应/HITL从Hybrid分组撤出 | 等待确认 Q4 |\n| [D041](#d041) | changing requirements/conditional review→actual authority change | 等待确认 Q4 |\n| [D042](#d042) | verified purposive comparison→冻结建议标签并按一规则重编码 | 等待确认 Q5 |\n| [D043](#d043) | 匹配数、粒度、多标签建议结论 | 等待确认 Q5 |\n| [D045a](#d045) | MedAgents source Hybrid→Hierarchical、△→× | 等待确认 Q5 |\n| [D045b](#d045) | LLM-MedQA source Hybrid→Hierarchical、△→× | 等待确认 Q5 |\n| [D045c](#d045) | LegalGraphRAG source Hybrid→Hierarchical、✓→× | 等待确认 Q5 |\n| [D046b](#d046) | Flat/Flat 的△→✓ | 等待确认 Q5 |\n| [D047b](#d047) | Hierarchical/Hybrid ×→Hierarchical/Hierarchical ✓ | 等待确认 Q5 |\n| [D048a](#d048) | 三档→二档；冻结建议标签等方法说明 | 等待确认 Q5 |\n| [D049a](#d049) | parallel specialist + approval Hybrid→Hierarchical／actual authoritychange | 等待确认 Q4 |\n| [D068](#d068) | Flat→Role-paired workflow | 等待确认 Q4 |\n| [D072](#d072) | Hybrid→Adaptive role pipeline | 等待确认 Q4 |\n| [D074b](#d074) | Hybrid→Configurable state graph | 等待确认 Q4 |\n| [D075a](#d075) | Hybrid→Optimizable agent graph | 等待确认 Q4 |\n| [D084b](#d084) | 新增no source-coded hybrid example | 等待确认 Q5 |\n\n## 经确认后阶段二的限定执行与验收门槛\n\n本报告不是修改授权，也不是已执行before/after记录。作者可以按B项ID批准/排除，并分别给出Q1–Q5方案。未获明确确认前不建立恢复分支，不触碰正文。\n\n确认后仅在独立工作分支对批准项最小化编辑manuscript.tex；保持用户现有未提交图表/脚本修改。不把当前整个工作区提交到该分支，不对图片或归档章节执行覆盖。若批准方案需要补读来源或重新判定方法，先完成对应证据再形成局部补丁，不预填新统计。\n\n验收应覆盖：\n\n1. 逐项before/after对应本报告ID；未批准段落逐字保护，禁止附带润色。\n2. 全部有效引用键、交叉引用及隐藏块保护。唯一引用78、池85、核心13、池角色13/17/46/9和引用角色13/15/42/8不得被意外改动；引用命令/出现次数允许的任何变化须逐项解释，不静默继承136/180验收。\n3. 十案例标签、匹配符号、总数、表注、局限和相关选择建议按Q4/Q5所选方案一致；不把源编码当作者自报类别。\n4. 保留APA7配置、sourcemap及Biber，完整pdfLaTeX→Biber→pdfLaTeX→pdfLaTeX；不采用旧reference_audit_report.md里的BibTeX流程。\n5. 当前输入绑定的PDF与日志，再检查双栏、图表宽度/分页、引图图注、引用、参考文献样式。图1最新独立图验收不能代替全文验收；图1/图2文件不覆盖。\n6. 不自动提交、推送、合并；结果交作者确认。\n\n## 阶段一最终范围声明\n\n本次完成后的只读验收：323个原有跟踪文件的逐文件SHA-256集合与审查保护快照一致；集合摘要为6edcb581d656e9b54712bc85df4f7d3b69eb607443d7f3a86ecd7483da5a4d6c。manuscript.tex原始字节哈希仍为3acc39b05e660d1517dada3b59c316b2a1b84a38beffea1b132a9a81bfb02115。\n\n报告87块的174段原文/现文摘录与真实源文件逐字匹配；决策标记及两个优先索引复算为A64/B25/C30，合计119项。当前有效源码扫描未发现缺失引用键或未定义的ref/eqref/autoref标签；85/78、136命令、180次键出现保持。上述是源码与保护检查，不是新编译PDF验收。\n\n审查实际覆盖所有D001–D087有效源差异及混合块的119个决策项；B25/A64/C30，C归并五组选择。没有恢复旧英文，没有变更任何研究结果、角色、引用、编译配置、图像或归档章节。\n\n已核实事实和必要引用纠正得到保护；新增作者解释、架构宏观类别、历史方法是否实施和匹配评价规则分别标明。**阶段一到此停止，等待明确确认。**",
+    "mentor": "\\bibliographystyle{cas-model2-names}\n\\bibliography{references}\n",
+    "pre_restore_plan": "\\printbibliography\n"
+  }
+]

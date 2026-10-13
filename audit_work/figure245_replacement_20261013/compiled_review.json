@@ -1,0 +1,28 @@
+{
+  "pages": 23,
+  "figure_pages": {
+    "2": 3,
+    "4": 9,
+    "5": 13
+  },
+  "pdf_sha256": "d66455301e6db47badd9ca1c237570a5e2a51d12916be1887e9f780e452262c4",
+  "source_files_hash_unchanged": true,
+  "all_three_paths_found_in_fls": true,
+  "undefined_citations_or_refs": false,
+  "existing_overfull_hbox": [
+    "Overfull \\hbox (123.62721pt too wide) detected at line 102",
+    "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2162--2169"
+  ],
+  "matching_generated_artifacts_published": true,
+  "bibliography_entries": 78,
+  "biber_bbl_unchanged": true,
+  "only_three_active_image_paths_changed": true,
+  "source_pdf_files_unchanged": true,
+  "rendered_pages_inspected": [
+    3,
+    9,
+    13
+  ],
+  "no_new_clipping_or_overlap_seen": true,
+  "figure4_previous_semantic_issues_still_pending": true
+}

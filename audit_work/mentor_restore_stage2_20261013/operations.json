@@ -1,0 +1,360 @@
+[
+  {
+    "ids": [
+      "D003b"
+    ],
+    "before": "review of multi-agent collaborative QA using 78 cited sources from an\n85-record bibliography pool, with 13 studies coded as core\nevidence published through July 2026. We first",
+    "after": "review of multi-agent collaborative QA based on 78 cited sources from an\n85-record bibliography pool, including 13 core empirical studies\npublished through July 2026. We first",
+    "line_at_operation": 64
+  },
+  {
+    "ids": [
+      "D004"
+    ],
+    "before": "strong natural-language understanding and generation capabilities relevant\nto QA.",
+    "after": "extraordinary natural-language understanding and generation capabilities,\nushering QA systems into a new, agent-centric era.",
+    "line_at_operation": 135
+  },
+  {
+    "ids": [
+      "D005b"
+    ],
+    "before": "\\emph{Third}, a single model may lack sufficient domain coverage for a query\nthat requires several areas of expertise; combining perspectives is one\npossible response whose benefit requires task-level evaluation.",
+    "after": "\\emph{Third}, a single model may lack sufficient domain coverage for a query\nthat requires several areas of expertise.",
+    "line_at_operation": 143
+  },
+  {
+    "ids": [
+      "D007"
+    ],
+    "before": "Existing surveys cover general LLM-agent construction, communication,\nand orchestration\n\\citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents}.\nThis survey builds on that coverage by connecting collaboration topologies and enabling mechanisms\nto QA-specific task and governance requirements and architecture-selection\ntrade-offs through five related contributions:",
+    "after": "Although several surveys on LLM-based agents exist\n\\citep{guo2024llm_multiagent_survey,tran2025multiagent_survey,wang2024survey_autonomous_agents},\nthey primarily address general agent architectures, communication, orchestration,\nand foundational capabilities, with some coverage of QA. A systematic account\nof collaboration topologies, enabling mechanisms, task and governance\nrequirements, and architecture-selection trade-offs for QA remains limited.\nThis survey addresses that gap through five related contributions:",
+    "line_at_operation": 158
+  },
+  {
+    "ids": [
+      "D010c"
+    ],
+    "before": "The historical working records list ReConcile\n\\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and\nCoCoA \\citep{jiang2026cocoa} as additions. The source audit confirms their\nidentities and publication dates; it does not reconstruct the original update\nqueries, retrieval results, or search dates.\n\nSource-level checks on 8 and 10 October 2026 compared the bibliography with\npublisher records, official proceedings, versioned arXiv papers, and dated or\nversioned project documentation. The current pool contains 85 records, of\nwhich 78 are cited in the active manuscript. The audit separates source\nexistence, field accuracy, version selection, and claim support. Confirmed\ncorrections were applied; unavailable optional fields and source discrepancies\nare recorded without blanket verification claims. One dated official LangGraph\narticle supports the interrupt and checkpoint mechanisms discussed below.",
+    "after": "The historical working records list ReConcile\n\\citep{chen2024reconcile}, Chain-of-Agents \\citep{zhang2024chain_agents}, and\nCoCoA \\citep{jiang2026cocoa} as additions. The source audit confirms their\nidentities and publication dates; it does not reconstruct the original update\nqueries, retrieval results, or search dates.\n\nSource-level checks on 8 and 10 October 2026 confirmed corrections in an\n85-record bibliography pool with 78 actively cited sources; unavailable\noptional fields and source discrepancies remain documented in the audit trail.",
+    "line_at_operation": 217
+  },
+  {
+    "ids": [
+      "D011"
+    ],
+    "before": "The core eligibility screen (role \\textbf{I}) used five criteria:",
+    "after": "Core included studies (role \\textbf{I}) had to satisfy five criteria:",
+    "line_at_operation": 233
+  },
+  {
+    "ids": [
+      "D012"
+    ],
+    "before": "(4) QA, retrieval-augmented answering, conversational QA, or question-driven domain decision support as a substantive primary evaluation track; and",
+    "after": "(4) QA, retrieval-augmented answering, conversational QA, or question-driven domain decision support as the primary evaluated task; and",
+    "line_at_operation": 237
+  },
+  {
+    "ids": [
+      "D012",
+      "D013b"
+    ],
+    "before": "When both a preprint and a peer-reviewed version of a work existed, the peer-reviewed final publication was preferred.",
+    "after": "QA may be a co-primary evaluated task, but incidental QA demonstrations are insufficient. When both a preprint and a peer-reviewed version of a work existed, the peer-reviewed final publication was preferred.",
+    "line_at_operation": 238
+  },
+  {
+    "ids": [
+      "D013b",
+      "D013c"
+    ],
+    "before": "The 13 role-I studies\nwere reassessed against these five criteria and retain their labels.\nQA need not be their sole task, but incidental QA demonstrations are\ninsufficient for inclusion.",
+    "after": "The 13 role-I studies\nprovide the empirical basis for the architecture taxonomy and subsequent\nevidence synthesis; other claims are supported by sources appropriate to their scope.",
+    "line_at_operation": 245
+  },
+  {
+    "ids": [
+      "D013c"
+    ],
+    "before": "Other claims use sources appropriate to their scope.",
+    "after": "",
+    "line_at_operation": 251
+  },
+  {
+    "ids": [
+      "D018b"
+    ],
+    "before": "\\citep{minsky1988society}, multi-agent architectures can combine agents with\nindividual memory, reflection, and planning, as illustrated in social\nsimulations \\citep{park2023generative_agents}. A single ``generalist'' workflow may combine",
+    "after": "\\citep{minsky1988society}, a multi-agent architecture decomposes a complex\ntask and assigns subtasks to agents with distinct responsibilities. Park et al.'s\nsocial simulations illustrate individual memory, reflection, and planning\n\\citep{park2023generative_agents}. A single ``generalist'' workflow may combine",
+    "line_at_operation": 363
+  },
+  {
+    "ids": [
+      "D019"
+    ],
+    "before": "Multi-agent collaboration provides mechanisms for comparing candidate answers\nand review paths. Debate and reconciliation compare answers from different\nreasoners \\citep{du2024multiagent_debate,chen2024reconcile,\nxiong2023inter_consistency}; their benefits depend on the task and the agents\ninvolved. Additional agents do not guarantee correctness or establish universal\nsuperiority over self-refinement: weak aggregation, poor interaction design,\nor correlated errors can preserve an incorrect answer. Coordination quality\ntherefore requires evaluation.",
+    "after": "Multi-agent collaboration can also improve reasoning reliability by creating\nseparate candidate, review, and verification paths. Debate, cross-checking,\nand reconciliation may expose errors that self-refinement within one workflow\noverlooks \\citep{du2024multiagent_debate,chen2024reconcile,\nxiong2023inter_consistency}. However, additional agents do not guarantee\ncorrectness: weak aggregation, poor interaction design, or correlated errors\ncan preserve or amplify an incorrect answer. Coordination quality is thus a\ncentral design variable, not an incidental implementation detail.",
+    "line_at_operation": 388
+  },
+  {
+    "ids": [
+      "D024a",
+      "D024b"
+    ],
+    "before": "Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \\citep{zhuge2024gptswarm} provides an empirical example of optimising prompts and inter-agent graph connections. A graph representation, edge optimisation, or conditional routing alone does not establish hybrid decision authority; the implementation must actually change who controls decisions.",
+    "after": "Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \\citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \\citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections. A graph representation, edge optimisation, or conditional routing alone does not establish hybrid decision authority; the implementation must actually change who controls decisions.",
+    "line_at_operation": 502
+  },
+  {
+    "ids": [
+      "D025"
+    ],
+    "before": "Adaptive systems can adjust team composition or interaction patterns.",
+    "after": "Adaptive systems adjust team composition or control patterns as tasks evolve.",
+    "line_at_operation": 507
+  },
+  {
+    "ids": [
+      "D026c"
+    ],
+    "before": "hybrid authority. State management and performance still require evaluation.",
+    "after": "hybrid authority. Such adaptive mechanisms enhance routing flexibility, yet\nintroduce extra requirements for state management and performance evaluation.",
+    "line_at_operation": 515
+  },
+  {
+    "ids": [
+      "D027b"
+    ],
+    "before": "For example, LangGraph supports checkpointed state and pausing a workflow\nwith an interrupt for human review \\citep{langgraph2024interrupt}, which may\nbe useful for high-risk decisions.",
+    "after": "For example, LangGraph supports pausing a workflow at defined breakpoints for\nhuman review \\citep{langgraph2024interrupt}, which may be useful for high-risk\ndecisions.",
+    "line_at_operation": 521
+  },
+  {
+    "ids": [
+      "D028"
+    ],
+    "before": "Hybrid architectures may be appropriate when heterogeneous task requirements call for transitions between peer deliberation and central decision authority. Their trade-off lies in engineering complexity: dynamic routing, state transitions, and cross-mode information transfer are more difficult to configure, debug, evaluate, and reproduce. A hybrid design is justified when this additional adaptability addresses documented uncertainty or risk, rather than serving as a default replacement for fixed control patterns.",
+    "after": "Hybrid architectures are useful when task requirements are heterogeneous or when the workflow must combine deliberation, controlled execution, and conditional review through changes in decision authority. Their trade-off lies in engineering complexity: dynamic routing, state transitions, and cross-mode information transfer are more difficult to configure, debug, evaluate, and reproduce. A hybrid design is justified when this additional adaptability addresses documented uncertainty or risk, rather than serving as a default replacement for fixed control patterns.",
+    "line_at_operation": 559
+  },
+  {
+    "ids": [
+      "D029"
+    ],
+    "before": "Table~\\ref{tab:9categories} compares representative control patterns and\nrelated mechanisms. Architecture labels, suitable contexts, and limitations\nare the authors' synthesis. Role-paired, configurable, and cross-cutting\nentries describe mechanisms or tool capabilities, not additional architecture\nclasses or evidence that every configuration is hybrid.",
+    "after": "Table~\\ref{tab:9categories} compares flat, hierarchical, and hybrid architectures\nand their related mechanisms. Architecture labels, suitable contexts, and\nlimitations are the authors' synthesis; related mechanisms are shown separately\nand do not define additional architecture classes.",
+    "line_at_operation": 564
+  },
+  {
+    "ids": [
+      "D030",
+      "D031",
+      "D032b",
+      "D033",
+      "D036",
+      "D039b"
+    ],
+    "before": "\\begin{table*}[pos=t]\n  \\centering\n  \\caption{Representative control patterns and related mechanisms for multi-agent collaborative QA.}\n  \\label{tab:9categories}\n  \\scriptsize\n  \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm}  p{3.2cm} p{2.3cm} p{2.2cm}}\n    \\toprule\n    \\textbf{Architecture} & \\textbf{Sub-paradigm} &\n    \\textbf{Representative systems} &\n    \\textbf{Coordination and control} &\n    \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\\n    \\midrule\n    \\textbf{Flat} &\n    Multi-agent debate & \\citet{du2024multiagent_debate} & \n    Peer critique and aggregation can add independent answer paths &\n    Tasks needing competing factual or reasoning views &\n    Coordination cost and aggregation sensitivity \\\\\n    \\textbf{Role-paired} & Role-conditioned collaboration & CAMEL \\citep{li2023camel} & \n    Personas structure interaction but do not by themselves establish QA gains &\n    Exploratory collaboration and prompt-role studies &\n    Fixed roles or correlated perspectives \\\\\n    \\textbf{Configurable} & Group-chat collaboration & AutoGen \\citep{wu2024autogen}  &\n    Developer-defined speaker selection and dialogue patterns &\n    Applications requiring configurable conversations &\n    Topology and QA performance depend on configuration \\\\\n    \\midrule\n    \\multirow{2}{*}{\\textbf{Hierarchical}} &\n    Manager--executor pattern & MetaGPT \\citep{hong2024metagpt}  &\n    Manager assigns staged work to specialised executors &\n    Structured engineering workflows &\n    Planner bottleneck and error propagation \\\\\n    & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero\n    \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa}  &\n    Explicit sequencing and final synthesis over distributed evidence &\n    Long-document or knowledge-intensive QA &\n    Information loss and coordination cost at synthesis \\\\\n   \n    \\midrule\n    \\multirow{3}{*}{\\shortstack{\\textbf{Cross-}\\\\\\textbf{cutting}}} &\n    Graph-structured agent networks & GPTSwarm; LangGraph\n    \\citep{zhuge2024gptswarm,langgraph2024}  &\n    DAG connection optimization in GPTSwarm; loops and conditional routing in LangGraph &\n    Workflows with conditional state transitions &\n    Different evidence roles; difficult debugging and tracing \\\\\n    & Adaptive collaboration-mode switching & MDAgents \\citep{kim2024mdagents}  &\n    Moderator routes solo or team consultation according to complexity &\n    Tasks with heterogeneous requirements &\n    Routing policy must be evaluated, not assumed beneficial \\\\\n    & Human-in-the-loop design pattern & LangGraph interrupts \\citep{langgraph2024interrupt} &\n    Human review at explicitly defined decision points &\n    High-risk workflows requiring accountability &\n    Direct comparative QA evidence remains limited \\\\\n    \\bottomrule\n  \\end{tabular}\n\\end{table*}",
+    "after": "\\begin{table*}[pos=t]\n  \\centering\n  \\caption{Comparison of multi-agent collaborative QA architecture classes and related mechanisms.}\n  \\label{tab:9categories}\n  \\scriptsize\n  \\begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm} p{3.2cm} p{2.3cm} p{2.2cm}}\n    \\toprule\n    \\textbf{Architecture} & \\textbf{Sub-paradigm / mechanism} &\n    \\textbf{Representative systems / evidence} &\n    \\textbf{Coordination and control} &\n    \\textbf{Suitable contexts} & \\textbf{Limitations} \\\\\n    \\midrule\n    \\multicolumn{6}{l}{\\textbf{Architecture classes}} \\\\\n    \\midrule\n    \\textbf{Flat} & Multi-agent debate & \\citet{du2024multiagent_debate} &\n    Peer critique and aggregation; no persistent top-down controller &\n    Tasks needing competing factual or reasoning views &\n    Coordination cost and aggregation sensitivity \\\\\n    \\textbf{Hierarchical} & Manager--executor; staged evidence-processing pipeline &\n    MetaGPT; LONGAGENT; Chain-of-Agents; CoCoA-zero\n    \\citep{hong2024metagpt,zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} &\n    Fixed planning, routing or synthesis authority; explicit sequencing over distributed evidence &\n    Structured engineering workflows; long-document or knowledge-intensive QA &\n    Planner bottleneck, error propagation and information loss at synthesis \\\\\n    \\textbf{Hybrid} & Changes in decision authority across stages or decision states &\n    Conditional design pattern; no hybrid case under the present ten-case source coding &\n    A documented change between peer control and asymmetric decision authority &\n    Heterogeneous requirements that call for changing control configurations &\n    Routing, state-transition and cross-mode coordination costs require evaluation \\\\\n    \\midrule\n    \\multicolumn{6}{l}{\\textbf{Related mechanisms and implementation resources}} \\\\\n    \\midrule\n    --- & Role-conditioned collaboration & CAMEL \\citep{li2023camel} &\n    Personas structure interaction; AI User and AI Assistant have asymmetric instructions &\n    Exploratory collaboration and prompt-role studies &\n    Role playing alone does not establish flat control or QA gains \\\\\n    --- & Group-chat collaboration & AutoGen \\citep{wu2024autogen} &\n    Developer-defined conversations and speaker selection &\n    Applications requiring configurable conversations &\n    Architecture depends on the specific configuration \\\\\n    --- & Graph-structured agent networks & GPTSwarm; LangGraph\n    \\citep{zhuge2024gptswarm,langgraph2024} &\n    GPTSwarm DAG connection optimisation; LangGraph loops and conditional routing &\n    Workflows with conditional state transitions &\n    Graph structure or edge optimisation alone does not establish hybrid authority \\\\\n    --- & Adaptive collaboration-mode switching & MDAgents \\citep{kim2024mdagents} &\n    Moderator routes solo, multidisciplinary-team or integrated-care-team consultation by complexity &\n    Tasks with heterogeneous requirements &\n    Changing team composition alone does not establish a change in decision authority \\\\\n    --- & Human-in-the-loop design pattern & LangGraph breakpoints \\citep{langgraph2024interrupt} &\n    Human review at defined decision points &\n    High-risk workflows requiring accountability &\n    A fixed approver remains hierarchical; comparative QA safety evidence is limited \\\\\n    \\bottomrule\n  \\end{tabular}\n  \\par\\smallskip\\footnotesize\n  \\textit{Note}: Architecture classes refer to decision authority in a specified\n  implementation. The related mechanisms do not by themselves establish a flat\n  or hybrid architecture. A hybrid label requires a change in decision authority.\n\\end{table*}",
+    "line_at_operation": 569
+  },
+  {
+    "ids": [
+      "D040b"
+    ],
+    "before": "communication, aggregation, state-management, and inference costs. Reported\nmulti-agent failure modes \\citep{han2024mast} motivate checking whether\nadditional coordination provides useful benefits. As a design criterion,\nthis review requires expected gains in coverage, reliability, or adaptability\nto justify the resource burden. Assessment should include latency, token use,\ntool calls, monitoring, and recovery overhead.",
+    "after": "communication, aggregation, state-management, and inference costs. A\ncollaborative design is justified only when expected gains in coverage,\nreliability, or adaptability offset those costs, as a criterion of this review.\nReported multi-agent failure modes motivate this assessment \\citep{han2024mast}.\nAssessment should include latency, token use, tool calls, monitoring, and recovery overhead.",
+    "line_at_operation": 671
+  },
+  {
+    "ids": [
+      "D042",
+      "D043"
+    ],
+    "before": "The approach is examined for interpretive consistency using ten published\nsystems. This purposive sample contains both core QA studies and supporting\nworkflow examples; it does not evaluate performance, establish causal benefit,\nor provide independent validation. The existing proposed labels are retained\nfor comparison, while reported workflows are re-coded using one rule:\nflat control has no persistent top-down controller; hierarchical control has\nstable routing, approval, or final-decision authority; hybrid control requires\na demonstrated change in that authority. Iteration, voting, multiple roles,\nand graph structure alone are insufficient.\n\nExact category agreement occurs in six cases, with four disagreements.\nMedAgents, LLM-MedQA, LegalGraphRAG, and EduPlanner have fixed asymmetric\nstages or final-decision roles, while their retained proposed labels differ.\nDu et al.'s peer debate remains flat despite repeated rounds, and Financial\nReflection QA remains hierarchical despite critic feedback. Nine reported\nworkflows are coded hierarchical and one flat; this sample therefore does not\nvalidate the hybrid category. The comparison is retrospective and was not\nblind or preregistered. The six agreements are descriptive, not prediction\naccuracy or evidence of an effective architecture-selection policy.",
+    "after": "The approach is examined for interpretive consistency using ten published\nsystems. This purposive sample contains both core QA studies and supporting\nworkflow examples; it does not evaluate performance, establish causal benefit,\nor provide independent validation. The proposed labels and criterion profiles\nare retained, while reported workflows are coded by decision authority.\nFlat control has no persistent top-down controller; hierarchical control has\nstable routing, approval, or final-decision authority; hybrid control requires\na demonstrated change in that authority. Iteration, voting, multiple roles,\nand graph structure alone are insufficient.\n\nThree mutually exclusive ratings are applied in order. A case is broadly\naligned when the proposed and source-coded overall categories agree and the\nreported workflow does not contradict their defining control features.\nWhen the categories differ, partial alignment requires a substantive local\nmechanism compatible with the proposed category and an explicit overall\ncontrol conflict; otherwise the case is divergent. For a flat recommendation,\npartial alignment requires all three conditions: (F1) at least two expert\nroles contribute their own analyses; (F2) they review the same report under\nthe same acceptance or rejection rule, without an exclusive expert reviewer;\nand (F3) objections feed report revision and renewed review. An iteration\nlimit is permitted, so unanimity is not guaranteed. For a hierarchical\nrecommendation, local compatibility requires fixed delegation, routing,\napproval, or synthesis authority in a substantive sub-process. For a hybrid\nrecommendation, it requires an actual change in decision-authority\nconfiguration within a reported sub-process. Insufficient method evidence\nwould leave a case unscored and require reporting the scored denominator.\n\nSix cases are broadly aligned, two are partially aligned, and two are\ndivergent under the coding used here. MedAgents and LLM-MedQA retain\nhierarchical overall control while supporting equal-participation expert\nreview locally. These local mechanisms explain partial alignment with a\nflat recommendation; they do not establish a flat or hybrid overall\narchitecture. LegalGraphRAG and EduPlanner remain divergent. Du et al.'s\npeer debate remains flat despite repeated rounds, and Financial Reflection\nQA remains hierarchical despite critic feedback. Nine reported workflows\nare coded hierarchical and one flat; this sample therefore does not validate\nthe hybrid category. All ten cases have sufficient method evidence for this\nlimited comparison. The comparison is retrospective and was not blind or\npreregistered; these ratings are descriptive, not prediction accuracy or\nevidence of an effective architecture-selection policy.",
+    "line_at_operation": 729
+  },
+  {
+    "ids": [
+      "D045a"
+    ],
+    "before": "Flat versus hierarchical staged synthesis & $\\times$",
+    "after": "Flat versus hierarchical staged synthesis & $\\triangle$",
+    "line_at_operation": 780
+  },
+  {
+    "ids": [
+      "D045b"
+    ],
+    "before": "Flat versus hierarchical voting pipeline & $\\times$",
+    "after": "Flat versus hierarchical voting pipeline & $\\triangle$",
+    "line_at_operation": 781
+  },
+  {
+    "ids": [
+      "D048a"
+    ],
+    "before": "\\textit{Note}: $\\checkmark$ = exact category agreement; $\\times$ = different\n  categories. Proposed labels are retained from the preceding draft;\n  source-based labels are the authors' retrospective control-flow coding.\n  Neither label nor agreement establishes selection accuracy or safety.",
+    "after": "\\textit{Note}: $\\checkmark$ = broadly aligned; $\\triangle$ = partially aligned;\n  $\\times$ = divergent, under the ordered rules in the text. Proposed labels\n  are retained from the preceding draft; source-based labels and ratings are\n  the authors' retrospective coding. Partial alignment denotes local\n  organisational compatibility despite an overall control conflict.\n  MedAgents was checked against its ACL 2024 method and Algorithm~1;\n  LLM-MedQA against the v1 preprint, Sections~III-A--F and Algorithm~1,\n  without a new check of the final conference PDF. Neither labels nor ratings\n  establish prediction accuracy, selection effectiveness, or safety.",
+    "line_at_operation": 793
+  },
+  {
+    "ids": [
+      "D049a",
+      "D049b"
+    ],
+    "before": "cross-domain consultation, parallel specialist analysis may improve coverage,\nwhile a fixed review and final-decision boundary produces a hierarchical\nworkflow. A hybrid candidate requires an actual conditional change in decision\nauthority, rather than the mere addition of human approval. Standardised,\nevidence-grounded QA can use a hierarchical retrieval-and-synthesis baseline\nwith source and citation checks. Open-ended tasks may use bounded peer\ncritique, while consequential decisions call for explicit accountability.\nThese are design hypotheses, not evaluated prescriptions for a universally",
+    "after": "high-risk, cross-domain consultation, parallel specialist analysis may improve\ncoverage, but final decisions require an explicit review boundary. A fixed\nreview or human-approval boundary remains hierarchical; hybrid control is a\nplausible candidate only when decision authority changes. Standardised,\nevidence-grounded QA generally supports a hierarchical RAG baseline with\nsource and citation checks. Open-ended educational or legal tasks may benefit\nfrom bounded peer critique, but legal use additionally requires auditability\nand human accountability. These examples illustrate how task and governance\nrequirements constrain the design space; they do not imply one universally",
+    "line_at_operation": 808
+  },
+  {
+    "ids": [
+      "D050b"
+    ],
+    "before": "Industry initiatives address different parts of the interface problem.",
+    "after": "With the rapid development of multi-agent ecosystems, interoperability barriers have arisen between agents developed by different vendors.\nTo address this issue, the industry has initiated efforts to standardize communication protocols. For example, ",
+    "line_at_operation": 879
+  },
+  {
+    "ids": [
+      "D052b"
+    ],
+    "before": "After decomposition, the system must assign sub-tasks to suitable agents.",
+    "after": "After decomposition, the system must assign sub-tasks to the most suitable\nagents.",
+    "line_at_operation": 946
+  },
+  {
+    "ids": [
+      "D053b"
+    ],
+    "before": "In complex collaboration, designers may provide a shared evidence repository\nwhen agents need access to the same verified information. A graph, vector\nstore, document store, or their combination is an implementation choice,\nrather than a requirement that every system use a global knowledge graph.\nNew agents may reuse relevant context subject to provenance and access\nchecks. Whether this reduces repeated retrieval or inconsistent answers\nrequires measurement; synchronisation is not automatically real time.",
+    "after": "In complex collaboration, knowledge need not be siloed within individual\nagents. The system can provide a shared knowledge graph when collaborative\nnodes need access to critical facts. By constructing a shared graph-vector\ndatabase, newly spawned sub-agents can reuse the team's cumulative knowledge,\npotentially reducing redundant retrieval and cognitive divergence; these\neffects and synchronisation latency require evaluation.",
+    "line_at_operation": 992
+  },
+  {
+    "ids": [
+      "D055b"
+    ],
+    "before": "Long-term memory can retain historical experiences and domain knowledge in\nexternal stores \\citep{zhang2024memory_survey}. Vector retrieval is one way\nto access such information: Retrieval-Augmented Generation (RAG)\n\\citep{lewis2020rag,gao2024rag_survey} augments generation with retrieved\ndocuments. As one illustrative multi-agent implementation, a retrieval agent\ncan select the Top-$k$ relevant documents from knowledge base $\\mathcal{D}$",
+    "after": "Long-term memory can rely on vector databases to store historical\nexperiences and external domain knowledge \\citep{zhang2024memory_survey}.\nA representative access mechanism is Retrieval-Augmented Generation (RAG)\n\\citep{lewis2020rag,gao2024rag_survey}, through which multi-agent QA systems\ncan access long-term memory. In an illustrative implementation, a retrieval\nagent can select the Top-$k$ relevant documents from knowledge base $\\mathcal{D}$",
+    "line_at_operation": 1033
+  },
+  {
+    "ids": [
+      "D057"
+    ],
+    "before": "Chain-of-Thought (CoT) prompting \\citep{wei2022chain_of_thought}\ncan improve performance on evaluated arithmetic, commonsense, and symbolic\nreasoning tasks.",
+    "after": "Chain-of-Thought (CoT) prompting \\citep{wei2022chain_of_thought} has\ngreatly unlocked the reasoning potential of LLMs.",
+    "line_at_operation": 1083
+  },
+  {
+    "ids": [
+      "D060b"
+    ],
+    "before": "Reflection and critique are possible approaches to factual-error reduction;\nthey do not guarantee correctness or replace checking the underlying evidence.",
+    "after": "To suppress hallucination, agents may use iterative self-examination.",
+    "line_at_operation": 1126
+  },
+  {
+    "ids": [
+      "D075c"
+    ],
+    "before": "    GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph &\n      DAG information flow &\n      Prompt and edge optimization &\n      Node input--output histories &\n      MMLU QA; graph optimization \\\\",
+    "after": "    GPTSwarm \\citep{zhuge2024gptswarm} & Optimizable agent graph &\n      Computational graph connections &\n      Automatic graph-structure search &\n      Intra-node state &\n      MMLU QA; graph optimization \\\\",
+    "line_at_operation": 1724
+  },
+  {
+    "ids": [
+      "D068",
+      "D072",
+      "D074b",
+      "D075a"
+    ],
+    "before": "implementation dimensions: control\narchitecture, communication,",
+    "after": "implementation dimensions: control / organisation, communication,",
+    "line_at_operation": 1670
+  },
+  {
+    "ids": [
+      "D068",
+      "D072",
+      "D074b",
+      "D075a"
+    ],
+    "before": "\\textbf{Framework} & \\textbf{Architecture}",
+    "after": "\\textbf{Framework} & \\textbf{Control / organisation}",
+    "line_at_operation": 1689
+  },
+  {
+    "ids": [
+      "D078"
+    ],
+    "before": "Table~\\ref{tab:benchmark_resources} summarizes these resources and their\nprimary evaluation roles.",
+    "after": "",
+    "line_at_operation": 1894
+  },
+  {
+    "ids": [
+      "D080b"
+    ],
+    "before": "resolving dependencies or disagreement. If each of $N$ agents sends one\nmessage to every other agent, there are $N(N-1)$ directed message deliveries\nper round. Actual token and latency costs also depend on message length,\nscheduling, and context handling. Scaling experiments illustrate\ntask-dependent benefits and topology-dependent context costs",
+    "after": "resolving dependencies or disagreement. In a fully connected broadcast\ntopology, potential pairwise messages per round grow quadratically with team\nsize, potentially increasing token and latency costs without guaranteeing information gain",
+    "line_at_operation": 1984
+  },
+  {
+    "ids": [
+      "D084a",
+      "D084b"
+    ],
+    "before": "retrospective diagnostic comparison rather than independent validation; it contains\nno source-coded hybrid example. Broader",
+    "after": "verification exercise rather than independent confirmation of general validity;\nthe three-tier ratings describe organisational compatibility, and this sample\ncontains no source-coded hybrid example. Broader",
+    "line_at_operation": 2193
+  },
+  {
+    "ids": [
+      "D028"
+    ],
+    "before": "Hybrid architectures are useful when task requirements are heterogeneous or when the workflow must combine deliberation, controlled execution, and conditional review through changes in decision authority.",
+    "after": "Hybrid architectures are useful when task requirements are heterogeneous or when the workflow must combine deliberation, controlled execution, and conditional review, provided that decision authority changes across stages or decision states.",
+    "line_at_operation": 559,
+    "reason": "Final approved-boundary review"
+  },
+  {
+    "ids": [
+      "D042"
+    ],
+    "before": "The approach is examined for interpretive consistency using ten published\nsystems. This purposive sample contains both core QA studies and supporting\nworkflow examples; it does not evaluate performance, establish causal benefit,\nor provide independent validation. The proposed labels and criterion profiles\nare retained, while reported workflows are coded by decision authority.",
+    "after": "The approach is verified for interpretive consistency by comparing its\ninferred architectures with ten published systems. This purposive sample was\nselected because the systems report agent roles and control flow with enough\ndetail for coding and cover different domains, process structures, and risk\nlevels. The comparison does not evaluate system performance, establish causal\nbenefit, or claim external validity. It contains both core QA studies and\nsupporting workflow examples and is not independent validation. The proposed\nlabels and criterion profiles are retained, while reported workflows are\ncoded by decision authority.",
+    "line_at_operation": 729,
+    "reason": "Final approved-boundary review"
+  },
+  {
+    "ids": [
+      "D043"
+    ],
+    "before": "architecture. LegalGraphRAG and EduPlanner remain divergent. Du et al.'s\npeer debate remains flat despite repeated rounds, and Financial Reflection\nQA remains hierarchical despite critic feedback. Nine reported workflows",
+    "after": "architecture. LegalGraphRAG and EduPlanner remain divergent. Du et al.'s\npeer debate is flat at the macro level but uses iterative convergence;\nEduPlanner and Financial Reflection QA combine convergent objectives with\nevaluator or critic feedback. These boundary cases show that competing\nrequirements can make a single categorical label insufficient and that a\nmulti-label description of control flow may sometimes be preferable,\nprovided that overall authority and local mechanisms are distinguished.\nFinancial Reflection QA remains hierarchical despite critic feedback.\nNine reported workflows",
+    "line_at_operation": 765,
+    "reason": "Final approved-boundary review"
+  },
+  {
+    "ids": [
+      "D050b"
+    ],
+    "before": "For example, \nAnthropic introduced",
+    "after": "For example, Anthropic introduced",
+    "line_at_operation": 890,
+    "reason": "Final approved-boundary review"
+  },
+  {
+    "ids": [
+      "D048a"
+    ],
+    "before": "  LLM-MedQA against the v1 preprint, Sections~III-A--F and Algorithm~1,\n  without a new check of the final conference PDF.",
+    "after": "  LLM-MedQA against the IJCNN 2025 paper, Sections~III-A--F and Algorithm~1\n  (physical pages 3--6).",
+    "line_at_operation": 809,
+    "reason": "Final IJCNN2025 local source found and independently re-read in current workspace"
+  }
+]

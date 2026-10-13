@@ -1,0 +1,29 @@
+--- before/manuscript.tex
++++ after/manuscript.tex
+@@ -279,7 +279,7 @@
+ 
+ \begin{figure*}[pos=t]
+   \centering
+-  \includegraphics[width=0.82\textwidth]{change_timeline.jpg}
++  \includegraphics[width=0.82\textwidth]{output/figure2_editable/20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410/final/Figure2_Evolution_of_QA_Paradigms.pdf}
+   \caption{Evolution timeline of automatic QA systems.}
+   \label{fig:qa_timeline}
+ \end{figure*}
+@@ -716,7 +716,7 @@
+ 
+ \begin{figure*}[pos=t]
+   \centering
+-  \includegraphics[width=0.80\linewidth]{fig_flow.jpg}
++  \includegraphics[width=0.80\linewidth]{output/figure4_editable/20261013-161131-Figure4_architecture_selection/final/Figure4_architecture_selection_edited.pdf}
+   \caption{Two-phase decision flowchart for multi-agent QA architecture
+            selection across application scenarios.}
+   \label{fig:decision_flow}
+@@ -1630,7 +1630,7 @@
+ 
+ \begin{figure*}[pos=t,width=\textwidth]
+ 	\centering
+-\includegraphics[width=0.94\textwidth]{classify.jpg}
++\includegraphics[width=0.94\textwidth]{output/figure5_editable/20261013-163435-Figure5_resource_map/final/Figure5_resource_map_edited.pdf}
+ \caption{Four resource layers for constructing and evaluating multi-agent collaborative QA systems.}
+ 	\label{fig:platform_resource_map}
+ \end{figure*}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-13",
+  "pipeline": [
+    "pdflatex final_pass1",
+    "Biber 2.22 final_biber",
+    "pdflatex final_pass2",
+    "pdflatex final_pass3"
+  ],
+  "build_directory": "tmp\\mentor_restore_stage2_20261013_build",
+  "pdf_pages": 23,
+  "pdf_sha256": "2efa90d4bd1d6cf626de760ba40542c3aac7ed53855f06ff89a4ef288d2fe0df",
+  "manuscript_sha256": "9e754d9a1ac693b11b554cc5be9acdcf62a69007c4401ee1e21a4edb3198c542",
+  "bibliography_entries": 78,
+  "apa_format_pass": 78,
+  "undefined_citations": 0,
+  "undefined_cross_references": 0,
+  "rerun_requested": false,
+  "float_too_large": false,
+  "legacy_overfull_hbox": [
+    {
+      "pt": 123.62721,
+      "source": "maketitle line102",
+      "present_in_pre_restore_log": true
+    },
+    {
+      "pt": 0.5575,
+      "source": "unchanged long-term team learning paragraph shifted to2162–2169",
+      "present_in_pre_restore_log": true
+    }
+  ],
+  "old_table_overfull_0_76843pt_removed": true,
+  "biber_launch_recovery": "sandbox Windows DLL relocation error; authorised escalation of Biber only; no installation/config change",
+  "visual_review": {
+    "all_23_pages_contact_sheets": true,
+    "detailed_pages": [
+      1,
+      7,
+      10,
+      14,
+      19
+    ],
+    "tables": [
+      2,
+      3,
+      4
+    ],
+    "double_column_body": true,
+    "new_clipping_or_overlap_seen": false,
+    "figure_semantic_acceptance_complete": false
+  },
+  "published_matching_artifacts": [
+    "manuscript.pdf",
+    "manuscript.bbl",
+    "manuscript.aux",
+    "manuscript.bcf",
+    "manuscript.run.xml",
+    "manuscript.out",
+    "manuscript.log",
+    "manuscript.blg",
+    "manuscript.fls"
+  ]
+}

@@ -1,0 +1,14 @@
+# branch.oid 6191a1b7d6e562c4cd65d2c409840dadccae58ba
+# branch.head codex/mentor-conservative-restore-stage2
+1 .M N... 100644 100644 100644 e4d5c6e14e09d6cb0fde2192caf6b127c867bedf e4d5c6e14e09d6cb0fde2192caf6b127c867bedf manuscript.tex
+1 .M N... 100644 100644 100644 6b230b5240e5cbd68f0a845b77a0fc09df472ac3 6b230b5240e5cbd68f0a845b77a0fc09df472ac3 output/figure2_editable/20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410/final/codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410_edited.pptx
+1 .M N... 100644 100644 100644 9a644ce628cce096bd87ae34cc68fe3717f22d31 9a644ce628cce096bd87ae34cc68fe3717f22d31 output/figure4_editable/20261013-161131-Figure4_architecture_selection/final/Figure4_architecture_selection_edited.pptx
+1 .M N... 100644 100644 100644 de69ac73fd7f99f2d73a3c28c7db9fbcd61843f6 de69ac73fd7f99f2d73a3c28c7db9fbcd61843f6 output/figure5_editable/20261013-163435-Figure5_resource_map/final/Figure5_resource_map_edited.pptx
+? MENTOR_BASELINE_RESTORE_STAGE2_REPORT.md
+? audit_work/mentor_restore_stage2_20261013/
+? output/figure2_editable/20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410/final/Figure2_Evolution_of_QA_Paradigms.pdf
+? output/figure2_editable/20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410/final/~$codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410_edited.pptx
+? output/figure4_editable/20261013-161131-Figure4_architecture_selection/final/Figure4_architecture_selection_edited.pdf
+? output/figure4_editable/20261013-161131-Figure4_architecture_selection/final/~$Figure4_architecture_selection_edited.pptx
+? output/figure5_editable/20261013-163435-Figure5_resource_map/final/Figure5_resource_map_edited.pdf
+? output/figure5_editable/20261013-163435-Figure5_resource_map/final/~$Figure5_resource_map_edited.pptx

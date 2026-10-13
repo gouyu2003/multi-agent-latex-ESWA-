@@ -1,0 +1,20 @@
+[
+  {
+    "path": "output/figure2_editable/20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410/final/Figure2_Evolution_of_QA_Paradigms.pdf",
+    "sha256": "a87c2ea2e65d0a154fa5df4c4e7dfe60ce24c97fb7e6242378b4ec88ce4fca9e",
+    "snapshot": "D:\\multi-agent review_joural\\ESWA_Submission_caomodify\\audit_work\\mentor_restore_stage2_20261013\\concurrent_protection\\Figure2_Evolution_of_QA_Paradigms_a87c2ea2e65d.pdf",
+    "note": "开始状态没有此未跟踪PDF；执行期间外部导出，本轮未生成或写入该源路径，保留原文件及检查点副本。"
+  },
+  {
+    "path": "output/figure4_editable/20261013-161131-Figure4_architecture_selection/final/Figure4_architecture_selection_edited.pdf",
+    "sha256": "970909cb7b697f09ec6413a26f27ce2d69004ff7dc86f1c8a57adba35671ad69",
+    "snapshot": "D:\\multi-agent review_joural\\ESWA_Submission_caomodify\\audit_work\\mentor_restore_stage2_20261013\\concurrent_protection\\Figure4_architecture_selection_edited_970909cb7b69.pdf",
+    "note": "开始状态没有此未跟踪PDF；执行期间外部导出，本轮未生成或写入该源路径，保留原文件及检查点副本。"
+  },
+  {
+    "path": "output/figure5_editable/20261013-163435-Figure5_resource_map/final/Figure5_resource_map_edited.pdf",
+    "sha256": "695fd1d38ad3b5e7d173581da43b2c37df22a22834a8b956ee392b458a4a2726",
+    "snapshot": "D:\\multi-agent review_joural\\ESWA_Submission_caomodify\\audit_work\\mentor_restore_stage2_20261013\\concurrent_protection\\Figure5_resource_map_edited_695fd1d38ad3.pdf",
+    "note": "开始状态没有此未跟踪PDF；执行期间外部导出，本轮未生成或写入该源路径，保留原文件及检查点副本。"
+  }
+]
