@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "run_id": "20261013-161131-Figure4_architecture_selection",
+  "page_id": "page_001",
+  "page_index": 1,
+  "page_dir": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001",
+  "source_image": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\source.png",
+  "source_size_px": {
+    "width": 654,
+    "height": 346
+  },
+  "slide": {
+    "width": 6.8125,
+    "height": 3.6041666666666665,
+    "size_mode": "source",
+    "px_per_inch": 96
+  },
+  "content_box": {
+    "left": 0,
+    "top": 0.0,
+    "width": 6.8125,
+    "height": 3.6041666666666665,
+    "fit": "contain"
+  },
+  "max_concurrent_pages": 6,
+  "allowed_write_scope": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001",
+  "forbidden_paths": [
+    "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\deck_manifest.json",
+    "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\page_jobs.json",
+    "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\notes_manifest.json",
+    "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\final",
+    "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\input"
+  ],
+  "required_outputs": {
+    "manifest": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\manifest.json",
+    "imagegen_jobs": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\imagegen-jobs.json",
+    "page_pptx": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\page.pptx",
+    "preview": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\preview.png",
+    "contact_sheet": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\split_assets_contact.png",
+    "validation": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\validation.json",
+    "page_result": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\page_result.json"
+  },
+  "image_backend": {
+    "backend_id": "builtin-imagegen",
+    "tool_name": "image_gen.imagegen",
+    "tool_call": "image_gen.imagegen",
+    "fallback_command": "image2ppt image generate/edit",
+    "runtime_home": "C:\\Users\\ShenTianyu(CN-TV-T1)\\.codex\\skills\\nature-image2ppt",
+    "model": null,
+    "requires_openai_api_key": false,
+    "mode_policy": "generate-or-edit-per-asset",
+    "chroma_key_helper": "image2ppt image process-sheet",
+    "input_context_policy": "generation needs prompt; for editing inspect every local input with view_image first, then pass prompt plus absolute local paths in referenced_image_paths",
+    "save_path_policy": "accept only an explicit output_hint or local path returned by image_gen.imagegen, verify it exists, import the selected output, and never scan for the newest file",
+    "handoff_rule": "call image_gen.imagegen serially, then import the selected local output; use image2ppt image generate/edit only when the built-in tool fallback policy applies",
+    "fallback_order": [
+      "codex-oauth",
+      "openai-compatible-api"
+    ],
+    "fallback_selection_policy": "auto uses codex-oauth only for GPT Image model ids with compatible auth; all other model ids use openai-compatible-api",
+    "required_parameters": {
+      "generate": [
+        "prompt"
+      ],
+      "edit": [
+        "prompt",
+        "referenced_image_paths"
+      ]
+    },
+    "fallback_policy": {
+      "on": [
+        "tool-unavailable",
+        "tool-error",
+        "input-unreadable",
+        "no-valid-local-output"
+      ],
+      "missing_optional_parameters": false
+    }
+  }
+}

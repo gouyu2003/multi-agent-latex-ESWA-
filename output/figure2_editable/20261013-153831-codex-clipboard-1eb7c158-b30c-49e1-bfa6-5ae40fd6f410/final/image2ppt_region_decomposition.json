@@ -1,0 +1,78 @@
+{
+  "schema_version": "image2ppt-region-decomposition-report-v1",
+  "passed": true,
+  "pages": [
+    {
+      "manifest": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\pages\\page_001\\manifest.json",
+      "passed": true,
+      "page_complexity": "structured",
+      "region_count": 5,
+      "regions": [
+        {
+          "id": "stage-1",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 19,
+          "protected_anchor_count": 15,
+          "compound_diagram": true,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "stage-2",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 20,
+          "protected_anchor_count": 16,
+          "compound_diagram": false,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "stage-3",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 29,
+          "protected_anchor_count": 25,
+          "compound_diagram": true,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "stage-4",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 40,
+          "protected_anchor_count": 35,
+          "compound_diagram": false,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "interpretation",
+          "strategy": "native-text-layout",
+          "risk_level": "low",
+          "manifest_object_count": 1,
+          "protected_anchor_count": 0,
+          "compound_diagram": false,
+          "passed": true,
+          "errors": []
+        }
+      ],
+      "summary": {
+        "manifest_objects": 109,
+        "assigned_objects": 109,
+        "protected_anchors": 91,
+        "compound_regions": 2
+      },
+      "warnings": [],
+      "errors": []
+    }
+  ],
+  "summary": {
+    "pages": 1,
+    "regions": 5,
+    "compound_regions": 2
+  },
+  "errors": []
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "run_id": "20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410",
+  "run_status": "complete",
+  "max_concurrent_pages": 6,
+  "created_at": "2026-10-13T07:38:32Z",
+  "updated_at": "2026-10-13T07:47:53Z",
+  "pages": [
+    {
+      "page_id": "page_001",
+      "page_index": 1,
+      "status": "accepted",
+      "page_dir": "pages/page_001",
+      "source": "pages/page_001/source.png",
+      "page_request": "pages/page_001/page_request.json",
+      "manifest": "pages/page_001/manifest.json",
+      "validation": "pages/page_001/validation.json",
+      "dispatch": {
+        "agent_id": "main",
+        "agent_nickname": null,
+        "prompt": "pages/page_001/worker-prompt.md",
+        "prompt_sha256": "03589588108e763065332a7e5d3025d8b02e2c991028ef4e7906c17a5f8aaab3",
+        "page_request_sha256": "f9c4556bfca1d1573e22c287cb2c96b858f79cc91b49c5fc7d6cfae078a148fd",
+        "dispatched_at": "2026-10-13T07:39:53Z",
+        "execution_mode": "local"
+      },
+      "result": {
+        "agent_id": "main",
+        "record_mode": "local-main-agent",
+        "recorded_at": "2026-10-13T07:47:49Z",
+        "outputs": {
+          "page_manifest": "pages/page_001/manifest.json",
+          "imagegen_jobs": "pages/page_001/imagegen-jobs.json",
+          "page_pptx": "pages/page_001/page.pptx",
+          "preview": "pages/page_001/preview.png",
+          "contact_sheet": "pages/page_001/split_assets_contact.png",
+          "validation": "pages/page_001/validation.json",
+          "page_result": "pages/page_001/page_result.json"
+        },
+        "hashes": {
+          "page_manifest": "fb88e2afcd7e6f3756d9d7e49c8ac2a2ea365b9779a145c29c600e8f6fb2bcc5",
+          "imagegen_jobs": "e5664f223110880e3c0a762a69d85da10671ed5ab257da727fe20c383a2ab584",
+          "page_pptx": "9917a105cd53f38b3a371f3fefa4fdf9a12735a9f61c19a0594a6cec7a81b952",
+          "preview": "52b0e27f386ebd2748dd85723b62e4098653b77588d16cdb57334d2982330463",
+          "contact_sheet": "ff5568cc9cac0995239f0b16e046ac1a1d9201aba61abbca7562a3c00dce5814",
+          "validation": "af2a650876dd6d27ab3f65abc8b316613cdbe9fbf4cd07c2e5c4657a89b67bc1",
+          "page_result": "d3f78b88736d072fe387f4b5d76ca9cbca89eb85b5fe38de3b6b2f6eaa0991d6"
+        },
+        "validation_passed": true
+      },
+      "accepted": true,
+      "accepted_at": "2026-10-13T07:47:53Z"
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "schema_version": "image2ppt-supplemental-final-qa-v1",
+  "passed": true,
+  "state_owner": "page_jobs.json",
+  "pptx": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\Figure5_resource_map_edited.pptx",
+  "manifests": [
+    "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\manifest.json"
+  ],
+  "visual_review": {
+    "status": "reviewed",
+    "notes": "",
+    "evidence": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\visual-review-evidence.json",
+    "evidence_template": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\visual-review-evidence.template.json",
+    "evidence_payload": {
+      "schema_version": "image2ppt-visual-review-evidence-v1",
+      "pages": [
+        {
+          "page_id": "page_001",
+          "source": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\source.png",
+          "rendered": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_render\\Slide1.PNG",
+          "source_sha256": "b3ee3935276d797d75b864b5358687962a44998919080e5688669659cf283151",
+          "rendered_sha256": "e28fac8ca3517218c2a3e7bb7b03bf06db24a27069e0a55392207164c8c701e3",
+          "reviewed": true,
+          "checks": {
+            "composition_layout": "The actual PowerPoint export preserves four outer circles, a central blue hexagon and the bottom document outcome. The evaluation circle is enlarged to show the approved three-group layout.",
+            "text_content": "Sixteen resource names are present and legible. MuSiQue is an independent QA benchmark; AutoRAG is labeled as a RAG tool. Assessment labels and the non-guaranteeing construction outcome match the approved content audit.",
+            "object_completeness": "All four layers, central system, reciprocal relation arrows, outcome arrow and icon subjects appear as native objects. The duplicate tiny name inside the AgentBench graphic is eliminated.",
+            "render_integrity": "Final PowerPoint COM render is byte-identical to the reviewed page render. The package contains native objects throughout and no embedded media.",
+            "arrow_geometry": "Eight reciprocal straight arrows follow the original relationship pairs, with their arrowheads belonging to each connector. The ninth arrow points down to system construction and evaluation.",
+            "compound_diagram": "The Co-STORM triangle has three circular native nodes and three native connections beneath the nodes; the geometry is measurable and each object has a protected anchor."
+          }
+        }
+      ]
+    }
+  },
+  "checks": {
+    "region_decomposition_command": {
+      "command": [
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\.codex\\skills\\nature-image2ppt\\scripts\\inspect_region_decomposition.py",
+        "--run",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map",
+        "--out",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_region_decomposition.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"schema_version\": \"image2ppt-region-decomposition-report-v1\",\n  \"passed\": true,\n  \"pages\": [\n    {\n      \"manifest\": \"C:\\\\Users\\\\ShenTianyu(CN-TV-T1)\\\\schoolwork\\\\ESWA-multiagent\\\\output\\\\figure5_editable\\\\20261013-163435-Figure5_resource_map\\\\pages\\\\page_001\\\\manifest.json\",\n      \"passed\": true,\n      \"page_complexity\": \"structured\",\n      \"region_count\": 5,\n      \"regions\": [\n        {\n          \"id\": \"foundation\",\n          \"strategy\": \"native-object-decomposition\",\n          \"risk_level\": \"high\",\n          \"manifest_object_count\": 27,\n          \"protected_anchor_count\": 20,\n          \"compound_diagram\": false,\n          \"passed\": true,\n          \"errors\": []\n        },\n        {\n          \"id\": \"orchestration\",\n          \"strategy\": \"native-object-decomposition\",\n          \"risk_level\": \"high\",\n          \"manifest_object_count\": 30,\n          \"protected_anchor_count\": 23,\n          \"compound_diagram\": false,\n          \"passed\": true,\n          \"errors\": []\n        },\n        {\n          \"id\": \"applications\",\n          \"strategy\": \"native-object-decomposition\",\n          \"risk_level\": \"high\",\n          \"manifest_object_count\": 29,\n          \"protected_anchor_count\": 22,\n          \"compound_diagram\": true,\n          \"passed\": true,\n          \"errors\": []\n        },\n        {\n          \"id\": \"evaluation\",\n          \"strategy\": \"native-object-decomposition\",\n          \"risk_level\": \"high\",\n          \"manifest_object_count\": 62,\n          \"protected_anchor_count\": 48,\n          \"compound_diagram\": false,\n          \"passed\": true,\n          \"errors\": []\n        },\n        {\n          \"id\": \"system\",\n          \"strategy\": \"native-object-decomposition\",\n          \"risk_level\": \"high\",\n          \"manifest_object_count\": 26,\n          \"protected_anchor_count\": 22,\n          \"compound_diagram\": false,\n          \"passed\": true,\n          \"errors\": []\n        }\n      ],\n      \"summary\": {\n        \"manifest_objects\": 174,\n        \"assigned_objects\": 174,\n        \"protected_anchors\": 135,\n        \"compound_regions\": 1\n      },\n      \"warnings\": [],\n      \"errors\": []\n    }\n  ],\n  \"summary\": {\n    \"pages\": 1,\n    \"regions\": 5,\n    \"compound_regions\": 1\n  },\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    "region_decomposition": {
+      "schema_version": "image2ppt-region-decomposition-report-v1",
+      "passed": true,
+      "pages": [
+        {
+          "manifest": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\manifest.json",
+          "passed": true,
+          "page_complexity": "structured",
+          "region_count": 5,
+          "regions": [
+            {
+              "id": "foundation",
+              "strategy": "native-object-decomposition",
+              "risk_level": "high",
+              "manifest_object_count": 27,
+              "protected_anchor_count": 20,
+              "compound_diagram": false,
+              "passed": true,
+              "errors": []
+            },
+            {
+              "id": "orchestration",
+              "strategy": "native-object-decomposition",
+              "risk_level": "high",
+              "manifest_object_count": 30,
+              "protected_anchor_count": 23,
+              "compound_diagram": false,
+              "passed": true,
+              "errors": []
+            },
+            {
+              "id": "applications",
+              "strategy": "native-object-decomposition",
+              "risk_level": "high",
+              "manifest_object_count": 29,
+              "protected_anchor_count": 22,
+              "compound_diagram": true,
+              "passed": true,
+              "errors": []
+            },
+            {
+              "id": "evaluation",
+              "strategy": "native-object-decomposition",
+              "risk_level": "high",
+              "manifest_object_count": 62,
+              "protected_anchor_count": 48,
+              "compound_diagram": false,
+              "passed": true,
+              "errors": []
+            },
+            {
+              "id": "system",
+              "strategy": "native-object-decomposition",
+              "risk_level": "high",
+              "manifest_object_count": 26,
+              "protected_anchor_count": 22,
+              "compound_diagram": false,
+              "passed": true,
+              "errors": []
+            }
+          ],
+          "summary": {
+            "manifest_objects": 174,
+            "assigned_objects": 174,
+            "protected_anchors": 135,
+            "compound_regions": 1
+          },
+          "warnings": [],
+          "errors": []
+        }
+      ],
+      "summary": {
+        "pages": 1,
+        "regions": 5,
+        "compound_regions": 1
+      },
+      "errors": []
+    },
+    "postprocess_command": {
+      "command": [
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\.codex\\skills\\nature-image2ppt\\scripts\\postprocess_manifest_arrows.py",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\Figure5_resource_map_edited.pptx",
+        "--run",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map",
+        "--report",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_arrow_postprocess.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"schema_version\": \"image2ppt-manifest-arrow-postprocess-v1\",\n  \"passed\": true,\n  \"pptx\": \"C:\\\\Users\\\\ShenTianyu(CN-TV-T1)\\\\schoolwork\\\\ESWA-multiagent\\\\output\\\\figure5_editable\\\\20261013-163435-Figure5_resource_map\\\\final\\\\Figure5_resource_map_edited.pptx\",\n  \"manifests\": [\n    \"C:\\\\Users\\\\ShenTianyu(CN-TV-T1)\\\\schoolwork\\\\ESWA-multiagent\\\\output\\\\figure5_editable\\\\20261013-163435-Figure5_resource_map\\\\pages\\\\page_001\\\\manifest.json\"\n  ],\n  \"operations\": [\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 18,\n      \"object_id\": 19,\n      \"name\": \"foundation-interface\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 19,\n      \"object_id\": 20,\n      \"name\": \"foundation-retrieval\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 41,\n      \"object_id\": 24,\n      \"name\": \"role-definition\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 42,\n      \"object_id\": 25,\n      \"name\": \"workflow-control\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 63,\n      \"object_id\": 26,\n      \"name\": \"synthesis-link\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 64,\n      \"object_id\": 27,\n      \"name\": \"document-link\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 111,\n      \"object_id\": 40,\n      \"name\": \"answer-assessment\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 112,\n      \"object_id\": 41,\n      \"name\": \"rag-assessment\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 125,\n      \"object_id\": 42,\n      \"name\": \"construction-arrow\",\n      \"role\": \"connector\",\n      \"kind\": \"cxnSp\",\n      \"connector\": \"straight\",\n      \"geometry\": \"line\",\n      \"start_arrow\": null,\n      \"end_arrow\": \"triangle\"\n    }\n  ],\n  \"errors\": [],\n  \"preservation\": {\n    \"non_slide_parts_preserved\": true,\n    \"non_slide_part_count\": 12,\n    \"notes_parts_preserved\": true,\n    \"notes_part_count\": 0\n  },\n  \"input_sha256\": \"d146291831438a7d39478536ae7e13ed10dbe235896747e3af0e56962f055a30\",\n  \"output_sha256\": \"d146291831438a7d39478536ae7e13ed10dbe235896747e3af0e56962f055a30\",\n  \"summary\": {\n    \"slides\": 1,\n    \"profiled_arrows\": 9,\n    \"connectors\": 9,\n    \"filled_arrows\": 0\n  }\n}\n",
+      "stderr": ""
+    },
+    "postprocess": {
+      "schema_version": "image2ppt-manifest-arrow-postprocess-v1",
+      "passed": true,
+      "pptx": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\Figure5_resource_map_edited.pptx",
+      "manifests": [
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\manifest.json"
+      ],
+      "operations": [
+        {
+          "slide_index": 1,
+          "shape_index": 18,
+          "object_id": 19,
+          "name": "foundation-interface",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 19,
+          "object_id": 20,
+          "name": "foundation-retrieval",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 41,
+          "object_id": 24,
+          "name": "role-definition",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 42,
+          "object_id": 25,
+          "name": "workflow-control",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 63,
+          "object_id": 26,
+          "name": "synthesis-link",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 64,
+          "object_id": 27,
+          "name": "document-link",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 111,
+          "object_id": 40,
+          "name": "answer-assessment",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 112,
+          "object_id": 41,
+          "name": "rag-assessment",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 125,
+          "object_id": 42,
+          "name": "construction-arrow",
+          "role": "connector",
+          "kind": "cxnSp",
+          "connector": "straight",
+          "geometry": "line",
+          "start_arrow": null,
+          "end_arrow": "triangle"
+        }
+      ],
+      "errors": [],
+      "preservation": {
+        "non_slide_parts_preserved": true,
+        "non_slide_part_count": 12,
+        "notes_parts_preserved": true,
+        "notes_part_count": 0
+      },
+      "input_sha256": "d146291831438a7d39478536ae7e13ed10dbe235896747e3af0e56962f055a30",
+      "output_sha256": "d146291831438a7d39478536ae7e13ed10dbe235896747e3af0e56962f055a30",
+      "summary": {
+        "slides": 1,
+        "profiled_arrows": 9,
+        "connectors": 9,
+        "filled_arrows": 0
+      }
+    },
+    "image2ppt_validation_command": {
+      "command": [
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\.codex\\skills\\nature-image2ppt\\cli\\image2ppt\\runtime\\validate_pptx.py",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\Figure5_resource_map_edited.pptx",
+        "--deck-manifest",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\deck_manifest.json",
+        "--report",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_structural_validation.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"pptx\": \"C:\\\\Users\\\\ShenTianyu(CN-TV-T1)\\\\schoolwork\\\\ESWA-multiagent\\\\output\\\\figure5_editable\\\\20261013-163435-Figure5_resource_map\\\\final\\\\Figure5_resource_map_edited.pptx\",\n  \"deck_manifest\": \"C:\\\\Users\\\\ShenTianyu(CN-TV-T1)\\\\schoolwork\\\\ESWA-multiagent\\\\output\\\\figure5_editable\\\\20261013-163435-Figure5_resource_map\\\\deck_manifest.json\",\n  \"expected_pages\": 1,\n  \"slides\": 1,\n  \"page_manifests_missing\": [],\n  \"page_validation_missing\": [],\n  \"failed_page_validations\": [],\n  \"page_contract_violations\": [],\n  \"notes_expected\": 0,\n  \"notes_found\": 0,\n  \"notes_hash_mismatches\": [],\n  \"missing_parts\": [],\n  \"warnings\": [],\n  \"passed\": true\n}\n",
+      "stderr": ""
+    },
+    "image2ppt_validation": {
+      "pptx": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\Figure5_resource_map_edited.pptx",
+      "deck_manifest": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\deck_manifest.json",
+      "expected_pages": 1,
+      "slides": 1,
+      "page_manifests_missing": [],
+      "page_validation_missing": [],
+      "failed_page_validations": [],
+      "page_contract_violations": [],
+      "notes_expected": 0,
+      "notes_found": 0,
+      "notes_hash_mismatches": [],
+      "missing_parts": [],
+      "warnings": [],
+      "passed": true
+    },
+    "arrow_inspection_command": {
+      "command": [
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\.codex\\skills\\nature-image2ppt\\scripts\\inspect_arrow_atomicity.py",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\Figure5_resource_map_edited.pptx",
+        "--run",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map",
+        "--out",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_arrow_inspection.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"schema_version\": \"image2ppt-manifest-arrow-inspection-v1\",\n  \"passed\": true,\n  \"pptx\": \"C:\\\\Users\\\\ShenTianyu(CN-TV-T1)\\\\schoolwork\\\\ESWA-multiagent\\\\output\\\\figure5_editable\\\\20261013-163435-Figure5_resource_map\\\\final\\\\Figure5_resource_map_edited.pptx\",\n  \"errors\": [],\n  \"summary\": {\n    \"expected_arrows\": 9,\n    \"inspected_arrows\": 9,\n    \"connectors\": 9,\n    \"filled_arrows\": 0,\n    \"fragmented_or_missing\": 0\n  },\n  \"arrows\": [\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 18,\n      \"id\": \"foundation-interface\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 19,\n      \"id\": \"foundation-retrieval\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 41,\n      \"id\": \"role-definition\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 42,\n      \"id\": \"workflow-control\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 63,\n      \"id\": \"synthesis-link\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 64,\n      \"id\": \"document-link\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 111,\n      \"id\": \"answer-assessment\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 112,\n      \"id\": \"rag-assessment\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    },\n    {\n      \"slide_index\": 1,\n      \"shape_index\": 125,\n      \"id\": \"construction-arrow\",\n      \"role\": \"connector\",\n      \"pptx_object\": {\n        \"kind\": \"cxnSp\",\n        \"preset\": \"line\",\n        \"text\": \"\",\n        \"connector\": \"straight\",\n        \"start_arrow\": null,\n        \"end_arrow\": \"triangle\"\n      }\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    "arrow_inspection": {
+      "schema_version": "image2ppt-manifest-arrow-inspection-v1",
+      "passed": true,
+      "pptx": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\Figure5_resource_map_edited.pptx",
+      "errors": [],
+      "summary": {
+        "expected_arrows": 9,
+        "inspected_arrows": 9,
+        "connectors": 9,
+        "filled_arrows": 0,
+        "fragmented_or_missing": 0
+      },
+      "arrows": [
+        {
+          "slide_index": 1,
+          "shape_index": 18,
+          "id": "foundation-interface",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 19,
+          "id": "foundation-retrieval",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 41,
+          "id": "role-definition",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 42,
+          "id": "workflow-control",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 63,
+          "id": "synthesis-link",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 64,
+          "id": "document-link",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 111,
+          "id": "answer-assessment",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 112,
+          "id": "rag-assessment",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "slide_index": 1,
+          "shape_index": 125,
+          "id": "construction-arrow",
+          "role": "connector",
+          "pptx_object": {
+            "kind": "cxnSp",
+            "preset": "line",
+            "text": "",
+            "connector": "straight",
+            "start_arrow": null,
+            "end_arrow": "triangle"
+          }
+        }
+      ]
+    },
+    "render_command": {
+      "command": [
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\.codex\\skills\\nature-image2ppt\\scripts\\render_image2ppt_qa.py",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\Figure5_resource_map_edited.pptx",
+        "--out-dir",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_render",
+        "--report",
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_render_report.json",
+        "--timeout",
+        "180"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"rendered\", \"report\": \"C:\\\\Users\\\\ShenTianyu(CN-TV-T1)\\\\schoolwork\\\\ESWA-multiagent\\\\output\\\\figure5_editable\\\\20261013-163435-Figure5_resource_map\\\\final\\\\image2ppt_render_report.json\"}\n",
+      "stderr": ""
+    },
+    "render": {
+      "schema_version": "image2ppt-render-qa-v1",
+      "status": "rendered",
+      "renderer": "powerpoint-com",
+      "pptx": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\Figure5_resource_map_edited.pptx",
+      "out_dir": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_render",
+      "rendered_png": null,
+      "rendered_slides": [
+        "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_render\\Slide1.PNG"
+      ],
+      "source_image": null,
+      "raw": {
+        "status": "rendered",
+        "renderer": "powerpoint-com",
+        "backend": "powerpoint-export-png",
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "",
+        "command": [
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+          "-NoProfile",
+          "-NonInteractive",
+          "-Command",
+          "$ErrorActionPreference='Stop';$app=$null;$deck=$null;try{$app=New-Object -ComObject PowerPoint.Application;$deck=$app.Presentations.Open('C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\Figure5_resource_map_edited.pptx',$true,$true,$false);$deck.Export('C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_render','PNG')}finally{if($null -ne $deck){try{$deck.Close()}catch{};try{[System.Runtime.InteropServices.Marshal]::ReleaseComObject($deck)|Out-Null}catch{};$deck=$null};if($null -ne $app){try{$app.Quit()}catch{};try{[System.Runtime.InteropServices.Marshal]::ReleaseComObject($app)|Out-Null}catch{};$app=$null}}"
+        ],
+        "slides": [
+          "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_render\\Slide1.PNG"
+        ]
+      }
+    },
+    "page_diff_metrics": [
+      {
+        "page_index": 1,
+        "source_png": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\source.png",
+        "rendered_png": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\final\\image2ppt_render\\Slide1.PNG",
+        "source_size": [
+          686,
+          393
+        ],
+        "rendered_original_size": [
+          1280,
+          720
+        ],
+        "mean_abs_rgb_diff_0_255": 14.59,
+        "max_abs_rgb_diff_0_255": 255,
+        "note": "Indicative only; the page still requires visual review."
+      }
+    ]
+  },
+  "errors": []
+}

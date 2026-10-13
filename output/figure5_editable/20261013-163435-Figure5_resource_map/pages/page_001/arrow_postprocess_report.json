@@ -1,0 +1,133 @@
+{
+  "schema_version": "image2ppt-manifest-arrow-postprocess-v1",
+  "passed": true,
+  "pptx": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\page.pptx",
+  "manifests": [
+    "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\manifest.json"
+  ],
+  "operations": [
+    {
+      "slide_index": 1,
+      "shape_index": 18,
+      "object_id": 19,
+      "name": "foundation-interface",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 19,
+      "object_id": 20,
+      "name": "foundation-retrieval",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 41,
+      "object_id": 24,
+      "name": "role-definition",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 42,
+      "object_id": 25,
+      "name": "workflow-control",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 63,
+      "object_id": 26,
+      "name": "synthesis-link",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 64,
+      "object_id": 27,
+      "name": "document-link",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 111,
+      "object_id": 40,
+      "name": "answer-assessment",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 112,
+      "object_id": 41,
+      "name": "rag-assessment",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 125,
+      "object_id": 42,
+      "name": "construction-arrow",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    }
+  ],
+  "errors": [],
+  "preservation": {
+    "non_slide_parts_preserved": true,
+    "non_slide_part_count": 12,
+    "notes_parts_preserved": true,
+    "notes_part_count": 0
+  },
+  "input_sha256": "48b70333847211772e7cb0ecb9b2d6277603fb40621bee73ff55247537ef6764",
+  "output_sha256": "48b70333847211772e7cb0ecb9b2d6277603fb40621bee73ff55247537ef6764",
+  "summary": {
+    "slides": 1,
+    "profiled_arrows": 9,
+    "connectors": 9,
+    "filled_arrows": 0
+  }
+}

@@ -1,0 +1,4684 @@
+{
+  "schema_version": 2,
+  "slide": {
+    "width": 13.333,
+    "height": 7.5,
+    "size_mode": "wide"
+  },
+  "content_box": {
+    "left": 0.12069847328244343,
+    "top": 0,
+    "width": 13.091603053435113,
+    "height": 7.5,
+    "fit": "contain"
+  },
+  "source": {
+    "path": "source.png",
+    "width_px": 686,
+    "height_px": 393
+  },
+  "page_strategy": "Corrected resource-map reconstruction using native editable slide objects throughout.",
+  "user_overrides": {
+    "all_components_editable": true,
+    "native_pictogram_redraw_authorized": true,
+    "content_corrections_authorized": true,
+    "authorization": "User accepted the preceding content audit and instructed execution; it explicitly proposes editable native text, regions, arrows and diagrams."
+  },
+  "text_inventory": [
+    "Foundation Layer",
+    "Model & Retrieval\nComponents",
+    "</>",
+    "LangChain",
+    "LlamaIndex",
+    "Model\nInterfaces",
+    "Retrieval\nComponents",
+    "Orchestration Layer",
+    "Multi-Agent Frameworks",
+    "AutoGen",
+    "CrewAI",
+    "MetaGPT",
+    "Role\nDefinition",
+    "Workflow\nControl",
+    "Application\nResource Layer",
+    "Representative Platforms",
+    "STORM",
+    "Co-STORM",
+    "RAGFlow",
+    "Retrieval-Grounded\nSynthesis",
+    "Document\nUnderstanding",
+    "Benchmarks &\nEvaluation Tools",
+    "QA & knowledge benchmarks",
+    "HotpotQA",
+    "QA",
+    "CoQA",
+    "MMLU",
+    "MuSiQue",
+    "Agent-task benchmarks",
+    "AgentBench",
+    "GAIA",
+    "WebArena",
+    "RAG tool: AutoRAG",
+    "Answer & Task\nAssessment",
+    "RAG Component\nEvaluation",
+    "AI",
+    "Multi-Agent\nQA System",
+    "System Construction\n& Evaluation",
+    "Conceptual resource map; process assessment needs trace-level measures."
+  ],
+  "visual_inventory": [
+    {
+      "id": "foundation",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Foundation layer"
+    },
+    {
+      "id": "orchestration",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Orchestration layer"
+    },
+    {
+      "id": "applications",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Application resources"
+    },
+    {
+      "id": "evaluation",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Benchmarks and evaluation tools"
+    },
+    {
+      "id": "system",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Central system and construction outcome"
+    }
+  ],
+  "background_strategy": {
+    "mode": "native-or-script",
+    "source_consistency_contract": "Same four outer resource circles, central blue hexagon and reciprocal support/assessment links on the supplied canvas.",
+    "removed_foreground": "Labels and pictograms rebuilt independently as native objects.",
+    "comparison_note": "Palette, central composition and named resources retained, with the approved grouping and terminology corrections."
+  },
+  "quality_checks": {
+    "font_size_calibrated": true,
+    "visual_inventory_matched": true,
+    "background_strategy_checked": true,
+    "shape_corner_geometry_checked": true
+  },
+  "quality_evidence": {
+    "font_size_calibrated": {
+      "observation": "Type is calibrated to the unchanged prepared canvas using a 1.832 scale factor; resource labels and layer titles use consistent physical levels."
+    },
+    "visual_inventory_matched": {
+      "observation": "Four colored circles, central hexagon, eight reciprocal relation arrows, one outcome arrow and all labeled resources use native objects."
+    },
+    "background_strategy_checked": {
+      "observation": "White canvas and peach, beige, blue and lavender resource circles retain the source arrangement; the evaluation circle is enlarged for the approved category separation."
+    },
+    "shape_corner_geometry_checked": {
+      "observation": "Resource regions remain true circles and the system uses a native hexagon. Document and processor shapes keep restrained corner radii."
+    }
+  },
+  "text_boxes": [
+    {
+      "id": "foundation-title",
+      "text": "Foundation Layer",
+      "box_px": [
+        90,
+        40,
+        110,
+        14
+      ],
+      "font": "Arial",
+      "font_size": 14.84,
+      "bold": true,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "foundation-subtitle",
+      "text": "Model & Retrieval\nComponents",
+      "box_px": [
+        85,
+        54,
+        120,
+        26
+      ],
+      "font": "Arial",
+      "font_size": 14.66,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "langchain-code",
+      "text": "</>",
+      "box_px": [
+        106,
+        87,
+        20,
+        10
+      ],
+      "font": "Arial",
+      "font_size": 13.92,
+      "bold": true,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "langchain-name",
+      "text": "LangChain",
+      "box_px": [
+        87,
+        113,
+        58,
+        14
+      ],
+      "font": "Arial",
+      "font_size": 12.82,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "llamaindex-name",
+      "text": "LlamaIndex",
+      "box_px": [
+        145,
+        113,
+        58,
+        14
+      ],
+      "font": "Arial",
+      "font_size": 12.82,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "interface-label",
+      "text": "Model\nInterfaces",
+      "box_px": [
+        230,
+        91,
+        80,
+        28
+      ],
+      "font": "Arial",
+      "font_size": 16.49,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "retrieval-label",
+      "text": "Retrieval\nComponents",
+      "box_px": [
+        196,
+        142,
+        84,
+        29
+      ],
+      "font": "Arial",
+      "font_size": 16.12,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "orchestration-title",
+      "text": "Orchestration Layer",
+      "box_px": [
+        497,
+        40,
+        124,
+        14
+      ],
+      "font": "Arial",
+      "font_size": 14.84,
+      "bold": true,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "orchestration-subtitle",
+      "text": "Multi-Agent Frameworks",
+      "box_px": [
+        496,
+        54,
+        126,
+        16
+      ],
+      "font": "Arial",
+      "font_size": 14.66,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "autogen-name",
+      "text": "AutoGen",
+      "box_px": [
+        502,
+        105,
+        51,
+        13
+      ],
+      "font": "Arial",
+      "font_size": 12.82,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "crewai-name",
+      "text": "CrewAI",
+      "box_px": [
+        572,
+        105,
+        45,
+        13
+      ],
+      "font": "Arial",
+      "font_size": 12.82,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "metagpt-name",
+      "text": "MetaGPT",
+      "box_px": [
+        533,
+        138,
+        53,
+        13
+      ],
+      "font": "Arial",
+      "font_size": 12.82,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "role-label",
+      "text": "Role\nDefinition",
+      "box_px": [
+        400,
+        91,
+        76,
+        28
+      ],
+      "font": "Arial",
+      "font_size": 16.49,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "workflow-label",
+      "text": "Workflow\nControl",
+      "box_px": [
+        428,
+        142,
+        67,
+        29
+      ],
+      "font": "Arial",
+      "font_size": 16.12,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "application-title",
+      "text": "Application\nResource Layer",
+      "box_px": [
+        90,
+        246,
+        110,
+        27
+      ],
+      "font": "Arial",
+      "font_size": 14.84,
+      "bold": true,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "application-subtitle",
+      "text": "Representative Platforms",
+      "box_px": [
+        85,
+        271,
+        120,
+        15
+      ],
+      "font": "Arial",
+      "font_size": 14.66,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "storm-name",
+      "text": "STORM",
+      "box_px": [
+        82,
+        323,
+        42,
+        13
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.82,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "costorm-name",
+      "text": "Co-STORM",
+      "box_px": [
+        118,
+        323,
+        56,
+        13
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.82,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "ragflow-name",
+      "text": "RAGFlow",
+      "box_px": [
+        167,
+        323,
+        43,
+        13
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.82,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "synthesis-label",
+      "text": "Retrieval-Grounded\nSynthesis",
+      "box_px": [
+        173,
+        207,
+        112,
+        29
+      ],
+      "font": "Arial",
+      "font_size": 15.57,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "document-label",
+      "text": "Document\nUnderstanding",
+      "box_px": [
+        218,
+        263,
+        89,
+        28
+      ],
+      "font": "Arial",
+      "font_size": 16.12,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "evaluation-title",
+      "text": "Benchmarks &\nEvaluation Tools",
+      "box_px": [
+        493,
+        238,
+        132,
+        27
+      ],
+      "font": "Arial",
+      "font_size": 14.84,
+      "bold": true,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "qa-benchmark-group",
+      "text": "QA & knowledge benchmarks",
+      "box_px": [
+        493,
+        265,
+        132,
+        13
+      ],
+      "font": "Arial",
+      "font_size": 12.27,
+      "bold": true,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "qa-name-0",
+      "text": "HotpotQA",
+      "box_px": [
+        488,
+        303,
+        42,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.46,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "coqa-bubble-word",
+      "text": "QA",
+      "box_px": [
+        535,
+        285,
+        14,
+        9
+      ],
+      "font": "Arial",
+      "font_size": 10.26,
+      "bold": true,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "qa-name-1",
+      "text": "CoQA",
+      "box_px": [
+        521,
+        303,
+        42,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.46,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "qa-name-2",
+      "text": "MMLU",
+      "box_px": [
+        555,
+        303,
+        42,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.46,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "qa-name-3",
+      "text": "MuSiQue",
+      "box_px": [
+        588,
+        303,
+        42,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.46,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "agent-benchmark-group",
+      "text": "Agent-task benchmarks",
+      "box_px": [
+        493,
+        316,
+        132,
+        12
+      ],
+      "font": "Arial",
+      "font_size": 12.27,
+      "bold": true,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "agent-name-0",
+      "text": "AgentBench",
+      "box_px": [
+        499.0,
+        348,
+        54,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.46,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "agent-name-1",
+      "text": "GAIA",
+      "box_px": [
+        544.0,
+        348,
+        30,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.46,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "agent-name-2",
+      "text": "WebArena",
+      "box_px": [
+        568.0,
+        348,
+        48,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.46,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "autorag-tool",
+      "text": "RAG tool: AutoRAG",
+      "box_px": [
+        538,
+        365,
+        66,
+        13
+      ],
+      "font": "Arial Narrow",
+      "font_size": 11.91,
+      "bold": true,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "answer-label",
+      "text": "Answer & Task\nAssessment",
+      "box_px": [
+        425,
+        207,
+        96,
+        29
+      ],
+      "font": "Arial",
+      "font_size": 15.57,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "rag-label",
+      "text": "RAG Component\nEvaluation",
+      "box_px": [
+        388,
+        263,
+        90,
+        28
+      ],
+      "font": "Arial",
+      "font_size": 14.66,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "system-ai",
+      "text": "AI",
+      "box_px": [
+        345,
+        157,
+        14,
+        17
+      ],
+      "font": "Arial",
+      "font_size": 16.12,
+      "bold": true,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "system-title",
+      "text": "Multi-Agent\nQA System",
+      "box_px": [
+        301,
+        194,
+        102,
+        40
+      ],
+      "font": "Arial",
+      "font_size": 21.07,
+      "bold": true,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "construction-outcome",
+      "text": "System Construction\n& Evaluation",
+      "box_px": [
+        281,
+        348,
+        142,
+        28
+      ],
+      "font": "Arial",
+      "font_size": 16.49,
+      "bold": false,
+      "color": "#142A38",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    },
+    {
+      "id": "interpretation-note",
+      "text": "Conceptual resource map; process assessment needs trace-level measures.",
+      "box_px": [
+        207,
+        378,
+        291,
+        14
+      ],
+      "font": "Arial Narrow",
+      "font_size": 12.09,
+      "bold": false,
+      "color": "#607181",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 80
+    }
+  ],
+  "shapes": [
+    {
+      "id": "foundation-circle",
+      "type": "ellipse",
+      "box_px": [
+        75.0,
+        13.0,
+        140,
+        140
+      ],
+      "fill": "#FCE8D5",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 0
+    },
+    {
+      "id": "langchain-window",
+      "type": "rect",
+      "box_px": [
+        103,
+        83,
+        25,
+        19
+      ],
+      "fill": "#F9FBFC",
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 25
+    },
+    {
+      "id": "langchain-topbar",
+      "type": "rect",
+      "box_px": [
+        103,
+        80,
+        25,
+        5
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "window-dot-0",
+      "type": "ellipse",
+      "box_px": [
+        106.4,
+        81.9,
+        1.2,
+        1.2
+      ],
+      "fill": "#365466",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 25
+    },
+    {
+      "id": "window-dot-1",
+      "type": "ellipse",
+      "box_px": [
+        110.4,
+        81.9,
+        1.2,
+        1.2
+      ],
+      "fill": "#365466",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 25
+    },
+    {
+      "id": "window-dot-2",
+      "type": "ellipse",
+      "box_px": [
+        114.4,
+        81.9,
+        1.2,
+        1.2
+      ],
+      "fill": "#365466",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 25
+    },
+    {
+      "id": "chain-link1",
+      "type": "ellipse",
+      "box_px": [
+        118.5,
+        98.0,
+        11,
+        6
+      ],
+      "fill": "none",
+      "stroke": "#365466",
+      "stroke_width": 1.648854961832061,
+      "z_index": 25
+    },
+    {
+      "id": "chain-link2",
+      "type": "ellipse",
+      "box_px": [
+        122.5,
+        103.0,
+        11,
+        6
+      ],
+      "fill": "none",
+      "stroke": "#365466",
+      "stroke_width": 1.648854961832061,
+      "z_index": 25
+    },
+    {
+      "id": "llama-silhouette",
+      "type": "shape",
+      "box_px": [
+        160,
+        80,
+        16,
+        22
+      ],
+      "fill": "#243945",
+      "stroke": "#243945",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 25,
+      "polygon_px": [
+        [
+          160,
+          94
+        ],
+        [
+          163,
+          94
+        ],
+        [
+          162,
+          82
+        ],
+        [
+          166,
+          80
+        ],
+        [
+          169,
+          84
+        ],
+        [
+          170,
+          92
+        ],
+        [
+          176,
+          94
+        ],
+        [
+          176,
+          101
+        ],
+        [
+          166,
+          101
+        ],
+        [
+          163,
+          99
+        ]
+      ]
+    },
+    {
+      "id": "llama-leg-0",
+      "type": "line",
+      "points_px": [
+        164,
+        99,
+        163,
+        108
+      ],
+      "stroke": "#365466",
+      "stroke_width": 2.2900763358778624,
+      "z_index": 24
+    },
+    {
+      "id": "llama-leg-1",
+      "type": "line",
+      "points_px": [
+        168,
+        99,
+        167,
+        108
+      ],
+      "stroke": "#365466",
+      "stroke_width": 2.2900763358778624,
+      "z_index": 24
+    },
+    {
+      "id": "llama-leg-2",
+      "type": "line",
+      "points_px": [
+        174,
+        99,
+        173,
+        108
+      ],
+      "stroke": "#365466",
+      "stroke_width": 2.2900763358778624,
+      "z_index": 24
+    },
+    {
+      "id": "llama-tail",
+      "type": "line",
+      "points_px": [
+        176,
+        95,
+        180,
+        92
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.8320610687022898,
+      "z_index": 24
+    },
+    {
+      "id": "index-node-0",
+      "type": "ellipse",
+      "box_px": [
+        183.0,
+        83.0,
+        4,
+        4
+      ],
+      "fill": "#DCEFFA",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 25
+    },
+    {
+      "id": "index-node-1",
+      "type": "ellipse",
+      "box_px": [
+        183.0,
+        93.0,
+        4,
+        4
+      ],
+      "fill": "#DCEFFA",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 25
+    },
+    {
+      "id": "index-edge-1",
+      "type": "line",
+      "points_px": [
+        185,
+        87,
+        185,
+        93
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 24
+    },
+    {
+      "id": "index-node-2",
+      "type": "ellipse",
+      "box_px": [
+        183.0,
+        103.0,
+        4,
+        4
+      ],
+      "fill": "#DCEFFA",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 25
+    },
+    {
+      "id": "index-edge-2",
+      "type": "line",
+      "points_px": [
+        185,
+        97,
+        185,
+        103
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 24
+    },
+    {
+      "id": "foundation-interface",
+      "type": "line",
+      "points_px": [
+        278,
+        132,
+        221,
+        115
+      ],
+      "stroke": "#858E92",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "start_arrow": "none",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "foundation-retrieval",
+      "type": "line",
+      "points_px": [
+        216,
+        125,
+        275,
+        142
+      ],
+      "stroke": "#858E92",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "start_arrow": "none",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "orchestration-circle",
+      "type": "ellipse",
+      "box_px": [
+        489.0,
+        13.0,
+        140,
+        140
+      ],
+      "fill": "#EEECDC",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 0
+    },
+    {
+      "id": "autogen-gear1",
+      "type": "shape",
+      "box_px": [
+        514,
+        74,
+        15,
+        15
+      ],
+      "fill": "#B2D9EB",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25,
+      "preset": "gear6"
+    },
+    {
+      "id": "autogen-gear2",
+      "type": "shape",
+      "box_px": [
+        525,
+        84,
+        18,
+        18
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25,
+      "preset": "gear6"
+    },
+    {
+      "id": "crew-member-0-head",
+      "type": "ellipse",
+      "box_px": [
+        590.0,
+        76.0,
+        4.0,
+        4.0
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 25
+    },
+    {
+      "id": "crew-member-0-body",
+      "type": "roundRect",
+      "box_px": [
+        588.8,
+        81.2,
+        6.4,
+        5.6000000000000005
+      ],
+      "fill": "#D8EAF2",
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 25,
+      "source_corner_radius_px": 1.12,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "crew-member-1-head",
+      "type": "ellipse",
+      "box_px": [
+        581.0,
+        92.0,
+        4.0,
+        4.0
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 25
+    },
+    {
+      "id": "crew-member-1-body",
+      "type": "roundRect",
+      "box_px": [
+        579.8,
+        97.2,
+        6.4,
+        5.6000000000000005
+      ],
+      "fill": "#D8EAF2",
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 25,
+      "source_corner_radius_px": 1.12,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "crew-member-2-head",
+      "type": "ellipse",
+      "box_px": [
+        600.0,
+        92.0,
+        4.0,
+        4.0
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 25
+    },
+    {
+      "id": "crew-member-2-body",
+      "type": "roundRect",
+      "box_px": [
+        598.8,
+        97.2,
+        6.4,
+        5.6000000000000005
+      ],
+      "fill": "#D8EAF2",
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 25,
+      "source_corner_radius_px": 1.12,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "crew-link-0",
+      "type": "line",
+      "points_px": [
+        592,
+        78,
+        583,
+        94
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.7328244274809159,
+      "z_index": 22
+    },
+    {
+      "id": "crew-link-1",
+      "type": "line",
+      "points_px": [
+        592,
+        78,
+        602,
+        94
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.7328244274809159,
+      "z_index": 22
+    },
+    {
+      "id": "crew-link-2",
+      "type": "line",
+      "points_px": [
+        583,
+        94,
+        602,
+        94
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.7328244274809159,
+      "z_index": 22
+    },
+    {
+      "id": "metagpt-robot-head",
+      "type": "roundRect",
+      "box_px": [
+        553.96,
+        117.4,
+        10.08,
+        7.199999999999999
+      ],
+      "fill": "#D8EAF2",
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 25,
+      "source_corner_radius_px": 1.44,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "metagpt-robot-eye-0",
+      "type": "ellipse",
+      "box_px": [
+        556.264,
+        120.424,
+        1.152,
+        1.152
+      ],
+      "fill": "#365466",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 31
+    },
+    {
+      "id": "metagpt-robot-eye-1",
+      "type": "ellipse",
+      "box_px": [
+        560.584,
+        120.424,
+        1.152,
+        1.152
+      ],
+      "fill": "#365466",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 31
+    },
+    {
+      "id": "metagpt-robot-antenna",
+      "type": "line",
+      "points_px": [
+        559,
+        117.4,
+        559,
+        114.52
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 24
+    },
+    {
+      "id": "metagpt-robot-tip",
+      "type": "ellipse",
+      "box_px": [
+        557.992,
+        112.792,
+        2.016,
+        2.016
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 0.7328244274809159,
+      "z_index": 25
+    },
+    {
+      "id": "metagpt-robot-body",
+      "type": "roundRect",
+      "box_px": [
+        554.68,
+        126.04,
+        8.64,
+        5.76
+      ],
+      "fill": "#D8EAF2",
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 25,
+      "source_corner_radius_px": 1.152,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "metagpt-robot-leg-0",
+      "type": "line",
+      "points_px": [
+        556.84,
+        131.8,
+        556.84,
+        133.96
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.4656488549618318,
+      "z_index": 24
+    },
+    {
+      "id": "metagpt-robot-leg-1",
+      "type": "line",
+      "points_px": [
+        561.16,
+        131.8,
+        561.16,
+        133.96
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.4656488549618318,
+      "z_index": 24
+    },
+    {
+      "id": "metagpt-terminal",
+      "type": "rect",
+      "box_px": [
+        550,
+        131,
+        18,
+        7
+      ],
+      "fill": "#DBECF3",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 25
+    },
+    {
+      "id": "role-definition",
+      "type": "line",
+      "points_px": [
+        424,
+        131,
+        482,
+        115
+      ],
+      "stroke": "#858E92",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "start_arrow": "none",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "workflow-control",
+      "type": "line",
+      "points_px": [
+        483,
+        125,
+        424,
+        141
+      ],
+      "stroke": "#858E92",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "start_arrow": "none",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "application-circle",
+      "type": "ellipse",
+      "box_px": [
+        75.0,
+        233.0,
+        140,
+        140
+      ],
+      "fill": "#D3E7F0",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 0
+    },
+    {
+      "id": "storm-page",
+      "type": "shape",
+      "box_px": [
+        95.0,
+        299.0,
+        18,
+        24
+      ],
+      "fill": "#F7FCFE",
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 25,
+      "preset": "foldedCorner"
+    },
+    {
+      "id": "storm-page-rule-0",
+      "type": "line",
+      "points_px": [
+        99.0,
+        307,
+        109.0,
+        307
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 30
+    },
+    {
+      "id": "storm-page-rule-1",
+      "type": "line",
+      "points_px": [
+        99.0,
+        311,
+        109.0,
+        311
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 30
+    },
+    {
+      "id": "storm-page-rule-2",
+      "type": "line",
+      "points_px": [
+        99.0,
+        315,
+        109.0,
+        315
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 30
+    },
+    {
+      "id": "storm-bolt",
+      "type": "shape",
+      "box_px": [
+        88.2,
+        297.4,
+        9.600000000000001,
+        19.200000000000003
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 35,
+      "preset": "lightningBolt"
+    },
+    {
+      "id": "costorm-node-0",
+      "type": "ellipse",
+      "box_px": [
+        142.0,
+        296.0,
+        6,
+        6
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 25
+    },
+    {
+      "id": "costorm-node-1",
+      "type": "ellipse",
+      "box_px": [
+        135.0,
+        311.0,
+        6,
+        6
+      ],
+      "fill": "#A4D4ED",
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 25
+    },
+    {
+      "id": "costorm-node-2",
+      "type": "ellipse",
+      "box_px": [
+        150.0,
+        311.0,
+        6,
+        6
+      ],
+      "fill": "#A4D4ED",
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 25
+    },
+    {
+      "id": "costorm-link-0",
+      "type": "line",
+      "points_px": [
+        145,
+        299,
+        138,
+        314
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 22
+    },
+    {
+      "id": "costorm-link-1",
+      "type": "line",
+      "points_px": [
+        145,
+        299,
+        153,
+        314
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 22
+    },
+    {
+      "id": "costorm-link-2",
+      "type": "line",
+      "points_px": [
+        138,
+        314,
+        153,
+        314
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 22
+    },
+    {
+      "id": "costorm-bolt",
+      "type": "shape",
+      "box_px": [
+        129.1,
+        295.2,
+        7.800000000000001,
+        15.600000000000001
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 35,
+      "preset": "lightningBolt"
+    },
+    {
+      "id": "ragflow-page",
+      "type": "shape",
+      "box_px": [
+        177.0,
+        295.0,
+        20,
+        24
+      ],
+      "fill": "#F7FCFE",
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 25,
+      "preset": "foldedCorner"
+    },
+    {
+      "id": "ragflow-page-rule-0",
+      "type": "line",
+      "points_px": [
+        181.0,
+        303,
+        193.0,
+        303
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 30
+    },
+    {
+      "id": "ragflow-page-rule-1",
+      "type": "line",
+      "points_px": [
+        181.0,
+        307,
+        193.0,
+        307
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 30
+    },
+    {
+      "id": "ragflow-page-rule-2",
+      "type": "line",
+      "points_px": [
+        181.0,
+        311,
+        193.0,
+        311
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 30
+    },
+    {
+      "id": "ragflow-lens-handle",
+      "type": "line",
+      "points_px": [
+        198.2,
+        318.2,
+        203.9,
+        323.9
+      ],
+      "stroke": "#365466",
+      "stroke_width": 3.847328244274809,
+      "z_index": 37
+    },
+    {
+      "id": "ragflow-lens-rim",
+      "type": "ellipse",
+      "box_px": [
+        188.0,
+        308.0,
+        12,
+        12
+      ],
+      "fill": "#AECBD9",
+      "stroke": "#365466",
+      "stroke_width": 1.4656488549618318,
+      "z_index": 38
+    },
+    {
+      "id": "ragflow-lens-glass",
+      "type": "ellipse",
+      "box_px": [
+        190.0,
+        310.0,
+        8,
+        8
+      ],
+      "fill": "#F3FBFE",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 39
+    },
+    {
+      "id": "synthesis-link",
+      "type": "line",
+      "points_px": [
+        217,
+        251,
+        276,
+        235
+      ],
+      "stroke": "#858E92",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "start_arrow": "none",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "document-link",
+      "type": "line",
+      "points_px": [
+        276,
+        245,
+        221,
+        262
+      ],
+      "stroke": "#858E92",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "start_arrow": "none",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "evaluation-circle",
+      "type": "ellipse",
+      "box_px": [
+        479.0,
+        223.0,
+        160,
+        160
+      ],
+      "fill": "#E9E1EE",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 0
+    },
+    {
+      "id": "hotpot-db",
+      "type": "rect",
+      "box_px": [
+        501,
+        285,
+        13,
+        13
+      ],
+      "fill": "#B9AED1",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "hotpot-top",
+      "type": "ellipse",
+      "box_px": [
+        501.0,
+        282.5,
+        13,
+        5
+      ],
+      "fill": "#C9C1DE",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 30
+    },
+    {
+      "id": "hotpot-lens-handle",
+      "type": "line",
+      "points_px": [
+        515.8,
+        297.8,
+        519.6,
+        301.6
+      ],
+      "stroke": "#365466",
+      "stroke_width": 3.847328244274809,
+      "z_index": 37
+    },
+    {
+      "id": "hotpot-lens-rim",
+      "type": "ellipse",
+      "box_px": [
+        509.0,
+        291.0,
+        8,
+        8
+      ],
+      "fill": "#AECBD9",
+      "stroke": "#365466",
+      "stroke_width": 1.4656488549618318,
+      "z_index": 38
+    },
+    {
+      "id": "hotpot-lens-glass",
+      "type": "ellipse",
+      "box_px": [
+        511.0,
+        293.0,
+        4,
+        4
+      ],
+      "fill": "#F3FBFE",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 39
+    },
+    {
+      "id": "coqa-bubble",
+      "type": "shape",
+      "box_px": [
+        532,
+        283,
+        20,
+        15
+      ],
+      "fill": "#A9D9EF",
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 25,
+      "preset": "wedgeRoundRectCallout"
+    },
+    {
+      "id": "mmlu-brain-lobe-0",
+      "type": "ellipse",
+      "box_px": [
+        569.24,
+        283.97999999999996,
+        5.2,
+        5.720000000000001
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "mmlu-brain-lobe-1",
+      "type": "ellipse",
+      "box_px": [
+        573.4,
+        281.9,
+        5.2,
+        5.720000000000001
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "mmlu-brain-lobe-2",
+      "type": "ellipse",
+      "box_px": [
+        577.56,
+        283.97999999999996,
+        5.2,
+        5.720000000000001
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "mmlu-brain-lobe-3",
+      "type": "ellipse",
+      "box_px": [
+        568.1999999999999,
+        288.65999999999997,
+        5.2,
+        5.720000000000001
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "mmlu-brain-lobe-4",
+      "type": "ellipse",
+      "box_px": [
+        578.6,
+        288.65999999999997,
+        5.2,
+        5.720000000000001
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "mmlu-brain-lobe-5",
+      "type": "ellipse",
+      "box_px": [
+        569.76,
+        292.82,
+        5.2,
+        5.720000000000001
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "mmlu-brain-lobe-6",
+      "type": "ellipse",
+      "box_px": [
+        573.4,
+        294.38,
+        5.2,
+        5.720000000000001
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "mmlu-brain-lobe-7",
+      "type": "ellipse",
+      "box_px": [
+        577.04,
+        292.82,
+        5.2,
+        5.720000000000001
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "mmlu-brain-processor",
+      "type": "roundRect",
+      "box_px": [
+        572.88,
+        287.36,
+        6.24,
+        7.28
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 35,
+      "source_corner_radius_px": 1.456,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "mmlu-brain-pin-0",
+      "type": "line",
+      "points_px": [
+        571.32,
+        289.44,
+        572.724,
+        289.44
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 37
+    },
+    {
+      "id": "mmlu-brain-pin-1",
+      "type": "line",
+      "points_px": [
+        580.68,
+        289.44,
+        579.276,
+        289.44
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 37
+    },
+    {
+      "id": "musique-node-0",
+      "type": "ellipse",
+      "box_px": [
+        599.5,
+        288.5,
+        5,
+        5
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "musique-node-1",
+      "type": "ellipse",
+      "box_px": [
+        606.5,
+        288.5,
+        5,
+        5
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "musique-node-2",
+      "type": "ellipse",
+      "box_px": [
+        613.5,
+        288.5,
+        5,
+        5
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "musique-edge1",
+      "type": "line",
+      "points_px": [
+        604,
+        291,
+        607,
+        291
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 24
+    },
+    {
+      "id": "musique-edge2",
+      "type": "line",
+      "points_px": [
+        611,
+        291,
+        614,
+        291
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 24
+    },
+    {
+      "id": "agentbench-head",
+      "type": "roundRect",
+      "box_px": [
+        522.78,
+        334.7,
+        6.44,
+        4.6000000000000005
+      ],
+      "fill": "#D8EAF2",
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 25,
+      "source_corner_radius_px": 0.9200000000000002,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "agentbench-eye-0",
+      "type": "ellipse",
+      "box_px": [
+        524.252,
+        336.632,
+        0.7360000000000001,
+        0.7360000000000001
+      ],
+      "fill": "#365466",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 31
+    },
+    {
+      "id": "agentbench-eye-1",
+      "type": "ellipse",
+      "box_px": [
+        527.012,
+        336.632,
+        0.7360000000000001,
+        0.7360000000000001
+      ],
+      "fill": "#365466",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 31
+    },
+    {
+      "id": "agentbench-antenna",
+      "type": "line",
+      "points_px": [
+        526,
+        334.7,
+        526,
+        332.86
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 24
+    },
+    {
+      "id": "agentbench-tip",
+      "type": "ellipse",
+      "box_px": [
+        525.356,
+        331.756,
+        1.288,
+        1.288
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 0.7328244274809159,
+      "z_index": 25
+    },
+    {
+      "id": "agentbench-body",
+      "type": "roundRect",
+      "box_px": [
+        523.24,
+        340.22,
+        5.5200000000000005,
+        3.68
+      ],
+      "fill": "#D8EAF2",
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 25,
+      "source_corner_radius_px": 0.736,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "agentbench-leg-0",
+      "type": "line",
+      "points_px": [
+        524.62,
+        343.9,
+        524.62,
+        345.28
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.4656488549618318,
+      "z_index": 24
+    },
+    {
+      "id": "agentbench-leg-1",
+      "type": "line",
+      "points_px": [
+        527.38,
+        343.9,
+        527.38,
+        345.28
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.4656488549618318,
+      "z_index": 24
+    },
+    {
+      "id": "gaia-clipboard",
+      "type": "rect",
+      "box_px": [
+        552,
+        328,
+        15,
+        19
+      ],
+      "fill": "#FFFBF2",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "gaia-clip",
+      "type": "roundRect",
+      "box_px": [
+        556,
+        326,
+        7,
+        4
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 0.7328244274809159,
+      "z_index": 25,
+      "source_corner_radius_px": 0.8,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "gaia-check-0",
+      "type": "line",
+      "points_px": [
+        554,
+        333,
+        555,
+        334
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 24
+    },
+    {
+      "id": "gaia-rule-0",
+      "type": "line",
+      "points_px": [
+        558,
+        333,
+        564,
+        333
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.7328244274809159,
+      "z_index": 24
+    },
+    {
+      "id": "gaia-check-1",
+      "type": "line",
+      "points_px": [
+        554,
+        337,
+        555,
+        338
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 24
+    },
+    {
+      "id": "gaia-rule-1",
+      "type": "line",
+      "points_px": [
+        558,
+        337,
+        564,
+        337
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.7328244274809159,
+      "z_index": 24
+    },
+    {
+      "id": "gaia-check-2",
+      "type": "line",
+      "points_px": [
+        554,
+        341,
+        555,
+        342
+      ],
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 24
+    },
+    {
+      "id": "gaia-rule-2",
+      "type": "line",
+      "points_px": [
+        558,
+        341,
+        564,
+        341
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.7328244274809159,
+      "z_index": 24
+    },
+    {
+      "id": "webarena-globe-outer",
+      "type": "ellipse",
+      "box_px": [
+        583.0,
+        328.0,
+        18,
+        18
+      ],
+      "fill": "#A8DDEB",
+      "stroke": "#365466",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 25
+    },
+    {
+      "id": "webarena-globe-meridian",
+      "type": "ellipse",
+      "box_px": [
+        587.725,
+        328.0,
+        8.549999999999999,
+        18
+      ],
+      "fill": "none",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 29
+    },
+    {
+      "id": "webarena-globe-parallel-0",
+      "type": "line",
+      "points_px": [
+        584.35,
+        332.95,
+        599.65,
+        332.95
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.8244274809160305,
+      "z_index": 30
+    },
+    {
+      "id": "webarena-globe-parallel-1",
+      "type": "line",
+      "points_px": [
+        584.35,
+        337,
+        599.65,
+        337
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.8244274809160305,
+      "z_index": 30
+    },
+    {
+      "id": "webarena-globe-parallel-2",
+      "type": "line",
+      "points_px": [
+        584.35,
+        341.05,
+        599.65,
+        341.05
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.8244274809160305,
+      "z_index": 30
+    },
+    {
+      "id": "evaluation-tool-divider",
+      "type": "line",
+      "points_px": [
+        524,
+        362,
+        594,
+        362
+      ],
+      "stroke": "#B7ABBE",
+      "stroke_width": 0.8244274809160305,
+      "z_index": 24,
+      "dash": "dash"
+    },
+    {
+      "id": "autorag-gear",
+      "type": "shape",
+      "box_px": [
+        525,
+        367,
+        9,
+        9
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 0.7328244274809159,
+      "z_index": 25,
+      "preset": "gear6"
+    },
+    {
+      "id": "answer-assessment",
+      "type": "line",
+      "points_px": [
+        484,
+        251,
+        424,
+        235
+      ],
+      "stroke": "#858E92",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "start_arrow": "none",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "rag-assessment",
+      "type": "line",
+      "points_px": [
+        423,
+        245,
+        480,
+        261
+      ],
+      "stroke": "#858E92",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "start_arrow": "none",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "central-hexagon",
+      "type": "shape",
+      "box_px": [
+        282,
+        130,
+        140,
+        115
+      ],
+      "fill": "#168BCB",
+      "stroke": "none",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 5,
+      "preset": "hexagon"
+    },
+    {
+      "id": "system-brain-lobe-0",
+      "type": "ellipse",
+      "box_px": [
+        339.0,
+        151.5,
+        10,
+        11
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "system-brain-lobe-1",
+      "type": "ellipse",
+      "box_px": [
+        347.0,
+        147.5,
+        10,
+        11
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "system-brain-lobe-2",
+      "type": "ellipse",
+      "box_px": [
+        355.0,
+        151.5,
+        10,
+        11
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "system-brain-lobe-3",
+      "type": "ellipse",
+      "box_px": [
+        337.0,
+        160.5,
+        10,
+        11
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "system-brain-lobe-4",
+      "type": "ellipse",
+      "box_px": [
+        357.0,
+        160.5,
+        10,
+        11
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "system-brain-lobe-5",
+      "type": "ellipse",
+      "box_px": [
+        340.0,
+        168.5,
+        10,
+        11
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "system-brain-lobe-6",
+      "type": "ellipse",
+      "box_px": [
+        347.0,
+        171.5,
+        10,
+        11
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "system-brain-lobe-7",
+      "type": "ellipse",
+      "box_px": [
+        354.0,
+        168.5,
+        10,
+        11
+      ],
+      "fill": "#A1DAF5",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 25
+    },
+    {
+      "id": "system-brain-processor",
+      "type": "roundRect",
+      "box_px": [
+        346,
+        158,
+        12,
+        14
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.0076335877862594,
+      "z_index": 35,
+      "source_corner_radius_px": 2.8,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "system-brain-pin-0",
+      "type": "line",
+      "points_px": [
+        343,
+        162,
+        345.7,
+        162
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 37
+    },
+    {
+      "id": "system-brain-pin-1",
+      "type": "line",
+      "points_px": [
+        361,
+        162,
+        358.3,
+        162
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 37
+    },
+    {
+      "id": "construction-arrow",
+      "type": "line",
+      "points_px": [
+        352,
+        251,
+        352,
+        304
+      ],
+      "stroke": "#858E92",
+      "stroke_width": 1.4656488549618318,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "start_arrow": "none",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "construction-document",
+      "type": "shape",
+      "box_px": [
+        339.0,
+        311.0,
+        24,
+        28
+      ],
+      "fill": "#F7FCFE",
+      "stroke": "#365466",
+      "stroke_width": 1.1908396946564883,
+      "z_index": 25,
+      "preset": "foldedCorner"
+    },
+    {
+      "id": "construction-document-rule-0",
+      "type": "line",
+      "points_px": [
+        343.0,
+        321,
+        359.0,
+        321
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 30
+    },
+    {
+      "id": "construction-document-rule-1",
+      "type": "line",
+      "points_px": [
+        343.0,
+        325,
+        359.0,
+        325
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 30
+    },
+    {
+      "id": "construction-document-rule-2",
+      "type": "line",
+      "points_px": [
+        343.0,
+        329,
+        359.0,
+        329
+      ],
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 30
+    },
+    {
+      "id": "construction-clip",
+      "type": "roundRect",
+      "box_px": [
+        345,
+        309,
+        12,
+        5
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.0992366412213739,
+      "z_index": 25,
+      "source_corner_radius_px": 1.0,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "construction-bullet-0",
+      "type": "ellipse",
+      "box_px": [
+        343.0,
+        319.0,
+        2,
+        2
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 35
+    },
+    {
+      "id": "construction-bullet-1",
+      "type": "ellipse",
+      "box_px": [
+        343.0,
+        324.0,
+        2,
+        2
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 35
+    },
+    {
+      "id": "construction-bullet-2",
+      "type": "ellipse",
+      "box_px": [
+        343.0,
+        329.0,
+        2,
+        2
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 0.9160305343511449,
+      "z_index": 35
+    },
+    {
+      "id": "construction-gear",
+      "type": "shape",
+      "box_px": [
+        354,
+        326,
+        18,
+        18
+      ],
+      "fill": "#F4BE62",
+      "stroke": "#365466",
+      "stroke_width": 1.2824427480916027,
+      "z_index": 40,
+      "preset": "gear6"
+    }
+  ],
+  "images": [],
+  "asset_provenance": [],
+  "image2ppt_region_decomposition": {
+    "schema_version": "image2ppt-region-decomposition-v1",
+    "page_complexity": "structured",
+    "source_size_px": [
+      686,
+      393
+    ],
+    "regions": [
+      {
+        "id": "foundation",
+        "label": "Foundation layer",
+        "source_bbox_px": [
+          74,
+          13,
+          212,
+          159
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User approved the corrected resource categories and requires all components editable; native diagrams and pictograms implement that request.",
+        "manifest_ids": {
+          "shapes": [
+            "foundation-circle",
+            "langchain-window",
+            "langchain-topbar",
+            "window-dot-0",
+            "window-dot-1",
+            "window-dot-2",
+            "chain-link1",
+            "chain-link2",
+            "llama-silhouette",
+            "llama-leg-0",
+            "llama-leg-1",
+            "llama-leg-2",
+            "llama-tail",
+            "index-node-0",
+            "index-node-1",
+            "index-edge-1",
+            "index-node-2",
+            "index-edge-2",
+            "foundation-interface",
+            "foundation-retrieval"
+          ],
+          "text_boxes": [
+            "foundation-title",
+            "foundation-subtitle",
+            "langchain-code",
+            "langchain-name",
+            "llamaindex-name",
+            "interface-label",
+            "retrieval-label"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-foundation-circle",
+            "kind": "node-boundary",
+            "manifest_id": "foundation-circle",
+            "source_bbox_px": [
+              75.0,
+              13.0,
+              140,
+              140
+            ]
+          },
+          {
+            "id": "anchor-langchain-window",
+            "kind": "node-boundary",
+            "manifest_id": "langchain-window",
+            "source_bbox_px": [
+              103,
+              83,
+              25,
+              19
+            ]
+          },
+          {
+            "id": "anchor-langchain-topbar",
+            "kind": "node-boundary",
+            "manifest_id": "langchain-topbar",
+            "source_bbox_px": [
+              103,
+              80,
+              25,
+              5
+            ]
+          },
+          {
+            "id": "anchor-window-dot-0",
+            "kind": "node-boundary",
+            "manifest_id": "window-dot-0",
+            "source_bbox_px": [
+              106.4,
+              81.9,
+              1.2,
+              1.2
+            ]
+          },
+          {
+            "id": "anchor-window-dot-1",
+            "kind": "node-boundary",
+            "manifest_id": "window-dot-1",
+            "source_bbox_px": [
+              110.4,
+              81.9,
+              1.2,
+              1.2
+            ]
+          },
+          {
+            "id": "anchor-window-dot-2",
+            "kind": "node-boundary",
+            "manifest_id": "window-dot-2",
+            "source_bbox_px": [
+              114.4,
+              81.9,
+              1.2,
+              1.2
+            ]
+          },
+          {
+            "id": "anchor-chain-link1",
+            "kind": "node-boundary",
+            "manifest_id": "chain-link1",
+            "source_bbox_px": [
+              118.5,
+              98.0,
+              11,
+              6
+            ]
+          },
+          {
+            "id": "anchor-chain-link2",
+            "kind": "node-boundary",
+            "manifest_id": "chain-link2",
+            "source_bbox_px": [
+              122.5,
+              103.0,
+              11,
+              6
+            ]
+          },
+          {
+            "id": "anchor-llama-silhouette",
+            "kind": "node-boundary",
+            "manifest_id": "llama-silhouette",
+            "source_bbox_px": [
+              160,
+              80,
+              16,
+              22
+            ]
+          },
+          {
+            "id": "anchor-llama-leg-0",
+            "kind": "connector",
+            "manifest_id": "llama-leg-0",
+            "source_points_px": [
+              164,
+              99,
+              163,
+              108
+            ]
+          },
+          {
+            "id": "anchor-llama-leg-1",
+            "kind": "connector",
+            "manifest_id": "llama-leg-1",
+            "source_points_px": [
+              168,
+              99,
+              167,
+              108
+            ]
+          },
+          {
+            "id": "anchor-llama-leg-2",
+            "kind": "connector",
+            "manifest_id": "llama-leg-2",
+            "source_points_px": [
+              174,
+              99,
+              173,
+              108
+            ]
+          },
+          {
+            "id": "anchor-llama-tail",
+            "kind": "connector",
+            "manifest_id": "llama-tail",
+            "source_points_px": [
+              176,
+              95,
+              180,
+              92
+            ]
+          },
+          {
+            "id": "anchor-index-node-0",
+            "kind": "node-boundary",
+            "manifest_id": "index-node-0",
+            "source_bbox_px": [
+              183.0,
+              83.0,
+              4,
+              4
+            ]
+          },
+          {
+            "id": "anchor-index-node-1",
+            "kind": "node-boundary",
+            "manifest_id": "index-node-1",
+            "source_bbox_px": [
+              183.0,
+              93.0,
+              4,
+              4
+            ]
+          },
+          {
+            "id": "anchor-index-edge-1",
+            "kind": "connector",
+            "manifest_id": "index-edge-1",
+            "source_points_px": [
+              185,
+              87,
+              185,
+              93
+            ]
+          },
+          {
+            "id": "anchor-index-node-2",
+            "kind": "node-boundary",
+            "manifest_id": "index-node-2",
+            "source_bbox_px": [
+              183.0,
+              103.0,
+              4,
+              4
+            ]
+          },
+          {
+            "id": "anchor-index-edge-2",
+            "kind": "connector",
+            "manifest_id": "index-edge-2",
+            "source_points_px": [
+              185,
+              97,
+              185,
+              103
+            ]
+          },
+          {
+            "id": "anchor-foundation-interface",
+            "kind": "directed-connector",
+            "manifest_id": "foundation-interface",
+            "source_points_px": [
+              278,
+              132,
+              221,
+              115
+            ]
+          },
+          {
+            "id": "anchor-foundation-retrieval",
+            "kind": "directed-connector",
+            "manifest_id": "foundation-retrieval",
+            "source_points_px": [
+              216,
+              125,
+              275,
+              142
+            ]
+          }
+        ]
+      },
+      {
+        "id": "orchestration",
+        "label": "Orchestration layer",
+        "source_bbox_px": [
+          414,
+          13,
+          217,
+          160
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User approved the corrected resource categories and requires all components editable; native diagrams and pictograms implement that request.",
+        "manifest_ids": {
+          "shapes": [
+            "orchestration-circle",
+            "autogen-gear1",
+            "autogen-gear2",
+            "crew-member-0-head",
+            "crew-member-0-body",
+            "crew-member-1-head",
+            "crew-member-1-body",
+            "crew-member-2-head",
+            "crew-member-2-body",
+            "crew-link-0",
+            "crew-link-1",
+            "crew-link-2",
+            "metagpt-robot-head",
+            "metagpt-robot-eye-0",
+            "metagpt-robot-eye-1",
+            "metagpt-robot-antenna",
+            "metagpt-robot-tip",
+            "metagpt-robot-body",
+            "metagpt-robot-leg-0",
+            "metagpt-robot-leg-1",
+            "metagpt-terminal",
+            "role-definition",
+            "workflow-control"
+          ],
+          "text_boxes": [
+            "orchestration-title",
+            "orchestration-subtitle",
+            "autogen-name",
+            "crewai-name",
+            "metagpt-name",
+            "role-label",
+            "workflow-label"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-orchestration-circle",
+            "kind": "node-boundary",
+            "manifest_id": "orchestration-circle",
+            "source_bbox_px": [
+              489.0,
+              13.0,
+              140,
+              140
+            ]
+          },
+          {
+            "id": "anchor-autogen-gear1",
+            "kind": "node-boundary",
+            "manifest_id": "autogen-gear1",
+            "source_bbox_px": [
+              514,
+              74,
+              15,
+              15
+            ]
+          },
+          {
+            "id": "anchor-autogen-gear2",
+            "kind": "node-boundary",
+            "manifest_id": "autogen-gear2",
+            "source_bbox_px": [
+              525,
+              84,
+              18,
+              18
+            ]
+          },
+          {
+            "id": "anchor-crew-member-0-head",
+            "kind": "node-boundary",
+            "manifest_id": "crew-member-0-head",
+            "source_bbox_px": [
+              590.0,
+              76.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "id": "anchor-crew-member-0-body",
+            "kind": "node-boundary",
+            "manifest_id": "crew-member-0-body",
+            "source_bbox_px": [
+              588.8,
+              81.2,
+              6.4,
+              5.6000000000000005
+            ]
+          },
+          {
+            "id": "anchor-crew-member-1-head",
+            "kind": "node-boundary",
+            "manifest_id": "crew-member-1-head",
+            "source_bbox_px": [
+              581.0,
+              92.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "id": "anchor-crew-member-1-body",
+            "kind": "node-boundary",
+            "manifest_id": "crew-member-1-body",
+            "source_bbox_px": [
+              579.8,
+              97.2,
+              6.4,
+              5.6000000000000005
+            ]
+          },
+          {
+            "id": "anchor-crew-member-2-head",
+            "kind": "node-boundary",
+            "manifest_id": "crew-member-2-head",
+            "source_bbox_px": [
+              600.0,
+              92.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "id": "anchor-crew-member-2-body",
+            "kind": "node-boundary",
+            "manifest_id": "crew-member-2-body",
+            "source_bbox_px": [
+              598.8,
+              97.2,
+              6.4,
+              5.6000000000000005
+            ]
+          },
+          {
+            "id": "anchor-crew-link-0",
+            "kind": "connector",
+            "manifest_id": "crew-link-0",
+            "source_points_px": [
+              592,
+              78,
+              583,
+              94
+            ]
+          },
+          {
+            "id": "anchor-crew-link-1",
+            "kind": "connector",
+            "manifest_id": "crew-link-1",
+            "source_points_px": [
+              592,
+              78,
+              602,
+              94
+            ]
+          },
+          {
+            "id": "anchor-crew-link-2",
+            "kind": "connector",
+            "manifest_id": "crew-link-2",
+            "source_points_px": [
+              583,
+              94,
+              602,
+              94
+            ]
+          },
+          {
+            "id": "anchor-metagpt-robot-head",
+            "kind": "node-boundary",
+            "manifest_id": "metagpt-robot-head",
+            "source_bbox_px": [
+              553.96,
+              117.4,
+              10.08,
+              7.199999999999999
+            ]
+          },
+          {
+            "id": "anchor-metagpt-robot-eye-0",
+            "kind": "node-boundary",
+            "manifest_id": "metagpt-robot-eye-0",
+            "source_bbox_px": [
+              556.264,
+              120.424,
+              1.152,
+              1.152
+            ]
+          },
+          {
+            "id": "anchor-metagpt-robot-eye-1",
+            "kind": "node-boundary",
+            "manifest_id": "metagpt-robot-eye-1",
+            "source_bbox_px": [
+              560.584,
+              120.424,
+              1.152,
+              1.152
+            ]
+          },
+          {
+            "id": "anchor-metagpt-robot-antenna",
+            "kind": "connector",
+            "manifest_id": "metagpt-robot-antenna",
+            "source_points_px": [
+              559,
+              117.4,
+              559,
+              114.52
+            ]
+          },
+          {
+            "id": "anchor-metagpt-robot-tip",
+            "kind": "node-boundary",
+            "manifest_id": "metagpt-robot-tip",
+            "source_bbox_px": [
+              557.992,
+              112.792,
+              2.016,
+              2.016
+            ]
+          },
+          {
+            "id": "anchor-metagpt-robot-body",
+            "kind": "node-boundary",
+            "manifest_id": "metagpt-robot-body",
+            "source_bbox_px": [
+              554.68,
+              126.04,
+              8.64,
+              5.76
+            ]
+          },
+          {
+            "id": "anchor-metagpt-robot-leg-0",
+            "kind": "connector",
+            "manifest_id": "metagpt-robot-leg-0",
+            "source_points_px": [
+              556.84,
+              131.8,
+              556.84,
+              133.96
+            ]
+          },
+          {
+            "id": "anchor-metagpt-robot-leg-1",
+            "kind": "connector",
+            "manifest_id": "metagpt-robot-leg-1",
+            "source_points_px": [
+              561.16,
+              131.8,
+              561.16,
+              133.96
+            ]
+          },
+          {
+            "id": "anchor-metagpt-terminal",
+            "kind": "node-boundary",
+            "manifest_id": "metagpt-terminal",
+            "source_bbox_px": [
+              550,
+              131,
+              18,
+              7
+            ]
+          },
+          {
+            "id": "anchor-role-definition",
+            "kind": "directed-connector",
+            "manifest_id": "role-definition",
+            "source_points_px": [
+              424,
+              131,
+              482,
+              115
+            ]
+          },
+          {
+            "id": "anchor-workflow-control",
+            "kind": "directed-connector",
+            "manifest_id": "workflow-control",
+            "source_points_px": [
+              483,
+              125,
+              424,
+              141
+            ]
+          }
+        ]
+      },
+      {
+        "id": "applications",
+        "label": "Application resources",
+        "source_bbox_px": [
+          74,
+          208,
+          211,
+          165
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User approved the corrected resource categories and requires all components editable; native diagrams and pictograms implement that request.",
+        "manifest_ids": {
+          "shapes": [
+            "application-circle",
+            "storm-page",
+            "storm-page-rule-0",
+            "storm-page-rule-1",
+            "storm-page-rule-2",
+            "storm-bolt",
+            "costorm-node-0",
+            "costorm-node-1",
+            "costorm-node-2",
+            "costorm-link-0",
+            "costorm-link-1",
+            "costorm-link-2",
+            "costorm-bolt",
+            "ragflow-page",
+            "ragflow-page-rule-0",
+            "ragflow-page-rule-1",
+            "ragflow-page-rule-2",
+            "ragflow-lens-handle",
+            "ragflow-lens-rim",
+            "ragflow-lens-glass",
+            "synthesis-link",
+            "document-link"
+          ],
+          "text_boxes": [
+            "application-title",
+            "application-subtitle",
+            "storm-name",
+            "costorm-name",
+            "ragflow-name",
+            "synthesis-label",
+            "document-label"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-application-circle",
+            "kind": "node-boundary",
+            "manifest_id": "application-circle",
+            "source_bbox_px": [
+              75.0,
+              233.0,
+              140,
+              140
+            ]
+          },
+          {
+            "id": "anchor-storm-page",
+            "kind": "node-boundary",
+            "manifest_id": "storm-page",
+            "source_bbox_px": [
+              95.0,
+              299.0,
+              18,
+              24
+            ]
+          },
+          {
+            "id": "anchor-storm-page-rule-0",
+            "kind": "connector",
+            "manifest_id": "storm-page-rule-0",
+            "source_points_px": [
+              99.0,
+              307,
+              109.0,
+              307
+            ]
+          },
+          {
+            "id": "anchor-storm-page-rule-1",
+            "kind": "connector",
+            "manifest_id": "storm-page-rule-1",
+            "source_points_px": [
+              99.0,
+              311,
+              109.0,
+              311
+            ]
+          },
+          {
+            "id": "anchor-storm-page-rule-2",
+            "kind": "connector",
+            "manifest_id": "storm-page-rule-2",
+            "source_points_px": [
+              99.0,
+              315,
+              109.0,
+              315
+            ]
+          },
+          {
+            "id": "anchor-storm-bolt",
+            "kind": "node-boundary",
+            "manifest_id": "storm-bolt",
+            "source_bbox_px": [
+              88.2,
+              297.4,
+              9.600000000000001,
+              19.200000000000003
+            ]
+          },
+          {
+            "id": "anchor-costorm-node-0",
+            "kind": "node-boundary",
+            "manifest_id": "costorm-node-0",
+            "source_bbox_px": [
+              142.0,
+              296.0,
+              6,
+              6
+            ]
+          },
+          {
+            "id": "anchor-costorm-node-1",
+            "kind": "node-boundary",
+            "manifest_id": "costorm-node-1",
+            "source_bbox_px": [
+              135.0,
+              311.0,
+              6,
+              6
+            ]
+          },
+          {
+            "id": "anchor-costorm-node-2",
+            "kind": "node-boundary",
+            "manifest_id": "costorm-node-2",
+            "source_bbox_px": [
+              150.0,
+              311.0,
+              6,
+              6
+            ]
+          },
+          {
+            "id": "anchor-costorm-link-0",
+            "kind": "connector",
+            "manifest_id": "costorm-link-0",
+            "source_points_px": [
+              145,
+              299,
+              138,
+              314
+            ]
+          },
+          {
+            "id": "anchor-costorm-link-1",
+            "kind": "connector",
+            "manifest_id": "costorm-link-1",
+            "source_points_px": [
+              145,
+              299,
+              153,
+              314
+            ]
+          },
+          {
+            "id": "anchor-costorm-link-2",
+            "kind": "connector",
+            "manifest_id": "costorm-link-2",
+            "source_points_px": [
+              138,
+              314,
+              153,
+              314
+            ]
+          },
+          {
+            "id": "anchor-costorm-bolt",
+            "kind": "node-boundary",
+            "manifest_id": "costorm-bolt",
+            "source_bbox_px": [
+              129.1,
+              295.2,
+              7.800000000000001,
+              15.600000000000001
+            ]
+          },
+          {
+            "id": "anchor-ragflow-page",
+            "kind": "node-boundary",
+            "manifest_id": "ragflow-page",
+            "source_bbox_px": [
+              177.0,
+              295.0,
+              20,
+              24
+            ]
+          },
+          {
+            "id": "anchor-ragflow-page-rule-0",
+            "kind": "connector",
+            "manifest_id": "ragflow-page-rule-0",
+            "source_points_px": [
+              181.0,
+              303,
+              193.0,
+              303
+            ]
+          },
+          {
+            "id": "anchor-ragflow-page-rule-1",
+            "kind": "connector",
+            "manifest_id": "ragflow-page-rule-1",
+            "source_points_px": [
+              181.0,
+              307,
+              193.0,
+              307
+            ]
+          },
+          {
+            "id": "anchor-ragflow-page-rule-2",
+            "kind": "connector",
+            "manifest_id": "ragflow-page-rule-2",
+            "source_points_px": [
+              181.0,
+              311,
+              193.0,
+              311
+            ]
+          },
+          {
+            "id": "anchor-ragflow-lens-handle",
+            "kind": "connector",
+            "manifest_id": "ragflow-lens-handle",
+            "source_points_px": [
+              198.2,
+              318.2,
+              203.9,
+              323.9
+            ]
+          },
+          {
+            "id": "anchor-ragflow-lens-rim",
+            "kind": "node-boundary",
+            "manifest_id": "ragflow-lens-rim",
+            "source_bbox_px": [
+              188.0,
+              308.0,
+              12,
+              12
+            ]
+          },
+          {
+            "id": "anchor-ragflow-lens-glass",
+            "kind": "node-boundary",
+            "manifest_id": "ragflow-lens-glass",
+            "source_bbox_px": [
+              190.0,
+              310.0,
+              8,
+              8
+            ]
+          },
+          {
+            "id": "anchor-synthesis-link",
+            "kind": "directed-connector",
+            "manifest_id": "synthesis-link",
+            "source_points_px": [
+              217,
+              251,
+              276,
+              235
+            ]
+          },
+          {
+            "id": "anchor-document-link",
+            "kind": "directed-connector",
+            "manifest_id": "document-link",
+            "source_points_px": [
+              276,
+              245,
+              221,
+              262
+            ]
+          }
+        ],
+        "compound_diagram": {
+          "kind": "node-link-diagram",
+          "object_inventory_complete": true,
+          "measurement_reviewed": true,
+          "native_object_policy": "measured-simple-objects-native",
+          "nodes": [
+            {
+              "id": "costorm-node-0",
+              "manifest_id": "costorm-node-0",
+              "geometry": "circle",
+              "source_center_px": [
+                145.0,
+                299.0
+              ],
+              "source_size_px": [
+                6,
+                6
+              ]
+            },
+            {
+              "id": "costorm-node-1",
+              "manifest_id": "costorm-node-1",
+              "geometry": "circle",
+              "source_center_px": [
+                138.0,
+                314.0
+              ],
+              "source_size_px": [
+                6,
+                6
+              ]
+            },
+            {
+              "id": "costorm-node-2",
+              "manifest_id": "costorm-node-2",
+              "geometry": "circle",
+              "source_center_px": [
+                153.0,
+                314.0
+              ],
+              "source_size_px": [
+                6,
+                6
+              ]
+            }
+          ],
+          "edges": [
+            {
+              "id": "costorm-link-0",
+              "manifest_id": "costorm-link-0",
+              "source_points_px": [
+                145,
+                299,
+                138,
+                314
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "costorm-link-1",
+              "manifest_id": "costorm-link-1",
+              "source_points_px": [
+                145,
+                299,
+                153,
+                314
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "costorm-link-2",
+              "manifest_id": "costorm-link-2",
+              "source_points_px": [
+                138,
+                314,
+                153,
+                314
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            }
+          ]
+        }
+      },
+      {
+        "id": "evaluation",
+        "label": "Benchmarks and evaluation tools",
+        "source_bbox_px": [
+          415,
+          210,
+          225,
+          173
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User approved the corrected resource categories and requires all components editable; native diagrams and pictograms implement that request.",
+        "manifest_ids": {
+          "shapes": [
+            "evaluation-circle",
+            "hotpot-db",
+            "hotpot-top",
+            "hotpot-lens-handle",
+            "hotpot-lens-rim",
+            "hotpot-lens-glass",
+            "coqa-bubble",
+            "mmlu-brain-lobe-0",
+            "mmlu-brain-lobe-1",
+            "mmlu-brain-lobe-2",
+            "mmlu-brain-lobe-3",
+            "mmlu-brain-lobe-4",
+            "mmlu-brain-lobe-5",
+            "mmlu-brain-lobe-6",
+            "mmlu-brain-lobe-7",
+            "mmlu-brain-processor",
+            "mmlu-brain-pin-0",
+            "mmlu-brain-pin-1",
+            "musique-node-0",
+            "musique-node-1",
+            "musique-node-2",
+            "musique-edge1",
+            "musique-edge2",
+            "agentbench-head",
+            "agentbench-eye-0",
+            "agentbench-eye-1",
+            "agentbench-antenna",
+            "agentbench-tip",
+            "agentbench-body",
+            "agentbench-leg-0",
+            "agentbench-leg-1",
+            "gaia-clipboard",
+            "gaia-clip",
+            "gaia-check-0",
+            "gaia-rule-0",
+            "gaia-check-1",
+            "gaia-rule-1",
+            "gaia-check-2",
+            "gaia-rule-2",
+            "webarena-globe-outer",
+            "webarena-globe-meridian",
+            "webarena-globe-parallel-0",
+            "webarena-globe-parallel-1",
+            "webarena-globe-parallel-2",
+            "evaluation-tool-divider",
+            "autorag-gear",
+            "answer-assessment",
+            "rag-assessment"
+          ],
+          "text_boxes": [
+            "evaluation-title",
+            "qa-benchmark-group",
+            "qa-name-0",
+            "coqa-bubble-word",
+            "qa-name-1",
+            "qa-name-2",
+            "qa-name-3",
+            "agent-benchmark-group",
+            "agent-name-0",
+            "agent-name-1",
+            "agent-name-2",
+            "autorag-tool",
+            "answer-label",
+            "rag-label"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-evaluation-circle",
+            "kind": "node-boundary",
+            "manifest_id": "evaluation-circle",
+            "source_bbox_px": [
+              479.0,
+              223.0,
+              160,
+              160
+            ]
+          },
+          {
+            "id": "anchor-hotpot-db",
+            "kind": "node-boundary",
+            "manifest_id": "hotpot-db",
+            "source_bbox_px": [
+              501,
+              285,
+              13,
+              13
+            ]
+          },
+          {
+            "id": "anchor-hotpot-top",
+            "kind": "node-boundary",
+            "manifest_id": "hotpot-top",
+            "source_bbox_px": [
+              501.0,
+              282.5,
+              13,
+              5
+            ]
+          },
+          {
+            "id": "anchor-hotpot-lens-handle",
+            "kind": "connector",
+            "manifest_id": "hotpot-lens-handle",
+            "source_points_px": [
+              515.8,
+              297.8,
+              519.6,
+              301.6
+            ]
+          },
+          {
+            "id": "anchor-hotpot-lens-rim",
+            "kind": "node-boundary",
+            "manifest_id": "hotpot-lens-rim",
+            "source_bbox_px": [
+              509.0,
+              291.0,
+              8,
+              8
+            ]
+          },
+          {
+            "id": "anchor-hotpot-lens-glass",
+            "kind": "node-boundary",
+            "manifest_id": "hotpot-lens-glass",
+            "source_bbox_px": [
+              511.0,
+              293.0,
+              4,
+              4
+            ]
+          },
+          {
+            "id": "anchor-coqa-bubble",
+            "kind": "node-boundary",
+            "manifest_id": "coqa-bubble",
+            "source_bbox_px": [
+              532,
+              283,
+              20,
+              15
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-lobe-0",
+            "kind": "node-boundary",
+            "manifest_id": "mmlu-brain-lobe-0",
+            "source_bbox_px": [
+              569.24,
+              283.97999999999996,
+              5.2,
+              5.720000000000001
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-lobe-1",
+            "kind": "node-boundary",
+            "manifest_id": "mmlu-brain-lobe-1",
+            "source_bbox_px": [
+              573.4,
+              281.9,
+              5.2,
+              5.720000000000001
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-lobe-2",
+            "kind": "node-boundary",
+            "manifest_id": "mmlu-brain-lobe-2",
+            "source_bbox_px": [
+              577.56,
+              283.97999999999996,
+              5.2,
+              5.720000000000001
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-lobe-3",
+            "kind": "node-boundary",
+            "manifest_id": "mmlu-brain-lobe-3",
+            "source_bbox_px": [
+              568.1999999999999,
+              288.65999999999997,
+              5.2,
+              5.720000000000001
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-lobe-4",
+            "kind": "node-boundary",
+            "manifest_id": "mmlu-brain-lobe-4",
+            "source_bbox_px": [
+              578.6,
+              288.65999999999997,
+              5.2,
+              5.720000000000001
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-lobe-5",
+            "kind": "node-boundary",
+            "manifest_id": "mmlu-brain-lobe-5",
+            "source_bbox_px": [
+              569.76,
+              292.82,
+              5.2,
+              5.720000000000001
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-lobe-6",
+            "kind": "node-boundary",
+            "manifest_id": "mmlu-brain-lobe-6",
+            "source_bbox_px": [
+              573.4,
+              294.38,
+              5.2,
+              5.720000000000001
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-lobe-7",
+            "kind": "node-boundary",
+            "manifest_id": "mmlu-brain-lobe-7",
+            "source_bbox_px": [
+              577.04,
+              292.82,
+              5.2,
+              5.720000000000001
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-processor",
+            "kind": "node-boundary",
+            "manifest_id": "mmlu-brain-processor",
+            "source_bbox_px": [
+              572.88,
+              287.36,
+              6.24,
+              7.28
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-pin-0",
+            "kind": "connector",
+            "manifest_id": "mmlu-brain-pin-0",
+            "source_points_px": [
+              571.32,
+              289.44,
+              572.724,
+              289.44
+            ]
+          },
+          {
+            "id": "anchor-mmlu-brain-pin-1",
+            "kind": "connector",
+            "manifest_id": "mmlu-brain-pin-1",
+            "source_points_px": [
+              580.68,
+              289.44,
+              579.276,
+              289.44
+            ]
+          },
+          {
+            "id": "anchor-musique-node-0",
+            "kind": "node-boundary",
+            "manifest_id": "musique-node-0",
+            "source_bbox_px": [
+              599.5,
+              288.5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "anchor-musique-node-1",
+            "kind": "node-boundary",
+            "manifest_id": "musique-node-1",
+            "source_bbox_px": [
+              606.5,
+              288.5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "anchor-musique-node-2",
+            "kind": "node-boundary",
+            "manifest_id": "musique-node-2",
+            "source_bbox_px": [
+              613.5,
+              288.5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "anchor-musique-edge1",
+            "kind": "connector",
+            "manifest_id": "musique-edge1",
+            "source_points_px": [
+              604,
+              291,
+              607,
+              291
+            ]
+          },
+          {
+            "id": "anchor-musique-edge2",
+            "kind": "connector",
+            "manifest_id": "musique-edge2",
+            "source_points_px": [
+              611,
+              291,
+              614,
+              291
+            ]
+          },
+          {
+            "id": "anchor-agentbench-head",
+            "kind": "node-boundary",
+            "manifest_id": "agentbench-head",
+            "source_bbox_px": [
+              522.78,
+              334.7,
+              6.44,
+              4.6000000000000005
+            ]
+          },
+          {
+            "id": "anchor-agentbench-eye-0",
+            "kind": "node-boundary",
+            "manifest_id": "agentbench-eye-0",
+            "source_bbox_px": [
+              524.252,
+              336.632,
+              0.7360000000000001,
+              0.7360000000000001
+            ]
+          },
+          {
+            "id": "anchor-agentbench-eye-1",
+            "kind": "node-boundary",
+            "manifest_id": "agentbench-eye-1",
+            "source_bbox_px": [
+              527.012,
+              336.632,
+              0.7360000000000001,
+              0.7360000000000001
+            ]
+          },
+          {
+            "id": "anchor-agentbench-antenna",
+            "kind": "connector",
+            "manifest_id": "agentbench-antenna",
+            "source_points_px": [
+              526,
+              334.7,
+              526,
+              332.86
+            ]
+          },
+          {
+            "id": "anchor-agentbench-tip",
+            "kind": "node-boundary",
+            "manifest_id": "agentbench-tip",
+            "source_bbox_px": [
+              525.356,
+              331.756,
+              1.288,
+              1.288
+            ]
+          },
+          {
+            "id": "anchor-agentbench-body",
+            "kind": "node-boundary",
+            "manifest_id": "agentbench-body",
+            "source_bbox_px": [
+              523.24,
+              340.22,
+              5.5200000000000005,
+              3.68
+            ]
+          },
+          {
+            "id": "anchor-agentbench-leg-0",
+            "kind": "connector",
+            "manifest_id": "agentbench-leg-0",
+            "source_points_px": [
+              524.62,
+              343.9,
+              524.62,
+              345.28
+            ]
+          },
+          {
+            "id": "anchor-agentbench-leg-1",
+            "kind": "connector",
+            "manifest_id": "agentbench-leg-1",
+            "source_points_px": [
+              527.38,
+              343.9,
+              527.38,
+              345.28
+            ]
+          },
+          {
+            "id": "anchor-gaia-clipboard",
+            "kind": "node-boundary",
+            "manifest_id": "gaia-clipboard",
+            "source_bbox_px": [
+              552,
+              328,
+              15,
+              19
+            ]
+          },
+          {
+            "id": "anchor-gaia-clip",
+            "kind": "node-boundary",
+            "manifest_id": "gaia-clip",
+            "source_bbox_px": [
+              556,
+              326,
+              7,
+              4
+            ]
+          },
+          {
+            "id": "anchor-gaia-check-0",
+            "kind": "connector",
+            "manifest_id": "gaia-check-0",
+            "source_points_px": [
+              554,
+              333,
+              555,
+              334
+            ]
+          },
+          {
+            "id": "anchor-gaia-rule-0",
+            "kind": "connector",
+            "manifest_id": "gaia-rule-0",
+            "source_points_px": [
+              558,
+              333,
+              564,
+              333
+            ]
+          },
+          {
+            "id": "anchor-gaia-check-1",
+            "kind": "connector",
+            "manifest_id": "gaia-check-1",
+            "source_points_px": [
+              554,
+              337,
+              555,
+              338
+            ]
+          },
+          {
+            "id": "anchor-gaia-rule-1",
+            "kind": "connector",
+            "manifest_id": "gaia-rule-1",
+            "source_points_px": [
+              558,
+              337,
+              564,
+              337
+            ]
+          },
+          {
+            "id": "anchor-gaia-check-2",
+            "kind": "connector",
+            "manifest_id": "gaia-check-2",
+            "source_points_px": [
+              554,
+              341,
+              555,
+              342
+            ]
+          },
+          {
+            "id": "anchor-gaia-rule-2",
+            "kind": "connector",
+            "manifest_id": "gaia-rule-2",
+            "source_points_px": [
+              558,
+              341,
+              564,
+              341
+            ]
+          },
+          {
+            "id": "anchor-webarena-globe-outer",
+            "kind": "node-boundary",
+            "manifest_id": "webarena-globe-outer",
+            "source_bbox_px": [
+              583.0,
+              328.0,
+              18,
+              18
+            ]
+          },
+          {
+            "id": "anchor-webarena-globe-meridian",
+            "kind": "node-boundary",
+            "manifest_id": "webarena-globe-meridian",
+            "source_bbox_px": [
+              587.725,
+              328.0,
+              8.549999999999999,
+              18
+            ]
+          },
+          {
+            "id": "anchor-webarena-globe-parallel-0",
+            "kind": "connector",
+            "manifest_id": "webarena-globe-parallel-0",
+            "source_points_px": [
+              584.35,
+              332.95,
+              599.65,
+              332.95
+            ]
+          },
+          {
+            "id": "anchor-webarena-globe-parallel-1",
+            "kind": "connector",
+            "manifest_id": "webarena-globe-parallel-1",
+            "source_points_px": [
+              584.35,
+              337,
+              599.65,
+              337
+            ]
+          },
+          {
+            "id": "anchor-webarena-globe-parallel-2",
+            "kind": "connector",
+            "manifest_id": "webarena-globe-parallel-2",
+            "source_points_px": [
+              584.35,
+              341.05,
+              599.65,
+              341.05
+            ]
+          },
+          {
+            "id": "anchor-evaluation-tool-divider",
+            "kind": "connector",
+            "manifest_id": "evaluation-tool-divider",
+            "source_points_px": [
+              524,
+              362,
+              594,
+              362
+            ]
+          },
+          {
+            "id": "anchor-autorag-gear",
+            "kind": "node-boundary",
+            "manifest_id": "autorag-gear",
+            "source_bbox_px": [
+              525,
+              367,
+              9,
+              9
+            ]
+          },
+          {
+            "id": "anchor-answer-assessment",
+            "kind": "directed-connector",
+            "manifest_id": "answer-assessment",
+            "source_points_px": [
+              484,
+              251,
+              424,
+              235
+            ]
+          },
+          {
+            "id": "anchor-rag-assessment",
+            "kind": "directed-connector",
+            "manifest_id": "rag-assessment",
+            "source_points_px": [
+              423,
+              245,
+              480,
+              261
+            ]
+          }
+        ]
+      },
+      {
+        "id": "system",
+        "label": "Central system and construction outcome",
+        "source_bbox_px": [
+          207,
+          130,
+          291,
+          263
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User approved the corrected resource categories and requires all components editable; native diagrams and pictograms implement that request.",
+        "manifest_ids": {
+          "shapes": [
+            "central-hexagon",
+            "system-brain-lobe-0",
+            "system-brain-lobe-1",
+            "system-brain-lobe-2",
+            "system-brain-lobe-3",
+            "system-brain-lobe-4",
+            "system-brain-lobe-5",
+            "system-brain-lobe-6",
+            "system-brain-lobe-7",
+            "system-brain-processor",
+            "system-brain-pin-0",
+            "system-brain-pin-1",
+            "construction-arrow",
+            "construction-document",
+            "construction-document-rule-0",
+            "construction-document-rule-1",
+            "construction-document-rule-2",
+            "construction-clip",
+            "construction-bullet-0",
+            "construction-bullet-1",
+            "construction-bullet-2",
+            "construction-gear"
+          ],
+          "text_boxes": [
+            "system-ai",
+            "system-title",
+            "construction-outcome",
+            "interpretation-note"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-central-hexagon",
+            "kind": "node-boundary",
+            "manifest_id": "central-hexagon",
+            "source_bbox_px": [
+              282,
+              130,
+              140,
+              115
+            ]
+          },
+          {
+            "id": "anchor-system-brain-lobe-0",
+            "kind": "node-boundary",
+            "manifest_id": "system-brain-lobe-0",
+            "source_bbox_px": [
+              339.0,
+              151.5,
+              10,
+              11
+            ]
+          },
+          {
+            "id": "anchor-system-brain-lobe-1",
+            "kind": "node-boundary",
+            "manifest_id": "system-brain-lobe-1",
+            "source_bbox_px": [
+              347.0,
+              147.5,
+              10,
+              11
+            ]
+          },
+          {
+            "id": "anchor-system-brain-lobe-2",
+            "kind": "node-boundary",
+            "manifest_id": "system-brain-lobe-2",
+            "source_bbox_px": [
+              355.0,
+              151.5,
+              10,
+              11
+            ]
+          },
+          {
+            "id": "anchor-system-brain-lobe-3",
+            "kind": "node-boundary",
+            "manifest_id": "system-brain-lobe-3",
+            "source_bbox_px": [
+              337.0,
+              160.5,
+              10,
+              11
+            ]
+          },
+          {
+            "id": "anchor-system-brain-lobe-4",
+            "kind": "node-boundary",
+            "manifest_id": "system-brain-lobe-4",
+            "source_bbox_px": [
+              357.0,
+              160.5,
+              10,
+              11
+            ]
+          },
+          {
+            "id": "anchor-system-brain-lobe-5",
+            "kind": "node-boundary",
+            "manifest_id": "system-brain-lobe-5",
+            "source_bbox_px": [
+              340.0,
+              168.5,
+              10,
+              11
+            ]
+          },
+          {
+            "id": "anchor-system-brain-lobe-6",
+            "kind": "node-boundary",
+            "manifest_id": "system-brain-lobe-6",
+            "source_bbox_px": [
+              347.0,
+              171.5,
+              10,
+              11
+            ]
+          },
+          {
+            "id": "anchor-system-brain-lobe-7",
+            "kind": "node-boundary",
+            "manifest_id": "system-brain-lobe-7",
+            "source_bbox_px": [
+              354.0,
+              168.5,
+              10,
+              11
+            ]
+          },
+          {
+            "id": "anchor-system-brain-processor",
+            "kind": "node-boundary",
+            "manifest_id": "system-brain-processor",
+            "source_bbox_px": [
+              346,
+              158,
+              12,
+              14
+            ]
+          },
+          {
+            "id": "anchor-system-brain-pin-0",
+            "kind": "connector",
+            "manifest_id": "system-brain-pin-0",
+            "source_points_px": [
+              343,
+              162,
+              345.7,
+              162
+            ]
+          },
+          {
+            "id": "anchor-system-brain-pin-1",
+            "kind": "connector",
+            "manifest_id": "system-brain-pin-1",
+            "source_points_px": [
+              361,
+              162,
+              358.3,
+              162
+            ]
+          },
+          {
+            "id": "anchor-construction-arrow",
+            "kind": "directed-connector",
+            "manifest_id": "construction-arrow",
+            "source_points_px": [
+              352,
+              251,
+              352,
+              304
+            ]
+          },
+          {
+            "id": "anchor-construction-document",
+            "kind": "node-boundary",
+            "manifest_id": "construction-document",
+            "source_bbox_px": [
+              339.0,
+              311.0,
+              24,
+              28
+            ]
+          },
+          {
+            "id": "anchor-construction-document-rule-0",
+            "kind": "connector",
+            "manifest_id": "construction-document-rule-0",
+            "source_points_px": [
+              343.0,
+              321,
+              359.0,
+              321
+            ]
+          },
+          {
+            "id": "anchor-construction-document-rule-1",
+            "kind": "connector",
+            "manifest_id": "construction-document-rule-1",
+            "source_points_px": [
+              343.0,
+              325,
+              359.0,
+              325
+            ]
+          },
+          {
+            "id": "anchor-construction-document-rule-2",
+            "kind": "connector",
+            "manifest_id": "construction-document-rule-2",
+            "source_points_px": [
+              343.0,
+              329,
+              359.0,
+              329
+            ]
+          },
+          {
+            "id": "anchor-construction-clip",
+            "kind": "node-boundary",
+            "manifest_id": "construction-clip",
+            "source_bbox_px": [
+              345,
+              309,
+              12,
+              5
+            ]
+          },
+          {
+            "id": "anchor-construction-bullet-0",
+            "kind": "node-boundary",
+            "manifest_id": "construction-bullet-0",
+            "source_bbox_px": [
+              343.0,
+              319.0,
+              2,
+              2
+            ]
+          },
+          {
+            "id": "anchor-construction-bullet-1",
+            "kind": "node-boundary",
+            "manifest_id": "construction-bullet-1",
+            "source_bbox_px": [
+              343.0,
+              324.0,
+              2,
+              2
+            ]
+          },
+          {
+            "id": "anchor-construction-bullet-2",
+            "kind": "node-boundary",
+            "manifest_id": "construction-bullet-2",
+            "source_bbox_px": [
+              343.0,
+              329.0,
+              2,
+              2
+            ]
+          },
+          {
+            "id": "anchor-construction-gear",
+            "kind": "node-boundary",
+            "manifest_id": "construction-gear",
+            "source_bbox_px": [
+              354,
+              326,
+              18,
+              18
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "content_corrections": {
+    "foundation_subtitle": "Model & Retrieval Components",
+    "evaluation_header": "Benchmarks & Evaluation Tools",
+    "benchmark_groups": [
+      "QA & knowledge benchmarks",
+      "Agent-task benchmarks"
+    ],
+    "added_benchmark": "MuSiQue",
+    "tool": "AutoRAG",
+    "relation_labels": [
+      "Answer & Task Assessment",
+      "RAG Component Evaluation"
+    ],
+    "outcome": "System Construction & Evaluation",
+    "interpretation": "Conceptual map, resources may span layers, process assessment requires trace-level measures."
+  },
+  "content_sources": [
+    "https://aclanthology.org/2024.naacl-long.347/",
+    "https://aclanthology.org/2024.emnlp-main.554/",
+    "https://github.com/infiniflow/ragflow/tree/v0.6.0",
+    "https://arxiv.org/abs/2410.20878",
+    "https://aclanthology.org/D18-1259/",
+    "https://arxiv.org/abs/1808.07042",
+    "https://arxiv.org/abs/2009.03300",
+    "https://aclanthology.org/2022.tacl-1.31/",
+    "https://arxiv.org/abs/2308.03688",
+    "https://arxiv.org/abs/2311.12983",
+    "https://arxiv.org/abs/2307.13854"
+  ]
+}

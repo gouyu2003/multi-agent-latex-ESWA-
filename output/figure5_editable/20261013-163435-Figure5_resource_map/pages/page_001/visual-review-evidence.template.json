@@ -1,0 +1,21 @@
+{
+  "schema_version": "image2ppt-visual-review-evidence-v1",
+  "pages": [
+    {
+      "page_id": "page_001",
+      "source": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\source.png",
+      "rendered": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\render\\rendered.png",
+      "source_sha256": "b3ee3935276d797d75b864b5358687962a44998919080e5688669659cf283151",
+      "rendered_sha256": "e28fac8ca3517218c2a3e7bb7b03bf06db24a27069e0a55392207164c8c701e3",
+      "reviewed": false,
+      "checks": {
+        "composition_layout": "",
+        "text_content": "",
+        "object_completeness": "",
+        "render_integrity": "",
+        "arrow_geometry": "",
+        "compound_diagram": ""
+      }
+    }
+  ]
+}

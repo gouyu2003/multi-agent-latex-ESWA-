@@ -1,0 +1,78 @@
+{
+  "schema_version": "image2ppt-region-decomposition-report-v1",
+  "passed": true,
+  "pages": [
+    {
+      "manifest": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\manifest.json",
+      "passed": true,
+      "page_complexity": "structured",
+      "region_count": 5,
+      "regions": [
+        {
+          "id": "foundation",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 27,
+          "protected_anchor_count": 20,
+          "compound_diagram": false,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "orchestration",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 30,
+          "protected_anchor_count": 23,
+          "compound_diagram": false,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "applications",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 29,
+          "protected_anchor_count": 22,
+          "compound_diagram": true,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "evaluation",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 62,
+          "protected_anchor_count": 48,
+          "compound_diagram": false,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "system",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 26,
+          "protected_anchor_count": 22,
+          "compound_diagram": false,
+          "passed": true,
+          "errors": []
+        }
+      ],
+      "summary": {
+        "manifest_objects": 174,
+        "assigned_objects": 174,
+        "protected_anchors": 135,
+        "compound_regions": 1
+      },
+      "warnings": [],
+      "errors": []
+    }
+  ],
+  "summary": {
+    "pages": 1,
+    "regions": 5,
+    "compound_regions": 1
+  },
+  "errors": []
+}

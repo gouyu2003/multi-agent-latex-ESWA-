@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-13",
+  "baseline_head": "f67f29499dd54822305576d2230ce5154f8dedb3",
+  "validation_scope": "standalone figure and source preservation",
+  "compilation_status": "PENDING_USER_VSCODE",
+  "checks": {
+    "source_inputs_match_recorded_hashes": true,
+    "pool_partition_85_78_7": true,
+    "cited_roles_13_15_42_8": true,
+    "pool_roles_13_17_46_9": true,
+    "source_csv_matches_summary": true,
+    "active_citation_commands_and_keys_preserved": true,
+    "136_commands_180_key_occurrences": true,
+    "protected_tracked_files_unchanged": true,
+    "historical_summary_not_used_as_figure_data": true,
+    "figure_pdf_has_all_expected_labels_and_counts": true,
+    "historical_flow_absent_from_export": true,
+    "figure_pdf_is_vector": true,
+    "figure_pdf_140_by_48_mm": true,
+    "figure_pdf_uses_Arial": true,
+    "figure_fonts_embedded": true,
+    "collision_audit_pass": true,
+    "rendered_bar_widths_proportional_to_13_15_42_8": true
+  },
+  "all_passed": true,
+  "changed_preexisting_tracked_files": [
+    "fig_reference_corpus.pdf",
+    "fig_reference_corpus.png",
+    "fig_reference_corpus.svg",
+    "manuscript.tex",
+    "tools/generate_reference_figures.py"
+  ],
+  "unexpected_protected_changes": [],
+  "manuscript_pages": null,
+  "figure_page": null,
+  "figure_pdf_font_sizes_pt": [
+    7.1,
+    7.8
+  ],
+  "final_figure_font_sizes_pt": [],
+  "overfull_before": [
+    "Overfull \\hbox (123.62721pt too wide) detected at line 102",
+    "Overfull \\hbox (0.76843pt too wide) in paragraph at lines 595--595",
+    "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2132--2139"
+  ],
+  "overfull_after": null,
+  "underfull_before": 69,
+  "underfull_after": null,
+  "source_and_output_sha256": {
+    "manuscript.tex": "3acc39b05e660d1517dada3b59c316b2a1b84a38beffea1b132a9a81bfb02115",
+    "references.bib": "ef7c289c90c183c5f72f5484ee31b64d675a0f7a8dbfc325803d1bdc1d7b9a59",
+    "literature_audit.csv": "4ba8a1cee5ba2925f32dbd9dfb5909f783b3969bed621ddcb60ce5090f991a37",
+    "figure_source_data.csv": "fe4c3cf6e4fcffee795a9df563505e2b8a01c38b3cfe2a5b69503ec89c627d92",
+    "fig_reference_corpus.pdf": "8f7b68538bfe9682aefb1a3c3961b4240fd7dc692812895bb44b60fffbf9e592",
+    "fig_reference_corpus.svg": "c64cb9ab58ba08101d65d10f26c4ff5c6dc5308187697e376a0659adad810680",
+    "fig_reference_corpus.png": "8ed01cb1501cd9f867c46068d434d439e5824ee6e5f4b579d746978ddc10d1bc",
+    "figure1_source_data.csv": "04ea0f150647f9369f3d9ca53ca210dcedf10526fee581ee3df7e75899e7c6b0",
+    "tools/generate_reference_figures.py": "0040f3cc85f2bc8abe17835533e23ec945e52559c132f3bbf12f61c631b3a4d6"
+  },
+  "visual_review": {
+    "status": "reviewed",
+    "scope": "standalone current-only figure",
+    "observations": [
+      "Historical nodes, exclusion branch and dashed transition removed.",
+      "Pool branches and horizontal proportional bar are legible with no clipping or overlaps.",
+      "The narrow T segment contains its full label."
+    ],
+    "manuscript_layout": "Pending user VSCode compilation and review"
+  }
+}

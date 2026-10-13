@@ -1,0 +1,31 @@
+{
+  "slides": 1,
+  "native_shapes": 165,
+  "native_connectors": 9,
+  "text_boxes": 39,
+  "pictures": 0,
+  "media_files": [],
+  "fonts": [
+    "Arial",
+    "Arial Narrow"
+  ],
+  "resource_names": {
+    "LangChain": true,
+    "LlamaIndex": true,
+    "AutoGen": true,
+    "CrewAI": true,
+    "MetaGPT": true,
+    "STORM": true,
+    "Co-STORM": true,
+    "RAGFlow": true,
+    "HotpotQA": true,
+    "CoQA": true,
+    "MMLU": true,
+    "MuSiQue": true,
+    "AgentBench": true,
+    "GAIA": true,
+    "WebArena": true,
+    "AutoRAG": true
+  },
+  "content_corrections_present": true
+}

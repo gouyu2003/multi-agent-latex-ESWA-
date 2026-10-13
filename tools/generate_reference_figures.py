@@ -1,11 +1,15 @@
 """Generate the reference-corpus and core-study summary figures."""
 
 from pathlib import Path
+import argparse
 import csv
+import hashlib
+import json
+import sys
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-from matplotlib.patches import FancyBboxPatch
+from matplotlib.patches import FancyBboxPatch, Rectangle
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -61,64 +65,126 @@ def rounded_box(ax, xy, width, height, facecolor, edgecolor, title, subtitle="")
                 fontsize=7.2, color=GREY, transform=ax.transAxes)
 
 
-def make_corpus_flow() -> None:
-    # Transparent verification reduced 108 local candidates to 72 retained
-    # sources; targeted updates and the resource map add 12 active sources.
-    fig, ax = plt.subplots(figsize=(7.2, 3.05))
-    ax.set_axis_off()
+def current_corpus_data() -> dict:
+    """Count the current pool and active citations; do not reconstruct searches."""
+    from active_tex import scan_manuscript
+    from build_reference_inventory import balanced_entries
 
-    rounded_box(ax, (0.025, 0.57), 0.20, 0.25, PALE_BLUE, BLUE,
-                "108 candidates", "pre-audit local bibliography")
-    rounded_box(ax, (0.31, 0.57), 0.20, 0.25, PALE_TEAL, TEAL,
-                "72 retained", "cited and source-verified")
-    rounded_box(ax, (0.595, 0.57), 0.17, 0.25, PALE_BLUE, BLUE,
-                "+12 additions", "targeted update and\nresource coverage")
-    rounded_box(ax, (0.82, 0.57), 0.155, 0.25, "#DDEEF4", NAVY,
-                "84 active", "final bibliography")
+    entries = list(balanced_entries((ROOT / "references.bib").read_text(encoding="utf-8")))
+    pool = {key for _, key, _ in entries}
+    if len(entries) != len(pool):
+        raise ValueError("Duplicate bibliography keys")
+    scan = scan_manuscript(ROOT)
+    cited = {key for citation in scan.citations for key in citation.keys}
+    if cited - pool:
+        raise ValueError(f"Cited keys missing from bibliography: {sorted(cited - pool)}")
+    with (ROOT / "literature_audit.csv").open(encoding="utf-8-sig", newline="") as handle:
+        records = list(csv.DictReader(handle))
+    roles = {row["key"]: row["evidence_role"] for row in records}
+    if len(roles) != len(records):
+        raise ValueError("Duplicate keys in the evidence-role table")
+    if pool - roles.keys() or any(roles[key] not in "ISBT" for key in pool):
+        raise ValueError("Every bibliography record must have a current I/S/B/T role")
+    uncited = pool - cited
+    counts = lambda keys: {role: sum(roles[key] == role for key in keys) for role in "ISBT"}
+    data = {
+        "scope": "Current bibliography pool and author-coded evidence roles of actively cited sources",
+        "pool_count": len(pool), "cited_count": len(cited), "uncited_count": len(uncited),
+        "pool_roles": counts(pool), "cited_roles": counts(cited), "uncited_roles": counts(uncited),
+        "citation_commands": len(scan.citations),
+        "expanded_key_occurrences": sum(len(citation.keys) for citation in scan.citations),
+        "records": [{"key": key, "evidence_role": roles[key], "cited_in_active_manuscript": key in cited}
+                    for key in sorted(pool)],
+        "input_sha256": {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest()
+                         for name in ("references.bib", "literature_audit.csv", "manuscript.tex")},
+    }
+    if data["pool_count"] != data["cited_count"] + data["uncited_count"]:
+        raise ValueError("Pool partition does not balance")
+    if sum(data["cited_roles"].values()) != data["cited_count"]:
+        raise ValueError("Cited evidence roles do not balance")
+    return data
 
-    arrow = dict(arrowstyle="-|>", color=NAVY, lw=1.3, mutation_scale=12)
-    ax.annotate("", xy=(0.305, 0.695), xytext=(0.23, 0.695),
-                xycoords=ax.transAxes, arrowprops=arrow)
-    ax.annotate("", xy=(0.59, 0.695), xytext=(0.515, 0.695),
-                xycoords=ax.transAxes, arrowprops=arrow)
-    ax.annotate("", xy=(0.815, 0.695), xytext=(0.77, 0.695),
-                xycoords=ax.transAxes, arrowprops=arrow)
 
-    ax.annotate("", xy=(0.225, 0.39), xytext=(0.225, 0.57),
-                xycoords=ax.transAxes,
-                arrowprops=dict(arrowstyle="-|>", color=ORANGE, lw=1.0))
-    ax.text(0.145, 0.46, "36 excluded", ha="center", va="center",
-            fontsize=8, color=ORANGE, transform=ax.transAxes)
-    ax.text(0.225, 0.27, "32 not used in the manuscript\n4 unverifiable records",
-            ha="center", va="center", fontsize=7.2, color=GREY,
-            transform=ax.transAxes)
+def make_corpus_flow(qa_scripts: Path | None = None) -> None:
+    """One connected, data-derived diagram at approximately its printed size."""
+    data = current_corpus_data()
+    audit = ROOT / "figure1_audit"
+    audit.mkdir(exist_ok=True)
+    (audit / "source_summary.json").write_text(
+        json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    with (ROOT / "figure1_source_data.csv").open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["key", "evidence_role", "cited_in_active_manuscript"])
+        writer.writeheader()
+        writer.writerows(data["records"])
 
-    roles = [("I", 14, "core empirical studies", TEAL),
-             ("S", 16, "supporting systems", BLUE),
-             ("B", 46, "background methods", GREY),
-             ("T", 8, "technical sources", ORANGE)]
-    x0, total_width, y, height = 0.42, 0.555, 0.17, 0.13
-    cursor = x0
-    for code, count, label, color in roles:
-        width = total_width * count / 84
-        ax.add_patch(FancyBboxPatch(
-            (cursor, y), width, height,
-            boxstyle="round,pad=0.006,rounding_size=0.012",
-            linewidth=0.8, edgecolor="white", facecolor=color,
-            transform=ax.transAxes,
-        ))
-        ax.text(cursor + width / 2, y + height / 2, f"{code}: {count}",
-                ha="center", va="center", color="white", fontsize=7.3,
-                fontweight="bold", transform=ax.transAxes)
-        cursor += width
-    ax.text(x0, 0.08,
-            "Evidence roles: I = included empirical study; S = supporting system; "
-            "B = background; T = technical source",
-            ha="left", va="center", fontsize=6.9, color=GREY,
-            transform=ax.transAxes)
+    with mpl.rc_context({"font.family": "Arial", "font.size": 7.1,
+                         "svg.fonttype": "none", "pdf.fonttype": 42}):
+        fig = plt.figure(figsize=(140 / 25.4, 48 / 25.4), facecolor="white")
+        ax = fig.add_axes([0, 0, 1, 1])
+        ax.set(xlim=(0, 140), ylim=(0, 48))
+        ax.set_axis_off()
 
-    save_figure(fig, "fig_reference_corpus")
-    plt.close(fig)
+        def box(x, y, width, height, fill, edge):
+            ax.add_patch(FancyBboxPatch((x, y), width, height,
+                         boxstyle="round,pad=0,rounding_size=1.2", linewidth=0.7,
+                         facecolor=fill, edgecolor=edge, zorder=2))
+
+        def node(x, y, width, height, label, count, fill, edge):
+            box(x, y, width, height, fill, edge)
+            ax.text(x + width / 2, y + height / 2 + 1.9, label,
+                    ha="center", va="center", fontsize=7.1, color=NAVY)
+            ax.text(x + width / 2, y + height / 2 - 2.1, f"n = {count}",
+                    ha="center", va="center", fontsize=7.8, fontweight="bold", color=NAVY)
+
+        def line(xs, ys):
+            ax.plot(xs, ys, color=GREY, linewidth=0.7, solid_capstyle="butt",
+                    zorder=1)
+
+        def arrow(start, end):
+            ax.annotate("", xy=end, xytext=start, zorder=1,
+                        arrowprops={"arrowstyle": "-|>", "color": GREY, "lw": 0.7,
+                                    "mutation_scale": 6, "shrinkA": 0, "shrinkB": 1})
+
+        node(4, 23, 32, 14, "Bibliography pool", data["pool_count"], PALE_BLUE, BLUE)
+        node(78.5, 31, 32, 13, "Cited sources", data["cited_count"], PALE_TEAL, TEAL)
+        node(53, 4, 32, 10, "Uncited records", data["uncited_count"], LIGHT_GREY, GREY)
+        line([36, 44], [30, 30])
+        line([44, 44], [9, 37.5])
+        arrow((44, 37.5), (78.5, 37.5))
+        arrow((44, 9), (53, 9))
+        arrow((94.5, 31), (94.5, 26.5))
+
+        # One quantitative bar: segment widths share the cited-source denominator.
+        bar_x, bar_y, bar_width, bar_height = 53, 19, 83, 7.5
+        segment_left = bar_x
+        for role, fill in [("I", TEAL), ("S", BLUE), ("B", GREY), ("T", ORANGE)]:
+            count = data["cited_roles"][role]
+            width = bar_width * count / data["cited_count"]
+            ax.add_patch(Rectangle((segment_left, bar_y), width, bar_height,
+                                  facecolor=fill, edgecolor="white", linewidth=0.6, zorder=2))
+            ax.text(segment_left + width / 2, bar_y + bar_height / 2,
+                    f"{role}: {count}", ha="center", va="center",
+                    fontsize=7.1, fontweight="bold", color="white", zorder=3)
+            segment_left += width
+
+        fig.canvas.draw()
+        if qa_scripts:
+            sys.path.insert(0, str(qa_scripts))
+            from audit_panel_alignment import require_matplotlib_panel_alignment
+            require_matplotlib_panel_alignment(fig, json_out=audit / "alignment.json", strict=True)
+        else:
+            (audit / "alignment.json").write_text(json.dumps({
+                "verdict": "NOT APPLICABLE", "reason": "Single connected diagram on one axes; no comparable panels"
+            }, indent=2) + "\n", encoding="utf-8")
+        # Keep a fixed physical canvas: tight cropping would change the font scale in LaTeX.
+        for suffix, options in (("pdf", {}), ("svg", {}), ("png", {"dpi": 400})):
+            fig.savefig(ROOT / f"fig_reference_corpus.{suffix}", facecolor="white", **options)
+        svg = ROOT / "fig_reference_corpus.svg"
+        svg.write_text("\n".join(line.rstrip() for line in svg.read_text(encoding="utf-8").splitlines())
+                       + "\n", encoding="utf-8")
+        plt.close(fig)
+    print(f"Figure 1: pool={data['pool_count']}, cited={data['cited_count']}, uncited={data['uncited_count']}; "
+          f"cited roles={data['cited_roles']}")
 
 
 def make_core_overview() -> None:
@@ -199,7 +265,14 @@ def write_source_data() -> None:
 
 
 if __name__ == "__main__":
-    write_source_data()
-    make_corpus_flow()
-    make_core_overview()
-    print("Generated reference figures and source data.")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--figure1", action="store_true", help="Generate only current Figure 1 and its source data")
+    parser.add_argument("--qa-scripts", type=Path, help="Optional nature-figure rendered-alignment audit directory")
+    args = parser.parse_args()
+    if args.figure1:
+        make_corpus_flow(args.qa_scripts)
+    else:
+        write_source_data()
+        make_corpus_flow(args.qa_scripts)
+        make_core_overview()
+        print("Generated reference figures; legacy overview/source data remain a historical snapshot.")

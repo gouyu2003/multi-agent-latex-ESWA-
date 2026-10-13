@@ -1,0 +1,3409 @@
+{
+  "schema_version": 2,
+  "slide": {
+    "width": 7.385416666666667,
+    "height": 3.4375,
+    "size_mode": "source",
+    "px_per_inch": 96
+  },
+  "content_box": {
+    "left": 0,
+    "top": 0.0,
+    "width": 7.385416666666667,
+    "height": 3.4375,
+    "fit": "contain"
+  },
+  "source": {
+    "path": "source.png",
+    "width_px": 709,
+    "height_px": 330
+  },
+  "page_strategy": "User-authorized corrected-text reconstruction with every diagram component editable as native PowerPoint objects.",
+  "user_overrides": {
+    "all_components_editable": true,
+    "native_pictogram_redraw_authorized": true,
+    "content_corrections_authorized": true,
+    "authorization": "User requested all components editable, received the corrected four-stage wording and native geometric reconstruction plan, then instructed to begin."
+  },
+  "text_inventory": [
+    "1960s onward",
+    "Symbolic\napproaches",
+    "ELIZA (1966)\nProlog, Cyc",
+    "Rules & logic\nKnowledge representation",
+    "1990s onward",
+    "Retrieval & reading\ncomprehension",
+    "TREC QA (1999)\nWeb search\nSQuAD (2016)",
+    "Document retrieval\nAnswer extraction",
+    "2010s onward",
+    "Neural &\ngenerative QA",
+    "Transformer\nBERT, GPT-2/3\nT5",
+    "Pretraining & fine-tuning\nRAG (2020), CoT (2022)",
+    "2022 onward",
+    "LLM-based\nagentic QA",
+    "ReAct (2022/2023)\nGPT-4, Gemini (2023)",
+    "Tool use\nMulti-agent collaboration",
+    "LLM",
+    "Representative milestones; paradigms overlap and continue to coexist."
+  ],
+  "visual_inventory": [
+    {
+      "id": "stage-1",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Symbolic approaches"
+    },
+    {
+      "id": "stage-2",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Retrieval & reading comprehension"
+    },
+    {
+      "id": "stage-3",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Neural & generative QA"
+    },
+    {
+      "id": "stage-4",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "LLM-based agentic QA"
+    },
+    {
+      "id": "interpretation",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Interpretation of the development arrows"
+    }
+  ],
+  "background_strategy": {
+    "mode": "native-or-script",
+    "source_consistency_contract": "White background, four pastel cards in a horizontal sequence; user-authorized text correction and editable diagram reconstruction.",
+    "removed_foreground": "All original lettering and pictograms represented separately as native text and shapes.",
+    "comparison_note": "Reference card positions and palette preserved; labels corrected according to the preceding manuscript audit."
+  },
+  "quality_checks": {
+    "font_size_calibrated": true,
+    "visual_inventory_matched": true,
+    "background_strategy_checked": true,
+    "shape_corner_geometry_checked": true
+  },
+  "quality_evidence": {
+    "font_size_calibrated": {
+      "observation": "Arial uses consistent 9.0-10.5 pt text levels; the LLM hub is 7.5 pt and the interpretation is 8.5 pt."
+    },
+    "visual_inventory_matched": {
+      "observation": "Four colored cards, three directional arrows and four diagrams rebuilt as native objects per the explicit all-editable requirement."
+    },
+    "background_strategy_checked": {
+      "observation": "White background and purple, green, amber and rose cards preserve the reference composition."
+    },
+    "shape_corner_geometry_checked": {
+      "observation": "Large source cards use rounded rectangles with a measured 16 pixel corner radius."
+    }
+  },
+  "text_boxes": [
+    {
+      "id": "era-0",
+      "text": "1960s onward",
+      "box_px": [
+        51,
+        93,
+        127,
+        17
+      ],
+      "font": "Arial",
+      "font_size": 10.5,
+      "bold": true,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "title-0",
+      "text": "Symbolic\napproaches",
+      "box_px": [
+        50,
+        197,
+        129,
+        33
+      ],
+      "font": "Arial",
+      "font_size": 10.3,
+      "bold": true,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "examples-0",
+      "text": "ELIZA (1966)\nProlog, Cyc",
+      "box_px": [
+        42,
+        17,
+        145,
+        55
+      ],
+      "font": "Arial",
+      "font_size": 9.3,
+      "bold": false,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "methods-0",
+      "text": "Rules & logic\nKnowledge representation",
+      "box_px": [
+        37,
+        249,
+        155,
+        39
+      ],
+      "font": "Arial",
+      "font_size": 9.0,
+      "bold": false,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "era-1",
+      "text": "1990s onward",
+      "box_px": [
+        215,
+        93,
+        127,
+        17
+      ],
+      "font": "Arial",
+      "font_size": 10.5,
+      "bold": true,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "title-1",
+      "text": "Retrieval & reading\ncomprehension",
+      "box_px": [
+        214,
+        197,
+        129,
+        33
+      ],
+      "font": "Arial",
+      "font_size": 10.3,
+      "bold": true,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "examples-1",
+      "text": "TREC QA (1999)\nWeb search\nSQuAD (2016)",
+      "box_px": [
+        206,
+        17,
+        145,
+        55
+      ],
+      "font": "Arial",
+      "font_size": 9.3,
+      "bold": false,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "methods-1",
+      "text": "Document retrieval\nAnswer extraction",
+      "box_px": [
+        201,
+        249,
+        155,
+        39
+      ],
+      "font": "Arial",
+      "font_size": 9.0,
+      "bold": false,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "era-2",
+      "text": "2010s onward",
+      "box_px": [
+        379,
+        93,
+        127,
+        17
+      ],
+      "font": "Arial",
+      "font_size": 10.5,
+      "bold": true,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "title-2",
+      "text": "Neural &\ngenerative QA",
+      "box_px": [
+        378,
+        197,
+        129,
+        33
+      ],
+      "font": "Arial",
+      "font_size": 10.3,
+      "bold": true,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "examples-2",
+      "text": "Transformer\nBERT, GPT-2/3\nT5",
+      "box_px": [
+        370,
+        17,
+        145,
+        55
+      ],
+      "font": "Arial",
+      "font_size": 9.3,
+      "bold": false,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "methods-2",
+      "text": "Pretraining & fine-tuning\nRAG (2020), CoT (2022)",
+      "box_px": [
+        365,
+        249,
+        155,
+        39
+      ],
+      "font": "Arial",
+      "font_size": 9.0,
+      "bold": false,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "era-3",
+      "text": "2022 onward",
+      "box_px": [
+        543,
+        93,
+        127,
+        17
+      ],
+      "font": "Arial",
+      "font_size": 10.5,
+      "bold": true,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "title-3",
+      "text": "LLM-based\nagentic QA",
+      "box_px": [
+        542,
+        197,
+        129,
+        33
+      ],
+      "font": "Arial",
+      "font_size": 10.3,
+      "bold": true,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "examples-3",
+      "text": "ReAct (2022/2023)\nGPT-4, Gemini (2023)",
+      "box_px": [
+        534,
+        17,
+        145,
+        55
+      ],
+      "font": "Arial",
+      "font_size": 9.3,
+      "bold": false,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "methods-3",
+      "text": "Tool use\nMulti-agent collaboration",
+      "box_px": [
+        529,
+        249,
+        155,
+        39
+      ],
+      "font": "Arial",
+      "font_size": 9.0,
+      "bold": false,
+      "color": "#202B3A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "llm-label",
+      "text": "LLM",
+      "box_px": [
+        593,
+        148,
+        26,
+        12
+      ],
+      "font": "Arial",
+      "font_size": 7.5,
+      "bold": true,
+      "color": "#49617A",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    },
+    {
+      "id": "coexistence",
+      "text": "Representative milestones; paradigms overlap and continue to coexist.",
+      "box_px": [
+        35,
+        302,
+        640,
+        18
+      ],
+      "font": "Arial",
+      "font_size": 8.5,
+      "bold": false,
+      "color": "#596571",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 60
+    }
+  ],
+  "shapes": [
+    {
+      "id": "card-0",
+      "type": "roundRect",
+      "box_px": [
+        47,
+        84,
+        135,
+        156
+      ],
+      "fill": "#DED9F3",
+      "stroke": "#8C81B3",
+      "stroke_width": 1.1,
+      "z_index": 10,
+      "source_corner_radius_px": 16,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "phase-arrow-0",
+      "type": "shape",
+      "box_px": [
+        173,
+        142,
+        48,
+        33
+      ],
+      "fill": "#8C81B3",
+      "stroke": "none",
+      "stroke_width": 0.8,
+      "z_index": 45,
+      "preset": "rightArrow"
+    },
+    {
+      "id": "tree-edge-0",
+      "type": "line",
+      "points_px": [
+        114,
+        129.0,
+        95,
+        144.5
+      ],
+      "stroke": "#8C81B3",
+      "stroke_width": 1,
+      "z_index": 24
+    },
+    {
+      "id": "tree-edge-1",
+      "type": "line",
+      "points_px": [
+        114,
+        129.0,
+        134,
+        144.5
+      ],
+      "stroke": "#8C81B3",
+      "stroke_width": 1,
+      "z_index": 24
+    },
+    {
+      "id": "tree-edge-2",
+      "type": "line",
+      "points_px": [
+        95,
+        155.5,
+        85,
+        169.0
+      ],
+      "stroke": "#8C81B3",
+      "stroke_width": 1,
+      "z_index": 24
+    },
+    {
+      "id": "tree-edge-3",
+      "type": "line",
+      "points_px": [
+        95,
+        155.5,
+        104,
+        169.0
+      ],
+      "stroke": "#8C81B3",
+      "stroke_width": 1,
+      "z_index": 24
+    },
+    {
+      "id": "tree-edge-4",
+      "type": "line",
+      "points_px": [
+        134,
+        155.5,
+        124,
+        169.0
+      ],
+      "stroke": "#8C81B3",
+      "stroke_width": 1,
+      "z_index": 24
+    },
+    {
+      "id": "tree-edge-5",
+      "type": "line",
+      "points_px": [
+        134,
+        155.5,
+        144,
+        169.0
+      ],
+      "stroke": "#8C81B3",
+      "stroke_width": 1,
+      "z_index": 24
+    },
+    {
+      "id": "tree-node-0",
+      "type": "ellipse",
+      "box_px": [
+        108.0,
+        117.0,
+        12,
+        12
+      ],
+      "fill": "#BBB0DB",
+      "stroke": "#665982",
+      "stroke_width": 0.85,
+      "z_index": 25
+    },
+    {
+      "id": "tree-node-1",
+      "type": "ellipse",
+      "box_px": [
+        89.5,
+        144.5,
+        11,
+        11
+      ],
+      "fill": "#BBB0DB",
+      "stroke": "#665982",
+      "stroke_width": 0.85,
+      "z_index": 25
+    },
+    {
+      "id": "tree-node-2",
+      "type": "ellipse",
+      "box_px": [
+        128.5,
+        144.5,
+        11,
+        11
+      ],
+      "fill": "#BBB0DB",
+      "stroke": "#665982",
+      "stroke_width": 0.85,
+      "z_index": 25
+    },
+    {
+      "id": "tree-node-3",
+      "type": "ellipse",
+      "box_px": [
+        80.0,
+        169.0,
+        10,
+        10
+      ],
+      "fill": "#D8BBD4",
+      "stroke": "#665982",
+      "stroke_width": 0.85,
+      "z_index": 25
+    },
+    {
+      "id": "tree-node-4",
+      "type": "ellipse",
+      "box_px": [
+        99.0,
+        169.0,
+        10,
+        10
+      ],
+      "fill": "#D8BBD4",
+      "stroke": "#665982",
+      "stroke_width": 0.85,
+      "z_index": 25
+    },
+    {
+      "id": "tree-node-5",
+      "type": "ellipse",
+      "box_px": [
+        119.0,
+        169.0,
+        10,
+        10
+      ],
+      "fill": "#D8BBD4",
+      "stroke": "#665982",
+      "stroke_width": 0.85,
+      "z_index": 25
+    },
+    {
+      "id": "tree-node-6",
+      "type": "ellipse",
+      "box_px": [
+        139.0,
+        169.0,
+        10,
+        10
+      ],
+      "fill": "#D8BBD4",
+      "stroke": "#665982",
+      "stroke_width": 0.85,
+      "z_index": 25
+    },
+    {
+      "id": "card-1",
+      "type": "roundRect",
+      "box_px": [
+        211,
+        84,
+        135,
+        156
+      ],
+      "fill": "#D0EBDF",
+      "stroke": "#689C86",
+      "stroke_width": 1.1,
+      "z_index": 10,
+      "source_corner_radius_px": 16,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "phase-arrow-1",
+      "type": "shape",
+      "box_px": [
+        337,
+        142,
+        48,
+        33
+      ],
+      "fill": "#689C86",
+      "stroke": "none",
+      "stroke_width": 0.8,
+      "z_index": 45,
+      "preset": "rightArrow"
+    },
+    {
+      "id": "doc",
+      "type": "shape",
+      "box_px": [
+        281,
+        116,
+        27,
+        36
+      ],
+      "fill": "#EBEDB5",
+      "stroke": "#57726B",
+      "stroke_width": 0.8,
+      "z_index": 25,
+      "preset": "foldedCorner"
+    },
+    {
+      "id": "doc-line-0",
+      "type": "line",
+      "points_px": [
+        286,
+        128,
+        302,
+        128
+      ],
+      "stroke": "#7E9879",
+      "stroke_width": 0.7,
+      "z_index": 27
+    },
+    {
+      "id": "doc-line-1",
+      "type": "line",
+      "points_px": [
+        286,
+        133,
+        302,
+        133
+      ],
+      "stroke": "#7E9879",
+      "stroke_width": 0.7,
+      "z_index": 27
+    },
+    {
+      "id": "doc-line-2",
+      "type": "line",
+      "points_px": [
+        286,
+        138,
+        302,
+        138
+      ],
+      "stroke": "#7E9879",
+      "stroke_width": 0.7,
+      "z_index": 27
+    },
+    {
+      "id": "database-body-0",
+      "type": "rect",
+      "box_px": [
+        247,
+        130,
+        35,
+        13
+      ],
+      "fill": "#A1BAD3",
+      "stroke": "#526F89",
+      "stroke_width": 0.9,
+      "z_index": 25
+    },
+    {
+      "id": "database-base-0",
+      "type": "ellipse",
+      "box_px": [
+        247,
+        137,
+        35,
+        10
+      ],
+      "fill": "#B6CCE0",
+      "stroke": "#526F89",
+      "stroke_width": 0.9,
+      "z_index": 26
+    },
+    {
+      "id": "database-body-1",
+      "type": "rect",
+      "box_px": [
+        247,
+        142,
+        35,
+        13
+      ],
+      "fill": "#A1BAD3",
+      "stroke": "#526F89",
+      "stroke_width": 0.9,
+      "z_index": 25
+    },
+    {
+      "id": "database-base-1",
+      "type": "ellipse",
+      "box_px": [
+        247,
+        149,
+        35,
+        10
+      ],
+      "fill": "#B6CCE0",
+      "stroke": "#526F89",
+      "stroke_width": 0.9,
+      "z_index": 28
+    },
+    {
+      "id": "database-body-2",
+      "type": "rect",
+      "box_px": [
+        247,
+        154,
+        35,
+        13
+      ],
+      "fill": "#A1BAD3",
+      "stroke": "#526F89",
+      "stroke_width": 0.9,
+      "z_index": 25
+    },
+    {
+      "id": "database-base-2",
+      "type": "ellipse",
+      "box_px": [
+        247,
+        161,
+        35,
+        10
+      ],
+      "fill": "#B6CCE0",
+      "stroke": "#526F89",
+      "stroke_width": 0.9,
+      "z_index": 30
+    },
+    {
+      "id": "database-top",
+      "type": "ellipse",
+      "box_px": [
+        247,
+        125,
+        35,
+        11
+      ],
+      "fill": "#B6CCE0",
+      "stroke": "#526F89",
+      "stroke_width": 0.9,
+      "z_index": 34
+    },
+    {
+      "id": "lens-handle",
+      "type": "line",
+      "points_px": [
+        289,
+        164,
+        304,
+        179
+      ],
+      "stroke": "#526F89",
+      "stroke_width": 4.4,
+      "z_index": 38
+    },
+    {
+      "id": "lens-outer",
+      "type": "ellipse",
+      "box_px": [
+        268,
+        141,
+        31,
+        31
+      ],
+      "fill": "#A1BAD3",
+      "stroke": "#526F89",
+      "stroke_width": 1.0,
+      "z_index": 40
+    },
+    {
+      "id": "lens-inner",
+      "type": "ellipse",
+      "box_px": [
+        273,
+        146,
+        21,
+        21
+      ],
+      "fill": "#F4FBFB",
+      "stroke": "#526F89",
+      "stroke_width": 0.65,
+      "z_index": 41
+    },
+    {
+      "id": "card-2",
+      "type": "roundRect",
+      "box_px": [
+        375,
+        84,
+        135,
+        156
+      ],
+      "fill": "#FFE0A7",
+      "stroke": "#C18D40",
+      "stroke_width": 1.1,
+      "z_index": 10,
+      "source_corner_radius_px": 16,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "phase-arrow-2",
+      "type": "shape",
+      "box_px": [
+        501,
+        142,
+        48,
+        33
+      ],
+      "fill": "#C18D40",
+      "stroke": "none",
+      "stroke_width": 0.8,
+      "z_index": 45,
+      "preset": "rightArrow"
+    },
+    {
+      "id": "neural-edge-0-0-0",
+      "type": "line",
+      "points_px": [
+        413,
+        132,
+        441,
+        123
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-0-0-1",
+      "type": "line",
+      "points_px": [
+        413,
+        132,
+        441,
+        146
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-0-0-2",
+      "type": "line",
+      "points_px": [
+        413,
+        132,
+        441,
+        176
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-0-1-0",
+      "type": "line",
+      "points_px": [
+        413,
+        151,
+        441,
+        123
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-0-1-1",
+      "type": "line",
+      "points_px": [
+        413,
+        151,
+        441,
+        146
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-0-1-2",
+      "type": "line",
+      "points_px": [
+        413,
+        151,
+        441,
+        176
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-0-2-0",
+      "type": "line",
+      "points_px": [
+        413,
+        170,
+        441,
+        123
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-0-2-1",
+      "type": "line",
+      "points_px": [
+        413,
+        170,
+        441,
+        146
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-0-2-2",
+      "type": "line",
+      "points_px": [
+        413,
+        170,
+        441,
+        176
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-1-0-0",
+      "type": "line",
+      "points_px": [
+        441,
+        123,
+        471,
+        140
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-1-0-1",
+      "type": "line",
+      "points_px": [
+        441,
+        123,
+        471,
+        161
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-1-1-0",
+      "type": "line",
+      "points_px": [
+        441,
+        146,
+        471,
+        140
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-1-1-1",
+      "type": "line",
+      "points_px": [
+        441,
+        146,
+        471,
+        161
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-1-2-0",
+      "type": "line",
+      "points_px": [
+        441,
+        176,
+        471,
+        140
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-edge-1-2-1",
+      "type": "line",
+      "points_px": [
+        441,
+        176,
+        471,
+        161
+      ],
+      "stroke": "#9F7742",
+      "stroke_width": 0.75,
+      "z_index": 24
+    },
+    {
+      "id": "neural-node-0-0",
+      "type": "ellipse",
+      "box_px": [
+        407.5,
+        126.5,
+        11,
+        11
+      ],
+      "fill": "#FFD391",
+      "stroke": "#91663D",
+      "stroke_width": 0.8,
+      "z_index": 33
+    },
+    {
+      "id": "neural-node-0-1",
+      "type": "ellipse",
+      "box_px": [
+        407.5,
+        145.5,
+        11,
+        11
+      ],
+      "fill": "#FFD391",
+      "stroke": "#91663D",
+      "stroke_width": 0.8,
+      "z_index": 33
+    },
+    {
+      "id": "neural-node-0-2",
+      "type": "ellipse",
+      "box_px": [
+        407.5,
+        164.5,
+        11,
+        11
+      ],
+      "fill": "#FFD391",
+      "stroke": "#91663D",
+      "stroke_width": 0.8,
+      "z_index": 33
+    },
+    {
+      "id": "neural-node-1-0",
+      "type": "ellipse",
+      "box_px": [
+        435.5,
+        117.5,
+        11,
+        11
+      ],
+      "fill": "#FFD391",
+      "stroke": "#91663D",
+      "stroke_width": 0.8,
+      "z_index": 33
+    },
+    {
+      "id": "neural-node-1-1",
+      "type": "ellipse",
+      "box_px": [
+        435.5,
+        140.5,
+        11,
+        11
+      ],
+      "fill": "#FFD391",
+      "stroke": "#91663D",
+      "stroke_width": 0.8,
+      "z_index": 33
+    },
+    {
+      "id": "neural-node-1-2",
+      "type": "ellipse",
+      "box_px": [
+        435.5,
+        170.5,
+        11,
+        11
+      ],
+      "fill": "#FFD391",
+      "stroke": "#91663D",
+      "stroke_width": 0.8,
+      "z_index": 33
+    },
+    {
+      "id": "neural-node-2-0",
+      "type": "ellipse",
+      "box_px": [
+        465.5,
+        134.5,
+        11,
+        11
+      ],
+      "fill": "#FFD391",
+      "stroke": "#91663D",
+      "stroke_width": 0.8,
+      "z_index": 33
+    },
+    {
+      "id": "neural-node-2-1",
+      "type": "ellipse",
+      "box_px": [
+        465.5,
+        155.5,
+        11,
+        11
+      ],
+      "fill": "#FFD391",
+      "stroke": "#91663D",
+      "stroke_width": 0.8,
+      "z_index": 33
+    },
+    {
+      "id": "card-3",
+      "type": "roundRect",
+      "box_px": [
+        539,
+        84,
+        135,
+        156
+      ],
+      "fill": "#F5CED5",
+      "stroke": "#B87284",
+      "stroke_width": 1.1,
+      "z_index": 10,
+      "source_corner_radius_px": 16,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "agent-link-0",
+      "type": "line",
+      "points_px": [
+        606,
+        128,
+        606,
+        154
+      ],
+      "stroke": "#67889D",
+      "stroke_width": 0.8,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "robot-head-0",
+      "type": "roundRect",
+      "box_px": [
+        598,
+        117,
+        16,
+        11
+      ],
+      "fill": "#AFC9D8",
+      "stroke": "#56738C",
+      "stroke_width": 0.8,
+      "z_index": 35,
+      "source_corner_radius_px": 2.2,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "robot-eye1-0",
+      "type": "ellipse",
+      "box_px": [
+        601.5,
+        120.5,
+        2,
+        2
+      ],
+      "fill": "#49617A",
+      "stroke": "none",
+      "stroke_width": 0.8,
+      "z_index": 36
+    },
+    {
+      "id": "robot-eye2-0",
+      "type": "ellipse",
+      "box_px": [
+        608.5,
+        120.5,
+        2,
+        2
+      ],
+      "fill": "#49617A",
+      "stroke": "none",
+      "stroke_width": 0.8,
+      "z_index": 36
+    },
+    {
+      "id": "robot-antenna-0",
+      "type": "line",
+      "points_px": [
+        606,
+        117,
+        606,
+        113
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 0.8,
+      "z_index": 35
+    },
+    {
+      "id": "robot-antenna-tip-0",
+      "type": "ellipse",
+      "box_px": [
+        604.5,
+        111,
+        3,
+        3
+      ],
+      "fill": "#F7E3A8",
+      "stroke": "#56738C",
+      "stroke_width": 0.5,
+      "z_index": 36
+    },
+    {
+      "id": "robot-body-0",
+      "type": "roundRect",
+      "box_px": [
+        599,
+        130,
+        14,
+        9
+      ],
+      "fill": "#B9D4E3",
+      "stroke": "#56738C",
+      "stroke_width": 0.75,
+      "z_index": 35,
+      "source_corner_radius_px": 1.8,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "robot-arm-0--1",
+      "type": "line",
+      "points_px": [
+        598,
+        131,
+        594,
+        137
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "robot-leg-0--1",
+      "type": "line",
+      "points_px": [
+        602,
+        139,
+        602,
+        142
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "robot-arm-0-1",
+      "type": "line",
+      "points_px": [
+        614,
+        131,
+        618,
+        137
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "robot-leg-0-1",
+      "type": "line",
+      "points_px": [
+        610,
+        139,
+        610,
+        142
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "agent-link-1",
+      "type": "line",
+      "points_px": [
+        580,
+        180,
+        606,
+        154
+      ],
+      "stroke": "#67889D",
+      "stroke_width": 0.8,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "robot-head-1",
+      "type": "roundRect",
+      "box_px": [
+        572,
+        169,
+        16,
+        11
+      ],
+      "fill": "#AFC9D8",
+      "stroke": "#56738C",
+      "stroke_width": 0.8,
+      "z_index": 35,
+      "source_corner_radius_px": 2.2,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "robot-eye1-1",
+      "type": "ellipse",
+      "box_px": [
+        575.5,
+        172.5,
+        2,
+        2
+      ],
+      "fill": "#49617A",
+      "stroke": "none",
+      "stroke_width": 0.8,
+      "z_index": 36
+    },
+    {
+      "id": "robot-eye2-1",
+      "type": "ellipse",
+      "box_px": [
+        582.5,
+        172.5,
+        2,
+        2
+      ],
+      "fill": "#49617A",
+      "stroke": "none",
+      "stroke_width": 0.8,
+      "z_index": 36
+    },
+    {
+      "id": "robot-antenna-1",
+      "type": "line",
+      "points_px": [
+        580,
+        169,
+        580,
+        165
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 0.8,
+      "z_index": 35
+    },
+    {
+      "id": "robot-antenna-tip-1",
+      "type": "ellipse",
+      "box_px": [
+        578.5,
+        163,
+        3,
+        3
+      ],
+      "fill": "#F7E3A8",
+      "stroke": "#56738C",
+      "stroke_width": 0.5,
+      "z_index": 36
+    },
+    {
+      "id": "robot-body-1",
+      "type": "roundRect",
+      "box_px": [
+        573,
+        182,
+        14,
+        9
+      ],
+      "fill": "#B9D4E3",
+      "stroke": "#56738C",
+      "stroke_width": 0.75,
+      "z_index": 35,
+      "source_corner_radius_px": 1.8,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "robot-arm-1--1",
+      "type": "line",
+      "points_px": [
+        572,
+        183,
+        568,
+        189
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "robot-leg-1--1",
+      "type": "line",
+      "points_px": [
+        576,
+        191,
+        576,
+        194
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "robot-arm-1-1",
+      "type": "line",
+      "points_px": [
+        588,
+        183,
+        592,
+        189
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "robot-leg-1-1",
+      "type": "line",
+      "points_px": [
+        584,
+        191,
+        584,
+        194
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "agent-link-2",
+      "type": "line",
+      "points_px": [
+        633,
+        180,
+        606,
+        154
+      ],
+      "stroke": "#67889D",
+      "stroke_width": 0.8,
+      "z_index": 24,
+      "connector": "straight",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "robot-head-2",
+      "type": "roundRect",
+      "box_px": [
+        625,
+        169,
+        16,
+        11
+      ],
+      "fill": "#AFC9D8",
+      "stroke": "#56738C",
+      "stroke_width": 0.8,
+      "z_index": 35,
+      "source_corner_radius_px": 2.2,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "robot-eye1-2",
+      "type": "ellipse",
+      "box_px": [
+        628.5,
+        172.5,
+        2,
+        2
+      ],
+      "fill": "#49617A",
+      "stroke": "none",
+      "stroke_width": 0.8,
+      "z_index": 36
+    },
+    {
+      "id": "robot-eye2-2",
+      "type": "ellipse",
+      "box_px": [
+        635.5,
+        172.5,
+        2,
+        2
+      ],
+      "fill": "#49617A",
+      "stroke": "none",
+      "stroke_width": 0.8,
+      "z_index": 36
+    },
+    {
+      "id": "robot-antenna-2",
+      "type": "line",
+      "points_px": [
+        633,
+        169,
+        633,
+        165
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 0.8,
+      "z_index": 35
+    },
+    {
+      "id": "robot-antenna-tip-2",
+      "type": "ellipse",
+      "box_px": [
+        631.5,
+        163,
+        3,
+        3
+      ],
+      "fill": "#F7E3A8",
+      "stroke": "#56738C",
+      "stroke_width": 0.5,
+      "z_index": 36
+    },
+    {
+      "id": "robot-body-2",
+      "type": "roundRect",
+      "box_px": [
+        626,
+        182,
+        14,
+        9
+      ],
+      "fill": "#B9D4E3",
+      "stroke": "#56738C",
+      "stroke_width": 0.75,
+      "z_index": 35,
+      "source_corner_radius_px": 1.8,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "robot-arm-2--1",
+      "type": "line",
+      "points_px": [
+        625,
+        183,
+        621,
+        189
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "robot-leg-2--1",
+      "type": "line",
+      "points_px": [
+        629,
+        191,
+        629,
+        194
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "robot-arm-2-1",
+      "type": "line",
+      "points_px": [
+        641,
+        183,
+        645,
+        189
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "robot-leg-2-1",
+      "type": "line",
+      "points_px": [
+        637,
+        191,
+        637,
+        194
+      ],
+      "stroke": "#56738C",
+      "stroke_width": 1,
+      "z_index": 35
+    },
+    {
+      "id": "llm-hub",
+      "type": "ellipse",
+      "box_px": [
+        591,
+        142,
+        30,
+        26
+      ],
+      "fill": "#C8DFEA",
+      "stroke": "#56738C",
+      "stroke_width": 0.8,
+      "z_index": 40
+    }
+  ],
+  "images": [],
+  "asset_provenance": [],
+  "image2ppt_region_decomposition": {
+    "schema_version": "image2ppt-region-decomposition-v1",
+    "page_complexity": "structured",
+    "source_size_px": [
+      709,
+      330
+    ],
+    "regions": [
+      {
+        "id": "stage-1",
+        "label": "Symbolic approaches",
+        "source_bbox_px": [
+          39,
+          10,
+          153,
+          292
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User explicitly requires every component editable and approved content corrections and geometric diagram redrawing.",
+        "manifest_ids": {
+          "shapes": [
+            "card-0",
+            "phase-arrow-0",
+            "tree-edge-0",
+            "tree-edge-1",
+            "tree-edge-2",
+            "tree-edge-3",
+            "tree-edge-4",
+            "tree-edge-5",
+            "tree-node-0",
+            "tree-node-1",
+            "tree-node-2",
+            "tree-node-3",
+            "tree-node-4",
+            "tree-node-5",
+            "tree-node-6"
+          ],
+          "text_boxes": [
+            "era-0",
+            "title-0",
+            "examples-0",
+            "methods-0"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-card-0",
+            "kind": "node-boundary",
+            "manifest_id": "card-0",
+            "source_bbox_px": [
+              47,
+              84,
+              135,
+              156
+            ]
+          },
+          {
+            "id": "anchor-phase-arrow-0",
+            "kind": "node-boundary",
+            "manifest_id": "phase-arrow-0",
+            "source_bbox_px": [
+              173,
+              142,
+              48,
+              33
+            ]
+          },
+          {
+            "id": "anchor-tree-edge-0",
+            "kind": "connector",
+            "manifest_id": "tree-edge-0",
+            "source_points_px": [
+              114,
+              129.0,
+              95,
+              144.5
+            ]
+          },
+          {
+            "id": "anchor-tree-edge-1",
+            "kind": "connector",
+            "manifest_id": "tree-edge-1",
+            "source_points_px": [
+              114,
+              129.0,
+              134,
+              144.5
+            ]
+          },
+          {
+            "id": "anchor-tree-edge-2",
+            "kind": "connector",
+            "manifest_id": "tree-edge-2",
+            "source_points_px": [
+              95,
+              155.5,
+              85,
+              169.0
+            ]
+          },
+          {
+            "id": "anchor-tree-edge-3",
+            "kind": "connector",
+            "manifest_id": "tree-edge-3",
+            "source_points_px": [
+              95,
+              155.5,
+              104,
+              169.0
+            ]
+          },
+          {
+            "id": "anchor-tree-edge-4",
+            "kind": "connector",
+            "manifest_id": "tree-edge-4",
+            "source_points_px": [
+              134,
+              155.5,
+              124,
+              169.0
+            ]
+          },
+          {
+            "id": "anchor-tree-edge-5",
+            "kind": "connector",
+            "manifest_id": "tree-edge-5",
+            "source_points_px": [
+              134,
+              155.5,
+              144,
+              169.0
+            ]
+          },
+          {
+            "id": "anchor-tree-node-0",
+            "kind": "node-boundary",
+            "manifest_id": "tree-node-0",
+            "source_bbox_px": [
+              108.0,
+              117.0,
+              12,
+              12
+            ]
+          },
+          {
+            "id": "anchor-tree-node-1",
+            "kind": "node-boundary",
+            "manifest_id": "tree-node-1",
+            "source_bbox_px": [
+              89.5,
+              144.5,
+              11,
+              11
+            ]
+          },
+          {
+            "id": "anchor-tree-node-2",
+            "kind": "node-boundary",
+            "manifest_id": "tree-node-2",
+            "source_bbox_px": [
+              128.5,
+              144.5,
+              11,
+              11
+            ]
+          },
+          {
+            "id": "anchor-tree-node-3",
+            "kind": "node-boundary",
+            "manifest_id": "tree-node-3",
+            "source_bbox_px": [
+              80.0,
+              169.0,
+              10,
+              10
+            ]
+          },
+          {
+            "id": "anchor-tree-node-4",
+            "kind": "node-boundary",
+            "manifest_id": "tree-node-4",
+            "source_bbox_px": [
+              99.0,
+              169.0,
+              10,
+              10
+            ]
+          },
+          {
+            "id": "anchor-tree-node-5",
+            "kind": "node-boundary",
+            "manifest_id": "tree-node-5",
+            "source_bbox_px": [
+              119.0,
+              169.0,
+              10,
+              10
+            ]
+          },
+          {
+            "id": "anchor-tree-node-6",
+            "kind": "node-boundary",
+            "manifest_id": "tree-node-6",
+            "source_bbox_px": [
+              139.0,
+              169.0,
+              10,
+              10
+            ]
+          }
+        ],
+        "compound_diagram": {
+          "kind": "node-link-diagram",
+          "object_inventory_complete": true,
+          "measurement_reviewed": true,
+          "native_object_policy": "measured-simple-objects-native",
+          "nodes": [
+            {
+              "id": "tree-node-0",
+              "manifest_id": "tree-node-0",
+              "geometry": "circle",
+              "source_center_px": [
+                114.0,
+                123.0
+              ],
+              "source_size_px": [
+                12,
+                12
+              ]
+            },
+            {
+              "id": "tree-node-1",
+              "manifest_id": "tree-node-1",
+              "geometry": "circle",
+              "source_center_px": [
+                95.0,
+                150.0
+              ],
+              "source_size_px": [
+                11,
+                11
+              ]
+            },
+            {
+              "id": "tree-node-2",
+              "manifest_id": "tree-node-2",
+              "geometry": "circle",
+              "source_center_px": [
+                134.0,
+                150.0
+              ],
+              "source_size_px": [
+                11,
+                11
+              ]
+            },
+            {
+              "id": "tree-node-3",
+              "manifest_id": "tree-node-3",
+              "geometry": "circle",
+              "source_center_px": [
+                85.0,
+                174.0
+              ],
+              "source_size_px": [
+                10,
+                10
+              ]
+            },
+            {
+              "id": "tree-node-4",
+              "manifest_id": "tree-node-4",
+              "geometry": "circle",
+              "source_center_px": [
+                104.0,
+                174.0
+              ],
+              "source_size_px": [
+                10,
+                10
+              ]
+            },
+            {
+              "id": "tree-node-5",
+              "manifest_id": "tree-node-5",
+              "geometry": "circle",
+              "source_center_px": [
+                124.0,
+                174.0
+              ],
+              "source_size_px": [
+                10,
+                10
+              ]
+            },
+            {
+              "id": "tree-node-6",
+              "manifest_id": "tree-node-6",
+              "geometry": "circle",
+              "source_center_px": [
+                144.0,
+                174.0
+              ],
+              "source_size_px": [
+                10,
+                10
+              ]
+            }
+          ],
+          "edges": [
+            {
+              "id": "tree-edge-0",
+              "manifest_id": "tree-edge-0",
+              "source_points_px": [
+                114,
+                129.0,
+                95,
+                144.5
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "tree-edge-1",
+              "manifest_id": "tree-edge-1",
+              "source_points_px": [
+                114,
+                129.0,
+                134,
+                144.5
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "tree-edge-2",
+              "manifest_id": "tree-edge-2",
+              "source_points_px": [
+                95,
+                155.5,
+                85,
+                169.0
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "tree-edge-3",
+              "manifest_id": "tree-edge-3",
+              "source_points_px": [
+                95,
+                155.5,
+                104,
+                169.0
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "tree-edge-4",
+              "manifest_id": "tree-edge-4",
+              "source_points_px": [
+                134,
+                155.5,
+                124,
+                169.0
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "tree-edge-5",
+              "manifest_id": "tree-edge-5",
+              "source_points_px": [
+                134,
+                155.5,
+                144,
+                169.0
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            }
+          ]
+        }
+      },
+      {
+        "id": "stage-2",
+        "label": "Retrieval & reading comprehension",
+        "source_bbox_px": [
+          203,
+          10,
+          153,
+          292
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User explicitly requires every component editable and approved content corrections and geometric diagram redrawing.",
+        "manifest_ids": {
+          "shapes": [
+            "card-1",
+            "phase-arrow-1",
+            "doc",
+            "doc-line-0",
+            "doc-line-1",
+            "doc-line-2",
+            "database-body-0",
+            "database-base-0",
+            "database-body-1",
+            "database-base-1",
+            "database-body-2",
+            "database-base-2",
+            "database-top",
+            "lens-handle",
+            "lens-outer",
+            "lens-inner"
+          ],
+          "text_boxes": [
+            "era-1",
+            "title-1",
+            "examples-1",
+            "methods-1"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-card-1",
+            "kind": "node-boundary",
+            "manifest_id": "card-1",
+            "source_bbox_px": [
+              211,
+              84,
+              135,
+              156
+            ]
+          },
+          {
+            "id": "anchor-phase-arrow-1",
+            "kind": "node-boundary",
+            "manifest_id": "phase-arrow-1",
+            "source_bbox_px": [
+              337,
+              142,
+              48,
+              33
+            ]
+          },
+          {
+            "id": "anchor-doc",
+            "kind": "node-boundary",
+            "manifest_id": "doc",
+            "source_bbox_px": [
+              281,
+              116,
+              27,
+              36
+            ]
+          },
+          {
+            "id": "anchor-doc-line-0",
+            "kind": "connector",
+            "manifest_id": "doc-line-0",
+            "source_points_px": [
+              286,
+              128,
+              302,
+              128
+            ]
+          },
+          {
+            "id": "anchor-doc-line-1",
+            "kind": "connector",
+            "manifest_id": "doc-line-1",
+            "source_points_px": [
+              286,
+              133,
+              302,
+              133
+            ]
+          },
+          {
+            "id": "anchor-doc-line-2",
+            "kind": "connector",
+            "manifest_id": "doc-line-2",
+            "source_points_px": [
+              286,
+              138,
+              302,
+              138
+            ]
+          },
+          {
+            "id": "anchor-database-body-0",
+            "kind": "node-boundary",
+            "manifest_id": "database-body-0",
+            "source_bbox_px": [
+              247,
+              130,
+              35,
+              13
+            ]
+          },
+          {
+            "id": "anchor-database-base-0",
+            "kind": "node-boundary",
+            "manifest_id": "database-base-0",
+            "source_bbox_px": [
+              247,
+              137,
+              35,
+              10
+            ]
+          },
+          {
+            "id": "anchor-database-body-1",
+            "kind": "node-boundary",
+            "manifest_id": "database-body-1",
+            "source_bbox_px": [
+              247,
+              142,
+              35,
+              13
+            ]
+          },
+          {
+            "id": "anchor-database-base-1",
+            "kind": "node-boundary",
+            "manifest_id": "database-base-1",
+            "source_bbox_px": [
+              247,
+              149,
+              35,
+              10
+            ]
+          },
+          {
+            "id": "anchor-database-body-2",
+            "kind": "node-boundary",
+            "manifest_id": "database-body-2",
+            "source_bbox_px": [
+              247,
+              154,
+              35,
+              13
+            ]
+          },
+          {
+            "id": "anchor-database-base-2",
+            "kind": "node-boundary",
+            "manifest_id": "database-base-2",
+            "source_bbox_px": [
+              247,
+              161,
+              35,
+              10
+            ]
+          },
+          {
+            "id": "anchor-database-top",
+            "kind": "node-boundary",
+            "manifest_id": "database-top",
+            "source_bbox_px": [
+              247,
+              125,
+              35,
+              11
+            ]
+          },
+          {
+            "id": "anchor-lens-handle",
+            "kind": "connector",
+            "manifest_id": "lens-handle",
+            "source_points_px": [
+              289,
+              164,
+              304,
+              179
+            ]
+          },
+          {
+            "id": "anchor-lens-outer",
+            "kind": "node-boundary",
+            "manifest_id": "lens-outer",
+            "source_bbox_px": [
+              268,
+              141,
+              31,
+              31
+            ]
+          },
+          {
+            "id": "anchor-lens-inner",
+            "kind": "node-boundary",
+            "manifest_id": "lens-inner",
+            "source_bbox_px": [
+              273,
+              146,
+              21,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stage-3",
+        "label": "Neural & generative QA",
+        "source_bbox_px": [
+          367,
+          10,
+          153,
+          292
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User explicitly requires every component editable and approved content corrections and geometric diagram redrawing.",
+        "manifest_ids": {
+          "shapes": [
+            "card-2",
+            "phase-arrow-2",
+            "neural-edge-0-0-0",
+            "neural-edge-0-0-1",
+            "neural-edge-0-0-2",
+            "neural-edge-0-1-0",
+            "neural-edge-0-1-1",
+            "neural-edge-0-1-2",
+            "neural-edge-0-2-0",
+            "neural-edge-0-2-1",
+            "neural-edge-0-2-2",
+            "neural-edge-1-0-0",
+            "neural-edge-1-0-1",
+            "neural-edge-1-1-0",
+            "neural-edge-1-1-1",
+            "neural-edge-1-2-0",
+            "neural-edge-1-2-1",
+            "neural-node-0-0",
+            "neural-node-0-1",
+            "neural-node-0-2",
+            "neural-node-1-0",
+            "neural-node-1-1",
+            "neural-node-1-2",
+            "neural-node-2-0",
+            "neural-node-2-1"
+          ],
+          "text_boxes": [
+            "era-2",
+            "title-2",
+            "examples-2",
+            "methods-2"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-card-2",
+            "kind": "node-boundary",
+            "manifest_id": "card-2",
+            "source_bbox_px": [
+              375,
+              84,
+              135,
+              156
+            ]
+          },
+          {
+            "id": "anchor-phase-arrow-2",
+            "kind": "node-boundary",
+            "manifest_id": "phase-arrow-2",
+            "source_bbox_px": [
+              501,
+              142,
+              48,
+              33
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-0-0-0",
+            "kind": "connector",
+            "manifest_id": "neural-edge-0-0-0",
+            "source_points_px": [
+              413,
+              132,
+              441,
+              123
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-0-0-1",
+            "kind": "connector",
+            "manifest_id": "neural-edge-0-0-1",
+            "source_points_px": [
+              413,
+              132,
+              441,
+              146
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-0-0-2",
+            "kind": "connector",
+            "manifest_id": "neural-edge-0-0-2",
+            "source_points_px": [
+              413,
+              132,
+              441,
+              176
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-0-1-0",
+            "kind": "connector",
+            "manifest_id": "neural-edge-0-1-0",
+            "source_points_px": [
+              413,
+              151,
+              441,
+              123
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-0-1-1",
+            "kind": "connector",
+            "manifest_id": "neural-edge-0-1-1",
+            "source_points_px": [
+              413,
+              151,
+              441,
+              146
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-0-1-2",
+            "kind": "connector",
+            "manifest_id": "neural-edge-0-1-2",
+            "source_points_px": [
+              413,
+              151,
+              441,
+              176
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-0-2-0",
+            "kind": "connector",
+            "manifest_id": "neural-edge-0-2-0",
+            "source_points_px": [
+              413,
+              170,
+              441,
+              123
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-0-2-1",
+            "kind": "connector",
+            "manifest_id": "neural-edge-0-2-1",
+            "source_points_px": [
+              413,
+              170,
+              441,
+              146
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-0-2-2",
+            "kind": "connector",
+            "manifest_id": "neural-edge-0-2-2",
+            "source_points_px": [
+              413,
+              170,
+              441,
+              176
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-1-0-0",
+            "kind": "connector",
+            "manifest_id": "neural-edge-1-0-0",
+            "source_points_px": [
+              441,
+              123,
+              471,
+              140
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-1-0-1",
+            "kind": "connector",
+            "manifest_id": "neural-edge-1-0-1",
+            "source_points_px": [
+              441,
+              123,
+              471,
+              161
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-1-1-0",
+            "kind": "connector",
+            "manifest_id": "neural-edge-1-1-0",
+            "source_points_px": [
+              441,
+              146,
+              471,
+              140
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-1-1-1",
+            "kind": "connector",
+            "manifest_id": "neural-edge-1-1-1",
+            "source_points_px": [
+              441,
+              146,
+              471,
+              161
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-1-2-0",
+            "kind": "connector",
+            "manifest_id": "neural-edge-1-2-0",
+            "source_points_px": [
+              441,
+              176,
+              471,
+              140
+            ]
+          },
+          {
+            "id": "anchor-neural-edge-1-2-1",
+            "kind": "connector",
+            "manifest_id": "neural-edge-1-2-1",
+            "source_points_px": [
+              441,
+              176,
+              471,
+              161
+            ]
+          },
+          {
+            "id": "anchor-neural-node-0-0",
+            "kind": "node-boundary",
+            "manifest_id": "neural-node-0-0",
+            "source_bbox_px": [
+              407.5,
+              126.5,
+              11,
+              11
+            ]
+          },
+          {
+            "id": "anchor-neural-node-0-1",
+            "kind": "node-boundary",
+            "manifest_id": "neural-node-0-1",
+            "source_bbox_px": [
+              407.5,
+              145.5,
+              11,
+              11
+            ]
+          },
+          {
+            "id": "anchor-neural-node-0-2",
+            "kind": "node-boundary",
+            "manifest_id": "neural-node-0-2",
+            "source_bbox_px": [
+              407.5,
+              164.5,
+              11,
+              11
+            ]
+          },
+          {
+            "id": "anchor-neural-node-1-0",
+            "kind": "node-boundary",
+            "manifest_id": "neural-node-1-0",
+            "source_bbox_px": [
+              435.5,
+              117.5,
+              11,
+              11
+            ]
+          },
+          {
+            "id": "anchor-neural-node-1-1",
+            "kind": "node-boundary",
+            "manifest_id": "neural-node-1-1",
+            "source_bbox_px": [
+              435.5,
+              140.5,
+              11,
+              11
+            ]
+          },
+          {
+            "id": "anchor-neural-node-1-2",
+            "kind": "node-boundary",
+            "manifest_id": "neural-node-1-2",
+            "source_bbox_px": [
+              435.5,
+              170.5,
+              11,
+              11
+            ]
+          },
+          {
+            "id": "anchor-neural-node-2-0",
+            "kind": "node-boundary",
+            "manifest_id": "neural-node-2-0",
+            "source_bbox_px": [
+              465.5,
+              134.5,
+              11,
+              11
+            ]
+          },
+          {
+            "id": "anchor-neural-node-2-1",
+            "kind": "node-boundary",
+            "manifest_id": "neural-node-2-1",
+            "source_bbox_px": [
+              465.5,
+              155.5,
+              11,
+              11
+            ]
+          }
+        ],
+        "compound_diagram": {
+          "kind": "node-link-diagram",
+          "object_inventory_complete": true,
+          "measurement_reviewed": true,
+          "native_object_policy": "measured-simple-objects-native",
+          "nodes": [
+            {
+              "id": "neural-node-0-0",
+              "manifest_id": "neural-node-0-0",
+              "geometry": "circle",
+              "source_center_px": [
+                413.0,
+                132.0
+              ],
+              "source_size_px": [
+                11,
+                11
+              ]
+            },
+            {
+              "id": "neural-node-0-1",
+              "manifest_id": "neural-node-0-1",
+              "geometry": "circle",
+              "source_center_px": [
+                413.0,
+                151.0
+              ],
+              "source_size_px": [
+                11,
+                11
+              ]
+            },
+            {
+              "id": "neural-node-0-2",
+              "manifest_id": "neural-node-0-2",
+              "geometry": "circle",
+              "source_center_px": [
+                413.0,
+                170.0
+              ],
+              "source_size_px": [
+                11,
+                11
+              ]
+            },
+            {
+              "id": "neural-node-1-0",
+              "manifest_id": "neural-node-1-0",
+              "geometry": "circle",
+              "source_center_px": [
+                441.0,
+                123.0
+              ],
+              "source_size_px": [
+                11,
+                11
+              ]
+            },
+            {
+              "id": "neural-node-1-1",
+              "manifest_id": "neural-node-1-1",
+              "geometry": "circle",
+              "source_center_px": [
+                441.0,
+                146.0
+              ],
+              "source_size_px": [
+                11,
+                11
+              ]
+            },
+            {
+              "id": "neural-node-1-2",
+              "manifest_id": "neural-node-1-2",
+              "geometry": "circle",
+              "source_center_px": [
+                441.0,
+                176.0
+              ],
+              "source_size_px": [
+                11,
+                11
+              ]
+            },
+            {
+              "id": "neural-node-2-0",
+              "manifest_id": "neural-node-2-0",
+              "geometry": "circle",
+              "source_center_px": [
+                471.0,
+                140.0
+              ],
+              "source_size_px": [
+                11,
+                11
+              ]
+            },
+            {
+              "id": "neural-node-2-1",
+              "manifest_id": "neural-node-2-1",
+              "geometry": "circle",
+              "source_center_px": [
+                471.0,
+                161.0
+              ],
+              "source_size_px": [
+                11,
+                11
+              ]
+            }
+          ],
+          "edges": [
+            {
+              "id": "neural-edge-0-0-0",
+              "manifest_id": "neural-edge-0-0-0",
+              "source_points_px": [
+                413,
+                132,
+                441,
+                123
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-0-0-1",
+              "manifest_id": "neural-edge-0-0-1",
+              "source_points_px": [
+                413,
+                132,
+                441,
+                146
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-0-0-2",
+              "manifest_id": "neural-edge-0-0-2",
+              "source_points_px": [
+                413,
+                132,
+                441,
+                176
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-0-1-0",
+              "manifest_id": "neural-edge-0-1-0",
+              "source_points_px": [
+                413,
+                151,
+                441,
+                123
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-0-1-1",
+              "manifest_id": "neural-edge-0-1-1",
+              "source_points_px": [
+                413,
+                151,
+                441,
+                146
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-0-1-2",
+              "manifest_id": "neural-edge-0-1-2",
+              "source_points_px": [
+                413,
+                151,
+                441,
+                176
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-0-2-0",
+              "manifest_id": "neural-edge-0-2-0",
+              "source_points_px": [
+                413,
+                170,
+                441,
+                123
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-0-2-1",
+              "manifest_id": "neural-edge-0-2-1",
+              "source_points_px": [
+                413,
+                170,
+                441,
+                146
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-0-2-2",
+              "manifest_id": "neural-edge-0-2-2",
+              "source_points_px": [
+                413,
+                170,
+                441,
+                176
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-1-0-0",
+              "manifest_id": "neural-edge-1-0-0",
+              "source_points_px": [
+                441,
+                123,
+                471,
+                140
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-1-0-1",
+              "manifest_id": "neural-edge-1-0-1",
+              "source_points_px": [
+                441,
+                123,
+                471,
+                161
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-1-1-0",
+              "manifest_id": "neural-edge-1-1-0",
+              "source_points_px": [
+                441,
+                146,
+                471,
+                140
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-1-1-1",
+              "manifest_id": "neural-edge-1-1-1",
+              "source_points_px": [
+                441,
+                146,
+                471,
+                161
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-1-2-0",
+              "manifest_id": "neural-edge-1-2-0",
+              "source_points_px": [
+                441,
+                176,
+                471,
+                140
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "neural-edge-1-2-1",
+              "manifest_id": "neural-edge-1-2-1",
+              "source_points_px": [
+                441,
+                176,
+                471,
+                161
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            }
+          ]
+        }
+      },
+      {
+        "id": "stage-4",
+        "label": "LLM-based agentic QA",
+        "source_bbox_px": [
+          531,
+          10,
+          153,
+          292
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User explicitly requires every component editable and approved content corrections and geometric diagram redrawing.",
+        "manifest_ids": {
+          "shapes": [
+            "card-3",
+            "agent-link-0",
+            "robot-head-0",
+            "robot-eye1-0",
+            "robot-eye2-0",
+            "robot-antenna-0",
+            "robot-antenna-tip-0",
+            "robot-body-0",
+            "robot-arm-0--1",
+            "robot-leg-0--1",
+            "robot-arm-0-1",
+            "robot-leg-0-1",
+            "agent-link-1",
+            "robot-head-1",
+            "robot-eye1-1",
+            "robot-eye2-1",
+            "robot-antenna-1",
+            "robot-antenna-tip-1",
+            "robot-body-1",
+            "robot-arm-1--1",
+            "robot-leg-1--1",
+            "robot-arm-1-1",
+            "robot-leg-1-1",
+            "agent-link-2",
+            "robot-head-2",
+            "robot-eye1-2",
+            "robot-eye2-2",
+            "robot-antenna-2",
+            "robot-antenna-tip-2",
+            "robot-body-2",
+            "robot-arm-2--1",
+            "robot-leg-2--1",
+            "robot-arm-2-1",
+            "robot-leg-2-1",
+            "llm-hub"
+          ],
+          "text_boxes": [
+            "era-3",
+            "title-3",
+            "examples-3",
+            "methods-3",
+            "llm-label"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-card-3",
+            "kind": "node-boundary",
+            "manifest_id": "card-3",
+            "source_bbox_px": [
+              539,
+              84,
+              135,
+              156
+            ]
+          },
+          {
+            "id": "anchor-agent-link-0",
+            "kind": "directed-connector",
+            "manifest_id": "agent-link-0",
+            "source_points_px": [
+              606,
+              128,
+              606,
+              154
+            ]
+          },
+          {
+            "id": "anchor-robot-head-0",
+            "kind": "node-boundary",
+            "manifest_id": "robot-head-0",
+            "source_bbox_px": [
+              598,
+              117,
+              16,
+              11
+            ]
+          },
+          {
+            "id": "anchor-robot-eye1-0",
+            "kind": "node-boundary",
+            "manifest_id": "robot-eye1-0",
+            "source_bbox_px": [
+              601.5,
+              120.5,
+              2,
+              2
+            ]
+          },
+          {
+            "id": "anchor-robot-eye2-0",
+            "kind": "node-boundary",
+            "manifest_id": "robot-eye2-0",
+            "source_bbox_px": [
+              608.5,
+              120.5,
+              2,
+              2
+            ]
+          },
+          {
+            "id": "anchor-robot-antenna-0",
+            "kind": "connector",
+            "manifest_id": "robot-antenna-0",
+            "source_points_px": [
+              606,
+              117,
+              606,
+              113
+            ]
+          },
+          {
+            "id": "anchor-robot-antenna-tip-0",
+            "kind": "node-boundary",
+            "manifest_id": "robot-antenna-tip-0",
+            "source_bbox_px": [
+              604.5,
+              111,
+              3,
+              3
+            ]
+          },
+          {
+            "id": "anchor-robot-body-0",
+            "kind": "node-boundary",
+            "manifest_id": "robot-body-0",
+            "source_bbox_px": [
+              599,
+              130,
+              14,
+              9
+            ]
+          },
+          {
+            "id": "anchor-robot-arm-0--1",
+            "kind": "connector",
+            "manifest_id": "robot-arm-0--1",
+            "source_points_px": [
+              598,
+              131,
+              594,
+              137
+            ]
+          },
+          {
+            "id": "anchor-robot-leg-0--1",
+            "kind": "connector",
+            "manifest_id": "robot-leg-0--1",
+            "source_points_px": [
+              602,
+              139,
+              602,
+              142
+            ]
+          },
+          {
+            "id": "anchor-robot-arm-0-1",
+            "kind": "connector",
+            "manifest_id": "robot-arm-0-1",
+            "source_points_px": [
+              614,
+              131,
+              618,
+              137
+            ]
+          },
+          {
+            "id": "anchor-robot-leg-0-1",
+            "kind": "connector",
+            "manifest_id": "robot-leg-0-1",
+            "source_points_px": [
+              610,
+              139,
+              610,
+              142
+            ]
+          },
+          {
+            "id": "anchor-agent-link-1",
+            "kind": "directed-connector",
+            "manifest_id": "agent-link-1",
+            "source_points_px": [
+              580,
+              180,
+              606,
+              154
+            ]
+          },
+          {
+            "id": "anchor-robot-head-1",
+            "kind": "node-boundary",
+            "manifest_id": "robot-head-1",
+            "source_bbox_px": [
+              572,
+              169,
+              16,
+              11
+            ]
+          },
+          {
+            "id": "anchor-robot-eye1-1",
+            "kind": "node-boundary",
+            "manifest_id": "robot-eye1-1",
+            "source_bbox_px": [
+              575.5,
+              172.5,
+              2,
+              2
+            ]
+          },
+          {
+            "id": "anchor-robot-eye2-1",
+            "kind": "node-boundary",
+            "manifest_id": "robot-eye2-1",
+            "source_bbox_px": [
+              582.5,
+              172.5,
+              2,
+              2
+            ]
+          },
+          {
+            "id": "anchor-robot-antenna-1",
+            "kind": "connector",
+            "manifest_id": "robot-antenna-1",
+            "source_points_px": [
+              580,
+              169,
+              580,
+              165
+            ]
+          },
+          {
+            "id": "anchor-robot-antenna-tip-1",
+            "kind": "node-boundary",
+            "manifest_id": "robot-antenna-tip-1",
+            "source_bbox_px": [
+              578.5,
+              163,
+              3,
+              3
+            ]
+          },
+          {
+            "id": "anchor-robot-body-1",
+            "kind": "node-boundary",
+            "manifest_id": "robot-body-1",
+            "source_bbox_px": [
+              573,
+              182,
+              14,
+              9
+            ]
+          },
+          {
+            "id": "anchor-robot-arm-1--1",
+            "kind": "connector",
+            "manifest_id": "robot-arm-1--1",
+            "source_points_px": [
+              572,
+              183,
+              568,
+              189
+            ]
+          },
+          {
+            "id": "anchor-robot-leg-1--1",
+            "kind": "connector",
+            "manifest_id": "robot-leg-1--1",
+            "source_points_px": [
+              576,
+              191,
+              576,
+              194
+            ]
+          },
+          {
+            "id": "anchor-robot-arm-1-1",
+            "kind": "connector",
+            "manifest_id": "robot-arm-1-1",
+            "source_points_px": [
+              588,
+              183,
+              592,
+              189
+            ]
+          },
+          {
+            "id": "anchor-robot-leg-1-1",
+            "kind": "connector",
+            "manifest_id": "robot-leg-1-1",
+            "source_points_px": [
+              584,
+              191,
+              584,
+              194
+            ]
+          },
+          {
+            "id": "anchor-agent-link-2",
+            "kind": "directed-connector",
+            "manifest_id": "agent-link-2",
+            "source_points_px": [
+              633,
+              180,
+              606,
+              154
+            ]
+          },
+          {
+            "id": "anchor-robot-head-2",
+            "kind": "node-boundary",
+            "manifest_id": "robot-head-2",
+            "source_bbox_px": [
+              625,
+              169,
+              16,
+              11
+            ]
+          },
+          {
+            "id": "anchor-robot-eye1-2",
+            "kind": "node-boundary",
+            "manifest_id": "robot-eye1-2",
+            "source_bbox_px": [
+              628.5,
+              172.5,
+              2,
+              2
+            ]
+          },
+          {
+            "id": "anchor-robot-eye2-2",
+            "kind": "node-boundary",
+            "manifest_id": "robot-eye2-2",
+            "source_bbox_px": [
+              635.5,
+              172.5,
+              2,
+              2
+            ]
+          },
+          {
+            "id": "anchor-robot-antenna-2",
+            "kind": "connector",
+            "manifest_id": "robot-antenna-2",
+            "source_points_px": [
+              633,
+              169,
+              633,
+              165
+            ]
+          },
+          {
+            "id": "anchor-robot-antenna-tip-2",
+            "kind": "node-boundary",
+            "manifest_id": "robot-antenna-tip-2",
+            "source_bbox_px": [
+              631.5,
+              163,
+              3,
+              3
+            ]
+          },
+          {
+            "id": "anchor-robot-body-2",
+            "kind": "node-boundary",
+            "manifest_id": "robot-body-2",
+            "source_bbox_px": [
+              626,
+              182,
+              14,
+              9
+            ]
+          },
+          {
+            "id": "anchor-robot-arm-2--1",
+            "kind": "connector",
+            "manifest_id": "robot-arm-2--1",
+            "source_points_px": [
+              625,
+              183,
+              621,
+              189
+            ]
+          },
+          {
+            "id": "anchor-robot-leg-2--1",
+            "kind": "connector",
+            "manifest_id": "robot-leg-2--1",
+            "source_points_px": [
+              629,
+              191,
+              629,
+              194
+            ]
+          },
+          {
+            "id": "anchor-robot-arm-2-1",
+            "kind": "connector",
+            "manifest_id": "robot-arm-2-1",
+            "source_points_px": [
+              641,
+              183,
+              645,
+              189
+            ]
+          },
+          {
+            "id": "anchor-robot-leg-2-1",
+            "kind": "connector",
+            "manifest_id": "robot-leg-2-1",
+            "source_points_px": [
+              637,
+              191,
+              637,
+              194
+            ]
+          },
+          {
+            "id": "anchor-llm-hub",
+            "kind": "node-boundary",
+            "manifest_id": "llm-hub",
+            "source_bbox_px": [
+              591,
+              142,
+              30,
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "id": "interpretation",
+        "label": "Interpretation of the development arrows",
+        "source_bbox_px": [
+          35,
+          296,
+          640,
+          25
+        ],
+        "risk_level": "low",
+        "strategy": "native-text-layout",
+        "reason": "User explicitly requires every component editable and approved content corrections and geometric diagram redrawing.",
+        "manifest_ids": {
+          "shapes": [],
+          "text_boxes": [
+            "coexistence"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": []
+      }
+    ]
+  },
+  "content_sources": [
+    "https://doi.org/10.1145/365153.365168",
+    "https://trec.nist.gov/data/qamain.html",
+    "https://aclanthology.org/D16-1264/",
+    "https://arxiv.org/abs/1810.04805",
+    "https://arxiv.org/abs/2005.11401",
+    "https://arxiv.org/abs/2201.11903",
+    "https://arxiv.org/abs/2210.03629",
+    "https://arxiv.org/abs/2303.08774",
+    "https://arxiv.org/abs/2312.11805"
+  ]
+}

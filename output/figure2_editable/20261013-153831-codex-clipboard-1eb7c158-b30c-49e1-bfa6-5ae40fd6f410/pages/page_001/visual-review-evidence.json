@@ -1,0 +1,21 @@
+{
+  "schema_version": "image2ppt-visual-review-evidence-v1",
+  "pages": [
+    {
+      "page_id": "page_001",
+      "source": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\pages\\page_001\\source.png",
+      "rendered": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\pages\\page_001\\render\\rendered.png",
+      "source_sha256": "6b5a97c171dcb95cc69db378251429322c859ad61294985620381bf1dc0a3527",
+      "rendered_sha256": "dc66e07cac234e5389ca01aa5a487fa540bf4df8127711ed21b2770accfebc87",
+      "reviewed": true,
+      "checks": {
+        "composition_layout": "PowerPoint render preserves four equal pastel cards and the horizontal sequence; the new coexistence note sits beneath the methods.",
+        "text_content": "Corrected open-ended dates, SQuAD reading-comprehension category, BERT neural grouping and CoT 2022 are present. The four titles fit on two lines without clipping.",
+        "object_completeness": "All four cards, three phase arrows, tree, database-document-lens, neural network and three robot agents with a language-model hub are visible as native objects.",
+        "render_integrity": "Inspected actual PowerPoint COM export, not the source image. The editable pictograms use the geometric redraw explicitly requested by the user; flat fills replace bitmap shading.",
+        "arrow_geometry": "Three rightward arrows are complete native AutoShapes; their heads sit in the gaps between cards. Agent-hub relations own their arrowheads.",
+        "compound_diagram": "The seven tree circles and eight neural circles are round; six tree edges and fifteen neural edges connect the intended nodes with lines behind the nodes."
+      }
+    }
+  ]
+}

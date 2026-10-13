@@ -1,0 +1,91 @@
+{
+  "schema_version": "image2ppt-manifest-arrow-postprocess-v1",
+  "passed": true,
+  "pptx": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\final\\codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410_edited.pptx",
+  "manifests": [
+    "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\pages\\page_001\\manifest.json"
+  ],
+  "operations": [
+    {
+      "slide_index": 1,
+      "shape_index": 1,
+      "object_id": 90,
+      "name": "phase-arrow-0",
+      "role": "filled",
+      "kind": "sp",
+      "preset": "rightArrow",
+      "embedded_text": ""
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 16,
+      "object_id": 91,
+      "name": "phase-arrow-1",
+      "role": "filled",
+      "kind": "sp",
+      "preset": "rightArrow",
+      "embedded_text": ""
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 32,
+      "object_id": 92,
+      "name": "phase-arrow-2",
+      "role": "filled",
+      "kind": "sp",
+      "preset": "rightArrow",
+      "embedded_text": ""
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 57,
+      "object_id": 27,
+      "name": "agent-link-0",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 68,
+      "object_id": 28,
+      "name": "agent-link-1",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 79,
+      "object_id": 29,
+      "name": "agent-link-2",
+      "role": "connector",
+      "kind": "cxnSp",
+      "connector": "straight",
+      "geometry": "line",
+      "start_arrow": null,
+      "end_arrow": "triangle"
+    }
+  ],
+  "errors": [],
+  "preservation": {
+    "non_slide_parts_preserved": true,
+    "non_slide_part_count": 12,
+    "notes_parts_preserved": true,
+    "notes_part_count": 0
+  },
+  "input_sha256": "5bf8eff99f26f82e39ebdaba067ac871bbf0cd005ec46f0d3955a53e7e0d4cff",
+  "output_sha256": "5bf8eff99f26f82e39ebdaba067ac871bbf0cd005ec46f0d3955a53e7e0d4cff",
+  "summary": {
+    "slides": 1,
+    "profiled_arrows": 6,
+    "connectors": 3,
+    "filled_arrows": 3
+  }
+}

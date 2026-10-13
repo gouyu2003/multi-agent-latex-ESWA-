@@ -1,0 +1,10 @@
+{
+  "pdf": "fig_reference_corpus.pdf",
+  "auditable": true,
+  "minimum_required_pt": 7.0,
+  "minimum_found_pt": 7.1,
+  "text_run_count": 17,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

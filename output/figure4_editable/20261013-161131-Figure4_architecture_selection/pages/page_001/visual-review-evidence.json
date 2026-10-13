@@ -1,0 +1,21 @@
+{
+  "schema_version": "image2ppt-visual-review-evidence-v1",
+  "pages": [
+    {
+      "page_id": "page_001",
+      "source": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\source.png",
+      "rendered": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\render\\rendered.png",
+      "source_sha256": "807c8371204af7b7da141e3e0f80f6701be4a4e3ec7800639f32a3aca1431202",
+      "rendered_sha256": "9544c2b918efb23318c3276fd949600fca2dda5245690bf16d0938c1a05797d1",
+      "reviewed": true,
+      "checks": {
+        "composition_layout": "Actual PowerPoint rendering retains the top input card, gray pre-screening phase and blue selection phase, four centered diamonds and five right-side recommendation cards.",
+        "text_content": "All four questions, eight T/F labels, five architecture descriptions and the bottom decision note are readable and present. Original wording is retained with paragraph breaks for compact text.",
+        "object_completeness": "All source components have native representations: person-clock, reviewer-gavel-shield, hierarchy, mesh and conversation pictograms, backgrounds, labels and branch lines.",
+        "render_integrity": "Reviewed the PowerPoint COM export against the supplied source. Pictograms are drawn with editable shapes under the user all-components-editable requirement; no source screenshot is embedded.",
+        "arrow_geometry": "One input arrow and eight decision branches resolve to single native connectors with owned arrowheads. The final F branch uses a native two-bend elbow route below the last diamond and terminates at Flat.",
+        "compound_diagram": "Seven mesh circles retain their circular geometry. Twelve individual edges connect the native mesh nodes and remain behind the circles."
+      }
+    }
+  ]
+}

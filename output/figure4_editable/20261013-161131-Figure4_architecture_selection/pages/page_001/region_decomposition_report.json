@@ -1,0 +1,68 @@
+{
+  "schema_version": "image2ppt-region-decomposition-report-v1",
+  "passed": true,
+  "pages": [
+    {
+      "manifest": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\pages\\page_001\\manifest.json",
+      "passed": true,
+      "page_complexity": "structured",
+      "region_count": 4,
+      "regions": [
+        {
+          "id": "input",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 4,
+          "protected_anchor_count": 2,
+          "compound_diagram": false,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "prescreen",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 35,
+          "protected_anchor_count": 24,
+          "compound_diagram": false,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "selection",
+          "strategy": "native-object-decomposition",
+          "risk_level": "high",
+          "manifest_object_count": 56,
+          "protected_anchor_count": 43,
+          "compound_diagram": true,
+          "passed": true,
+          "errors": []
+        },
+        {
+          "id": "note",
+          "strategy": "native-text-layout",
+          "risk_level": "low",
+          "manifest_object_count": 1,
+          "protected_anchor_count": 0,
+          "compound_diagram": false,
+          "passed": true,
+          "errors": []
+        }
+      ],
+      "summary": {
+        "manifest_objects": 96,
+        "assigned_objects": 96,
+        "protected_anchors": 69,
+        "compound_regions": 1
+      },
+      "warnings": [],
+      "errors": []
+    }
+  ],
+  "summary": {
+    "pages": 1,
+    "regions": 4,
+    "compound_regions": 1
+  },
+  "errors": []
+}

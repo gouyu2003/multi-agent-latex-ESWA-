@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-13",
+  "baseline_head": "f67f29499dd54822305576d2230ce5154f8dedb3",
+  "validation_scope": "standalone figure and source preservation",
+  "compilation_status": "PENDING_USER_VSCODE",
+  "checks": {
+    "source_inputs_match_recorded_hashes": true,
+    "pool_partition_85_78_7": true,
+    "cited_roles_13_15_42_8": true,
+    "pool_roles_13_17_46_9": true,
+    "source_csv_matches_summary": true,
+    "active_citation_commands_and_keys_preserved": true,
+    "136_commands_180_key_occurrences": true,
+    "protected_tracked_files_unchanged": true,
+    "historical_counts_match_logged_snapshot": true,
+    "figure_pdf_has_all_expected_labels_and_counts": true,
+    "historical_and_current_scopes_explicit": true,
+    "figure_pdf_is_vector": true,
+    "figure_pdf_140_by_88_mm": true,
+    "figure_pdf_uses_Arial": true,
+    "figure_fonts_embedded": true,
+    "collision_audit_pass": true,
+    "rendered_bar_widths_proportional_to_13_15_42_8": true
+  },
+  "all_passed": true,
+  "changed_preexisting_tracked_files": [
+    "fig_reference_corpus.pdf",
+    "fig_reference_corpus.png",
+    "fig_reference_corpus.svg",
+    "manuscript.tex",
+    "tools/generate_reference_figures.py"
+  ],
+  "unexpected_protected_changes": [],
+  "manuscript_pages": null,
+  "figure_page": null,
+  "figure_pdf_font_sizes_pt": [
+    7.1,
+    7.8
+  ],
+  "final_figure_font_sizes_pt": [],
+  "overfull_before": [
+    "Overfull \\hbox (123.62721pt too wide) detected at line 102",
+    "Overfull \\hbox (0.76843pt too wide) in paragraph at lines 595--595",
+    "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2132--2139"
+  ],
+  "overfull_after": null,
+  "underfull_before": 69,
+  "underfull_after": null,
+  "source_and_output_sha256": {
+    "manuscript.tex": "e5e73c5ea3859602da724e08e327369293942cc2dd2428160607b85d58df4a79",
+    "references.bib": "ef7c289c90c183c5f72f5484ee31b64d675a0f7a8dbfc325803d1bdc1d7b9a59",
+    "literature_audit.csv": "4ba8a1cee5ba2925f32dbd9dfb5909f783b3969bed621ddcb60ce5090f991a37",
+    "figure_source_data.csv": "fe4c3cf6e4fcffee795a9df563505e2b8a01c38b3cfe2a5b69503ec89c627d92",
+    "fig_reference_corpus.pdf": "298d7ddfdfbe72ef5af0e1c43583fc2943160ef261409965dcb8b48762b7a231",
+    "fig_reference_corpus.svg": "7b7300c7f6129245d05907f25171c4f9287f011f574e2f77b16e73fc1bdc313e",
+    "fig_reference_corpus.png": "2b0e7e096420e7282a073f904a663c1cb3cb58277efd7a24dc81dc8cf66dd10b",
+    "figure1_source_data.csv": "04ea0f150647f9369f3d9ca53ca210dcedf10526fee581ee3df7e75899e7c6b0",
+    "tools/generate_reference_figures.py": "a731e772de589d6c5ad24e8ad13fd53c318daca655836d40d4c97e202bb97995"
+  },
+  "visual_review": {
+    "status": "reviewed",
+    "scope": "standalone figure only",
+    "observations": [
+      "Historical flow and current pool branches are legible.",
+      "Four contiguous colored segments use centered white labels; the narrow T segment has sufficient clearance.",
+      "No text clipping or overlapping connectors observed."
+    ],
+    "manuscript_layout": "Pending user compilation in VSCode"
+  },
+  "previous_manuscript_pdf_unchanged": false,
+  "manuscript_pdf_note": "The manuscript PDF changed during this turn, but the agent did not invoke compilation or validate that compiled output. An editor or another process may have rebuilt it; compilation status remains pending verification."
+}

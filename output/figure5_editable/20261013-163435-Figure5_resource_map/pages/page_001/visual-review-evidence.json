@@ -1,0 +1,21 @@
+{
+  "schema_version": "image2ppt-visual-review-evidence-v1",
+  "pages": [
+    {
+      "page_id": "page_001",
+      "source": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\source.png",
+      "rendered": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure5_editable\\20261013-163435-Figure5_resource_map\\pages\\page_001\\render\\rendered.png",
+      "source_sha256": "b3ee3935276d797d75b864b5358687962a44998919080e5688669659cf283151",
+      "rendered_sha256": "e28fac8ca3517218c2a3e7bb7b03bf06db24a27069e0a55392207164c8c701e3",
+      "reviewed": true,
+      "checks": {
+        "composition_layout": "The actual PowerPoint export preserves four outer circles, a central blue hexagon and the bottom document outcome. The evaluation circle is enlarged to show the approved three-group layout.",
+        "text_content": "Sixteen resource names are present and legible. MuSiQue is an independent QA benchmark; AutoRAG is labeled as a RAG tool. Assessment labels and the non-guaranteeing construction outcome match the approved content audit.",
+        "object_completeness": "All four layers, central system, reciprocal relation arrows, outcome arrow and icon subjects appear as native objects. The duplicate tiny name inside the AgentBench graphic is eliminated.",
+        "render_integrity": "Reviewed the actual PowerPoint COM rendering, not the source image. Native pictograms implement the user all-editable requirement, and no bitmap logo or screenshot is embedded.",
+        "arrow_geometry": "Eight reciprocal straight arrows follow the original relationship pairs, with their arrowheads belonging to each connector. The ninth arrow points down to system construction and evaluation.",
+        "compound_diagram": "The Co-STORM triangle has three circular native nodes and three native connections beneath the nodes; the geometry is measurable and each object has a protected anchor."
+      }
+    }
+  ]
+}

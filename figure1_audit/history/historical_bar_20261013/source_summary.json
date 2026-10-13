@@ -1,0 +1,467 @@
+{
+  "scope": "Historical working records linked to the separately audited current corpus",
+  "historical_flow": {
+    "candidates": 108,
+    "retained": 72,
+    "additions": 12,
+    "records": 84,
+    "excluded": 36,
+    "scope": "Historical working-record summary; original searches not independently reconstructed"
+  },
+  "pool_count": 85,
+  "cited_count": 78,
+  "uncited_count": 7,
+  "pool_roles": {
+    "I": 13,
+    "S": 17,
+    "B": 46,
+    "T": 9
+  },
+  "cited_roles": {
+    "I": 13,
+    "S": 15,
+    "B": 42,
+    "T": 8
+  },
+  "uncited_roles": {
+    "I": 0,
+    "S": 2,
+    "B": 4,
+    "T": 1
+  },
+  "citation_commands": 136,
+  "expanded_key_occurrences": 180,
+  "records": [
+    {
+      "key": "anthropic2024mcp",
+      "evidence_role": "T",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "asai2024selfrag",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "autorag2024",
+      "evidence_role": "T",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "besta2024graph_of_thoughts",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "brown2020gpt3",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "brynjolfsson2023generative_ai_work",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": false
+    },
+    {
+      "key": "chen2024agentverse",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "chen2024reconcile",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "choi2018quac",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "crewai2023",
+      "evidence_role": "T",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "cui2023chatlaw",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "devlin2019bert",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "dhuliawala2023chain_of_verification",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "dify2024",
+      "evidence_role": "T",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "du2024multiagent_debate",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "duan2024langgraph_crewai",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "fatemi2024financialqa",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "gao2024rag_survey",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "glm2024chatglm",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "google2025a2a",
+      "evidence_role": "T",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "guha2023legalbench",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": false
+    },
+    {
+      "key": "guo2024llm_multiagent_survey",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "han2024mast",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "hendrycks2021mmlu",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "hong2024metagpt",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "hu2024triad",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "huang2023agentcoder",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "jiang2023active_rag",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "jiang2026cocoa",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "jimenez2024swe_bench",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": false
+    },
+    {
+      "key": "karpukhin2020dpr",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "khattab2024dspy",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "khot2023decomposed_prompting",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "kim2024mdagents",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "kwiatkowski2019natural_questions",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "langgraph2024",
+      "evidence_role": "T",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "langgraph2024interrupt",
+      "evidence_role": "T",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "legalgraphrag2026",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "lewis2020rag",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "li2023camel",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "li2024genmentor",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": false
+    },
+    {
+      "key": "liang2024divergent_debate",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "liu2024agentbench",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "madaan2023self_refine",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "mialon2024gaia",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "minsky1988society",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "openai2023gpt4",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "ouyang2022instructgpt",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "packer2023memgpt",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "park2023generative_agents",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "peffers2007dsrm",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "qian2023chatdev",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "qian2024scaling_multiagent",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "ragflow2024",
+      "evidence_role": "T",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "reddy2019coqa",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "shao2024costorm",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "shao2024storm",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "shen2024hugginggpt",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "shinn2023reflexion",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "singhal2023medpalm",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": false
+    },
+    {
+      "key": "tang2024medagents",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "tang2025llmmedqa",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "touvron2023llama",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "tran2025multiagent_survey",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "trivedi2022musique",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "vaswani2017attention",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "wang2023plan_and_solve",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "wang2023self_consistency",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "wang2024survey_autonomous_agents",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "wei2022chain_of_thought",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "wooldridge1995intelligent",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "wu2024autogen",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "xagent2023",
+      "evidence_role": "T",
+      "cited_in_active_manuscript": false
+    },
+    {
+      "key": "xiong2023inter_consistency",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "yang2018hotpotqa",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "yang2024swe_agent",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": false
+    },
+    {
+      "key": "yao2023react",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "yao2023tree_of_thoughts",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "zhang2024chain_agents",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "zhang2024eduplanner",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "zhang2024memory_survey",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "zhao2024longagent",
+      "evidence_role": "I",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "zhou2023least_to_most",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "zhou2024webarena",
+      "evidence_role": "B",
+      "cited_in_active_manuscript": true
+    },
+    {
+      "key": "zhuge2024gptswarm",
+      "evidence_role": "S",
+      "cited_in_active_manuscript": true
+    }
+  ],
+  "input_sha256": {
+    "references.bib": "ef7c289c90c183c5f72f5484ee31b64d675a0f7a8dbfc325803d1bdc1d7b9a59",
+    "literature_audit.csv": "4ba8a1cee5ba2925f32dbd9dfb5909f783b3969bed621ddcb60ce5090f991a37",
+    "manuscript.tex": "e5e73c5ea3859602da724e08e327369293942cc2dd2428160607b85d58df4a79",
+    "figure_source_data.csv": "fe4c3cf6e4fcffee795a9df563505e2b8a01c38b3cfe2a5b69503ec89c627d92"
+  }
+}

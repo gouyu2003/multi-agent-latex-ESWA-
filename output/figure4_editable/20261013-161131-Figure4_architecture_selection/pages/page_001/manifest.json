@@ -1,0 +1,2886 @@
+{
+  "schema_version": 2,
+  "slide": {
+    "width": 6.8125,
+    "height": 3.6041666666666665,
+    "size_mode": "source",
+    "px_per_inch": 96
+  },
+  "content_box": {
+    "left": 0,
+    "top": 0.0,
+    "width": 6.8125,
+    "height": 3.6041666666666665,
+    "fit": "contain"
+  },
+  "source": {
+    "path": "source.png",
+    "width_px": 654,
+    "height_px": 346
+  },
+  "page_strategy": "Faithful flow and text reconstruction with all components native and editable at the user explicit request.",
+  "user_overrides": {
+    "all_components_editable": true,
+    "native_pictogram_redraw_authorized": true,
+    "authorization": "User requested all components editable for Figure 4; the plan explicitly states pictograms are rebuilt from native shapes."
+  },
+  "text_inventory": [
+    "Input: Target QA Application Scenario",
+    "(Assess Key Decision Factors)",
+    "Phase 1: Pre-screening",
+    "Is task complexity low and\nspecialization requirement not\nhigh?",
+    "Is it in fields with high safety &\ncompliance requirements like\nMedical/Legal?",
+    "T",
+    "F",
+    "T",
+    "F",
+    "Single-Agent Low latency, low cost.",
+    "Suitable for: Simple fact query,\nsingle-step reasoning tasks",
+    "Hybrid + HITL Human review at key points.",
+    "Suitable for: Medical diagnosis, legal consultation,\nfinancial risk control",
+    "Phase 2: Selection",
+    "Is task workflow highly standardized\nwith clear serial dependencies?",
+    "Does task difficulty fluctuate widely with\ncomplex cross-domain multi-hop reasoning?",
+    "T",
+    "F",
+    "T",
+    "F",
+    "Hierarchical Manager-Executor / RAG Pipeline",
+    "Suitable for: Knowledge-intensive QA,\nlong document QA",
+    "Hybrid Adaptive switching / Mesh network",
+    "Suitable for: Large complexity span,\nmulti-hop reasoning",
+    "Flat Multi-party debate / Role play / Group chat",
+    "Suitable for: Open-domain QA,\nmulti-perspective verification",
+    "Note: Phase 1 judgment is a hard constraint; Phase 2 is a preferred recommendation, practice can be balanced with team capabilities & budget constraints."
+  ],
+  "visual_inventory": [
+    {
+      "id": "input",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Input scenario"
+    },
+    {
+      "id": "prescreen",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Phase 1 pre-screening"
+    },
+    {
+      "id": "selection",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Phase 2 selection"
+    },
+    {
+      "id": "note",
+      "kind": "native-structure",
+      "representation": "native",
+      "description": "Decision rule note"
+    }
+  ],
+  "background_strategy": {
+    "mode": "native-or-script",
+    "source_consistency_contract": "Same input card, four decision diamonds, two phases, five output cards and note on the original 654 by 346 canvas.",
+    "removed_foreground": "Readable text and pictograms reconstructed individually as native components.",
+    "comparison_note": "The phase/card positions and branch destinations correspond to the source."
+  },
+  "quality_checks": {
+    "font_size_calibrated": true,
+    "visual_inventory_matched": true,
+    "background_strategy_checked": true,
+    "shape_corner_geometry_checked": true
+  },
+  "quality_evidence": {
+    "font_size_calibrated": {
+      "observation": "Arial Narrow reproduces the compact lettering. Phase headings are 8.1 pt, result headers 7.4 pt, question text 6.8 pt and explanatory text 6.5 pt."
+    },
+    "visual_inventory_matched": {
+      "observation": "Input, four diamond decisions, eight T/F labels, five colored result cards and the original icon subjects all have native editable representations."
+    },
+    "background_strategy_checked": {
+      "observation": "White canvas, gray Phase 1 and pale blue Phase 2 retain the source positions and dashed phase boundary."
+    },
+    "shape_corner_geometry_checked": {
+      "observation": "Input and result cards use small six-pixel corner radii; decision diamonds and phase rectangles retain their original geometry."
+    }
+  },
+  "text_boxes": [
+    {
+      "id": "input-title",
+      "text": "Input: Target QA Application Scenario",
+      "box_px": [
+        193,
+        29,
+        172,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 8.2,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "input-subtitle",
+      "text": "(Assess Key Decision Factors)",
+      "box_px": [
+        193,
+        41,
+        172,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.7,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "phase1-label",
+      "text": "Phase 1: Pre-screening",
+      "box_px": [
+        78,
+        66,
+        130,
+        15
+      ],
+      "font": "Arial Narrow",
+      "font_size": 8.1,
+      "bold": true,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q1-question",
+      "text": "Is task complexity low and\nspecialization requirement not\nhigh?",
+      "box_px": [
+        194,
+        75.0,
+        165,
+        32
+      ],
+      "font": "Arial Narrow",
+      "font_size": 6.8,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q2-question",
+      "text": "Is it in fields with high safety &\ncompliance requirements like\nMedical/Legal?",
+      "box_px": [
+        194,
+        131.0,
+        165,
+        32
+      ],
+      "font": "Arial Narrow",
+      "font_size": 6.8,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q1T",
+      "text": "T",
+      "box_px": [
+        383,
+        77,
+        10,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q1F",
+      "text": "F",
+      "box_px": [
+        284,
+        111,
+        10,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q2T",
+      "text": "T",
+      "box_px": [
+        383,
+        133,
+        10,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q2F",
+      "text": "F",
+      "box_px": [
+        284,
+        168,
+        10,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "single-header",
+      "text": "Single-Agent Low latency, low cost.",
+      "box_px": [
+        416,
+        77,
+        179,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70,
+      "runs": [
+        {
+          "text": "Single-Agent ",
+          "bold": true
+        },
+        {
+          "text": "Low latency, low cost.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "single-description",
+      "text": "Suitable for: Simple fact query,\nsingle-step reasoning tasks",
+      "box_px": [
+        416,
+        89,
+        181,
+        18
+      ],
+      "font": "Arial Narrow",
+      "font_size": 6.5,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "hitl-header",
+      "text": "Hybrid + HITL Human review at key points.",
+      "box_px": [
+        416,
+        132,
+        179,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70,
+      "runs": [
+        {
+          "text": "Hybrid + HITL ",
+          "bold": true
+        },
+        {
+          "text": "Human review at key points.",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "hitl-description",
+      "text": "Suitable for: Medical diagnosis, legal consultation,\nfinancial risk control",
+      "box_px": [
+        416,
+        144,
+        181,
+        18
+      ],
+      "font": "Arial Narrow",
+      "font_size": 6.5,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "phase2-label",
+      "text": "Phase 2: Selection",
+      "box_px": [
+        78,
+        179,
+        123,
+        15
+      ],
+      "font": "Arial Narrow",
+      "font_size": 8.1,
+      "bold": true,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q3-question",
+      "text": "Is task workflow highly standardized\nwith clear serial dependencies?",
+      "box_px": [
+        194,
+        190.0,
+        165,
+        32
+      ],
+      "font": "Arial Narrow",
+      "font_size": 6.8,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q4-question",
+      "text": "Does task difficulty fluctuate widely with\ncomplex cross-domain multi-hop reasoning?",
+      "box_px": [
+        194,
+        246.0,
+        165,
+        38
+      ],
+      "font": "Arial Narrow",
+      "font_size": 6.8,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q3T",
+      "text": "T",
+      "box_px": [
+        383,
+        193,
+        10,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q3F",
+      "text": "F",
+      "box_px": [
+        284,
+        227,
+        10,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q4T",
+      "text": "T",
+      "box_px": [
+        383,
+        251,
+        10,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "q4F",
+      "text": "F",
+      "box_px": [
+        283,
+        288,
+        10,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "center",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "hierarchy-header",
+      "text": "Hierarchical Manager-Executor / RAG Pipeline",
+      "box_px": [
+        416,
+        191,
+        179,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70,
+      "runs": [
+        {
+          "text": "Hierarchical ",
+          "bold": true
+        },
+        {
+          "text": "Manager-Executor / RAG Pipeline",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "hierarchy-description",
+      "text": "Suitable for: Knowledge-intensive QA,\nlong document QA",
+      "box_px": [
+        416,
+        203,
+        181,
+        18
+      ],
+      "font": "Arial Narrow",
+      "font_size": 6.5,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "adaptive-header",
+      "text": "Hybrid Adaptive switching / Mesh network",
+      "box_px": [
+        416,
+        250,
+        179,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70,
+      "runs": [
+        {
+          "text": "Hybrid ",
+          "bold": true
+        },
+        {
+          "text": "Adaptive switching / Mesh network",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "adaptive-description",
+      "text": "Suitable for: Large complexity span,\nmulti-hop reasoning",
+      "box_px": [
+        416,
+        262,
+        181,
+        18
+      ],
+      "font": "Arial Narrow",
+      "font_size": 6.5,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "flat-header",
+      "text": "Flat Multi-party debate / Role play / Group chat",
+      "box_px": [
+        416,
+        292,
+        179,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 7.4,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70,
+      "runs": [
+        {
+          "text": "Flat ",
+          "bold": true
+        },
+        {
+          "text": "Multi-party debate / Role play / Group chat",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "flat-description",
+      "text": "Suitable for: Open-domain QA,\nmulti-perspective verification",
+      "box_px": [
+        416,
+        304,
+        181,
+        18
+      ],
+      "font": "Arial Narrow",
+      "font_size": 6.5,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    },
+    {
+      "id": "decision-note",
+      "text": "Note: Phase 1 judgment is a hard constraint; Phase 2 is a preferred recommendation, practice can be balanced with team capabilities & budget constraints.",
+      "box_px": [
+        78,
+        329,
+        552,
+        12
+      ],
+      "font": "Arial Narrow",
+      "font_size": 6.2,
+      "bold": false,
+      "color": "#172127",
+      "align": "left",
+      "valign": "middle",
+      "fit_text": false,
+      "z_index": 70
+    }
+  ],
+  "shapes": [
+    {
+      "id": "input-card",
+      "type": "roundRect",
+      "box_px": [
+        186,
+        26,
+        186,
+        31
+      ],
+      "fill": "#EAEAEA",
+      "stroke": "#969696",
+      "stroke_width": 0.75,
+      "z_index": 10,
+      "source_corner_radius_px": 6,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "input-to-q1",
+      "type": "line",
+      "points_px": [
+        279,
+        57,
+        279,
+        72
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.65,
+      "z_index": 18,
+      "connector": "straight",
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "phase1-background",
+      "type": "rect",
+      "box_px": [
+        72,
+        63,
+        563,
+        108
+      ],
+      "fill": "#ECECEC",
+      "stroke": "none",
+      "stroke_width": 0.6,
+      "z_index": 0
+    },
+    {
+      "id": "q1",
+      "type": "shape",
+      "box_px": [
+        179,
+        72.0,
+        197,
+        38
+      ],
+      "fill": "#BFDEEC",
+      "stroke": "#6191A6",
+      "stroke_width": 0.8,
+      "z_index": 20,
+      "preset": "diamond"
+    },
+    {
+      "id": "q2",
+      "type": "shape",
+      "box_px": [
+        179,
+        128.0,
+        197,
+        38
+      ],
+      "fill": "#BFDEEC",
+      "stroke": "#6191A6",
+      "stroke_width": 0.8,
+      "z_index": 20,
+      "preset": "diamond"
+    },
+    {
+      "id": "q1-true",
+      "type": "line",
+      "points_px": [
+        376,
+        91,
+        406,
+        91
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.65,
+      "z_index": 18,
+      "connector": "straight",
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "q1-false",
+      "type": "line",
+      "points_px": [
+        279,
+        110,
+        279,
+        128
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.65,
+      "z_index": 18,
+      "connector": "straight",
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "q2-true",
+      "type": "line",
+      "points_px": [
+        376,
+        147,
+        406,
+        147
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.65,
+      "z_index": 18,
+      "connector": "straight",
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "q2-false",
+      "type": "line",
+      "points_px": [
+        279,
+        166,
+        279,
+        184
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.65,
+      "z_index": 18,
+      "connector": "straight",
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "single",
+      "type": "roundRect",
+      "box_px": [
+        406,
+        73,
+        221,
+        37
+      ],
+      "fill": "#DFDFDF",
+      "stroke": "#8F8F8F",
+      "stroke_width": 0.75,
+      "z_index": 11,
+      "source_corner_radius_px": 6,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "single-person-head",
+      "type": "ellipse",
+      "box_px": [
+        601.5,
+        85.5,
+        7,
+        7
+      ],
+      "fill": "#D9D9D9",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 20
+    },
+    {
+      "id": "single-person-shoulders",
+      "type": "bezier",
+      "box_px": [
+        597,
+        93,
+        16,
+        9
+      ],
+      "fill": "none",
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 20,
+      "bezier_px": [
+        [
+          597,
+          102,
+          597,
+          91,
+          613,
+          91,
+          613,
+          102
+        ]
+      ]
+    },
+    {
+      "id": "latency-clock",
+      "type": "ellipse",
+      "box_px": [
+        612,
+        77,
+        10,
+        12
+      ],
+      "fill": "none",
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 20
+    },
+    {
+      "id": "clock-hand1",
+      "type": "line",
+      "points_px": [
+        617,
+        80,
+        617,
+        83
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 18
+    },
+    {
+      "id": "clock-hand2",
+      "type": "line",
+      "points_px": [
+        617,
+        83,
+        620,
+        86
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 18
+    },
+    {
+      "id": "hitl",
+      "type": "roundRect",
+      "box_px": [
+        406,
+        128,
+        221,
+        37
+      ],
+      "fill": "#F6C9C4",
+      "stroke": "#BA746D",
+      "stroke_width": 0.75,
+      "z_index": 11,
+      "source_corner_radius_px": 6,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "reviewer-head",
+      "type": "ellipse",
+      "box_px": [
+        592.025,
+        139.025,
+        5.95,
+        5.95
+      ],
+      "fill": "#F3DEDB",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 20
+    },
+    {
+      "id": "reviewer-shoulders",
+      "type": "bezier",
+      "box_px": [
+        588.2,
+        145.4,
+        13.6,
+        7.6499999999999995
+      ],
+      "fill": "none",
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 20,
+      "bezier_px": [
+        [
+          588.2,
+          153.05,
+          588.2,
+          143.7,
+          601.8,
+          143.7,
+          601.8,
+          153.05
+        ]
+      ]
+    },
+    {
+      "id": "reviewer-hair",
+      "type": "bezier",
+      "box_px": [
+        589,
+        132,
+        12,
+        12
+      ],
+      "fill": "none",
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 20,
+      "bezier_px": [
+        [
+          589,
+          140,
+          588,
+          128,
+          602,
+          129,
+          601,
+          139
+        ]
+      ]
+    },
+    {
+      "id": "reviewer-hand",
+      "type": "line",
+      "points_px": [
+        588,
+        148,
+        585,
+        153
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 18
+    },
+    {
+      "id": "reviewer-ball",
+      "type": "ellipse",
+      "box_px": [
+        586,
+        147,
+        8,
+        8
+      ],
+      "fill": "none",
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 20
+    },
+    {
+      "id": "gavel-head",
+      "type": "shape",
+      "box_px": [
+        609,
+        131,
+        11,
+        5
+      ],
+      "fill": "#F3DED9",
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 20,
+      "preset": "parallelogram"
+    },
+    {
+      "id": "gavel-handle",
+      "type": "line",
+      "points_px": [
+        614,
+        137,
+        619,
+        143
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 1.1,
+      "z_index": 18
+    },
+    {
+      "id": "gavel-base",
+      "type": "rect",
+      "box_px": [
+        608,
+        143,
+        10,
+        2
+      ],
+      "fill": "#F3DED9",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 20
+    },
+    {
+      "id": "safety-shield",
+      "type": "shape",
+      "box_px": [
+        608,
+        149,
+        13,
+        13
+      ],
+      "fill": "#F3DED9",
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 20,
+      "preset": "pentagon",
+      "flip_v": true
+    },
+    {
+      "id": "safety-shield-inner",
+      "type": "shape",
+      "box_px": [
+        611,
+        151,
+        7,
+        8
+      ],
+      "fill": "none",
+      "stroke": "#384C57",
+      "stroke_width": 0.4,
+      "z_index": 20,
+      "preset": "pentagon",
+      "flip_v": true
+    },
+    {
+      "id": "phase2-background",
+      "type": "rect",
+      "box_px": [
+        72,
+        176,
+        563,
+        149
+      ],
+      "fill": "#E4F4FB",
+      "stroke": "none",
+      "stroke_width": 0.6,
+      "z_index": 0
+    },
+    {
+      "id": "phase-divider",
+      "type": "line",
+      "points_px": [
+        72,
+        175,
+        635,
+        175
+      ],
+      "stroke": "#6799B0",
+      "stroke_width": 0.85,
+      "z_index": 5,
+      "dash": "dash"
+    },
+    {
+      "id": "q3",
+      "type": "shape",
+      "box_px": [
+        179,
+        187.0,
+        197,
+        38
+      ],
+      "fill": "#BFDEEC",
+      "stroke": "#6191A6",
+      "stroke_width": 0.8,
+      "z_index": 20,
+      "preset": "diamond"
+    },
+    {
+      "id": "q4",
+      "type": "shape",
+      "box_px": [
+        179,
+        243.0,
+        197,
+        44
+      ],
+      "fill": "#BFDEEC",
+      "stroke": "#6191A6",
+      "stroke_width": 0.8,
+      "z_index": 20,
+      "preset": "diamond"
+    },
+    {
+      "id": "q3-true",
+      "type": "line",
+      "points_px": [
+        376,
+        206,
+        406,
+        206
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.65,
+      "z_index": 18,
+      "connector": "straight",
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "q3-false",
+      "type": "line",
+      "points_px": [
+        279,
+        225,
+        279,
+        243
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.65,
+      "z_index": 18,
+      "connector": "straight",
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "q4-true",
+      "type": "line",
+      "points_px": [
+        376,
+        265,
+        406,
+        265
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.65,
+      "z_index": 18,
+      "connector": "straight",
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "q4-false",
+      "type": "line",
+      "points_px": [
+        279,
+        287,
+        406,
+        306
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.65,
+      "z_index": 18,
+      "connector": "elbow",
+      "start_arrow": "none",
+      "end_arrow": "triangle",
+      "arrow_width": "sm",
+      "arrow_length": "sm"
+    },
+    {
+      "id": "hierarchy",
+      "type": "roundRect",
+      "box_px": [
+        406,
+        187,
+        221,
+        37
+      ],
+      "fill": "#DDEBC5",
+      "stroke": "#819D64",
+      "stroke_width": 0.75,
+      "z_index": 11,
+      "source_corner_radius_px": 6,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "h-line1",
+      "type": "line",
+      "points_px": [
+        608,
+        201,
+        608,
+        206
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 18
+    },
+    {
+      "id": "h-line2",
+      "type": "line",
+      "points_px": [
+        608,
+        211,
+        608,
+        214
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 18
+    },
+    {
+      "id": "h-left-edge",
+      "type": "line",
+      "points_px": [
+        608,
+        212,
+        599,
+        214
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 18
+    },
+    {
+      "id": "h-right-edge",
+      "type": "line",
+      "points_px": [
+        608,
+        212,
+        617,
+        214
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 18
+    },
+    {
+      "id": "h-top",
+      "type": "rect",
+      "box_px": [
+        604,
+        195.5,
+        8,
+        5
+      ],
+      "fill": "#F0F6E5",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 20
+    },
+    {
+      "id": "h-mid",
+      "type": "rect",
+      "box_px": [
+        604,
+        206.5,
+        8,
+        5
+      ],
+      "fill": "#F0F6E5",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 20
+    },
+    {
+      "id": "h-left",
+      "type": "rect",
+      "box_px": [
+        595,
+        215.5,
+        8,
+        5
+      ],
+      "fill": "#F0F6E5",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 20
+    },
+    {
+      "id": "h-bottom",
+      "type": "rect",
+      "box_px": [
+        604,
+        215.5,
+        8,
+        5
+      ],
+      "fill": "#F0F6E5",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 20
+    },
+    {
+      "id": "h-right",
+      "type": "rect",
+      "box_px": [
+        613,
+        215.5,
+        8,
+        5
+      ],
+      "fill": "#F0F6E5",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 20
+    },
+    {
+      "id": "adaptive",
+      "type": "roundRect",
+      "box_px": [
+        406,
+        246,
+        221,
+        37
+      ],
+      "fill": "#FFE0B7",
+      "stroke": "#C69958",
+      "stroke_width": 0.75,
+      "z_index": 11,
+      "source_corner_radius_px": 6,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "mesh-edge-0",
+      "type": "line",
+      "points_px": [
+        600,
+        256,
+        609,
+        254
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-1",
+      "type": "line",
+      "points_px": [
+        609,
+        254,
+        618,
+        257
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-2",
+      "type": "line",
+      "points_px": [
+        600,
+        256,
+        596,
+        264
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-3",
+      "type": "line",
+      "points_px": [
+        600,
+        256,
+        607,
+        264
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-4",
+      "type": "line",
+      "points_px": [
+        609,
+        254,
+        607,
+        264
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-5",
+      "type": "line",
+      "points_px": [
+        618,
+        257,
+        607,
+        264
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-6",
+      "type": "line",
+      "points_px": [
+        618,
+        257,
+        616,
+        268
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-7",
+      "type": "line",
+      "points_px": [
+        596,
+        264,
+        607,
+        264
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-8",
+      "type": "line",
+      "points_px": [
+        596,
+        264,
+        603,
+        274
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-9",
+      "type": "line",
+      "points_px": [
+        607,
+        264,
+        616,
+        268
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-10",
+      "type": "line",
+      "points_px": [
+        607,
+        264,
+        603,
+        274
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-edge-11",
+      "type": "line",
+      "points_px": [
+        616,
+        268,
+        603,
+        274
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.45,
+      "z_index": 18
+    },
+    {
+      "id": "mesh-node-0",
+      "type": "ellipse",
+      "box_px": [
+        597.5,
+        253.5,
+        5,
+        5
+      ],
+      "fill": "#FFF3DF",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 28
+    },
+    {
+      "id": "mesh-node-1",
+      "type": "ellipse",
+      "box_px": [
+        606.5,
+        251.5,
+        5,
+        5
+      ],
+      "fill": "#FFF3DF",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 28
+    },
+    {
+      "id": "mesh-node-2",
+      "type": "ellipse",
+      "box_px": [
+        615.5,
+        254.5,
+        5,
+        5
+      ],
+      "fill": "#FFF3DF",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 28
+    },
+    {
+      "id": "mesh-node-3",
+      "type": "ellipse",
+      "box_px": [
+        593.5,
+        261.5,
+        5,
+        5
+      ],
+      "fill": "#FFF3DF",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 28
+    },
+    {
+      "id": "mesh-node-4",
+      "type": "ellipse",
+      "box_px": [
+        604.5,
+        261.5,
+        5,
+        5
+      ],
+      "fill": "#FFF3DF",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 28
+    },
+    {
+      "id": "mesh-node-5",
+      "type": "ellipse",
+      "box_px": [
+        613.5,
+        265.5,
+        5,
+        5
+      ],
+      "fill": "#FFF3DF",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 28
+    },
+    {
+      "id": "mesh-node-6",
+      "type": "ellipse",
+      "box_px": [
+        600.5,
+        271.5,
+        5,
+        5
+      ],
+      "fill": "#FFF3DF",
+      "stroke": "#384C57",
+      "stroke_width": 0.5,
+      "z_index": 28
+    },
+    {
+      "id": "flat",
+      "type": "roundRect",
+      "box_px": [
+        406,
+        288,
+        221,
+        37
+      ],
+      "fill": "#CAE4F1",
+      "stroke": "#6191A6",
+      "stroke_width": 0.75,
+      "z_index": 11,
+      "source_corner_radius_px": 6,
+      "corner_category": "small-radius"
+    },
+    {
+      "id": "chat-left",
+      "type": "shape",
+      "box_px": [
+        596,
+        296,
+        18,
+        11
+      ],
+      "fill": "#E7F2F8",
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 20,
+      "preset": "wedgeRectCallout"
+    },
+    {
+      "id": "chat-right",
+      "type": "shape",
+      "box_px": [
+        605,
+        302,
+        18,
+        11
+      ],
+      "fill": "#D9EAF3",
+      "stroke": "#384C57",
+      "stroke_width": 0.55,
+      "z_index": 20,
+      "preset": "wedgeRectCallout",
+      "flip_h": true
+    },
+    {
+      "id": "chat-content-0",
+      "type": "line",
+      "points_px": [
+        599,
+        299,
+        610,
+        299
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.4,
+      "z_index": 30
+    },
+    {
+      "id": "chat-content-1",
+      "type": "line",
+      "points_px": [
+        599,
+        302,
+        610,
+        302
+      ],
+      "stroke": "#384C57",
+      "stroke_width": 0.4,
+      "z_index": 30
+    }
+  ],
+  "images": [],
+  "asset_provenance": [],
+  "image2ppt_region_decomposition": {
+    "schema_version": "image2ppt-region-decomposition-v1",
+    "page_complexity": "structured",
+    "source_size_px": [
+      654,
+      346
+    ],
+    "regions": [
+      {
+        "id": "input",
+        "label": "Input scenario",
+        "source_bbox_px": [
+          180,
+          20,
+          200,
+          42
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User requires every component editable; diagram and pictograms are reconstructed as native shapes and text.",
+        "manifest_ids": {
+          "shapes": [
+            "input-card",
+            "input-to-q1"
+          ],
+          "text_boxes": [
+            "input-title",
+            "input-subtitle"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-input-card",
+            "kind": "node-boundary",
+            "manifest_id": "input-card",
+            "source_bbox_px": [
+              186,
+              26,
+              186,
+              31
+            ]
+          },
+          {
+            "id": "anchor-input-to-q1",
+            "kind": "directed-connector",
+            "manifest_id": "input-to-q1",
+            "source_points_px": [
+              279,
+              57,
+              279,
+              72
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prescreen",
+        "label": "Phase 1 pre-screening",
+        "source_bbox_px": [
+          72,
+          63,
+          563,
+          108
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User requires every component editable; diagram and pictograms are reconstructed as native shapes and text.",
+        "manifest_ids": {
+          "shapes": [
+            "phase1-background",
+            "q1",
+            "q2",
+            "q1-true",
+            "q1-false",
+            "q2-true",
+            "q2-false",
+            "single",
+            "single-person-head",
+            "single-person-shoulders",
+            "latency-clock",
+            "clock-hand1",
+            "clock-hand2",
+            "hitl",
+            "reviewer-head",
+            "reviewer-shoulders",
+            "reviewer-hair",
+            "reviewer-hand",
+            "reviewer-ball",
+            "gavel-head",
+            "gavel-handle",
+            "gavel-base",
+            "safety-shield",
+            "safety-shield-inner"
+          ],
+          "text_boxes": [
+            "phase1-label",
+            "q1-question",
+            "q2-question",
+            "q1T",
+            "q1F",
+            "q2T",
+            "q2F",
+            "single-header",
+            "single-description",
+            "hitl-header",
+            "hitl-description"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-phase1-background",
+            "kind": "node-boundary",
+            "manifest_id": "phase1-background",
+            "source_bbox_px": [
+              72,
+              63,
+              563,
+              108
+            ]
+          },
+          {
+            "id": "anchor-q1",
+            "kind": "node-boundary",
+            "manifest_id": "q1",
+            "source_bbox_px": [
+              179,
+              72.0,
+              197,
+              38
+            ]
+          },
+          {
+            "id": "anchor-q2",
+            "kind": "node-boundary",
+            "manifest_id": "q2",
+            "source_bbox_px": [
+              179,
+              128.0,
+              197,
+              38
+            ]
+          },
+          {
+            "id": "anchor-q1-true",
+            "kind": "directed-connector",
+            "manifest_id": "q1-true",
+            "source_points_px": [
+              376,
+              91,
+              406,
+              91
+            ]
+          },
+          {
+            "id": "anchor-q1-false",
+            "kind": "directed-connector",
+            "manifest_id": "q1-false",
+            "source_points_px": [
+              279,
+              110,
+              279,
+              128
+            ]
+          },
+          {
+            "id": "anchor-q2-true",
+            "kind": "directed-connector",
+            "manifest_id": "q2-true",
+            "source_points_px": [
+              376,
+              147,
+              406,
+              147
+            ]
+          },
+          {
+            "id": "anchor-q2-false",
+            "kind": "directed-connector",
+            "manifest_id": "q2-false",
+            "source_points_px": [
+              279,
+              166,
+              279,
+              184
+            ]
+          },
+          {
+            "id": "anchor-single",
+            "kind": "node-boundary",
+            "manifest_id": "single",
+            "source_bbox_px": [
+              406,
+              73,
+              221,
+              37
+            ]
+          },
+          {
+            "id": "anchor-single-person-head",
+            "kind": "node-boundary",
+            "manifest_id": "single-person-head",
+            "source_bbox_px": [
+              601.5,
+              85.5,
+              7,
+              7
+            ]
+          },
+          {
+            "id": "anchor-single-person-shoulders",
+            "kind": "node-boundary",
+            "manifest_id": "single-person-shoulders",
+            "source_bbox_px": [
+              597,
+              93,
+              16,
+              9
+            ]
+          },
+          {
+            "id": "anchor-latency-clock",
+            "kind": "node-boundary",
+            "manifest_id": "latency-clock",
+            "source_bbox_px": [
+              612,
+              77,
+              10,
+              12
+            ]
+          },
+          {
+            "id": "anchor-clock-hand1",
+            "kind": "connector",
+            "manifest_id": "clock-hand1",
+            "source_points_px": [
+              617,
+              80,
+              617,
+              83
+            ]
+          },
+          {
+            "id": "anchor-clock-hand2",
+            "kind": "connector",
+            "manifest_id": "clock-hand2",
+            "source_points_px": [
+              617,
+              83,
+              620,
+              86
+            ]
+          },
+          {
+            "id": "anchor-hitl",
+            "kind": "node-boundary",
+            "manifest_id": "hitl",
+            "source_bbox_px": [
+              406,
+              128,
+              221,
+              37
+            ]
+          },
+          {
+            "id": "anchor-reviewer-head",
+            "kind": "node-boundary",
+            "manifest_id": "reviewer-head",
+            "source_bbox_px": [
+              592.025,
+              139.025,
+              5.95,
+              5.95
+            ]
+          },
+          {
+            "id": "anchor-reviewer-shoulders",
+            "kind": "node-boundary",
+            "manifest_id": "reviewer-shoulders",
+            "source_bbox_px": [
+              588.2,
+              145.4,
+              13.6,
+              7.6499999999999995
+            ]
+          },
+          {
+            "id": "anchor-reviewer-hair",
+            "kind": "node-boundary",
+            "manifest_id": "reviewer-hair",
+            "source_bbox_px": [
+              589,
+              132,
+              12,
+              12
+            ]
+          },
+          {
+            "id": "anchor-reviewer-hand",
+            "kind": "connector",
+            "manifest_id": "reviewer-hand",
+            "source_points_px": [
+              588,
+              148,
+              585,
+              153
+            ]
+          },
+          {
+            "id": "anchor-reviewer-ball",
+            "kind": "node-boundary",
+            "manifest_id": "reviewer-ball",
+            "source_bbox_px": [
+              586,
+              147,
+              8,
+              8
+            ]
+          },
+          {
+            "id": "anchor-gavel-head",
+            "kind": "node-boundary",
+            "manifest_id": "gavel-head",
+            "source_bbox_px": [
+              609,
+              131,
+              11,
+              5
+            ]
+          },
+          {
+            "id": "anchor-gavel-handle",
+            "kind": "connector",
+            "manifest_id": "gavel-handle",
+            "source_points_px": [
+              614,
+              137,
+              619,
+              143
+            ]
+          },
+          {
+            "id": "anchor-gavel-base",
+            "kind": "node-boundary",
+            "manifest_id": "gavel-base",
+            "source_bbox_px": [
+              608,
+              143,
+              10,
+              2
+            ]
+          },
+          {
+            "id": "anchor-safety-shield",
+            "kind": "node-boundary",
+            "manifest_id": "safety-shield",
+            "source_bbox_px": [
+              608,
+              149,
+              13,
+              13
+            ]
+          },
+          {
+            "id": "anchor-safety-shield-inner",
+            "kind": "node-boundary",
+            "manifest_id": "safety-shield-inner",
+            "source_bbox_px": [
+              611,
+              151,
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "id": "selection",
+        "label": "Phase 2 selection",
+        "source_bbox_px": [
+          72,
+          176,
+          563,
+          149
+        ],
+        "risk_level": "high",
+        "strategy": "native-object-decomposition",
+        "reason": "User requires every component editable; diagram and pictograms are reconstructed as native shapes and text.",
+        "manifest_ids": {
+          "shapes": [
+            "phase2-background",
+            "phase-divider",
+            "q3",
+            "q4",
+            "q3-true",
+            "q3-false",
+            "q4-true",
+            "q4-false",
+            "hierarchy",
+            "h-line1",
+            "h-line2",
+            "h-left-edge",
+            "h-right-edge",
+            "h-top",
+            "h-mid",
+            "h-left",
+            "h-bottom",
+            "h-right",
+            "adaptive",
+            "mesh-edge-0",
+            "mesh-edge-1",
+            "mesh-edge-2",
+            "mesh-edge-3",
+            "mesh-edge-4",
+            "mesh-edge-5",
+            "mesh-edge-6",
+            "mesh-edge-7",
+            "mesh-edge-8",
+            "mesh-edge-9",
+            "mesh-edge-10",
+            "mesh-edge-11",
+            "mesh-node-0",
+            "mesh-node-1",
+            "mesh-node-2",
+            "mesh-node-3",
+            "mesh-node-4",
+            "mesh-node-5",
+            "mesh-node-6",
+            "flat",
+            "chat-left",
+            "chat-right",
+            "chat-content-0",
+            "chat-content-1"
+          ],
+          "text_boxes": [
+            "phase2-label",
+            "q3-question",
+            "q4-question",
+            "q3T",
+            "q3F",
+            "q4T",
+            "q4F",
+            "hierarchy-header",
+            "hierarchy-description",
+            "adaptive-header",
+            "adaptive-description",
+            "flat-header",
+            "flat-description"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": [
+          {
+            "id": "anchor-phase2-background",
+            "kind": "node-boundary",
+            "manifest_id": "phase2-background",
+            "source_bbox_px": [
+              72,
+              176,
+              563,
+              149
+            ]
+          },
+          {
+            "id": "anchor-phase-divider",
+            "kind": "connector",
+            "manifest_id": "phase-divider",
+            "source_points_px": [
+              72,
+              175,
+              635,
+              175
+            ]
+          },
+          {
+            "id": "anchor-q3",
+            "kind": "node-boundary",
+            "manifest_id": "q3",
+            "source_bbox_px": [
+              179,
+              187.0,
+              197,
+              38
+            ]
+          },
+          {
+            "id": "anchor-q4",
+            "kind": "node-boundary",
+            "manifest_id": "q4",
+            "source_bbox_px": [
+              179,
+              243.0,
+              197,
+              44
+            ]
+          },
+          {
+            "id": "anchor-q3-true",
+            "kind": "directed-connector",
+            "manifest_id": "q3-true",
+            "source_points_px": [
+              376,
+              206,
+              406,
+              206
+            ]
+          },
+          {
+            "id": "anchor-q3-false",
+            "kind": "directed-connector",
+            "manifest_id": "q3-false",
+            "source_points_px": [
+              279,
+              225,
+              279,
+              243
+            ]
+          },
+          {
+            "id": "anchor-q4-true",
+            "kind": "directed-connector",
+            "manifest_id": "q4-true",
+            "source_points_px": [
+              376,
+              265,
+              406,
+              265
+            ]
+          },
+          {
+            "id": "anchor-q4-false",
+            "kind": "directed-connector",
+            "manifest_id": "q4-false",
+            "source_points_px": [
+              279,
+              287,
+              406,
+              306
+            ]
+          },
+          {
+            "id": "anchor-hierarchy",
+            "kind": "node-boundary",
+            "manifest_id": "hierarchy",
+            "source_bbox_px": [
+              406,
+              187,
+              221,
+              37
+            ]
+          },
+          {
+            "id": "anchor-h-line1",
+            "kind": "connector",
+            "manifest_id": "h-line1",
+            "source_points_px": [
+              608,
+              201,
+              608,
+              206
+            ]
+          },
+          {
+            "id": "anchor-h-line2",
+            "kind": "connector",
+            "manifest_id": "h-line2",
+            "source_points_px": [
+              608,
+              211,
+              608,
+              214
+            ]
+          },
+          {
+            "id": "anchor-h-left-edge",
+            "kind": "connector",
+            "manifest_id": "h-left-edge",
+            "source_points_px": [
+              608,
+              212,
+              599,
+              214
+            ]
+          },
+          {
+            "id": "anchor-h-right-edge",
+            "kind": "connector",
+            "manifest_id": "h-right-edge",
+            "source_points_px": [
+              608,
+              212,
+              617,
+              214
+            ]
+          },
+          {
+            "id": "anchor-h-top",
+            "kind": "node-boundary",
+            "manifest_id": "h-top",
+            "source_bbox_px": [
+              604,
+              195.5,
+              8,
+              5
+            ]
+          },
+          {
+            "id": "anchor-h-mid",
+            "kind": "node-boundary",
+            "manifest_id": "h-mid",
+            "source_bbox_px": [
+              604,
+              206.5,
+              8,
+              5
+            ]
+          },
+          {
+            "id": "anchor-h-left",
+            "kind": "node-boundary",
+            "manifest_id": "h-left",
+            "source_bbox_px": [
+              595,
+              215.5,
+              8,
+              5
+            ]
+          },
+          {
+            "id": "anchor-h-bottom",
+            "kind": "node-boundary",
+            "manifest_id": "h-bottom",
+            "source_bbox_px": [
+              604,
+              215.5,
+              8,
+              5
+            ]
+          },
+          {
+            "id": "anchor-h-right",
+            "kind": "node-boundary",
+            "manifest_id": "h-right",
+            "source_bbox_px": [
+              613,
+              215.5,
+              8,
+              5
+            ]
+          },
+          {
+            "id": "anchor-adaptive",
+            "kind": "node-boundary",
+            "manifest_id": "adaptive",
+            "source_bbox_px": [
+              406,
+              246,
+              221,
+              37
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-0",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-0",
+            "source_points_px": [
+              600,
+              256,
+              609,
+              254
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-1",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-1",
+            "source_points_px": [
+              609,
+              254,
+              618,
+              257
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-2",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-2",
+            "source_points_px": [
+              600,
+              256,
+              596,
+              264
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-3",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-3",
+            "source_points_px": [
+              600,
+              256,
+              607,
+              264
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-4",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-4",
+            "source_points_px": [
+              609,
+              254,
+              607,
+              264
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-5",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-5",
+            "source_points_px": [
+              618,
+              257,
+              607,
+              264
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-6",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-6",
+            "source_points_px": [
+              618,
+              257,
+              616,
+              268
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-7",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-7",
+            "source_points_px": [
+              596,
+              264,
+              607,
+              264
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-8",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-8",
+            "source_points_px": [
+              596,
+              264,
+              603,
+              274
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-9",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-9",
+            "source_points_px": [
+              607,
+              264,
+              616,
+              268
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-10",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-10",
+            "source_points_px": [
+              607,
+              264,
+              603,
+              274
+            ]
+          },
+          {
+            "id": "anchor-mesh-edge-11",
+            "kind": "connector",
+            "manifest_id": "mesh-edge-11",
+            "source_points_px": [
+              616,
+              268,
+              603,
+              274
+            ]
+          },
+          {
+            "id": "anchor-mesh-node-0",
+            "kind": "node-boundary",
+            "manifest_id": "mesh-node-0",
+            "source_bbox_px": [
+              597.5,
+              253.5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "anchor-mesh-node-1",
+            "kind": "node-boundary",
+            "manifest_id": "mesh-node-1",
+            "source_bbox_px": [
+              606.5,
+              251.5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "anchor-mesh-node-2",
+            "kind": "node-boundary",
+            "manifest_id": "mesh-node-2",
+            "source_bbox_px": [
+              615.5,
+              254.5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "anchor-mesh-node-3",
+            "kind": "node-boundary",
+            "manifest_id": "mesh-node-3",
+            "source_bbox_px": [
+              593.5,
+              261.5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "anchor-mesh-node-4",
+            "kind": "node-boundary",
+            "manifest_id": "mesh-node-4",
+            "source_bbox_px": [
+              604.5,
+              261.5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "anchor-mesh-node-5",
+            "kind": "node-boundary",
+            "manifest_id": "mesh-node-5",
+            "source_bbox_px": [
+              613.5,
+              265.5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "anchor-mesh-node-6",
+            "kind": "node-boundary",
+            "manifest_id": "mesh-node-6",
+            "source_bbox_px": [
+              600.5,
+              271.5,
+              5,
+              5
+            ]
+          },
+          {
+            "id": "anchor-flat",
+            "kind": "node-boundary",
+            "manifest_id": "flat",
+            "source_bbox_px": [
+              406,
+              288,
+              221,
+              37
+            ]
+          },
+          {
+            "id": "anchor-chat-left",
+            "kind": "node-boundary",
+            "manifest_id": "chat-left",
+            "source_bbox_px": [
+              596,
+              296,
+              18,
+              11
+            ]
+          },
+          {
+            "id": "anchor-chat-right",
+            "kind": "node-boundary",
+            "manifest_id": "chat-right",
+            "source_bbox_px": [
+              605,
+              302,
+              18,
+              11
+            ]
+          },
+          {
+            "id": "anchor-chat-content-0",
+            "kind": "connector",
+            "manifest_id": "chat-content-0",
+            "source_points_px": [
+              599,
+              299,
+              610,
+              299
+            ]
+          },
+          {
+            "id": "anchor-chat-content-1",
+            "kind": "connector",
+            "manifest_id": "chat-content-1",
+            "source_points_px": [
+              599,
+              302,
+              610,
+              302
+            ]
+          }
+        ],
+        "compound_diagram": {
+          "kind": "node-link-diagram",
+          "object_inventory_complete": true,
+          "measurement_reviewed": true,
+          "native_object_policy": "measured-simple-objects-native",
+          "nodes": [
+            {
+              "id": "mesh-node-0",
+              "manifest_id": "mesh-node-0",
+              "geometry": "circle",
+              "source_center_px": [
+                600.0,
+                256.0
+              ],
+              "source_size_px": [
+                5,
+                5
+              ]
+            },
+            {
+              "id": "mesh-node-1",
+              "manifest_id": "mesh-node-1",
+              "geometry": "circle",
+              "source_center_px": [
+                609.0,
+                254.0
+              ],
+              "source_size_px": [
+                5,
+                5
+              ]
+            },
+            {
+              "id": "mesh-node-2",
+              "manifest_id": "mesh-node-2",
+              "geometry": "circle",
+              "source_center_px": [
+                618.0,
+                257.0
+              ],
+              "source_size_px": [
+                5,
+                5
+              ]
+            },
+            {
+              "id": "mesh-node-3",
+              "manifest_id": "mesh-node-3",
+              "geometry": "circle",
+              "source_center_px": [
+                596.0,
+                264.0
+              ],
+              "source_size_px": [
+                5,
+                5
+              ]
+            },
+            {
+              "id": "mesh-node-4",
+              "manifest_id": "mesh-node-4",
+              "geometry": "circle",
+              "source_center_px": [
+                607.0,
+                264.0
+              ],
+              "source_size_px": [
+                5,
+                5
+              ]
+            },
+            {
+              "id": "mesh-node-5",
+              "manifest_id": "mesh-node-5",
+              "geometry": "circle",
+              "source_center_px": [
+                616.0,
+                268.0
+              ],
+              "source_size_px": [
+                5,
+                5
+              ]
+            },
+            {
+              "id": "mesh-node-6",
+              "manifest_id": "mesh-node-6",
+              "geometry": "circle",
+              "source_center_px": [
+                603.0,
+                274.0
+              ],
+              "source_size_px": [
+                5,
+                5
+              ]
+            }
+          ],
+          "edges": [
+            {
+              "id": "mesh-edge-0",
+              "manifest_id": "mesh-edge-0",
+              "source_points_px": [
+                600,
+                256,
+                609,
+                254
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-1",
+              "manifest_id": "mesh-edge-1",
+              "source_points_px": [
+                609,
+                254,
+                618,
+                257
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-2",
+              "manifest_id": "mesh-edge-2",
+              "source_points_px": [
+                600,
+                256,
+                596,
+                264
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-3",
+              "manifest_id": "mesh-edge-3",
+              "source_points_px": [
+                600,
+                256,
+                607,
+                264
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-4",
+              "manifest_id": "mesh-edge-4",
+              "source_points_px": [
+                609,
+                254,
+                607,
+                264
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-5",
+              "manifest_id": "mesh-edge-5",
+              "source_points_px": [
+                618,
+                257,
+                607,
+                264
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-6",
+              "manifest_id": "mesh-edge-6",
+              "source_points_px": [
+                618,
+                257,
+                616,
+                268
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-7",
+              "manifest_id": "mesh-edge-7",
+              "source_points_px": [
+                596,
+                264,
+                607,
+                264
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-8",
+              "manifest_id": "mesh-edge-8",
+              "source_points_px": [
+                596,
+                264,
+                603,
+                274
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-9",
+              "manifest_id": "mesh-edge-9",
+              "source_points_px": [
+                607,
+                264,
+                616,
+                268
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-10",
+              "manifest_id": "mesh-edge-10",
+              "source_points_px": [
+                607,
+                264,
+                603,
+                274
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            },
+            {
+              "id": "mesh-edge-11",
+              "manifest_id": "mesh-edge-11",
+              "source_points_px": [
+                616,
+                268,
+                603,
+                274
+              ],
+              "line_style": "solid",
+              "direction": "none"
+            }
+          ]
+        }
+      },
+      {
+        "id": "note",
+        "label": "Decision rule note",
+        "source_bbox_px": [
+          73,
+          328,
+          565,
+          15
+        ],
+        "risk_level": "low",
+        "strategy": "native-text-layout",
+        "reason": "User requires every component editable; diagram and pictograms are reconstructed as native shapes and text.",
+        "manifest_ids": {
+          "shapes": [],
+          "text_boxes": [
+            "decision-note"
+          ],
+          "images": []
+        },
+        "protected_visual_anchors": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "image2ppt-render-qa-v1",
+  "status": "rendered",
+  "renderer": "powerpoint-com",
+  "pptx": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\final\\codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410_edited.pptx",
+  "out_dir": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\final\\image2ppt_render",
+  "rendered_png": null,
+  "rendered_slides": [
+    "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\final\\image2ppt_render\\Slide1.PNG"
+  ],
+  "source_image": null,
+  "raw": {
+    "status": "rendered",
+    "renderer": "powerpoint-com",
+    "backend": "powerpoint-export-png",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "command": [
+      "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "-NoProfile",
+      "-NonInteractive",
+      "-Command",
+      "$ErrorActionPreference='Stop';$app=$null;$deck=$null;try{$app=New-Object -ComObject PowerPoint.Application;$deck=$app.Presentations.Open('C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\final\\codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410_edited.pptx',$true,$true,$false);$deck.Export('C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\final\\image2ppt_render','PNG')}finally{if($null -ne $deck){try{$deck.Close()}catch{};try{[System.Runtime.InteropServices.Marshal]::ReleaseComObject($deck)|Out-Null}catch{};$deck=$null};if($null -ne $app){try{$app.Quit()}catch{};try{[System.Runtime.InteropServices.Marshal]::ReleaseComObject($app)|Out-Null}catch{};$app=$null}}"
+    ],
+    "slides": [
+      "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure2_editable\\20261013-153831-codex-clipboard-1eb7c158-b30c-49e1-bfa6-5ae40fd6f410\\final\\image2ppt_render\\Slide1.PNG"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-13",
+  "baseline_head": "f67f29499dd54822305576d2230ce5154f8dedb3",
+  "checks": {
+    "source_inputs_match_recorded_hashes": true,
+    "pool_partition_85_78_7": true,
+    "cited_roles_13_15_42_8": true,
+    "pool_roles_13_17_46_9": true,
+    "source_csv_matches_summary": true,
+    "active_citation_commands_and_keys_preserved": true,
+    "136_commands_180_key_occurrences": true,
+    "protected_tracked_files_unchanged": true,
+    "compiled_bibliography_identical_to_baseline": true,
+    "figure_pdf_has_all_expected_labels_and_counts": true,
+    "figure_pdf_has_no_old_snapshot_labels": true,
+    "figure_pdf_is_vector": true,
+    "figure_pdf_140_by_50_mm": true,
+    "figure_pdf_uses_Arial": true,
+    "figure_fonts_embedded": true,
+    "figure_appears_once_in_manuscript": true,
+    "final_figure_glyph_sizes_6_8_to_8_pt": true,
+    "no_undefined_citations_or_cross_references": true,
+    "no_new_overfull_warnings": true,
+    "collision_audit_pass": true
+  },
+  "all_passed": true,
+  "changed_preexisting_tracked_files": [
+    "fig_reference_corpus.pdf",
+    "fig_reference_corpus.png",
+    "fig_reference_corpus.svg",
+    "manuscript.tex",
+    "tools/generate_reference_figures.py"
+  ],
+  "unexpected_protected_changes": [],
+  "manuscript_pages": 22,
+  "figure_page": 3,
+  "figure_pdf_font_sizes_pt": [
+    7.1,
+    7.8
+  ],
+  "final_figure_font_sizes_pt": [
+    7.052,
+    7.747
+  ],
+  "overfull_before": [
+    "Overfull \\hbox (123.62721pt too wide) detected at line 102",
+    "Overfull \\hbox (0.76843pt too wide) in paragraph at lines 595--595",
+    "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2132--2139"
+  ],
+  "overfull_after": [
+    "Overfull \\hbox (123.62721pt too wide) detected at line 102",
+    "Overfull \\hbox (0.76843pt too wide) in paragraph at lines 595--595",
+    "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2132--2139"
+  ],
+  "underfull_before": 69,
+  "underfull_after": 69,
+  "source_and_output_sha256": {
+    "manuscript.tex": "2a90178cfede2debf6050f702cbf05ea4e5e4b14dd6cbcd69c1fbdb034f7affe",
+    "manuscript.pdf": "e2228f185b783809503d3c1dfc0f28497c9e0e616f91587616fa71d9160f138b",
+    "manuscript.bbl": "c0b086e805ea79b007c3ee9fd71ad756456e9c5ed63389a8e07aaff46a16c8e4",
+    "references.bib": "ef7c289c90c183c5f72f5484ee31b64d675a0f7a8dbfc325803d1bdc1d7b9a59",
+    "literature_audit.csv": "4ba8a1cee5ba2925f32dbd9dfb5909f783b3969bed621ddcb60ce5090f991a37",
+    "fig_reference_corpus.pdf": "73db2f07a5d7c5f7550db34f2f4664c5fd00265cf1d9f9967e490ee1cd4b8aa2",
+    "fig_reference_corpus.svg": "8da5f0ebd1fe56273b8125f95d8b780936b29b2c2a88f205d189e262d1d99ce9",
+    "fig_reference_corpus.png": "b4c4b1ca12071d97b2d046b859f512a4fe0f139155495bbf8c3791daec3193c2",
+    "figure1_source_data.csv": "04ea0f150647f9369f3d9ca53ca210dcedf10526fee581ee3df7e75899e7c6b0",
+    "tools/generate_reference_figures.py": "5802d03ddffe4ec88a2281d909f33cefbfefade043dc2ca831a444f7577f7f5f"
+  },
+  "visual_review": {
+    "reviewed": true,
+    "scope": [
+      "standalone Figure 1",
+      "equal-width before/after comparison",
+      "final manuscript page 3 including Figure 1 caption and adjacent Figure 2/body"
+    ],
+    "result": "No observed clipping, overlap or ambiguous connections; remaining manuscript figures not revised."
+  }
+}

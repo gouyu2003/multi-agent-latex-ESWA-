@@ -1,0 +1,141 @@
+{
+  "schema_version": "image2ppt-manifest-arrow-inspection-v1",
+  "passed": true,
+  "pptx": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\figure4_editable\\20261013-161131-Figure4_architecture_selection\\final\\Figure4_architecture_selection_edited.pptx",
+  "errors": [],
+  "summary": {
+    "expected_arrows": 9,
+    "inspected_arrows": 9,
+    "connectors": 9,
+    "filled_arrows": 0,
+    "fragmented_or_missing": 0
+  },
+  "arrows": [
+    {
+      "slide_index": 1,
+      "shape_index": 1,
+      "id": "input-to-q1",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 5,
+      "id": "q1-true",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 6,
+      "id": "q1-false",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 7,
+      "id": "q2-true",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 8,
+      "id": "q2-false",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 30,
+      "id": "q3-true",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 31,
+      "id": "q3-false",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 32,
+      "id": "q4-true",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "line",
+        "text": "",
+        "connector": "straight",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    },
+    {
+      "slide_index": 1,
+      "shape_index": 33,
+      "id": "q4-false",
+      "role": "connector",
+      "pptx_object": {
+        "kind": "cxnSp",
+        "preset": "bentConnector3",
+        "text": "",
+        "connector": "elbow",
+        "start_arrow": null,
+        "end_arrow": "triangle"
+      }
+    }
+  ]
+}
