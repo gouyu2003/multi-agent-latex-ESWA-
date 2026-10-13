@@ -29,3 +29,20 @@ __pycache__/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Local restoration backups, source-check material, and rendered previews
+/audit_work/mentor_restore_stage2_20261013/protection/
+/audit_work/mentor_restore_stage2_20261013/concurrent_protection/
+/audit_work/mentor_restore_stage2_20261013/pdf_review/
+/audit_work/mentor_restore_stage2_20261013/q5_sources/
+/audit_work/mentor_restore_stage2_20261013/candidate.tex
+/audit_work/mentor_restore_stage2_20261013/compiled_text.txt
+/audit_work/mentor_restore_stage2_20261013/mentor_original.tex
+/audit_work/mentor_restore_stage2_20261013/restored_manuscript.pdf
+/audit_work/figure245_replacement_20261013/preview/
+/audit_work/figure245_replacement_20261013/before_manuscript.bbl
+/audit_work/figure245_replacement_20261013/before_manuscript.pdf
+/audit_work/figure245_replacement_20261013/before_manuscript.tex
+
+# Microsoft Office temporary lock files
+~$*
