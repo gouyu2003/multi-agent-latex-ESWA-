@@ -11,11 +11,13 @@
 
 ## 本轮输入与授权边界
 
-基线f84c78b2720bd5cad8fa32eeb7eaa3a510a8263d；当前分支codex/eswa-apa7-migration，HEAD f67f29499dd54822305576d2230ce5154f8dedb3。工作区未提交项与阶段一相同：manuscript.tex、图1 PDF/PNG/SVG和生成脚本；figure1_audit/、figure1_source_data.csv、output/、tools/verify_figure1_revision.py仍保留。[MENTOR_BASELINE_RESTORE_PLAN.md](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/MENTOR_BASELINE_RESTORE_PLAN.md>)也不改写。
+基线f84c78b2720bd5cad8fa32eeb7eaa3a510a8263d；本轮开始时分支codex/eswa-apa7-migration，HEAD f67f29499dd54822305576d2230ce5154f8dedb3，工作区未提交项与阶段一相同。原有manuscript.tex、图1 PDF/PNG/SVG、生成脚本、figure1_audit/、figure1_source_data.csv、output/、tools/verify_figure1_revision.py均保护。[MENTOR_BASELINE_RESTORE_PLAN.md](<C:/Users/ShenTianyu(CN-TV-T1)/schoolwork/ESWA-multiagent/MENTOR_BASELINE_RESTORE_PLAN.md>)也不改写。
 
 当前manuscript.tex字节SHA-256仍为3acc39b05e660d1517dada3b59c316b2a1b84a38beffea1b132a9a81bfb02115。本轮保护集合包含471个现有文件，覆盖所有原跟踪文件、阶段一报告及现有图1审计/可编辑图输出；集合摘要4e3be0d9d103cfb5d7b6d1ed4dcb6163c6131fc019a3d6d5aefbe2c45e685110。
 
-这次只新增本方案文件；不建立分支、不切换或重置工作区、不执行编译、不重写旧台账、不提交/推送/合并。正式实施还需你最终确认Q4结构、Q5判据及其6/2/2建议。
+这次只创建并补充本方案文件；不建立分支、不切换或重置工作区、不执行编译、不重写旧台账、不提交/推送/合并。正式实施还需你最终确认Q4结构、Q5判据及其6/2/2建议。
+
+过程中检测到索引状态由未暂存变为已暂存，随后同一分支HEAD变为43495d239b8e1fdb2ac06a43a499080800592349（Update reference corpus figure and archive editable figures and restoration proposals），已收录原图表改动、阶段一报告及本方案初稿。本轮工具轨迹没有git add、git commit或推送命令；这项并发提交没有被回退。提交后再次复算471个保护文件集合，与审查开始内容仍一致；文件内容不变不等于索引或HEAD不变。现在本方案的验收/状态补充留作未提交文档修改，不变更正文。
 
 ## 已接收的Q1–Q3决定
 
@@ -363,6 +365,8 @@ print(dict(counts))
 “保留A”保护的是必要事实或来源边界，不要求保留新版全部扩写。B25并不撤销A64。Q5将MedAgents/LLM-MedQA从×改△只改变已待确认的比较评分，没有改写源流程A事实；Q4Hybrid比较行是恢复已有分类主线，不虚构Hybrid实测样本。
 
 ## 必须等待的最终确认与后续验收
+
+本方案已完成只读验收：471个受保护现有文件内容哈希集合与开始时一致；正文SHA-256不变。方案内复算代码执行得到广泛一致6、部分一致2、不一致2；十例P/S与冻结来源台账一致。有效引用仍为78篇、池85条、136命令/180次键出现，核心13及两组角色统计未改。本验收仅核对方案计算与文件保护，没有新编译、评分独立验证或图稿语义闭环。
 
 需要最终确认的具体方案：
 1. Q4一个表两区、三类主区＋五项相关机制附区，并允许框架表列名最小明确为Control / organisation。
