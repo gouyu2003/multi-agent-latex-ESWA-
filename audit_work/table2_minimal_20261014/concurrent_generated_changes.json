@@ -1,0 +1,38 @@
+[
+  {
+    "file": "manuscript.aux",
+    "before_sha256": "51e30bdbabec49cd2a3e9b645a3887bd52e262518e896cf95883104708ab38de",
+    "current_sha256": "35c96f4ff3c7a5bdb1f42214d5bb832da10d27307d9799d910ffaab9ac416dd0",
+    "action": "Preserved concurrent compiler output; this task did not publish to root"
+  },
+  {
+    "file": "manuscript.bcf",
+    "before_sha256": "b0258fae3135939c54993f391c81d113110c26b9b2de1071a91c373f1f6d0fc2",
+    "current_sha256": "5f0db107169e2f7b2e3bb519bd24e734917b034678a66d96a991df1c390ff1b9",
+    "action": "Preserved concurrent compiler output; this task did not publish to root"
+  },
+  {
+    "file": "manuscript.blg",
+    "before_sha256": "478710afebdbf21bc07210f0308421db02a1d2775b17e5e59e21922d0e7da009",
+    "current_sha256": "5e96a83cd9492da05059c6346b27bd20713bbec75ec0ceb3c44cc1891d7edc83",
+    "action": "Preserved concurrent compiler output; this task did not publish to root"
+  },
+  {
+    "file": "manuscript.log",
+    "before_sha256": "2fe65d2350719c5598db73df2c838324c13471e653904ffed35dffdc4df99f2d",
+    "current_sha256": "3587fcea0645142c23051848e1862c016d158c5908e35d4e46148cef105fcdc8",
+    "action": "Preserved concurrent compiler output; this task did not publish to root"
+  },
+  {
+    "file": "manuscript.pdf",
+    "before_sha256": "57e9148b7b503c0c0308a2d1145055d9150bf4934b6dd769a7b99601c1cd93e7",
+    "current_sha256": "33f6be3dfc7b90e4f11c7950b1fb4f388135c3b43f06ef4e6098f49e82ec10a0",
+    "action": "Preserved concurrent compiler output; this task did not publish to root"
+  },
+  {
+    "file": "manuscript.synctex.gz",
+    "before_sha256": "8c9161ee80fce0567d60a34468bab577bf9cea3ed10904134c5225b82e844c83",
+    "current_sha256": "ac9e946562acf5da6baf34191fe797494c56e77b44ea46157080979c730a54ce",
+    "action": "Preserved concurrent compiler output; this task did not publish to root"
+  }
+]

@@ -1,0 +1,55 @@
+\begin{table*}[pos=t]
+  \centering
+  \caption{Comparison of multi-agent collaborative QA architecture classes.}
+  \label{tab:9categories}
+  \scriptsize
+  \begin{tabular}{p{1.4cm} p{2.0cm} p{2.4cm}  p{3.2cm} p{2.3cm} p{2.2cm}}
+    \toprule
+    \textbf{Architecture} & \textbf{Sub-paradigm} &
+    \textbf{Representative systems} &
+    \textbf{Coordination and control} &
+    \textbf{Suitable contexts} & \textbf{Limitations} \\
+    \midrule
+    \multirow{3}{*}{\textbf{Flat}} &
+    Multi-agent debate & \citet{du2024multiagent_debate} & 
+    Peer critique and aggregation can add independent answer paths &
+    Tasks needing competing factual or reasoning views &
+    Cost, degeneration, and aggregation sensitivity \\
+    & Role-conditioned collaboration & CAMEL \citep{li2023camel} & 
+    Personas structure interaction but do not by themselves establish QA gains &
+    Exploratory collaboration and prompt-role studies &
+    Fixed roles or correlated perspectives \\
+    & Group-chat collaboration & AutoGen \citep{wu2024autogen}  &
+    Developer-defined speaker selection and dialogue patterns &
+    Applications requiring configurable conversations &
+    Topology and QA performance depend on configuration \\
+    \midrule
+    \multirow{3}{*}{\textbf{Hierarchical}} &
+    Manager--executor pattern & MetaGPT \citep{hong2024metagpt}  &
+    Manager assigns staged work to specialised executors &
+    Structured engineering workflows &
+    Planner bottleneck and error propagation \\
+    & Plan--retrieve--generate pipeline & LONGAGENT; Chain-of-Agents; CoCoA
+    \citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa}  &
+    Explicit sequencing and final synthesis over distributed evidence &
+    Long-document or knowledge-intensive QA &
+    Information loss and coordination cost at synthesis \\
+   
+    \midrule
+    \multirow{3}{*}{\textbf{Hybrid}} &
+    Graph-structured agent networks & GPTSwarm; LangGraph
+    \citep{zhuge2024gptswarm,langgraph2024}  &
+    Graph transitions permit loops, branches, and routing policies &
+    Workflows with conditional state transitions &
+    Different evidence roles; difficult debugging and tracing \\
+    & Adaptive collaboration-mode switching & MDAgents \citep{kim2024mdagents}  &
+    Changes collaboration in response to case characteristics &
+    Tasks with heterogeneous requirements &
+    Routing policy must be evaluated, not assumed beneficial \\
+    & Human-in-the-loop design pattern & LangGraph breakpoints \citep{langgraph2024} &
+    Human review at explicitly defined decision points &
+    High-risk workflows requiring accountability &
+    Direct comparative QA evidence remains limited \\
+    \bottomrule
+  \end{tabular}
+\end{table*}

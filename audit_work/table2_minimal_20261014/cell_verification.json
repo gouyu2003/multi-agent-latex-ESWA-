@@ -1,0 +1,338 @@
+[
+  {
+    "id": "R1C1",
+    "decision": "KEEP",
+    "mentor": "Flat",
+    "after": "Flat",
+    "unchanged": true
+  },
+  {
+    "id": "R1C2",
+    "decision": "KEEP",
+    "mentor": "Multi-agent debate",
+    "after": "Multi-agent debate",
+    "unchanged": true
+  },
+  {
+    "id": "R1C3",
+    "decision": "KEEP",
+    "mentor": "\\citet{du2024multiagent_debate}",
+    "after": "\\citet{du2024multiagent_debate}",
+    "unchanged": true
+  },
+  {
+    "id": "R1C4",
+    "decision": "KEEP",
+    "mentor": "Peer critique and aggregation can add independent answer paths",
+    "after": "Peer critique and aggregation can add independent answer paths",
+    "unchanged": true
+  },
+  {
+    "id": "R1C5",
+    "decision": "KEEP",
+    "mentor": "Tasks needing competing factual or reasoning views",
+    "after": "Tasks needing competing factual or reasoning views",
+    "unchanged": true
+  },
+  {
+    "id": "R1C6",
+    "decision": "UNCERTAIN",
+    "mentor": "Cost, degeneration, and aggregation sensitivity",
+    "after": "Cost and aggregation sensitivity",
+    "unchanged": false
+  },
+  {
+    "id": "R2C1",
+    "decision": "STRUCTURAL FIX",
+    "mentor": "Flat",
+    "after": "Hierarchical$^{a}$",
+    "unchanged": false
+  },
+  {
+    "id": "R2C2",
+    "decision": "KEEP",
+    "mentor": "Role-conditioned collaboration",
+    "after": "Role-conditioned collaboration",
+    "unchanged": true
+  },
+  {
+    "id": "R2C3",
+    "decision": "KEEP",
+    "mentor": "CAMEL \\citep{li2023camel}",
+    "after": "CAMEL \\citep{li2023camel}",
+    "unchanged": true
+  },
+  {
+    "id": "R2C4",
+    "decision": "KEEP",
+    "mentor": "Personas structure interaction but do not by themselves establish QA gains",
+    "after": "Personas structure interaction but do not by themselves establish QA gains",
+    "unchanged": true
+  },
+  {
+    "id": "R2C5",
+    "decision": "KEEP",
+    "mentor": "Exploratory collaboration and prompt-role studies",
+    "after": "Exploratory collaboration and prompt-role studies",
+    "unchanged": true
+  },
+  {
+    "id": "R2C6",
+    "decision": "KEEP",
+    "mentor": "Fixed roles or correlated perspectives",
+    "after": "Fixed roles or correlated perspectives",
+    "unchanged": true
+  },
+  {
+    "id": "R3C1",
+    "decision": "STRUCTURAL FIX",
+    "mentor": "Flat",
+    "after": "---",
+    "unchanged": false
+  },
+  {
+    "id": "R3C2",
+    "decision": "KEEP",
+    "mentor": "Group-chat collaboration",
+    "after": "Group-chat collaboration",
+    "unchanged": true
+  },
+  {
+    "id": "R3C3",
+    "decision": "KEEP",
+    "mentor": "AutoGen \\citep{wu2024autogen}",
+    "after": "AutoGen \\citep{wu2024autogen}",
+    "unchanged": true
+  },
+  {
+    "id": "R3C4",
+    "decision": "KEEP",
+    "mentor": "Developer-defined speaker selection and dialogue patterns",
+    "after": "Developer-defined speaker selection and dialogue patterns",
+    "unchanged": true
+  },
+  {
+    "id": "R3C5",
+    "decision": "KEEP",
+    "mentor": "Applications requiring configurable conversations",
+    "after": "Applications requiring configurable conversations",
+    "unchanged": true
+  },
+  {
+    "id": "R3C6",
+    "decision": "KEEP",
+    "mentor": "Topology and QA performance depend on configuration",
+    "after": "Topology and QA performance depend on configuration",
+    "unchanged": true
+  },
+  {
+    "id": "R4C1",
+    "decision": "KEEP",
+    "mentor": "Hierarchical",
+    "after": "Hierarchical",
+    "unchanged": true
+  },
+  {
+    "id": "R4C2",
+    "decision": "KEEP",
+    "mentor": "Manager--executor pattern",
+    "after": "Manager--executor pattern",
+    "unchanged": true
+  },
+  {
+    "id": "R4C3",
+    "decision": "KEEP",
+    "mentor": "MetaGPT \\citep{hong2024metagpt}",
+    "after": "MetaGPT \\citep{hong2024metagpt}",
+    "unchanged": true
+  },
+  {
+    "id": "R4C4",
+    "decision": "KEEP",
+    "mentor": "Manager assigns staged work to specialised executors",
+    "after": "Manager assigns staged work to specialised executors",
+    "unchanged": true
+  },
+  {
+    "id": "R4C5",
+    "decision": "KEEP",
+    "mentor": "Structured engineering workflows",
+    "after": "Structured engineering workflows",
+    "unchanged": true
+  },
+  {
+    "id": "R4C6",
+    "decision": "KEEP",
+    "mentor": "Planner bottleneck and error propagation",
+    "after": "Planner bottleneck and error propagation",
+    "unchanged": true
+  },
+  {
+    "id": "R5C1",
+    "decision": "KEEP",
+    "mentor": "Hierarchical",
+    "after": "Hierarchical",
+    "unchanged": true
+  },
+  {
+    "id": "R5C2",
+    "decision": "MINIMAL FIX",
+    "mentor": "Plan--retrieve--generate pipeline",
+    "after": "Staged evidence-processing pipeline",
+    "unchanged": false
+  },
+  {
+    "id": "R5C3",
+    "decision": "MINIMAL FIX",
+    "mentor": "LONGAGENT; Chain-of-Agents; CoCoA \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa}",
+    "after": "LONGAGENT; Chain-of-Agents; CoCoA-zero \\citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa}",
+    "unchanged": false
+  },
+  {
+    "id": "R5C4",
+    "decision": "KEEP",
+    "mentor": "Explicit sequencing and final synthesis over distributed evidence",
+    "after": "Explicit sequencing and final synthesis over distributed evidence",
+    "unchanged": true
+  },
+  {
+    "id": "R5C5",
+    "decision": "KEEP",
+    "mentor": "Long-document or knowledge-intensive QA",
+    "after": "Long-document or knowledge-intensive QA",
+    "unchanged": true
+  },
+  {
+    "id": "R5C6",
+    "decision": "KEEP",
+    "mentor": "Information loss and coordination cost at synthesis",
+    "after": "Information loss and coordination cost at synthesis",
+    "unchanged": true
+  },
+  {
+    "id": "R6C1",
+    "decision": "STRUCTURAL FIX",
+    "mentor": "Hybrid",
+    "after": "---",
+    "unchanged": false
+  },
+  {
+    "id": "R6C2",
+    "decision": "KEEP",
+    "mentor": "Graph-structured agent networks",
+    "after": "Graph-structured agent networks",
+    "unchanged": true
+  },
+  {
+    "id": "R6C3",
+    "decision": "KEEP",
+    "mentor": "GPTSwarm; LangGraph \\citep{zhuge2024gptswarm,langgraph2024}",
+    "after": "GPTSwarm; LangGraph \\citep{zhuge2024gptswarm,langgraph2024}",
+    "unchanged": true
+  },
+  {
+    "id": "R6C4",
+    "decision": "MINIMAL FIX",
+    "mentor": "Graph transitions permit loops, branches, and routing policies",
+    "after": "GPTSwarm DAG connection optimisation; LangGraph transitions permit loops, branches, and routing policies",
+    "unchanged": false
+  },
+  {
+    "id": "R6C5",
+    "decision": "KEEP",
+    "mentor": "Workflows with conditional state transitions",
+    "after": "Workflows with conditional state transitions",
+    "unchanged": true
+  },
+  {
+    "id": "R6C6",
+    "decision": "KEEP",
+    "mentor": "Different evidence roles; difficult debugging and tracing",
+    "after": "Different evidence roles; difficult debugging and tracing",
+    "unchanged": true
+  },
+  {
+    "id": "R7C1",
+    "decision": "STRUCTURAL FIX",
+    "mentor": "Hybrid",
+    "after": "Hierarchical$^{b}$",
+    "unchanged": false
+  },
+  {
+    "id": "R7C2",
+    "decision": "KEEP",
+    "mentor": "Adaptive collaboration-mode switching",
+    "after": "Adaptive collaboration-mode switching",
+    "unchanged": true
+  },
+  {
+    "id": "R7C3",
+    "decision": "KEEP",
+    "mentor": "MDAgents \\citep{kim2024mdagents}",
+    "after": "MDAgents \\citep{kim2024mdagents}",
+    "unchanged": true
+  },
+  {
+    "id": "R7C4",
+    "decision": "KEEP",
+    "mentor": "Changes collaboration in response to case characteristics",
+    "after": "Changes collaboration in response to case characteristics",
+    "unchanged": true
+  },
+  {
+    "id": "R7C5",
+    "decision": "KEEP",
+    "mentor": "Tasks with heterogeneous requirements",
+    "after": "Tasks with heterogeneous requirements",
+    "unchanged": true
+  },
+  {
+    "id": "R7C6",
+    "decision": "KEEP",
+    "mentor": "Routing policy must be evaluated, not assumed beneficial",
+    "after": "Routing policy must be evaluated, not assumed beneficial",
+    "unchanged": true
+  },
+  {
+    "id": "R8C1",
+    "decision": "STRUCTURAL FIX",
+    "mentor": "Hybrid",
+    "after": "---",
+    "unchanged": false
+  },
+  {
+    "id": "R8C2",
+    "decision": "KEEP",
+    "mentor": "Human-in-the-loop design pattern",
+    "after": "Human-in-the-loop design pattern",
+    "unchanged": true
+  },
+  {
+    "id": "R8C3",
+    "decision": "MINIMAL FIX",
+    "mentor": "LangGraph breakpoints \\citep{langgraph2024}",
+    "after": "LangGraph breakpoints \\citep{langgraph2024interrupt}",
+    "unchanged": false
+  },
+  {
+    "id": "R8C4",
+    "decision": "KEEP",
+    "mentor": "Human review at explicitly defined decision points",
+    "after": "Human review at explicitly defined decision points",
+    "unchanged": true
+  },
+  {
+    "id": "R8C5",
+    "decision": "KEEP",
+    "mentor": "High-risk workflows requiring accountability",
+    "after": "High-risk workflows requiring accountability",
+    "unchanged": true
+  },
+  {
+    "id": "R8C6",
+    "decision": "KEEP",
+    "mentor": "Direct comparative QA evidence remains limited",
+    "after": "Direct comparative QA evidence remains limited",
+    "unchanged": true
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "pipeline": [
+    "pdfLaTeX pass1",
+    "Biber",
+    "pdfLaTeX pass2",
+    "pdfLaTeX pass3"
+  ],
+  "pdf_pages": 23,
+  "table2_page": 7,
+  "pdf_sha256": "178c7220bd7d835cbdc8165393fcb9421ebfdcf566ec8a97e96282568a6187bd",
+  "bbl_entries": 78,
+  "bbl_sort_lists_entry_counts": [
+    78,
+    78
+  ],
+  "compiled_citation_keys_match": true,
+  "cross_references_checked": 10,
+  "undefined_citations": 0,
+  "undefined_cross_references": 0,
+  "table2_overfull_hbox": 0,
+  "float_too_large": false,
+  "biber_warnings": [],
+  "protected_non_temporary_files": 525,
+  "changed_existing_files": [
+    "manuscript.aux",
+    "manuscript.bcf",
+    "manuscript.blg",
+    "manuscript.log",
+    "manuscript.pdf",
+    "manuscript.synctex.gz",
+    "manuscript.tex"
+  ],
+  "root_pdf_unchanged": false,
+  "concurrent_generated_changes": [
+    "manuscript.aux",
+    "manuscript.bcf",
+    "manuscript.blg",
+    "manuscript.log",
+    "manuscript.pdf",
+    "manuscript.synctex.gz"
+  ],
+  "task_published_to_root": false,
+  "q5_rating_counts": {
+    "partial": 2,
+    "divergent": 2,
+    "broad": 6
+  },
+  "q5_source_counts": {
+    "Hierarchical": 9,
+    "Flat": 1
+  },
+  "figure4_authority_v2_used": true,
+  "output_pdf": "C:\\Users\\ShenTianyu(CN-TV-T1)\\schoolwork\\ESWA-multiagent\\output\\pdf\\table2_minimal_20261014.pdf",
+  "outside_table2_legacy_overfull_hbox": [
+    "Overfull \\hbox (123.62721pt too wide) detected at line 102",
+    "Overfull \\hbox (0.5575pt too wide) in paragraph at lines 2168--2175"
+  ],
+  "visual_review": {
+    "final_pdf_page": 7,
+    "double_column_body": true,
+    "table_spans_both_columns": true,
+    "word_breaks_and_row_spacing_checked": true,
+    "clipping_or_overlap_seen": false,
+    "table_note_legible": true,
+    "preview": "preview/final_table2.png",
+    "other_pages_not_reaudited": true
+  }
+}
