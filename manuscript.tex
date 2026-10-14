@@ -571,7 +571,13 @@ do not define additional architecture classes.
   \caption{Comparison of multi-agent collaborative QA architecture classes and related mechanisms.}
   \label{tab:9categories}
   \scriptsize
-  \begin{tabular}{>{\raggedright\arraybackslash}p{1.5cm} >{\raggedright\arraybackslash}p{2.0cm} >{\raggedright\arraybackslash}p{2.4cm} >{\raggedright\arraybackslash}p{3.2cm} >{\raggedright\arraybackslash}p{2.3cm} >{\raggedright\arraybackslash}p{2.2cm}}
+  \begin{tabular}{
+    >{\raggedright\arraybackslash}p{1.5cm}
+    >{\raggedright\arraybackslash}p{2.0cm}
+    >{\raggedright\arraybackslash}p{2.4cm}
+    >{\raggedright\arraybackslash}p{3.2cm}
+    >{\raggedright\arraybackslash}p{2.3cm}
+    >{\raggedright\arraybackslash}p{2.2cm}}
     \toprule
     \textbf{Architecture} & \textbf{Sub-paradigm} &
     \textbf{Representative systems} &
@@ -579,58 +585,77 @@ do not define additional architecture classes.
     \textbf{Suitable contexts} & \textbf{Limitations} \\
     \midrule
     \textbf{Flat} &
-    Multi-agent debate & \citet{du2024multiagent_debate} &
+    Multi-agent debate &
+    \citet{du2024multiagent_debate} &
     Peer critique and aggregation can add independent answer paths &
     Tasks needing competing factual or reasoning views &
     Cost and aggregation sensitivity \\
-    \textbf{Hierarchical}$^{a}$ & Role-conditioned collaboration & CAMEL \citep{li2023camel} &
+    \midrule
+    \multirow[t]{4}{*}{\textbf{Hierarchical}} &
+    Role-conditioned collaboration &
+    CAMEL$^{a}$ \citep{li2023camel} &
     Personas structure interaction but do not by themselves establish QA gains &
     Exploratory collaboration and prompt-role studies &
     Fixed roles or correlated perspectives \\
-    --- & Group-chat collaboration & AutoGen \citep{wu2024autogen}  &
-    Developer-defined speaker selection and dialogue patterns &
-    Applications requiring configurable conversations &
-    Topology and QA performance depend on configuration \\
-    \midrule
-    \multirow{2}{*}{\textbf{Hierarchical}} &
-    Manager--executor pattern & MetaGPT \citep{hong2024metagpt}  &
+     &
+    Manager--executor pattern &
+    MetaGPT \citep{hong2024metagpt} &
     Manager assigns staged work to specialised executors &
     Structured engineering workflows &
     Planner bottleneck and error propagation \\
-    & Staged evidence-processing pipeline & LONGAGENT; Chain-of-Agents; CoCoA-zero
-    \citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa}  &
+     &
+    Staged evidence-processing pipeline &
+    LONGAGENT; Chain-of-Agents; CoCoA-zero \citep{zhao2024longagent,zhang2024chain_agents,jiang2026cocoa} &
     Explicit sequencing and final synthesis over distributed evidence &
     Long-document or knowledge-intensive QA &
     Information loss and coordination cost at synthesis \\
-
-    \midrule
-    --- &
-    Graph-structured agent networks & GPTSwarm; LangGraph
-    \citep{zhuge2024gptswarm,langgraph2024}  &
-    GPTSwarm DAG connection optimisation; LangGraph transitions permit loops, branches, and routing policies &
-    Workflows with conditional state transitions &
-    Different evidence roles; difficult debugging and tracing \\
-    \textbf{Hierarchical}$^{b}$ & Adaptive collaboration-mode switching & MDAgents \citep{kim2024mdagents}  &
+     &
+    Adaptive collaboration-mode switching &
+    MDAgents$^{b}$ \citep{kim2024mdagents} &
     Changes collaboration in response to case characteristics &
     Tasks with heterogeneous requirements &
     Routing policy must be evaluated, not assumed beneficial \\
-    --- & Human-in-the-loop design pattern & LangGraph breakpoints \citep{langgraph2024interrupt} &
+    \midrule
+    \textbf{Hybrid} &
+    Changes in decision authority &
+    Conditional design pattern (no evaluated example in the ten-case sample) &
+    A documented change in decision-authority configuration across stages or decision states &
+    Tasks requiring changes in control configuration &
+    State management and cross-mode coordination costs \\
+    \midrule
+    \multicolumn{6}{l}{\textit{Mechanism examples (not architecture classes)}} \\
+     &
+    Group-chat collaboration &
+    AutoGen \citep{wu2024autogen} &
+    Developer-defined speaker selection and dialogue patterns &
+    Applications requiring configurable conversations &
+    Topology and QA performance depend on configuration \\
+     &
+    Graph-structured agent networks &
+    GPTSwarm; LangGraph \citep{zhuge2024gptswarm,langgraph2024} &
+    GPTSwarm DAG connection optimisation; LangGraph transitions permit loops, branches, and routing policies &
+    Workflows with conditional state transitions &
+    Different evidence roles; difficult debugging and tracing \\
+     &
+    Human-in-the-loop design pattern &
+    LangGraph breakpoints \citep{langgraph2024interrupt} &
     Human review at explicitly defined decision points &
     High-risk workflows requiring accountability &
     Direct comparative QA evidence remains limited \\
     \bottomrule
   \end{tabular}
   \par\smallskip\footnotesize
-  \textit{Note}: Architecture labels concern decision authority in a specified
-  implementation. $^{a}$CAMEL: persistent AI User instruction and termination
-  control in the reported AI User--AI Assistant workflow.
+  \textit{Note}: Labels are the authors' coding of the specified workflows,
+  not framework-wide classifications.
+  $^{a}$CAMEL: persistent AI User instruction and termination control
+  in the reported AI User--AI Assistant workflow.
   $^{b}$MDAgents: moderator-led routing among solo, multidisciplinary-team
   (MDT), and integrated-care-team (ICT) pathways.
-  --- denotes a mechanism or framework without a configuration-independent
-  architecture label, not a fourth class. Flat, Hierarchical, and Hybrid retain
-  the definitions in the text; graph structure, team switching, and human review
-  alone do not establish Hybrid. A hybrid architecture requires a demonstrated
-  change in decision authority. A fixed human approver is hierarchical.
+  Hybrid requires a demonstrated change in decision authority; its conditional
+  design row is not an evaluated system or a claim of QA gains.
+  Blank architecture cells in the mechanism section denote no class assignment.
+  These mechanisms do not define a fourth class or imply Hybrid;
+  a fixed human approver remains hierarchical.
 \end{table*}
 
 These architecture types differ in where decision authority is placed and when it
