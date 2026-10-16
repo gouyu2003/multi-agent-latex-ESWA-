@@ -3,9 +3,10 @@
 Run only after the current formal build and tools/run_apa_tests.py succeed.
 Historical migration report and ledgers are archived before replacing summaries.
 """
+from project_paths import project_path
 from pathlib import Path
 import collections,copy,hashlib,json,re,shutil,subprocess,sys
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'apa7_audit';BASE=ROOT/'tmp/conference9_baseline'
+ROOT=Path(__file__).resolve().parents[1];OUT=project_path('apa7_audit');BASE=project_path('tmp/conference9_baseline')
 sys.path.insert(0,str(ROOT/'tools'))
 from active_tex import scan_manuscript
 from build_reference_inventory import balanced_entries
@@ -14,30 +15,30 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def esc(s):return str(s).replace('|','\\|').replace('\n',' ')
 keys=['fatemi2024financialqa','hendrycks2021mmlu','khot2023decomposed_prompting','park2023generative_agents','wang2023self_consistency','wu2024autogen','tang2025llmmedqa','yao2023react','zhou2023least_to_most']
-overlay=j(ROOT/'apa_reference_adaptations.json')['records'];maps={r['key']:r for r in overlay}
+overlay=j(project_path('apa_reference_adaptations.json'))['records'];maps={r['key']:r for r in overlay}
 refs=j(OUT/'reference_78_acceptance.json');refmap={r['key']:r for r in refs}
 before=j(OUT/'conference9_before78.json');beforemap={r['key']:r for r in before}
 change=j(OUT/'conference9_change_log.json');review={r['key']:r for r in change['reviews']}
 for n in ['apa14_results.json','extended_results.json','font_evidence.json','extended_font_evidence.json','coverage_results.json']:
-    shutil.copy2(ROOT/'tmp/apa7_regression'/n,OUT/n)
+    shutil.copy2(project_path('tmp/apa7_regression')/n,OUT/n)
 core=j(OUT/'apa14_results.json');extended=j(OUT/'extended_results.json');coverage=j(OUT/'coverage_results.json')
 assert len(core)==14 and all(r['result']=='PASS' for r in core)
 assert len(extended)==15 and all(r['result']=='PASS' for r in extended)
 assert len(refs)==78 and all(r['format_result']=='PASS' for r in refs)
 assert len(j(OUT/'reference_85_preview.json'))==85 and all(r['format_result']=='PASS' for r in j(OUT/'reference_85_preview.json'))
 scan=scan_manuscript(ROOT);commands=[c.raw_command for c in scan.citations];cited={k for c in scan.citations for k in c.keys}
-rawpool={k for t,k,r in balanced_entries((ROOT/'references.bib').read_text(encoding='utf-8'))}
+rawpool={k for t,k,r in balanced_entries((project_path('references.bib')).read_text(encoding='utf-8'))}
 assert len(commands)==136 and len(cited)==78 and len(rawpool)==85
 assert cited==set(refmap) and rawpool==set(maps)
 manifest=j(BASE/'manifest.json');head=manifest['head']
 gitblob=lambda n:subprocess.check_output(['git','show',head+':'+n],cwd=ROOT)
 protected=['manuscript.tex','references.bib','cas-dc.cls','cas-common.sty','cas-model2-names.bst','change_timeline.jpg','classify.jpg','fig3_topology.pdf','fig_flow.jpg','fig_reference_corpus.pdf']
-assert all(sha(ROOT/n)==manifest['tracked'][n] for n in protected)
+assert all(sha(project_path(n))==manifest['tracked'][n] for n in protected)
 assert len(overlay)==85
 oldoverlay=j(BASE/'apa_reference_adaptations.json')
 assert all(r==next(x for x in oldoverlay['records'] if x['key']==r['key']) for r in overlay if r['key'] not in keys)
 assert all(r['original']==next(x for x in oldoverlay['records'] if x['key']==r['key'])['original'] for r in overlay)
-baseline_source=ROOT/'tmp/conference9_source_baseline';baseline_source.mkdir(parents=True,exist_ok=True)
+baseline_source=project_path('tmp/conference9_source_baseline');baseline_source.mkdir(parents=True,exist_ok=True)
 for n in ['manuscript.tex','eswa-apa-config.tex','eswa-apa-sourcemap.tex']:(baseline_source/n).write_bytes(gitblob(n))
 oldscan=scan_manuscript(baseline_source)
 assert commands==[c.raw_command for c in oldscan.citations]
@@ -65,12 +66,12 @@ for n in ['APA7_MIGRATION_REPORT.md','apa7_audit/metadata_changes.json','apa7_au
     src=BASE/n;dest=archive/Path(n).name
     if src.exists() and not dest.exists():shutil.copy2(src,dest)
 scope=j(BASE/'apa7_audit/scope_validation.json')
-scope.update(formal_pdf_sha256=sha(ROOT/'manuscript.pdf'),references_sha256=sha(ROOT/'references.bib'),pool_count=85,bbl_count=78,commands=136,bbl_duplicates=[],cited_key_set_identical=True,commands_identical=True,format_pass=78,metadata_pending=pending,configuration_sha256={n:sha(ROOT/n) for n in ['manuscript.tex','eswa-apa-config.tex','eswa-apa-sourcemap.tex','apa_reference_adaptations.json']},final_bbl_sha256=sha(ROOT/'manuscript.bbl'),followup_date='2026-10-12',followup_baseline=head,followup_protected_file_equality={n:True for n in protected},non_target_overlay_records_identical=True)
+scope.update(formal_pdf_sha256=sha(project_path('manuscript.pdf')),references_sha256=sha(project_path('references.bib')),pool_count=85,bbl_count=78,commands=136,bbl_duplicates=[],cited_key_set_identical=True,commands_identical=True,format_pass=78,metadata_pending=pending,configuration_sha256={n:sha(project_path(n)) for n in ['manuscript.tex','eswa-apa-config.tex','eswa-apa-sourcemap.tex','apa_reference_adaptations.json']},final_bbl_sha256=sha(project_path('manuscript.bbl')),followup_date='2026-10-12',followup_baseline=head,followup_protected_file_equality={n:True for n in protected},non_target_overlay_records_identical=True)
 write(OUT/'scope_validation.json',scope)
 warnings={}
-for label,path in [('before',ROOT/'tmp/conference9_before_build/manuscript.log'),('after',ROOT/'manuscript.log')]:
+for label,path in [('before',project_path('tmp/conference9_before_build/manuscript.log')),('after',project_path('manuscript.log'))]:
     text=path.read_text(encoding='utf-8',errors='replace');warnings[label]={'overfull':re.findall(r'Overfull[^\n]+',text),'underfull_count':text.count('Underfull'),'warnings':re.findall(r'[^\n]*Warning[^\n]*',text),'errors':re.findall(r'^!.*$',text,re.M)}
-warnings['biber_warnings']=[l for l in (ROOT/'manuscript.blg').read_text(encoding='utf-8',errors='replace').splitlines() if 'WARN' in l or 'ERROR' in l]
+warnings['biber_warnings']=[l for l in (project_path('manuscript.blg')).read_text(encoding='utf-8',errors='replace').splitlines() if 'WARN' in l or 'ERROR' in l]
 assert not warnings['after']['errors'] and not warnings['after']['warnings'] and not warnings['biber_warnings']
 assert warnings['before']['overfull']==warnings['after']['overfull']
 warnings['comparison_baseline']='tmp/conference9_before_build/manuscript.log; same APA branch before nine-paper follow-up'
@@ -138,5 +139,5 @@ report.insert(report.index('## 2. 九篇逐项结果'),'补充访问边界：本
 migration=['# ESWA APA 第七版迁移与会议文献收尾当前验收','', '更新日期：2026-10-12。当前正式稿 `cas-dc + biblatex-apa + Biber`；完整中文逐篇报告见 [九篇最终核查](apa7_audit/conference9_final_review.md)。原2026-10-11迁移报告完整保存在 [历史报告](apa7_audit/history/conference9_baseline_20261012/APA7_MIGRATION_REPORT.md)，其旧哈希、9篇缺证和旧PDF说明均为历史状态。','', '**当前格式回归与范围保护已通过；全部78篇严格出版元数据验收仍未闭环：8篇会议文献的editor等字段继续PENDING。** 不因空字段推断不存在。','', '## 当前结果','', '- 原始85条references.bib、78篇正文来源、136处引用命令和全部引用键完整保留。','- APA 核心14/14、扩展15/15、78条实际输出78/78、85条独立预览85/85通过。','- Generative Agents补出版社明确标注的四位editor，使用eid=2打印Article 2，pagetotal=22仅保存篇幅；内部1–22不冒充连续论文集分页。','- AutoGen保留COLM2024的14人正式作者名单，Awadallah的Hassan修正为A. H.；Self-Consistency／Least-to-Most的Le、Chi及ReAct的Narasimhan中间名同期修正。','- 两篇ACM出版社采用Association for Computing Machinery；只四篇ICLR2023改正式The Eleventh会名。','- 四阶段正式构建成功，22页；前18页像素完全一致，图表/位置和CAS未变。三条既有Overfull一致，Underfull未增加，无最终Biber/biblatex警告。','- 冻结BBL本机重建22页全部文本/像素一致；ESWA服务器后端与包版本兼容仍待平台核实。','', '当前 PDF SHA-256：`'+scope['formal_pdf_sha256']+'`；原库SHA-256：`'+scope['references_sha256']+'`。所有当前配置哈希见 [final_checks.json](apa7_audit/final_checks.json)，逐篇before/after/证据/未决项见完整中文报告。','', '## 仍未确认的字段','', '|key|剩余未核实字段|','|---|---|']
 for k in pending:migration.append('|'+k+'|'+esc('；'.join(maps[k]['pending']))+'|')
 migration += ['', 'ICLR/OpenReview空页码、AutoGen空publisher和以上空editor均不补造。未引用记录与既有可选限制保持，不改变正式版本、内容论证或引用关系。原迁移文档中的完整测试规则、投稿源文件包与历史差异可追溯，但其旧验证hash不得当作当前hash。','', '## 审阅状态','', '核查完成后，用户已授权将本轮改动提交并推送至GitHub的codex/eswa-apa7-migration分支；不合并main。审阅以该分支的核查提交为准。修改仅涉及项目引用适配、受影响审计/报告及为本机验收所需的工具修正。']
-(ROOT/'APA7_MIGRATION_REPORT.md').write_text('\n'.join(migration)+'\n',encoding='utf-8')
+(project_path('APA7_MIGRATION_REPORT.md')).write_text('\n'.join(migration)+'\n',encoding='utf-8')
 print(json.dumps({'core14':14,'extended15':15,'references78':78,'pool85':85,'commands':136,'metadata_pending':len(pending),'field_changes':len(change['changes']),'overfull':len(warnings['after']['overfull']),'underfull_before':warnings['before']['underfull_count'],'underfull_after':warnings['after']['underfull_count'],'report':'apa7_audit/conference9_final_review.md'},ensure_ascii=False))

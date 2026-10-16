@@ -1,4 +1,4 @@
-param([string]$OutputDirectory = 'tmp/apa7_build')
+param([string]$OutputDirectory = 'build/latex')
 $ErrorActionPreference = 'Stop'
 $projectRoot = $PSScriptRoot
 $buildDirectory = [IO.Path]::GetFullPath((Join-Path $projectRoot $OutputDirectory))
@@ -20,18 +20,15 @@ try {
             try { & $bibEngine manuscript 2>&1 | Out-File -LiteralPath (Join-Path $buildDirectory 'manuscript.biber.console.txt') -Encoding utf8 }
             finally { Pop-Location }
         } else {
-            & $pdfEngine -interaction=nonstopmode -halt-on-error -file-line-error -recorder "-output-directory=$buildDirectory" manuscript.tex *> (Join-Path $buildDirectory "manuscript.$buildStage.console.txt")
+            & $pdfEngine -synctex=1 -interaction=nonstopmode -halt-on-error -file-line-error -recorder "-output-directory=$buildDirectory" manuscript.tex *> (Join-Path $buildDirectory "manuscript.$buildStage.console.txt")
         }
         if ($LASTEXITCODE -ne 0) { throw "Build failed at $buildStage; inspect $buildDirectory" }
         Write-Output "Completed $buildStage"
     }
-    # Publish matching generated artifacts together; sources stay untouched.
-    foreach ($buildExtension in @('pdf','bbl','aux','bcf','run.xml','out','log','blg','fls')) {
-        $builtFile = Join-Path $buildDirectory "manuscript.$buildExtension"
-        if (Test-Path -LiteralPath $builtFile) {
-            Copy-Item -LiteralPath $builtFile -Destination (Join-Path $projectRoot "manuscript.$buildExtension")
-        }
-    }
+    # Keep auxiliary files in the build directory; publish only the final PDF.
+    $publishedDirectory = Join-Path $projectRoot 'build'
+    New-Item -ItemType Directory -Path $publishedDirectory -Force | Out-Null
+    Copy-Item -LiteralPath (Join-Path $buildDirectory 'manuscript.pdf') -Destination (Join-Path $publishedDirectory 'manuscript.pdf')
 } finally {
     Pop-Location
     $env:LC_ALL, $env:LC_CTYPE, $env:LANG = $oldLocale

@@ -1,11 +1,12 @@
+from project_paths import project_path
 from pathlib import Path
 import collections,csv,hashlib,json,re,shutil,subprocess
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'apa7_audit';TMP=ROOT/'tmp/apa7_migration'; TEST=ROOT/'tmp/apa7_regression'
+ROOT=Path(__file__).resolve().parents[1];OUT=project_path('apa7_audit');TMP=project_path('tmp/apa7_migration'); TEST=project_path('tmp/apa7_regression')
 def j(p):return json.loads(p.read_text(encoding='utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def esc(s):return str(s).replace('|','\\|').replace('\n',' ')
 for n in ['apa14_results.json','extended_results.json','font_evidence.json','extended_font_evidence.json','coverage_results.json']:shutil.copy2(TEST/n,OUT/n)
-overlay=j(ROOT/'apa_reference_adaptations.json')['records'];refs=j(OUT/'reference_78_acceptance.json');scope=j(OUT/'scope_validation.json');base=j(TMP/'baseline/manifest.json');core=j(OUT/'apa14_results.json');extended=j(OUT/'extended_results.json')
+overlay=j(project_path('apa_reference_adaptations.json'))['records'];refs=j(OUT/'reference_78_acceptance.json');scope=j(OUT/'scope_validation.json');base=j(TMP/'baseline/manifest.json');core=j(OUT/'apa14_results.json');extended=j(OUT/'extended_results.json')
 conf=[r for r in overlay if r['original_type']=='inproceedings'];pending=[r for r in refs if r['metadata_result']=='PENDING']
 table=['# 会议论文逐条分类与 APA 适配','', '56 条会议记录全部保留；52 条被正式正文引用。编辑者缺证与确证不存在编辑者分开处理。','', '|key|正文引用|实际出版形态|输出类型|编辑者/出版社适配|未核实字段|证据|','|---|---|---|---|---|---|---|']
 for r in conf:
@@ -15,11 +16,11 @@ for r in conf:
 table=['# 正式参考文献 78 条逐项输出验收','', 'PASS 仅指下列实际 PDF 输出检查通过。PENDING 表示不能宣称该条全部元数据严格合规。期刊额外网页日期要求按 ESWA 指南处理。','', '|序号|key|页码|输出检查|元数据|实际 PDF 输出|','|---|---|---|---|---|---|']
 for r in refs:table.append('|'+ '|'.join(map(esc,[r['index'],r['key'],','.join(map(str,r['pages'])),r['format_result'],'待补证' if r['metadata_result']=='PENDING' else '已核查，保留原审计限制',r['actual']]))+'|')
 (OUT/'reference_78_review.md').write_text('\n'.join(table)+'\n',encoding='utf-8')
-before=(TMP/'baseline_build/manuscript.log').read_text(encoding='utf-8',errors='replace');after=(ROOT/'manuscript.log').read_text(encoding='utf-8',errors='replace')
+before=(TMP/'baseline_build/manuscript.log').read_text(encoding='utf-8',errors='replace');after=(project_path('manuscript.log')).read_text(encoding='utf-8',errors='replace')
 warnings={}
 for label,text in [('before',before),('after',after)]:
  warnings[label]={'overfull':re.findall(r'Overfull[^\n]+',text),'underfull_count':text.count('Underfull'),'warnings':re.findall(r'[^\n]*Warning[^\n]*',text)}
-warnings['biber_warnings']=[l for l in (ROOT/'manuscript.blg').read_text(encoding='utf-8',errors='replace').splitlines() if 'WARN' in l or 'ERROR' in l]
+warnings['biber_warnings']=[l for l in (project_path('manuscript.blg')).read_text(encoding='utf-8',errors='replace').splitlines() if 'WARN' in l or 'ERROR' in l]
 (OUT/'warning_comparison.json').write_text(json.dumps(warnings,ensure_ascii=False,indent=2),encoding='utf-8')
 metrics=j(TMP/'pdf_page_metrics.json')
 notes={1:'CAS 前置信息与摘要为官方版式；正文双栏，无作者身份泄露。',2:'双栏正文连续，栏目边界清晰。',3:'图1、图2完整；图1旧84快照及声明为既有受保护内容，未更新。',4:'表1完整跨栏；前后正文和章节标题正常。',5:'图3完整；正文双栏。',6:'连续正文，引用消歧后换行正常。',7:'表2完整；架构选择正文正常。',8:'双栏连续；图4自然移至第9页，无空白浮动页。',9:'图4和表3完整，字幕/注释均显示。',10:'技术章节及公式正常。',11:'正文与公式正常。',12:'正文与公式正常；图5前置引用位于本页。',13:'图5维持0.94textwidth；原图无裁切，字体可读，图注及两栏资源正文对应。',14:'表4八行六列完整；LangChain a/b引用增加换行但未重叠；后续正文正常。',15:'表5完整，正文正常。',16:'表6完整；相邻评估及挑战正文正常。',17:'后续研究方向双栏连续。',18:'结论和声明正常。',19:'声明接参考文献；两栏悬挂缩进，无覆盖。',20:'逐条参考文献，期刊/会议/软件字体与链接正常。',21:'逐条参考文献；机构作者a/b及网页检索日期正常。',22:'参考文献自然结束；末页右栏下方余白是条目结束所致，无人为填页。'}
@@ -37,5 +38,5 @@ for r in layout:report.append('|'+str(r['page'])+'|'+r['note']+'|')
 report += ['',f"最终PDF SHA-256：`{scope['formal_pdf_sha256']}`。PDF及同批日志在根目录；渲染图位于tmp/apa7_migration/rendered，逐页结果见apa7_audit/pdf_page_review.json。",'', '## 8. 投稿兼容性与源文件','', 'Elsevier明确说明多数期刊初次投稿接受本地PDF；若允许PDF，应以Manuscript上传本地PDF，另打包LaTeX source files。ESWA实际界面是否提供该选项、是否执行Biber、biblatex/apa及Biber版本均待确认。没有把本地构建视为平台兼容已证实。[Elsevier LaTeX instructions](https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions)', '', '建议审核并补齐元数据后：如系统允许，上传独立名称review.pdf及同层源文件ZIP（按平台LaTeX source files类别）。如果平台限制PDF，先确认Biber或兼容预生成BBL支持；官方帮助提供的传统BibTeX BBL input方式不能直接套用到biblatex结构化BBL。[Editorial Manager官方帮助](https://www.elsevier.support/publishing/answer/how-to-submit-a-latex-file-in-editorial-manager)', '', '源文件：manuscript.tex、references.bib、eswa-apa-config.tex、eswa-apa-sourcemap.tex、cas-dc.cls、cas-common.sty、change_timeline.jpg、classify.jpg、fig3_topology.pdf、fig_flow.jpg、fig_reference_corpus.pdf；需要冻结参考文献时加同jobname的manuscript.bbl。build.ps1、.latexmkrc和依赖说明供重建使用。旧bst不参与Biber编译；历史章节、审计报告、原始检索/用户PDF及未使用图片不用塞入稿件源文件包。所有投稿文件同层，不用子目录。','', '全稿同层冻结BBL测试在本机只运行三次pdfLaTeX、不运行Biber，22页文本与72dpi像素逐页相同，见frozen_submission_result.json和tmp/apa7_migration/frozen_full_release。预生成BBL格式3.3，需兼容biblatex/apa版本与完整源码，不能对修改后的bib/配置复用旧BBL，也不能随便input传统BBL。平台旧版本可能拒绝、误读或使用不同样式；需询问ESWA/Elsevier其后端、包版本及是否接受PDF+sources。未上传，也未联系编辑部。','', '期刊依据优先用户复制的ESWA指南（原附件SHA：8e4fceaecef90ecd721bc37318a298f54f641ea1bb467821ba73c5bc368665b5）；官网下载全文未成功，不假称本轮已读取最新Guide全文。[ESWA Guide](https://www.sciencedirect.com/journal/expert-systems-with-applications/publish/guide-for-authors)。APA依据为[官方会议格式](https://apastyle.apa.org/style-grammar-guidelines/references/examples/conference-proceeding-references)、[作者/题名/日期规则](https://apastyle.apa.org/style-grammar-guidelines/references/elements-list-entry)、[DOI与URL](https://apastyle.apa.org/style-grammar-guidelines/references/dois-urls)。', '', '## 9. Git差异与回滚','', '修改前工作区干净，全部改动限制为引用配置、适配层、项目构建和验收文件。正式.tex的diff仅导言区及文末bibliography；全部新旧值可审查。完整变化清单：','']
 for n in sorted(set(changed+new)):report.append('- `'+n+'`')
 report += ['', '本地提交保留在独立迁移分支。报告不写自身提交SHA（避免自引用）；使用git log -1查看。main仍为迁移前fc20fb7；没有push。审阅完整差异：`git diff codex/eswa-apa7-baseline-20261011..codex/eswa-apa7-migration`。','', '回滚操作先确认工作区干净或保存新修改，再git switch main（或从基线标签新建codex/eswa-bibtex-rollback分支）；源文件恢复旧配置。生成物不会随Git切换自动回滚：将tmp/apa7_migration/baseline中的原manuscript.bbl、aux和PDF恢复到根目录，或在新的忽略目录用独立jobname重新执行原四阶段BibTeX构建。不要在旧natbib主稿中直接读取新biblatex BBL。新迁移源码仍在独立分支，新生成物仍在tmp/apa7_build中；禁止reset --hard或全盘清理。','', '## 10. 验收判定与尚未解决项','', '**可审阅的本地迁移完成；APA14/15及78实际输出检查均通过，85池与136命令及布局保护通过。全部78篇严格元数据合规尚未验收通过。** 9篇会议作品的编辑者/出版者仍需有权威证据，相关补填已停止。GenMentor、XAgent为未引记录仍需补证；既有可选DOI/分页限制保留。ESWA服务器后端/版本仍待确认。图片中的旧84快照及原研究声明是既有受保护内容，本轮未修改，也不据本报告宣称其他投稿材料均已准备完毕。']
-(ROOT/'APA7_MIGRATION_REPORT.md').write_text('\n'.join(report)+'\n',encoding='utf-8')
+(project_path('APA7_MIGRATION_REPORT.md')).write_text('\n'.join(report)+'\n',encoding='utf-8')
 print('Chinese report generated; metadata pending',len(pending))

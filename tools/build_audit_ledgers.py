@@ -5,6 +5,7 @@ a title-similarity cache. Missing evidence aborts rather than creating a false
 verified row. No search is performed by this generator.
 """
 from __future__ import annotations
+from project_paths import project_path
 import csv
 import hashlib
 import json
@@ -17,7 +18,7 @@ from active_tex import scan_manuscript
 from build_reference_inventory import balanced_entries, parse_fields, publication_venue
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK = ROOT / "audit_work"
+WORK = project_path("audit_work")
 FOLLOWUP_PATH = WORK / "reference_followup_20261010.json"
 FOLLOWUP = json.loads(FOLLOWUP_PATH.read_text(encoding="utf-8"))
 REVIEW_PATH = WORK / "stage2_completion_review.json"
@@ -68,7 +69,7 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 def main() -> None:
     corrections = json.loads((WORK / "reference_correction_log.json").read_text(encoding="utf-8")) + json.loads((WORK / "stage2_reference_correction_log.json").read_text(encoding="utf-8"))
     text_corrections = json.loads((WORK / "manuscript_correction_log.json").read_text(encoding="utf-8")) + json.loads((WORK / "stage2_manuscript_correction_log.json").read_text(encoding="utf-8"))
-    with zipfile.ZipFile(WORK / "before_reference_corrections_20261008.zip") as baseline:
+    with zipfile.ZipFile(project_path('audits/revisions/backups/before_reference_corrections_20261008.zip')) as baseline:
         previous_claims = {c["command_id"]: c for c in json.loads(baseline.read("audit_work/citation_claim_audit.json"))}
     evidence_paths = sorted(WORK.glob("ledger_evidence_*.json"))
     if len(evidence_paths) != 3:
@@ -81,7 +82,7 @@ def main() -> None:
             "manuscript.tex": data.get("basis", {}).get("manuscript_tex_sha256"),
             "references.bib": data.get("basis", {}).get("references_bib_sha256")}
         for filename in ("manuscript.tex", "references.bib"):
-            if bound_hashes.get(filename) != hashlib.sha256((ROOT / filename).read_bytes()).hexdigest():
+            if bound_hashes.get(filename) != hashlib.sha256((project_path(filename)).read_bytes()).hexdigest():
                 raise ValueError(f"Evidence batch {path.name} is not bound to the current {filename}; re-review first")
         for row in data["references"]:
             if row["key"] in reviewed_refs:
@@ -95,7 +96,7 @@ def main() -> None:
                 assessments[identity] = item
     scan = scan_manuscript(ROOT)
     counts = Counter(k for c in scan.citations for k in c.keys)
-    with (ROOT / "literature_audit.csv").open(encoding="utf-8-sig", newline="") as handle:
+    with (project_path("literature_audit.csv")).open(encoding="utf-8-sig", newline="") as handle:
         historical = {r["key"]: r for r in csv.DictReader(handle)}
     if FOLLOWUP:
         decision = FOLLOWUP["triad_decision"]
@@ -104,7 +105,7 @@ def main() -> None:
         for source in FOLLOWUP["source_pdfs"].values():
             if hashlib.sha256(Path(source["path"]).read_bytes()).hexdigest() != source["sha256"]:
                 raise ValueError(f"Reviewed source PDF changed: {source['path']}")
-    entries = balanced_entries((ROOT / "references.bib").read_text(encoding="utf-8"))
+    entries = balanced_entries((project_path("references.bib")).read_text(encoding="utf-8"))
     if set(reviewed_refs) != {key for _, key, _ in entries}:
         raise ValueError("Reviewed reference pool differs from current BibTeX pool")
     refs = []
@@ -129,7 +130,7 @@ def main() -> None:
             if check["status"] == "verified" and not check.get("evidence_url"):
                 raise ValueError(f"Verified field without source: {key}:{name}")
         record = dict(evidence, sequence=sequence,
-            bib_line=(ROOT / "references.bib").read_text(encoding="utf-8").split(raw, 1)[0].count("\n") + 1,
+            bib_line=(project_path("references.bib")).read_text(encoding="utf-8").split(raw, 1)[0].count("\n") + 1,
             current_fields=current,
             current_record={"type": entry_type, **fields},
             active_cited=bool(counts[key]), citation_command_count=counts[key],
@@ -286,18 +287,18 @@ def main() -> None:
         input_paths.add("Highlights.txt")
         input_paths.update(source["path"] for source in FOLLOWUP["source_pdfs"].values())
     input_paths.update({"audit_work/stage2_completion_review.json", "audit_work/stage2_completion_review_spec.json", "audit_work/stage2_completion_baseline.json", "audit_work/stage2_reference_correction_log.json", "audit_work/stage2_manuscript_correction_log.json", "audit_work/case_classification_audit.json", "audit_work/core_eligibility_audit.json", "tools/complete_stage2_review.py", "tools/verify_stage2_completion.py"})
-    input_paths.update(p.relative_to(ROOT).as_posix() for p in (WORK / "stage2_sources").iterdir() if p.is_file())
+    input_paths.update(p.relative_to(ROOT).as_posix() for p in (project_path('audits/references/stage2_sources')).iterdir() if p.is_file())
     input_paths.update(p.relative_to(ROOT).as_posix() for p in WORK.glob("stage2*source*retrieval.json"))
     input_paths.update(source["path"] for source in REVIEW["source_pdfs"])
     protected = json.loads((WORK / "correction_baseline.json").read_text(encoding="utf-8"))
     input_paths.update(protected["figure_sha256"])
-    if any(hashlib.sha256((ROOT / f).read_bytes()).hexdigest() != h for f, h in protected["figure_sha256"].items()):
+    if any(hashlib.sha256((project_path(f)).read_bytes()).hexdigest() != h for f, h in protected["figure_sha256"].items()):
         raise ValueError("An original figure changed during the reference-only correction phase")
     compilation = json.loads((WORK / "compile_verification.json").read_text(encoding="utf-8"))
-    compilation_current = all(hashlib.sha256((ROOT / f).read_bytes()).hexdigest() == h for f, h in compilation["inputs_sha256"].items())
+    compilation_current = all(hashlib.sha256((project_path(f)).read_bytes()).hexdigest() == h for f, h in compilation["inputs_sha256"].items())
     compilation_passed = compilation_current and all(r["exit_code"] == 0 for r in compilation["runs"]) and not compilation["undefined_citation_or_reference"]
     manifest = {"audit_date": AUDIT_DATE, "evidence_provenance": "Prior official-source context review plus five formal source PDFs, official full texts, publisher records and dated/versioned resources; each field/context assessed separately",
-        "input_sha256": {p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in sorted(input_paths)},
+        "input_sha256": {p: hashlib.sha256((project_path(p)).read_bytes()).hexdigest() for p in sorted(input_paths)},
         "ledger_output_sha256": {p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
             for stem in ("reference_field_audit", "citation_claim_audit")
             for suffix in (".json", ".csv", ".md") for p in [WORK / (stem + suffix)]},
@@ -385,7 +386,7 @@ def write_report(manifest: dict, refs: list[dict], claims: list[dict]) -> None:
         "复核命令：", "", "```powershell", "python -B tools/build_reference_inventory.py",
         "python -B tools/build_audit_ledgers.py", "python -B tools/static_reference_checks.py", "```", "",
         "生成器仅整理已审阅证据，不能靠改哈希、题名相似或自动匹配证明来源。历史literature_audit.csv的旧匹配列保留；当前结论以两份台账为准。", ""]
-    (ROOT / "reference_audit_report.md").write_text("\n".join(lines), encoding="utf-8")
+    (project_path("reference_audit_report.md")).write_text("\n".join(lines), encoding="utf-8")
 
 
 def write_pending(manifest: dict, refs: list[dict], claims: list[dict]) -> None:

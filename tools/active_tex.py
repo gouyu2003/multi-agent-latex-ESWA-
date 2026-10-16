@@ -387,6 +387,7 @@ def scan_manuscript(root: Path, main: str = "manuscript.tex") -> ScanResult:
 def compiled_keys(root: Path, main: str = "manuscript.tex") -> dict:
     """Read existing compiler artifacts; never run TeX or modify the manuscript."""
     stem = Path(main).with_suffix("")
+    artifact_root = root / "build/latex" if (root / "build/latex" / stem.with_suffix(".aux")).exists() else root
     aux_keys: list[str] = []
     aux_commands: list[list[str]] = []
     artifacts: list[dict] = []
@@ -404,14 +405,14 @@ def compiled_keys(root: Path, main: str = "manuscript.tex") -> dict:
         text = strip_comments(data.decode("utf-8"))
         for m in re.finditer(r"\\(citation|@input)\s*\{([^}]+)\}", text):
             if m.group(1) == "@input":
-                read_aux(root / m.group(2))
+                read_aux(artifact_root / m.group(2))
             else:
                 values = [k.strip() for k in m.group(2).split(",") if k.strip()]
                 aux_commands.append(values)
                 aux_keys.extend(values)
 
-    read_aux(root / stem.with_suffix(".aux"))
-    bbl = root / stem.with_suffix(".bbl")
+    read_aux(artifact_root / stem.with_suffix(".aux"))
+    bbl = artifact_root / stem.with_suffix(".bbl")
     data = bbl.read_bytes()
     artifacts.append({"file": bbl.relative_to(root).as_posix(), "sha256": hashlib.sha256(data).hexdigest()})
     text = strip_comments(data.decode("utf-8"))

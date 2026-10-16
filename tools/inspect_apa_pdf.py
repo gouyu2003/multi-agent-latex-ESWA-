@@ -1,9 +1,10 @@
+from project_paths import project_path
 from pathlib import Path
 import fitz,json,re
 from PIL import Image,ImageDraw
-ROOT=Path(__file__).resolve().parents[1];HERE=ROOT/'tmp/apa7_migration'; OUT=HERE/'rendered';OUT.mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];HERE=project_path('tmp/apa7_migration'); OUT=HERE/'rendered';OUT.mkdir(exist_ok=True)
 rows=[]
-for kind,path in [('before',HERE/'baseline_build/manuscript.pdf'),('after',ROOT/'manuscript.pdf')]:
+for kind,path in [('before',HERE/'baseline_build/manuscript.pdf'),('after',project_path('manuscript.pdf'))]:
  doc=fitz.open(path); previews=[]; texts=[]
  for i,p in enumerate(doc):
   image=p.get_pixmap(matrix=fitz.Matrix(1.5,1.5)); image.save(OUT/f'{kind}_{i+1:02d}.png')

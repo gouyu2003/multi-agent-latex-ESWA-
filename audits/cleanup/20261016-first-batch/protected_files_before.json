@@ -1,0 +1,1094 @@
+[
+    {
+        "path":  "build/history/apa7_build/manuscript.abs",
+        "bytes":  1793,
+        "sha256":  "30918e849e91391130d0426fa890168caf922ebe2f885d6155c782580c9d0855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.aux",
+        "bytes":  54709,
+        "sha256":  "d965d21bc5382c134e2f9d88f161b9b0d4e3644e7bb976204e96a95df425da22",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.bbl",
+        "bytes":  615495,
+        "sha256":  "c0b086e805ea79b007c3ee9fd71ad756456e9c5ed63389a8e07aaff46a16c8e4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.bcf",
+        "bytes":  193189,
+        "sha256":  "5f0db107169e2f7b2e3bb519bd24e734917b034678a66d96a991df1c390ff1b9",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.biber.console.txt",
+        "bytes":  1186,
+        "sha256":  "9320d79db826c2c6e4e4a96d387668f3bc5bf3b9362bc1737757d2e69d6b8262",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.blg",
+        "bytes":  1609,
+        "sha256":  "cb39b6959b8903ce9e819f74da43faa15f6a59f9fe1d6dfb21075fde75843527",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.fls",
+        "bytes":  38710,
+        "sha256":  "c9fea8c361fb5bb52949f7082d57f154796a9dc59d9068dc3a4a9a9c64e67479",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.log",
+        "bytes":  63993,
+        "sha256":  "85ecc00c720c86ad7fdd0f4da60c37eb013f4d81fcd6895f75d32d9dfb4ed695",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.out",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.pass1.console.txt",
+        "bytes":  22503,
+        "sha256":  "24a57a000751049de7bd38227ac545ffb1b0c2345ce8fca204b32823f289d8f0",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.pass2.console.txt",
+        "bytes":  20752,
+        "sha256":  "01308d318e0ef87d3189eec48b2b4e21e3f97da674c6ccb8075ebe91d5dd5b60",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.pass3.console.txt",
+        "bytes":  20752,
+        "sha256":  "01308d318e0ef87d3189eec48b2b4e21e3f97da674c6ccb8075ebe91d5dd5b60",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.pdf",
+        "bytes":  2098944,
+        "sha256":  "c8667d1c29ffe745a193c14c112a66a3c538a705eba5e7d9a1e82dd03be79fe3",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_build/manuscript.run.xml",
+        "bytes":  2503,
+        "sha256":  "c063ba2becb28086fd11ae918307b80b6748d339e4582ac7acd8c2428232515f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/active_commands.json",
+        "bytes":  25429,
+        "sha256":  "8ff3265610a7831f6c47c8f79bde507d199a54f13c6d64ed79da16fb714fcc6e",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/apa14_results.json",
+        "bytes":  4715,
+        "sha256":  "97b3fd9e2de41e2d8b50a35b46adf207ab7ce193c390ab89ab0296b90f13f920",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/build_biber.json",
+        "bytes":  993,
+        "sha256":  "9843eb6d2e9330dc96fc560ffbf27d4f9ae1293a8d7a1ba4d120851b25febfda",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/build_pass1.json",
+        "bytes":  2534,
+        "sha256":  "555c1f6582189b687593ba4d85fccb0a64f81faceb9c33247c629f7abf0692d3",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/build_pass2.json",
+        "bytes":  2536,
+        "sha256":  "8f5ff3bee99a9b76042ef159cd7283d0cee902e1c1c25526133b8df9109ac601",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/build_pass3.json",
+        "bytes":  2536,
+        "sha256":  "e1d723c7c529e7b8e3d37c74359317c4454e7710b22180fcfda513094f39a46e",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.abs",
+        "bytes":  125,
+        "sha256":  "8ee5555921e2789853ca13dda21fcf9fdb27343e5ffb2cb7e248849bcbf39e6a",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.aux",
+        "bytes":  34565,
+        "sha256":  "99a2476d001bf2a355344e49adfdf9a139a254b7b8b1f1684cba8b5f0ae5fabd",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.bbl",
+        "bytes":  615495,
+        "sha256":  "c0b086e805ea79b007c3ee9fd71ad756456e9c5ed63389a8e07aaff46a16c8e4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.bcf",
+        "bytes":  193159,
+        "sha256":  "a2e3cd0b39856afbe1382ca6b402d9a25c70f4b6d0a86059325ce1b51550b3cd",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.biber.console.txt",
+        "bytes":  1186,
+        "sha256":  "2a113184abf87362759dffcf9780c217e82e5796cc148028680d1ae31edc36c1",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.blg",
+        "bytes":  1609,
+        "sha256":  "2b8a7d8609cf20853f99861a5925a917aa0737a8576a6a114735d54ce7a61dab",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.fls",
+        "bytes":  28676,
+        "sha256":  "241c62d368918f3f66ee1716752283109174d62df5ed5daa3544ffffb7e79f57",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.log",
+        "bytes":  48742,
+        "sha256":  "fafb23ccf2f94e5260e00ec98c7584ee64aced4c68c35e9bb9bcb90b343ad27c",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.out",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.pass1.console.txt",
+        "bytes":  28632,
+        "sha256":  "861094505c37a700fc52f2e2823ee3a56c83a1531f14cb60efe1291a9e301fb6",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.pass2.console.txt",
+        "bytes":  10342,
+        "sha256":  "9288ef64f76908c7a9355fbea98bc4ba7fb0edb6832e84a61208e5e146c770fc",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.pass3.console.txt",
+        "bytes":  10183,
+        "sha256":  "ace9b8dc49bfeadfaa66983887db6b1da06953478a14aee260660d3f18d45852",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.pdf",
+        "bytes":  185756,
+        "sha256":  "3d31b238934b94dd4c065972c5b6ec750ce14e9c943cfb8e5f37c29425233410",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.run.xml",
+        "bytes":  2503,
+        "sha256":  "d56ac4f2ed6064d24a849bb866869205f58b0dc44b03cc74f49e334107227fd3",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78.tex",
+        "bytes":  7178,
+        "sha256":  "09592ed88e28f8754cae19d0dd9923dfc375cc8642f8a0ae5de5ae009ac92583",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/commands78_extracted.txt",
+        "bytes":  34048,
+        "sha256":  "1c6b055c58d8e2e16ef9cb58cb5d5e2811efc67acddc625cdf1dfe24ed800845",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/coverage_results.json",
+        "bytes":  235,
+        "sha256":  "e485c50f212fcc39236f6191067383d1cd1efa153712cccb156925489d02842f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/expected_rules.json",
+        "bytes":  1374,
+        "sha256":  "371cde5d584a693fd3fc3c43ea369d2b4f3dae24581634e040ea037c3a5ae539",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/extended_font_evidence.json",
+        "bytes":  1291,
+        "sha256":  "73a42c56c4e706caa3855d5228aea90fd037ed0752ff8929dc7bcc585cd09b99",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/extended_results.json",
+        "bytes":  7801,
+        "sha256":  "4a294103545059ca2fe4ebcef024b8499f3d0481c472b9b3d4e30bd9a87147f4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/font_evidence.json",
+        "bytes":  342,
+        "sha256":  "019c327fac42fa94851b3268e12d0854ac941b0ccb1b8608c9b57e470d979214",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.abs",
+        "bytes":  125,
+        "sha256":  "8ee5555921e2789853ca13dda21fcf9fdb27343e5ffb2cb7e248849bcbf39e6a",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.aux",
+        "bytes":  21058,
+        "sha256":  "2135a04084c42251b22c6730efac154d113102a15e5141dfc5f52e93de96e53e",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.bbl",
+        "bytes":  615495,
+        "sha256":  "c0b086e805ea79b007c3ee9fd71ad756456e9c5ed63389a8e07aaff46a16c8e4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.bcf",
+        "bytes":  185487,
+        "sha256":  "81d7ebcd3e6365f013769025e6f5b35a9f18629a03b62f4ee865dc74caacd473",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.biber.console.txt",
+        "bytes":  1170,
+        "sha256":  "86e0a786ec46ccb4a399b605427e8054a10e538ec6d1dad32692acccea75370b",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.blg",
+        "bytes":  1594,
+        "sha256":  "d6db151df52e48b981c61e35b791ea627408994b721e751d95454ed7353ec124",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.fls",
+        "bytes":  28564,
+        "sha256":  "5206630649f8f84e3c2a3a0d5d0b0666972b7f0192131dc02db0ba85448e4f83",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.log",
+        "bytes":  48794,
+        "sha256":  "87f6becaa7585d9b4bb673e73e24a159f2de790195802a6108f34d73ad7ce113",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.out",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.pass1.console.txt",
+        "bytes":  18944,
+        "sha256":  "c57943849bab165d7594781c3b2b231002c071de8699aedeced3ac9e58f2a6b4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.pass2.console.txt",
+        "bytes":  10432,
+        "sha256":  "10dd009b709ef570f66166cf5f50ecee966db8c1456659aa45a085521b09da6c",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.pass3.console.txt",
+        "bytes":  10273,
+        "sha256":  "690d577945f4576ff6cb038e8c6574e94daae65632a24ca6ef8a49d7c0c29560",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.pdf",
+        "bytes":  181433,
+        "sha256":  "afae3e0c80560eaefc269320ea731131f43edec3b2742b426e3993dd8421fe89",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.run.xml",
+        "bytes":  2475,
+        "sha256":  "fb638c2edea6427cf655bca53a14172baa38e3ce7c8e93ed84c2b31145319896",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78.tex",
+        "bytes":  6187,
+        "sha256":  "62f058ea0996f4d73664beca142a8cb87f0f4a58212b629c120500d9a92e6e4f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool78_extracted.txt",
+        "bytes":  32626,
+        "sha256":  "852403ae11e19fa5f0fc1287a538f5548ab72866b20726ab0216b3ced24815d4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.abs",
+        "bytes":  125,
+        "sha256":  "8ee5555921e2789853ca13dda21fcf9fdb27343e5ffb2cb7e248849bcbf39e6a",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.aux",
+        "bytes":  21825,
+        "sha256":  "d52042d7a546147a928ce0d3a07c26ce2bf62a35a1cbe30ebe00f480d4263ad3",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.bbl",
+        "bytes":  691915,
+        "sha256":  "c6885930f8e215aa6c4e9257bd4c37c01cce6fffaa6505d378a2dc06efb93ab7",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.bcf",
+        "bytes":  185555,
+        "sha256":  "01ef0de90de098f7c9d097c8a40b8b344eeff08a9dbed8491dde3535f6facbcf",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.biber.console.txt",
+        "bytes":  1171,
+        "sha256":  "45bbdd60577fade498568a5af57d59512c185e6384b9414cca16b28de1765382",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.blg",
+        "bytes":  1597,
+        "sha256":  "50687f4290a5da5c36431c09ffdfadf28f050f45802fdc0f632e5ad360a60c5e",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.fls",
+        "bytes":  28564,
+        "sha256":  "c1d33df299f92a75c5055b3c25cdcd0abaa074f54e76376227b0c2a4ad179463",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.log",
+        "bytes":  49529,
+        "sha256":  "6ef23a8a9596dee09c23f6669fe206aeaf1d62ac9a67e576d16303f683ff8ab8",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.out",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.pass1.console.txt",
+        "bytes":  18945,
+        "sha256":  "0f5234a217e58dfff11fb3e1a3b2b003c8cefb0a4f7015fcfe2685b8d1227a26",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.pass2.console.txt",
+        "bytes":  11152,
+        "sha256":  "7304aa1e33ae270002d82d4bd391bb63a46c085461257be4d19337019470cdb2",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.pass3.console.txt",
+        "bytes":  10993,
+        "sha256":  "c9caa863802385f9b4ba8738b996e1b0ccb2acdf9348c9fddaa640cb95b221f7",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.pdf",
+        "bytes":  184950,
+        "sha256":  "cf74f51e1b2fb358ff42a0293ab600d2fc1a2a50c816de4443024accf6b8ba09",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.run.xml",
+        "bytes":  2475,
+        "sha256":  "7ae59786fc86b333f8c4264ad133f47322755eea9f91ca81e75d358f811e0fe9",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/pool85.tex",
+        "bytes":  6199,
+        "sha256":  "f513d623879e6917808bedc3e09cde5544a32d17bb76c77df6805b7b4a948f45",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.abs",
+        "bytes":  125,
+        "sha256":  "8ee5555921e2789853ca13dda21fcf9fdb27343e5ffb2cb7e248849bcbf39e6a",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.aux",
+        "bytes":  4255,
+        "sha256":  "a48a4ba7f554c8c2572f167f33e01cd80358f0390ce5a514ac26b8d60d6e1ccf",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.bbl",
+        "bytes":  116695,
+        "sha256":  "7ca15fcd708e864c5e9cebab34b5e155641dd067d2c1553fefa8f84b8367b78c",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.bcf",
+        "bytes":  181097,
+        "sha256":  "86e4c6dc21825f9ddf9be90e9b1a407e07da6318a28ec71c8fa868375ca6398e",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.bib",
+        "bytes":  5721,
+        "sha256":  "073c4e8125dc36c9d0f002ea838cf463d0b7404d5e93eba398f89cb3b6cc0a58",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.biber.console.txt",
+        "bytes":  1100,
+        "sha256":  "8eff46fc6860f60dbbb9b5655af0770c6d69be74384b439d50a8c0c0a2bf125c",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.blg",
+        "bytes":  1526,
+        "sha256":  "d4eff4e18d93d1e3de933077da4aab230f2208f764a177b9aed025507a0819b0",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.fls",
+        "bytes":  26428,
+        "sha256":  "c5e09722b5cc5ad4569c2551d05381e92a89ae1e9b47ab4974151d98c11ad146",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.log",
+        "bytes":  48740,
+        "sha256":  "98814370c860ee97de7b7b354ea247e6fddafa769036a3e21bd3401d9ba0a260",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.out",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.pass1.console.txt",
+        "bytes":  11232,
+        "sha256":  "9b0222d022e26c3b6b84fa04ba892ef40cbd6651a006578464f48ce5e7c402e0",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.pass2.console.txt",
+        "bytes":  10392,
+        "sha256":  "31c524e824d7e1eb1206f0d5c453cc25602e4dd3bb2abe8259a4bab59d688a3c",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.pass3.console.txt",
+        "bytes":  10233,
+        "sha256":  "572635d8181105cdd6b63a9093161319345c91759bdfd565fd8e13dae618445d",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.pdf",
+        "bytes":  121842,
+        "sha256":  "21e78f2e46c52e5621f2cd7a5b4489bd10a00c7342d7e5ae88a147d16a76637d",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.run.xml",
+        "bytes":  2463,
+        "sha256":  "d97afb9ee3eae3d69491f3c8b9131847e1d17a6eb8fa519c38bdfe7798c43c66",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe.tex",
+        "bytes":  1285,
+        "sha256":  "f5850315d263a82bde3a9efee0c452a3fa6baab8277a9fa20a2e84df7e36bf1f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/probe_extracted.txt",
+        "bytes":  4845,
+        "sha256":  "fb06a4a88ad966c6cb5bdb93350e06e156f54fb64f449f063d91444889698ae5",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/README.md",
+        "bytes":  1375,
+        "sha256":  "f8a54f32ad899cbedd4e91b51275db991f79403eaf27944cd9bc382a07bd88a7",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.abs",
+        "bytes":  125,
+        "sha256":  "8ee5555921e2789853ca13dda21fcf9fdb27343e5ffb2cb7e248849bcbf39e6a",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.aux",
+        "bytes":  3851,
+        "sha256":  "bea2823d8ff9fc29b96bf8a9f4af1e993a7008012325489d1c6e5d1063a730cd",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.bbl",
+        "bytes":  76351,
+        "sha256":  "ed5612a87a15ce63139d3913b35246d9492d98b06d21ab2b7b5f3e2e6c4b3939",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.bcf",
+        "bytes":  180705,
+        "sha256":  "f321c68a595e071665b72f2aca772f1d50c9b485671936227a8a512245eee4cc",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.bib",
+        "bytes":  5510,
+        "sha256":  "12ad130856a208a56d1f1be980491e044bbffacc4ac3a4d685d58468fd44ee3d",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.biber.console.txt",
+        "bytes":  1136,
+        "sha256":  "7979e75aa3341bdf6c1dfdf25df4227e35e21378879b0d3f44dd0c32b00c0ed9",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.blg",
+        "bytes":  1562,
+        "sha256":  "e84f40d1427829ac72a7f36f701e2866f343dd6a167b8f04357444c90e99fa1d",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.fls",
+        "bytes":  26596,
+        "sha256":  "a35510561dc6e145ecb59dd692951c5bfa289d3b1eeb50dfa7f2655d7e0a7974",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.log",
+        "bytes":  48710,
+        "sha256":  "dd4612c1fa8e9bbb32deae221b0301cd4a6feae5ef7831d8f04d6c31291b96ca",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.out",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.pass1.console.txt",
+        "bytes":  11001,
+        "sha256":  "39e68012aa58a91319b0389eba40f14f15537c86d89ea02c9bab83135f86f2b9",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.pass2.console.txt",
+        "bytes":  10319,
+        "sha256":  "8841905c789d6429ae26f6e57dff167579e4dd10413232d6773c4ea4bb312b1e",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.pass3.console.txt",
+        "bytes":  10160,
+        "sha256":  "d19756dcd081f6521fa6e56242cd086523c098a4fad477127cd8546f820b33f9",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.pdf",
+        "bytes":  135725,
+        "sha256":  "17203f8359eaead43cf7450a14eae3281fba8b8997df782f0fdc052d7e6e3942",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.run.xml",
+        "bytes":  2511,
+        "sha256":  "f1fe617f862888e6436c4c72291fef4c54e83b438b650847974d53c7d73c6624",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed.tex",
+        "bytes":  1655,
+        "sha256":  "8031286b758c4e2404c82fb58910cd2aab231cb92727f68036bff02003757b7f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/types_fixed_extracted.txt",
+        "bytes":  4262,
+        "sha256":  "8edca130602866359b8b1552bd089ade7d05dbb2bfae00a6fab1309f73dcd730",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/apa7_regression/validate.py",
+        "bytes":  12337,
+        "sha256":  "d8483143a202b721e4289d4d2af3c2a8cf371e9e7766a2f4b0b110dd8d3a7543",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.abs",
+        "bytes":  1793,
+        "sha256":  "30918e849e91391130d0426fa890168caf922ebe2f885d6155c782580c9d0855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.bbl",
+        "bytes":  615495,
+        "sha256":  "c0b086e805ea79b007c3ee9fd71ad756456e9c5ed63389a8e07aaff46a16c8e4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.bcf",
+        "bytes":  193189,
+        "sha256":  "5f0db107169e2f7b2e3bb519bd24e734917b034678a66d96a991df1c390ff1b9",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.biber.console.txt",
+        "bytes":  1186,
+        "sha256":  "9320d79db826c2c6e4e4a96d387668f3bc5bf3b9362bc1737757d2e69d6b8262",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.blg",
+        "bytes":  1613,
+        "sha256":  "1b2ebfe2ba8d82208f229d88d725c8220c07965b6831caa948daa92bc25a48a9",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.fls",
+        "bytes":  39034,
+        "sha256":  "5c7f63107e7d5dd816c9601afafa11411616f35a8ddf00e591ead806fc9bf8d4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.log",
+        "bytes":  64077,
+        "sha256":  "b201116448939dd1bc0d621e5dd7f6b9456267b7d14aa7b04742b6412beb0490",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.out",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.pass1.console.txt",
+        "bytes":  20822,
+        "sha256":  "e1859871bc742f2b11a79d3c697f7e3a8b55bf2e625e041cb0b0086f244ba38f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.pass2.console.txt",
+        "bytes":  20851,
+        "sha256":  "07f2e1895ce54197df687a60e52f6bf331fd546eed225c83d3def830985f9cb5",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.pass3.console.txt",
+        "bytes":  20851,
+        "sha256":  "07f2e1895ce54197df687a60e52f6bf331fd546eed225c83d3def830985f9cb5",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.pdf",
+        "bytes":  2090135,
+        "sha256":  "e2228f185b783809503d3c1dfc0f28497c9e0e616f91587616fa71d9160f138b",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/figure1_revision/manuscript.run.xml",
+        "bytes":  2503,
+        "sha256":  "c063ba2becb28086fd11ae918307b80b6748d339e4582ac7acd8c2428232515f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.abs",
+        "bytes":  1793,
+        "sha256":  "c39117ca5966056e02ecb3986bd26c48f5e80cc4d6ba5f2a2843a4aeea0884ca",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.aux",
+        "bytes":  55331,
+        "sha256":  "35c96f4ff3c7a5bdb1f42214d5bb832da10d27307d9799d910ffaab9ac416dd0",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.bbl",
+        "bytes":  615495,
+        "sha256":  "c0b086e805ea79b007c3ee9fd71ad756456e9c5ed63389a8e07aaff46a16c8e4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.bcf",
+        "bytes":  193189,
+        "sha256":  "5f0db107169e2f7b2e3bb519bd24e734917b034678a66d96a991df1c390ff1b9",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.biber.console.txt",
+        "bytes":  1186,
+        "sha256":  "9320d79db826c2c6e4e4a96d387668f3bc5bf3b9362bc1737757d2e69d6b8262",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.blg",
+        "bytes":  1620,
+        "sha256":  "bbfb87afa538167ac3e3b0fd2e41b9aa97f5299e2bb5af928fd6364f0d8b0647",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.fls",
+        "bytes":  40798,
+        "sha256":  "912745e01708e31876850dbb34a655fc16aee64fb9349054bcd51f38ca73b54c",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.log",
+        "bytes":  62334,
+        "sha256":  "3efc2e9090df8716c258e0d143d67ee2d5b04b6173e51f5ec28d9cb5c2137223",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.out",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.pass1.console.txt",
+        "bytes":  17895,
+        "sha256":  "6d3e3c2d36cd02792b49898fa1f176f15b52f4064ee490b294a95bdb189c44fa",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.pass2.console.txt",
+        "bytes":  17895,
+        "sha256":  "6d3e3c2d36cd02792b49898fa1f176f15b52f4064ee490b294a95bdb189c44fa",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.pass3.console.txt",
+        "bytes":  17895,
+        "sha256":  "6d3e3c2d36cd02792b49898fa1f176f15b52f4064ee490b294a95bdb189c44fa",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.pdf",
+        "bytes":  836572,
+        "sha256":  "178c7220bd7d835cbdc8165393fcb9421ebfdcf566ec8a97e96282568a6187bd",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/history/table2_minimal_20261014_build/manuscript.run.xml",
+        "bytes":  2503,
+        "sha256":  "c063ba2becb28086fd11ae918307b80b6748d339e4582ac7acd8c2428232515f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/editor_generated_20261016/manuscript.abs",
+        "bytes":  1793,
+        "sha256":  "c39117ca5966056e02ecb3986bd26c48f5e80cc4d6ba5f2a2843a4aeea0884ca",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/editor_generated_20261016/manuscript.aux",
+        "bytes":  55545,
+        "sha256":  "03db3ab6417903abf40a5dc3ba007df9f231cabf00d6dafdefbd55ceb9120fcd",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/editor_generated_20261016/manuscript.bbl",
+        "bytes":  615495,
+        "sha256":  "c0b086e805ea79b007c3ee9fd71ad756456e9c5ed63389a8e07aaff46a16c8e4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/editor_generated_20261016/manuscript.bcf",
+        "bytes":  193189,
+        "sha256":  "4c38f7f23f328c41c01cfe50ad218fdda5b969784e6048854d0bfaee6b7d1462",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/editor_generated_20261016/manuscript.blg",
+        "bytes":  1552,
+        "sha256":  "eaaa8ec8617b17c7db8756cf54b1f3ca45f9d5f0d037f1637923bd99b5b7f0d5",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/editor_generated_20261016/manuscript.log",
+        "bytes":  60341,
+        "sha256":  "30e17a82bf663608c78abd108da5c9e4fc0e6e70b6bf136f5602e6cc7cc5d29b",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/editor_generated_20261016/manuscript.out",
+        "bytes":  0,
+        "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/editor_generated_20261016/manuscript.pdf",
+        "bytes":  839979,
+        "sha256":  "1bfc80481e21285a6d7102e1bfca93ef2da5dc1d0a4777e8fdb52ad958b2007b",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/editor_generated_20261016/manuscript.run.xml",
+        "bytes":  2503,
+        "sha256":  "c063ba2becb28086fd11ae918307b80b6748d339e4582ac7acd8c2428232515f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "build/editor_generated_20261016/manuscript.synctex.gz",
+        "bytes":  474022,
+        "sha256":  "884deed044b6372b8b0c06afde466ef3168a5cc30bbc9424965f0769b4293e92",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_01.png",
+        "bytes":  300558,
+        "sha256":  "010d5078423efc490d0341d6222fd5d9de3f40b952be1d6552564f76308c6469",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_02.png",
+        "bytes":  369553,
+        "sha256":  "def6fe9c1c1f86ec19085f8d6381efeba52333baec567d040b61034cc792bd9e",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_03.png",
+        "bytes":  408077,
+        "sha256":  "01a80ef14974b1242a10dc6c1a57ea49e7fceaf6b1d797f5b6837b06d916112f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_04.png",
+        "bytes":  316666,
+        "sha256":  "70be62f39a25e19e9112b6adf1c531ee670c4a598592ad2e23d63b0017980589",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_05.png",
+        "bytes":  273408,
+        "sha256":  "b4afe97a5dadb1945cb7724975f137a436a9ab8dd23a413b9ec1f9a074b89ac4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_06.png",
+        "bytes":  353535,
+        "sha256":  "98d4fafeaf9125a7fdebb5d3cde5b85efc2fe8aa0b764fd399dd4252619d7f98",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_07.png",
+        "bytes":  289332,
+        "sha256":  "a084729aca8c22da819223de6f5802129e05888f7ca1b6baa8de71c6a2caafd8",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_08.png",
+        "bytes":  349347,
+        "sha256":  "06054eff3d0118ea417806b6094c8c721ea0713284abd0fc197d9e79f699f7c9",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_09.png",
+        "bytes":  360103,
+        "sha256":  "2f8bfe8cdc373548437329624f26a0121f7417cb5c178a0562cffde115e89c13",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_10.png",
+        "bytes":  355844,
+        "sha256":  "c862da6f53d07d205dd34c20b47ca687475a09a62fbfe93cc235c990c0b3e54f",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_11.png",
+        "bytes":  350639,
+        "sha256":  "aebd10352d6efdd59beea0e01113cbe0748363ae051b01f3bd415ff739987978",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_12.png",
+        "bytes":  359772,
+        "sha256":  "09151eb66fae3d60eb79ef2c73a8f30aa6be8f9cf73302a25394bc73a8a4a993",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_13.png",
+        "bytes":  416737,
+        "sha256":  "a67970d50149be18c3176199f03b87bef6d42632b54b0938fbf7273b4689749d",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_14.png",
+        "bytes":  288609,
+        "sha256":  "1d08731fe241308a371fac2c015242735b74f064af289141789c8ca73e897fae",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_15.png",
+        "bytes":  321378,
+        "sha256":  "03fcf1126e53b10d4db20558bf41dce4e31b5aa55aa506136206824552cd88f4",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_16.png",
+        "bytes":  309077,
+        "sha256":  "1cb28b3d2daa1c2a83e594546628a1d82f3134111679217e6d76a5e4077fc135",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_17.png",
+        "bytes":  358796,
+        "sha256":  "054026cc832fc8ad851cca4a546a91eaa32ed16dc0c5d4f6f6b732b8fe2fef57",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_18.png",
+        "bytes":  346067,
+        "sha256":  "9f7b3961a2492ca92bcce26a380a96f97d43236d9315efa34b7b53186ce724d3",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_19.png",
+        "bytes":  389877,
+        "sha256":  "fa93d4b376604c9b4909341edbbdc88d4c2fafbd554f32598f0fc0edebb0c3fb",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_20.png",
+        "bytes":  413110,
+        "sha256":  "b8be166029c98fbfa45f50c03ff67cee21b931df320f584eba45c19ea8491c17",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_21.png",
+        "bytes":  396531,
+        "sha256":  "77c76438f7ab86cd1f397f5e82550782cbfcbb735b961b787479a9396acf4fdf",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/page_22.png",
+        "bytes":  274320,
+        "sha256":  "d839a705636ab5b206b22c2a6e16a8633705e4bfd4344842a803762dad9acf42",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/sheet_1.png",
+        "bytes":  1326998,
+        "sha256":  "43f1194d05038a90a4c40d627de5727891557aad91422e3b09485ddc96fc49ea",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/sheet_2.png",
+        "bytes":  1361401,
+        "sha256":  "21668d96f7c4577010a25f3f28a7cb5165eb53fc2aa2c615e4a18b3f9f59c646",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/sheet_3.png",
+        "bytes":  1369152,
+        "sha256":  "1cfa54f2164e598809484cf55873fb036ac287128a6bde84070d5c2da0eba009",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/sheet_4.png",
+        "bytes":  1284210,
+        "sha256":  "f1b0fa03a8af9371f59822c2e05126cdb648ae637269b030d12cec750ddad9a1",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/sheet_5.png",
+        "bytes":  1465877,
+        "sha256":  "de8e0c5e2167104efec1d7bce417f47da55db4f2508d1b317ba2138ec09be6a7",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  ".cache/previews/conference9_rendered/sheet_6.png",
+        "bytes":  586729,
+        "sha256":  "ff18fcae3e3a5623279709b8d329de4ecaacec3560d0cd4c0c404b3b43b235b8",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "archive/chapters/ch3_en.tex",
+        "bytes":  13475,
+        "sha256":  "131a5c3dce5ede6f453754d4b750738ba1be6c611bf4b0ade077400229eeaf60",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "archive/chapters/ch4_en.tex",
+        "bytes":  15566,
+        "sha256":  "645b24c091efb849c5c9a53a0870b83af0af61d3759683ed0ee89681e0143b99",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "archive/chapters/ch5_en.tex",
+        "bytes":  5630,
+        "sha256":  "4fe39dd00af1f0635545c741c96666cf6ed4bf0568e97e1c35e91a8fc2d405f0",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "archive/chapters/ch6_en.tex",
+        "bytes":  23658,
+        "sha256":  "8d4d9b949efad5df38033638a67caf576c45a1369ff15ea56c7cf84d0dc8bfcb",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "archive/chapters/ch7_en.tex",
+        "bytes":  12300,
+        "sha256":  "de8f5ed04f954513b5af862744515ef8a291ebb3105742425652b5dfd2f8c7ea",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "archive/chapters/ch8_en.tex",
+        "bytes":  19758,
+        "sha256":  "1f5842a054ac2c7c1b86332cd7de9b96813ac38e873a831bdbafd97272a69bcd",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "archive/chapters/ch9_en.tex",
+        "bytes":  3148,
+        "sha256":  "7403cebab81d5fd3488a901bfb730f0aa4671a8667f7f14c3b066f55dcebf429",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "archive/templates/cas-model2-names.bst",
+        "bytes":  33446,
+        "sha256":  "6f785e822c562b7015eed6794ccb44d5156556bda6b24bef59db83ee021d416b",
+        "category":  "second_batch_preserved"
+    },
+    {
+        "path":  "archive/figures/fig_architecture_tradeoffs.jpg",
+        "bytes":  555958,
+        "sha256":  "b40329aa28ec25b563437601882403af26cbcd89b089786b5a1f29a65f0f253c",
+        "category":  "retained_duplicate_copy"
+    }
+]

@@ -1,5 +1,6 @@
 """Apply reviewed stage-two decisions; never infer scientific support from metadata."""
 from __future__ import annotations
+from project_paths import project_path
 import csv
 import copy
 import hashlib
@@ -15,7 +16,7 @@ from active_tex import scan_manuscript
 from build_reference_inventory import balanced_entries, parse_fields, publication_venue
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK = ROOT / 'audit_work'
+WORK = project_path('audit_work')
 SPEC = json.loads((WORK / 'stage2_completion_review_spec.json').read_text(encoding='utf-8'))
 BASE = json.loads((WORK / 'stage2_completion_baseline.json').read_text(encoding='utf-8'))
 FIELDS = ('author', 'title', 'year', 'venue', 'volume', 'number', 'pages', 'doi', 'url', 'type')
@@ -50,10 +51,10 @@ def canonical(value):
 
 def apply_changes():
     for name in ('manuscript.tex', 'references.bib', 'literature_audit.csv'):
-        if sha(ROOT / name) != BASE['files'][name]:
+        if sha(project_path(name)) != BASE['files'][name]:
             raise ValueError('Apply requires the reviewed original snapshot: ' + name)
     old_scan = scan_manuscript(ROOT)
-    text_bytes = (ROOT / 'manuscript.tex').read_bytes()
+    text_bytes = (project_path('manuscript.tex')).read_bytes()
     newline = '\r\n' if text_bytes.count(b'\r\n') == text_bytes.count(b'\n') else '\n'
     if b'\r\n' in text_bytes and newline == '\n':
         raise ValueError('Mixed newline source requires explicit byte-level handling')
@@ -71,13 +72,13 @@ def apply_changes():
         log.append(dict(item, applied_line_before_this_edit=line, audit_date=SPEC['audit_date']))
     if re.findall(r'\\iffalse\b.*?\\fi\b', text, re.S) != hidden_before:
         raise ValueError('Hidden block changed')
-    (ROOT / 'manuscript.tex').write_bytes(text.replace('\n', newline).encode('utf-8'))
+    (project_path('manuscript.tex')).write_bytes(text.replace('\n', newline).encode('utf-8'))
     new_scan = scan_manuscript(ROOT)
     if [c.keys for c in new_scan.citations] != [c.keys for c in old_scan.citations]:
-        (ROOT / 'manuscript.tex').write_bytes(text_bytes)
+        (project_path('manuscript.tex')).write_bytes(text_bytes)
         raise ValueError('Citation ordering/coverage changed unexpectedly; restored manuscript')
     dump(WORK / 'stage2_manuscript_correction_log.json', log)
-    old_bib = (ROOT / 'references.bib').read_text(encoding='utf-8')
+    old_bib = (project_path('references.bib')).read_text(encoding='utf-8')
     entries = balanced_entries(old_bib)
     by_key = {key: (kind, raw) for kind, key, raw in entries}
     bibliography_log = []
@@ -91,7 +92,7 @@ def apply_changes():
         bibliography_log.append(dict(item, audit_date=SPEC['audit_date']))
     # Publisher-deposited records have already been inspected against paper identity.
     # Fill only missing page/issue values; contradictory values require the explicit decisions above.
-    for path in sorted((WORK / 'stage2_sources').glob('*__crossref.json')):
+    for path in sorted((project_path('audits/references/stage2_sources')).glob('*__crossref.json')):
         key = path.stem.removesuffix('__crossref')
         if key not in by_key:
             continue
@@ -115,22 +116,22 @@ def apply_changes():
     bibliography = old_bib
     for _, key, raw in entries:
         bibliography = bibliography.replace(raw, by_key[key][1], 1)
-    with (ROOT / 'references.bib').open('w', encoding='utf-8', newline='') as handle:
+    with (project_path('references.bib')).open('w', encoding='utf-8', newline='') as handle:
         handle.write(bibliography.replace('\n', '\r\n'))
     dump(WORK / 'stage2_reference_correction_log.json', bibliography_log)
     refresh_evidence(new_scan, bibliography_log)
 
 def refresh_evidence(scan, changes):
-    entries = {key: (kind, parse_fields(raw)) for kind, key, raw in balanced_entries((ROOT / 'references.bib').read_text(encoding='utf-8'))}
+    entries = {key: (kind, parse_fields(raw)) for kind, key, raw in balanced_entries((project_path('references.bib')).read_text(encoding='utf-8'))}
     changed_fields = {(c['key'], c['field']): c for c in changes}
     primary = {}
-    for path in (WORK / 'stage2_sources').glob('*__crossref.json'):
+    for path in (project_path('audits/references/stage2_sources')).glob('*__crossref.json'):
         key = path.stem.removesuffix('__crossref')
         primary[key] = (json.loads(path.read_text(encoding='utf-8'))['message'], path)
     cases = {c['citation_id']: c for c in SPEC['cases']}
     core = {r['key']: r for r in SPEC['core_eligibility']}
     current_citations = {c.command_id: c for c in scan.citations}
-    hashes = {name: sha(ROOT / name) for name in ('manuscript.tex', 'references.bib')}
+    hashes = {name: sha(project_path(name)) for name in ('manuscript.tex', 'references.bib')}
     extra_sources = {
         'wu2024autogen': ('D:/multi-agent review_joural/10.10ziliao/1328_AutoGen_Enabling_Next_Gen.pdf', 'COLM2024 formal PDF p1; §§2.1–2.2 pp3–6; §3 A5 p9', 'Conversable agents use developer-defined conversation control; GroupChatManager selects speakers and broadcasts responses.'),
         'khattab2024dspy': ('https://proceedings.iclr.cc/paper_files/paper/2024/file/f1cf02ce09757f57c3b93c0db83181e0-Paper-Conference.pdf', 'Formal ICLR2024 PDF p1; §§3–4', 'Declarative modules and metric-driven compilation optimize language-model pipelines.'),
@@ -259,7 +260,7 @@ def refresh_evidence(scan, changes):
         data['current_pending_summary'] = 'Only explicitly listed optional field/access limits remain; version and ten-case decisions implemented.'
         data['limitations'] = SPEC['nonblocking_limits']
         dump(evidence_path, data)
-    with (ROOT / 'literature_audit.csv').open(encoding='utf-8-sig', newline='') as handle:
+    with (project_path('literature_audit.csv')).open(encoding='utf-8-sig', newline='') as handle:
         rows = list(csv.DictReader(handle)); columns = list(rows[0])
     counts = Counter(k for c in scan.citations for k in c.keys)
     for row in rows:
@@ -267,7 +268,7 @@ def refresh_evidence(scan, changes):
             kind, fields = entries[row['key']]
             row.update(current_audit_date=SPEC['audit_date'], current_field_audit='audit_work/reference_field_audit.json#'+row['key'], cited_in_manuscript='yes' if counts[row['key']] else 'no', citation_count=str(counts[row['key']]))
             # The historical local/matched metadata columns stay historical; current values live in the field ledger.
-    with (ROOT / 'literature_audit.csv').open('w',encoding='utf-8-sig',newline='') as handle:
+    with (project_path('literature_audit.csv')).open('w',encoding='utf-8-sig',newline='') as handle:
         writer=csv.DictWriter(handle,fieldnames=columns);writer.writeheader();writer.writerows(rows)
     dump(WORK / 'case_classification_audit.json', {'audit_date':SPEC['audit_date'], 'rule':'Stable controller/final-decision authority => hierarchical; peer update without persistent top-down controller => flat; changing decision authority must be demonstrated for hybrid. Feedback, graph structure and voting alone are insufficient.', 'prior_proposed_labels_retained':True, 'not_blind_or_preregistered':True, 'cases':SPEC['cases'], 'agreement_count':6, 'disagreement_count':4, 'source_based_counts':dict(Counter(c['source_based_label'] for c in SPEC['cases'])), 'limits':'Purposive descriptive comparison; no source-coded hybrid case, selection accuracy or safety guarantee.'})
     dump(WORK / 'core_eligibility_audit.json', {'audit_date':SPEC['audit_date'],'criteria':'Manuscript five criteria; QA must be a substantive primary evaluation track, not necessarily the sole task.','core_count':len(core),'records':SPEC['core_eligibility'],'triad':'S by explicit author decision; single-agent/multi-role workflow; retained supporting example.'})

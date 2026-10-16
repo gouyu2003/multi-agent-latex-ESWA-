@@ -1,4 +1,10 @@
-# LaTeX auxiliary files and compilation logs
+# Generated build outputs and disposable dependency/preview caches
+/build/
+/.cache/
+__pycache__/
+*.py[cod]
+
+# Editor-generated auxiliary files (including direct local TeX builds)
 *.aux
 *.log
 *.out
@@ -14,35 +20,32 @@
 *.nav
 *.snm
 *.vrb
-
-# Generated manuscript outputs; figure PDFs remain tracked
 /manuscript.abs
 /manuscript.bbl
 /manuscript.pdf
 
-# Temporary PDF previews and Python bytecode
-/tmp/
-__pycache__/
-*.py[cod]
+# Preserved local material previously ignored under tmp/ and audit_work/
+/audits/references/baselines/
+/audits/references/scripts/
+/audits/revisions/baselines/
+/audits/figures/figure1/baseline/
+/audits/figures/figure5/history/
+/audits/organization/20261016/before_edit/
+/audits/revisions/mentor_restore_stage2_20261013/protection/
+/audits/revisions/mentor_restore_stage2_20261013/concurrent_protection/
+/audits/revisions/mentor_restore_stage2_20261013/pdf_review/
+/audits/revisions/mentor_restore_stage2_20261013/q5_sources/
+/audits/revisions/mentor_restore_stage2_20261013/candidate.tex
+/audits/revisions/mentor_restore_stage2_20261013/compiled_text.txt
+/audits/revisions/mentor_restore_stage2_20261013/mentor_original.tex
+/audits/revisions/mentor_restore_stage2_20261013/restored_manuscript.pdf
+/audits/figures/replacement_20261013/preview/
+/audits/figures/replacement_20261013/before_manuscript.bbl
+/audits/figures/replacement_20261013/before_manuscript.pdf
+/audits/figures/replacement_20261013/before_manuscript.tex
 
-# Operating-system metadata
+# OS metadata and Office lock files
 Thumbs.db
 Desktop.ini
 .DS_Store
-
-# Local restoration backups, source-check material, and rendered previews
-/audit_work/mentor_restore_stage2_20261013/protection/
-/audit_work/mentor_restore_stage2_20261013/concurrent_protection/
-/audit_work/mentor_restore_stage2_20261013/pdf_review/
-/audit_work/mentor_restore_stage2_20261013/q5_sources/
-/audit_work/mentor_restore_stage2_20261013/candidate.tex
-/audit_work/mentor_restore_stage2_20261013/compiled_text.txt
-/audit_work/mentor_restore_stage2_20261013/mentor_original.tex
-/audit_work/mentor_restore_stage2_20261013/restored_manuscript.pdf
-/audit_work/figure245_replacement_20261013/preview/
-/audit_work/figure245_replacement_20261013/before_manuscript.bbl
-/audit_work/figure245_replacement_20261013/before_manuscript.pdf
-/audit_work/figure245_replacement_20261013/before_manuscript.tex
-
-# Microsoft Office temporary lock files
 ~$*

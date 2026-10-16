@@ -3,6 +3,7 @@
 Scientific decisions are manually reviewed inputs; these checks do not approve facts.
 """
 from __future__ import annotations
+from project_paths import project_path
 import copy
 import csv
 import hashlib
@@ -20,7 +21,7 @@ from active_tex import scan_manuscript
 from build_reference_inventory import balanced_entries, parse_fields
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK = ROOT / 'audit_work'
+WORK = project_path('audit_work')
 BASE = json.loads((WORK / 'stage2_completion_baseline.json').read_text(encoding='utf-8'))
 
 def sha(p):
@@ -31,7 +32,7 @@ def dump(p, value):
 
 def repair_review_history():
     """Restore exact previous assessments and unchanged verified extras from backup."""
-    with zipfile.ZipFile(WORK / 'before_stage2_completion_20261010.zip') as z:
+    with zipfile.ZipFile(project_path('audits/revisions/backups/before_stage2_completion_20261010.zip')) as z:
         for p in sorted(WORK.glob('ledger_evidence_*.json')):
             old = json.loads(z.read(p.relative_to(ROOT).as_posix()))
             data = json.loads(p.read_text(encoding='utf-8'))
@@ -68,29 +69,29 @@ def compile_current():
         if result.returncode:
             print(result.stdout.decode('utf-8',errors='replace')[-10000:])
             raise SystemExit(result.returncode)
-    log=(ROOT/'manuscript.log').read_text(encoding='utf-8',errors='replace')
-    bib=(ROOT/'manuscript.blg').read_text(encoding='utf-8',errors='replace')
+    log=(project_path('manuscript.log')).read_text(encoding='utf-8',errors='replace')
+    bib=(project_path('manuscript.blg')).read_text(encoding='utf-8',errors='replace')
     report={'audit_date':'2026-10-10','revision':'Stage-two completion; authorized bibliography and necessary prose edits',
         'runs':runs,'undefined_citation_or_reference':[l for l in log.splitlines() if re.search(r'(Citation|Reference).*undefined|There were undefined',l)],
         'overfull_boxes':[l for l in log.splitlines() if l.startswith('Overfull')],
         'underfull_box_count':len(re.findall('Underfull',log)),
         'bibtex_warnings':[l for l in bib.splitlines() if l.startswith('Warning--')],
         'output':[l for l in log.splitlines() if l.startswith('Output written')],
-        'inputs_sha256':{n:sha(ROOT/n) for n in ['manuscript.tex','references.bib','manuscript.aux','manuscript.bbl','manuscript.pdf','manuscript.synctex.gz']},
+        'inputs_sha256':{n:sha(project_path(n)) for n in ['manuscript.tex','references.bib','manuscript.aux','manuscript.bbl','manuscript.pdf','manuscript.synctex.gz']},
         'visual_review':{'status':'pending','scope':'Updated content/table/bibliography spots; complete formatting belongs to later stage.'}}
     dump(WORK/'compile_verification.json',report)
     print(json.dumps({k:report[k] for k in ['output','undefined_citation_or_reference','bibtex_warnings','overfull_boxes']},ensure_ascii=False))
 
 def check_protection():
-    with zipfile.ZipFile(WORK/'before_stage2_completion_20261010.zip') as z:
-        old_text=z.read('manuscript.tex'); current=(ROOT/'manuscript.tex').read_bytes()
+    with zipfile.ZipFile(project_path('audits/revisions/backups/before_stage2_completion_20261010.zip')) as z:
+        old_text=z.read('manuscript.tex'); current=(project_path('manuscript.tex')).read_bytes()
         old_bib={k for _,k,_ in balanced_entries(z.read('references.bib').decode('utf-8'))}
         old_csv=list(csv.DictReader(io.StringIO(z.read('literature_audit.csv').decode('utf-8-sig'))))
-    with (ROOT/'literature_audit.csv').open(encoding='utf-8-sig',newline='') as h:
+    with (project_path('literature_audit.csv')).open(encoding='utf-8-sig',newline='') as h:
         current_csv={r['key']:r for r in csv.DictReader(h)}
     figures=json.loads((WORK/'correction_baseline.json').read_text(encoding='utf-8'))['figure_sha256']
     historical={n:h for n,h in BASE['files'].items() if re.fullmatch(r'ch\d+_en\.tex',n)}
-    keys={k for _,k,_ in balanced_entries((ROOT/'references.bib').read_text(encoding='utf-8'))}
+    keys={k for _,k,_ in balanced_entries((project_path('references.bib')).read_text(encoding='utf-8'))}
     scan=scan_manuscript(ROOT)
     roles={r['key']:r['evidence_role'] for r in current_csv.values()}
     cited={k for c in scan.citations for k in c.keys}
@@ -98,15 +99,15 @@ def check_protection():
         'inactive_block_byte_identical':re.findall(rb'\\iffalse\b.*?\\fi\b',old_text,re.S)==re.findall(rb'\\iffalse\b.*?\\fi\b',current,re.S),
         'section_headings_unchanged':re.findall(rb'\\section\{[^}]+\}',old_text)==re.findall(rb'\\section\{[^}]+\}',current),
         'historically_excluded_csv_rows_preserved':all(current_csv.get(r['key'])==r for r in old_csv if r['evidence_role']=='X'),
-        'figure_source_data_byte_identical':sha(ROOT/'figure_source_data.csv')==BASE['files']['figure_source_data.csv'],
-        'historical_tex_files_unchanged':all(sha(ROOT/n)==h for n,h in historical.items()),
+        'figure_source_data_byte_identical':sha(project_path('figure_source_data.csv'))==BASE['files']['figure_source_data.csv'],
+        'historical_tex_files_unchanged':all(sha(project_path(n))==h for n,h in historical.items()),
         'source_pdfs_sha256_unchanged':all(sha(Path(n))==h for n,h in BASE['source_pdf_sha256'].items()),
-        'original_figures_unchanged':all(sha(ROOT/n)==h for n,h in figures.items()),
+        'original_figures_unchanged':all(sha(project_path(n))==h for n,h in figures.items()),
         'active_citation_count_preserved':len(scan.citations)==136 and len(cited)==78 and sum(len(c.keys) for c in scan.citations)==180,
         'triad_is_supporting':roles['hu2024triad']=='S'}
     report={'audit_date':'2026-10-10','stage2_baseline':'audit_work/stage2_completion_baseline.json','checks':checks,**checks,
         'figure_files_checked':len(figures),'historical_tex_files_checked':len(historical),'source_pdfs_checked':len(BASE['source_pdf_sha256']),
-        'bibliography_modified_as_authorized':sha(ROOT/'references.bib')!=BASE['files']['references.bib'],
+        'bibliography_modified_as_authorized':sha(project_path('references.bib'))!=BASE['files']['references.bib'],
         'bibliography_byte_identical_to_followup_baseline':False,
         'bibliography_pool_roles':dict(Counter(roles[k] for k in keys)),'active_citation_roles':dict(Counter(roles[k] for k in cited)),
         'checks_passed':all(checks.values())}
@@ -121,7 +122,7 @@ def mark_complete():
     review=json.loads((WORK/'stage2_completion_review.json').read_text(encoding='utf-8'))
     if not (protection['checks_passed'] and static['checks_passed'] and all(r['exit_code']==0 for r in report['runs']) and not report['undefined_citation_or_reference'] and report['visual_review']['status']=='reviewed'):
         raise ValueError('Compile, visual, protection and static checks must pass first')
-    if any(sha(ROOT/p)!=h for p,h in report['inputs_sha256'].items()):raise ValueError('Stale compile')
+    if any(sha(project_path(p))!=h for p,h in report['inputs_sha256'].items()):raise ValueError('Stale compile')
     refs=json.loads((WORK/'reference_field_audit.json').read_text(encoding='utf-8'))
     claims=json.loads((WORK/'citation_claim_audit.json').read_text(encoding='utf-8'))
     essential=[(r['key'],n) for r in refs for n in ['author','title','year','venue','type'] if r['field_checks'][n]['status'] not in ['verified','not_applicable']]

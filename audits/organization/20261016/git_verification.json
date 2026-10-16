@@ -1,0 +1,11 @@
+{
+  "diff_check_returncode": 0,
+  "critical_new_files_ignored": false,
+  "status_counts": {
+    " M": 32,
+    " D": 481,
+    "??": 15
+  },
+  "committed": false,
+  "pushed": false
+}

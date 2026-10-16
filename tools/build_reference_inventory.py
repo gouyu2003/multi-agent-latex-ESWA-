@@ -1,4 +1,5 @@
 from __future__ import annotations
+from project_paths import project_path
 
 import csv
 import json
@@ -11,7 +12,7 @@ from active_tex import compiled_keys, scan_manuscript
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BIB_PATH = ROOT / "references.bib"
+BIB_PATH = project_path("references.bib")
 
 
 def balanced_entries(text: str) -> list[tuple[str, str, str]]:
@@ -100,7 +101,7 @@ def main() -> None:
             }
         )
 
-    out_dir = ROOT / "audit_work"
+    out_dir = project_path("audit_work")
     out_dir.mkdir(exist_ok=True)
     (out_dir / "reference_inventory.json").write_text(
         json.dumps(inventory, ensure_ascii=False, indent=2), encoding="utf-8"

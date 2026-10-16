@@ -1,0 +1,25 @@
+{
+  "latex-workshop.latex.outDir": "%DIR%/build/latex",
+  "latex-workshop.latex.recipe.default": "first",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "ESWA: pdfLaTeX + Biber",
+      "tools": [
+        "eswa-build"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "eswa-build",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "%DIR%/build.ps1"
+      ]
+    }
+  ]
+}

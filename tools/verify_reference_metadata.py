@@ -1,4 +1,5 @@
 from __future__ import annotations
+from project_paths import project_path
 
 import json
 import re
@@ -12,7 +13,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK = ROOT / "audit_work"
+WORK = project_path("audit_work")
 USER_AGENT = "ESWA-reference-audit/1.0 (mailto:literature.audit@example.com)"
 
 

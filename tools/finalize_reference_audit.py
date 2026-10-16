@@ -1,4 +1,5 @@
 from __future__ import annotations
+from project_paths import project_path
 
 import csv
 import json
@@ -10,7 +11,7 @@ from build_reference_inventory import citation_contexts, parse_fields
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK = ROOT / "audit_work"
+WORK = project_path("audit_work")
 
 
 CORE = {
@@ -285,7 +286,7 @@ def main() -> None:
         )
 
     fieldnames = list(audit_rows[0])
-    with (ROOT / "literature_audit.csv").open("w", newline="", encoding="utf-8-sig") as handle:
+    with (project_path("literature_audit.csv")).open("w", newline="", encoding="utf-8-sig") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(audit_rows)
@@ -297,13 +298,13 @@ def main() -> None:
         {"date": "2026-08-02", "source": "arXiv + NeurIPS proceedings", "query": "multi-agent AND long-context AND (QA OR question answering)", "purpose": "Targeted gap search: long-context QA; top-ranked results inspected, no exhaustive hit count claimed", "records_reviewed": "not claimed", "records_added": 1},
         {"date": "2026-08-02", "source": "ACL Anthology", "query": "multi-agent AND (RAG OR retrieval-augmented generation) AND (QA OR question answering)", "purpose": "Targeted gap search: multi-agent RAG; top-ranked results inspected, no exhaustive hit count claimed", "records_reviewed": "not claimed", "records_added": 1},
     ]
-    with (ROOT / "search_log.csv").open("w", newline="", encoding="utf-8-sig") as handle:
+    with (project_path("search_log.csv")).open("w", newline="", encoding="utf-8-sig") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(search_rows[0]))
         writer.writeheader()
         writer.writerows(search_rows)
 
     header = "% Verified and normalised bibliography generated from literature_audit.csv.\n% Evidence roles are documented in that CSV; only sources cited in the manuscript are retained.\n\n"
-    (ROOT / "references.bib").write_text(
+    (project_path("references.bib")).write_text(
         header + "\n\n".join(render_bib(*entry) for entry in retained) + "\n",
         encoding="utf-8",
     )

@@ -1,12 +1,13 @@
 """Compare the independently rebuilt pre-follow-up PDF with the current PDF."""
+from project_paths import project_path
 from pathlib import Path
 import hashlib,json,re
 import pymupdf as fitz
 from PIL import Image,ImageDraw
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'tmp/conference9_rendered';OUT.mkdir(parents=True,exist_ok=True)
-before=fitz.open(ROOT/'tmp/conference9_before_build/manuscript.pdf')
-after=fitz.open(ROOT/'manuscript.pdf')
+OUT=project_path('tmp/conference9_rendered');OUT.mkdir(parents=True,exist_ok=True)
+before=fitz.open(project_path('tmp/conference9_before_build/manuscript.pdf'))
+after=fitz.open(project_path('manuscript.pdf'))
 assert len(before)==len(after)==22
 rows=[];thumbs=[]
 for i,p in enumerate(after):
@@ -20,6 +21,6 @@ for start in range(0,len(thumbs),4):
     for offset,img in enumerate(thumbs[start:start+4]):
         x=(offset%2)*600+10;y=(offset//2)*860+25;sheet.paste(img,(x,y));draw.text((x,y-20),f'Page {start+offset+1}',fill='black')
     sheet.save(OUT/f'sheet_{start//4+1}.png')
-record={'date':'2026-10-12','before':'tmp/conference9_before_build/manuscript.pdf','after':'manuscript.pdf','before_sha256':hashlib.sha256((ROOT/'tmp/conference9_before_build/manuscript.pdf').read_bytes()).hexdigest(),'after_sha256':hashlib.sha256((ROOT/'manuscript.pdf').read_bytes()).hexdigest(),'pages':rows}
-(ROOT/'apa7_audit/conference9_pdf_comparison.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+record={'date':'2026-10-12','before':'tmp/conference9_before_build/manuscript.pdf','after':'manuscript.pdf','before_sha256':hashlib.sha256((project_path('tmp/conference9_before_build/manuscript.pdf')).read_bytes()).hexdigest(),'after_sha256':hashlib.sha256((project_path('manuscript.pdf')).read_bytes()).hexdigest(),'pages':rows}
+(project_path('apa7_audit/conference9_pdf_comparison.json')).write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps({'pages':len(rows),'body_text_identical':all(r['text_identical'] for r in rows[:18]),'body_pixels_identical':all(r['pixels_identical_72dpi'] for r in rows[:18]),'images_and_positions_identical':all(r['image_rectangles_identical'] for r in rows),'outside':sum(len(r['outside_page']) for r in rows)},ensure_ascii=False))

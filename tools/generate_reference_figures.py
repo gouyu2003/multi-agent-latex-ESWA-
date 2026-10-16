@@ -1,4 +1,5 @@
 """Generate the reference-corpus and core-study summary figures."""
+from project_paths import project_path
 
 from pathlib import Path
 import argparse
@@ -46,7 +47,7 @@ def save_figure(fig: plt.Figure, stem: str) -> None:
         ".svg": {},
         ".png": {"dpi": 400},
     }.items():
-        fig.savefig(ROOT / f"{stem}{suffix}", bbox_inches="tight", facecolor="white", **kwargs)
+        fig.savefig(project_path(f"{stem}{suffix}"), bbox_inches="tight", facecolor="white", **kwargs)
 
 
 def rounded_box(ax, xy, width, height, facecolor, edgecolor, title, subtitle=""):
@@ -70,7 +71,7 @@ def current_corpus_data() -> dict:
     from active_tex import scan_manuscript
     from build_reference_inventory import balanced_entries
 
-    entries = list(balanced_entries((ROOT / "references.bib").read_text(encoding="utf-8")))
+    entries = list(balanced_entries((project_path("references.bib")).read_text(encoding="utf-8")))
     pool = {key for _, key, _ in entries}
     if len(entries) != len(pool):
         raise ValueError("Duplicate bibliography keys")
@@ -78,7 +79,7 @@ def current_corpus_data() -> dict:
     cited = {key for citation in scan.citations for key in citation.keys}
     if cited - pool:
         raise ValueError(f"Cited keys missing from bibliography: {sorted(cited - pool)}")
-    with (ROOT / "literature_audit.csv").open(encoding="utf-8-sig", newline="") as handle:
+    with (project_path("literature_audit.csv")).open(encoding="utf-8-sig", newline="") as handle:
         records = list(csv.DictReader(handle))
     roles = {row["key"]: row["evidence_role"] for row in records}
     if len(roles) != len(records):
@@ -95,7 +96,7 @@ def current_corpus_data() -> dict:
         "expanded_key_occurrences": sum(len(citation.keys) for citation in scan.citations),
         "records": [{"key": key, "evidence_role": roles[key], "cited_in_active_manuscript": key in cited}
                     for key in sorted(pool)],
-        "input_sha256": {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest()
+        "input_sha256": {name: hashlib.sha256((project_path(name)).read_bytes()).hexdigest()
                          for name in ("references.bib", "literature_audit.csv", "manuscript.tex")},
     }
     if data["pool_count"] != data["cited_count"] + data["uncited_count"]:
@@ -108,11 +109,11 @@ def current_corpus_data() -> dict:
 def make_corpus_flow(qa_scripts: Path | None = None) -> None:
     """One connected, data-derived diagram at approximately its printed size."""
     data = current_corpus_data()
-    audit = ROOT / "figure1_audit"
+    audit = project_path("figure1_audit")
     audit.mkdir(exist_ok=True)
     (audit / "source_summary.json").write_text(
         json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    with (ROOT / "figure1_source_data.csv").open("w", encoding="utf-8", newline="") as handle:
+    with (project_path("figure1_source_data.csv")).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=["key", "evidence_role", "cited_in_active_manuscript"])
         writer.writeheader()
         writer.writerows(data["records"])
@@ -178,8 +179,8 @@ def make_corpus_flow(qa_scripts: Path | None = None) -> None:
             }, indent=2) + "\n", encoding="utf-8")
         # Keep a fixed physical canvas: tight cropping would change the font scale in LaTeX.
         for suffix, options in (("pdf", {}), ("svg", {}), ("png", {"dpi": 400})):
-            fig.savefig(ROOT / f"fig_reference_corpus.{suffix}", facecolor="white", **options)
-        svg = ROOT / "fig_reference_corpus.svg"
+            fig.savefig(project_path(f"fig_reference_corpus.{suffix}"), facecolor="white", **options)
+        svg = project_path("fig_reference_corpus.svg")
         svg.write_text("\n".join(line.rstrip() for line in svg.read_text(encoding="utf-8").splitlines())
                        + "\n", encoding="utf-8")
         plt.close(fig)
@@ -258,7 +259,7 @@ def write_source_data() -> None:
         ("year", "2025", 3),
         ("year", "2026", 2),
     ]
-    with (ROOT / "figure_source_data.csv").open("w", newline="", encoding="utf-8-sig") as handle:
+    with (project_path("figure_source_data.csv")).open("w", newline="", encoding="utf-8-sig") as handle:
         writer = csv.writer(handle)
         writer.writerow(["figure_component", "category", "count"])
         writer.writerows(rows)

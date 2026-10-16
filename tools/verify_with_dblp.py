@@ -1,4 +1,5 @@
 from __future__ import annotations
+from project_paths import project_path
 
 import json
 import time
@@ -10,7 +11,7 @@ from verify_reference_metadata import clean_tex, similarity
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK = ROOT / "audit_work"
+WORK = project_path("audit_work")
 
 
 def as_list(value):

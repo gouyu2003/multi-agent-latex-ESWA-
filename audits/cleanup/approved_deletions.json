@@ -1,0 +1,6 @@
+{
+    "schema_version":  1,
+    "batches":  [
+                    "audits/cleanup/20261016-first-batch/cleanup_manifest.json"
+                ]
+}

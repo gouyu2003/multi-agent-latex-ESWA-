@@ -1,4 +1,5 @@
 """Fetch public primary evidence for the authorized stage-two reference audit."""
+from project_paths import project_path
 import hashlib
 import json
 import sys
@@ -9,8 +10,8 @@ import fitz
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK = ROOT / 'audit_work'
-OUT = WORK / 'stage2_sources'
+WORK = project_path('audit_work')
+OUT = project_path('audits/references/stage2_sources')
 OUT.mkdir(exist_ok=True)
 request_name = sys.argv[1] if len(sys.argv) > 1 else 'stage2_source_requests.json'
 output_name = sys.argv[2] if len(sys.argv) > 2 else 'stage2_source_retrieval.json'

@@ -6,7 +6,7 @@ from active_tex import ScanError,scan_manuscript
 
 class BibliographyPatchScanTests(unittest.TestCase):
     def scan(self,patch):
-        task_tmp=Path(__file__).resolve().parents[1]/'tmp'/'apa7_scanner_tests'
+        task_tmp=Path(__file__).resolve().parents[1]/'.cache'/'tests'/'apa7_scanner_tests'
         task_tmp.mkdir(parents=True,exist_ok=True)
         with tempfile.TemporaryDirectory(dir=task_tmp) as directory:
             root=Path(directory)

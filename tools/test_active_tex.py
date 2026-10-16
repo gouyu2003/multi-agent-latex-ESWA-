@@ -12,7 +12,7 @@ from active_tex import ScanError, compiled_keys, scan_manuscript, strip_comments
 def fixture_directory():
     # Python 3.13's private Windows temp-directory ACLs are incompatible with
     # this workspace sandbox. Ordinary workspace directories avoid that issue.
-    parent = Path(__file__).resolve().parents[1] / "tmp" / "reference_scan_tests"
+    parent = Path(__file__).resolve().parents[1] / ".cache" / "tests" / "reference_scan_tests"
     parent.mkdir(parents=True, exist_ok=True)
     target = (parent / uuid4().hex).resolve()
     target.mkdir()

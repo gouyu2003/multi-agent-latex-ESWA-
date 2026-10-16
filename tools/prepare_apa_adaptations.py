@@ -2,14 +2,15 @@
 
 Does not write references.bib or the previous reference audit.
 """
+from project_paths import project_path
 from pathlib import Path
 import hashlib,html,json,re,sys
-ROOT=Path(__file__).resolve().parents[1]; SRC=ROOT/'tmp/apa7_migration/sources'; OUT=ROOT/'apa7_audit'; OUT.mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1]; SRC=project_path('tmp/apa7_migration/sources'); OUT=project_path('apa7_audit'); OUT.mkdir(exist_ok=True)
 sys.path.insert(0,str(ROOT/'tools'))
 from build_reference_inventory import balanced_entries,parse_fields
 from active_tex import scan_manuscript
 active={k for c in scan_manuscript(ROOT).citations for k in c.keys}
-previous={r['key']:r for r in json.loads((ROOT/'audit_work/reference_field_audit.json').read_text(encoding='utf-8'))}
+previous={r['key']:r for r in json.loads((project_path('audit_work/reference_field_audit.json')).read_text(encoding='utf-8'))}
 def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def readbib(p):
  b=p.read_text(encoding='utf-8'); entries=balanced_entries(b)
@@ -37,7 +38,7 @@ def proceedings_title(v):
   v=re.sub(r'(?<![\w{])'+acronym+r'(?![\w}])','{'+acronym+'}',v)
  return v
 rows=[]; changes=[]; sources=[]
-for typ,k,raw in balanced_entries((ROOT/'references.bib').read_text(encoding='utf-8')):
+for typ,k,raw in balanced_entries((project_path('references.bib')).read_text(encoding='utf-8')):
  f=parse_fields(raw); updates={}; reasons={}; evidence=[]; pending=[]; target=typ; classification=typ
  def put(field,value,why,url=None):
   if value!=f.get(field): updates[field]=value;reasons[field]=dict(reason=why,evidence=url or f.get('url') or previous[k]['field_checks']['title'].get('evidence_url'))
@@ -132,8 +133,8 @@ for typ,k,raw in balanced_entries((ROOT/'references.bib').read_text(encoding='ut
  rows.append(row)
  if target!=typ:changes.append(dict(key=k,field='ENTRYTYPE',old=typ,new=target,reason='Verified publication form / APA driver, not automatic inproceedings fallback',evidence=f.get('url')))
  for field,value in updates.items():changes.append(dict(key=k,field=field,old=f.get(field),new=value,**reasons[field]))
-document={'references_sha256':digest(ROOT/'references.bib'),'records':rows}
-(ROOT/'apa_reference_adaptations.json').write_text(json.dumps(document,ensure_ascii=False,indent=2),encoding='utf-8')
+document={'references_sha256':digest(project_path('references.bib')),'records':rows}
+(project_path('apa_reference_adaptations.json')).write_text(json.dumps(document,ensure_ascii=False,indent=2),encoding='utf-8')
 (OUT/'metadata_changes.json').write_text(json.dumps(changes,ensure_ascii=False,indent=2),encoding='utf-8')
 (OUT/'publication_classification.json').write_text(json.dumps([{n:r[n] for n in ['key','cited','original_type','target_type','classification','pending','evidence']} for r in rows],ensure_ascii=False,indent=2),encoding='utf-8')
 print('overlay records',len(rows),'changes',len(changes),'pending records',sum(bool(r['pending']) for r in rows))

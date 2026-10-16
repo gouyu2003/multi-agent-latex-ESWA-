@@ -1,0 +1,52 @@
+[
+  {
+    "old": "manuscript.abs",
+    "new": "build/editor_generated_20261016/manuscript.abs",
+    "sha256": "C39117CA5966056E02ECB3986BD26C48F5E80CC4D6BA5F2A2843A4AEEA0884CA"
+  },
+  {
+    "old": "manuscript.aux",
+    "new": "build/editor_generated_20261016/manuscript.aux",
+    "sha256": "03DB3AB6417903ABF40A5DC3BA007DF9F231CABF00D6DAFDEFBD55CEB9120FCD"
+  },
+  {
+    "old": "manuscript.bbl",
+    "new": "build/editor_generated_20261016/manuscript.bbl",
+    "sha256": "C0B086E805EA79B007C3EE9FD71AD756456E9C5ED63389A8E07AAFF46A16C8E4"
+  },
+  {
+    "old": "manuscript.bcf",
+    "new": "build/editor_generated_20261016/manuscript.bcf",
+    "sha256": "4C38F7F23F328C41C01CFE50AD218FDDA5B969784E6048854D0BFAEE6B7D1462"
+  },
+  {
+    "old": "manuscript.blg",
+    "new": "build/editor_generated_20261016/manuscript.blg",
+    "sha256": "EAAA8EC8617B17C7DB8756CF54B1F3CA45F9D5F0D037F1637923BD99B5B7F0D5"
+  },
+  {
+    "old": "manuscript.log",
+    "new": "build/editor_generated_20261016/manuscript.log",
+    "sha256": "30E17A82BF663608C78ABD108DA5C9E4FC0E6E70B6BF136F5602E6CC7CC5D29B"
+  },
+  {
+    "old": "manuscript.out",
+    "new": "build/editor_generated_20261016/manuscript.out",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "old": "manuscript.pdf",
+    "new": "build/editor_generated_20261016/manuscript.pdf",
+    "sha256": "1BFC80481E21285A6D7102E1BFCA93EF2DA5DC1D0A4777E8FDB52AD958B2007B"
+  },
+  {
+    "old": "manuscript.run.xml",
+    "new": "build/editor_generated_20261016/manuscript.run.xml",
+    "sha256": "C063BA2BECB28086FD11AE918307B80B6748D339E4582AC7ACD8C2428232515F"
+  },
+  {
+    "old": "manuscript.synctex.gz",
+    "new": "build/editor_generated_20261016/manuscript.synctex.gz",
+    "sha256": "884DEED044B6372B8B0C06AFDE466EF3168A5CC30BBC9424965F0769B4293E92"
+  }
+]

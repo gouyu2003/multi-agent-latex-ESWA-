@@ -4,6 +4,7 @@ import fitz
 HERE=Path(__file__).resolve().parent
 ROOT=next(p for p in HERE.parents if (p/'manuscript.tex').exists())
 sys.path.insert(0,str(ROOT/'tools'))
+from project_paths import project_path
 from build_reference_inventory import balanced_entries, parse_fields
 
 def norm(s):
@@ -12,7 +13,7 @@ def norm(s):
     s=re.sub(r'(?<=[A-Za-z])-\n(?=[A-Za-z])','',s)
     return re.sub(r'\s+',' ',s).strip()
 def pdftext(job): return '\n'.join(p.get_text() for p in fitz.open(HERE/(job+'.pdf')))
-overlay={r['key']:r for r in json.loads((ROOT/'apa_reference_adaptations.json').read_text(encoding='utf-8'))['records']}
+overlay={r['key']:r for r in json.loads((project_path('apa_reference_adaptations.json')).read_text(encoding='utf-8'))['records']}
 def adapted(k):
     f=next(parse_fields(r) for t,key,r in balanced_entries((HERE/'types_fixed.bib').read_text(encoding='utf-8')) if key==k)
     f.update(overlay[k]['updates']);return {k:v for k,v in f.items() if v is not None}
@@ -111,7 +112,7 @@ for key,count,begin,year,tailtitle in [('ouyang2022instructgpt',20,'Ouyang, L.',
 
 from active_tex import scan_manuscript
 active_keys={k for c in scan_manuscript(ROOT).citations for k in c.keys}
-pool_keys={k for t,k,r in balanced_entries((ROOT/'references.bib').read_text(encoding='utf-8'))}
+pool_keys={k for t,k,r in balanced_entries((project_path('references.bib')).read_text(encoding='utf-8'))}
 coverage={}
 for job,wanted in [('pool78',active_keys),('commands78',active_keys),('pool85',pool_keys)]:
     got=set(re.findall(r'\\entry\{([^}]+)\}',(HERE/(job+'.bbl')).read_text(encoding='utf-8')))

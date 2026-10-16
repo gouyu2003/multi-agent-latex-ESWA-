@@ -4,6 +4,7 @@ A structural pass does not mean unsupported claims or metadata are corrected.
 No fixed corpus size is required, and unused bibliography records are allowed.
 """
 from __future__ import annotations
+from project_paths import project_path
 import csv
 import hashlib
 import json
@@ -14,12 +15,12 @@ from active_tex import compiled_keys, scan_manuscript
 from build_reference_inventory import balanced_entries, parse_fields
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK = ROOT / "audit_work"
+WORK = project_path("audit_work")
 FIELDS = ("author", "title", "year", "venue", "volume", "number", "pages", "doi", "url", "type")
 
 
 def main() -> None:
-    entries = balanced_entries((ROOT / "references.bib").read_text(encoding="utf-8"))
+    entries = balanced_entries((project_path("references.bib")).read_text(encoding="utf-8"))
     keys = [key for _, key, _ in entries]
     fields = {key: parse_fields(raw) for _, key, raw in entries}
     scan = scan_manuscript(ROOT)
@@ -89,8 +90,8 @@ def main() -> None:
         check("missing_ledger_manifest", not manifest_path.exists())
         if manifest_path.exists():
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-            check("ledger_snapshot_stale", [p for p, h in manifest["input_sha256"].items() if not (ROOT / p).exists() or hashlib.sha256((ROOT / p).read_bytes()).hexdigest() != h])
-            check("ledger_output_modified", [p for p, h in manifest["ledger_output_sha256"].items() if not (ROOT / p).exists() or hashlib.sha256((ROOT / p).read_bytes()).hexdigest() != h])
+            check("ledger_snapshot_stale", [p for p, h in manifest["input_sha256"].items() if not (project_path(p)).exists() or hashlib.sha256((project_path(p)).read_bytes()).hexdigest() != h])
+            check("ledger_output_modified", [p for p, h in manifest["ledger_output_sha256"].items() if not (project_path(p)).exists() or hashlib.sha256((project_path(p)).read_bytes()).hexdigest() != h])
             if manifest.get("corrections_applied"):
                 check("compilation_not_current", not manifest.get("compilation_current"))
                 check("compilation_failed", not manifest.get("compilation_passed"))
@@ -98,7 +99,7 @@ def main() -> None:
                 check("missing_correction_verification", not verification_path.exists())
                 if verification_path.exists():
                     check("protected_material_changed", not json.loads(verification_path.read_text(encoding="utf-8"))["checks_passed"])
-    legacy_path = ROOT / "literature_audit.csv"
+    legacy_path = project_path("literature_audit.csv")
     if legacy_path.exists():
         with legacy_path.open(encoding="utf-8-sig", newline="") as handle:
             legacy = list(csv.DictReader(handle))

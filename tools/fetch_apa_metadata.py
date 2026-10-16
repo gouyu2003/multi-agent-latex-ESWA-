@@ -1,11 +1,12 @@
 """Read official publication metadata; preserve responses for field evidence."""
+from project_paths import project_path
 from pathlib import Path
 import concurrent.futures,hashlib,json,re,time,sys
 import requests
-ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'tmp/apa7_migration/sources'; OUT.mkdir(parents=True,exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1]; OUT=project_path('tmp/apa7_migration/sources'); OUT.mkdir(parents=True,exist_ok=True)
 sys.path.insert(0,str(ROOT/'tools'))
 from build_reference_inventory import balanced_entries,parse_fields
-records=[dict(key=k,type=t,fields=parse_fields(r)) for t,k,r in balanced_entries((ROOT/'references.bib').read_text(encoding='utf-8'))]
+records=[dict(key=k,type=t,fields=parse_fields(r)) for t,k,r in balanced_entries((project_path('references.bib')).read_text(encoding='utf-8'))]
 def fetch(job):
  key,kind,url=job; path=OUT/(key+'__'+kind+'.txt')
  if path.exists(): return json.loads((OUT/(key+'__'+kind+'.json')).read_text(encoding='utf-8'))
@@ -40,7 +41,7 @@ if '--followup' in sys.argv:
  for row in records:
   k=row['key']; u=row['fields'].get('url','')
   page=OUT/(k+'__page.txt')
-  if not page.exists(): page=ROOT/'audit_work/stage2_sources'/(k+'__official_page.txt')
+  if not page.exists(): page=project_path('audit_work/stage2_sources')/(k+'__official_page.txt')
   if page.exists():
    body=page.read_text(encoding='utf-8')
    for href in re.findall(r'href=[\"\']([^\"\']*bibtex[^\"\']*)[\"\']',body,re.I):

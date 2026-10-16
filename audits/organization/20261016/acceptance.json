@@ -1,0 +1,346 @@
+{
+  "original_files": 7718,
+  "moved_files": 7661,
+  "all_original_bytes_preserved": true,
+  "missing_files": [],
+  "edited_files": [
+    {
+      "file": ".gitattributes",
+      "before_sha256": "fc5cd9dfdfbd07588c46a7b876d8daeab7834b9d4b2a370306eb27d013666e1d",
+      "after_sha256": "247410e430b9532cb787cc82e32987b7c561bdd64c0b099c588db4f981bc6eb3",
+      "backup": "audits/organization/20261016/before_edit/.gitattributes"
+    },
+    {
+      "file": ".gitignore",
+      "before_sha256": "620f85561f361ddf05a5186bc9f44927646b99727fa98bda6c2172345760257a",
+      "after_sha256": "889e40e2146ac70a6390ebbb1098ca48b2434b1d73eba7718aa94db6afc1a316",
+      "backup": "audits/organization/20261016/before_edit/.gitignore"
+    },
+    {
+      "file": ".latexmkrc",
+      "before_sha256": "56a2575b875eb21151e25c5b5c78d98af0bf56f270fc5836e6880ac362c11124",
+      "after_sha256": "3ff35dcb91aa8084b65067b4cb97f5d88959b09c3d66aac3fd3da3691ffb1404",
+      "backup": "audits/organization/20261016/before_edit/.latexmkrc"
+    },
+    {
+      "file": "build.ps1",
+      "before_sha256": "8491159a1ebc7caf872246ec6613c8047b890220e3a62ab152554382f385091c",
+      "after_sha256": "4f8a78b68f32137b717ccfc3e9a3f29d90e5172270f05bdabf53aecaab90ba70",
+      "backup": "audits/organization/20261016/before_edit/build.ps1"
+    },
+    {
+      "file": "manuscript.tex",
+      "before_sha256": "a34256974f6c94e9485e3205b58f8dc2d71151a490938745382e1b907e508392",
+      "after_sha256": "b0020c77c7ec62df45a9e020c96dddf7622e747042e520de066f67cec0599f3d",
+      "backup": "audits/organization/20261016/before_edit/manuscript.tex"
+    },
+    {
+      "file": "README.md",
+      "before_sha256": "b06d7f74122759620ecfef29b5688544c75ba64dd510dc26a0d50af6b45b5cc2",
+      "after_sha256": "daa6e8f3bd19bf1320b5f7c03468faf7c824ebf3a7ac4376c5174328692c1376",
+      "backup": "audits/organization/20261016/before_edit/README.md"
+    },
+    {
+      "file": "tests/apa7/validate.py",
+      "before_sha256": "d8483143a202b721e4289d4d2af3c2a8cf371e9e7766a2f4b0b110dd8d3a7543",
+      "after_sha256": "6cbba13c866273ec846c6976d7f0987e2bd57cad55c73ec46994a59d2e448e15",
+      "backup": "audits/organization/20261016/before_edit/tests/apa7/validate.py"
+    },
+    {
+      "file": "tests/test_active_tex_bibpatch.py",
+      "before_sha256": "cc732a5d7aa3fb553d125d58e99bcd2350f42f6b75845c616e30a695be4727dd",
+      "after_sha256": "e5c4842ab61606b32d13386133dfd29fc509afc3fe9d27c5ae1f8ff7328f823d",
+      "backup": "audits/organization/20261016/before_edit/tests/test_active_tex_bibpatch.py"
+    },
+    {
+      "file": "tools/active_tex.py",
+      "before_sha256": "a4a4708ad2ca3d4e6671162075a8106adaced8858caee07023c80d9f236c8089",
+      "after_sha256": "d8351a319649831829bf6ad32a976c40803f90945df4225f554a48aab9bf0bd6",
+      "backup": "audits/organization/20261016/before_edit/tools/active_tex.py"
+    },
+    {
+      "file": "tools/audit_apa_output.py",
+      "before_sha256": "df563ef8ec7de2d6b9a51e972c4f65bdd6b1ce05ae11b0b443e58a1ac0487770",
+      "after_sha256": "9e62fa9b242db4a0431fc7cb7bbf1909a386bbdb83c3249859c60be9ab7d3a7b",
+      "backup": "audits/organization/20261016/before_edit/tools/audit_apa_output.py"
+    },
+    {
+      "file": "tools/build_apa_stage.py",
+      "before_sha256": "c47145a641a2f938f4a44a19df40c1abaac74c8eb1d31b9a93927a1055b1c93c",
+      "after_sha256": "bb5b857839afe56dd8bcafc5ed4e5c3cb5c832361a8bce7573c1898e74693164",
+      "backup": "audits/organization/20261016/before_edit/tools/build_apa_stage.py"
+    },
+    {
+      "file": "tools/build_audit_ledgers.py",
+      "before_sha256": "1189c876156ae6debcc911f7b89e52481e3a76b12e06f169ecc23f29befedcb1",
+      "after_sha256": "6b38ef4d3e371b932af0fb23d62744d5af4aa5ae38806cd0e03566614eddfa3b",
+      "backup": "audits/organization/20261016/before_edit/tools/build_audit_ledgers.py"
+    },
+    {
+      "file": "tools/build_reference_inventory.py",
+      "before_sha256": "a68d5e5e277211c408a3aa9c8604e0d28d4ed4daf50a017c7d98beea985f954d",
+      "after_sha256": "fc2078e217dab024b28aca724ea6e59aa7800612648e328caf2aa135f66d49e4",
+      "backup": "audits/organization/20261016/before_edit/tools/build_reference_inventory.py"
+    },
+    {
+      "file": "tools/complete_stage2_review.py",
+      "before_sha256": "b91a4f13c5f3a53184dcf78a890eead683db82bdf734a7f99ecc54b7a4028b38",
+      "after_sha256": "10c34f1fcc521296c5bccd64342e15cb9d795c3afc9d47869c0ed9bcad199626",
+      "backup": "audits/organization/20261016/before_edit/tools/complete_stage2_review.py"
+    },
+    {
+      "file": "tools/fetch_apa_metadata.py",
+      "before_sha256": "38f091e9ff5944270d70a0673e11985707f4606b4f33cd6529e1113822ceda1a",
+      "after_sha256": "ef4284a756ef238106c84b845668b800055d9b6bbeb11305425d5816a2de09af",
+      "backup": "audits/organization/20261016/before_edit/tools/fetch_apa_metadata.py"
+    },
+    {
+      "file": "tools/fetch_stage2_sources.py",
+      "before_sha256": "fa6677b11a26fa7158409e2136818738242a96c96a037f3b1879df4fc895239c",
+      "after_sha256": "e5815d4e973d3434489bc7193124ed605fc163cf321c55f39c391f36e87f8356",
+      "backup": "audits/organization/20261016/before_edit/tools/fetch_stage2_sources.py"
+    },
+    {
+      "file": "tools/finalize_conference9_review.py",
+      "before_sha256": "39be7298bcd0d43209ec075746030ca66a4e0a5969821685856930e71adf3581",
+      "after_sha256": "55439b14098bd98ec8666970305f1e8a9c00cd37e8da0dd20560b033689e5468",
+      "backup": "audits/organization/20261016/before_edit/tools/finalize_conference9_review.py"
+    },
+    {
+      "file": "tools/finalize_reference_audit.py",
+      "before_sha256": "f272187583024ef78ef31418206b69aceb9e74e7cb05be49a77fbfbf1910bf79",
+      "after_sha256": "8014ad18843141fa16766691cbf74934c10039835a7bbc31643e7b02d0ac0f19",
+      "backup": "audits/organization/20261016/before_edit/tools/finalize_reference_audit.py"
+    },
+    {
+      "file": "tools/freeze_apa_submission_test.py",
+      "before_sha256": "a95339535d3a4a6669072d45bc8556a23fd8eee9a217b64320c83b8b2f20f62a",
+      "after_sha256": "b3e43e61ec4c6331b24e79dfc88206245d5296d0e2be73ea0d2306eedb63a74f",
+      "backup": "audits/organization/20261016/before_edit/tools/freeze_apa_submission_test.py"
+    },
+    {
+      "file": "tools/generate_apa_sourcemap.py",
+      "before_sha256": "221811fb82d56367dc344aae13e6fdd5af0de784f01d89dedb0c834ca9eb9434",
+      "after_sha256": "0f603524375466e8143384674577bea1f129c06e907692589334ebc46fd80986",
+      "backup": "audits/organization/20261016/before_edit/tools/generate_apa_sourcemap.py"
+    },
+    {
+      "file": "tools/generate_reference_figures.py",
+      "before_sha256": "0040f3cc85f2bc8abe17835533e23ec945e52559c132f3bbf12f61c631b3a4d6",
+      "after_sha256": "185d122ec243bf7d0f5c998f0cb1ce52b107a59c3e4cc447ce930c7f6f9cb1e1",
+      "backup": "audits/organization/20261016/before_edit/tools/generate_reference_figures.py"
+    },
+    {
+      "file": "tools/inspect_apa_pdf.py",
+      "before_sha256": "545245e3f5de56273f0ae798b2fd942cf3b5fccb978cd44fcb2b2dc05c21136e",
+      "after_sha256": "e4d6f0b8f282dcd481a445b84a4889e36d509ca6f13824724067f3a69c78ac48",
+      "backup": "audits/organization/20261016/before_edit/tools/inspect_apa_pdf.py"
+    },
+    {
+      "file": "tools/prepare_apa_adaptations.py",
+      "before_sha256": "785f7f8318c70965378efa3b7c5cc5691c93be0108a4f0b9615f7ed50e139fd1",
+      "after_sha256": "796d287be5ef166e5416bc32bb59dcb336679d8b261ea3b8bf8193c7b940e838",
+      "backup": "audits/organization/20261016/before_edit/tools/prepare_apa_adaptations.py"
+    },
+    {
+      "file": "tools/review_conference9_pdf.py",
+      "before_sha256": "04b1191423cf535d96888a0adb73d8b4055811bb920127cff9db0c9f9601aab4",
+      "after_sha256": "17e1cba6d6e1ea648da6f73353e27a84c7581aa3ca4ed471069683d82c67aaf6",
+      "backup": "audits/organization/20261016/before_edit/tools/review_conference9_pdf.py"
+    },
+    {
+      "file": "tools/run_apa_tests.py",
+      "before_sha256": "37b4c6b3ffacd1d983f747514495ed15fb0d703a80bf05826619914f4a969ab0",
+      "after_sha256": "21572bb0fbfc55acc87f571566405e883f3f8148aa7f9987302d9a74714e040c",
+      "backup": "audits/organization/20261016/before_edit/tools/run_apa_tests.py"
+    },
+    {
+      "file": "tools/static_reference_checks.py",
+      "before_sha256": "a06e7d5efccbd3594b29bb59fbfb5b9cbe4568f90576d03e61368572e6b77bfb",
+      "after_sha256": "80aedd1db94c533a24a42f3868d33641912e1081781279364184d3297d32b3dc",
+      "backup": "audits/organization/20261016/before_edit/tools/static_reference_checks.py"
+    },
+    {
+      "file": "tools/test_active_tex.py",
+      "before_sha256": "8bf3ae506221976d50fc625ef86cdb26754be362ae5acc8ce124167593134beb",
+      "after_sha256": "5ec10f211941d1c7ec0eb2eddb157446cf55ef8c1e830c0efc2d5bd74b9efa5a",
+      "backup": "audits/organization/20261016/before_edit/tools/test_active_tex.py"
+    },
+    {
+      "file": "tools/verify_figure1_revision.py",
+      "before_sha256": "047aff8ae9fba59bf45e3e8e6528f5813cf5c8d1ed28ffee3b04f7365b2ea84f",
+      "after_sha256": "a70f61e86cf8de4e7fbb87aa74c6ff7e84f06f3e4c90d71dfc369015b2fe8c13",
+      "backup": "audits/organization/20261016/before_edit/tools/verify_figure1_revision.py"
+    },
+    {
+      "file": "tools/verify_reference_metadata.py",
+      "before_sha256": "2882aa807b5025a2947f6e74d826a6b344caae8fb7db22eba2ee3d001ca5ab5b",
+      "after_sha256": "86833cb22e9f01c3f5f78358abf140422124781218a22d1d1712fb13c2f7c6ed",
+      "backup": "audits/organization/20261016/before_edit/tools/verify_reference_metadata.py"
+    },
+    {
+      "file": "tools/verify_stage2_completion.py",
+      "before_sha256": "ccb05fd3ff71c4c3766723472fbae81790b59bbd03ed6d858453bdd1566df5b7",
+      "after_sha256": "0e7191526df6cbb44ca2f0e8985d8473f643eca69a1f17d288a68d8e84b4693f",
+      "backup": "audits/organization/20261016/before_edit/tools/verify_stage2_completion.py"
+    },
+    {
+      "file": "tools/verify_with_dblp.py",
+      "before_sha256": "d22c1fe39c6f0320eafecc00c6daa69acd0012ea4d4d7e99fd0ab41ec8964973",
+      "after_sha256": "040c4c31213ffb3f9cb2d33eeddad262becd5e6d9bdf378effa85ac891c2415c",
+      "backup": "audits/organization/20261016/before_edit/tools/verify_with_dblp.py"
+    },
+    {
+      "file": "tools/write_apa_migration_report.py",
+      "before_sha256": "cbbc972fd86e9714ef99c26519e8416111818e24f249eff7c6bb2049c052b137",
+      "after_sha256": "bd73033a80008492ee6a68f915f862b741255cb0d8283c8a93ede66be4324760",
+      "backup": "audits/organization/20261016/before_edit/tools/write_apa_migration_report.py"
+    }
+  ],
+  "manuscript_only_six_graphics_paths_changed": true,
+  "citation_commands_unchanged": true,
+  "citation_commands": 136,
+  "cited_sources": 78,
+  "bibliography_entries": 78,
+  "active_figures": [
+    "figures/figure1/fig_reference_corpus.pdf",
+    "figures/figure2/Figure2_Evolution_of_QA_Paradigms.pdf",
+    "figures/figure3/fig3_topology.pdf",
+    "figures/figure4/Figure4_architecture_selection_authority_v2.pdf",
+    "figures/figure5/Figure5_resource_map_edited.pdf"
+  ],
+  "active_labels_unique": true,
+  "root_files": [
+    ".gitattributes",
+    ".gitignore",
+    ".latexmkrc",
+    "README.md",
+    "build.ps1",
+    "cas-common.sty",
+    "cas-dc.cls",
+    "eswa-apa-config.tex",
+    "eswa-apa-sourcemap.tex",
+    "manuscript.tex",
+    "references.bib"
+  ],
+  "four_stage_build_clean": true,
+  "pages": [
+    {
+      "page": 1,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 2,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 3,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 4,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 5,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 6,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 7,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 8,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 9,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 10,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 11,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 12,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 13,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 14,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 15,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 16,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 17,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 18,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 19,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 20,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 21,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 22,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    },
+    {
+      "page": 23,
+      "text_identical": true,
+      "pixels_identical_72dpi": true
+    }
+  ],
+  "previous_overfull_count": 2,
+  "current_overfull_count": 2
+}

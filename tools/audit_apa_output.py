@@ -1,14 +1,15 @@
 """Inspect each actual bibliography paragraph, not just the minimal examples."""
+from project_paths import project_path
 from pathlib import Path
 import argparse,collections,csv,hashlib,json,re,subprocess,sys
 import fitz
-ROOT=Path(__file__).resolve().parents[1];HERE=ROOT/'tmp/apa7_migration'; OUT=ROOT/'apa7_audit'
+ROOT=Path(__file__).resolve().parents[1];HERE=project_path('tmp/apa7_migration'); OUT=project_path('apa7_audit')
 sys.path.insert(0,str(ROOT/'tools'))
 from active_tex import scan_manuscript
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def norm(s):return re.sub(r'\s+',' ',re.sub(r'(?<=[A-Za-z])-\n(?=[A-Za-z])','',s)).strip()
 def plain(s):return re.sub(r'[^\w]','',s).casefold()
-data=json.loads((ROOT/'apa_reference_adaptations.json').read_text(encoding='utf-8'))
+data=json.loads((project_path('apa_reference_adaptations.json')).read_text(encoding='utf-8'))
 rows={r['key']:r for r in data['records']}
 parser=argparse.ArgumentParser()
 parser.add_argument('--pool85',action='store_true')
@@ -19,14 +20,14 @@ parser.add_argument('--skip-scope',action='store_true')
 parser.add_argument('--overlay',help='Reviewed overlay matching an archived PDF, for before/after evidence')
 args=parser.parse_args()
 if args.overlay:
- data=json.loads((ROOT/args.overlay).read_text(encoding='utf-8'))
+ data=json.loads((project_path(args.overlay)).read_text(encoding='utf-8'))
  rows={r['key']:r for r in data['records']}
 pool85=args.pool85
-build=ROOT/(args.build_dir or ('tmp/apa7_regression' if pool85 else 'tmp/apa7_build')); job='pool85' if pool85 else 'manuscript'
+build=project_path(args.build_dir or ('tmp/apa7_regression' if pool85 else 'tmp/apa7_build')); job='pool85' if pool85 else 'manuscript'
 bbl=(build/(job+'.bbl')).read_text(encoding='utf-8')
 globaldata=bbl.split(r'\datalist[entry]{apa/global//global/global/global}',1)[1].split(r'\enddatalist',1)[0]
 entries=list(re.finditer(r'\\entry\{([^}]+)\}\{([^}]+)\}.*?\\endentry',globaldata,re.S));keys=[m[1] for m in entries]
-doc=fitz.open(ROOT/args.pdf if args.pdf else build/(job+'.pdf') if pool85 else ROOT/'manuscript.pdf'); paragraphs=[];current=None;inrefs=False
+doc=fitz.open(project_path(args.pdf) if args.pdf else build/(job+'.pdf') if pool85 else project_path('manuscript.pdf')); paragraphs=[];current=None;inrefs=False
 for pi,p in enumerate(doc):
  blocks=p.get_text('dict')['blocks']
  for block in blocks:
@@ -113,13 +114,13 @@ with (OUT/(stem+'.csv')).open('w',encoding='utf-8-sig',newline='') as file:
 if pool85 or args.skip_scope:
  print('POOL85 entries',len(keys),'format pass',sum(r['format_result']=='PASS' for r in results),'failures',[(r['key'],[k for k,v in r['checks'].items() if not v]) for r in results if r['format_result']=='FAIL']);sys.exit(0)
 base=json.loads((HERE/'baseline/manifest.json').read_text(encoding='utf-8'));scan=scan_manuscript(ROOT)
-before=(HERE/'baseline/manuscript.tex').read_text(encoding='utf-8');after=(ROOT/'manuscript.tex').read_text(encoding='utf-8')
+before=(HERE/'baseline/manuscript.tex').read_text(encoding='utf-8');after=(project_path('manuscript.tex')).read_text(encoding='utf-8')
 def body(s):return s[s.index(r'\begin{document}'):].replace(r'\bibliographystyle{cas-model2-names}'+'\n'+r'\bibliography{references}',r'\printbibliography')
-scope={'baseline':base['head'],'branch':subprocess.check_output(['git','branch','--show-current'],cwd=ROOT).decode().strip(),'protected_changes':[n for n,h in base['tracked'].items() if n not in ['manuscript.tex','.gitignore','README.md'] and (not (ROOT/n).exists() or sha(ROOT/n)!=h)],'body_except_bibliography_identical':body(before)==body(after),'commands_identical':base['commands']==[c.raw_command for c in scan.citations],'commands':len(scan.citations),'cited_key_set_identical':set(keys)==set(base['active_keys']),'bbl_count':len(keys),'bbl_duplicates':[k for k,n in collections.Counter(keys).items() if n>1],'references_sha256':sha(ROOT/'references.bib'),'pool_count':len(rows),'original_bib_identical':sha(ROOT/'references.bib')==base['saved']['references.bib'],'formal_pdf_sha256':sha(ROOT/'manuscript.pdf'),'format_pass':sum(r['format_result']=='PASS' for r in results),'metadata_pending':[r['key'] for r in results if r['metadata_result']=='PENDING']}
-scope['configuration_sha256']={n:sha(ROOT/n) for n in ['manuscript.tex','eswa-apa-config.tex','eswa-apa-sourcemap.tex','apa_reference_adaptations.json']}
+scope={'baseline':base['head'],'branch':subprocess.check_output(['git','branch','--show-current'],cwd=ROOT).decode().strip(),'protected_changes':[n for n,h in base['tracked'].items() if n not in ['manuscript.tex','.gitignore','README.md'] and (not (project_path(n)).exists() or sha(project_path(n))!=h)],'body_except_bibliography_identical':body(before)==body(after),'commands_identical':base['commands']==[c.raw_command for c in scan.citations],'commands':len(scan.citations),'cited_key_set_identical':set(keys)==set(base['active_keys']),'bbl_count':len(keys),'bbl_duplicates':[k for k,n in collections.Counter(keys).items() if n>1],'references_sha256':sha(project_path('references.bib')),'pool_count':len(rows),'original_bib_identical':sha(project_path('references.bib'))==base['saved']['references.bib'],'formal_pdf_sha256':sha(project_path('manuscript.pdf')),'format_pass':sum(r['format_result']=='PASS' for r in results),'metadata_pending':[r['key'] for r in results if r['metadata_result']=='PENDING']}
+scope['configuration_sha256']={n:sha(project_path(n)) for n in ['manuscript.tex','eswa-apa-config.tex','eswa-apa-sourcemap.tex','apa_reference_adaptations.json']}
 scope['final_bbl_sha256']=sha(build/(job+'.bbl'))
 # Byte equality includes the disabled historical blocks; do not normalize them.
-before_bytes=(HERE/'baseline/manuscript.tex').read_bytes();after_bytes=(ROOT/'manuscript.tex').read_bytes()
+before_bytes=(HERE/'baseline/manuscript.tex').read_bytes();after_bytes=(project_path('manuscript.tex')).read_bytes()
 scope['disabled_history_byte_identical']=re.findall(rb'\\iffalse.*?\\fi\b',before_bytes,re.S)==re.findall(rb'\\iffalse.*?\\fi\b',after_bytes,re.S)
 (OUT/'scope_validation.json').write_text(json.dumps(scope,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(scope,ensure_ascii=False));print('format failures',[(r['key'],[k for k,v in r['checks'].items() if not v]) for r in results if r['format_result']=='FAIL'])

@@ -1,55 +1,85 @@
 # Multi-agent collaborative QA — ESWA manuscript
 
-This repository manages the LaTeX manuscript in
-`D:\multi-agent review_joural\ESWA_Submission_caomodify`.
-The initial commit preserves the manuscript sources and supporting materials
-before subsequent revisions.
+论文入口为 `manuscript.tex`，采用 CAS 双栏模板与 APA/Biber 参考文献配置。
 
-## Files
+## 目录
 
-- `manuscript.tex`: main manuscript entry point.
-- `references.bib`: bibliography source.
-- `ch*_en.tex`: chapter files retained from the existing folder.
-- `cas-dc.cls`, `cas-common.sty`, `cas-model2-names.bst`: local LaTeX template files.
-- Figure files (`.jpg`, `.png`, `.svg`, and figure `.pdf` files): manuscript assets
-  and retained figure variants.
-- Root CSV files, `Highlights.txt`, `reference_audit_report.md`, and `audit_work/`:
-  supporting data and existing audit records.
-- `tools/`: reference-audit and figure-generation Python scripts.
+| 位置 | 用途 |
+| --- | --- |
+| 根目录 | 主稿、原始文献库、模板、引用配置及编译入口 |
+| `figures/figure1/`～`figure5/` | 正文当前使用的五张图及可编辑版本 |
+| `data/` | 文献分类、检索记录、图 1 数据和 APA 字段适配源数据 |
+| `submission/` | Highlights 等论文配套材料 |
+| `build/manuscript.pdf` | 完整构建后发布的论文 PDF |
+| `build/latex/` | 当前构建的 BBL、日志、辅助文件及 SyncTeX |
+| `build/history/`、`build/baseline_20261016/` | 整理前保留的构建产物 |
+| `tools/`、`tests/` | 项目工具与验证用例 |
+| `audits/references/` | 文献字段、来源、APA 输出审计和历史台账 |
+| `audits/figures/` | 图表来源、编辑过程、检查结果和历史基线 |
+| `audits/revisions/` | 导师稿对照、修订方案、稿件备份及对比预览 |
+| `audits/organization/20261016/` | 本次整理的路径映射、逐文件哈希、修改前备份和验收记录 |
+| `archive/` | 当前不使用的旧章节、旧图、旧模板和历史统计数据 |
+| `.cache/` | 临时 Python 依赖、下载缓存和临时预览 |
+| `.vscode/` | 本项目 LaTeX Workshop 的编译与 PDF 输出配置 |
 
-Historical figure variants and chapter files are retained. Inclusion in Git does
-not imply that every retained file is referenced by the current manuscript.
+根目录的 `references.bib` 是原始文献库。APA 字段适配的源数据位于
+`data/apa_reference_adaptations.json`，生成的映射仍为根目录
+`eswa-apa-sourcemap.tex`。数据文件与历史证据没有因目录整理而改写。
 
-## Build
+## 编译
 
-With a working local LaTeX installation, compile from the repository root:
+在项目根目录运行：
 
-```text
-pdflatex manuscript.tex
-biber manuscript
-pdflatex manuscript.tex
-pdflatex manuscript.tex
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./build.ps1
 ```
 
-The APA migration uses `biblatex-apa` with the project configuration in
-`eswa-apa-config.tex` and a reviewed per-record source map. The original
-`references.bib` remains unchanged. To avoid loading an old BibTeX `.bbl`, use
-`powershell -File build.ps1` for a separate build directory and the complete
-four-stage build. `latexmk -pdf manuscript.tex` uses the project `.latexmkrc`.
-Validated dependencies: TeX Live 2026, biblatex 3.22a, biblatex-apa 9.20, Biber
-2.22, babel and csquotes. Biber and biblatex versions must be compatible.
+该参数只作用于本次 PowerShell 进程，不修改系统执行策略。构建依次执行
+pdfLaTeX → Biber → pdfLaTeX → pdfLaTeX，从 PATH 查找引擎。
+辅助文件写入 `build/latex/`，四阶段成功后将 PDF 发布为
+`build/manuscript.pdf`，不会把生成文件复制回根目录。
 
-Generated
-`manuscript.pdf`, `manuscript.bbl`, LaTeX auxiliary files, `tmp/` previews, and
-Python bytecode are ignored. They remain available locally; submission packages
-can include generated outputs separately. Figure PDFs are tracked.
+也可运行 `latexmk -pdf manuscript.tex`，项目 `.latexmkrc` 将其输出放入
+`build/latex/`；这种方式直接查看 `build/latex/manuscript.pdf`。
+LaTeX Workshop 使用项目中的四阶段构建配方，查看和 SyncTeX 路径同为
+`build/latex/`。若编辑器已有正在运行的旧配方，等待其结束后再使用新配方。
 
-## Revision workflow
+环境需要兼容的 pdfLaTeX、Biber、biblatex 与 biblatex-apa；此前使用
+TeX Live 2026、Biber 2.22、biblatex 3.22a、biblatex-apa 9.20。
+本地构建成功不代表投稿服务器环境已验证。
 
-1. Make one coherent manuscript revision.
-2. Review `git status --short` and `git diff`.
-3. Stage only the intended files with `git add -- <file paths>`.
-4. Review `git diff --cached` before committing.
-5. Commit with a message describing the revision, then push to GitHub.
+## 检查与再生成
 
-Saving a file, committing a version, and pushing that version are separate steps.
+```powershell
+python -B -m unittest discover -s tools -p test_active_tex.py
+python -B -m unittest discover -s tests -p test_active_tex_bibpatch.py
+python -B tools/run_apa_tests.py
+python -B tools/verify_project_organization.py
+```
+
+APA 测试和 PDF 对比需要 PyMuPDF。原有本地依赖保存在
+`.cache/python/apa7_vendor/`；需要时可在当前终端临时设置：
+
+```powershell
+$env:PYTHONPATH = (Join-Path $PWD '.cache/python/apa7_vendor')
+```
+
+图 1 再生成入口仍为 `python tools/generate_reference_figures.py --figure1`，
+读取当前主稿、原始文献库及 `data/literature_audit.csv`，输出到
+`figures/figure1/` 和 `data/figure1_source_data.csv`。
+绘图环境版本记录在 `audits/figures/figure1/requirements.txt`。
+
+## 历史材料与路径映射
+
+旧报告中的日期、哈希、ZIP 内部成员名及历史路径原样保留，代表当时状态。
+查找移动后的文件，请使用
+`audits/organization/20261016/path_mapping.json`。
+`tools/project_paths.py` 为当前工具解析旧路径，并将当前构建输出定位到
+`build/`，避免把历史快照当作当前编译结果。
+
+`complete_*`、`finalize_*`、`prepare_*` 及一次性整理脚本含有写入操作，
+用于对应历史阶段，不是日常编译步骤。
+旧阶段验收仍须遵守原始基线和范围条件。本次整理的验收单独记录在
+`audits/organization/20261016/acceptance.json`。
+
+本次整理不删除原文件，不合并分支，不自动提交或推送。

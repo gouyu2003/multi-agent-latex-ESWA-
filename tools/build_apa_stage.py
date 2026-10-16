@@ -1,4 +1,5 @@
 """Run one recorded build stage without changing TeX installation settings."""
+from project_paths import project_path
 from pathlib import Path
 import json,os,shutil,subprocess,sys,time
 ROOT=Path(__file__).resolve().parents[1]
@@ -14,7 +15,7 @@ for job in jobs:
  if stage in ('biber','bibtex'): cmd=[engine(stage),job]; cwd=directory
  else:
   source=directory/(job+'.tex')
-  if not source.exists(): source=ROOT/(job+'.tex')
+  if not source.exists(): source=project_path(job+'.tex')
   cmd=[engine('pdflatex'),'-interaction=nonstopmode','-halt-on-error','-file-line-error','-recorder','-output-directory='+str(directory),str(source)]; cwd=ROOT
  start=time.time(); p=subprocess.run(cmd,cwd=cwd,env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
  (directory/(job+'.'+stage+'.console.txt')).write_bytes(p.stdout)
