@@ -44,6 +44,10 @@ __pycache__/
 /audits/figures/replacement_20261013/before_manuscript.pdf
 /audits/figures/replacement_20261013/before_manuscript.tex
 
+# Local working scratch directories
+/audit_work/
+/tmp/
+
 # OS metadata and Office lock files
 Thumbs.db
 Desktop.ini
