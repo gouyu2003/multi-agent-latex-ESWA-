@@ -255,7 +255,7 @@ its cited and uncited records, and the evidence-role composition of cited source
 \begin{figure*}[pos=t]
   \centering
   \includegraphics[width=0.80\linewidth]{figures/figure1/fig_reference_corpus.pdf}
-  \caption{Current bibliography pool and evidence-role composition of cited sources. The pool contains 85 records: 78 cited sources and seven uncited records. Under the authors' evidence-role classification, cited sources comprise 13 core studies (I), 15 supporting studies (S), 42 background sources (B), and eight technical resources (T); segment widths in the horizontal bar are proportional to these counts. Counts are computed from the bibliography, active citations, and evidence-role table.}
+  \caption{Current bibliography pool and evidence-role composition of cited sources. The pool contains 85 records: 78 cited sources and seven uncited records. Under the authors' evidence-role classification, cited sources comprise 13 core studies (I), 15 supporting studies (S), 42 background sources (B), and 8 technical resources (T); segment widths in the horizontal bar are proportional to these counts. Counts are computed from the bibliography, active citations, and evidence-role table.}
   \label{fig:reference_corpus}
 \end{figure*}
 
@@ -280,7 +280,7 @@ Fig.~\ref{fig:qa_timeline}.
 \begin{figure*}[pos=t]
   \centering
   \includegraphics[width=0.82\textwidth]{figures/figure2/Figure2_Evolution_of_QA_Paradigms.pdf}
-  \caption{Evolution timeline of automatic QA systems. OpenAI Codex (GPT-6.1 Sol) provided limited assistance in preparing this figure; the final content and presentation were reviewed and finalized by the authors.}
+  \caption{Evolution timeline of automatic QA systems.}
   \label{fig:qa_timeline}
 \end{figure*}
 
@@ -314,14 +314,22 @@ ChatGLM \citep{glm2024chatglm} provide additional options for local
 experimentation, while
 InstructGPT \citep{ouyang2022instructgpt} exemplifies the use of Reinforcement
 Learning from Human Feedback (RLHF) to improve instruction following.
+In-context learning uses instructions or examples in the current input to
+specify a task without updating model parameters during inference
+\citep{brown2020gpt3}. RLHF-based alignment uses human preferences over
+outputs to guide reinforcement learning towards desired responses
+\citep{ouyang2022instructgpt}. Contextual representations encode a word in
+relation to its surrounding text; open-weight models make their weights
+available under the applicable licence. Multimodal interaction involves
+more than one information modality, such as text and images, whereas
+long-context capability concerns the length of input that a model can process.
+
 Table~\ref{tab:llm_evolution} summarizes representative model capabilities relevant to agentic QA; this table serves as an illustrative overview rather than an exhaustive chronological record.
 
 
 \begin{table*}[pos=t]
   \centering
-  \caption{Representative LLM capabilities relevant to agentic QA. Models
-           were selected to illustrate capabilities used by agent systems,
-           rather than to provide an exhaustive model history.}
+  \caption{Representative LLM capabilities relevant to agentic QA. }
   \label{tab:llm_evolution}
   \begin{tabular}{l c l p{7cm}}
     \toprule
@@ -424,9 +432,7 @@ provides an illustrative schematic.
 \begin{figure*}[pos=t]
 	\centering
 	\includegraphics[width=\textwidth]{figures/figure3/fig3_topology.pdf}
-	\caption{Illustrative network topologies for multi-agent collaborative QA.
-		The operational taxonomy is defined by decision authority and
-		control, as specified in the text and Table~\ref{tab:9categories}.}
+	\caption{Illustrative network topologies for multi-agent collaborative QA.}
 	\label{fig:topology}
 \end{figure*}
 
@@ -471,6 +477,12 @@ including product manager, architect, and engineer. ChatDev \citep{qian2023chatd
 provides another example by simulating a software development organisation via ChatChain. Both fall under related software engineering systems; they demonstrate structured delegation
 yet do not provide direct evidence regarding QA performance. 
 
+Standard operating procedures (SOPs) specify role responsibilities,
+expected outputs, and hand-offs. In ChatDev, ChatChain organises role-based
+dialogue into successive task phases; waterfall-style decomposition arranges
+stages such as design, coding, and testing so that later stages use earlier
+outputs \citep{hong2024metagpt,qian2023chatdev}.
+
 \paragraph{Plan--retrieve--generate pipeline.}
 \label{sec:pipeline}
 
@@ -500,6 +512,12 @@ Hybrid architectures alter the control configuration across task stages or decis
 \label{sec:graph}
 
 Graph-structured networks represent agents and transitions as an executable graph. For example, LangGraph \citep{langgraph2024} serves as an official technical framework for defining state transitions, loops, and conditional branches; it provides technical evidence (role T), rather than constituting a QA evaluation. GPTSwarm \citep{zhuge2024gptswarm} provides another example through an empirical study of agent methodologies that optimises prompts and inter-agent graph connections. A graph representation, edge optimisation, or conditional routing alone does not establish hybrid decision authority; the implementation must actually change who controls decisions.
+
+A directed acyclic graph (DAG) represents computational operations as nodes
+and directed information dependencies as edges, with no directed path
+returning to its starting node. This term describes the graph structure
+used in the GPTSwarm entry of Table~\ref{tab:9categories}
+\citep{zhuge2024gptswarm}.
 
 \paragraph{Adaptive collaboration-mode switching.}
 \label{sec:adaptive}
@@ -593,7 +611,7 @@ do not define additional architecture classes.
     \midrule
     \multirow[t]{4}{*}{\textbf{Hierarchical}} &
     Role-conditioned collaboration &
-    CAMEL$^{a}$ \citep{li2023camel} &
+    CAMEL \citep{li2023camel} &
     Personas structure interaction but do not by themselves establish QA gains &
     Exploratory collaboration and prompt-role studies &
     Fixed roles or correlated perspectives \\
@@ -611,7 +629,7 @@ do not define additional architecture classes.
     Information loss and coordination cost at synthesis \\
      &
     Adaptive collaboration-mode switching &
-    MDAgents$^{b}$ \citep{kim2024mdagents} &
+    MDAgents \citep{kim2024mdagents} &
     Changes collaboration in response to case characteristics &
     Tasks with heterogeneous requirements &
     Routing policy must be evaluated, not assumed beneficial \\
@@ -645,17 +663,6 @@ do not define additional architecture classes.
     \bottomrule
   \end{tabular}
   \par\smallskip\footnotesize
-  \textit{Note}: Labels are the authors' coding of the specified workflows,
-  not framework-wide classifications.
-  $^{a}$CAMEL: persistent AI User instruction and termination control
-  in the reported AI User--AI Assistant workflow.
-  $^{b}$MDAgents: moderator-led routing among solo, multidisciplinary-team
-  (MDT), and integrated-care-team (ICT) pathways.
-  Hybrid requires a demonstrated change in decision authority; its conditional
-  design row is not an evaluated system or a claim of QA gains.
-  Blank architecture cells in the mechanism section denote no class assignment.
-  These mechanisms do not define a fourth class or imply Hybrid;
-  a fixed human approver remains hierarchical.
 \end{table*}
 
 These architecture types differ in where decision authority is placed and when it
@@ -808,6 +815,27 @@ limited comparison. The comparison is retrospective and was not blind or
 preregistered; these ratings are descriptive, not prediction accuracy or
 evidence of an effective architecture-selection policy.
 
+The task descriptions in Table~\ref{tab:validation} use several specialised
+terms. A multiple-choice question (MCQ) requires selecting an answer from
+given options. Text-to-SPARQL converts a natural-language question into a
+query over an RDF (Resource Description Framework) knowledge graph, using
+SPARQL as the query language \citep{hu2024triad}. Multi-hop QA links evidence
+through multiple reasoning steps, while divide-and-conquer splits a larger
+task into smaller parts whose results are subsequently combined.
+
+For the control mechanisms in the table, staged synthesis combines analyses
+or evidence across successive stages, and a voting pipeline includes a vote
+to aggregate candidate answers. An evaluator--optimizer arrangement uses
+evaluation feedback to revise an output; critic feedback identifies issues
+in an answer or its reasoning for subsequent revision. A convergent objective
+requires a determinate answer or satisfaction of specified evaluation
+criteria; it does not imply agreement among agents.
+
+AgentCoder makes its three-role dependencies explicit: a programmer generates
+and revises code, a test designer creates test cases, and a test executor
+runs them and returns feedback to the programmer
+\citep{huang2023agentcoder}.
+
 \begin{table*}[pos=t]
   \centering
   \caption{Diagnostic comparison of the architecture-selection approach with ten published systems.}
@@ -832,17 +860,7 @@ evidence of an effective architecture-selection policy.
   \end{tabularx}
   \footnotesize
   \textit{Note}: $\checkmark$ = broadly aligned; $\triangle$ = partially aligned;
-  $\times$ = divergent, under the ordered rules in the text. Proposed labels
-  are retained from the preceding draft; source-based labels and ratings are
-  the authors' retrospective coding. Partial alignment denotes local
-  organisational compatibility despite an overall control conflict.
-  MedAgents was checked against its ACL 2024 method and Algorithm~1;
-  LLM-MedQA against the IJCNN 2025 paper, Sections~III-A--F and Algorithm~1
-  (physical pages 3--6). Neither labels nor ratings
-  establish prediction accuracy, selection effectiveness, or safety.
-  Triad is a single-agent, three-role supporting study (S), outside the
-  13 core studies. ChatDev, AgentCoder, and EduPlanner are also supporting
-  workflow examples. Criterion profiles are illustrative author judgments.
+  $\times$ = divergent, under the ordered rules in the text. 
 \end{table*}
 
 The criteria can also be applied analytically to contrasting settings. In
@@ -996,6 +1014,12 @@ their scheduling efficiency requires separate evaluation.
 \label{sec:load_balance}
 
 Static assignment can be inefficient when task difficulty and agent capabilities vary across queries. For example, DSPy \citep{khattab2024dspy} addresses a related but narrower problem: it represents language-model pipelines as declarative modules and compiles their prompts and demonstrations against a task metric. It should therefore be regarded as a pipeline-optimization toolkit rather than evidence supporting runtime multi-agent load balancing. Dynamic agent recruitment, routing, and early stopping remain distinct orchestration decisions that require task-specific evaluation.
+
+Declarative module calls specify the intended inputs, outputs, and task of
+a language-model component. Demonstrations are task examples supplied to the
+model, such as question--answer pairs; metric-driven prompt optimisation
+selects or adjusts prompts and demonstrations according to a task evaluation
+metric \citep{khattab2024dspy}.
 
 Decomposition, assignment, and orchestration
 solve related but distinct problems. Decomposition determines which
@@ -1581,7 +1605,6 @@ be read as author-coded diagnostic observations, not as a validation score.
   \textit{Note}: \checkmark = broadly aligned; $\triangle$ = partially
   aligned but with an additional coordination layer or different convergence
   mechanism; $\times$ = divergent inferred and implemented architecture.
-  The labels are author coding and do not constitute independent validation.
 \end{center}
 
 The comparison is most informative where the criteria point in the same
@@ -1705,6 +1728,15 @@ chen2024agentverse}. GPTSwarm explores optimization of agent connections.
 DSPy, by contrast, focuses on metric-driven optimization of language-model
 pipelines and is therefore an adjacent toolkit, not a like-for-like
 multi-agent framework \citep{zhuge2024gptswarm,khattab2024dspy}.
+
+In the terminology of Table~\ref{tab:framework_compare}, a state graph
+organises workflow steps and uses the current information state to determine
+transitions. Persistent state retains information for later execution, while
+checkpoint recovery resumes a workflow from a saved execution state
+\citep{langgraph2024,langgraph2024interrupt}. Intra-node state denotes
+information retained within an individual computational node; a shared
+message pool makes messages available to participating roles under the
+workflow's access rules \citep{zhuge2024gptswarm,hong2024metagpt}.
 
 Table~\ref{tab:framework_compare} compares eight representative orchestration
 frameworks and related toolkits along five implementation dimensions: control / organisation, communication,
@@ -1922,6 +1954,11 @@ probe connected reasoning \citep{trivedi2022musique}. These resources assess
 answer-focused capabilities, but provide limited direct evidence about an agent team's
 planning or tool-use process.
 
+MMLU abbreviates Massive Multitask Language Understanding
+\citep{hendrycks2021mmlu}. In conversational QA, co-reference handling
+resolves expressions such as pronouns to entities mentioned earlier in the
+dialogue, supporting interpretation of follow-up questions.
+
 Examples of agent-oriented benchmarks include AgentBench, GAIA, and WebArena.
 AgentBench evaluates LLM agents across eight environments involving reasoning
 and decision-making \citep{liu2024agentbench}; GAIA combines reasoning with
@@ -1932,6 +1969,11 @@ Together, these benchmarks enable a more complete resource map, although
 their task definitions, interfaces, and success metrics differ and should not
 be merged into a single aggregate score.
 
+
+Long-horizon interaction requires a sequence of dependent actions while
+maintaining the task goal and relevant state across steps; in web tasks,
+this may involve navigating pages and completing intermediate operations
+before reaching the requested outcome \citep{zhou2024webarena}.
 
 \begin{table*}[t]
   \centering
